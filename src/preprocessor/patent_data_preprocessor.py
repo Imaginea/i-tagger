@@ -256,7 +256,7 @@ class PatentDataPreprocessor(PreprocessorInterface):
                       entity_iob_col=self.ENTITY_IOB_COL,
                       out_dir=self.TEST_CSV_INTERMEDIATE_PATH)
 
-        COLUMNS = self._csv_to_conll_format_v1(csv_files_path=self.TEST_CSV_INTERMEDIATE_PATH,
+        self.COLUMNS = self._csv_to_conll_format_v1(csv_files_path=self.TEST_CSV_INTERMEDIATE_PATH,
                                                outfilename=self.TEST_DATA_FILE,
                                                text_col=self.TEXT_COL,
                                                entity_col=self.ENTITY_COL,
@@ -285,8 +285,6 @@ class PatentDataPreprocessor(PreprocessorInterface):
 
         # Read the text file as DataFrame and extract vocab for text column and entity column
         train_df = pd.read_csv(self.TRAIN_DATA_FILE, sep=SEPRATOR, quotechar=QUOTECHAR).fillna(UNKNOWN_WORD)
-
-        print(train_df)
 
         train_df.columns = self.COLUMNS  # just for operation, names doesn't imply anything here
         train_df.head()

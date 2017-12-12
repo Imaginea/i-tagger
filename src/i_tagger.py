@@ -1,11 +1,22 @@
 import sys
 sys.path.append("../")
 
-from config.config_factory import TFConfigFactory
-class ITagger():
-    def __init__(self, config_name):
-        self.config = TFConfigFactory.get(config_name=config_name)
+import tensorflow as tf
 
+def get_tf_flags():
+
+    flags = tf.app.flags
+
+    flags.DEFINE_string("action","none","preprocess/train/retrain")
+
+    flags.DEFINE_string("data_dir","experiments/tf_data/","")
+
+
+    cfg = tf.app.flags.FLAGS
+    return cfg
+
+class ITagger():
+    def __init__(self, tf_flags):
         self.preprocessor = None
 
     def add_preprocessor(self, preprocessor):
@@ -13,10 +24,10 @@ class ITagger():
         
         :return: 
         '''
-        self.preprocessor = preprocessor(self.config)
+        self.preprocessor = preprocessor()
 
-    def add_data_iterator(self):
-        raise NotImplementedError
+    def add_data_iterator(self, data_iterator):
+        self.data_iterator = data_iterator()
 
-    def add_estimator(self):
-        raise NotImplementedError
+    def add_estimator(self, estimator):
+        self.estimator = estimator()
