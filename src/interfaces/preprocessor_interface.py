@@ -5,8 +5,9 @@ from helpers.os_helper import *
 
 class PreprocessorInterface():
 
-    def __init__(self):
+    def __init__(self, experiment_root_directory="experiments"):
         self.load_ini()
+        self. EXPERIMENT_ROOT_DIR = experiment_root_directory
 
     def load_ini(self):
         raise NotImplementedError
@@ -20,12 +21,12 @@ class PreprocessorInterface():
     def extract_vocab(self):
         raise NotImplementedError
 
-    def dumb_config(self):
+    def save_preprocessed_data_info(self):
         raise NotImplementedError
 
     def start(self):
         self.create_target_directories()
         self.prepare_data()
         self.extract_vocab()
-        self.dumb_config()
+        self.save_preprocessed_data_info()
 

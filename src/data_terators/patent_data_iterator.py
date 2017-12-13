@@ -10,41 +10,8 @@ from interfaces.data_iterator import DataIterator
 from helpers.tf_hooks.data_initializers import DataIteratorInitializerHook
 
 class PatentDataIterator(DataIterator):
-    def __init__(self, data_dir):
-        self.DATA_DIR = data_dir
-
-    def load_dats_config(self):
-        BATCH_SIZE = int(opt.batch_size)
-        NUM_EPOCHS = int(opt.num_epochs)
-
-        # Load the config pickle file from data preprocessing stage
-        with open(opt.data_dir + "/config.pickle", "rb") as file:
-            preprocess_config_info = pickle.load(file)
-
-        UNKNOWN_WORD = preprocess_config_info["UNKNOWN_WORD"]
-        PAD_WORD = preprocess_config_info["PAD_WORD"]
-
-        TEXT_COL = preprocess_config_info["TEXT_COL"]
-        ENTITY_COL = preprocess_config_info["ENTITY_COL"]
-
-        VOCAB_SIZE = preprocess_config_info["VOCAB_SIZE"]
-        NUM_TAGS = preprocess_config_info["NUM_TAGS"]
-
-        TRAIN_DATA_FILE = preprocess_config_info["TRAIN_DATA_FILE"]
-        VAL_DATA_FILE = preprocess_config_info["VAL_DATA_FILE"]
-        TEST_DATA_FILE = preprocess_config_info["TEST_DATA_FILE"]
-
-        WORDS_VOCAB_FILE = preprocess_config_info["WORDS_VOCAB_FILE"]
-        CHARS_VOCAB_FILE = preprocess_config_info["CHARS_VOCAB_FILE"]
-        ENTITY_VOCAB_FILE = preprocess_config_info["ENTITY_VOCAB_FILE"]
-
-        if str(opt.use_char_embedding).lower() == "yes":
-            USE_CHAR_EMBEDDING = True
-        else:
-            USE_CHAR_EMBEDDING = False
-
-        char_2_id_map = preprocess_config_info["char_2_id_map"]
-        NUM_CHARS = len(char_2_id_map)
+    def __init__(self, data_dir,  batch_size):
+        super(PatentDataIterator, self).__init__(data_dir,  batch_size)
 
     def _pad_sequences(self, sequences, pad_tok, max_length):
         """
@@ -97,16 +64,16 @@ class PatentDataIterator(DataIterator):
             sequence_padded, sequence_length = [], []
             for seq in tqdm(sequences):
                 # all words are same length now
-                sp, sl = self.(seq, pad_tok, MAX_WORD_LENGTH)
+                sp, sl = self._pad_sequences(seq, pad_tok, MAX_WORD_LENGTH)
                 sequence_padded += [sp]
                 sequence_length += [sl]
 
             max_length_sentence = max(map(lambda x: len(x), sequences))
             sequence_padded, _ = self._pad_sequences(sequence_padded,
-                                                [pad_tok] * MAX_WORD_LENGTH,
-                                                max_length_sentence)  # TODO revert -1 to pad_tok
+                                                     [pad_tok] * MAX_WORD_LENGTH,
+                                                     max_length_sentence)  # TODO revert -1 to pad_tok
             sequence_length, _ = self._pad_sequences(sequence_length, 0,
-                                                max_length_sentence)
+                                                     max_length_sentence)
 
         return sequence_padded, sequence_length
 
@@ -177,7 +144,7 @@ class PatentDataIterator(DataIterator):
 
         if use_char_embd:
             sentence_feature1, seq_length = self.pad_sequences(sentence_feature1, nlevels=1,
-                                                          pad_tok=" <PAD>")  # space is used so that it can append to the string sequence
+                                                               pad_tok=" <PAD>")  # space is used so that it can append to the string sequence
             sentence_feature1 = np.array(sentence_feature1)
 
             char_ids_feature2, seq_length = self.pad_sequences(char_ids_feature2, nlevels=2, pad_tok=0)
@@ -199,12 +166,12 @@ class PatentDataIterator(DataIterator):
     #               TF Data Graph Operations
     #######################################################################################
 
-    def setup_input_graph2(text_features, char_ids, labels, batch_size,
-                           # num_epocs,
-                           use_char_embd=False,
-                           is_eval=False,
-                           shuffle=True,
-                           scope='train-data'):
+    def _setup_input_graph2(self, text_features, char_ids, labels, batch_size,
+                            # num_epocs,
+                            use_char_embd=False,
+                            is_eval=False,
+                            shuffle=True,
+                            scope='train-data'):
         """Return the input function to get the training data.
 
         Args:
@@ -288,8 +255,27 @@ class PatentDataIterator(DataIterator):
         # Return function and hook
         return inputs, iterator_initializer_hook
 
-    def make_seq_pair(self):
-        raise NotImplementedError
+    def setup_train_input_graph(self):
+        train_sentences, train_char_ids, train_ner_tags = \
+            self._make_seq_pair(text_file_path=self.preprocessed_data_info.TRAIN_DATA_FILE,
+                                char_2_id_map=self.preprocessed_data_info.char_2_id_map,
+                                use_char_embd=self.preprocessed_data_info.USE_CHAR_EMBEDDING)
+        self.train_data_inputs, self.train_data_init_hook = self._setup_input_graph2(text_features=train_sentences,
+                                                                                     char_ids=train_char_ids,
+                                                                                     labels=train_ner_tags,
+                                                                                     batch_size=self.BATCH_SIZE,
+                                                                                     use_char_embd=self.preprocessed_data_info.USE_CHAR_EMBEDDING) #TODO
 
-    def setup_input_graph(self):
+    def setup_val_input_graph(self):
+        val_sentences, val_char_ids, val_ner_tags = \
+            self._make_seq_pair(text_file_path=self.preprocessed_data_info.VAL_DATA_FILE,
+                                char_2_id_map=self.preprocessed_data_info.char_2_id_map,
+                                use_char_embd=self.preprocessed_data_info.USE_CHAR_EMBEDDING)
+        self.train_data_inputs, self.train_data_init_hook = self._setup_input_graph2(text_features=val_sentences,
+                                                                                     char_ids=val_char_ids,
+                                                                                     labels=val_ner_tags,
+                                                                                     batch_size=self.BATCH_SIZE,
+                                                                                     use_char_embd=self.preprocessed_data_info.USE_CHAR_EMBEDDING) #TODO
+
+    def setup_predict_input_graph(self):
         raise NotImplementedError

@@ -15,45 +15,86 @@ from helpers.os_helper import check_n_makedirs
 from config.config_helper import ConfigManager
 
 from nlp.spacy_helper import naive_vocab_creater, get_char_vocab, vocab_to_tsv
+from config.preprocessed_data_info import PreprocessedDataInfo
 
 class PatentDataPreprocessor(PreprocessorInterface):
-    def __init__(self):
-        super(PatentDataPreprocessor, self).__init__()
-
-        self.OVER_WRITE = self.config.get_item("Options", "over_write")
-        self.USE_IOB = self.config.get_item_as_boolean("Options", "use_iob_format")
-
-        self.OUT_DIR = self.config.get_item("OutputDirectories", "data_dir")
-
-        self.TRAIN_CSV_PATH = self.config.get_item("InputDirectories", "train_csvs_path")
-        self.VAL_CSV_PATH = self.config.get_item("InputDirectories", "val_csvs_path")
-        self.TEST_CSV_PATH = self.config.get_item("InputDirectories", "test_csvs_path")
-        self.DB_REFERENCE_FILE = self.config.get_item("InputDirectories", "db_reference_file")
-
-        self.TRAIN_CSV_INTERMEDIATE_PATH = self.OUT_DIR + "/train-iob-annotated/"
-        self.VAL_CSV_INTERMEDIATE_PATH = self.OUT_DIR + "/val-iob-annotated/"
-        self.TEST_CSV_INTERMEDIATE_PATH = self.OUT_DIR + "/test-iob-annotated/"
-
-        self.TEXT_COL = self.config.get_item("Schema", "text_column")
-        self.ENTITY_COL = self.config.get_item("Schema", "entity_column")
-        self.ENTITY_IOB_COL = self.config.get_item("Schema", "entity_column") + "_iob"
-
-        self.WORDS_VOCAB_FILE = self.OUT_DIR + "/" + self.TEXT_COL + "_" + "vocab.tsv"
-        self.CHARS_VOCAB_FILE = self.OUT_DIR + "/" + self.TEXT_COL + "_" + "chars_vocab.tsv"
-        self.ENTITY_VOCAB_FILE = self.OUT_DIR + "/" + self.ENTITY_COL + "_vocab.tsv"
-
-        self.COLUMNS = [self.TEXT_COL, self.ENTITY_COL]
+    def __init__(self,
+                 experiment_root_directory="experiments",
+                 over_write=None,
+                 use_iob=None,
+                 out_dir=None,
+                 train_csvs_path=None,
+                 val_csv_path=None,
+                 test_csv_path=None,
+                 db_reference_file=None,
+                 text_col=None,
+                 entity_col=None,
+                 do_run_time_config=False):
+        '''
         
-        if self.USE_IOB:
-            self.TRAIN_DATA_FILE = self.OUT_DIR + "/train-doc-wise.iob"
-            self.TEST_DATA_FILE = self.OUT_DIR + "/test-doc-wise.iob"
-            self.VAL_DATA_FILE = self.OUT_DIR + "/val-doc-wise.iob"
-            self.ENTITY_VOCAB_FILE = self.OUT_DIR + "/" + self.ENTITY_IOB_COL + "_vocab.tsv"
+        :param over_write: 
+        :param use_iob: 
+        :param out_dir: 
+        :param train_csvs_path: 
+        :param val_csv_path: 
+        :param test_csv_path: 
+        :param db_reference_file: 
+        :param text_col: 
+        :param entity_col: 
+        :param do_run_time_config: Enable this to use constructor params or 
+        by default it uses config/patent_data_preprocessor.ini config
+        '''
+        super(PatentDataPreprocessor, self).__init__(experiment_root_directory)
+
+        if do_run_time_config:
+            self.OVER_WRITE = over_write
+            self.USE_IOB = use_iob
+
+            self.OUT_DIR = self.EXPERIMENT_ROOT_DIR + "/" + out_dir
+
+            self.TRAIN_CSV_PATH = train_csvs_path
+            self.VAL_CSV_PATH = val_csv_path
+            self.TEST_CSV_PATH = test_csv_path
+            self.DB_REFERENCE_FILE = db_reference_file
+
+            self.TEXT_COL = text_col
+            self.ENTITY_COL = entity_col
+            self.ENTITY_IOB_COL = entity_col + "_iob"
         else:
-            self.TRAIN_DATA_FILE = self.OUT_DIR + "/train-doc-wise.io"
-            self.TEST_DATA_FILE = self.OUT_DIR + "/test-doc-wise.io"
-            self.VAL_DATA_FILE = self.OUT_DIR + "/val-doc-wise.io"
+            self.OVER_WRITE = self.config.get_item("Options", "over_write")
+            self.USE_IOB = self.config.get_item_as_boolean("Options", "use_iob_format")
+
+            self.OUT_DIR = self.EXPERIMENT_ROOT_DIR + "/" + self.config.get_item("OutputDirectories", "data_dir")
+
+            self.TRAIN_CSV_PATH = self.config.get_item("InputDirectories", "train_csvs_path")
+            self.VAL_CSV_PATH = self.config.get_item("InputDirectories", "val_csvs_path")
+            self.TEST_CSV_PATH = self.config.get_item("InputDirectories", "test_csvs_path")
+            self.DB_REFERENCE_FILE = self.config.get_item("InputDirectories", "db_reference_file")
+
+            self.TEXT_COL = self.config.get_item("Schema", "text_column")
+            self.ENTITY_COL = self.config.get_item("Schema", "entity_column")
+            self.ENTITY_IOB_COL = self.config.get_item("Schema", "entity_column") + "_iob"
+
+            self.TRAIN_CSV_INTERMEDIATE_PATH = self.OUT_DIR + "/train-iob-annotated/"
+            self.VAL_CSV_INTERMEDIATE_PATH = self.OUT_DIR + "/val-iob-annotated/"
+            self.TEST_CSV_INTERMEDIATE_PATH = self.OUT_DIR + "/test-iob-annotated/"
+
+            self.WORDS_VOCAB_FILE = self.OUT_DIR + "/" + self.TEXT_COL + "_" + "vocab.tsv"
+            self.CHARS_VOCAB_FILE = self.OUT_DIR + "/" + self.TEXT_COL + "_" + "chars_vocab.tsv"
             self.ENTITY_VOCAB_FILE = self.OUT_DIR + "/" + self.ENTITY_COL + "_vocab.tsv"
+
+            self.COLUMNS = [self.TEXT_COL, self.ENTITY_COL]
+
+            if self.USE_IOB:
+                self.TRAIN_DATA_FILE = self.OUT_DIR + "/train-doc-wise.iob"
+                self.TEST_DATA_FILE = self.OUT_DIR + "/test-doc-wise.iob"
+                self.VAL_DATA_FILE = self.OUT_DIR + "/val-doc-wise.iob"
+                self.ENTITY_VOCAB_FILE = self.OUT_DIR + "/" + self.ENTITY_IOB_COL + "_vocab.tsv"
+            else:
+                self.TRAIN_DATA_FILE = self.OUT_DIR + "/train-doc-wise.io"
+                self.TEST_DATA_FILE = self.OUT_DIR + "/test-doc-wise.io"
+                self.VAL_DATA_FILE = self.OUT_DIR + "/val-doc-wise.io"
+                self.ENTITY_VOCAB_FILE = self.OUT_DIR + "/" + self.ENTITY_COL + "_vocab.tsv"
 
     def load_ini(self):
         self.config = ConfigManager("src/config/patent_data_preprocessor.ini")
@@ -315,26 +356,19 @@ class PatentDataPreprocessor(PreprocessorInterface):
         # NUM_TAGS, tags_vocab = tf_vocab_processor(lines, ENTITY_VOCAB_FILE)
         self.NUM_TAGS, tags_vocab = naive_vocab_creater(lines, self.ENTITY_VOCAB_FILE, vocab_filter=False)
 
-    def dumb_config(self):
+    def save_preprocessed_data_info(self):
         # Create data level configs that is shared between model training and prediction
-        config = {}
-        config["VOCAB_SIZE"] = self.VOCAB_SIZE
-        config["NUM_TAGS"] = self.NUM_TAGS
+        info = PreprocessedDataInfo(vocab_size=self.VOCAB_SIZE,
+                 num_tags=self.NUM_TAGS,
+                 text_col=self.TEXT_COL,
+                 entity_col=self.ENTITY_COL,
+                 entity_iob_col=self.ENTITY_IOB_COL,
+                 train_data_file=self.TRAIN_DATA_FILE,
+                 val_data_file=self.VAL_DATA_FILE,
+                 test_data_file=self.TEST_DATA_FILE,
+                 words_vocab_file=self.WORDS_VOCAB_FILE,
+                 chars_vocab_file=self.CHARS_VOCAB_FILE,
+                 entity_vocab_file=self.ENTITY_VOCAB_FILE,
+                 char_2_id_map=self.char_2_id_map)
 
-        config["TEXT_COL"] = self.TEXT_COL
-        config["ENTITY_COL"] = self.ENTITY_COL
-        config["ENTITY_IOB_COL"] = self.ENTITY_IOB_COL
-
-        config["TRAIN_DATA_FILE"] = os.path.abspath(self.TRAIN_DATA_FILE)
-        config["VAL_DATA_FILE"] = os.path.abspath(self.VAL_DATA_FILE)
-        config["TEST_DATA_FILE"] = os.path.abspath(self.TEST_DATA_FILE)
-        config["WORDS_VOCAB_FILE"] = self.WORDS_VOCAB_FILE
-        config["CHARS_VOCAB_FILE"] = self.CHARS_VOCAB_FILE
-        config["ENTITY_VOCAB_FILE"] = self.ENTITY_VOCAB_FILE
-
-        config["char_2_id_map"] = self.char_2_id_map
-
-        print_info("Storing below config for further use... \n{}\n ".format(config))
-
-        with open(self.OUT_DIR + "/data_config.pickle", "wb") as file:
-            pickle.dump(config, file=file)
+        PreprocessedDataInfo.save(info, self.OUT_DIR)

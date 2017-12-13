@@ -16,7 +16,7 @@ def get_tf_flags():
     return cfg
 
 class ITagger():
-    def __init__(self, tf_flags):
+    def __init__(self):
         self.preprocessor = None
 
     def add_preprocessor(self, preprocessor):
