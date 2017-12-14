@@ -25,9 +25,8 @@ class IPreprocessorInterface():
         raise NotImplementedError
 
     def start(self):
-        res = self.create_target_directories()
-        if res != "skip":
-            self.prepare_data()
-            self.extract_vocab()
-            self.save_preprocessed_data_info()
+        self.create_target_directories()
+        self.prepare_data()
+        self.extract_vocab()
+        self.save_preprocessed_data_info()
 

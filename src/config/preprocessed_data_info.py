@@ -39,13 +39,17 @@ class PreprocessedDataInfo():
     def save(info, data_dir):
         print_info("Storing the PreprocessedDataInfo for further use... \n{}\n ".format(info))
 
-        with open(data_dir + "/processed_data_info.pickle", "wb") as file:
-            pickle.dump(info, file=file)
+        if not os.path.exists(data_dir + "/processed_data_info.pickle"):
+            with open(data_dir + "/processed_data_info.pickle", "wb") as file:
+                pickle.dump(info, file=file)
 
     @staticmethod
     def load(data_dir):
-        with open(data_dir + "/processed_data_info.pickle", "rb") as file:
-            info = pickle.load(file)
-        print_info("Restoring the PreprocessedDataInfo for further use... \n{}\n ".format(info))
-
+        info = None
+        try:
+            with open(data_dir + "/processed_data_info.pickle", "rb") as file:
+                info = pickle.load(file)
+            print_info("Restoring the PreprocessedDataInfo for further use... \n{}\n ".format(info))
+        except:
+            info = None
         return info

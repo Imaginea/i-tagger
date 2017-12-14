@@ -9,9 +9,9 @@ def naive_vocab_creater(lines, out_file_name, vocab_filter):
     nlp = spacy.load('en_core_web_md')
     final_vocab = [PAD_WORD, UNKNOWN_WORD]
     if vocab_filter:
-        vocab = [word for line in lines for word in line.split(" ") if word in nlp.vocab]
+        vocab = [word for line in tqdm(lines) for word in line.split(" ") if word in nlp.vocab]
     else:
-        vocab = [word for line in lines for word in line.split(" ")]
+        vocab = [word for line in tqdm(lines) for word in line.split(" ")]
 
     vocab = set(vocab)
 

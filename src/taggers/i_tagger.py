@@ -3,17 +3,6 @@ sys.path.append("../")
 
 import tensorflow as tf
 
-def get_tf_flags():
-
-    flags = tf.app.flags
-
-    flags.DEFINE_string("action","none","preprocess/train/retrain")
-
-    flags.DEFINE_string("data_dir","experiments/tf_data/","")
-
-
-    cfg = tf.app.flags.FLAGS
-    return cfg
 
 class ITagger():
     def __init__(self):

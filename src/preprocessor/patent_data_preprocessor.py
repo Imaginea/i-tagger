@@ -322,39 +322,43 @@ class PatentDataPreprocessor(IPreprocessorInterface):
                                                unknown_token=UNKNOWN_WORD)
 
     def extract_vocab(self):
-        print_info("Preparing the vocab for the text col: {}".format(self.TEXT_COL))
+        if not os.path.exists(self.WORDS_VOCAB_FILE) or not os.path.exists(self.ENTITY_VOCAB_FILE):
+            print_info("Preparing the vocab for the text col: {}".format(self.TEXT_COL))
 
-        # Read the text file as DataFrame and extract vocab for text column and entity column
-        train_df = pd.read_csv(self.TRAIN_DATA_FILE, sep=SEPRATOR, quotechar=QUOTECHAR).fillna(UNKNOWN_WORD)
+            # Read the text file as DataFrame and extract vocab for text column and entity column
+            train_df = pd.read_csv(self.TRAIN_DATA_FILE, sep=SEPRATOR, quotechar=QUOTECHAR).fillna(UNKNOWN_WORD)
 
-        train_df.columns = self.COLUMNS  # just for operation, names doesn't imply anything here
-        train_df.head()
+            train_df.columns = self.COLUMNS  # just for operation, names doesn't imply anything here
+            train_df.head()
 
-        # Get word level vocab
-        lines = train_df[self.TEXT_COL].unique().tolist()
-        # VOCAB_SIZE, words_vocab = tf_vocab_processor(lines, WORDS_VOCAB_FILE)
-        self.VOCAB_SIZE, words_vocab = naive_vocab_creater(lines, self.WORDS_VOCAB_FILE, vocab_filter=True)
+            # Get word level vocab
+            lines = train_df[self.TEXT_COL].unique().tolist()
+            # VOCAB_SIZE, words_vocab = tf_vocab_processor(lines, WORDS_VOCAB_FILE)
+            self.VOCAB_SIZE, words_vocab = naive_vocab_creater(lines, self.WORDS_VOCAB_FILE, vocab_filter=True)
 
-        # Get char level vocab
-        words_chars_vocab = ['<P>', '<U>']
-        _vocab = get_char_vocab(words_vocab)
-        words_chars_vocab.extend(_vocab)
+            # Get char level vocab
+            words_chars_vocab = ['<P>', '<U>']
+            _vocab = get_char_vocab(words_vocab)
+            words_chars_vocab.extend(_vocab)
 
-        # Create char2id map
-        vocab_to_tsv(words_chars_vocab, self.CHARS_VOCAB_FILE)
-        self.char_2_id_map = {c: i for i, c in enumerate(words_chars_vocab)}
+            # Create char2id map
+            vocab_to_tsv(words_chars_vocab, self.CHARS_VOCAB_FILE)
+            self.char_2_id_map = {c: i for i, c in enumerate(words_chars_vocab)}
 
-        print_info("Preparing the vocab for the entity col: {}".format(self.ENTITY_COL))
+            print_info("Preparing the vocab for the entity col: {}".format(self.ENTITY_COL))
 
-        # Reopen the file without filling UNKNOWN_WORD in blank lines
-        train_df = pd.read_csv(self.TRAIN_DATA_FILE, sep=SEPRATOR, quotechar=QUOTECHAR)
-        train_df.columns = self.COLUMNS  # just for operation, names doesn't imply anything here
-        train_df.head()
+            # Reopen the file without filling UNKNOWN_WORD in blank lines
+            train_df = pd.read_csv(self.TRAIN_DATA_FILE, sep=SEPRATOR, quotechar=QUOTECHAR)
+            train_df.columns = self.COLUMNS  # just for operation, names doesn't imply anything here
+            train_df.head()
 
-        # Get entity level vocab
-        lines = train_df[self.ENTITY_COL].unique().tolist()
-        # NUM_TAGS, tags_vocab = tf_vocab_processor(lines, ENTITY_VOCAB_FILE)
-        self.NUM_TAGS, tags_vocab = naive_vocab_creater(lines, self.ENTITY_VOCAB_FILE, vocab_filter=False)
+            # Get entity level vocab
+            lines = train_df[self.ENTITY_COL].unique().tolist()
+            # NUM_TAGS, tags_vocab = tf_vocab_processor(lines, ENTITY_VOCAB_FILE)
+            self.NUM_TAGS, tags_vocab = naive_vocab_creater(lines, self.ENTITY_VOCAB_FILE, vocab_filter=False)
+        else:
+            print_info("Reusing the vocab")
+
 
     def save_preprocessed_data_info(self):
         # Create data level configs that is shared between model training and prediction
