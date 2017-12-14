@@ -8,7 +8,7 @@ from helpers.print_helper import *
 from preprocessor.patent_data_preprocessor import PatentDataPreprocessor
 
 EXPERIMENT_ROOT_DIR = "experiments/"
-MODEL_DIR = "/opt/0.imaginea/git/i-tagger/experiments/bilstm_crf_v0/charembd_True_lr_0.001_lstmsize_2-32-32_wemb_32_cemb_32_outprob_0.5/"
+MODEL_DIR = "/home/gaurishk/imaginea/i-tagger/experiments/bilstm_crf_v0/charembd_True_lr_0.001_lstmsize_2-32-32_wemb_32_cemb_32_outprob_0.5/"
 NUM_EPOCHS = 5
 BATCH_SIZE = 2
 

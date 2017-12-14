@@ -26,7 +26,7 @@ from interfaces.model_configs import IModelConfig
 from helpers.os_helper import check_n_makedirs
 tf.logging.set_verbosity("INFO")
 
-class BiLSTMCRFConfigV0I(IModelConfig):
+class BiLSTMCRFConfigV0(IModelConfig):
     def __init__(self,
                  model_dir,
                  vocab_size,
@@ -125,25 +125,25 @@ class BiLSTMCRFConfigV0I(IModelConfig):
             char_emd_size,
             out_keep_propability)
 
-        model_config = BiLSTMCRFConfigV0I(model_dir=model_dir,
-                                          vocab_size=preprocessed_data_info.VOCAB_SIZE,
-                                          char_vocab_size=preprocessed_data_info.CHAR_VOCAB_SIZE,
-                                          number_tags=preprocessed_data_info.NUM_TAGS,
-                                          unknown_word=UNKNOWN_WORD,
-                                          pad_word=PAD_WORD,
-                                          tags_vocab_file=preprocessed_data_info.ENTITY_VOCAB_FILE,
-                                          words_vocab_file=preprocessed_data_info.WORDS_VOCAB_FILE,
-                                          chars_vocab_file=preprocessed_data_info.WORDS_VOCAB_FILE,
-                                          #hyper parameters
+        model_config = BiLSTMCRFConfigV0(model_dir=model_dir,
+                                         vocab_size=preprocessed_data_info.VOCAB_SIZE,
+                                         char_vocab_size=preprocessed_data_info.CHAR_VOCAB_SIZE,
+                                         number_tags=preprocessed_data_info.NUM_TAGS,
+                                         unknown_word=UNKNOWN_WORD,
+                                         pad_word=PAD_WORD,
+                                         tags_vocab_file=preprocessed_data_info.ENTITY_VOCAB_FILE,
+                                         words_vocab_file=preprocessed_data_info.WORDS_VOCAB_FILE,
+                                         chars_vocab_file=preprocessed_data_info.WORDS_VOCAB_FILE,
+                                         #hyper parameters
                                          use_char_embedding=use_char_embedding,
-                                          learning_rate=learning_rate,
-                                          word_level_lstm_hidden_size=word_level_lstm_hidden_size,
-                                          char_level_lstm_hidden_size=char_level_lstm_hidden_size,
-                                          word_emd_size=word_emd_size,
-                                          char_emd_size=char_emd_size,
-                                          num_lstm_layers=num_lstm_layers,
-                                          out_keep_propability=out_keep_propability,
-                                          use_crf=True)
+                                         learning_rate=learning_rate,
+                                         word_level_lstm_hidden_size=word_level_lstm_hidden_size,
+                                         char_level_lstm_hidden_size=char_level_lstm_hidden_size,
+                                         word_emd_size=word_emd_size,
+                                         char_emd_size=char_emd_size,
+                                         num_lstm_layers=num_lstm_layers,
+                                         out_keep_propability=out_keep_propability,
+                                         use_crf=True)
         check_n_makedirs(model_dir)
         IModelConfig.save(model_dir=model_dir, config=model_config)
 
@@ -164,7 +164,7 @@ run_config=tf.contrib.learn.RunConfig(session_config=run_config,
 
 class BiLSTMCRFV0(tf.estimator.Estimator):
     def __init__(self,
-                 ner_config: BiLSTMCRFConfigV0I):
+                 ner_config: BiLSTMCRFConfigV0):
         super(BiLSTMCRFV0, self).__init__(
             model_fn=self._model_fn,
             model_dir=ner_config.MODEL_DIR,
