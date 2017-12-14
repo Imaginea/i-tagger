@@ -25,7 +25,7 @@ python -m spacy download en_core_web_lg
 
 
 # Current Architecture
-
+![](docs/images/i_tagger_architecture.png)
 ![](docs/images/i_tagger_architecture.svg)
 
 **References**
