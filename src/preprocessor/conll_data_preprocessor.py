@@ -140,7 +140,7 @@ class CoNLLDataPreprocessor(IPreprocessorInterface):
             print_info("Reusing the vocab")
 
     def save_preprocessed_data_info(self):
-        if not os.path.exists(self.WORDS_VOCAB_FILE) and not os.path.exists(self.ENTITY_VOCAB_FILE): #TODO move this check
+        if not PreprocessedDataInfo.is_file_exists(self.OUT_DIR):
             # Create data level configs that is shared between model training and prediction
             info = PreprocessedDataInfo(vocab_size=self.VOCAB_SIZE,
                      num_tags=self.NUM_TAGS,

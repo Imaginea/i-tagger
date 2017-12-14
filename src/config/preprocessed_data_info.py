@@ -35,6 +35,11 @@ class PreprocessedDataInfo():
         self.WORDS_VOCAB_FILE = os.path.abspath(words_vocab_file)
         self.CHARS_VOCAB_FILE = os.path.abspath(chars_vocab_file)
         self.ENTITY_VOCAB_FILE = os.path.abspath(entity_vocab_file)
+
+    @staticmethod
+    def is_file_exists(data_dir):
+         return os.path.exists(data_dir + "/processed_data_info.pickle")
+
     @staticmethod
     def save(info, data_dir):
         print_info("Storing the PreprocessedDataInfo for further use... \n{}\n ".format(info))

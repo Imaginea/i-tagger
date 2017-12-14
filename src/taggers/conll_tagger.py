@@ -54,6 +54,10 @@ class CoNLLTagger():
 
     def train(self):
         self.load_estimator()
+
+        if self.estimator.FEATURE_TYPE != self.data_iterators.FEATURE_TYPE:
+            print_error("Given DataIterator can be used with choosed model. Try other models!!!")
+
         self.data_iterators.prepare()
         num_samples = self.data_iterators.NUM_TRAINING_SAMPLES
 

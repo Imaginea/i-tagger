@@ -24,6 +24,8 @@ from config.config_helper import ConfigManager
 from config.global_constants import *
 from interfaces.model_configs import IModelConfig
 from helpers.os_helper import check_n_makedirs
+from interfaces.two_features_interface import ITwoFeature
+
 tf.logging.set_verbosity("INFO")
 
 class BiLSTMCRFConfigV0(IModelConfig):
@@ -162,13 +164,15 @@ run_config=tf.contrib.learn.RunConfig(session_config=run_config,
                                       save_checkpoints_steps=10,
                                       keep_checkpoint_max=100)
 
-class BiLSTMCRFV0(tf.estimator.Estimator):
+class BiLSTMCRFV0(tf.estimator.Estimator, ITwoFeature):
     def __init__(self,
                  ner_config: BiLSTMCRFConfigV0):
-        super(BiLSTMCRFV0, self).__init__(
+        tf.estimator.Estimator.__init__(self,
             model_fn=self._model_fn,
             model_dir=ner_config.MODEL_DIR,
             config=run_config)
+
+        ITwoFeature.__init__(self)
 
         self.ner_config = ner_config
 
@@ -187,11 +191,11 @@ class BiLSTMCRFV0(tf.estimator.Estimator):
         is_training = mode == ModeKeys.TRAIN
 
         # [BATCH_SIZE, 1]
-        text_features = features['text']
+        text_features = features[self.FEATURE_1_NAME]
 
         if self.ner_config.USE_CHAR_EMBEDDING:
             # [BATCH_SIZE, MAX_SEQ_LENGTH, MAX_WORD_LEGTH]
-            char_ids = features['char_ids']
+            char_ids = features[self.FEATURE_2_NAME]
 
             tf.logging.info('char_ids: =======> {}'.format(char_ids))
 

@@ -337,7 +337,7 @@ class PatentDataPreprocessor(IPreprocessorInterface):
             self.VOCAB_SIZE, words_vocab = naive_vocab_creater(lines, self.WORDS_VOCAB_FILE, vocab_filter=True)
 
             # Get char level vocab
-            words_chars_vocab = ['<P>', '<U>']
+            words_chars_vocab = [PAD_CHAR, UNKNOWN_CHAR]
             _vocab = get_char_vocab(words_vocab)
             words_chars_vocab.extend(_vocab)
 
@@ -361,18 +361,19 @@ class PatentDataPreprocessor(IPreprocessorInterface):
 
 
     def save_preprocessed_data_info(self):
-        # Create data level configs that is shared between model training and prediction
-        info = PreprocessedDataInfo(vocab_size=self.VOCAB_SIZE,
-                 num_tags=self.NUM_TAGS,
-                 text_col=self.TEXT_COL,
-                 entity_col=self.ENTITY_COL,
-                 entity_iob_col=self.ENTITY_IOB_COL,
-                 train_data_file=self.TRAIN_DATA_FILE,
-                 val_data_file=self.VAL_DATA_FILE,
-                 test_data_file=self.TEST_DATA_FILE,
-                 words_vocab_file=self.WORDS_VOCAB_FILE,
-                 chars_vocab_file=self.CHARS_VOCAB_FILE,
-                 entity_vocab_file=self.ENTITY_VOCAB_FILE,
-                 char_2_id_map=self.char_2_id_map)
+        if not PreprocessedDataInfo.is_file_exists(self.OUT_DIR):
+            # Create data level configs that is shared between model training and prediction
+            info = PreprocessedDataInfo(vocab_size=self.VOCAB_SIZE,
+                     num_tags=self.NUM_TAGS,
+                     text_col=self.TEXT_COL,
+                     entity_col=self.ENTITY_COL,
+                     entity_iob_col=self.ENTITY_IOB_COL,
+                     train_data_file=self.TRAIN_DATA_FILE,
+                     val_data_file=self.VAL_DATA_FILE,
+                     test_data_file=self.TEST_DATA_FILE,
+                     words_vocab_file=self.WORDS_VOCAB_FILE,
+                     chars_vocab_file=self.CHARS_VOCAB_FILE,
+                     entity_vocab_file=self.ENTITY_VOCAB_FILE,
+                     char_2_id_map=self.char_2_id_map)
 
-        PreprocessedDataInfo.save(info, self.OUT_DIR)
+            PreprocessedDataInfo.save(info, self.OUT_DIR)

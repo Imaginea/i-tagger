@@ -13,14 +13,17 @@ import ntpath
 import tensorflow as tf
 from interfaces.data_iterator import IDataIterator
 from helpers.tf_hooks.data_initializers import DataIteratorInitializerHook
+from interfaces.two_features_interface import ITwoFeature
 from overrides import overrides
+
 from helpers.print_helper import *
 from config.global_constants import *
 from tensorflow.python.platform import gfile
 
-class CoNLLDataIterator(IDataIterator):
+class CoNLLDataIterator(IDataIterator, ITwoFeature):
     def __init__(self, data_dir,  batch_size):
-        super(CoNLLDataIterator, self).__init__(data_dir, batch_size)
+        IDataIterator.__init__(self, data_dir, batch_size)
+        ITwoFeature.__init__(self)
 
     def __pad_sequences(self, sequences, pad_tok, max_length):
         """
@@ -225,11 +228,11 @@ class CoNLLDataIterator(IDataIterator):
 
                 # Build dataset iterator
                 if use_char_embd:
-                    dataset = tf.data.Dataset.from_tensor_slices(({"text": text_features_placeholder,
-                                                                   "char_ids": char_ids_placeholder},
+                    dataset = tf.data.Dataset.from_tensor_slices(({self.FEATURE_1_NAME: text_features_placeholder,
+                                                                   self.FEATURE_2_NAME: char_ids_placeholder},
                                                                   labels_placeholder))
                 else:
-                    dataset = tf.data.Dataset.from_tensor_slices(({"text": text_features_placeholder},
+                    dataset = tf.data.Dataset.from_tensor_slices(({self.FEATURE_1_NAME: text_features_placeholder},
                                                                   labels_placeholder))
                 if is_eval:
                     dataset = dataset.repeat(1)
@@ -276,7 +279,7 @@ class CoNLLDataIterator(IDataIterator):
         def inputs():
             with tf.name_scope(scope):
                 docs = tf.constant(features, dtype=tf.string)
-                dataset = tf.data.Dataset.from_tensor_slices(({"text": docs, "char_ids": char_ids},))
+                dataset = tf.data.Dataset.from_tensor_slices(({self.FEATURE_1_NAME: docs, self.FEATURE_2_NAME: char_ids},))
                 dataset.repeat(1)
                 # Return as iteration in batches of 1
                 return dataset.batch(batch_size).make_one_shot_iterator().get_next()

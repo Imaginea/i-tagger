@@ -20,6 +20,9 @@ python -m spacy download en_core_web_lg
  along with desired_labels in a single folder called Data
 
 
+# Problems and Solutions:
+- 
+
 **References**
 - https://github.com/guillaumegenthial/sequence_tagging
 - https://github.com/Franck-Dernoncourt/NeuroNER
