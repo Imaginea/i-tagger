@@ -1,19 +1,28 @@
 import sys
+
+from helpers.os_helper import check_n_makedirs
+
 sys.path.append("../")
 import numpy as np
+import os
 import pandas as pd
 from tqdm import tqdm
 import pickle
+import ntpath
 
 import tensorflow as tf
-from interfaces.data_iterator import DataIterator
+from interfaces.data_iterator import IDataIterator
 from helpers.tf_hooks.data_initializers import DataIteratorInitializerHook
+from overrides import overrides
+from helpers.print_helper import *
+from config.global_constants import *
+from tensorflow.python.platform import gfile
 
-class PatentDataIterator(DataIterator):
+class PatentIDataIterator(IDataIterator):
     def __init__(self, data_dir,  batch_size):
-        super(PatentDataIterator, self).__init__(data_dir,  batch_size)
+        super(PatentIDataIterator, self).__init__(data_dir, batch_size)
 
-    def _pad_sequences(self, sequences, pad_tok, max_length):
+    def __pad_sequences(self, sequences, pad_tok, max_length):
         """
         Args:
             sequences: a generator of list or tuple
@@ -32,7 +41,7 @@ class PatentDataIterator(DataIterator):
 
         return sequence_padded, sequence_length
 
-    def pad_sequences(self, sequences, pad_tok, nlevels, MAX_WORD_LENGTH=20):
+    def _pad_sequences(self, sequences, pad_tok, nlevels, MAX_WORD_LENGTH=20):
         """
         Args:
             sequences: a generator of list or tuple
@@ -64,15 +73,15 @@ class PatentDataIterator(DataIterator):
             sequence_padded, sequence_length = [], []
             for seq in tqdm(sequences):
                 # all words are same length now
-                sp, sl = self._pad_sequences(seq, pad_tok, MAX_WORD_LENGTH)
+                sp, sl = self.__pad_sequences(seq, pad_tok, MAX_WORD_LENGTH)
                 sequence_padded += [sp]
                 sequence_length += [sl]
 
             max_length_sentence = max(map(lambda x: len(x), sequences))
-            sequence_padded, _ = self._pad_sequences(sequence_padded,
+            sequence_padded, _ = self.__pad_sequences(sequence_padded,
                                                      [pad_tok] * MAX_WORD_LENGTH,
                                                      max_length_sentence)  # TODO revert -1 to pad_tok
-            sequence_length, _ = self._pad_sequences(sequence_length, 0,
+            sequence_length, _ = self.__pad_sequences(sequence_length, 0,
                                                      max_length_sentence)
 
         return sequence_padded, sequence_length
@@ -143,16 +152,16 @@ class PatentDataIterator(DataIterator):
         # pdb.set_trace()
 
         if use_char_embd:
-            sentence_feature1, seq_length = self.pad_sequences(sentence_feature1, nlevels=1,
+            sentence_feature1, seq_length = self._pad_sequences(sentence_feature1, nlevels=1,
                                                                pad_tok=" <PAD>")  # space is used so that it can append to the string sequence
             sentence_feature1 = np.array(sentence_feature1)
 
-            char_ids_feature2, seq_length = self.pad_sequences(char_ids_feature2, nlevels=2, pad_tok=0)
+            char_ids_feature2, seq_length = self._pad_sequences(char_ids_feature2, nlevels=2, pad_tok=0)
             char_ids_feature2 = np.array(char_ids_feature2)
             seq_length = np.array(seq_length)
             # print_warn(seq_length.shape)
             # exit()
-            tag_label, seq_length = self.pad_sequences(tag_label, nlevels=1, pad_tok=" <PAD>")
+            tag_label, seq_length = self._pad_sequences(tag_label, nlevels=1, pad_tok=" <PAD>")
             tag_label = np.array(tag_label)
 
             return sentence_feature1, char_ids_feature2, tag_label
@@ -190,10 +199,10 @@ class PatentDataIterator(DataIterator):
         # tf.logging.info("numeric_features.shape: =====> {}".format(char_ids.shape))
         tf.logging.info("labels.shape: =====> {}".format(labels.shape))
 
-        tf.logging.info("text_features.shape: =====> {}".format(type(text_features)))
-        tf.logging.info("numeric_features.shape: =====> {}".format(type(char_ids)))
+        tf.logging.info("text_features.type: =====> {}".format(type(text_features)))
+        tf.logging.info("numeric_features.type: =====> {}".format(type(char_ids)))
         char_ids = np.array(char_ids)
-        tf.logging.info("labels.shape: =====> {}".format(type(labels)))
+        tf.logging.info("labels.type: =====> {}".format(type(labels)))
 
         # tf.logging.info("numeric_features.shape: =====> {}".format((char_ids)))
 
@@ -255,27 +264,138 @@ class PatentDataIterator(DataIterator):
         # Return function and hook
         return inputs, iterator_initializer_hook
 
+    def predict_inputs(self, features, char_ids, batch_size=1, scope='test-data'):
+        """Returns test set as Operations.
+        Returns:
+            (features, ) Operations that iterate over the test set.
+        """
+        # Convert raw sentence into a lisr, since TF works on only list/matrix
+        if not isinstance(features, list):
+            features = [features]
+
+        def inputs():
+            with tf.name_scope(scope):
+                docs = tf.constant(features, dtype=tf.string)
+                dataset = tf.data.Dataset.from_tensor_slices(({"text": docs, "char_ids": char_ids},))
+                dataset.repeat(1)
+                # Return as iteration in batches of 1
+                return dataset.batch(batch_size).make_one_shot_iterator().get_next()
+
+        return inputs
+
+
+    @overrides
     def setup_train_input_graph(self):
         train_sentences, train_char_ids, train_ner_tags = \
             self._make_seq_pair(text_file_path=self.preprocessed_data_info.TRAIN_DATA_FILE,
                                 char_2_id_map=self.preprocessed_data_info.char_2_id_map,
-                                use_char_embd=self.preprocessed_data_info.USE_CHAR_EMBEDDING)
-        self.train_data_inputs, self.train_data_init_hook = self._setup_input_graph2(text_features=train_sentences,
+                                use_char_embd=True) #TODO
+        self.NUM_TRAINING_SAMPLES = train_sentences.shape[0] #TODO
+
+        self.train_data_input_fn, self.train_data_init_hook = self._setup_input_graph2(text_features=train_sentences,
                                                                                      char_ids=train_char_ids,
                                                                                      labels=train_ner_tags,
                                                                                      batch_size=self.BATCH_SIZE,
-                                                                                     use_char_embd=self.preprocessed_data_info.USE_CHAR_EMBEDDING) #TODO
-
+                                                                                     use_char_embd=True) #TODO
+    @overrides
     def setup_val_input_graph(self):
         val_sentences, val_char_ids, val_ner_tags = \
             self._make_seq_pair(text_file_path=self.preprocessed_data_info.VAL_DATA_FILE,
                                 char_2_id_map=self.preprocessed_data_info.char_2_id_map,
-                                use_char_embd=self.preprocessed_data_info.USE_CHAR_EMBEDDING)
-        self.train_data_inputs, self.train_data_init_hook = self._setup_input_graph2(text_features=val_sentences,
+                                use_char_embd=True) #TODO
+        self.val_data_input_fn, self.val_data_init_hook = self._setup_input_graph2(text_features=val_sentences,
                                                                                      char_ids=val_char_ids,
                                                                                      labels=val_ner_tags,
                                                                                      batch_size=self.BATCH_SIZE,
-                                                                                     use_char_embd=self.preprocessed_data_info.USE_CHAR_EMBEDDING) #TODO
+                                                                                     use_char_embd=True) #TODO
+    # @overrides
+    # def setup_predict_input_graph(self):
+    #     #TODO this is not used, since we need to append the predicted value to the CSV files
+    #     test_sentences,test_char_ids, test_ner_tags = \
+    #         self._make_seq_pair(text_file_path=self.preprocessed_data_info.TEST_DATA_FILE,
+    #                             char_2_id_map=self.preprocessed_data_info.char_2_id_map,
+    #                             use_char_embd=True)
+    #
+    #     self.val_data_input_fn, self.val_data_init_hook = self._setup_input_graph2(text_features=test_sentences,
+    #                                                                                  char_ids=test_char_ids,
+    #                                                                                  labels=test_ner_tags,
+    #                                                                                  batch_size=self.BATCH_SIZE,
+    #                                                                                  use_char_embd=True) #TODO
 
-    def setup_predict_input_graph(self):
-        raise NotImplementedError
+    def get_tags(self, estimator, sentence, char_ids, tag_vocab_tsv):
+
+        with gfile.Open(tag_vocab_tsv, 'r') as file:
+            ner_vocab = list(map(lambda x: x.strip(), file.readlines()))
+            tags_vocab = {id_num: tag for id_num, tag in enumerate(ner_vocab)}
+
+        predictions = []
+        test_input_fn = self.predict_inputs(sentence, char_ids)
+        predict_fn = estimator.predict(input_fn=test_input_fn)
+
+
+        for predict in predict_fn:
+            predictions.append(predict)
+
+        predicted_id = []
+        confidence = []
+
+        for each_prediction in predictions:
+            for tag_score in each_prediction["confidence"]:
+                confidence.append(tag_score)
+            for tag_id in each_prediction["viterbi_seq"]:
+                predicted_id.append(tags_vocab[tag_id])
+            top_3_predicted_indices = each_prediction["top_3_indices"]
+            top_3_predicted_confidence = each_prediction["top_3_confidence"]
+
+            # print(top_3_predicted_indices)
+
+            pred_1 = top_3_predicted_indices[:, 0:1].flatten()
+            pred_1 = list(map(lambda x: tags_vocab[x], pred_1))
+            # print(pred_1)
+            # print(predicted_id)
+
+            pred_2 = top_3_predicted_indices[:, 1:2].flatten()
+            pred_2 = list(map(lambda x: tags_vocab[x], pred_2))
+            pred_3 = top_3_predicted_indices[:, 2:].flatten()
+            pred_3 = list(map(lambda x: tags_vocab[x], pred_3))
+
+            pred_1_confidence = top_3_predicted_confidence[:, 0:1]
+            pred_2_confidence = top_3_predicted_confidence[:, 1:2]
+            pred_3_confidence = top_3_predicted_confidence[:, 2:]
+
+        return predicted_id, confidence, pred_1, pred_1_confidence, pred_2, pred_2_confidence, \
+               pred_3, pred_3_confidence
+
+    def predict_on_csv_files(self, estimator,
+                             csv_files_path):
+
+        for csv_file in tqdm(os.listdir(csv_files_path)):
+            sentence = ""
+            csv_file = os.path.join(csv_files_path, csv_file)
+            if csv_file.endswith(".csv"):
+                print_info(csv_file)
+                # print_info("processing ====> {}".format(csv_file))
+                df = pd.read_csv(csv_file).fillna(UNKNOWN_WORD)
+                # df = io_2_iob(df, entity_col, entity_iob_col) # removing since we are using preprocessed test folder TODO chain IOB
+                sentence = (" ".join(df[self.preprocessed_data_info.TEXT_COL].values))
+
+                char_ids = [[self.preprocessed_data_info.char_2_id_map.get(c, 0) for c in word] for word in sentence.split(" ")]
+                char_ids, char_ids_length = self._pad_sequences([char_ids], pad_tok=0, nlevels=2)
+
+                # TODO add batch support
+                predicted_tags, confidence, pred_1, pred_1_confidence, pred_2, pred_2_confidence, \
+                pred_3, pred_3_confidence = self.get_tags(estimator, sentence, char_ids, self.preprocessed_data_info.ENTITY_VOCAB_FILE)
+                df["predictions"] = predicted_tags
+                df["confidence"] = confidence
+                df["pred_1"] = pred_1
+                df["pred_1_confidence"] = pred_1_confidence
+                df["pred_2"] = pred_2
+                df["pred_2_confidence"] = pred_2_confidence
+                df["pred_3"] = pred_3
+                df["pred_3_confidence"] = pred_3_confidence
+
+                out_dir = estimator.model_dir +"/predictions/"
+                check_n_makedirs(out_dir)
+                df.to_csv(out_dir +ntpath.basename(csv_file), index=False)
+
+        return None

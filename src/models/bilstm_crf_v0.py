@@ -21,10 +21,12 @@ from helpers.tf_data_helper import *
 from helpers.tf_hooks.pre_run import PreRunTaskHook
 from helpers.print_helper import *
 from config.config_helper import ConfigManager
-
+from config.global_constants import *
+from interfaces.model_configs import IModelConfig
+from helpers.os_helper import check_n_makedirs
 tf.logging.set_verbosity("INFO")
 
-class BiLSTMCRFConfigV0():
+class BiLSTMCRFConfigV0I(IModelConfig):
     def __init__(self,
                  model_dir,
                  vocab_size,
@@ -50,7 +52,7 @@ class BiLSTMCRFConfigV0():
         self.MODEL_DIR = model_dir
         self.UNKNOWN_WORD = unknown_word
         self.PAD_WORD = pad_word
-        self.UNKNOWN_TAG = "O"
+        self.UNKNOWN_TAG = "O" #TODO
 
         # Preprocessing Paramaters
         self.TAGS_VOCAB_FILE = tags_vocab_file
@@ -102,17 +104,18 @@ class BiLSTMCRFConfigV0():
 
         if use_char_embedding_option == 'y':
             use_char_embedding = True
-            char_level_lstm_hidden_size = input("char_level_lstm_hidden_size (128): ") or 128
-            char_emd_size = input("char_emd_size (128): ") or 128
+            char_level_lstm_hidden_size = input("char_level_lstm_hidden_size (32): ") or 32
+            char_emd_size = input("char_emd_size (32): ") or 32
         else:
             use_char_embedding = False
 
-        word_level_lstm_hidden_size = input("word_level_lstm_hidden_size (128): ") or 128
-        word_emd_size = input("word_emd_size (128): ") or 128
+        word_level_lstm_hidden_size = input("word_level_lstm_hidden_size (32): ") or 32
+        word_emd_size = input("word_emd_size (128): ") or 32
         out_keep_propability = input("out_keep_propability(0.5) : ") or 0.5
 
         # Does this sound logical? review please
-        model_dir = experiment_root_dir + "/bilstm_crf_v0/" + "charembd_{}_lr_{}_lstmsize_{}-{}-{}_wemb_{}_cemb_{}_outprob_{}".format(
+        model_dir = experiment_root_dir + "/bilstm_crf_v0/" + \
+                    "charembd_{}_lr_{}_lstmsize_{}-{}-{}_wemb_{}_cemb_{}_outprob_{}".format(
             str(use_char_embedding),
             learning_rate,
             num_lstm_layers,
@@ -122,25 +125,27 @@ class BiLSTMCRFConfigV0():
             char_emd_size,
             out_keep_propability)
 
-        model_config = BiLSTMCRFConfigV0(model_dir=model_dir,
-                                         vocab_size=preprocessed_data_info.VOCAB_SIZE,
-                                         char_vocab_size=preprocessed_data_info.CHARS_VOCAB_FILE,
-                                         number_tags=preprocessed_data_info.NUM_TAGS,
-                                         unknown_word=unknown_word,
-                                         pad_word=pad_word,
-                                         tags_vocab_file=preprocessed_data_info.ENTITY_VOCAB_FILE,
-                                         words_vocab_file=preprocessed_data_info.WORDS_VOCAB_FILE,
-                                         chars_vocab_file=preprocessed_data_info.WORDS_VOCAB_FILE,
-                                         #hyper parameters
+        model_config = BiLSTMCRFConfigV0I(model_dir=model_dir,
+                                          vocab_size=preprocessed_data_info.VOCAB_SIZE,
+                                          char_vocab_size=preprocessed_data_info.CHAR_VOCAB_SIZE,
+                                          number_tags=preprocessed_data_info.NUM_TAGS,
+                                          unknown_word=UNKNOWN_WORD,
+                                          pad_word=PAD_WORD,
+                                          tags_vocab_file=preprocessed_data_info.ENTITY_VOCAB_FILE,
+                                          words_vocab_file=preprocessed_data_info.WORDS_VOCAB_FILE,
+                                          chars_vocab_file=preprocessed_data_info.WORDS_VOCAB_FILE,
+                                          #hyper parameters
                                          use_char_embedding=use_char_embedding,
-                                         learning_rate=learning_rate,
-                                         word_level_lstm_hidden_size=word_level_lstm_hidden_size,
-                                         char_level_lstm_hidden_size=char_level_lstm_hidden_size,
-                                         word_emd_size=word_emd_size,
-                                         char_emd_size=char_emd_size,
-                                         num_lstm_layers=num_lstm_layers,
-                                         out_keep_propability=out_keep_propability,
-                                         use_crf=True)
+                                          learning_rate=learning_rate,
+                                          word_level_lstm_hidden_size=word_level_lstm_hidden_size,
+                                          char_level_lstm_hidden_size=char_level_lstm_hidden_size,
+                                          word_emd_size=word_emd_size,
+                                          char_emd_size=char_emd_size,
+                                          num_lstm_layers=num_lstm_layers,
+                                          out_keep_propability=out_keep_propability,
+                                          use_crf=True)
+        check_n_makedirs(model_dir)
+        IModelConfig.save(model_dir=model_dir, config=model_config)
 
         return model_config
 
@@ -159,7 +164,7 @@ run_config=tf.contrib.learn.RunConfig(session_config=run_config,
 
 class BiLSTMCRFV0(tf.estimator.Estimator):
     def __init__(self,
-                 ner_config: BiLSTMCRFConfigV0):
+                 ner_config: BiLSTMCRFConfigV0I):
         super(BiLSTMCRFV0, self).__init__(
             model_fn=self._model_fn,
             model_dir=ner_config.MODEL_DIR,
@@ -233,7 +238,7 @@ class BiLSTMCRFV0(tf.estimator.Estimator):
 
                 tf.logging.info("ner_ids: {}".format(ner_ids))
 
-        with tf.name_scope("word-embed-layer"):
+        with tf.variable_scope("word-embed-layer"):
             # layer to take the words and convert them into vectors (embeddings)
             # This creates embeddings matrix of [VOCAB_SIZE, EMBEDDING_SIZE] and then
             # maps word indexes of the sequence into
@@ -260,7 +265,7 @@ class BiLSTMCRFV0(tf.estimator.Estimator):
 
         with tf.variable_scope("char_embed_layer"):
             if self.ner_config.USE_CHAR_EMBEDDING:
-
+                print_error((self.ner_config.CHAR_VOCAB_SIZE, self.ner_config.CHAR_EMBEDDING_SIZE))
                 char_embeddings = tf.contrib.layers.embed_sequence(char_ids,
                                                                    vocab_size=self.ner_config.CHAR_VOCAB_SIZE,
                                                                    embed_dim=self.ner_config.CHAR_EMBEDDING_SIZE,
@@ -326,7 +331,7 @@ class BiLSTMCRFV0(tf.estimator.Estimator):
 
                 tf.logging.info('encoded_words =====> {}'.format(encoded_words))
 
-        with  tf.name_scope("word_level_lstm_layer"):
+        with  tf.variable_scope("word_level_lstm_layer"):
             # Create a LSTM Unit cell with hidden size of EMBEDDING_SIZE.
             d_rnn_cell_fw_one = tf.nn.rnn_cell.LSTMCell(self.ner_config.WORD_LEVEL_LSTM_HIDDEN_SIZE,
                                                         state_is_tuple=True)
@@ -420,7 +425,7 @@ class BiLSTMCRFV0(tf.estimator.Estimator):
             logits = tf.reshape(encoded_doc, [-1, nsteps, self.ner_config.NUM_TAGS], name="reshape_predictions")
             tf.logging.info("logits: {}".format(logits))
 
-        with  tf.name_scope("loss-layer"):
+        with  tf.variable_scope("loss-layer"):
             """Defines the loss"""
 
             if mode == ModeKeys.INFER:

@@ -18,7 +18,10 @@ class PreprocessedDataInfo():
                  chars_vocab_file,
                  entity_vocab_file,
                  char_2_id_map):
+
+        self.char_2_id_map = char_2_id_map
         self.VOCAB_SIZE = vocab_size
+        self.CHAR_VOCAB_SIZE = len(char_2_id_map)
         self.NUM_TAGS = num_tags
 
         self.TEXT_COL = text_col
@@ -31,9 +34,6 @@ class PreprocessedDataInfo():
 
         self.WORDS_VOCAB_FILE = os.path.abspath(words_vocab_file)
         self.CHARS_VOCAB_FILE = os.path.abspath(chars_vocab_file)
-        self.ENTITY_VOCAB_FILE = os.path.abspath(entity_vocab_file)
-
-        self.char_2_id_map = char_2_id_map
 
     @staticmethod
     def save(info, data_dir):
@@ -44,7 +44,7 @@ class PreprocessedDataInfo():
 
     @staticmethod
     def load(data_dir):
-        with open(data_dir + "/processed_data_info.pickle", "wb") as file:
+        with open(data_dir + "/processed_data_info.pickle", "rb") as file:
             info = pickle.load(file)
         print_info("Restoring the PreprocessedDataInfo for further use... \n{}\n ".format(info))
 

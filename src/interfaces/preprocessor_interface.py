@@ -3,7 +3,7 @@ sys.path.append("../")
 import os
 from helpers.os_helper import *
 
-class PreprocessorInterface():
+class IPreprocessorInterface():
 
     def __init__(self, experiment_root_directory="experiments"):
         self.load_ini()
@@ -25,8 +25,9 @@ class PreprocessorInterface():
         raise NotImplementedError
 
     def start(self):
-        self.create_target_directories()
-        self.prepare_data()
-        self.extract_vocab()
-        self.save_preprocessed_data_info()
+        res = self.create_target_directories()
+        if res != "skip":
+            self.prepare_data()
+            self.extract_vocab()
+            self.save_preprocessed_data_info()
 

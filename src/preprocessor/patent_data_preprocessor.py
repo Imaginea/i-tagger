@@ -8,7 +8,7 @@ from tqdm import tqdm
 import pickle
 from tensorflow.python.platform import gfile
 
-from interfaces.preprocessor_interface import PreprocessorInterface
+from interfaces.preprocessor_interface import IPreprocessorInterface
 from helpers.print_helper import *
 from config.global_constants import *
 from helpers.os_helper import check_n_makedirs
@@ -17,7 +17,7 @@ from config.config_helper import ConfigManager
 from nlp.spacy_helper import naive_vocab_creater, get_char_vocab, vocab_to_tsv
 from config.preprocessed_data_info import PreprocessedDataInfo
 
-class PatentDataPreprocessor(PreprocessorInterface):
+class PatentDataPreprocessor(IPreprocessorInterface):
     def __init__(self,
                  experiment_root_directory="experiments",
                  over_write=None,
@@ -75,26 +75,26 @@ class PatentDataPreprocessor(PreprocessorInterface):
             self.ENTITY_COL = self.config.get_item("Schema", "entity_column")
             self.ENTITY_IOB_COL = self.config.get_item("Schema", "entity_column") + "_iob"
 
-            self.TRAIN_CSV_INTERMEDIATE_PATH = self.OUT_DIR + "/train-iob-annotated/"
-            self.VAL_CSV_INTERMEDIATE_PATH = self.OUT_DIR + "/val-iob-annotated/"
-            self.TEST_CSV_INTERMEDIATE_PATH = self.OUT_DIR + "/test-iob-annotated/"
+        self.TRAIN_CSV_INTERMEDIATE_PATH = self.OUT_DIR + "/train-iob-annotated/"
+        self.VAL_CSV_INTERMEDIATE_PATH = self.OUT_DIR + "/val-iob-annotated/"
+        self.TEST_CSV_INTERMEDIATE_PATH = self.OUT_DIR + "/test-iob-annotated/"
 
-            self.WORDS_VOCAB_FILE = self.OUT_DIR + "/" + self.TEXT_COL + "_" + "vocab.tsv"
-            self.CHARS_VOCAB_FILE = self.OUT_DIR + "/" + self.TEXT_COL + "_" + "chars_vocab.tsv"
+        self.WORDS_VOCAB_FILE = self.OUT_DIR + "/" + self.TEXT_COL + "_" + "vocab.tsv"
+        self.CHARS_VOCAB_FILE = self.OUT_DIR + "/" + self.TEXT_COL + "_" + "chars_vocab.tsv"
+        self.ENTITY_VOCAB_FILE = self.OUT_DIR + "/" + self.ENTITY_COL + "_vocab.tsv"
+
+        self.COLUMNS = [self.TEXT_COL, self.ENTITY_COL]
+
+        if self.USE_IOB:
+            self.TRAIN_DATA_FILE = self.OUT_DIR + "/train-doc-wise.iob"
+            self.TEST_DATA_FILE = self.OUT_DIR + "/test-doc-wise.iob"
+            self.VAL_DATA_FILE = self.OUT_DIR + "/val-doc-wise.iob"
+            self.ENTITY_VOCAB_FILE = self.OUT_DIR + "/" + self.ENTITY_IOB_COL + "_vocab.tsv"
+        else:
+            self.TRAIN_DATA_FILE = self.OUT_DIR + "/train-doc-wise.io"
+            self.TEST_DATA_FILE = self.OUT_DIR + "/test-doc-wise.io"
+            self.VAL_DATA_FILE = self.OUT_DIR + "/val-doc-wise.io"
             self.ENTITY_VOCAB_FILE = self.OUT_DIR + "/" + self.ENTITY_COL + "_vocab.tsv"
-
-            self.COLUMNS = [self.TEXT_COL, self.ENTITY_COL]
-
-            if self.USE_IOB:
-                self.TRAIN_DATA_FILE = self.OUT_DIR + "/train-doc-wise.iob"
-                self.TEST_DATA_FILE = self.OUT_DIR + "/test-doc-wise.iob"
-                self.VAL_DATA_FILE = self.OUT_DIR + "/val-doc-wise.iob"
-                self.ENTITY_VOCAB_FILE = self.OUT_DIR + "/" + self.ENTITY_IOB_COL + "_vocab.tsv"
-            else:
-                self.TRAIN_DATA_FILE = self.OUT_DIR + "/train-doc-wise.io"
-                self.TEST_DATA_FILE = self.OUT_DIR + "/test-doc-wise.io"
-                self.VAL_DATA_FILE = self.OUT_DIR + "/val-doc-wise.io"
-                self.ENTITY_VOCAB_FILE = self.OUT_DIR + "/" + self.ENTITY_COL + "_vocab.tsv"
 
     def load_ini(self):
         self.config = ConfigManager("src/config/patent_data_preprocessor.ini")
@@ -111,8 +111,8 @@ class PatentDataPreprocessor(PreprocessorInterface):
                 check_n_makedirs(self.VAL_CSV_INTERMEDIATE_PATH)
                 check_n_makedirs(self.TEST_CSV_INTERMEDIATE_PATH)
             else:
-                print_info("Looks like you accendently run this script!!!")
-                return
+                print_info("Skipping preprocessing step, since the data is already available")
+                return "skip"
         else:
             print_info("Creating data folder: {}".format(self.OUT_DIR))
             os.makedirs(self.OUT_DIR)

@@ -28,7 +28,6 @@ def naive_vocab_creater(lines, out_file_name, vocab_filter):
     # Create a file and store the words
     with gfile.Open(out_file_name, 'wb') as f:
         for word in final_vocab:
-                print(word)
                 f.write("{}\n".format(word))
     return len(final_vocab), final_vocab
 
