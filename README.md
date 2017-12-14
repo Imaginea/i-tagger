@@ -16,12 +16,17 @@ python -m spacy download en_core_web_lg
 - https://github.com/synalp/NER/tree/master/corpus/CoNLL-2003
 
 # Start
--For patent_tagger keep the data in train, test, val 
+- For patent_tagger keep the data in train, test, val 
  along with desired_labels in a single folder called Data
 
 
 # Problems and Solutions:
 - 
+
+
+# Current Architecture
+
+![](docs/images/i_tagger_architecture.svg)
 
 **References**
 - https://github.com/guillaumegenthial/sequence_tagging
