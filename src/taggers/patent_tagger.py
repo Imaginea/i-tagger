@@ -19,7 +19,6 @@ class PattentTagger():
         self.estimator = None
         self.data_iterators = None
 
-    def init(self):
         self.preprocessor = PatentDataPreprocessor(
             experiment_root_directory=EXPERIMENT_ROOT_DIR,
             over_write=None,
