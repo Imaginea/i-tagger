@@ -90,6 +90,7 @@ class CoNLLDataPreprocessor(IPreprocessorInterface):
             if self.OVER_WRITE == "yes":
                 print_info("Deletingls data folder: {}".format(self.OUT_DIR))
                 shutil.rmtree(self.OUT_DIR)
+
                 print_info("Recreating data folder: {}".format(self.OUT_DIR))
                 os.makedirs(self.OUT_DIR)
             else:
@@ -114,10 +115,12 @@ class CoNLLDataPreprocessor(IPreprocessorInterface):
             # Get word level vocab
             lines = train_df[self.TEXT_COL].astype(str).unique().tolist()
             # VOCAB_SIZE, words_vocab = tf_vocab_processor(lines, WORDS_VOCAB_FILE)
-            self.VOCAB_SIZE, words_vocab = naive_vocab_creater(lines, self.WORDS_VOCAB_FILE, vocab_filter=True)
+            self.VOCAB_SIZE, words_vocab = naive_vocab_creater(lines,
+                                                               self.WORDS_VOCAB_FILE,
+                                                               vocab_filter=True)
 
             # Get char level vocab
-            words_chars_vocab = ['<P>', '<U>']
+            words_chars_vocab = [PAD_CHAR, UNKNOWN_CHAR]
             _vocab = get_char_vocab(words_vocab)
             words_chars_vocab.extend(_vocab)
 
@@ -135,7 +138,9 @@ class CoNLLDataPreprocessor(IPreprocessorInterface):
             # Get entity level vocab
             lines = train_df[self.ENTITY_COL].unique().tolist()
             # NUM_TAGS, tags_vocab = tf_vocab_processor(lines, ENTITY_VOCAB_FILE)
-            self.NUM_TAGS, tags_vocab = naive_vocab_creater(lines, self.ENTITY_VOCAB_FILE, vocab_filter=False)
+            self.NUM_TAGS, tags_vocab = naive_vocab_creater(lines,
+                                                            self.ENTITY_VOCAB_FILE,
+                                                            vocab_filter=False)
         else:
             print_info("Reusing the vocab")
 

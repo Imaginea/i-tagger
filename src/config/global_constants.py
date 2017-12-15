@@ -14,3 +14,5 @@ UNKNOWN_CHAR_ID = global_constants.get_item("VOCAB", "padding_char_id")
 
 SEPRATOR = " "
 QUOTECHAR = "^"
+
+EMPTY_LINE_FILLER = "<LINE_END>"

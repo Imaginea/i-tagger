@@ -96,22 +96,21 @@ class PatentIDataIterator(IDataIterator):
         :return:
         '''
 
-        word_col = "word"
-        tag_col = "entity_name"
-        empty_line_filler = "<LINE_END>"
+        self.TEXT_COL = self.config.get_item("Schema", "text_column")
+        self.ENTITY_COL = self.config.get_item("Schema", "entity_column")
 
         df = pd.read_csv(text_file_path,
-                         delimiter=" ",
+                         delimiter=SEPRATOR,
                          header=None,
                          skip_blank_lines=False,
-                         quotechar="^").fillna(empty_line_filler)
+                         quotechar=QUOTECHAR).fillna(EMPTY_LINE_FILLER)
 
-        columns = [word_col, tag_col, "doc_id"]  # define columns #TODO 1
+        columns = [self.TEXT_COL, self.ENTITY_COL, "doc_id"]  # define columns #TODO 1
         df.columns = columns
 
         # get the column values
-        sequences = df[word_col].values
-        labels = df[tag_col].values
+        sequences = df[self.TEXT_COL].values
+        labels = df[self.ENTITY_COL].values
 
         list_text = []
         list_char_ids = []
@@ -123,7 +122,7 @@ class PatentIDataIterator(IDataIterator):
         tag_label = []
 
         for word, tag in tqdm(zip(sequences, labels)):
-            if word != empty_line_filler:  # collect the sequence data till new line
+            if word != EMPTY_LINE_FILLER:  # collect the sequence data till new line
                 list_text.append(word)
                 try:
                     word_2_char_ids = [char_2_id_map.get(c, 0) for c in word]
@@ -276,7 +275,8 @@ class PatentIDataIterator(IDataIterator):
         def inputs():
             with tf.name_scope(scope):
                 docs = tf.constant(features, dtype=tf.string)
-                dataset = tf.data.Dataset.from_tensor_slices(({"text": docs, "char_ids": char_ids},))
+                dataset = tf.data.Dataset.from_tensor_slices(({"text": docs,
+                                                               "char_ids": char_ids},))
                 dataset.repeat(1)
                 # Return as iteration in batches of 1
                 return dataset.batch(batch_size).make_one_shot_iterator().get_next()

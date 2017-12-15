@@ -28,6 +28,7 @@ from interfaces.two_features_interface import ITwoFeature
 
 tf.logging.set_verbosity("INFO")
 
+
 class BiLSTMCRFConfigV0(IModelConfig):
     def __init__(self,
                  model_dir,
@@ -39,7 +40,7 @@ class BiLSTMCRFConfigV0(IModelConfig):
                  tags_vocab_file,
                  words_vocab_file,
                  chars_vocab_file,
-                 #hyper parameters
+                 # hyper parameters
                  use_char_embedding,
                  learning_rate,
                  word_level_lstm_hidden_size,
@@ -54,7 +55,7 @@ class BiLSTMCRFConfigV0(IModelConfig):
         self.MODEL_DIR = model_dir
         self.UNKNOWN_WORD = unknown_word
         self.PAD_WORD = pad_word
-        self.UNKNOWN_TAG = "O" #TODO
+        self.UNKNOWN_TAG = "O"  # TODO
 
         # Preprocessing Paramaters
         self.TAGS_VOCAB_FILE = tags_vocab_file
@@ -78,22 +79,22 @@ class BiLSTMCRFConfigV0(IModelConfig):
 
     @staticmethod
     def with_user_hyperparamaters(experiment_root_dir, data_dir):
-            # model_root_dir,
-            #                        vocab_size,
-            #                        char_vocab_size,
-            #                        number_tags,
-            #                        unknown_word,
-            #                        pad_word,
-            #                        tags_vocab_file,
-            #                        words_vocab_file,
-            #                        chars_vocab_file):
+        # model_root_dir,
+        #                        vocab_size,
+        #                        char_vocab_size,
+        #                        number_tags,
+        #                        unknown_word,
+        #                        pad_word,
+        #                        tags_vocab_file,
+        #                        words_vocab_file,
+        #                        chars_vocab_file):
 
         preprocessed_data_info: PreprocessedDataInfo = PreprocessedDataInfo.load(data_dir)
 
-        use_crf =  "y" #TODO
-        use_char_embedding=False
-        char_level_lstm_hidden_size = 128 #default
-        char_emd_size = 128 #default
+        use_crf = "y"  # TODO
+        use_char_embedding = False
+        char_level_lstm_hidden_size = 128  # default
+        char_emd_size = 128  # default
 
         if use_crf == 'y':
             use_crf = True
@@ -118,14 +119,14 @@ class BiLSTMCRFConfigV0(IModelConfig):
         # Does this sound logical? review please
         model_dir = experiment_root_dir + "/bilstm_crf_v0/" + \
                     "charembd_{}_lr_{}_lstmsize_{}-{}-{}_wemb_{}_cemb_{}_outprob_{}".format(
-            str(use_char_embedding),
-            learning_rate,
-            num_lstm_layers,
-            word_level_lstm_hidden_size,
-            char_level_lstm_hidden_size,
-            word_emd_size,
-            char_emd_size,
-            out_keep_propability)
+                        str(use_char_embedding),
+                        learning_rate,
+                        num_lstm_layers,
+                        word_level_lstm_hidden_size,
+                        char_level_lstm_hidden_size,
+                        word_emd_size,
+                        char_emd_size,
+                        out_keep_propability)
 
         model_config = BiLSTMCRFConfigV0(model_dir=model_dir,
                                          vocab_size=preprocessed_data_info.VOCAB_SIZE,
@@ -136,7 +137,7 @@ class BiLSTMCRFConfigV0(IModelConfig):
                                          tags_vocab_file=preprocessed_data_info.ENTITY_VOCAB_FILE,
                                          words_vocab_file=preprocessed_data_info.WORDS_VOCAB_FILE,
                                          chars_vocab_file=preprocessed_data_info.WORDS_VOCAB_FILE,
-                                         #hyper parameters
+                                         # hyper parameters
                                          use_char_embedding=use_char_embedding,
                                          learning_rate=learning_rate,
                                          word_level_lstm_hidden_size=word_level_lstm_hidden_size,
@@ -160,17 +161,18 @@ run_config.gpu_options.allow_growth = True
 # run_config.gpu_options.per_process_gpu_memory_fraction = 0.50
 run_config.allow_soft_placement = True
 run_config.log_device_placement = False
-run_config=tf.contrib.learn.RunConfig(session_config=run_config,
-                                      save_checkpoints_steps=10,
-                                      keep_checkpoint_max=100)
+run_config = tf.contrib.learn.RunConfig(session_config=run_config,
+                                        save_checkpoints_steps=10,
+                                        keep_checkpoint_max=100)
+
 
 class BiLSTMCRFV0(tf.estimator.Estimator, ITwoFeature):
     def __init__(self,
                  ner_config: BiLSTMCRFConfigV0):
         tf.estimator.Estimator.__init__(self,
-            model_fn=self._model_fn,
-            model_dir=ner_config.MODEL_DIR,
-            config=run_config)
+                                        model_fn=self._model_fn,
+                                        model_dir=ner_config.MODEL_DIR,
+                                        config=run_config)
 
         ITwoFeature.__init__(self)
 
@@ -201,14 +203,13 @@ class BiLSTMCRFV0(tf.estimator.Estimator, ITwoFeature):
 
             s = tf.shape(char_ids)
 
-            #remove pad words
-            char_ids_reshaped = tf.reshape(char_ids, shape=(s[0] * s[1], s[2])) #20 -> char dim
-
+            # remove pad words
+            char_ids_reshaped = tf.reshape(char_ids, shape=(s[0] * s[1], s[2]))  # 20 -> char dim
 
         with tf.variable_scope("sentence-words-2-ids"):
             word_table = lookup.index_table_from_file(vocabulary_file=self.ner_config.WORDS_VOCAB_FILE,
                                                       num_oov_buckets=0,  # TODO use this for Out of Vocab
-                                                      default_value=1, #id of <UNK>  w.r.t WORD VOCAB
+                                                      default_value=1,  # id of <UNK>  w.r.t WORD VOCAB
                                                       name="table")
             tf.logging.info('table info: {}'.format(word_table))
 
@@ -262,7 +263,7 @@ class BiLSTMCRFV0(tf.estimator.Estimator, ITwoFeature):
             tf.logging.info('word_embeddings =====> {}'.format(word_embeddings))
 
             # seq_length = get_sequence_length_old(word_embeddings) TODO working
-            #[BATCH_SIZE, ]
+            # [BATCH_SIZE, ]
             seq_length = get_sequence_length(token_ids)
 
             tf.logging.info('seq_length =====> {}'.format(seq_length))
@@ -276,12 +277,11 @@ class BiLSTMCRFV0(tf.estimator.Estimator, ITwoFeature):
                                                                    initializer=tf.contrib.layers.xavier_initializer(
                                                                        seed=42))
 
-                #[BATCH_SIZE, MAX_SEQ_LENGTH, MAX_WORD_LEGTH, CHAR_EMBEDDING_SIZE]
+                # [BATCH_SIZE, MAX_SEQ_LENGTH, MAX_WORD_LEGTH, CHAR_EMBEDDING_SIZE]
                 char_embeddings = tf.layers.dropout(char_embeddings,
                                                     rate=self.ner_config.KEEP_PROP,
                                                     seed=42,
                                                     training=mode == tf.estimator.ModeKeys.TRAIN)  # TODO add test case
-
 
                 tf.logging.info('char_embeddings =====> {}'.format(char_embeddings))
 
@@ -386,10 +386,10 @@ class BiLSTMCRFV0(tf.estimator.Estimator, ITwoFeature):
 
         with tf.variable_scope("projection"):
 
-            NUM_WORD_LSTM_NETWORKS = 1 + 1 # word_level_lstm_layer BiDirectional
-            NUM_CHAR_LSTM_NETWORKS = 1 + 1 # char_level_lstm_layer BiDirectional
+            NUM_WORD_LSTM_NETWORKS = 1 + 1  # word_level_lstm_layer BiDirectional
+            NUM_CHAR_LSTM_NETWORKS = 1 + 1  # char_level_lstm_layer BiDirectional
 
-            #Example: If WORD_LEVEL_LSTM_HIDDEN_SIZE = 300, CHAR_LEVEL_LSTM_HIDDEN_SIZE = 300,
+            # Example: If WORD_LEVEL_LSTM_HIDDEN_SIZE = 300, CHAR_LEVEL_LSTM_HIDDEN_SIZE = 300,
             # NEW_SHAPE = 2 * 300 + 2 * 300 = 1200
             NEW_SHAPE = NUM_WORD_LSTM_NETWORKS * self.ner_config.WORD_LEVEL_LSTM_HIDDEN_SIZE + \
                         NUM_CHAR_LSTM_NETWORKS * self.ner_config.CHAR_LEVEL_LSTM_HIDDEN_SIZE
@@ -409,7 +409,7 @@ class BiLSTMCRFV0(tf.estimator.Estimator, ITwoFeature):
                 # [NUM_TAGS]
                 b = tf.get_variable("b", shape=[self.ner_config.NUM_TAGS],
                                     dtype=tf.float32, initializer=tf.zeros_initializer())
-            #[MAX_SEQ_LENGTH]
+            # [MAX_SEQ_LENGTH]
             nsteps = tf.shape(encoded_doc)[1]
 
             tf.logging.info("nsteps: =====> {} ".format(nsteps))
@@ -418,7 +418,8 @@ class BiLSTMCRFV0(tf.estimator.Estimator, ITwoFeature):
                 encoded_doc = tf.reshape(encoded_doc, [-1, NEW_SHAPE],
                                          name="reshape_encoded_doc")
             else:
-                encoded_doc = tf.reshape(encoded_doc, [-1, NUM_WORD_LSTM_NETWORKS * self.ner_config.WORD_LEVEL_LSTM_HIDDEN_SIZE],
+                encoded_doc = tf.reshape(encoded_doc,
+                                         [-1, NUM_WORD_LSTM_NETWORKS * self.ner_config.WORD_LEVEL_LSTM_HIDDEN_SIZE],
                                          name="reshape_encoded_doc")
 
             tf.logging.info("encoded_doc: {}".format(encoded_doc))
@@ -471,7 +472,8 @@ class BiLSTMCRFV0(tf.estimator.Estimator, ITwoFeature):
                 "confidence": tf.reduce_max(tf.nn.softmax(logits, dim=-1), axis=-1),
 
                 "top_3_indices": tf.nn.top_k(tf.nn.softmax(logits, dim=-1), k=3).indices,
-		"top_3_confidence": tf.nn.top_k(tf.nn.softmax(logits, dim=-1), k=3).values
+
+                "top_3_confidence": tf.nn.top_k(tf.nn.softmax(logits, dim=-1), k=3).values
             }
 
         # Loss, training and eval operations are not needed during inference.
@@ -514,6 +516,7 @@ class BiLSTMCRFV0(tf.estimator.Estimator, ITwoFeature):
 
     def set_shape_hook(self, tensor_name):
         print_info("adding " + tensor_name)
+
         def save_embed_mat(sess):
             graph = sess.graph
             tensor = graph.get_tensor_by_name(tensor_name)
@@ -522,16 +525,11 @@ class BiLSTMCRFV0(tf.estimator.Estimator, ITwoFeature):
 
             print_error(" ============ \n {} shape is {} \n=============\n".format(tensor, shape))
 
-
         hook = PreRunTaskHook()
         hook.user_func = save_embed_mat
 
         self.hooks.append(hook)
 
-
     def get_shape_hooks(self):
         self.set_shape_hook("char_embed_layer/dropout/dropout/mul:0")
         return self.hooks
-
-
-
