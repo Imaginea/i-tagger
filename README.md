@@ -81,11 +81,12 @@ python  src/commands/conll_2003_dataset.py --mode=train
 - Text Dataset may have one or more features like words, characters, positional information of words etc., 
 - Data iterators enforces number of features and their types, so that set of models can work on down the line
 - Models should agree with data iterator features types and make use of the aviable features to train the data
-- 
+
+
 ![](docs/images/i_tagger_architecture.png)
 
 # Available Models:
-- [Check here!](docs/models)
+- [Models](docs/models)
     - [Variable Length BiLSTM with CRF](docs/models/bilstm_crf_v0/BiLSTM_CRF_V0.md)
 
 # To understand the Tensorflow APIs
