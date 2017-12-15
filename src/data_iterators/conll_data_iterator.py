@@ -24,6 +24,7 @@ class CoNLLDataIterator(IDataIterator, ITwoFeature):
     def __init__(self, data_dir,  batch_size):
         IDataIterator.__init__(self, data_dir, batch_size)
         ITwoFeature.__init__(self)
+        self.config = ConfigManager("src/config/conll_data_preprocessor.ini")
 
     def __pad_sequences(self, sequences, pad_tok, max_length):
         """
@@ -99,22 +100,21 @@ class CoNLLDataIterator(IDataIterator, ITwoFeature):
         :return:
         '''
 
-        word_col = "word"
-        tag_col = "entity_name"
-        empty_line_filler = "<LINE_END>"
+        self.TEXT_COL = self.config.get_item("Schema", "text_column")
+        self.ENTITY_COL = self.config.get_item("Schema", "entity_column")
 
         df = pd.read_csv(text_file_path,
-                         delimiter=" ",
+                         delimiter=SEPRATOR,
                          header=None,
                          skip_blank_lines=False,
-                         quotechar="^").fillna(empty_line_filler)
+                         quotechar=QUOTECHAR).fillna(EMPTY_LINE_FILLER)
 
-        columns = [word_col, tag_col]  # define columns #TODO 1
-        df.rename(columns={0: word_col, 1:tag_col}, inplace=True)
+        columns = [self.TEXT_COL, self.ENTITY_COL]  # define columns #TODO 1
+        df.rename(columns={0: self.TEXT_COL, 1:self.ENTITY_COL}, inplace=True)
 
         # get the column values
-        sequences = df[word_col].values
-        labels = df[tag_col].values
+        sequences = df[self.TEXT_COL].values
+        labels = df[self.ENTITY_COL].values
 
         list_text = []
         list_char_ids = []
@@ -126,7 +126,7 @@ class CoNLLDataIterator(IDataIterator, ITwoFeature):
         tag_label = []
 
         for word, tag in tqdm(zip(sequences, labels)):
-            if word != empty_line_filler:  # collect the sequence data till new line
+            if word != EMPTY_LINE_FILLER:  # collect the sequence data till new line
                 list_text.append(word)
                 try:
                     word_2_char_ids = [char_2_id_map.get(c, 0) for c in word]
@@ -155,8 +155,7 @@ class CoNLLDataIterator(IDataIterator, ITwoFeature):
         # pdb.set_trace()
 
         if use_char_embd:
-            sentence_feature1, seq_length = self._pad_sequences(sentence_feature1, nlevels=1,
-                                                               pad_tok=" <PAD>")  # space is used so that it can append to the string sequence
+            sentence_feature1, seq_length = self._pad_sequences(sentence_feature1, nlevels=1,pad_tok=" <PAD>")  # space is used so that it can append to the string sequence
             sentence_feature1 = np.array(sentence_feature1)
 
             char_ids_feature2, seq_length = self._pad_sequences(char_ids_feature2, nlevels=2, pad_tok=0)
