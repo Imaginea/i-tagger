@@ -7,7 +7,7 @@ from helpers.print_helper import *
 
 class IDataIterator():
     def __init__(self, data_dir, batch_size):
-       self.preprocessed_data_info: PreprocessedDataInfo = PreprocessedDataInfo.load(data_dir)
+       self.preprocessed_data_info = PreprocessedDataInfo.load(data_dir)
 
        self.BATCH_SIZE = batch_size
        self.train_data_input_fn, self.train_data_init_hook = None, None
