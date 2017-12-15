@@ -89,7 +89,7 @@ python  src/commands/conll_2003_dataset.py --mode=train
     - [Variable Length BiLSTM with CRF](docs/models/bilstm_crf_v0/BiLSTM_CRF_V0.md)
 
 # To understand the Tensorflow APIs
-- [Walk Tghrough of Tensorflow APIs](notebooks/walk_through_of_tf_apis.ipynb)
+- [Walk Through of Tensorflow APIs](notebooks/walk_through_of_tf_apis.ipynb)
 
 **References**
 - https://github.com/guillaumegenthial/sequence_tagging
