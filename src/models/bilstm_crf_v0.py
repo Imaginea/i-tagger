@@ -89,7 +89,7 @@ class BiLSTMCRFConfigV0(IModelConfig):
         #                        words_vocab_file,
         #                        chars_vocab_file):
 
-        preprocessed_data_info: PreprocessedDataInfo = PreprocessedDataInfo.load(data_dir)
+        preprocessed_data_info = PreprocessedDataInfo.load(data_dir)
 
         use_crf = "y"  # TODO
         use_char_embedding = False

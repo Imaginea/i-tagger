@@ -4,6 +4,7 @@
 - spaCy
 - tqdm
 - tmux
+- overrides
 
 
 ### How run on GPU server: (Imginea Specific)
