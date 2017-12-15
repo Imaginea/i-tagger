@@ -87,6 +87,9 @@ python  src/commands/conll_2003_dataset.py --mode=train
 
 ![](docs/images/i_tagger_architecture.png)
 
+
+- [Tensorflow Estimators](https://www.tensorflow.org/extend/estimators) is used for training/evaluating/saving/restoring/predicting
+
 ![](docs/images/tf_estimators.png)
 
 # Available Models:
