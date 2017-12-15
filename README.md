@@ -86,6 +86,8 @@ python  src/commands/conll_2003_dataset.py --mode=train
 
 ![](docs/images/i_tagger_architecture.png)
 
+![](docs/images/tf_estimators.png)
+
 # Available Models:
 - [Models](docs/models)
     - [Variable Length BiLSTM with CRF](docs/models/bilstm_crf_v0/BiLSTM_CRF_V0.md)
