@@ -83,10 +83,10 @@ class CoNLLDataIterator(IDataIterator, ITwoFeature):
 
             max_length_sentence = max(map(lambda x: len(x), sequences))
             sequence_padded, _ = self.__pad_sequences(sequence_padded,
-                                                     [pad_tok] * MAX_WORD_LENGTH,
-                                                     max_length_sentence)  # TODO revert -1 to pad_tok
+                                                      [pad_tok] * MAX_WORD_LENGTH,
+                                                      max_length_sentence)  # TODO revert -1 to pad_tok
             sequence_length, _ = self.__pad_sequences(sequence_length, 0,
-                                                     max_length_sentence)
+                                                      max_length_sentence)
 
         return sequence_padded, sequence_length
 
@@ -295,10 +295,10 @@ class CoNLLDataIterator(IDataIterator, ITwoFeature):
         self.NUM_TRAINING_SAMPLES = train_sentences.shape[0] #TODO
 
         self.train_data_input_fn, self.train_data_init_hook = self._setup_input_graph2(text_features=train_sentences,
-                                                                                     char_ids=train_char_ids,
-                                                                                     labels=train_ner_tags,
-                                                                                     batch_size=self.BATCH_SIZE,
-                                                                                     use_char_embd=True) #TODO
+                                                                                       char_ids=train_char_ids,
+                                                                                       labels=train_ner_tags,
+                                                                                       batch_size=self.BATCH_SIZE,
+                                                                                       use_char_embd=True) #TODO
     @overrides
     def setup_val_input_graph(self):
         val_sentences, val_char_ids, val_ner_tags = \
@@ -306,98 +306,99 @@ class CoNLLDataIterator(IDataIterator, ITwoFeature):
                                 char_2_id_map=self.preprocessed_data_info.char_2_id_map,
                                 use_char_embd=True) #TODO
         self.val_data_input_fn, self.val_data_init_hook = self._setup_input_graph2(text_features=val_sentences,
-                                                                                     char_ids=val_char_ids,
-                                                                                     labels=val_ner_tags,
-                                                                                     batch_size=self.BATCH_SIZE,
-                                                                                     use_char_embd=True) #TODO
-    # @overrides
-    # def setup_predict_input_graph(self):
-    #     #TODO this is not used, since we need to append the predicted value to the CSV files
-    #     test_sentences,test_char_ids, test_ner_tags = \
-    #         self._make_seq_pair(text_file_path=self.preprocessed_data_info.TEST_DATA_FILE,
-    #                             char_2_id_map=self.preprocessed_data_info.char_2_id_map,
-    #                             use_char_embd=True)
-    #
-    #     self.val_data_input_fn, self.val_data_init_hook = self._setup_input_graph2(text_features=test_sentences,
-    #                                                                                  char_ids=test_char_ids,
-    #                                                                                  labels=test_ner_tags,
-    #                                                                                  batch_size=self.BATCH_SIZE,
-    #                                                                                  use_char_embd=True) #TODO
+                                                                                   char_ids=val_char_ids,
+                                                                                   labels=val_ner_tags,
+                                                                                   batch_size=self.BATCH_SIZE,
+                                                                                   use_char_embd=True,
+                                                                                   is_eval=True) #TODO
+        # @overrides
+        # def setup_predict_input_graph(self):
+        #     #TODO this is not used, since we need to append the predicted value to the CSV files
+        #     test_sentences,test_char_ids, test_ner_tags = \
+        #         self._make_seq_pair(text_file_path=self.preprocessed_data_info.TEST_DATA_FILE,
+        #                             char_2_id_map=self.preprocessed_data_info.char_2_id_map,
+        #                             use_char_embd=True)
+        #
+        #     self.val_data_input_fn, self.val_data_init_hook = self._setup_input_graph2(text_features=test_sentences,
+        #                                                                                  char_ids=test_char_ids,
+        #                                                                                  labels=test_ner_tags,
+        #                                                                                  batch_size=self.BATCH_SIZE,
+        #                                                                                  use_char_embd=True) #TODO
 
-    def get_tags(self, estimator, sentence, char_ids, tag_vocab_tsv):
+        def get_tags(self, estimator, sentence, char_ids, tag_vocab_tsv):
 
-        with gfile.Open(tag_vocab_tsv, 'r') as file:
-            ner_vocab = list(map(lambda x: x.strip(), file.readlines()))
-            tags_vocab = {id_num: tag for id_num, tag in enumerate(ner_vocab)}
+            with gfile.Open(tag_vocab_tsv, 'r') as file:
+                ner_vocab = list(map(lambda x: x.strip(), file.readlines()))
+                tags_vocab = {id_num: tag for id_num, tag in enumerate(ner_vocab)}
 
-        predictions = []
-        test_input_fn = self.predict_inputs(sentence, char_ids)
-        predict_fn = estimator.predict(input_fn=test_input_fn)
+            predictions = []
+            test_input_fn = self.predict_inputs(sentence, char_ids)
+            predict_fn = estimator.predict(input_fn=test_input_fn)
 
 
-        for predict in predict_fn:
-            predictions.append(predict)
+            for predict in predict_fn:
+                predictions.append(predict)
 
-        predicted_id = []
-        confidence = []
+            predicted_id = []
+            confidence = []
 
-        for each_prediction in predictions:
-            for tag_score in each_prediction["confidence"]:
-                confidence.append(tag_score)
-            for tag_id in each_prediction["viterbi_seq"]:
-                predicted_id.append(tags_vocab[tag_id])
-            top_3_predicted_indices = each_prediction["top_3_indices"]
-            top_3_predicted_confidence = each_prediction["top_3_confidence"]
+            for each_prediction in predictions:
+                for tag_score in each_prediction["confidence"]:
+                    confidence.append(tag_score)
+                for tag_id in each_prediction["viterbi_seq"]:
+                    predicted_id.append(tags_vocab[tag_id])
+                top_3_predicted_indices = each_prediction["top_3_indices"]
+                top_3_predicted_confidence = each_prediction["top_3_confidence"]
 
-            # print(top_3_predicted_indices)
+                # print(top_3_predicted_indices)
 
-            pred_1 = top_3_predicted_indices[:, 0:1].flatten()
-            pred_1 = list(map(lambda x: tags_vocab[x], pred_1))
-            # print(pred_1)
-            # print(predicted_id)
+                pred_1 = top_3_predicted_indices[:, 0:1].flatten()
+                pred_1 = list(map(lambda x: tags_vocab[x], pred_1))
+                # print(pred_1)
+                # print(predicted_id)
 
-            pred_2 = top_3_predicted_indices[:, 1:2].flatten()
-            pred_2 = list(map(lambda x: tags_vocab[x], pred_2))
-            pred_3 = top_3_predicted_indices[:, 2:].flatten()
-            pred_3 = list(map(lambda x: tags_vocab[x], pred_3))
+                pred_2 = top_3_predicted_indices[:, 1:2].flatten()
+                pred_2 = list(map(lambda x: tags_vocab[x], pred_2))
+                pred_3 = top_3_predicted_indices[:, 2:].flatten()
+                pred_3 = list(map(lambda x: tags_vocab[x], pred_3))
 
-            pred_1_confidence = top_3_predicted_confidence[:, 0:1]
-            pred_2_confidence = top_3_predicted_confidence[:, 1:2]
-            pred_3_confidence = top_3_predicted_confidence[:, 2:]
+                pred_1_confidence = top_3_predicted_confidence[:, 0:1]
+                pred_2_confidence = top_3_predicted_confidence[:, 1:2]
+                pred_3_confidence = top_3_predicted_confidence[:, 2:]
 
-        return predicted_id, confidence, pred_1, pred_1_confidence, pred_2, pred_2_confidence, \
-               pred_3, pred_3_confidence
+            return predicted_id, confidence, pred_1, pred_1_confidence, pred_2, pred_2_confidence, \
+                   pred_3, pred_3_confidence
 
-    def predict_on_csv_files(self, estimator,
-                             csv_files_path):
+        def predict_on_csv_files(self, estimator,
+                                 csv_files_path):
 
-        for csv_file in tqdm(os.listdir(csv_files_path)):
-            sentence = ""
-            csv_file = os.path.join(csv_files_path, csv_file)
-            if csv_file.endswith(".csv"):
-                print_info(csv_file)
-                # print_info("processing ====> {}".format(csv_file))
-                df = pd.read_csv(csv_file).fillna(UNKNOWN_WORD)
-                # df = io_2_iob(df, entity_col, entity_iob_col) # removing since we are using preprocessed test folder TODO chain IOB
-                sentence = (" ".join(df[self.preprocessed_data_info.TEXT_COL].values))
+            for csv_file in tqdm(os.listdir(csv_files_path)):
+                sentence = ""
+                csv_file = os.path.join(csv_files_path, csv_file)
+                if csv_file.endswith(".csv"):
+                    print_info(csv_file)
+                    # print_info("processing ====> {}".format(csv_file))
+                    df = pd.read_csv(csv_file).fillna(UNKNOWN_WORD)
+                    # df = io_2_iob(df, entity_col, entity_iob_col) # removing since we are using preprocessed test folder TODO chain IOB
+                    sentence = (" ".join(df[self.preprocessed_data_info.TEXT_COL].values))
 
-                char_ids = [[self.preprocessed_data_info.char_2_id_map.get(c, 0) for c in word] for word in sentence.split(" ")]
-                char_ids, char_ids_length = self._pad_sequences([char_ids], pad_tok=0, nlevels=2)
+                    char_ids = [[self.preprocessed_data_info.char_2_id_map.get(c, 0) for c in word] for word in sentence.split(" ")]
+                    char_ids, char_ids_length = self._pad_sequences([char_ids], pad_tok=0, nlevels=2)
 
-                # TODO add batch support
-                predicted_tags, confidence, pred_1, pred_1_confidence, pred_2, pred_2_confidence, \
-                pred_3, pred_3_confidence = self.get_tags(estimator, sentence, char_ids, self.preprocessed_data_info.ENTITY_VOCAB_FILE)
-                df["predictions"] = predicted_tags
-                df["confidence"] = confidence
-                df["pred_1"] = pred_1
-                df["pred_1_confidence"] = pred_1_confidence
-                df["pred_2"] = pred_2
-                df["pred_2_confidence"] = pred_2_confidence
-                df["pred_3"] = pred_3
-                df["pred_3_confidence"] = pred_3_confidence
+                    # TODO add batch support
+                    predicted_tags, confidence, pred_1, pred_1_confidence, pred_2, pred_2_confidence, \
+                    pred_3, pred_3_confidence = self.get_tags(estimator, sentence, char_ids, self.preprocessed_data_info.ENTITY_VOCAB_FILE)
+                    df["predictions"] = predicted_tags
+                    df["confidence"] = confidence
+                    df["pred_1"] = pred_1
+                    df["pred_1_confidence"] = pred_1_confidence
+                    df["pred_2"] = pred_2
+                    df["pred_2_confidence"] = pred_2_confidence
+                    df["pred_3"] = pred_3
+                    df["pred_3_confidence"] = pred_3_confidence
 
-                out_dir = estimator.model_dir +"/predictions/"
-                check_n_makedirs(out_dir)
-                df.to_csv(out_dir +ntpath.basename(csv_file), index=False)
+                    out_dir = estimator.model_dir +"/predictions/"
+                    check_n_makedirs(out_dir)
+                    df.to_csv(out_dir +ntpath.basename(csv_file), index=False)
 
-        return None
+            return None

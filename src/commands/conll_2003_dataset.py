@@ -19,16 +19,12 @@ def get_tf_flags():
     return cfg
 
 def run(opt):
-
+    tagger = CoNLLTagger(model_dir=opt.model_dir)
     if opt.mode =="preprocess":
-        tagger = CoNLLTagger()
         tagger.preprocess()
     elif opt.mode == "train":
-        tagger = CoNLLTagger()
         tagger.train()
-
     elif opt.mode =="retrain":
-        tagger = CoNLLTagger(model_dir=opt.model_dir)
         tagger.train()
 
 

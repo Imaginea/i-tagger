@@ -102,19 +102,19 @@ class BiLSTMCRFConfigV0(IModelConfig):
             use_crf = False
 
         use_char_embedding_option = input("use_char_embedding (y/n)") or "y"
-        learning_rate = input("learning_rate (0.001): ") or 0.001
-        num_lstm_layers = input("num_word_lstm_layers (2): ") or 2
+        learning_rate = float(input("learning_rate (0.001): ")) or 0.001
+        num_lstm_layers = int(input("num_word_lstm_layers (2): ")) or 2
 
         if use_char_embedding_option == 'y':
             use_char_embedding = True
-            char_level_lstm_hidden_size = input("char_level_lstm_hidden_size (32): ") or 32
-            char_emd_size = input("char_emd_size (32): ") or 32
+            char_level_lstm_hidden_size = int(input("char_level_lstm_hidden_size (32): ")) or 32
+            char_emd_size = int(input("char_emd_size (32): ")) or 32
         else:
             use_char_embedding = False
 
-        word_level_lstm_hidden_size = input("word_level_lstm_hidden_size (32): ") or 32
-        word_emd_size = input("word_emd_size (128): ") or 32
-        out_keep_propability = input("out_keep_propability(0.5) : ") or 0.5
+        word_level_lstm_hidden_size = int(input("word_level_lstm_hidden_size (32): ")) or 32
+        word_emd_size = int(input("word_emd_size (128): ")) or 32
+        out_keep_propability = float(input("out_keep_propability(0.5) : ")) or 0.5
 
         # Does this sound logical? review please
         model_dir = experiment_root_dir + "/bilstm_crf_v0/" + \
