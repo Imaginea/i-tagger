@@ -75,6 +75,10 @@ class PatentDataPreprocessor(IPreprocessorInterface):
             self.ENTITY_COL = self.config.get_item("Schema", "entity_column")
             self.ENTITY_IOB_COL = self.config.get_item("Schema", "entity_column") + "_iob"
 
+            #TODO keeping it hear as kept in other preprocessor but need to check why it is kept here
+            self.EXTRA_COLS = self.config.get_item("Schema", "extra_columns")
+            self.EXTRA_COLS = [str.strip(col) for col in self.EXTRA_COLS.split(",")]
+
         self.TRAIN_CSV_INTERMEDIATE_PATH = self.OUT_DIR + "/train-iob-annotated/"
         self.VAL_CSV_INTERMEDIATE_PATH = self.OUT_DIR + "/val-iob-annotated/"
         self.TEST_CSV_INTERMEDIATE_PATH = self.OUT_DIR + "/test-iob-annotated/"
@@ -83,7 +87,10 @@ class PatentDataPreprocessor(IPreprocessorInterface):
         self.CHARS_VOCAB_FILE = self.OUT_DIR + "/" + self.TEXT_COL + "_" + "chars_vocab.tsv"
         self.ENTITY_VOCAB_FILE = self.OUT_DIR + "/" + self.ENTITY_COL + "_vocab.tsv"
 
+        # Make sure first two entities are text and entity followed by doc id
+        # Doc Id should be taken from the extra cols
         self.COLUMNS = [self.TEXT_COL, self.ENTITY_COL]
+        self.COLUMNS.extend(self.EXTRA_COLS)
 
         if self.USE_IOB:
             self.TRAIN_DATA_FILE = self.OUT_DIR + "/train-doc-wise.iob"
@@ -182,6 +189,7 @@ class PatentDataPreprocessor(IPreprocessorInterface):
                        out_dir):
 
         print_info(os.path.abspath(db_reference_csv_file))
+
         entity_df = pd.read_csv(db_reference_csv_file)
         # loop through the file and create a iob file with
         for csv_file in tqdm(os.listdir(csv_files_path)):
@@ -245,24 +253,50 @@ class PatentDataPreprocessor(IPreprocessorInterface):
         '''
 
         num_records = 0
+
+        if use_iob:
+            self.COLUMNS.append(self.ENTITY_IOB_COL)
+
         with gfile.Open(outfilename, 'wb') as file:
             for csv_file in tqdm(os.listdir(csv_files_path)):
                 csv_file = os.path.join(csv_files_path, csv_file)
                 df = pd.read_csv(csv_file).fillna(unknown_token)
 
-                try:
-                    if use_iob:
-                        values = df[[text_col, entity_iob_col, "doc_id"]].values  # TODO 1
-                    else:
-                        values = df[[text_col, entity_col, "doc_id"]].values  # TODO 1
 
+                # if it is very first record. Take the column names as header for the csv files
+                if num_records == 0:
+                    file.write("{}\n".format(" ".join(self.COLUMNS)))
+
+                try:
+                    values = df[self.COLUMNS].values  # TODO 1
+
+                    # ['word', 'entity_name', 'doc_id', 'x_cord', 'y_cord', 'pg_number', %IOB_COL]
                     tot_len = len(values)
                     if tot_len > 10:
                         num_records += 1
-                        file.write("{} {} {}\n".format("<START>", "O", ""))
+                        #TODO beautify this
+                        #Note: Make sure to have the text col and entity as first two cols
+
+                        #take the first row of value and set it as start
+                        start_str = ["<START>", "O"]
+                        for s_k in(values[0][2:]):
+                            start_str.append(str(s_k))
+
+                        file.write("{}\n".format(" ".join(start_str)))
+
                         for i in range(tot_len):
-                            file.write("{} {} {}\n".format(values[i][0], values[i][1], values[i][2]))  # TODO 1
-                        file.write("{} {} {}\n".format("<END>", "O", ""))
+                            file_str = []
+                            for f_k in (values[i]):
+                                file_str.append(str(f_k))
+                            print("len(values[i])",len(values[i]),str(i))
+                            file.write("{}\n".format(" ".join(file_str)))  # TODO 1
+
+                        # take the last row of value and set it as end
+                        end_str = ["<END>", "O"]
+                        for e_k in (values[i][2:]):
+                            end_str.append(str(e_k))
+
+                        file.write("{}\n".format(" ".join(end_str)))
                         file.write("\n")
                 except Exception as e:
                     print("Error procesing : {} in {}".format(e, csv_file))
@@ -270,7 +304,7 @@ class PatentDataPreprocessor(IPreprocessorInterface):
         print("Total of {} records got written!".format(num_records))
 
         # Return column details to assist vocab creation
-        return [text_col, entity_col, "doc_id"]
+        return self.COLUMNS
 
     def prepare_data(self):
         print_info("Preparing train data...")
@@ -328,8 +362,7 @@ class PatentDataPreprocessor(IPreprocessorInterface):
             # Read the text file as DataFrame and extract vocab for text column and entity column
             train_df = pd.read_csv(self.TRAIN_DATA_FILE, sep=SEPRATOR, quotechar=QUOTECHAR).fillna(UNKNOWN_WORD)
 
-            train_df.columns = self.COLUMNS  # just for operation, names doesn't imply anything here
-            train_df.head()
+            print_info(train_df.head())
 
             # Get word level vocab
             lines = train_df[self.TEXT_COL].unique().tolist()
@@ -349,8 +382,8 @@ class PatentDataPreprocessor(IPreprocessorInterface):
 
             # Reopen the file without filling UNKNOWN_WORD in blank lines
             train_df = pd.read_csv(self.TRAIN_DATA_FILE, sep=SEPRATOR, quotechar=QUOTECHAR)
-            train_df.columns = self.COLUMNS  # just for operation, names doesn't imply anything here
-            train_df.head()
+
+            print_info(train_df.head())
 
             # Get entity level vocab
             lines = train_df[self.ENTITY_COL].unique().tolist()

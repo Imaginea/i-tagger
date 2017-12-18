@@ -13,17 +13,17 @@ import ntpath
 import tensorflow as tf
 from interfaces.data_iterator import IDataIterator
 from helpers.tf_hooks.data_initializers import DataIteratorInitializerHook
-from interfaces.two_features_interface import ITwoFeature
+from interfaces.two_features_interface import ITextFeature
 from overrides import overrides
 
 from helpers.print_helper import *
 from config.global_constants import *
 from tensorflow.python.platform import gfile
 
-class CoNLLDataIterator(IDataIterator, ITwoFeature):
+class CoNLLDataIterator(IDataIterator, ITextFeature):
     def __init__(self, data_dir,  batch_size):
         IDataIterator.__init__(self, data_dir, batch_size)
-        ITwoFeature.__init__(self)
+        ITextFeature.__init__(self)
         self.config = ConfigManager("src/config/conll_data_preprocessor.ini")
 
     def __pad_sequences(self, sequences, pad_tok, max_length):

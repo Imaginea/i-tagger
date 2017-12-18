@@ -7,21 +7,22 @@ from helpers.print_helper import *
 
 from preprocessor.patent_data_preprocessor import PatentDataPreprocessor
 
-EXPERIMENT_ROOT_DIR = "experiments/"
-MODEL_DIR = "/home/gaurishk/imaginea/i-tagger/experiments/bilstm_crf_v0/charembd_True_lr_0.001_lstmsize_2-32-32_wemb_32_cemb_32_outprob_0.5/"
+EXPERIMENT_ROOT_DIR = "patent_experiments"
+
 NUM_EPOCHS = 5
 BATCH_SIZE = 2
 
 
 class PattentTagger():
-    def __init__(self):
+    def __init__(self,model_dir=None):
         self.preprocessor = None
         self.estimator = None
         self.data_iterators = None
+        self.model_dir = model_dir
 
         self.preprocessor = PatentDataPreprocessor(
             experiment_root_directory=EXPERIMENT_ROOT_DIR,
-            over_write=None,
+            over_write="yes",
             use_iob=None,
             out_dir=None,
             train_csvs_path=None,
@@ -32,24 +33,34 @@ class PattentTagger():
             entity_col=None,
             do_run_time_config=False)
 
+
+
+    def load_estimator(self):
         estimator_config, estimator = TFEstimatorFactory.get("bilstm_crf_v0")
-        if MODEL_DIR:
-            config = estimator_config.load(MODEL_DIR)
-            if config == None: #Fail safe
-                estimator_config = estimator_config.with_user_hyperparamaters(EXPERIMENT_ROOT_DIR, self.preprocessor.OUT_DIR)
+        if self.model_dir:
+            config = estimator_config.load(self.model_dir)
+            if config is None:  # Fail safe
+                estimator_config = estimator_config.with_user_hyperparamaters(EXPERIMENT_ROOT_DIR,
+                                                                              self.preprocessor.OUT_DIR)
             else:
                 estimator_config = config
         else:
-            estimator_config = estimator_config.with_user_hyperparamaters(EXPERIMENT_ROOT_DIR, self.preprocessor.OUT_DIR)
-
+            estimator_config = estimator_config.with_user_hyperparamaters(EXPERIMENT_ROOT_DIR,
+                                                                          self.preprocessor.OUT_DIR)
         self.estimator = estimator(estimator_config)
-
         self.data_iterators = PatentIDataIterator(self.preprocessor.OUT_DIR, batch_size=BATCH_SIZE)
 
     def preprocess(self):
         self.preprocessor.start()
 
     def train(self):
+
+        self.load_estimator()
+
+        if self.estimator.FEATURE_TYPE != self.data_iterators.FEATURE_TYPE:
+            print_error("Given DataIterator can be used with choosed model. Try other models!!!")
+
+
         self.data_iterators.prepare()
         num_samples = self.data_iterators.NUM_TRAINING_SAMPLES
 

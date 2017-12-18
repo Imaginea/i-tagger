@@ -11,7 +11,7 @@ from data_iterators.conll_data_iterator import CoNLLDataIterator
 EXPERIMENT_ROOT_DIR = "conll_experiments/"
 # MODEL_DIR = "/opt/0.imaginea/git/i-tagger/conll_experiments/bilstm_crf_v0/charembd_True_lr_0.001_lstmsize_2-32-32_wemb_32_cemb_32_outprob_0.5"
 
-NUM_EPOCHS = 5
+NUM_EPOCHS = 15
 BATCH_SIZE = 32
 
 
@@ -35,9 +35,6 @@ class CoNLLTagger():
             entity_col=None,
             do_run_time_config=False)
 
-    def preprocess(self):
-        self.preprocessor.start()
-
     def load_estimator(self):
         estimator_config, estimator = TFEstimatorFactory.get("bilstm_crf_v0")
         if self.model_dir:
@@ -54,6 +51,9 @@ class CoNLLTagger():
         self.estimator = estimator(estimator_config)
 
         self.data_iterators = CoNLLDataIterator(self.preprocessor.OUT_DIR, batch_size=BATCH_SIZE)
+
+    def preprocess(self):
+        self.preprocessor.start()
 
     def train(self):
         self.load_estimator()

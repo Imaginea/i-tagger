@@ -24,7 +24,7 @@ from config.config_helper import ConfigManager
 from config.global_constants import *
 from interfaces.model_configs import IModelConfig
 from helpers.os_helper import check_n_makedirs
-from interfaces.two_features_interface import ITwoFeature
+from interfaces.two_features_interface import ITextFeature
 
 tf.logging.set_verbosity("INFO")
 
@@ -166,7 +166,7 @@ run_config = tf.contrib.learn.RunConfig(session_config=run_config,
                                         keep_checkpoint_max=100)
 
 
-class BiLSTMCRFV0(tf.estimator.Estimator, ITwoFeature):
+class BiLSTMCRFV0(tf.estimator.Estimator, ITextFeature):
     def __init__(self,
                  ner_config: BiLSTMCRFConfigV0):
         tf.estimator.Estimator.__init__(self,
@@ -174,7 +174,7 @@ class BiLSTMCRFV0(tf.estimator.Estimator, ITwoFeature):
                                         model_dir=ner_config.MODEL_DIR,
                                         config=run_config)
 
-        ITwoFeature.__init__(self)
+        ITextFeature.__init__(self)
 
         self.ner_config = ner_config
 

@@ -17,11 +17,13 @@ from overrides import overrides
 from helpers.print_helper import *
 from config.global_constants import *
 from tensorflow.python.platform import gfile
+from interfaces.two_features_interface import ITextFeature
 
-class PatentIDataIterator(IDataIterator):
+class PatentIDataIterator(IDataIterator, ITextFeature):
     def __init__(self, data_dir,  batch_size):
-        super(PatentIDataIterator, self).__init__(data_dir, batch_size)
-
+        IDataIterator.__init__(self, data_dir, batch_size)
+        ITextFeature.__init__(self)
+        self.config = ConfigManager("src/config/patent_data_preprocessor.ini")
     def __pad_sequences(self, sequences, pad_tok, max_length):
         """
         Args:
@@ -101,12 +103,8 @@ class PatentIDataIterator(IDataIterator):
 
         df = pd.read_csv(text_file_path,
                          delimiter=SEPRATOR,
-                         header=None,
                          skip_blank_lines=False,
                          quotechar=QUOTECHAR).fillna(EMPTY_LINE_FILLER)
-
-        columns = [self.TEXT_COL, self.ENTITY_COL, "doc_id"]  # define columns #TODO 1
-        df.columns = columns
 
         # get the column values
         sequences = df[self.TEXT_COL].values
