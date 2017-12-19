@@ -9,11 +9,14 @@ from importlib import import_module
 class TFEstimatorFactory():
 
     models = {
-        "bilstm_crf_v0": "BiLSTMCRFV0"
+        "bilstm_crf_v0": "BiLSTMCRFV0",
+        "bilstm_crf_v1": "BiLSTMCRFV1"
+
     }
 
     model_configurations = {
-        "bilstm_crf_v0": "BiLSTMCRFConfigV0"
+        "bilstm_crf_v0": "BiLSTMCRFConfigV0",
+        "bilstm_crf_v1": "BiLSTMCRFConfigV1"
     }
     def __init__(self):
         ""

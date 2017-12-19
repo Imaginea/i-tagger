@@ -3,11 +3,11 @@ import sys
 
 sys.path.append("src/")
 
-from taggers.patent_tagger import PattentTagger
+from taggers.positional_patent_tagger import PositionalPatentTagger
 
 
 def run(opt):
-    tagger = PattentTagger(model_dir=opt.model_dir)
+    tagger = PositionalPatentTagger(model_dir=opt.model_dir)
     if opt.mode == "preprocess":
         tagger.preprocess()
     elif opt.mode == "train":
@@ -24,14 +24,14 @@ if __name__ == "__main__":
     # CONLL specific preprocessing
 
     optparse.add_argument('-mode', '--mode',
-                          choices=['preprocess', 'train', "retrain"],
+                          choices=['preprocess', 'train', "retrain", "predict"],
                           required=True,
-                          help="'preprocess, 'train', 'retrain'"
+                          help="'preprocess, 'train', 'retrain','predict'"
                           )
 
     optparse.add_argument('-md', '--model-dir', action='store',
                           dest='model_dir', required=False,
-                          help='Pass to model directory needed for training')
+                          help='Model directory needed for training')
 
     optparse.add_argument('-md', '--predict-dir', action='store',
                           dest='predict_dir', required=False,

@@ -17,12 +17,12 @@ from overrides import overrides
 from helpers.print_helper import *
 from config.global_constants import *
 from tensorflow.python.platform import gfile
-from interfaces.two_features_interface import ITextFeature
+from interfaces.two_features_interface import IPostionalFeature
 
-class PatentIDataIterator(IDataIterator, ITextFeature):
+class PositionalPatentIDataIterator(IDataIterator, IPostionalFeature):
     def __init__(self, data_dir,  batch_size):
         IDataIterator.__init__(self, data_dir, batch_size)
-        ITextFeature.__init__(self)
+        IPostionalFeature.__init__(self)
         self.config = ConfigManager("src/config/patent_data_preprocessor.ini")
     def __pad_sequences(self, sequences, pad_tok, max_length):
         """
@@ -89,6 +89,26 @@ class PatentIDataIterator(IDataIterator, ITextFeature):
 
         return sequence_padded, sequence_length
 
+    def pad_position(self, sequences, pad_tok=[0, 0, 0]):
+        """
+        Args:
+            sequences: a list of [x,y,z] positions eg:  [[], [(1,2,3),(4,5,6)],[(7,8,9)], []]
+            pad_tok: default x,y,z postion
+        Returns:
+            a list of list where each sublist has same length
+
+        """
+        sequence_padded = []
+        max_length = max(map(lambda x: len(x), sequences))
+        for seq in sequences:
+            copy_seq = seq
+            current_length = len(seq)
+            diff = max_length - current_length
+            pad_data = [pad_tok for _ in range(diff)]
+            copy_seq.extend(pad_data)
+            sequence_padded.append(copy_seq)
+        return sequence_padded, max_length
+
     def _make_seq_pair(self, text_file_path, char_2_id_map, use_char_embd):
         '''
         Reads the CoNLL text file and makes Sentence-Tags pair for NN model
@@ -101,6 +121,7 @@ class PatentIDataIterator(IDataIterator, ITextFeature):
 
         self.TEXT_COL = self.config.get_item("Schema", "text_column")
         self.ENTITY_COL = self.config.get_item("Schema", "entity_column")
+        self.POSITIONAL_COL = self.config.get_item("Schema","positional_column")
 
         df = pd.read_csv(text_file_path,
                          delimiter=SEPRATOR,
@@ -110,19 +131,22 @@ class PatentIDataIterator(IDataIterator, ITextFeature):
         # get the column values
         sequences = df[self.TEXT_COL].values
         labels = df[self.ENTITY_COL].values
+        positions = df[self.POSITIONAL_COL.split(",") ].values.tolist()
 
         list_text = []
+        list_postions = []
         list_char_ids = []
         list_tag = []
 
         # [feature1 ,feature2, label]
         sentence_feature1 = []
         char_ids_feature2 = []
+        positional_feature3 = []
         tag_label = []
-
-        for word, tag in tqdm(zip(sequences, labels)):
+        for word,position, tag in tqdm(zip(sequences,positions, labels)):
             if word != EMPTY_LINE_FILLER:  # collect the sequence data till new line
                 list_text.append(word)
+                list_postions.append(position)
                 try:
                     word_2_char_ids = [char_2_id_map.get(c, 0) for c in word]
                     list_char_ids.append(word_2_char_ids)
@@ -134,11 +158,13 @@ class PatentIDataIterator(IDataIterator, ITextFeature):
             else:  # when a new line encountered, make an example with feature and label
                 sentence_feature1.append(" ".join(list_text))
                 char_ids_feature2.append(list_char_ids)
+                positional_feature3.append(list_postions)
                 tag_label.append(" ".join(list_tag))
 
                 # Make the container empty
                 list_text = []
                 list_char_ids = []
+                list_postions = []
                 list_tag = []
 
         # pdb.set_trace()
@@ -147,7 +173,15 @@ class PatentIDataIterator(IDataIterator, ITextFeature):
         # char_ids_feature2 = np.array([np.array(xi+[0]*(length-len(xi))) for xi in char_ids_feature2])
 
 
-        # pdb.set_trace()
+        positional_feature3, seq_length = self.pad_position(positional_feature3)
+
+
+
+
+
+        positional_feature3 = np.array(positional_feature3)
+
+
 
         if use_char_embd:
             sentence_feature1, seq_length = self._pad_sequences(sentence_feature1, nlevels=1,
@@ -162,18 +196,18 @@ class PatentIDataIterator(IDataIterator, ITextFeature):
             tag_label, seq_length = self._pad_sequences(tag_label, nlevels=1, pad_tok=" <PAD>")
             tag_label = np.array(tag_label)
 
-            return sentence_feature1, char_ids_feature2, tag_label
+            return sentence_feature1, char_ids_feature2,positional_feature3, tag_label
 
         else:
             sentence_feature1 = np.array(sentence_feature1)
             tag_label = np.array(tag_label)
-            return sentence_feature1, None, tag_label
+            return sentence_feature1, None,positional_feature3, tag_label
 
     #######################################################################################
     #               TF Data Graph Operations
     #######################################################################################
 
-    def _setup_input_graph2(self, text_features, char_ids, labels, batch_size,
+    def _setup_input_graph2(self, text_features,positional_features, char_ids, labels, batch_size,
                             # num_epocs,
                             use_char_embd=False,
                             is_eval=False,
@@ -194,10 +228,13 @@ class PatentIDataIterator(IDataIterator, ITextFeature):
         iterator_initializer_hook = DataIteratorInitializerHook()
 
         tf.logging.info("text_features.shape: =====> {}".format(text_features.shape))
+        tf.logging.info("positional_features.shape: =====> {}".format(positional_features.shape))
         # tf.logging.info("numeric_features.shape: =====> {}".format(char_ids.shape))
         tf.logging.info("labels.shape: =====> {}".format(labels.shape))
 
-        tf.logging.info("text_features.type: =====> {}".format(type(text_features)))
+        tf.logging.info("text_features.shape: =====> {}".format(type(text_features)))
+        tf.logging.info("positional_features.type: =====> {}".format(type(positional_features)))
+
         tf.logging.info("numeric_features.type: =====> {}".format(type(char_ids)))
         char_ids = np.array(char_ids)
         tf.logging.info("labels.type: =====> {}".format(type(labels)))
@@ -217,6 +254,7 @@ class PatentIDataIterator(IDataIterator, ITextFeature):
 
                 # Define placeholders
                 text_features_placeholder = tf.placeholder(tf.string, text_features.shape, name="sentence")
+                positional_features_placeholder = tf.placeholder(tf.float32, positional_features.shape, name="position")
                 if use_char_embd:
                     char_ids_placeholder = tf.placeholder(tf.int32, [None, None, 20], name="char_ids")
                 labels_placeholder = tf.placeholder(labels.dtype, labels.shape, name="label")
@@ -224,10 +262,12 @@ class PatentIDataIterator(IDataIterator, ITextFeature):
                 # Build dataset iterator
                 if use_char_embd:
                     dataset = tf.data.Dataset.from_tensor_slices(({"text": text_features_placeholder,
-                                                                   "char_ids": char_ids_placeholder},
+                                                                   "char_ids": char_ids_placeholder,
+                                                                  "position": positional_features_placeholder},
                                                                   labels_placeholder))
                 else:
-                    dataset = tf.data.Dataset.from_tensor_slices(({"text": text_features_placeholder},
+                    dataset = tf.data.Dataset.from_tensor_slices(({"text": text_features_placeholder,
+                                                                  "position": positional_features_placeholder},
                                                                   labels_placeholder))
                 if is_eval:
                     dataset = dataset.repeat(1)
@@ -246,12 +286,14 @@ class PatentIDataIterator(IDataIterator, ITextFeature):
                             iterator.initializer,
                             feed_dict={text_features_placeholder: text_features,
                                        char_ids_placeholder: char_ids,
+                                       positional_features_placeholder: positional_features,
                                        labels_placeholder: labels})
                 else:
                     iterator_initializer_hook.iterator_initializer_func = \
                         lambda sess: sess.run(
                             iterator.initializer,
                             feed_dict={text_features_placeholder: text_features,
+                                       positional_features_placeholder: positional_features,
                                        labels_placeholder: labels})
 
                 next_features, next_label = iterator.get_next()
@@ -262,7 +304,7 @@ class PatentIDataIterator(IDataIterator, ITextFeature):
         # Return function and hook
         return inputs, iterator_initializer_hook
 
-    def predict_inputs(self, features, char_ids, batch_size=1, scope='test-data'):
+    def predict_inputs(self, features,positional_features, char_ids, batch_size=1, scope='test-data'):
         """Returns test set as Operations.
         Returns:
             (features, ) Operations that iterate over the test set.
@@ -271,10 +313,19 @@ class PatentIDataIterator(IDataIterator, ITextFeature):
         if not isinstance(features, list):
             features = [features]
 
+        if not isinstance(positional_features, list):
+            positional_features = [positional_features]
+            positional_features = np.asarray(positional_features)
+
+        #TODO mages why this is not below doc in scope below
+        positional_features = tf.constant(positional_features, dtype=tf.float32)
+
         def inputs():
             with tf.name_scope(scope):
                 docs = tf.constant(features, dtype=tf.string)
+
                 dataset = tf.data.Dataset.from_tensor_slices(({"text": docs,
+                                                               "position": positional_features,
                                                                "char_ids": char_ids},))
                 dataset.repeat(1)
                 # Return as iteration in batches of 1
@@ -285,24 +336,26 @@ class PatentIDataIterator(IDataIterator, ITextFeature):
 
     @overrides
     def setup_train_input_graph(self):
-        train_sentences, train_char_ids, train_ner_tags = \
+        train_sentences, train_char_ids, train_positions, train_ner_tags = \
             self._make_seq_pair(text_file_path=self.preprocessed_data_info.TRAIN_DATA_FILE,
                                 char_2_id_map=self.preprocessed_data_info.char_2_id_map,
                                 use_char_embd=True) #TODO
         self.NUM_TRAINING_SAMPLES = train_sentences.shape[0] #TODO
 
         self.train_data_input_fn, self.train_data_init_hook = self._setup_input_graph2(text_features=train_sentences,
+                                                                                       positional_features=train_positions,
                                                                                      char_ids=train_char_ids,
                                                                                      labels=train_ner_tags,
                                                                                      batch_size=self.BATCH_SIZE,
                                                                                      use_char_embd=True) #TODO
     @overrides
     def setup_val_input_graph(self):
-        val_sentences, val_char_ids, val_ner_tags = \
+        val_sentences, val_char_ids, eval_positions, val_ner_tags = \
             self._make_seq_pair(text_file_path=self.preprocessed_data_info.VAL_DATA_FILE,
                                 char_2_id_map=self.preprocessed_data_info.char_2_id_map,
                                 use_char_embd=True) #TODO
         self.val_data_input_fn, self.val_data_init_hook = self._setup_input_graph2(text_features=val_sentences,
+                                                                                   positional_features=eval_positions,
                                                                                      char_ids=val_char_ids,
                                                                                      labels=val_ner_tags,
                                                                                      batch_size=self.BATCH_SIZE,

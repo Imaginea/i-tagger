@@ -8,7 +8,9 @@ class TwoFeatures():
         self.FEATURE_1_NAME = None
         self.FEATURE_2_NAME = None
 
-    # def equal:
+    def __eq__(self, other):
+        """Override the default Equals behavior"""
+        return self.FEATURE_NAME == other.FEATURE_NAME and self.NUM_FEATURES==other.NUM_FEATURES
 
 #TODO Change name to ITextFeature
 class ITextFeature(TwoFeatures):
@@ -20,8 +22,8 @@ class ITextFeature(TwoFeatures):
 
 class IPostionalFeature():
     def __init__(self):
-        self.FEATURE_TYPE = "text+char_ids+positional_info"
+        self.FEATURE_NAME = "text+char_ids+positional_info"
         self.NUM_FEATURES = 3
         self.FEATURE_1_NAME = "text"
         self.FEATURE_2_NAME = "char_ids"
-        self.FEATURE_3_NAME = "x_cord,y_cord,page_no"
+        self.FEATURE_3_NAME = "position"

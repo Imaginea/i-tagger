@@ -9,7 +9,6 @@ from preprocessor.conll_data_preprocessor import CoNLLDataPreprocessor
 from data_iterators.conll_data_iterator import CoNLLDataIterator
 
 EXPERIMENT_ROOT_DIR = "conll_experiments/"
-# MODEL_DIR = "/opt/0.imaginea/git/i-tagger/conll_experiments/bilstm_crf_v0/charembd_True_lr_0.001_lstmsize_2-32-32_wemb_32_cemb_32_outprob_0.5"
 
 NUM_EPOCHS = 15
 BATCH_SIZE = 32
@@ -39,7 +38,7 @@ class CoNLLTagger():
         estimator_config, estimator = TFEstimatorFactory.get("bilstm_crf_v0")
         if self.model_dir:
             config = estimator_config.load(self.model_dir)
-            if config == None:  # Fail safe
+            if config is None:  # Fail safe
                 estimator_config = estimator_config.with_user_hyperparamaters(EXPERIMENT_ROOT_DIR,
                                                                               self.preprocessor.OUT_DIR)
             else:
@@ -58,8 +57,9 @@ class CoNLLTagger():
     def train(self):
         self.load_estimator()
 
-        if self.estimator.FEATURE_TYPE != self.data_iterators.FEATURE_TYPE:
+        if self.estimator == self.data_iterators:
             print_error("Given DataIterator can be used with choosed model. Try other models!!!")
+            exit(1)
 
         self.data_iterators.prepare()
         num_samples = self.data_iterators.NUM_TRAINING_SAMPLES

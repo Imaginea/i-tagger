@@ -6,7 +6,7 @@ from models.model_factory import TFEstimatorFactory
 from helpers.print_helper import *
 
 from preprocessor.patent_data_preprocessor import PatentDataPreprocessor
-from data_iterators.patent_data_iterator import PatentIDataIterator
+from data_iterators.positional_patent_data_iterator import PositionalPatentIDataIterator
 
 EXPERIMENT_ROOT_DIR = "patent_experiments"
 
@@ -14,7 +14,7 @@ NUM_EPOCHS = 5
 BATCH_SIZE = 2
 
 
-class PattentTagger():
+class PositionalPatentTagger():
     def __init__(self,model_dir=None):
         self.preprocessor = None
         self.estimator = None
@@ -34,8 +34,9 @@ class PattentTagger():
             entity_col=None,
             do_run_time_config=False)
 
+
     def load_estimator(self):
-        estimator_config, estimator = TFEstimatorFactory.get("bilstm_crf_v0")
+        estimator_config, estimator = TFEstimatorFactory.get("bilstm_crf_v1")
         if self.model_dir:
             config = estimator_config.load(self.model_dir)
             if config is None:  # Fail safe
@@ -47,7 +48,7 @@ class PattentTagger():
             estimator_config = estimator_config.with_user_hyperparamaters(EXPERIMENT_ROOT_DIR,
                                                                           self.preprocessor.OUT_DIR)
         self.estimator = estimator(estimator_config)
-        self.data_iterators = PatentIDataIterator(self.preprocessor.OUT_DIR, batch_size=BATCH_SIZE)
+        self.data_iterators = PositionalPatentIDataIterator(self.preprocessor.OUT_DIR, batch_size=BATCH_SIZE)
 
     def preprocess(self):
         self.preprocessor.start()
@@ -85,5 +86,7 @@ class PattentTagger():
 
             print(eval_results)
 
-    def predict_on_test_files(self):
-        self.data_iterators.predict_on_csv_files(estimator=self.estimator, csv_files_path="data/test/")
+    def predict_on_test_files(self,csv_files_path="data/test/"):
+        #TODO handle the estimator behaviour in train, retrain and predict mode
+        self.load_estimator()
+        self.data_iterators.predict_on_csv_files(estimator=self.estimator, csv_files_path=csv_files_path)

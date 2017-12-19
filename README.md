@@ -72,10 +72,14 @@ We are using CoNLL 2003 dataset for testing purpose.
 - https://github.com/synalp/NER/tree/master/corpus/CoNLL-2003
 
 ### Commands
- 
+- For running conll dataset example move to directory: i-tagger
 ```bash
-python  src/commands/conll_2003_dataset.py --mode=preprocess
-python  src/commands/conll_2003_dataset.py --mode=train 
+
+python src/commands/patent_dataset.py --mode=preprocess
+python src/commands/patent_dataset.py --mode=train 
+python src/commands/patent_dataset.py --mode=retrain --model-dir=PATH TO Model
+python src/commands/patent_dataset.py --mode=predict --model-dir=PATH TO Model --predict-dir=PATH to Prediction files  
+
 ``` 
 
 # Current Architecture
