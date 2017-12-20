@@ -5,7 +5,7 @@ software environment backed by Tensorflow.
 maintaining the interoperability.
 
 # Related Work
-Below two Git repos that got our attention:
+Below two Git repos got our attention:
 - https://github.com/guillaumegenthial/sequence_tagging
 - https://github.com/Franck-Dernoncourt/NeuroNER
 
@@ -22,7 +22,7 @@ Below two Git repos that got our attention:
  - Top level accuracies on open Conll dataset 2003
  - Extract information from patent documents for form filling, from historical
 data entries from the Database records.
- -
+
 # Solution or proposal
 
 ## Current Architecture
