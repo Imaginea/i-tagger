@@ -24,7 +24,7 @@ if __name__ == "__main__":
     # CONLL specific preprocessing
 
     optparse.add_argument('-mode', '--mode',
-                          choices=['preprocess', 'train', "retrain"],
+                          choices=['preprocess', 'train', "retrain","predict"],
                           required=True,
                           help="'preprocess, 'train', 'retrain'"
                           )
