@@ -1,6 +1,7 @@
 import sys
 
 sys.path.append("src/")
+from tensorflow.python import debug as tf_debug
 
 from models.model_factory import TFEstimatorFactory
 from helpers.print_helper import *
@@ -53,7 +54,7 @@ class PositionalPatentTagger():
     def preprocess(self):
         self.preprocessor.start()
 
-    def train(self):
+    def train(self,debug=False):
         self.load_estimator()
 
         print(self.estimator==self.data_iterators)
@@ -73,7 +74,14 @@ class PositionalPatentTagger():
             max_steps = (num_samples // BATCH_SIZE) * (current_epoch + 1)
 
             train_hooks = []
+
+
             train_hooks.append(self.data_iterators.train_data_init_hook)
+
+            if debug:
+                debug_hook = tf_debug.LocalCLIDebugHook()
+                train_hooks.append(debug_hook)
+
             # if len(estimator.hooks) > 0:
             #     train_hooks.extend(tagger.hooks)
 

@@ -114,7 +114,7 @@ class BiLSTMCRFConfigV1(IModelConfig):
         out_keep_propability = float(input("out_keep_propability(0.5) : ")) or 0.5
 
         # Does this sound logical? review please
-        model_dir = experiment_root_dir + "/bilstm_crf_v0/" + \
+        model_dir = experiment_root_dir + "/bilstm_crf_v1/" + \
                     "charembd_{}_lr_{}_lstmsize_{}-{}-{}_wemb_{}_cemb_{}_outprob_{}".format(
                         str(use_char_embedding),
                         learning_rate,
