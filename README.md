@@ -72,7 +72,8 @@ We are using CoNLL 2003 dataset for testing purpose.
 - https://github.com/synalp/NER/tree/master/corpus/CoNLL-2003
 
 ### Commands
-- For running conll dataset example move to directory: i-tagger
+- For running patent dataset example move to directory: i-tagger
+
 ```bash
 
 python src/commands/patent_dataset.py --mode=preprocess
