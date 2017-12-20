@@ -7,7 +7,6 @@ import numpy as np
 import os
 import pandas as pd
 from tqdm import tqdm
-import pickle
 import ntpath
 
 import tensorflow as tf
@@ -19,11 +18,13 @@ from config.global_constants import *
 from tensorflow.python.platform import gfile
 from interfaces.two_features_interface import IPostionalFeature
 
+
 class PositionalPatentIDataIterator(IDataIterator, IPostionalFeature):
-    def __init__(self, data_dir,  batch_size):
+    def __init__(self, data_dir, batch_size):
         IDataIterator.__init__(self, data_dir, batch_size)
         IPostionalFeature.__init__(self)
         self.config = ConfigManager("src/config/patent_data_preprocessor.ini")
+
     def __pad_sequences(self, sequences, pad_tok, max_length):
         """
         Args:
@@ -69,7 +70,7 @@ class PositionalPatentIDataIterator(IDataIterator, IPostionalFeature):
                 sequence_length.append(max_length)  # assumed
 
                 # print_info(sequence_length)
-                #TODO Hey mages can you elaborate the use of this function ?
+                # TODO Hey mages can you elaborate the use of this function ?
         elif nlevels == 2:
             # max_length_word = max([max(map(lambda x: len(x), seq))
             #                        for seq in sequences])
@@ -82,10 +83,10 @@ class PositionalPatentIDataIterator(IDataIterator, IPostionalFeature):
 
             max_length_sentence = max(map(lambda x: len(x), sequences))
             sequence_padded, _ = self.__pad_sequences(sequence_padded,
-                                                     [pad_tok] * MAX_WORD_LENGTH,
-                                                     max_length_sentence)
+                                                      [pad_tok] * MAX_WORD_LENGTH,
+                                                      max_length_sentence)
             sequence_length, _ = self.__pad_sequences(sequence_length, 0,
-                                                     max_length_sentence)
+                                                      max_length_sentence)
 
         return sequence_padded, sequence_length
 
@@ -121,7 +122,7 @@ class PositionalPatentIDataIterator(IDataIterator, IPostionalFeature):
 
         self.TEXT_COL = self.config.get_item("Schema", "text_column")
         self.ENTITY_COL = self.config.get_item("Schema", "entity_column")
-        self.POSITIONAL_COL = self.config.get_item("Schema","positional_column")
+        self.POSITIONAL_COL = self.config.get_item("Schema", "positional_column")
 
         df = pd.read_csv(text_file_path,
                          delimiter=SEPRATOR,
@@ -131,7 +132,7 @@ class PositionalPatentIDataIterator(IDataIterator, IPostionalFeature):
         # get the column values
         sequences = df[self.TEXT_COL].values
         labels = df[self.ENTITY_COL].values
-        positions = df[self.POSITIONAL_COL.split(",") ].values.tolist()
+        positions = df[self.POSITIONAL_COL.split(",")].values.tolist()
 
         list_text = []
         list_postions = []
@@ -143,7 +144,7 @@ class PositionalPatentIDataIterator(IDataIterator, IPostionalFeature):
         char_ids_feature2 = []
         positional_feature3 = []
         tag_label = []
-        for word,position, tag in tqdm(zip(sequences,positions, labels)):
+        for word, position, tag in tqdm(zip(sequences, positions, labels)):
             if word != EMPTY_LINE_FILLER:  # collect the sequence data till new line
                 list_text.append(word)
                 list_postions.append(position)
@@ -172,20 +173,13 @@ class PositionalPatentIDataIterator(IDataIterator, IPostionalFeature):
         # print_error(length)
         # char_ids_feature2 = np.array([np.array(xi+[0]*(length-len(xi))) for xi in char_ids_feature2])
 
-
         positional_feature3, seq_length = self.pad_position(positional_feature3)
-
-
-
-
 
         positional_feature3 = np.array(positional_feature3)
 
-
-
         if use_char_embd:
             sentence_feature1, seq_length = self._pad_sequences(sentence_feature1, nlevels=1,
-                                                               pad_tok=" <PAD>")  # space is used so that it can append to the string sequence
+                                                                pad_tok=" <PAD>")  # space is used so that it can append to the string sequence
             sentence_feature1 = np.array(sentence_feature1)
 
             char_ids_feature2, seq_length = self._pad_sequences(char_ids_feature2, nlevels=2, pad_tok=0)
@@ -196,18 +190,18 @@ class PositionalPatentIDataIterator(IDataIterator, IPostionalFeature):
             tag_label, seq_length = self._pad_sequences(tag_label, nlevels=1, pad_tok=" <PAD>")
             tag_label = np.array(tag_label)
 
-            return sentence_feature1, char_ids_feature2,positional_feature3, tag_label
+            return sentence_feature1, char_ids_feature2, positional_feature3, tag_label
 
         else:
             sentence_feature1 = np.array(sentence_feature1)
             tag_label = np.array(tag_label)
-            return sentence_feature1, None,positional_feature3, tag_label
+            return sentence_feature1, None, positional_feature3, tag_label
 
     #######################################################################################
     #               TF Data Graph Operations
     #######################################################################################
 
-    def _setup_input_graph2(self, text_features,positional_features, char_ids, labels, batch_size,
+    def _setup_input_graph2(self, text_features, positional_features, char_ids, labels, batch_size,
                             # num_epocs,
                             use_char_embd=False,
                             is_eval=False,
@@ -263,11 +257,11 @@ class PositionalPatentIDataIterator(IDataIterator, IPostionalFeature):
                 if use_char_embd:
                     dataset = tf.data.Dataset.from_tensor_slices(({"text": text_features_placeholder,
                                                                    "char_ids": char_ids_placeholder,
-                                                                  "position": positional_features_placeholder},
+                                                                   "position": positional_features_placeholder},
                                                                   labels_placeholder))
                 else:
                     dataset = tf.data.Dataset.from_tensor_slices(({"text": text_features_placeholder,
-                                                                  "position": positional_features_placeholder},
+                                                                   "position": positional_features_placeholder},
                                                                   labels_placeholder))
                 if is_eval:
                     dataset = dataset.repeat(1)
@@ -304,7 +298,7 @@ class PositionalPatentIDataIterator(IDataIterator, IPostionalFeature):
         # Return function and hook
         return inputs, iterator_initializer_hook
 
-    def predict_inputs(self, features,positional_features, char_ids, batch_size=1, scope='test-data'):
+    def predict_inputs(self, features, positional_features, char_ids, batch_size=1, scope='test-data'):
         """Returns test set as Operations.
         Returns:
             (features, ) Operations that iterate over the test set.
@@ -317,7 +311,7 @@ class PositionalPatentIDataIterator(IDataIterator, IPostionalFeature):
             positional_features = [positional_features]
             positional_features = np.asarray(positional_features)
 
-        #TODO mages why this is not below doc in scope below
+        # TODO mages why this is not below doc in scope below
         positional_features = tf.constant(positional_features, dtype=tf.float32)
 
         def inputs():
@@ -333,33 +327,34 @@ class PositionalPatentIDataIterator(IDataIterator, IPostionalFeature):
 
         return inputs
 
-
     @overrides
     def setup_train_input_graph(self):
         train_sentences, train_char_ids, train_positions, train_ner_tags = \
             self._make_seq_pair(text_file_path=self.preprocessed_data_info.TRAIN_DATA_FILE,
                                 char_2_id_map=self.preprocessed_data_info.char_2_id_map,
-                                use_char_embd=True) #TODO
-        self.NUM_TRAINING_SAMPLES = train_sentences.shape[0] #TODO
+                                use_char_embd=True)  # TODO
+        self.NUM_TRAINING_SAMPLES = train_sentences.shape[0]  # TODO
 
         self.train_data_input_fn, self.train_data_init_hook = self._setup_input_graph2(text_features=train_sentences,
                                                                                        positional_features=train_positions,
-                                                                                     char_ids=train_char_ids,
-                                                                                     labels=train_ner_tags,
-                                                                                     batch_size=self.BATCH_SIZE,
-                                                                                     use_char_embd=True) #TODO
+                                                                                       char_ids=train_char_ids,
+                                                                                       labels=train_ner_tags,
+                                                                                       batch_size=self.BATCH_SIZE,
+                                                                                       use_char_embd=True)  # TODO
+
     @overrides
     def setup_val_input_graph(self):
         val_sentences, val_char_ids, eval_positions, val_ner_tags = \
             self._make_seq_pair(text_file_path=self.preprocessed_data_info.VAL_DATA_FILE,
                                 char_2_id_map=self.preprocessed_data_info.char_2_id_map,
-                                use_char_embd=True) #TODO
+                                use_char_embd=True)  # TODO
         self.val_data_input_fn, self.val_data_init_hook = self._setup_input_graph2(text_features=val_sentences,
                                                                                    positional_features=eval_positions,
-                                                                                     char_ids=val_char_ids,
-                                                                                     labels=val_ner_tags,
-                                                                                     batch_size=self.BATCH_SIZE,
-                                                                                     use_char_embd=True) #TODO
+                                                                                   char_ids=val_char_ids,
+                                                                                   labels=val_ner_tags,
+                                                                                   batch_size=self.BATCH_SIZE,
+                                                                                   use_char_embd=True)  # TODO
+
     # @overrides
     # def setup_predict_input_graph(self):
     #     #TODO this is not used, since we need to append the predicted value to the CSV files
@@ -374,16 +369,15 @@ class PositionalPatentIDataIterator(IDataIterator, IPostionalFeature):
     #                                                                                  batch_size=self.BATCH_SIZE,
     #                                                                                  use_char_embd=True) #TODO
 
-    def get_tags(self, estimator, sentence, char_ids, tag_vocab_tsv):
+    def get_tags(self, estimator, sentence, positions, char_ids, tag_vocab_tsv):
 
         with gfile.Open(tag_vocab_tsv, 'r') as file:
             ner_vocab = list(map(lambda x: x.strip(), file.readlines()))
             tags_vocab = {id_num: tag for id_num, tag in enumerate(ner_vocab)}
 
         predictions = []
-        test_input_fn = self.predict_inputs(sentence, char_ids)
+        test_input_fn = self.predict_inputs(features=sentence, positional_features=positions, char_ids=char_ids)
         predict_fn = estimator.predict(input_fn=test_input_fn)
-
 
         for predict in predict_fn:
             predictions.append(predict)
@@ -421,6 +415,8 @@ class PositionalPatentIDataIterator(IDataIterator, IPostionalFeature):
     def predict_on_csv_files(self, estimator,
                              csv_files_path):
 
+        positional_columns = self.config.get_item("Schema", "positional_column")
+
         for csv_file in tqdm(os.listdir(csv_files_path)):
             sentence = ""
             csv_file = os.path.join(csv_files_path, csv_file)
@@ -431,12 +427,16 @@ class PositionalPatentIDataIterator(IDataIterator, IPostionalFeature):
                 # df = io_2_iob(df, entity_col, entity_iob_col) # removing since we are using preprocessed test folder TODO chain IOB
                 sentence = (" ".join(df[self.preprocessed_data_info.TEXT_COL].values))
 
-                char_ids = [[self.preprocessed_data_info.char_2_id_map.get(c, 0) for c in word] for word in sentence.split(" ")]
+                positions = df[positional_columns.split(",")].astype(float).values
+
+                char_ids = [[self.preprocessed_data_info.char_2_id_map.get(c, 0) for c in word] for word in
+                            sentence.split(" ")]
                 char_ids, char_ids_length = self._pad_sequences([char_ids], pad_tok=0, nlevels=2)
 
                 # TODO add batch support
                 predicted_tags, confidence, pred_1, pred_1_confidence, pred_2, pred_2_confidence, \
-                pred_3, pred_3_confidence = self.get_tags(estimator, sentence, char_ids, self.preprocessed_data_info.ENTITY_VOCAB_FILE)
+                pred_3, pred_3_confidence = self.get_tags(estimator, sentence, positions, char_ids,
+                                                          self.preprocessed_data_info.ENTITY_VOCAB_FILE)
                 df["predictions"] = predicted_tags
                 df["confidence"] = confidence
                 df["pred_1"] = pred_1
@@ -446,8 +446,8 @@ class PositionalPatentIDataIterator(IDataIterator, IPostionalFeature):
                 df["pred_3"] = pred_3
                 df["pred_3_confidence"] = pred_3_confidence
 
-                out_dir = estimator.model_dir +"/predictions/"
+                out_dir = estimator.model_dir + "/predictions/"
                 check_n_makedirs(out_dir)
-                df.to_csv(out_dir +ntpath.basename(csv_file), index=False)
+                df.to_csv(out_dir + ntpath.basename(csv_file), index=False)
 
         return None

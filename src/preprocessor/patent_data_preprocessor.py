@@ -288,7 +288,6 @@ class PatentDataPreprocessor(IPreprocessorInterface):
                             file_str = []
                             for f_k in (values[i]):
                                 file_str.append(str(f_k))
-                            print("len(values[i])",len(values[i]),str(i))
                             file.write("{}\n".format(" ".join(file_str)))  # TODO 1
 
                         # take the last row of value and set it as end
