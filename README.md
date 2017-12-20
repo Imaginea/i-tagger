@@ -1,4 +1,57 @@
-# Requirements:
+# Introduction
+- Develop deep learning sequence to sequence models in an modular
+software environment backed by Tensorflow.
+- Where different data sets and models can be experimented without worry of
+maintaining the interoperability.
+
+# Related Work
+Below two Git repos that got our attention:
+- https://github.com/guillaumegenthial/sequence_tagging
+- https://github.com/Franck-Dernoncourt/NeuroNER
+
+# Problem Statement
+ - To come up with an software architecture to try different models on different dataset
+ - Which should take care of:
+    - Preprocessing the data
+    - Preparing the data iterators for training, validation and testing for set of features and their types
+    - Use a model that aligns with the data iterator feature type
+    - Train the model in an iterative manner, with fail safe
+    - Use the trained model to predict on new data
+
+**What we solved using this code?**
+ - Top level accuracies on open Conll dataset 2003
+ - Extract information from patent documents for form filling, from historical
+data entries from the Database records.
+ -
+# Solution or proposal
+
+## Current Architecture
+
+- Text Dataset may have one or more features like words, characters, positional information of words etc.,
+- Data iterators enforces number of features and their types, so that set of models can work on down the line
+- Models should agree with data iterator features types and make use of the aviable features to train the data
+
+
+![](docs/images/i_tagger_architecture.png)
+
+
+- [Tensorflow Estimators](https://www.tensorflow.org/extend/estimators) is used for training/evaluating/saving/restoring/predicting
+
+![](docs/images/tf_estimators.png)
+
+# Available Models:
+- [Models](docs/models)
+    - [Variable Length BiLSTM with CRF](docs/models/bilstm_crf_v0/BiLSTM_CRF_V0.md)
+
+
+# Validation
+
+
+-------------------------------------------------------------------
+
+# Setup
+
+## Requirements:
 - Python 3.5
 - tensorflow-gpu r1.4
 - spaCy
@@ -7,7 +60,7 @@
 - overrides
 
 
-### How run on GPU server: (Imginea Specific)
+## How run on GPU server: (Imginea Specific)
 
 ```bash
 #run following command for one time password verification
@@ -27,13 +80,15 @@ source activate tensorflow-gpu
 python --version
 
 ```
-### Anaconda Environmnet setup: (General Users)
+
+## Anaconda Environmnet setup: (General Users)
 
 ```bash
 conda create -n tensorflow-gpu python=3.5 anaconda
 source activate tensorflow-gpu
 ```
-### Environment setup:
+
+## Environment setup:
 ```bash
 pip install tensorflow_gpu
 pip install spacy
@@ -42,7 +97,7 @@ pip install tqdm
 pip install overrides
 ```
 
-### Tmux (Imginea Specific)
+## Tmux (Imginea Specific)
 ```
 cd ~/experiments/
 mkdir your_name
@@ -51,6 +106,7 @@ cd your_name
 git clone https://gitlab.pramati.com/imaginea-labs/i-tagger
 
 ```
+
 **Day to day use**
 ```
 
@@ -63,7 +119,7 @@ export LD_LIBRARY_PATH=/home/rpx/softwares/cudnn6/cuda/lib64:$LD_LIBRARY_PATH
 
 ```
 
-# How to test?
+## How to test?
 
 We are using CoNLL 2003 dataset for testing purpose.
 
@@ -83,30 +139,11 @@ python src/commands/patent_dataset.py --mode=predict --model-dir=PATH TO Model -
 
 ``` 
 
-# Current Architecture
 
-- Text Dataset may have one or more features like words, characters, positional information of words etc., 
-- Data iterators enforces number of features and their types, so that set of models can work on down the line
-- Models should agree with data iterator features types and make use of the aviable features to train the data
-
-
-![](docs/images/i_tagger_architecture.png)
-
-
-- [Tensorflow Estimators](https://www.tensorflow.org/extend/estimators) is used for training/evaluating/saving/restoring/predicting
-
-![](docs/images/tf_estimators.png)
-
-# Available Models:
-- [Models](docs/models)
-    - [Variable Length BiLSTM with CRF](docs/models/bilstm_crf_v0/BiLSTM_CRF_V0.md)
-
-# To understand the Tensorflow APIs
+### Learning Materials
 - [Walk Through of Tensorflow APIs](notebooks/walk_through_of_tf_apis.ipynb)
 
-**References**
-- https://github.com/guillaumegenthial/sequence_tagging
-- https://github.com/Franck-Dernoncourt/NeuroNER
+
 
 TODOs:
 - Remove all default params
