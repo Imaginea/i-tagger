@@ -33,7 +33,7 @@ if __name__ == "__main__":
                           dest='model_dir', required=False,
                           help='Pass to model directory needed for training')
 
-    optparse.add_argument('-md', '--predict-dir', action='store',
+    optparse.add_argument('-pd', '--predict-dir', action='store',
                           dest='predict_dir', required=False,
                           help='Model directory needed for prediction')
 
