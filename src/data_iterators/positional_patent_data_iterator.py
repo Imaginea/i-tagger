@@ -353,7 +353,8 @@ class PositionalPatentIDataIterator(IDataIterator, IPostionalFeature):
                                                                                    char_ids=val_char_ids,
                                                                                    labels=val_ner_tags,
                                                                                    batch_size=self.BATCH_SIZE,
-                                                                                   use_char_embd=True)  # TODO
+                                                                                   use_char_embd=True,
+                                                                                   is_eval=True)  # TODO
 
     # @overrides
     # def setup_predict_input_graph(self):
