@@ -383,53 +383,18 @@ class BiLSTMCRFV1(tf.estimator.Estimator, IPostionalFeature):
 
         #================================================================================================
         with  tf.variable_scope("positional_lstm_layer"):
-            # Create a LSTM Unit cell with hidden size of EMBEDDING_SIZE.
-            d_rnn_cell_fw_one = tf.nn.rnn_cell.LSTMCell(self.ner_config.WORD_LEVEL_LSTM_HIDDEN_SIZE,
-                                                        state_is_tuple=True)
-            d_rnn_cell_bw_one = tf.nn.rnn_cell.LSTMCell(self.ner_config.WORD_LEVEL_LSTM_HIDDEN_SIZE,
-                                                        state_is_tuple=True)
-
-            if is_training:
-                d_rnn_cell_fw_one = tf.contrib.rnn.DropoutWrapper(d_rnn_cell_fw_one,
-                                                                  output_keep_prob=self.ner_config.KEEP_PROP)
-                d_rnn_cell_bw_one = tf.contrib.rnn.DropoutWrapper(d_rnn_cell_bw_one,
-                                                                  output_keep_prob=self.ner_config.KEEP_PROP)
-            else:
-                d_rnn_cell_fw_one = tf.contrib.rnn.DropoutWrapper(d_rnn_cell_fw_one, output_keep_prob=1.0)
-                d_rnn_cell_bw_one = tf.contrib.rnn.DropoutWrapper(d_rnn_cell_bw_one, output_keep_prob=1.0)
-            #
-            # d_rnn_cell_fw_one = tf.nn.rnn_cell.MultiRNNCell(cells=[d_rnn_cell_fw_one] *
-            #                                                       self.ner_config.FLAGS.NUM_LSTM_LAYERS,
-            #                                                 state_is_tuple=True)
-            # d_rnn_cell_bw_one = tf.nn.rnn_cell.MultiRNNCell(cells=[d_rnn_cell_bw_one] *
-            #                                                       self.ner_config.FLAGS.NUM_LSTM_LAYERS,
-            #                                                 state_is_tuple=True)
 
             positional_features = tf.layers.batch_normalization(positional_features)
 
-            tf.logging.info('positional_features_seq_lengtht =====> {}'.format(get_sequence_length(positional_features)))
-
-            (fw_output_one, bw_output_one), _ = tf.nn.bidirectional_dynamic_rnn(
-                cell_fw=d_rnn_cell_fw_one,
-                cell_bw=d_rnn_cell_bw_one,
-                dtype=tf.float32,
-                sequence_length=seq_length,
-                inputs=positional_features,
-                scope="positions_encoded")
-
-            # [BATCH_SIZE, MAX_SEQ_LENGTH, 2*WORD_LEVEL_LSTM_HIDDEN_SIZE) TODO check MAX_SEQ_LENGTH?
-            positions_encoded = tf.concat([fw_output_one,
-                                           bw_output_one], axis=-1)
-
-            tf.logging.info('positions_encoded =====> {}'.format(positions_encoded))
+            tf.logging.info('positional_features =====> {}'.format(positional_features))
             tf.logging.info('encoded_words =====> {}'.format(encoded_words))
             tf.logging.info('encoded_sentence =====> {}'.format(encoded_sentence))
 
         with tf.variable_scope("char_word_embeddings-mergeing_layer"):
             if self.ner_config.USE_CHAR_EMBEDDING:
-                encoded_doc = tf.concat([encoded_words, encoded_sentence,positions_encoded], axis=-1)
+                encoded_doc = tf.concat([encoded_words, encoded_sentence,positional_features], axis=-1)
             else:
-                encoded_doc = tf.concat([encoded_sentence, positions_encoded], axis=-1)
+                encoded_doc = tf.concat([encoded_sentence, positional_features], axis=-1)
 
             # [BATCH_SIZE, MAX_SEQ_LENGTH, 2*WORD_LEVEL_LSTM_HIDDEN_SIZE + 2*CHAR_LEVEL_LSTM_HIDDEN_SIZE]
             encoded_doc = tf.layers.dropout(encoded_doc,
