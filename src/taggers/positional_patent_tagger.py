@@ -75,7 +75,6 @@ class PositionalPatentTagger():
 
             train_hooks = []
 
-
             train_hooks.append(self.data_iterators.train_data_init_hook)
 
             if debug:

@@ -441,48 +441,8 @@ class BiLSTMCRFV1(tf.estimator.Estimator, IPostionalFeature):
 
         with tf.variable_scope("projection"):
 
-            NUM_WORD_LSTM_NETWORKS = 1 + 1 + 1 + 1 # word_level_lstm_layer BiDirectional
-            NUM_CHAR_LSTM_NETWORKS = 1 + 1 # char_level_lstm_layer BiDirectional
+            logits =  tf.layers.dense (encoded_doc,  self.ner_config.NUM_TAGS, name="logit_predictions")
 
-            # Example: If WORD_LEVEL_LSTM_HIDDEN_SIZE = 300, CHAR_LEVEL_LSTM_HIDDEN_SIZE = 300,
-            # NEW_SHAPE = 2 * 300 + 2 * 300 = 1200
-            NEW_SHAPE = NUM_WORD_LSTM_NETWORKS * self.ner_config.WORD_LEVEL_LSTM_HIDDEN_SIZE + \
-                        NUM_CHAR_LSTM_NETWORKS * self.ner_config.CHAR_LEVEL_LSTM_HIDDEN_SIZE
-
-            if self.ner_config.USE_CHAR_EMBEDDING:
-                # [NEW_SHAPE, NUM_TAGS]
-                W = tf.get_variable("W", dtype=tf.float32,
-                                    shape=[NEW_SHAPE, self.ner_config.NUM_TAGS])
-                # [NUM_TAGS]
-                b = tf.get_variable("b", shape=[self.ner_config.NUM_TAGS],
-                                    dtype=tf.float32, initializer=tf.zeros_initializer())
-            else:
-                # [NUM_WORD_LSTM_NETWORKS * WORD_LEVEL_LSTM_HIDDEN_SIZE, NUM_TAGS]
-                W = tf.get_variable("W", dtype=tf.float32,
-                                    shape=[NUM_WORD_LSTM_NETWORKS * self.ner_config.WORD_LEVEL_LSTM_HIDDEN_SIZE,
-                                           self.ner_config.NUM_TAGS])
-                # [NUM_TAGS]
-                b = tf.get_variable("b", shape=[self.ner_config.NUM_TAGS],
-                                    dtype=tf.float32, initializer=tf.zeros_initializer())
-            # [MAX_SEQ_LENGTH]
-            nsteps = tf.shape(encoded_doc)[1]
-
-            tf.logging.info("nsteps: =====> {} ".format(nsteps))
-
-            if self.ner_config.USE_CHAR_EMBEDDING:
-                encoded_doc = tf.reshape(encoded_doc, [-1, NEW_SHAPE],
-                                         name="reshape_encoded_doc")
-            else:
-                encoded_doc = tf.reshape(encoded_doc,
-                                         [-1, NUM_WORD_LSTM_NETWORKS * self.ner_config.WORD_LEVEL_LSTM_HIDDEN_SIZE],
-                                         name="reshape_encoded_doc")
-
-            tf.logging.info("encoded_doc: {}".format(encoded_doc))
-            encoded_doc = tf.matmul(encoded_doc, W) + b
-
-            tf.logging.info("encoded_doc: {}".format(encoded_doc))
-            # [BATCH_SIZE, MAX_SEQ_LENGTH, NUM_TAGS]
-            logits = tf.reshape(encoded_doc, [-1, nsteps, self.ner_config.NUM_TAGS], name="reshape_predictions")
             tf.logging.info("logits: {}".format(logits))
 
         with  tf.variable_scope("loss-layer"):
