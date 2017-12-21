@@ -12,7 +12,7 @@ from data_iterators.positional_patent_data_iterator import PositionalPatentIData
 EXPERIMENT_ROOT_DIR = "patent_experiments"
 
 NUM_EPOCHS = 5
-BATCH_SIZE = 2
+BATCH_SIZE = 16
 
 
 class PositionalPatentTagger():
