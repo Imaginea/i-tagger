@@ -143,7 +143,21 @@ python src/commands/patent_dataset.py --mode=predict --model-dir=PATH TO Model -
 ### Learning Materials
 - [Walk Through of Tensorflow APIs](notebooks/walk_through_of_tf_apis.ipynb)
 
+## Web interface for the models
+- Developed a flask app which will serve different models to the user.
+- For running the app , move to directory: i-tagger
 
+```bash
+
+python src/app.py
+
+- Open browser and navigate to : http://localhost:8080/predictText
+  Here user can enter any text to get the tags for the entered text.
+
+OR
+
+- Open browser and navigate to : http://localhost:8080/predict
+  Here user can upload a file and get the tags for the uploaded file.
 
 TODOs:
 - Remove all default params
@@ -151,5 +165,4 @@ TODOs:
 - Add more command line options
 - Documentation
 - Celaning of the code
-- Web interface for the models
 - More on LSTM basics/tutorials
