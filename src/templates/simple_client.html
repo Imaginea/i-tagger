@@ -1,0 +1,66 @@
+<!-- include ajax -->
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="custom.css">
+</head>
+<body>
+    <div class="container col-lg-6">
+        <div style="padding-bottom: 0.5cm">
+            <div class="card text-center bg-light">
+                <div class="card-body" style="padding-bottom: 0.2cm">
+                    <title>Sequence tag document</title>
+                    <h1>Upload document</h1>
+                    <form method=post enctype=multipart/form-data>
+                        <input class="card-title form-control" style="padding-left:35%" type=file name="pdf_file" required>
+                        Model Directory: <input class="card-title form-control" type="text" id="dname" name="dname" required>
+                        <input class="card-text btn btn-outline-primary" id = 'btnGet' type=button value=GetModels required><br><br>
+       
+                        Select Model:  <select class="card-title form-control" id="myDropDownId" name="model" required></select><br><br> 
+ 
+                        <input class="card-text btn btn-outline-primary" type=submit value=Upload>
+                    </form>
+		</div>		
+            </div>
+        </div>
+    </div>
+<body>
+
+
+<script type="text/javascript">
+    
+    function populateDropdown(listOfItems){
+        $('#myDropDownId').empty()
+        var $myDD = $("#myDropDownId");
+        for (var i = 0; i<listOfItems.length; i++){
+           $myDD.append("<option value='"+ listOfItems[i]+"'>"+listOfItems[i]+"</option>");   
+        }     
+    }
+       
+    // assign my click handler to #btnGet
+    $("#btnGet").click(function (){
+    var input = $("#dname").val();
+    if(input ==""){
+	alert("Please enter model directory !.")
+    }
+    api_call(input);
+    
+    });
+    
+    //ajax call to get list of directories.    
+    function api_call(input) {
+        $.ajax({
+           url: "http://localhost:8080/listdir",
+            method: 'POST',
+            contentType: 'application/json',
+            data: JSON.stringify(input),
+            success: function( data, textStatus, jQxhr ){
+		populateDropdown(data)
+            },
+            error: function( jqXhr, textStatus, errorThrown ){
+                console.log( errorThrown );
+            },
+            timeout: 3000
+        });
+    }
+</script>

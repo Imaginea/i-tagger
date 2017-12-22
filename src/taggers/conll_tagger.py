@@ -4,6 +4,7 @@ sys.path.append("src/")
 
 from models.model_factory import TFEstimatorFactory
 from helpers.print_helper import *
+import pandas as pd
 
 from preprocessor.conll_data_preprocessor import CoNLLDataPreprocessor
 from data_iterators.conll_data_iterator import CoNLLDataIterator
@@ -85,6 +86,22 @@ class CoNLLTagger():
 
             print(eval_results)
 
-    def predict_on_test_files(self):
-        self.data_iterators.predict_on_csv_files(estimator=self.estimator,
-                                                 csv_files_path="data/test/")
+    def predict_on_test_files(self,abs_fpath):
+        self.load_estimator()
+        predictions = pd.DataFrame()
+        if(self.estimator.FEATURE_NAME == "text+char_ids"):
+            predictions = self.data_iterators.predict_on_csv_files(estimator=self.estimator,
+                                                 csv_files_path=abs_fpath)
+            return predictions
+
+        return predictions
+
+    def predict_on_test_text(self,sentence):
+        self.load_estimator()
+        predictions  = pd.DataFrame()
+        if(self.estimator.FEATURE_NAME == "text+char_ids"):
+            predictions = self.data_iterators.predict_on_text(estimator=self.estimator,
+                                                         sentence=sentence)
+            return predictions
+
+        return predictions
