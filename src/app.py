@@ -108,9 +108,10 @@ def return_files_tut():
     """API function that sends predictions file to frontend.
 
     """
-	try:
-		return flask.send_file(session['modelDirectory']+"/predictions/"+session.get('currentFile', None), attachment_filename=session.get('currentFile', None),as_attachment=True)
-	except Exception as e:
+    try:
+       return flask.send_file(session['modelDirectory']+"/predictions/"+session.get('currentFile', None),
+                               attachment_filename=session.get('currentFile', None),as_attachment=True)
+    except Exception as e:
 		return str(e)
 
 @app.route('/')
