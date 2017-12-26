@@ -55,9 +55,7 @@ class PattentTagger():
     def train(self):
         self.load_estimator()
 
-        print(self.estimator==self.data_iterators)
-
-        if self.estimator == self.data_iterators:
+        if self.estimator.FEATURE_NAME != self.data_iterators.FEATURE_NAME:
             print_error("Given DataIterator can be used with choosed model. Try other models!!!")
             exit(1)
 
@@ -85,5 +83,12 @@ class PattentTagger():
 
             print(eval_results)
 
-    def predict_on_test_files(self):
-        self.data_iterators.predict_on_csv_files(estimator=self.estimator, csv_files_path="data/test/")
+
+    def predict_on_test_files(self, csv_files_path="data/test/"):
+        # TODO handle the estimator behaviour in train, retrain and predict mode
+        if self.estimator.FEATURE_NAME == self.data_iterators.FEATURE_NAME:
+            self.load_estimator()
+            self.data_iterators.predict_on_csv_files(estimator=self.estimator, csv_files_path=csv_files_path)
+        else:
+            print_error("Given DataIterator can be used with choosed model. Try other models!!!")
+            exit(1)

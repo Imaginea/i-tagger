@@ -7,16 +7,25 @@ from helpers.print_helper import *
 
 class IDataIterator():
     def __init__(self, data_dir, batch_size):
-       self.preprocessed_data_info = PreprocessedDataInfo.load(data_dir)
+        '''
+        Data Iterators with different features type are expected to 
+        implement this interface, exposing the input functions and their hooks
+        :param data_dir: 
+        :param batch_size: 
+        
+        '''
 
-       self.BATCH_SIZE = batch_size
-       self.train_data_input_fn, self.train_data_init_hook = None, None
+        self.preprocessed_data_info = PreprocessedDataInfo.load(data_dir)
 
-       self.val_data_input_fn= None
-       self.val_data_init_hook = None
+        self.BATCH_SIZE = batch_size
+        self.train_data_input_fn = None
+        self.train_data_init_hook = None
 
-       self.test_data_input_fn= None
-       self.test_data_init_hook = None
+        self.val_data_input_fn= None
+        self.val_data_init_hook = None
+
+        self.test_data_input_fn= None
+        self.test_data_init_hook = None
 
     def setup_train_input_graph(self):
         raise NotImplementedError

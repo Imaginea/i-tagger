@@ -3,15 +3,10 @@ sys.path.append("../")
 import os
 import shutil
 import pandas as pd
-import numpy as np
-from tqdm import tqdm
-import pickle
-from tensorflow.python.platform import gfile
 
 from interfaces.preprocessor_interface import IPreprocessorInterface
 from helpers.print_helper import *
 from config.global_constants import *
-from helpers.os_helper import check_n_makedirs
 from config.config_helper import ConfigManager
 
 from nlp.spacy_helper import naive_vocab_creater, get_char_vocab, vocab_to_tsv
@@ -101,7 +96,7 @@ class CoNLLDataPreprocessor(IPreprocessorInterface):
             os.makedirs(self.OUT_DIR)
 
     def prepare_data(self):
-        print_info("Preparing train data...")
+        print_info("Nothing to prepare on CoNLL data...")
 
     def extract_vocab(self):
         if not os.path.exists(self.WORDS_VOCAB_FILE) and not os.path.exists(self.ENTITY_VOCAB_FILE):

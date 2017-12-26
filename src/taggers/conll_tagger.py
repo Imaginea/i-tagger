@@ -20,20 +20,20 @@ class CoNLLTagger():
         self.preprocessor = None
         self.estimator = None
         self.data_iterators = None
-        self.model_dir=model_dir
+        self.model_dir = model_dir
 
         self.preprocessor = CoNLLDataPreprocessor(
-            experiment_root_directory=EXPERIMENT_ROOT_DIR,
-            over_write=None,
-            use_iob=None,
-            out_dir=None,
-            train_csvs_path=None,
-            val_csv_path=None,
-            test_csv_path=None,
-            db_reference_file=None,
-            text_col=None,
-            entity_col=None,
-            do_run_time_config=False)
+            experiment_root_directory = EXPERIMENT_ROOT_DIR,
+            over_write = None,
+            use_iob = None,
+            out_dir = None,
+            train_csvs_path = None,
+            val_csv_path = None,
+            test_csv_path = None,
+            db_reference_file = None,
+            text_col = None,
+            entity_col = None,
+            do_run_time_config = False)
 
     def load_estimator(self):
         estimator_config, estimator = TFEstimatorFactory.get("bilstm_crf_v0")
@@ -58,7 +58,7 @@ class CoNLLTagger():
     def train(self):
         self.load_estimator()
 
-        if self.estimator == self.data_iterators:
+        if self.estimator.FEATURE_NAME != self.data_iterators.FEATURE_NAME:
             print_error("Given DataIterator can be used with choosed model. Try other models!!!")
             exit(1)
 
@@ -89,19 +89,25 @@ class CoNLLTagger():
     def predict_on_test_files(self,abs_fpath):
         self.load_estimator()
         predictions = pd.DataFrame()
-        if(self.estimator.FEATURE_NAME == "text+char_ids"):
+        if(self.estimator.FEATURE_NAME == self.data_iterators.FEATURE_NAME):
             predictions = self.data_iterators.predict_on_csv_files(estimator=self.estimator,
                                                  csv_files_path=abs_fpath)
             return predictions
 
+        else:
+            print_error("Given DataIterator can be used with choosed model. Try other models!!!")
+            exit(1)
         return predictions
 
     def predict_on_test_text(self,sentence):
         self.load_estimator()
         predictions  = pd.DataFrame()
-        if(self.estimator.FEATURE_NAME == "text+char_ids"):
+        if(self.estimator.FEATURE_NAME == self.data_iterators.FEATURE_NAME ):
             predictions = self.data_iterators.predict_on_text(estimator=self.estimator,
                                                          sentence=sentence)
             return predictions
+        else:
+            print_error("Given DataIterator can be used with choosed model. Try other models!!!")
+            exit(1)
 
         return predictions
