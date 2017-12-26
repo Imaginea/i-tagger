@@ -1,22 +1,10 @@
-import sys
-import tensorflow as tf
 import argparse
+import sys
 
 sys.path.append("src/")
 
 from taggers.conll_tagger import CoNLLTagger
 
-def get_tf_flags():
-
-    flags = tf.app.flags
-
-    flags.DEFINE_string("action","none","preprocess/train/retrain")
-
-    flags.DEFINE_string("data_dir","experiments/tf_data/","")
-
-
-    cfg = tf.app.flags.FLAGS
-    return cfg
 
 def run(opt):
     tagger = CoNLLTagger(model_dir=opt.model_dir)
@@ -36,7 +24,7 @@ if __name__ == "__main__":
     # CONLL specific preprocessing
 
     optparse.add_argument('-mode', '--mode',
-                          choices=['preprocess', 'train', "retrain","predict"],
+                          choices=['preprocess', 'train', "retrain", "predict"],
                           required=True,
                           help="'preprocess, 'train', 'retrain'"
                           )
@@ -57,5 +45,3 @@ if __name__ == "__main__":
         optparse.error('--predict-dir argument is required in "predict" mode.')
     else:
         run(opt)
-
-

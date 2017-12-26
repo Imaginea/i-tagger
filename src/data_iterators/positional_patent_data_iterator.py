@@ -255,13 +255,13 @@ class PositionalPatentIDataIterator(IDataIterator, IPostionalFeature):
 
                 # Build dataset iterator
                 if use_char_embd:
-                    dataset = tf.data.Dataset.from_tensor_slices(({"text": text_features_placeholder,
-                                                                   "char_ids": char_ids_placeholder,
-                                                                   "position": positional_features_placeholder},
+                    dataset = tf.data.Dataset.from_tensor_slices(({self.FEATURE_1_NAME: text_features_placeholder,
+                                                                   self.FEATURE_2_NAME: char_ids_placeholder,
+                                                                   self.FEATURE_3_NAME: positional_features_placeholder},
                                                                   labels_placeholder))
                 else:
-                    dataset = tf.data.Dataset.from_tensor_slices(({"text": text_features_placeholder,
-                                                                   "position": positional_features_placeholder},
+                    dataset = tf.data.Dataset.from_tensor_slices(({self.FEATURE_1_NAME: text_features_placeholder,
+                                                                   self.FEATURE_3_NAME: positional_features_placeholder},
                                                                   labels_placeholder))
                 if is_eval:
                     dataset = dataset.repeat(1)
@@ -318,9 +318,10 @@ class PositionalPatentIDataIterator(IDataIterator, IPostionalFeature):
             with tf.name_scope(scope):
                 docs = tf.constant(features, dtype=tf.string)
 
-                dataset = tf.data.Dataset.from_tensor_slices(({"text": docs,
-                                                               "position": positional_features,
-                                                               "char_ids": char_ids},))
+                dataset = tf.data.Dataset.from_tensor_slices(({self.FEATURE_1_NAME: docs,
+                                                               self.FEATURE_2_NAME: char_ids,
+                                                               self.FEATURE_3_NAME: positional_features
+                                                               },))
                 dataset.repeat(1)
                 # Return as iteration in batches of 1
                 return dataset.batch(batch_size).make_one_shot_iterator().get_next()
