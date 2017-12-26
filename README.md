@@ -1,35 +1,70 @@
 # Introduction
-- Develop deep learning sequence to sequence models in an modular
-software environment backed by Tensorflow.
-- Where different data sets and models can be experimented without worry of
-maintaining the interoperability.
+A simple and modular Tensorflow model development environment to handle
+sequence-to-sequence models.
+
+Developing models to solve a problem for a data set at hand,
+requires lot of trial and error methods.
+Which includes and not limited to:
+- Preparing the ground truth or data set for training and testing
+    - Collecting the data from online or open data sources
+    - Getting the data from in-house or client database
+- Pre-processing the data set
+    - Text cleaning
+    - NLP processing
+    - Meta feature extraction etc.,
+- Data iterators, loading and looping the data examples for model
+while training and testing
+    - In memory - All data is held on RAM and looped in batches on demand
+    - Reading from the disk on demand in batches
+    - Maitaining different feature sets (i.e number of features and its types) for the model
+- Models
+    - Maintaining different models for same set of features
+    - Good visulaizing and debugging environment/tools
+    - Start and pause the training at will
+- Model Serving
+    - Load a particular model from the pool of available models for a
+    particular data set
 
 # Related Work
 Below two Git repos got our attention:
 - https://github.com/guillaumegenthial/sequence_tagging
 - https://github.com/Franck-Dernoncourt/NeuroNER
 
+Both of the projects are excellent in their own way, however they lack few
+things like support for different dataset and models in a modular way,
+which plays a key role in a customer facing project(s).
+
 # Problem Statement
- - To come up with an software architecture to try different models on different dataset
+ - To come up with an software architecture to try different models on
+ different dataset
  - Which should take care of:
     - Preprocessing the data
-    - Preparing the data iterators for training, validation and testing for set of features and their types
+    - Preparing the data iterators for training, validation and testing
+    for set of features and their types
     - Use a model that aligns with the data iterator feature type
     - Train the model in an iterative manner, with fail safe
     - Use the trained model to predict on new data
+
+# Solution or proposal
+
+Little of Object-Oriented-Principles are infused in to Python scriptic nature,
+for eay extensible and maitanance.
 
 **What we solved using this code?**
  - Top level accuracies on open Conll dataset 2003
  - Extract information from patent documents for form filling, from historical
 data entries from the Database records.
 
-# Solution or proposal
-
 ## Current Architecture
 
-- Text Dataset may have one or more features like words, characters, positional information of words etc.,
-- Data iterators enforces number of features and their types, so that set of models can work on down the line
-- Models should agree with data iterator features types and make use of the aviable features to train the data
+- [Handling Dataset and Preprocessing](docs/dataset.md)
+- [Data iterators](docs/data_iterator.md)
+    - Dataset may have one or more features like words,
+characters, positional information of words etc.,
+    - Extract those and convert word/characters to numeric ids, pad them etc.,
+    - Enforces number of features and their types, so that set of models can work on down the line
+- [Models](docs/models.md) should agree with data iterator features types and
+make use of the aviable features to train the data
 
 
 ![](docs/images/i_tagger_architecture.png)
@@ -38,6 +73,17 @@ data entries from the Database records.
 - [Tensorflow Estimators](https://www.tensorflow.org/extend/estimators) is used for training/evaluating/saving/restoring/predicting
 
 ![](docs/images/tf_estimators.png)
+
+### Directory Details
+Each experiment starts based on a dataset.
+We use CoNLL data set, since it is provided as part this repo
+- conll_experiments
+    - data
+        - train.txt
+        - test.txt
+        - val.txt
+    - tf_data
+
 
 # Available Models:
 - [Models](docs/models)

@@ -16,7 +16,7 @@ BATCH_SIZE = 16
 
 
 class PositionalPatentTagger():
-    def __init__(self,model_dir=None):
+    def __init__(self, model_dir=None):
         self.preprocessor = None
         self.estimator = None
         self.data_iterators = None
@@ -54,7 +54,7 @@ class PositionalPatentTagger():
     def preprocess(self):
         self.preprocessor.start()
 
-    def train(self,debug=False):
+    def train(self, debug=False):
         self.load_estimator()
 
         print(self.estimator==self.data_iterators)
