@@ -84,7 +84,7 @@ class CoNLLDataIterator(IDataIterator, ITextFeature):
             max_length_sentence = max(map(lambda x: len(x), sequences))
             sequence_padded, _ = self.__pad_sequences(sequence_padded,
                                                       [pad_tok] * MAX_WORD_LENGTH,
-                                                      max_length_sentence)  # TODO revert -1 to pad_tok
+                                                      max_length_sentence)
             sequence_length, _ = self.__pad_sequences(sequence_length, 0,
                                                       max_length_sentence)
 
@@ -227,12 +227,14 @@ class CoNLLDataIterator(IDataIterator, ITextFeature):
 
                 # Build dataset iterator
                 if use_char_embd:
-                    dataset = tf.data.Dataset.from_tensor_slices(({self.FEATURE_1_NAME: text_features_placeholder,
-                                                                   self.FEATURE_2_NAME: char_ids_placeholder},
-                                                                  labels_placeholder))
+                    dataset = tf.data.Dataset.from_tensor_slices(({
+                                                                      self.FEATURE_1_NAME: text_features_placeholder,
+                                                                      self.FEATURE_2_NAME: char_ids_placeholder},
+                                                                    labels_placeholder))
                 else:
-                    dataset = tf.data.Dataset.from_tensor_slices(({self.FEATURE_1_NAME: text_features_placeholder},
-                                                                  labels_placeholder))
+                    dataset = tf.data.Dataset.from_tensor_slices(({
+                                                                      self.FEATURE_1_NAME: text_features_placeholder},
+                                                                      labels_placeholder))
                 if is_eval:
                     dataset = dataset.repeat(1)
                 else:
@@ -278,7 +280,8 @@ class CoNLLDataIterator(IDataIterator, ITextFeature):
         def inputs():
             with tf.name_scope(scope):
                 docs = tf.constant(features, dtype=tf.string)
-                dataset = tf.data.Dataset.from_tensor_slices(({self.FEATURE_1_NAME: docs, self.FEATURE_2_NAME: char_ids},))
+                dataset = tf.data.Dataset.from_tensor_slices(({self.FEATURE_1_NAME: docs,
+                                                               self.FEATURE_2_NAME: char_ids},))
                 dataset.repeat(1)
                 # Return as iteration in batches of 1
                 return dataset.batch(batch_size).make_one_shot_iterator().get_next()

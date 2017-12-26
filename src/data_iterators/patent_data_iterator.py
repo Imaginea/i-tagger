@@ -24,6 +24,7 @@ class PatentIDataIterator(IDataIterator, ITextFeature):
         IDataIterator.__init__(self, data_dir, batch_size)
         ITextFeature.__init__(self)
         self.config = ConfigManager("src/config/patent_data_preprocessor.ini")
+
     def __pad_sequences(self, sequences, pad_tok, max_length):
         """
         Args:
@@ -150,8 +151,7 @@ class PatentIDataIterator(IDataIterator, ITextFeature):
         # pdb.set_trace()
 
         if use_char_embd:
-            sentence_feature1, seq_length = self._pad_sequences(sentence_feature1, nlevels=1,
-                                                               pad_tok=" <PAD>")  # space is used so that it can append to the string sequence
+            sentence_feature1, seq_length = self._pad_sequences(sentence_feature1, nlevels=1,pad_tok=" <PAD>")  # space is used so that it can append to the string sequence
             sentence_feature1 = np.array(sentence_feature1)
 
             char_ids_feature2, seq_length = self._pad_sequences(char_ids_feature2, nlevels=2, pad_tok=0)
@@ -223,11 +223,12 @@ class PatentIDataIterator(IDataIterator, ITextFeature):
 
                 # Build dataset iterator
                 if use_char_embd:
-                    dataset = tf.data.Dataset.from_tensor_slices(({"text": text_features_placeholder,
-                                                                   "char_ids": char_ids_placeholder},
-                                                                  labels_placeholder))
+                    dataset = tf.data.Dataset.from_tensor_slices(({
+                                                                      self.FEATURE_1_NAME: text_features_placeholder,
+                                                                      self.FEATURE_2_NAME: char_ids_placeholder},
+                                                                      labels_placeholder))
                 else:
-                    dataset = tf.data.Dataset.from_tensor_slices(({"text": text_features_placeholder},
+                    dataset = tf.data.Dataset.from_tensor_slices(({self.FEATURE_1_NAME: text_features_placeholder},
                                                                   labels_placeholder))
                 if is_eval:
                     dataset = dataset.repeat(1)
@@ -274,8 +275,8 @@ class PatentIDataIterator(IDataIterator, ITextFeature):
         def inputs():
             with tf.name_scope(scope):
                 docs = tf.constant(features, dtype=tf.string)
-                dataset = tf.data.Dataset.from_tensor_slices(({"text": docs,
-                                                               "char_ids": char_ids},))
+                dataset = tf.data.Dataset.from_tensor_slices(({self.FEATURE_1_NAME: docs,
+                                                               self.FEATURE_2_NAME: char_ids},))
                 dataset.repeat(1)
                 # Return as iteration in batches of 1
                 return dataset.batch(batch_size).make_one_shot_iterator().get_next()
