@@ -1,7 +1,7 @@
 import os
 
 import flask
-from flask import Flask, request, jsonify, session, render_template
+from flask import Flask, request, jsonify, session, render_template, redirect
 from flask_cors import CORS
 from werkzeug.utils import secure_filename
 
@@ -112,7 +112,11 @@ def return_files_tut():
        return flask.send_file(session['modelDirectory']+"/predictions/"+session.get('currentFile', None),
                                attachment_filename=session.get('currentFile', None),as_attachment=True)
     except Exception as e:
-		return str(e)
+        return str(e)
+
+@app.route('/')
+def hello():
+    return render_template('home.html')
 
 @app.route('/')
 def index():

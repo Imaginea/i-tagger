@@ -1,0 +1,37 @@
+<!-- include ajax -->
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="custom.css">
+</head>
+<body>
+    <div class="container col-lg-6">
+        <div style="padding-bottom: 0.5cm">
+            <div class="card text-center bg-light">
+                <div class="card-body" style="padding-bottom: 0.2cm">
+                    <title>Sequence tag</title>
+                    <h2>Sequence tag</h2>
+			<div>
+                        <input class="card-text btn btn-outline-primary" id = 'predictText' type=button value="Get text tags" required>
+ 			<span style="display:inline-block; width: 10%;"></span>
+                        <input class="card-text btn btn-outline-primary" id = 'predict' type=button value="Upload document"></div>
+		</div>		
+            </div>
+        </div>
+    </div>
+<body>
+
+
+<script type="text/javascript">
+       
+    // assign my click handlers
+
+    $("#predictText").click(function (){
+    	window.location.href = "http://localhost:8080/predictText";
+    });
+	
+    $("#predict").click(function (){
+    	window.location.href = "http://localhost:8080/predict";
+    });
+    
+</script>
