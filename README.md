@@ -14,7 +14,7 @@ Which includes and not limited to:
     - Meta feature extraction etc.,
 - Data iterators, loading and looping the data examples for model
 while training and testing
-    - In memory - All data is held on RAM and looped in batches on demand
+    - In memory - All data is held in RAM and looped in batches on demand
     - Reading from the disk on demand in batches
     - Maitaining different feature sets (i.e number of features and its types) for the model
 - Models
@@ -49,8 +49,8 @@ Where nature of the data changes as the project evolves.
 
 # Solution or proposal
 
-Little Object-Oriented-Principles are infused in to Python scriptic nature,
-for easy extensible and maintenance.
+A few object-oriented principles are used in the python scripts for
+ease of extensibility and maintenance.
 
 **What we solved using this code?**
  - Top level accuracies on open Conll dataset 2003
@@ -182,7 +182,8 @@ export LD_LIBRARY_PATH=/home/rpx/softwares/cudnn6/cuda/lib64:$LD_LIBRARY_PATH
 
 #### CoNLL
 
-We are using CoNLL 2003 dataset for testing purpose.
+We are using the CoNLL 2003 dataset for testing.
+
 
 **Data :**
 - https://www.clips.uantwerpen.be/conll2003/ner/
@@ -272,5 +273,5 @@ TODOs:
 - Remove all default params
 - Tune the model for CoNLL dataset
 - Test code and Documentation
-- Celaning of the code
+- Cleaning of the code
 - More on LSTM basics/tutorials
