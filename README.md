@@ -50,7 +50,7 @@ Where nature of the data changes as the project evolves.
 # Solution or proposal
 
 Little Object-Oriented-Principles are infused in to Python scriptic nature,
-for eay extensible and maitanance.
+for easy extensible and maintenance.
 
 **What we solved using this code?**
  - Top level accuracies on open Conll dataset 2003
@@ -77,7 +77,9 @@ make use of the aviable features to train the data
 ![](docs/images/tf_estimators.png)
 
 ### Directory Details
+
 Each experiment starts based on a dataset.
+
 We use CoNLL data set, since it is provided as part this repo
 - conll_experiments
     - data
@@ -85,6 +87,9 @@ We use CoNLL data set, since it is provided as part this repo
         - test.txt
         - val.txt
     - tf_data
+    - model_v0
+        - config1
+        - config2
 
 
 # Available Models:
