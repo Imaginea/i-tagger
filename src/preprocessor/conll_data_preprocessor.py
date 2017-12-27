@@ -41,6 +41,9 @@ class CoNLLDataPreprocessor(IPreprocessorInterface):
         '''
         super(CoNLLDataPreprocessor, self).__init__(experiment_root_directory)
 
+
+        self.COLUMNS = ['0','1','2','3']
+
         if do_run_time_config:
             self.OVER_WRITE = over_write
             self.USE_IOB = use_iob
@@ -73,10 +76,6 @@ class CoNLLDataPreprocessor(IPreprocessorInterface):
         self.CHARS_VOCAB_FILE = self.OUT_DIR + "/" + self.TEXT_COL + "_" + "chars_vocab.tsv"
         self.ENTITY_VOCAB_FILE = self.OUT_DIR + "/" + self.ENTITY_COL + "_vocab.tsv"
 
-        self.COLUMNS = [self.TEXT_COL, self.ENTITY_COL]
-        self.COLUMNS.extend(self.EXTRA_COLS)
-
-
     def load_ini(self):
         self.config = ConfigManager("src/config/conll_data_preprocessor.ini")
 
@@ -105,14 +104,14 @@ class CoNLLDataPreprocessor(IPreprocessorInterface):
             train_df = pd.read_csv(self.TRAIN_DATA_FILE, sep=SEPRATOR, header=None)
 
             train_df.columns = self.COLUMNS  # just for operation, names doesn't imply anything here
-            train_df.head()
+            print(train_df.head())
 
             # Get word level vocab
             lines = train_df[self.TEXT_COL].astype(str).unique().tolist()
             # VOCAB_SIZE, words_vocab = tf_vocab_processor(lines, WORDS_VOCAB_FILE)
             self.VOCAB_SIZE, words_vocab = naive_vocab_creater(lines,
                                                                self.WORDS_VOCAB_FILE,
-                                                               vocab_filter=True)
+                                                               use_nlp=True)
 
             # Get char level vocab
             words_chars_vocab = [PAD_CHAR, UNKNOWN_CHAR]
@@ -128,14 +127,14 @@ class CoNLLDataPreprocessor(IPreprocessorInterface):
             # Reopen the file without filling UNKNOWN_WORD in blank lines
             train_df = pd.read_csv(self.TRAIN_DATA_FILE, sep=SEPRATOR, quotechar=QUOTECHAR)
             train_df.columns = self.COLUMNS  # just for operation, names doesn't imply anything here
-            train_df.head()
+            print(train_df.head())
 
             # Get entity level vocab
-            lines = train_df[self.ENTITY_COL].unique().tolist()
+            all_tags = train_df[self.ENTITY_COL].unique().tolist() #TODO change this dump logic
             # NUM_TAGS, tags_vocab = tf_vocab_processor(lines, ENTITY_VOCAB_FILE)
-            self.NUM_TAGS, tags_vocab = naive_vocab_creater(lines,
+            self.NUM_TAGS, tags_vocab = naive_vocab_creater(all_tags,
                                                             self.ENTITY_VOCAB_FILE,
-                                                            vocab_filter=False)
+                                                            use_nlp=False)
         else:
             print_info("Reusing the vocab")
 

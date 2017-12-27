@@ -76,22 +76,13 @@ class BiLSTMCRFConfigV0(IModelConfig):
 
     @staticmethod
     def with_user_hyperparamaters(experiment_root_dir, data_dir):
-        # model_root_dir,
-        #                        vocab_size,
-        #                        char_vocab_size,
-        #                        number_tags,
-        #                        unknown_word,
-        #                        pad_word,
-        #                        tags_vocab_file,
-        #                        words_vocab_file,
-        #                        chars_vocab_file):
 
         preprocessed_data_info = PreprocessedDataInfo.load(data_dir)
 
         use_crf = "y"  # TODO
         use_char_embedding = False
-        char_level_lstm_hidden_size = 128  # default
-        char_emd_size = 128  # default
+        char_level_lstm_hidden_size = 32  # default
+        char_emd_size = 32  # default
 
         if use_crf == 'y':
             use_crf = True
@@ -99,19 +90,26 @@ class BiLSTMCRFConfigV0(IModelConfig):
             use_crf = False
 
         use_char_embedding_option = input("use_char_embedding (y/n)") or "y"
-        learning_rate = float(input("learning_rate (0.001): ")) or 0.001
-        num_lstm_layers = int(input("num_word_lstm_layers (2): ")) or 2
+        learning_rate = input("learning_rate (0.001): ") or 0.001
+        learning_rate = float(learning_rate)
+        num_lstm_layers = input("num_word_lstm_layers (2): ") or 2
+        num_lstm_layers = int(num_lstm_layers)
 
         if use_char_embedding_option == 'y':
             use_char_embedding = True
-            char_level_lstm_hidden_size = int(input("char_level_lstm_hidden_size (32): ")) or 32
-            char_emd_size = int(input("char_emd_size (32): ")) or 32
+            char_level_lstm_hidden_size = input("char_level_lstm_hidden_size (32): ") or 32
+            char_level_lstm_hidden_size = int(char_level_lstm_hidden_size)
+            char_emd_size = input("char_emd_size (32): ") or 32
+            char_emd_size = int(char_emd_size)
         else:
             use_char_embedding = False
 
-        word_level_lstm_hidden_size = int(input("word_level_lstm_hidden_size (32): ")) or 32
-        word_emd_size = int(input("word_emd_size (128): ")) or 32
-        out_keep_propability = float(input("out_keep_propability(0.5) : ")) or 0.5
+        word_level_lstm_hidden_size = input("word_level_lstm_hidden_size (48): ") or 48
+        word_level_lstm_hidden_size = int(word_level_lstm_hidden_size)
+        word_emd_size = input("word_emd_size (48): ") or 48
+        word_emd_size = int(word_emd_size)
+        out_keep_propability = input("out_keep_propability(0.5) : ") or 0.5
+        out_keep_propability = float(out_keep_propability)
 
         # Does this sound logical? review please
         model_dir = experiment_root_dir + "/bilstm_crf_v0/" + \
@@ -159,8 +157,8 @@ run_config.gpu_options.allow_growth = True
 run_config.allow_soft_placement = True
 run_config.log_device_placement = False
 run_config = tf.contrib.learn.RunConfig(session_config=run_config,
-                                        save_checkpoints_steps=10,
-                                        keep_checkpoint_max=100,
+                                        save_checkpoints_steps=50,
+                                        keep_checkpoint_max=3,
                                         save_summary_steps=50)
 
 
@@ -181,7 +179,7 @@ class BiLSTMCRFV0(tf.estimator.Estimator, ITextFeature):
     def _model_fn(self, features, labels, mode, params):
         '''
 
-        :param features: TF Placeholder of type String of shape [BATCH_SIZE, 1]
+        :param features: TF Placeholder of type dict of shape [BATCH_SIZE, 1]
         :param labels: TF Placeholder of type String of shape [BATCH_SIZE, 1]
         :param mode: ModeKeys
         :param params:
@@ -372,7 +370,7 @@ class BiLSTMCRFV0(tf.estimator.Estimator, ITextFeature):
 
         with tf.variable_scope("char_word_embeddings-mergeing_layer"):
             if self.ner_config.USE_CHAR_EMBEDDING:
-                encoded_doc = tf.concat([encoded_words, encoded_sentence], axis=-1)
+                encoded_doc = tf.concat([encoded_words, encoded_sentence], axis=-1, name="sentence_words_concat")
             else:
                 encoded_doc = encoded_sentence
 

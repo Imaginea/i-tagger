@@ -33,21 +33,23 @@ Below two Git repos got our attention:
 Both of the projects are excellent in their own way, however they lack few
 things like support for different dataset and models in a modular way,
 which plays a key role in a customer facing project(s).
+Where nature of the data changes as the project evolves.
 
 # Problem Statement
  - To come up with an software architecture to try different models on
  different dataset
  - Which should take care of:
-    - Preprocessing the data
+    - Pre-processing the data
     - Preparing the data iterators for training, validation and testing
     for set of features and their types
     - Use a model that aligns with the data iterator feature type
     - Train the model in an iterative manner, with fail safe
     - Use the trained model to predict on new data
+ - Keep the **model core logic independent** of the current architecture
 
 # Solution or proposal
 
-Little of Object-Oriented-Principles are infused in to Python scriptic nature,
+Little Object-Oriented-Principles are infused in to Python scriptic nature,
 for eay extensible and maitanance.
 
 **What we solved using this code?**
@@ -91,6 +93,9 @@ We use CoNLL data set, since it is provided as part this repo
 
 
 # Validation
+ - CoNLL dataset results (not tuned)
+
+![](docs/images/conll_tensorboard_results.png)
 
 
 -------------------------------------------------------------------
@@ -167,15 +172,69 @@ export LD_LIBRARY_PATH=/home/rpx/softwares/cudnn6/cuda/lib64:$LD_LIBRARY_PATH
 
 ## How to test?
 
-We are using CoNLL 2003 dataset for testing purpose.
-
-### Data :
-- https://www.clips.uantwerpen.be/conll2003/ner/
-- https://github.com/synalp/NER/tree/master/corpus/CoNLL-2003
-
 ### Commands
 - For running patent dataset example move to directory: i-tagger
 
+#### CoNLL
+
+We are using CoNLL 2003 dataset for testing purpose.
+
+**Data :**
+- https://www.clips.uantwerpen.be/conll2003/ner/
+- https://github.com/synalp/NER/tree/master/corpus/CoNLL-2003
+
+```bash
+python src/commands/conll_2003_dataset.py --mode=preprocess
+
+#go with default settings
+
+python src/commands/conll_2003_dataset.py --mode=train \
+--model-name=bilstm_crf_v0 \
+--batch-size=64 \
+--num-epochs=5
+
+PATH_TO_MODEL=conll_experiments/bilstm_crf_v0/charembd_True_lr_0.001_lstmsize_2-48-32_wemb_48_cemb_32_outprob_0.5/
+
+#Note: while retraining kep the batch size consistent
+
+python src/commands/conll_2003_dataset.py --mode=retrain \
+--model-dir=$PATH_TO_Model \
+--batch-size=64 \
+--num-epochs=5
+
+python src/commands/conll_2003_dataset.py --mode=predict --model-dir=$PATH_TO_Model --predict-dir=PATH to Prediction files
+```
+
+```
+tensorboard --logdir=$PATH_TO_MODEL
+```
+
+
+**Demo on web interface**
+
+A pretrained model on CoNLL data set is available on `path/to/i-tagger/conll_experiments/bilstm_crf_v0/charembd_True_lr_0.001_lstmsize_2-48-32_wemb_48_cemb_32_outprob_0.5`
+
+Fire up the web app and test it ;)
+
+```bash
+python src/app.py
+```
+- Open browser and navigate to : http://localhost:8080
+  Here user can select an option either to get the tags by entering the text or using file upload.
+
+- Open browser and navigate to : http://localhost:8080/predictText
+  Here user can enter any text to get the tags for the entered text.
+
+Eg: He was well backed by England hopeful Mark Butcher who made 70 as Surrey closed on 429 for seven, a lead of 234.
+OR
+
+- Open browser and navigate to : http://localhost:8080/predict
+  Here user can upload a file and get the tags for the uploaded file.
+
+![](docs/images/web_app.png)
+
+
+#### Imaginea Patent Tagging
 ```bash
 
 python src/commands/patent_dataset.py --mode=preprocess
@@ -189,26 +248,11 @@ python src/commands/patent_dataset.py --mode=predict --model-dir=PATH TO Model -
 ### Learning Materials
 - [Walk Through of Tensorflow APIs](notebooks/walk_through_of_tf_apis.ipynb)
 
-## Web interface for the models
-- Developed a flask app which will serve different models to the user.
-- For running the app , move to directory: i-tagger
 
-```bash
-
-python src/app.py
-
-- Open browser and navigate to : http://localhost:8080/predictText
-  Here user can enter any text to get the tags for the entered text.
-
-OR
-
-- Open browser and navigate to : http://localhost:8080/predict
-  Here user can upload a file and get the tags for the uploaded file.
 
 TODOs:
 - Remove all default params
 - Tune the model for CoNLL dataset
-- Add more command line options
-- Documentation
+- Test code and Documentation
 - Celaning of the code
 - More on LSTM basics/tutorials

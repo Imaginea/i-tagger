@@ -101,6 +101,7 @@ def dir_listing():
 
     # Show directory contents
     files = os.listdir(abs_path)
+    print(files)
     return jsonify(files)
 
 @app.route('/return-files/')

@@ -4,10 +4,8 @@ from helpers.os_helper import check_n_makedirs
 
 sys.path.append("../")
 import numpy as np
-import os
 import pandas as pd
 from tqdm import tqdm
-import pickle
 import ntpath
 
 import tensorflow as tf
@@ -19,6 +17,10 @@ from overrides import overrides
 from helpers.print_helper import *
 from config.global_constants import *
 from tensorflow.python.platform import gfile
+
+MAX_WORD_LENGTH =10
+MAX_SEQ_LENGTH = 30
+
 
 class CoNLLDataIterator(IDataIterator, ITextFeature):
     def __init__(self, data_dir,  batch_size):
@@ -45,7 +47,7 @@ class CoNLLDataIterator(IDataIterator, ITextFeature):
 
         return sequence_padded, sequence_length
 
-    def _pad_sequences(self, sequences, pad_tok, nlevels, MAX_WORD_LENGTH=20):
+    def _pad_sequences(self, sequences, pad_tok, nlevels, MAX_WORD_LENGTH=MAX_WORD_LENGTH, MAX_SEQ_LENGTH=MAX_SEQ_LENGTH):
         """
         Args:
             sequences: a generator of list or tuple
@@ -59,7 +61,9 @@ class CoNLLDataIterator(IDataIterator, ITextFeature):
         if nlevels == 1:
             sequence_padded = []
             sequence_length = []
-            max_length = max(map(lambda x: len(x.split(" ")), sequences))
+
+            max_length = max(map(lambda x: len(x.split(" ")), sequences)) #TODO
+
             # sequence_padded, sequence_length = _pad_sequences(sequences,
             #                                                   pad_tok, max_length)
             # breaking the code to pad the string instead on its ids
@@ -81,7 +85,8 @@ class CoNLLDataIterator(IDataIterator, ITextFeature):
                 sequence_padded += [sp]
                 sequence_length += [sl]
 
-            max_length_sentence = max(map(lambda x: len(x), sequences))
+            max_length_sentence = max(map(lambda x: len(x), sequences)) #TODO
+
             sequence_padded, _ = self.__pad_sequences(sequence_padded,
                                                       [pad_tok] * MAX_WORD_LENGTH,
                                                       max_length_sentence)
@@ -100,17 +105,18 @@ class CoNLLDataIterator(IDataIterator, ITextFeature):
         :return:
         '''
 
-        self.TEXT_COL = self.config.get_item("Schema", "text_column")
-        self.ENTITY_COL = self.config.get_item("Schema", "entity_column")
+        self.TEXT_COL = int(self.config.get_item("Schema", "text_column"))
+        self.ENTITY_COL = int(self.config.get_item("Schema", "entity_column"))
 
         df = pd.read_csv(text_file_path,
                          delimiter=SEPRATOR,
                          header=None,
                          skip_blank_lines=False,
                          quotechar=QUOTECHAR).fillna(EMPTY_LINE_FILLER)
+        print_error(df.head())
 
-        columns = [self.TEXT_COL, self.ENTITY_COL]  # define columns #TODO 1
-        df.rename(columns={0: self.TEXT_COL, 1:self.ENTITY_COL}, inplace=True)
+        # columns = [self.TEXT_COL, self.ENTITY_COL]  # define columns #TODO 1
+        # df.rename(columns={0: self.TEXT_COL, 1:self.ENTITY_COL}, inplace=True)
 
         # get the column values
         sequences = df[self.TEXT_COL].values
@@ -155,7 +161,7 @@ class CoNLLDataIterator(IDataIterator, ITextFeature):
         # pdb.set_trace()
 
         if use_char_embd:
-            sentence_feature1, seq_length = self._pad_sequences(sentence_feature1, nlevels=1,pad_tok=" <PAD>")  # space is used so that it can append to the string sequence
+            sentence_feature1, seq_length = self._pad_sequences(sentence_feature1, nlevels=1, pad_tok=" <PAD>")  # space is used so that it can append to the string sequence
             sentence_feature1 = np.array(sentence_feature1)
 
             char_ids_feature2, seq_length = self._pad_sequences(char_ids_feature2, nlevels=2, pad_tok=0)
@@ -197,12 +203,13 @@ class CoNLLDataIterator(IDataIterator, ITextFeature):
         """
         iterator_initializer_hook = DataIteratorInitializerHook()
 
+        print_warn(text_features)
+        print_info(labels)
         tf.logging.info("text_features.shape: =====> {}".format(text_features.shape))
-        # tf.logging.info("numeric_features.shape: =====> {}".format(char_ids.shape))
         tf.logging.info("labels.shape: =====> {}".format(labels.shape))
 
         tf.logging.info("text_features.type: =====> {}".format(type(text_features)))
-        tf.logging.info("numeric_features.type: =====> {}".format(type(char_ids)))
+        tf.logging.info("numeric_features.type: =====> {}".format(char_ids.shape))
         char_ids = np.array(char_ids)
         tf.logging.info("labels.type: =====> {}".format(type(labels)))
 
@@ -222,7 +229,7 @@ class CoNLLDataIterator(IDataIterator, ITextFeature):
                 # Define placeholders
                 text_features_placeholder = tf.placeholder(tf.string, text_features.shape, name="sentence")
                 if use_char_embd:
-                    char_ids_placeholder = tf.placeholder(tf.int32, [None, None, 20], name="char_ids")
+                    char_ids_placeholder = tf.placeholder(tf.int32, [None, None, MAX_WORD_LENGTH], name="char_ids")
                 labels_placeholder = tf.placeholder(labels.dtype, labels.shape, name="label")
 
                 # Build dataset iterator
@@ -295,6 +302,7 @@ class CoNLLDataIterator(IDataIterator, ITextFeature):
             self._make_seq_pair(text_file_path=self.preprocessed_data_info.TRAIN_DATA_FILE,
                                 char_2_id_map=self.preprocessed_data_info.char_2_id_map,
                                 use_char_embd=True) #TODO
+
         self.NUM_TRAINING_SAMPLES = train_sentences.shape[0] #TODO
 
         self.train_data_input_fn, self.train_data_init_hook = self._setup_input_graph2(text_features=train_sentences,
@@ -334,6 +342,11 @@ class CoNLLDataIterator(IDataIterator, ITextFeature):
             ner_vocab = list(map(lambda x: x.strip(), file.readlines()))
             tags_vocab = {id_num: tag for id_num, tag in enumerate(ner_vocab)}
 
+
+        print_info(tags_vocab)
+        print_info(sentence)
+        print_info(char_ids)
+
         predictions = []
         test_input_fn = self.predict_inputs(sentence, char_ids)
         predict_fn = estimator.predict(input_fn=test_input_fn)
@@ -368,6 +381,8 @@ class CoNLLDataIterator(IDataIterator, ITextFeature):
             pred_1_confidence = top_3_predicted_confidence[:, 0:1]
             pred_2_confidence = top_3_predicted_confidence[:, 1:2]
             pred_3_confidence = top_3_predicted_confidence[:, 2:]
+
+        print_info(confidence)
 
         return predicted_id, confidence, pred_1, pred_1_confidence, pred_2, pred_2_confidence, \
                pred_3, pred_3_confidence
@@ -411,11 +426,12 @@ class CoNLLDataIterator(IDataIterator, ITextFeature):
 
     def predict_on_text(self, estimator,
                              sentence):
-
+        # Trailing by 213, Somerset got a solid start to their second innings before Simmons stepped in to bundle them out for 174.
         char_ids = [[self.preprocessed_data_info.char_2_id_map.get(c, 0) for c in word] for word in sentence.split(" ")]
         char_ids, char_ids_length = self._pad_sequences([char_ids], pad_tok=0, nlevels=2)
 
         predicted_tags, confidence, pred_1, pred_1_confidence, pred_2, pred_2_confidence, \
         pred_3, pred_3_confidence = self.get_tags(estimator, sentence, char_ids, self.preprocessed_data_info.ENTITY_VOCAB_FILE)
 
+        print_info(predicted_tags)
         return predicted_tags

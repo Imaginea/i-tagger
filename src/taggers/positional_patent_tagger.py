@@ -6,7 +6,7 @@ from tensorflow.python import debug as tf_debug
 from models.model_factory import TFEstimatorFactory
 from helpers.print_helper import *
 
-from preprocessor.patent_data_preprocessor import PatentDataPreprocessor
+from preprocessor.csv_data_preprocessor import PatentDataPreprocessor
 from data_iterators.positional_patent_data_iterator import PositionalPatentIDataIterator
 
 EXPERIMENT_ROOT_DIR = "patent_experiments"

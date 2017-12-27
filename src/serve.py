@@ -1,5 +1,5 @@
 from taggers.conll_tagger import CoNLLTagger
-
+from helpers.print_helper import *
 
 def get_model_api(model_dir,abs_fpath):
     """Returns dataframe"""
@@ -13,6 +13,7 @@ def get_model_api1(model_dir,sentence):
     """Returns dataframe"""
 
     # 1. initialize model
+    print_info(model_dir)
     tagger = CoNLLTagger(model_dir=model_dir)
     preds = tagger.predict_on_test_text(sentence)
     # 2. process input

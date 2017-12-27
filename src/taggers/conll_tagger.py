@@ -11,15 +11,18 @@ from data_iterators.conll_data_iterator import CoNLLDataIterator
 
 EXPERIMENT_ROOT_DIR = "conll_experiments/"
 
-NUM_EPOCHS = 15
-BATCH_SIZE = 32
+NUM_EPOCHS = 3
+BATCH_SIZE = 64
 
 
 class CoNLLTagger():
-    def __init__(self,model_dir=None):
+    def __init__(self,
+                 model_name = "bilstm_crf_v0",
+                 model_dir=None):
         self.preprocessor = None
         self.estimator = None
         self.data_iterators = None
+        self.model_name = model_name
         self.model_dir = model_dir
 
         self.preprocessor = CoNLLDataPreprocessor(
@@ -36,7 +39,7 @@ class CoNLLTagger():
             do_run_time_config = False)
 
     def load_estimator(self):
-        estimator_config, estimator = TFEstimatorFactory.get("bilstm_crf_v0")
+        estimator_config, estimator = TFEstimatorFactory.get(self.model_name )
         if self.model_dir:
             config = estimator_config.load(self.model_dir)
             if config is None:  # Fail safe
@@ -55,7 +58,7 @@ class CoNLLTagger():
     def preprocess(self):
         self.preprocessor.start()
 
-    def train(self):
+    def train(self, batch_size, num_epochs):
         self.load_estimator()
 
         if self.estimator.FEATURE_NAME != self.data_iterators.FEATURE_NAME:
@@ -66,11 +69,11 @@ class CoNLLTagger():
         num_samples = self.data_iterators.NUM_TRAINING_SAMPLES
 
         print_info(num_samples)
-        max_steps = (num_samples // BATCH_SIZE) * NUM_EPOCHS
+        max_steps = (num_samples // batch_size) * num_epochs
         print_info("Total number steps: {} ".format(max_steps))
 
-        for current_epoch in range(NUM_EPOCHS):
-            max_steps = (num_samples // BATCH_SIZE) * (current_epoch + 1)
+        for current_epoch in range(num_epochs):
+            max_steps = (num_samples // batch_size) * (current_epoch + 1)
 
             train_hooks = []
             train_hooks.append(self.data_iterators.train_data_init_hook)

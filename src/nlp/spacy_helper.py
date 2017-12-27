@@ -5,12 +5,13 @@ from tensorflow.python.platform import gfile
 from config.global_constants import *
 
 
-def naive_vocab_creater(lines, out_file_name, vocab_filter):
+def naive_vocab_creater(lines, out_file_name, use_nlp):
     nlp = spacy.load('en_core_web_md')
     final_vocab = [PAD_WORD, UNKNOWN_WORD]
-    if vocab_filter:
-        vocab = [word for line in tqdm(lines) for word in line.split(" ") if word in nlp.vocab]
+    if use_nlp:
+        vocab = [word.text for line in tqdm(lines) for word in nlp(line) if word.text in nlp.vocab]
     else:
+        print(lines)
         vocab = [word for line in tqdm(lines) for word in line.split(" ")]
 
     vocab = set(vocab)
