@@ -104,7 +104,7 @@ class PatentDataPreprocessor(IPreprocessorInterface):
             self.ENTITY_VOCAB_FILE = self.OUT_DIR + "/" + self.ENTITY_COL + "_vocab.tsv"
 
     def load_ini(self):
-        self.config = ConfigManager("src/config/csv_data_preprocessor.ini")
+        self.config = ConfigManager("src/config/patent_data_preprocessor.ini")
         self.global_constants = ConfigManager("src/config/global_constants.ini")
 
     def create_target_directories(self):

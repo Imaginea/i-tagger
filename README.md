@@ -233,14 +233,23 @@ OR
 
 ![](docs/images/web_app.png)
 
+#### CoNLL CSV data
+ ```bash
+
+python src/commands/csv_dataset.py --mode=preprocess
+python src/commands/csv_dataset.py --mode=train
+python src/commands/csv_dataset.py --mode=retrain --model-dir=PATH TO Model
+python src/commands/csv_dataset.py --mode=predict --model-dir=PATH TO Model --predict-dir=PATH to Prediction files
+
+```
 
 #### Imaginea Patent Tagging
 ```bash
 
 python src/commands/patent_dataset.py --mode=preprocess
-python src/commands/patent_dataset.py --mode=train 
+python src/commands/patent_dataset.py --mode=train
 python src/commands/patent_dataset.py --mode=retrain --model-dir=PATH TO Model
-python src/commands/patent_dataset.py --mode=predict --model-dir=PATH TO Model --predict-dir=PATH to Prediction files  
+python src/commands/patent_dataset.py --mode=predict --model-dir=PATH TO Model --predict-dir=PATH to Prediction files
 
 ``` 
 
