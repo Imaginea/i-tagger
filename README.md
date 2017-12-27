@@ -143,7 +143,7 @@ source activate tensorflow-gpu
 ```bash
 pip install tensorflow_gpu
 pip install spacy
-python -m spacy download en_core_web_lg
+python -m spacy download en_core_web_md
 pip install tqdm
 pip install overrides
 ```
