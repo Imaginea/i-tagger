@@ -1,0 +1,17 @@
+0,1,2,3
+We,PRP,B-NP,O
+probably,RB,B-ADVP,O
+would,MD,B-VP,O
+not,RB,I-VP,O
+see,VB,I-VP,O
+avacados,JJ,B-NP,O
+come,VBP,B-VP,O
+in,IN,B-PP,O
+until,IN,B-PP,O
+next,JJ,B-NP,O
+season,NN,I-NP,O
+",",",",O,O
+next,JJ,B-NP,O
+November,NNP,I-NP,O
+.,.,I-NP,O
+ ,O,O,<UNK>

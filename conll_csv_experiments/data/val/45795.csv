@@ -1,0 +1,24 @@
+0,1,2,3
+that,WDT,B-NP,O
+up,RP,B-PRT,O
+to,TO,B-VP,O
+75,CD,B-NP,O
+Moslem,NNP,I-NP,B-MISC
+men,NNS,I-NP,O
+are,VBP,B-VP,O
+believed,VBN,I-VP,O
+to,TO,I-VP,O
+be,VB,I-VP,O
+approaching,VBG,I-VP,O
+Mahala,NNP,B-NP,B-LOC
+",",",",O,O
+ ,O,O,<UNK>
+NATO,NNP,B-NP,B-ORG
+spokesman,NN,I-NP,O
+Lieutenant-Colonel,NNP,I-NP,O
+Max,NNP,I-NP,B-PER
+Marriner,NNP,I-NP,I-PER
+said,VBD,B-VP,O
+in,IN,B-PP,O
+Sarajevo,NNP,B-NP,B-LOC
+.,.,O,O

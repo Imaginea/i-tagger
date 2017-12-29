@@ -1,0 +1,7 @@
+0,1,2,3
+(,(,O,O
+Italy,NNP,B-NP,B-LOC
+),),O,O
+71,CD,B-NP,O
+73,CD,I-NP,O
+72,CD,I-NP,O

@@ -1,0 +1,11 @@
+0,1,2,3
+It,PRP,B-NP,O
+'s,VBZ,B-VP,O
+not,RB,O,O
+bad,JJ,B-ADJP,O
+for,IN,B-PP,O
+an,DT,B-NP,O
+old,JJ,I-NP,O
+man,NN,I-NP,O
+!,.,O,O
+ ,O,O,<UNK>

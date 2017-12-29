@@ -1,0 +1,8 @@
+0,1,2,3
+x-PAO,JJ,B-NP,B-ORG
+v,IN,I-NP,O
+Legia,NNP,I-NP,B-ORG
+Warsaw,NNP,I-NP,I-ORG
+(,(,O,O
+Poland,NNP,B-NP,B-LOC
+),),O,O

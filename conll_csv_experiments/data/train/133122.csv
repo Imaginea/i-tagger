@@ -1,0 +1,13 @@
+0,1,2,3
+--,:,O,O
+Romina,NNP,B-NP,B-PER
+Nicaretta,NNP,B-NP,I-PER
+",",",",O,O
+Sao,NNP,B-NP,B-LOC
+Paulo,NNP,I-NP,I-LOC
+newsroom,NN,I-NP,O
+",",",",O,O
+5511,CD,B-NP,O
+232,CD,I-NP,O
+4411,CD,I-NP,O
+.,.,O,O

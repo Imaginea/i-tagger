@@ -1,0 +1,17 @@
+0,1,2,3
+Rubin,NNP,B-NP,B-PER
+'s,POS,B-NP,O
+misfortune,NN,I-NP,O
+turned,VBD,B-VP,O
+into,IN,B-PP,O
+a,DT,B-NP,O
+very,RB,I-NP,O
+lucky,JJ,I-NP,O
+break,NN,I-NP,O
+for,IN,B-PP,O
+eighth-seeded,JJ,B-NP,O
+Olympic,JJ,I-NP,B-MISC
+champion,NN,I-NP,O
+Lindsay,NNP,I-NP,B-PER
+Davenport,NNP,I-NP,I-PER
+.,.,O,O

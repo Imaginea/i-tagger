@@ -1,0 +1,17 @@
+0,1,2,3
+Officials,NNP,B-NP,O
+in,IN,B-PP,O
+Netanyahu,NNP,B-NP,B-PER
+'s,POS,B-NP,O
+office,NN,I-NP,O
+were,VBD,B-VP,O
+not,RB,I-VP,O
+immediately,RB,I-VP,O
+available,JJ,B-ADJP,O
+for,IN,B-PP,O
+comment,NN,B-NP,O
+on,IN,B-PP,O
+Arafat,NNP,B-NP,B-PER
+'s,POS,B-NP,O
+remarks,NNS,I-NP,O
+.,.,O,O

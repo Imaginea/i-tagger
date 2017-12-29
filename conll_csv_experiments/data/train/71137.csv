@@ -1,0 +1,10 @@
+0,1,2,3
+6.,NNP,B-NP,O
+Aaron,NNP,I-NP,B-PER
+Slight,NNP,I-NP,I-PER
+(,(,O,O
+New,NNP,B-NP,B-LOC
+Zealand,NNP,I-NP,I-LOC
+),),O,O
+Honda,NNP,B-NP,B-ORG
+38:41.756,CD,I-NP,O

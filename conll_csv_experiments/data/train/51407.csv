@@ -1,0 +1,7 @@
+0,1,2,3
+Orii,JJ,B-NP,B-ORG
+-,:,I-NP,O
+95/96,CD,I-NP,O
+group,NN,I-NP,O
+results,NNS,I-NP,O
+.,.,O,O

@@ -1,0 +1,13 @@
+0,1,2,3
+If,IN,B-SBAR,O
+teams,NNS,B-NP,O
+are,VBP,B-VP,O
+level,NN,B-NP,O
+on,IN,B-PP,O
+points,NNS,B-NP,O
+",",",",O,O
+positions,NNS,B-NP,O
+are,VBP,B-VP,O
+determined,VBN,I-VP,O
+by,IN,B-PP,O
+the,DT,B-NP,O

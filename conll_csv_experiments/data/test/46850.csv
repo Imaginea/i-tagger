@@ -1,0 +1,18 @@
+0,1,2,3
+ ,O,O,<UNK>
+We,PRP,B-NP,O
+would,MD,B-VP,O
+be,VB,I-VP,O
+very,RB,B-ADJP,O
+happy,JJ,I-ADJP,O
+with,IN,B-PP,O
+a,DT,B-NP,O
+draw,NN,I-NP,O
+in,IN,B-PP,O
+Belfast,NNP,B-NP,B-LOC
+",",",",O,O
+ ,O,O,<UNK>
+said,VBD,B-VP,O
+Hafizi,NN,B-NP,B-PER
+.,.,O,O
+ ,O,O,<UNK>

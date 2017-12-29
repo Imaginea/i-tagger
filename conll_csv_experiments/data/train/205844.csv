@@ -1,0 +1,17 @@
+0,1,2,3
+Liam,NN,B-NP,B-PER
+caught,VBD,B-VP,O
+a,DT,B-NP,O
+taxi,NN,I-NP,O
+back,RB,B-ADVP,O
+to,TO,B-PP,O
+London,NNP,B-NP,B-LOC
+saying,VBG,B-VP,O
+he,PRP,B-NP,O
+had,VBD,B-VP,O
+ ,O,O,<UNK>
+problems,NNS,B-NP,O
+at,IN,B-PP,O
+home,NN,B-NP,O
+ ,O,O,<UNK>
+.,.,O,O

@@ -1,0 +1,11 @@
+0,1,2,3
+F.A.,NNP,B-NP,O
+:,:,O,O
+Ferris,NNPS,B-NP,B-ORG
+",",",",O,I-ORG
+Baker,NNP,B-NP,I-ORG
+Watts,NNP,I-NP,I-ORG
+",",",",O,I-ORG
+Inc.,NNP,B-NP,I-ORG
+",",",",O,O
+Charleston,NNP,B-NP,B-LOC

@@ -1,0 +1,10 @@
+0,1,2,3
+9.,CD,B-NP,O
+John,NNP,I-NP,B-PER
+Talen,NNP,I-NP,I-PER
+(,(,O,O
+Neths,NNPS,B-NP,B-LOC
+),),O,O
+Foreldorado,VB,B-VP,B-ORG
+same,JJ,B-NP,O
+time,NN,I-NP,O

@@ -1,0 +1,8 @@
+0,1,2,3
+7.,CD,B-NP,O
+Rohan,JJ,I-NP,B-PER
+Robinson,NNP,I-NP,I-PER
+(,(,O,O
+Australia,NNP,B-NP,B-LOC
+),),O,O
+49.36,CD,B-NP,O

@@ -1,0 +1,8 @@
+0,1,2,3
+Keane,NNP,B-NP,B-ORG
+wins,VBZ,B-VP,O
+contract,NN,B-NP,O
+from,IN,B-PP,O
+ING,NNP,B-NP,B-ORG
+units,NNS,I-NP,O
+.,.,O,O

@@ -1,0 +1,16 @@
+0,1,2,3
+He,PRP,B-NP,O
+added,VBD,B-VP,O
+that,IN,B-SBAR,O
+former,JJ,B-NP,O
+hardline,JJ,I-NP,O
+apartheid,NN,I-NP,O
+president,NN,I-NP,O
+P.W.,NNP,I-NP,B-PER
+Botha,NNP,I-NP,I-PER
+could,MD,B-VP,O
+be,VB,I-VP,O
+among,IN,B-PP,O
+those,DT,B-NP,O
+called,VBN,B-VP,O
+.,.,O,O

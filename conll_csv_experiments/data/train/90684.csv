@@ -1,0 +1,11 @@
+0,1,2,3
+Dow,NNP,B-NP,B-MISC
+rises,VBZ,B-VP,O
+on,IN,B-PP,O
+Philip,NNP,B-NP,B-ORG
+Morris,NNP,I-NP,I-ORG
+",",",",O,O
+other,JJ,B-NP,O
+stocks,NNS,I-NP,O
+lower,RBR,B-ADVP,O
+.,.,O,O

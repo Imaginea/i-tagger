@@ -1,0 +1,16 @@
+0,1,2,3
+9.,CD,B-NP,O
+Stephane,NNP,I-NP,B-PER
+Ortelli,NNP,I-NP,I-PER
+(,(,O,O
+France,NNP,B-NP,B-LOC
+),),O,O
+/,SYM,O,O
+Bob,NNP,B-NP,B-PER
+Wollek,NNP,I-NP,I-PER
+(,(,O,O
+France,NNP,B-NP,B-LOC
+),),O,O
+/,SYM,O,O
+Franz,NNP,B-NP,B-PER
+Konrad,NNP,I-NP,I-PER

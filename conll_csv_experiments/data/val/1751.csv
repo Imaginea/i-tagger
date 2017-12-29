@@ -1,0 +1,11 @@
+0,1,2,3
+I,PRP,B-NP,O
+'m,VBP,B-VP,O
+not,RB,I-VP,O
+retiring,VBG,I-VP,O
+",",",",O,O
+ ,O,O,<UNK>
+Duran,JJ,B-NP,B-PER
+told,VBD,B-VP,O
+Reuters,NNP,B-NP,B-ORG
+.,.,O,O

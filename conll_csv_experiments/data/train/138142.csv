@@ -1,0 +1,6 @@
+0,1,2,3
+--,:,B-NP,O
+Boston,NNP,I-NP,B-LOC
+bureau,NN,I-NP,O
+",",",",O,O
+617-367-4106,CD,B-ADVP,O

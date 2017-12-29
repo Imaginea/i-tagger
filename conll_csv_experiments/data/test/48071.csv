@@ -1,0 +1,16 @@
+0,1,2,3
+Group,NNP,B-NP,O
+A,NNP,I-NP,O
+standings,VBZ,B-VP,O
+(,(,O,O
+tabulate,NN,B-NP,O
+under,IN,B-PP,O
+:,:,O,O
+played,VBN,B-VP,O
+",",",",O,O
+won,VBD,B-VP,O
+",",",",B-VP,O
+drawn,VBN,I-VP,O
+",",",",O,O
+lost,VBD,B-VP,O
+",",",",O,O

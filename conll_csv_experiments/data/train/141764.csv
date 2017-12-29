@@ -1,0 +1,11 @@
+0,1,2,3
+M2,CD,B-NP,O
+money,NN,I-NP,O
+supply,NN,I-NP,O
+(,(,O,O
+bln,NN,B-NP,O
+taka,NN,I-NP,O
+),),O,O
+456.8,CD,B-NP,O
+439.9,CD,I-NP,O
+422.1,CD,I-NP,O

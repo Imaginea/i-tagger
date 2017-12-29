@@ -1,0 +1,17 @@
+0,1,2,3
+South,NNP,B-NP,B-LOC
+Korea,NNP,I-NP,I-LOC
+-,:,O,O
+Kim,NNP,B-NP,B-PER
+Do,VBP,O,I-PER
+Hoon,NNP,B-NP,I-PER
+5,CD,I-NP,O
+",",",",O,O
+Hwang,NNP,B-NP,B-PER
+Sun,NNP,I-NP,I-PER
+Hong,NNP,I-NP,I-PER
+7,CD,I-NP,O
+and,CC,I-NP,O
+15,CD,I-NP,O
+",",",",O,O
+Koo,NNP,B-NP,B-PER

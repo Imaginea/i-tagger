@@ -1,0 +1,8 @@
+0,1,2,3
+5.,CD,B-NP,O
+Falk,VBP,B-VP,B-PER
+Balzer,NNP,B-NP,I-PER
+(,(,O,O
+Germany,NNP,B-NP,B-LOC
+),),O,O
+13.52,CD,B-NP,O

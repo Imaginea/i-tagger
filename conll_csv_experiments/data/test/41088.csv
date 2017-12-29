@@ -1,0 +1,8 @@
+0,1,2,3
+2.,NNP,B-NP,O
+Pavel,NNP,I-NP,B-PER
+Muslimov,NNP,I-NP,I-PER
+(,(,O,O
+Russia,NNP,B-NP,B-LOC
+),),O,O
+82,CD,B-NP,O

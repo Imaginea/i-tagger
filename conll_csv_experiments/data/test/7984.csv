@@ -1,0 +1,16 @@
+0,1,2,3
+Karlsruhe,NNP,B-NP,B-LOC
+3,CD,I-NP,O
+(,(,O,O
+Reich,NNP,B-NP,B-PER
+29th,JJ,I-NP,O
+",",",",O,O
+Carl,NNP,B-NP,B-PER
+44th,CD,I-NP,O
+",",",",O,O
+Dundee,NNP,B-NP,B-ORG
+69th,JJ,I-NP,O
+),),O,O
+Freiburg,NNP,B-NP,B-LOC
+0,CD,I-NP,O
+.,.,O,O

@@ -1,0 +1,8 @@
+0,1,2,3
+Tokyo,NNP,B-NP,B-ORG
+Soir,NNP,I-NP,I-ORG
+-,:,O,O
+1996,CD,B-NP,O
+parent,NN,I-NP,O
+forecast,NN,I-NP,O
+.,.,O,O

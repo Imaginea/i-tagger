@@ -1,0 +1,24 @@
+0,1,2,3
+We,PRP,B-NP,O
+will,MD,B-VP,O
+ask,VB,I-VP,O
+the,DT,B-NP,O
+(,(,O,O
+EU,NNP,B-NP,B-ORG
+),),O,O
+scientific,JJ,B-NP,O
+and,CC,I-NP,O
+veterinary,JJ,I-NP,O
+committee,NN,I-NP,O
+to,TO,B-VP,O
+examine,VB,I-VP,O
+it,PRP,B-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+Commission,NNP,B-NP,B-ORG
+spokesman,NN,I-NP,O
+Gerard,NNP,I-NP,B-PER
+Kiely,NNP,I-NP,I-PER
+told,VBD,B-VP,O
+Reuters,NNP,B-NP,B-ORG
+.,.,O,O

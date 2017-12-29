@@ -1,0 +1,24 @@
+0,1,2,3
+One,PRP,B-NP,O
+has,VBZ,B-VP,O
+to,TO,I-VP,O
+feel,VB,I-VP,O
+a,DT,B-NP,O
+bit,NN,I-NP,O
+guilty,JJ,B-ADJP,O
+to,TO,B-VP,O
+feel,VB,I-VP,O
+the,DT,B-NP,O
+need,NN,I-NP,O
+for,IN,B-PP,O
+reconciling,VBG,B-VP,O
+yourself,PRP,B-NP,O
+to,TO,B-PP,O
+a,DT,B-NP,O
+historical,JJ,I-NP,O
+adversary,NN,I-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+he,PRP,B-NP,O
+said,VBD,B-VP,O
+.,.,O,O

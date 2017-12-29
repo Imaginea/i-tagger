@@ -1,0 +1,9 @@
+0,1,2,3
+1930,CD,B-NP,O
+-,:,I-NP,O
+Belgian,JJ,I-NP,B-MISC
+King,NNP,I-NP,O
+Baudouin,NNP,B-NP,B-PER
+I,PRP,I-NP,I-PER
+born,VBN,B-ADJP,O
+.,.,O,O

@@ -1,0 +1,11 @@
+0,1,2,3
+10.,CD,B-NP,O
+Christophe,NNP,I-NP,B-PER
+Capelle,NNP,I-NP,I-PER
+-,:,O,O
+Jean-Michel,NNP,B-NP,B-PER
+Monin,NNP,I-NP,I-PER
+(,(,O,O
+France,NNP,B-NP,B-LOC
+),),O,O
+2,CD,B-NP,O

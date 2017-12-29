@@ -1,0 +1,18 @@
+0,1,2,3
+And,CC,O,O
+that,DT,B-NP,O
+means,VBZ,B-VP,O
+I,PRP,B-NP,O
+am,VBP,B-VP,O
+all,RB,B-ADJP,O
+right,JJ,I-ADJP,O
+",",",",O,O
+ ,O,O,<UNK>
+he,PRP,B-NP,O
+told,VBD,B-VP,O
+reporters,NNS,B-NP,O
+invited,VBN,B-VP,O
+to,TO,B-PP,O
+his,PRP$,B-NP,O
+home,NN,I-NP,O
+.,.,O,O

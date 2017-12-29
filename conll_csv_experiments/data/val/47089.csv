@@ -1,0 +1,10 @@
+0,1,2,3
+Cuban,JJ,B-NP,B-MISC
+novelist,NN,I-NP,O
+Jose,NNP,I-NP,B-PER
+Soler,NNP,I-NP,I-PER
+Puig,NNP,I-NP,I-PER
+dies,VBZ,B-VP,O
+at,IN,B-PP,O
+79,CD,B-NP,O
+.,.,O,O

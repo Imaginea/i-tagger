@@ -1,0 +1,35 @@
+0,1,2,3
+ ,O,O,<UNK>
+The,DT,B-NP,O
+Belgian,NNP,I-NP,B-MISC
+police,NN,I-NP,O
+also,RB,B-ADVP,O
+informed,VBD,B-VP,O
+us,PRP,B-NP,O
+that,IN,B-SBAR,O
+Dutroux,JJ,B-ADJP,B-PER
+",",",",O,O
+together,RB,B-ADVP,O
+with,IN,B-PP,O
+one,CD,B-NP,O
+other,JJ,I-NP,O
+man,NN,I-NP,O
+",",",",O,O
+had,VBD,B-VP,O
+(,(,O,O
+also,RB,B-ADVP,O
+),),O,O
+planned,VBN,B-NP,O
+the,DT,I-NP,O
+kidnapping,NN,I-NP,O
+of,IN,B-PP,O
+at,IN,B-NP,O
+least,JJS,I-NP,O
+one,CD,I-NP,O
+Slovak,NNP,I-NP,B-MISC
+woman,NN,I-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+Gajdos,NNP,B-NP,B-PER
+said,VBD,B-VP,O
+.,.,O,O

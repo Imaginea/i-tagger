@@ -1,0 +1,15 @@
+0,1,2,3
+Bottom,NNP,B-NP,O
+team,NN,I-NP,O
+Reggiana,NNP,B-NP,B-ORG
+are,VBP,B-VP,O
+also,RB,I-VP,O
+without,IN,B-PP,O
+a,DT,B-NP,O
+suspended,VBN,I-NP,O
+defender,NN,I-NP,O
+",",",",O,O
+German,NNP,B-NP,B-MISC
+Dietmar,NNP,I-NP,B-PER
+Beiersdorfer,NNP,I-NP,I-PER
+.,.,O,O

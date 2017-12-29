@@ -1,0 +1,6 @@
+0,1,2,3
+Market,NNP,B-NP,O
+Arrivals,NNPS,I-NP,O
+Auction,NNP,I-NP,O
+Traders,NNS,I-NP,O
+Plant,NN,I-NP,O

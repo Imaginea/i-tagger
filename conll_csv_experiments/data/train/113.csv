@@ -1,0 +1,34 @@
+0,1,2,3
+ ,O,O,<UNK>
+We,PRP,B-NP,O
+do,VBP,B-VP,O
+n't,RB,I-VP,O
+support,VB,I-VP,O
+any,DT,B-NP,O
+such,JJ,I-NP,O
+recommendation,NN,I-NP,O
+because,IN,B-SBAR,O
+we,PRP,B-NP,O
+do,VBP,B-VP,O
+n't,RB,I-VP,O
+see,VB,I-VP,O
+any,DT,B-NP,O
+grounds,NNS,I-NP,O
+for,IN,B-PP,O
+it,PRP,B-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+the,DT,B-NP,O
+Commission,NNP,I-NP,B-ORG
+'s,POS,B-NP,O
+chief,JJ,I-NP,O
+spokesman,NN,I-NP,O
+Nikolaus,NNP,I-NP,B-PER
+van,NNP,I-NP,I-PER
+der,FW,I-NP,I-PER
+Pas,NNP,I-NP,I-PER
+told,VBD,B-VP,O
+a,DT,B-NP,O
+news,NN,I-NP,O
+briefing,NN,I-NP,O
+.,.,O,O

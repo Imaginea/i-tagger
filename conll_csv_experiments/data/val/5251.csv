@@ -1,0 +1,13 @@
+0,1,2,3
+Earlier,RBR,B-NP,O
+this,DT,I-NP,O
+month,NN,I-NP,O
+he,PRP,B-NP,O
+also,RB,B-ADVP,O
+beat,VBD,B-VP,O
+world,NN,B-NP,O
+champion,NN,I-NP,O
+Bailey,NNP,I-NP,B-PER
+in,IN,B-PP,O
+Zurich,NNP,B-NP,B-LOC
+.,.,O,O

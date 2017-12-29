@@ -1,0 +1,8 @@
+0,1,2,3
+Fire,NNP,B-NP,O
+destroys,VBZ,B-VP,O
+restaurant,NN,B-NP,O
+in,IN,B-PP,O
+Bahraini,NNP,B-NP,B-LOC
+village,NN,I-NP,O
+.,.,O,O

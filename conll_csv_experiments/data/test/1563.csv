@@ -1,0 +1,8 @@
+0,1,2,3
+Moin,NNP,B-NP,B-PER
+Khan,NNP,I-NP,I-PER
+c,SYM,O,O
+Astle,NNP,B-NP,B-PER
+b,SYM,O,O
+Harris,NNP,B-NP,B-PER
+1,CD,I-NP,O

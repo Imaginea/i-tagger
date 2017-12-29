@@ -1,0 +1,14 @@
+0,1,2,3
+ ,O,O,<UNK>
+The,DT,B-NP,O
+Democratic,JJ,I-NP,B-MISC
+party,NN,I-NP,O
+have,VBP,B-VP,O
+requested,VBN,I-VP,O
+we,PRP,B-NP,O
+bring,VBP,B-VP,O
+our,PRP$,B-NP,O
+placards,NNS,I-NP,O
+with,IN,B-PP,O
+us,PRP,B-NP,O
+.,.,O,O

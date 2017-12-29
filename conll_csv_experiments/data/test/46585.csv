@@ -1,0 +1,13 @@
+0,1,2,3
+207,CD,B-NP,O
+Clinton,NNP,I-NP,B-PER
+Whitelaw,NNP,I-NP,I-PER
+70,CD,I-NP,O
+70,CD,I-NP,O
+67,CD,I-NP,O
+",",",",O,O
+Mark,NNP,B-NP,B-PER
+Cayeux,NNP,I-NP,I-PER
+(,(,O,O
+Zimbabwe,NNP,B-NP,B-LOC
+),),O,O

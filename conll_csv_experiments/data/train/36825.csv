@@ -1,0 +1,8 @@
+0,1,2,3
+2.,CD,B-NP,O
+Khalid,NNP,I-NP,B-PER
+Boulami,NNP,I-NP,I-PER
+(,(,O,O
+Morocco,NNP,B-NP,B-LOC
+),),O,O
+7:31.65,CD,B-NP,O

@@ -1,0 +1,8 @@
+0,1,2,3
+TOTAL,NNP,B-NP,O
+VOLUME,NN,I-NP,O
+--,:,O,O
+"83,008",CD,B-NP,O
+"60,131",CD,I-NP,O
+"22,877",CD,I-NP,O
+--,:,O,O

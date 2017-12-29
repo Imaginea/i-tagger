@@ -1,0 +1,25 @@
+0,1,2,3
+A,DT,B-NP,O
+spokesman,NN,I-NP,O
+for,IN,B-PP,O
+the,DT,B-NP,O
+DOT,NNP,I-NP,B-ORG
+told,VBD,B-VP,O
+Reuters,NNP,B-NP,B-ORG
+ ,O,O,<UNK>
+We,PRP,B-NP,O
+have,VBP,B-VP,O
+had,VBN,I-VP,O
+talks,NNS,B-NP,O
+towards,IN,B-PP,O
+concluding,VBG,B-VP,O
+a,DT,B-NP,O
+new,JJ,I-NP,O
+air,NN,I-NP,O
+service,NN,I-NP,O
+agreement,NN,I-NP,O
+which,WDT,B-NP,O
+would,MD,B-VP,O
+produce,VB,I-VP,O
+liberalisation,NN,B-NP,O
+...,:,O,O

@@ -1,0 +1,11 @@
+0,1,2,3
+Zinc,NN,B-NP,O
+:,:,O,O
+Special,JJ,B-NP,O
+high,JJ,I-NP,O
+grade,NN,I-NP,O
+SHG,NNP,I-NP,O
+5.50-6.00,NNP,I-NP,O
+cents,NNS,I-NP,O
+/,SYM,O,O
+pound,NN,B-NP,O

@@ -1,0 +1,11 @@
+0,1,2,3
+Over,IN,B-NP,O
+300,CD,I-NP,O
+people,NNS,I-NP,O
+were,VBD,B-VP,O
+killed,VBN,I-VP,O
+on,IN,B-PP,O
+this,DT,B-NP,O
+day,NN,I-NP,O
+alone,RB,B-ADVP,O
+.,.,O,O

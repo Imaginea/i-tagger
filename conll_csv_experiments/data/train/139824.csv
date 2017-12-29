@@ -1,0 +1,10 @@
+0,1,2,3
+ ,O,O,<UNK>
+I,PRP,B-NP,O
+do,VBP,B-VP,O
+not,RB,I-VP,O
+know,VB,I-VP,O
+who,WP,B-NP,O
+she,PRP,B-NP,O
+is,VBZ,B-VP,O
+.,.,O,O

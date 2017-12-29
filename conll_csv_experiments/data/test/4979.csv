@@ -1,0 +1,15 @@
+0,1,2,3
+Hermawan,NNP,B-NP,B-PER
+Susanto,NNP,I-NP,I-PER
+(,(,O,O
+Indonesia,NNP,O,B-LOC
+),),O,O
+beat,VB,B-VP,O
+Soren,NNP,B-NP,B-PER
+B.,NNP,I-NP,I-PER
+Nielsen,NNP,I-NP,I-PER
+(,(,O,O
+Denmark,NNP,B-NP,B-LOC
+),),O,O
+15-8,CD,B-NP,O
+15-2,CD,I-NP,O

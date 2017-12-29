@@ -1,0 +1,22 @@
+0,1,2,3
+ ,O,O,<UNK>
+So,RB,B-ADVP,O
+sell,VBP,B-VP,O
+options,NNS,B-NP,O
+on,IN,B-PP,O
+Bunds,NNPS,B-NP,B-MISC
+and,CC,O,O
+France,NNP,B-NP,B-LOC
+to,TO,B-VP,O
+enhance,VB,I-VP,O
+yield,NN,B-NP,O
+and,CC,O,O
+buy,VB,B-VP,O
+options,NNS,B-NP,O
+on,IN,B-PP,O
+Italy,NNP,B-NP,B-LOC
+",",",",O,O
+ ,O,O,<UNK>
+Coughlan,NNP,B-NP,B-PER
+said,VBD,B-VP,O
+..,NNS,B-NP,O

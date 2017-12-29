@@ -1,0 +1,9 @@
+0,1,2,3
+Limoges,NNS,B-NP,B-ORG
+(,(,O,O
+France,NNP,B-NP,B-LOC
+),),O,O
+9,CD,B-NP,O
+3,CD,I-NP,O
+6,CD,I-NP,O
+12,CD,I-NP,O

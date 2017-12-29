@@ -1,0 +1,8 @@
+0,1,2,3
+Goalkeepers,NNS,B-NP,O
+-,:,O,O
+Blendi,NNP,B-NP,B-PER
+Nallbani,NNP,I-NP,I-PER
+",",",",O,O
+Armir,NNP,B-NP,B-PER
+Grima,NNP,I-NP,I-PER

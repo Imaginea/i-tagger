@@ -1,0 +1,14 @@
+0,1,2,3
+*,SYM,O,O
+Economists,NNS,B-NP,O
+see,VBP,B-VP,O
+second-quarter,JJ,B-NP,O
+gross,JJ,I-NP,O
+domestic,JJ,I-NP,O
+product,NN,I-NP,O
+revised,VBN,B-VP,O
+down,RB,B-ADVP,O
+0.1,CD,B-NP,O
+percentage,NN,I-NP,O
+point,NN,I-NP,O
+.,.,O,O

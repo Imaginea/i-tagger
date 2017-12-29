@@ -1,0 +1,16 @@
+0,1,2,3
+The,DT,B-NP,O
+unnamed,JJ,I-NP,O
+victim,NN,I-NP,O
+died,VBD,B-VP,O
+during,IN,B-PP,O
+the,DT,B-NP,O
+night,NN,I-NP,O
+",",",",O,O
+a,DT,B-NP,O
+hospital,NN,I-NP,O
+spokesman,NN,I-NP,O
+said,VBD,B-VP,O
+on,IN,B-PP,O
+Saturday,NNP,B-NP,O
+.,.,O,O

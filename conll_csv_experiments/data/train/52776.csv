@@ -1,0 +1,13 @@
+0,1,2,3
+Following,VBG,B-VP,O
+are,VBP,B-VP,O
+highlights,VBZ,I-VP,O
+of,IN,B-PP,O
+stories,NNS,B-NP,O
+in,IN,B-PP,O
+the,DT,B-NP,O
+Irish,NNP,I-NP,B-MISC
+press,NN,I-NP,O
+on,IN,B-PP,O
+Friday,NNP,B-NP,O
+.,.,O,O

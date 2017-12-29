@@ -1,0 +1,14 @@
+0,1,2,3
+Wood,NNP,B-NP,B-PER
+",",",",O,O
+Loren,NNP,B-NP,B-PER
+Roberts,NNP,I-NP,I-PER
+",",",",O,O
+Steve,NNP,B-NP,B-PER
+Stricker,NNP,I-NP,I-PER
+",",",",O,O
+Brian,NNP,B-NP,B-PER
+Claar,NNP,I-NP,I-PER
+",",",",O,O
+Russ,NNP,B-NP,B-PER
+Cochran,NNP,I-NP,I-PER

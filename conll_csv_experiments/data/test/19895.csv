@@ -1,0 +1,27 @@
+0,1,2,3
+Interfax,JJ,B-NP,B-ORG
+news,NN,I-NP,O
+agency,NN,I-NP,O
+quoted,VBD,B-VP,O
+First,NNP,B-NP,O
+Deputy,NNP,I-NP,O
+Foreign,NNP,I-NP,O
+Minister,NNP,I-NP,O
+Igor,NNP,I-NP,B-PER
+Ivanov,NNP,I-NP,I-PER
+as,IN,B-PP,O
+saying,VBG,B-VP,O
+Moscow,NNP,B-NP,B-LOC
+was,VBD,B-VP,O
+ready,JJ,B-ADJP,O
+for,IN,B-PP,O
+ ,O,O,<UNK>
+most,JJS,B-NP,O
+active,JJ,I-NP,O
+and,CC,I-NP,O
+constructive,JJ,I-NP,O
+ ,O,O,<UNK>
+work,NN,B-NP,O
+with,IN,B-PP,O
+Albright,NNP,B-NP,B-PER
+.,.,O,O

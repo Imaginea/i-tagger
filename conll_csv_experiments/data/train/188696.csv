@@ -1,0 +1,8 @@
+0,1,2,3
+8.,CD,B-NP,O
+Servais,NNPS,I-NP,B-PER
+Knaven,NNP,I-NP,I-PER
+(,(,I-NP,O
+Netherlands,NNP,I-NP,B-LOC
+),),O,O
+TVM,NNP,B-NP,B-ORG

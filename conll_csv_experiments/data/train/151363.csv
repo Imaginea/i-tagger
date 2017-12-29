@@ -1,0 +1,10 @@
+0,1,2,3
+day,NN,B-NP,O
+of,IN,B-PP,O
+four-day,JJ,B-NP,O
+English,NNP,I-NP,B-MISC
+County,NNP,I-NP,B-MISC
+Championship,NNP,I-NP,I-MISC
+cricket,NN,I-NP,O
+matches,NNS,I-NP,O
+on,IN,B-PP,O

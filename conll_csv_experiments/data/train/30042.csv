@@ -1,0 +1,6 @@
+0,1,2,3
+number,NN,B-NP,O
+denotes,VBZ,B-VP,O
+seeding,NN,B-NP,O
+),),O,O
+:,:,O,O

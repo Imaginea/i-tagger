@@ -1,0 +1,8 @@
+0,1,2,3
+Milan,NNP,B-NP,B-ORG
+-,:,O,O
+Dejan,NNP,B-NP,B-PER
+Savicevic,NNP,I-NP,I-PER
+(,(,O,O
+21st,JJ,B-NP,O
+),),O,O

@@ -1,0 +1,9 @@
+0,1,2,3
+1.,CD,B-NP,O
+Derrick,NNP,I-NP,B-PER
+Adkins,NNPS,I-NP,I-PER
+(,(,O,O
+U.S.,NNP,B-NP,B-LOC
+),),O,O
+47.93,CD,B-NP,O
+seconds,NNS,I-NP,O

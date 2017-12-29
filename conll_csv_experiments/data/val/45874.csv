@@ -1,0 +1,14 @@
+0,1,2,3
+Some,DT,B-NP,O
+Moslems,NNPS,I-NP,B-MISC
+began,VBD,B-VP,O
+returning,VBG,I-VP,O
+to,TO,I-VP,O
+rebuild,VB,I-VP,O
+their,PRP$,B-NP,O
+properties,NNS,I-NP,O
+earlier,RBR,B-ADVP,O
+in,IN,B-PP,O
+the,DT,B-NP,O
+week,NN,I-NP,O
+.,.,O,O

@@ -1,0 +1,7 @@
+0,1,2,3
+Zaire,NNP,B-NP,B-LOC
+installs,VBZ,B-VP,O
+first,JJ,B-NP,O
+election,NN,I-NP,O
+delegates,NNS,I-NP,O
+.,.,O,O

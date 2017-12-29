@@ -1,0 +1,6 @@
+0,1,2,3
+F.A.,NNP,B-NP,B-MISC
+Challenge,NNP,I-NP,I-MISC
+Cup,NNP,I-NP,I-MISC
+second,JJ,I-NP,O
+round,NN,I-NP,O

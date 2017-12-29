@@ -1,0 +1,16 @@
+0,1,2,3
+2,CD,B-NP,O
+-,:,I-NP,O
+Christopher,NNP,I-NP,B-PER
+Wreh,NNP,I-NP,I-PER
+(,(,O,O
+Guingamp,NNP,B-NP,B-ORG
+),),O,O
+",",",",O,O
+Marc-Vivien,NNP,B-NP,B-PER
+Foe,NNP,I-NP,I-PER
+(,(,O,O
+Lens,NNP,B-NP,B-ORG
+),),O,O
+",",",",O,O
+Enzo,NN,B-NP,B-PER

@@ -1,0 +1,5 @@
+0,1,2,3
+--,:,O,O
+Karachi,NNP,B-NP,B-LOC
+newsroom,NN,I-NP,O
+9221-5685192,CD,I-NP,O

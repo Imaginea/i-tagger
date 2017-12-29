@@ -1,0 +1,6 @@
+0,1,2,3
+S.,NNP,B-NP,B-PER
+Waugh,NNP,I-NP,I-PER
+b,SYM,O,O
+Muralitharan,NN,B-NP,B-PER
+22,CD,I-NP,O

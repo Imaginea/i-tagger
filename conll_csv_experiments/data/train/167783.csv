@@ -1,0 +1,13 @@
+0,1,2,3
+ ,O,O,<UNK>
+They,PRP,B-NP,O
+just,RB,B-ADVP,O
+voted,VBD,B-VP,O
+along,IN,B-ADVP,O
+ethnic,JJ,B-NP,O
+lines,NNS,I-NP,O
+where,WRB,B-ADVP,O
+they,PRP,B-NP,O
+could,MD,B-VP,O
+.,.,O,O
+ ,O,O,<UNK>

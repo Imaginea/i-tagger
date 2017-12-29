@@ -1,0 +1,11 @@
+0,1,2,3
+Nicaraguan,JJ,B-NP,B-MISC
+president,NN,I-NP,O
+to,TO,B-VP,O
+go,VB,I-VP,O
+to,TO,I-VP,O
+U.S.,NNP,B-NP,B-LOC
+for,IN,B-PP,O
+medical,JJ,B-NP,O
+care,NN,I-NP,O
+.,.,O,O

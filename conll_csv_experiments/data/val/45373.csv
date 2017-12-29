@@ -1,0 +1,10 @@
+0,1,2,3
+Rwandan,JJ,B-NP,B-MISC
+refugee,NN,I-NP,O
+group,NN,I-NP,O
+calls,VBZ,B-VP,O
+for,IN,B-PP,O
+calm,JJ,B-NP,O
+over,IN,B-PP,O
+census,NN,B-NP,O
+.,.,O,O

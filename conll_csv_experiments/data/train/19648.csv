@@ -1,0 +1,14 @@
+0,1,2,3
+Officials,NNS,B-NP,O
+are,VBP,B-VP,O
+now,RB,I-VP,O
+hunting,VBG,I-VP,O
+for,IN,B-PP,O
+the,DT,B-NP,O
+suspect,NN,I-NP,O
+'s,POS,B-NP,O
+collaborators,NNS,I-NP,O
+",",",",I-NP,O
+police,NN,I-NP,O
+said,VBD,B-VP,O
+.,.,O,O

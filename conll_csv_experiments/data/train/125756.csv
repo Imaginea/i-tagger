@@ -1,0 +1,12 @@
+0,1,2,3
+Werder,NNP,B-NP,B-ORG
+Bremen,NNP,I-NP,I-ORG
+1,CD,I-NP,O
+(,(,O,O
+Schulz,NNP,B-NP,B-PER
+31st,NNP,I-NP,O
+),),O,O
+Borussia,NNP,B-NP,B-ORG
+Moenchengladbach,NNP,I-NP,I-ORG
+0,CD,I-NP,O
+.,.,O,O

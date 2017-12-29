@@ -1,0 +1,13 @@
+0,1,2,3
+6-2,CD,B-NP,O
+Petr,IN,B-PP,B-PER
+Korda,NNP,B-NP,I-PER
+(,(,O,O
+Czech,NNP,B-NP,B-LOC
+Republic,NNP,I-NP,I-LOC
+),),O,O
+bat,NN,B-NP,O
+Bohdan,NNP,I-NP,B-PER
+Ulihrach,NNP,I-NP,I-PER
+(,(,O,O
+Czech,JJ,B-NP,B-LOC

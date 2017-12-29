@@ -1,0 +1,6 @@
+0,1,2,3
++6,NNP,B-NP,O
+Scott,NNP,I-NP,B-PER
+McCarron,NNP,I-NP,I-PER
+76,CD,I-NP,O
+70,CD,I-NP,O

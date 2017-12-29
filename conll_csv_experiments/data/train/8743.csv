@@ -1,0 +1,6 @@
+0,1,2,3
+Ferenc,NNP,B-NP,B-PER
+Horvath,NNP,I-NP,I-PER
+(,(,O,O
+15th,JJ,B-NP,O
+),),O,O

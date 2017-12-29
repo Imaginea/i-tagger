@@ -1,0 +1,11 @@
+0,1,2,3
+At,IN,B-PP,O
+Portsmouth,NNP,B-NP,B-LOC
+:,:,O,O
+Middlesex,NNP,B-NP,B-ORG
+beat,VBD,B-VP,O
+Hampshire,NNP,B-NP,B-ORG
+by,IN,B-PP,O
+188,CD,B-NP,O
+runs,NNS,I-NP,O
+.,.,O,O

@@ -1,0 +1,11 @@
+0,1,2,3
+-,:,O,O
+State,NN,B-NP,O
+security,NN,I-NP,O
+court,NN,I-NP,O
+starts,NNS,I-NP,O
+investigating,VBG,B-VP,O
+suspects,NNS,B-NP,O
+in,IN,B-PP,O
+unrest,NN,B-NP,O
+.,.,O,O

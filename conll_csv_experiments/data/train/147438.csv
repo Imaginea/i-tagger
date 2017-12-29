@@ -1,0 +1,8 @@
+0,1,2,3
+Palestinians,NNPS,B-NP,B-MISC
+to,TO,B-VP,O
+strike,VB,I-VP,O
+over,RP,B-PRT,O
+Jerusalem,NNP,B-NP,B-LOC
+demolition,NN,I-NP,O
+.,.,O,O

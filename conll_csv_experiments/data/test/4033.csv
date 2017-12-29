@@ -1,0 +1,7 @@
+0,1,2,3
+Australia,NNP,B-NP,B-LOC
+M.,NNP,B-NP,B-PER
+Taylor,NNP,I-NP,I-PER
+b,SYM,O,O
+McLean,NNP,B-NP,B-PER
+29,CD,I-NP,O

@@ -1,0 +1,25 @@
+0,1,2,3
+ ,O,O,<UNK>
+President,NNP,B-NP,O
+Saddam,NNP,I-NP,B-PER
+Hussein,NNP,I-NP,I-PER
+stressed,VBD,B-VP,O
+during,IN,B-PP,O
+the,DT,B-NP,O
+meeting,NN,I-NP,O
+Iraq,NNP,I-NP,B-LOC
+'s,POS,B-NP,O
+keenness,NN,I-NP,O
+to,TO,B-VP,O
+maintain,VB,I-VP,O
+friendship,NN,B-NP,O
+and,CC,I-NP,O
+cooperation,NN,I-NP,O
+with,IN,B-PP,O
+Russia,NNP,B-NP,B-LOC
+",",",",O,O
+ ,O,O,<UNK>
+the,DT,B-NP,O
+papers,NNS,I-NP,O
+said,VBD,B-VP,O
+.,.,O,O

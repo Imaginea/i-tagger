@@ -1,0 +1,5 @@
+0,1,2,3
+Hartford,NNP,B-NP,B-ORG
+4,CD,I-NP,O
+BOSTON,NN,I-NP,B-ORG
+2,CD,I-NP,O

@@ -1,0 +1,21 @@
+0,1,2,3
+ ,O,O,<UNK>
+We,PRP,B-NP,O
+hope,VBP,B-VP,O
+to,TO,I-VP,O
+start,VB,I-VP,O
+international,JJ,B-NP,O
+telephone,NN,I-NP,O
+business,NN,I-NP,O
+as,RB,B-ADVP,O
+soon,RB,I-ADVP,O
+as,IN,B-PP,O
+possible,JJ,B-ADJP,O
+",",",",O,O
+ ,O,O,<UNK>
+a,DT,B-NP,O
+company,NN,I-NP,O
+official,NN,I-NP,O
+told,VBN,B-VP,O
+Reuters,NNP,B-NP,B-ORG
+.,.,O,O

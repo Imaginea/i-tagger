@@ -1,0 +1,9 @@
+0,1,2,3
+Duluth,NNP,B-NP,B-LOC
+5.06,CD,I-NP,O
+up,RB,B-ADVP,O
+.02,CD,B-NP,O
+---,JJ,I-NP,O
+---,NN,I-NP,O
+--,:,O,O
+--,:,O,O

@@ -1,0 +1,15 @@
+0,1,2,3
+Kafelnikov,NNP,B-NP,B-PER
+had,VBD,B-VP,O
+pulled,VBN,I-VP,O
+out,IN,B-PP,O
+of,IN,B-PP,O
+last,JJ,B-NP,O
+week,NN,I-NP,O
+'s,POS,B-NP,O
+tournament,NN,I-NP,O
+with,IN,B-PP,O
+a,DT,B-NP,O
+rib,NN,I-NP,O
+injury,NN,I-NP,O
+.,.,O,O

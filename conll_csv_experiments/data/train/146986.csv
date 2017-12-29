@@ -1,0 +1,9 @@
+0,1,2,3
+Exports,NNS,B-NP,O
+dipped,VBD,B-VP,O
+3.7,CD,B-NP,O
+percent,NN,I-NP,O
+to,TO,B-PP,O
+"18,867",CD,B-NP,O
+tonnes,NNS,I-NP,O
+.,.,O,O

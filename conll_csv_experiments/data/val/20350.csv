@@ -1,0 +1,8 @@
+0,1,2,3
+The,DT,B-NP,O
+wreck,NN,I-NP,O
+was,VBD,B-VP,O
+located,VBN,I-VP,O
+in,IN,B-PP,O
+1985,CD,B-NP,O
+.,.,O,O

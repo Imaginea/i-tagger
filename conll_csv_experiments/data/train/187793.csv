@@ -1,0 +1,14 @@
+0,1,2,3
+45.455,CD,B-NP,O
+3.,NNP,B-NP,O
+France,NNP,I-NP,B-LOC
+(,(,O,O
+Laurent,NNP,B-NP,B-PER
+Gane,NNP,I-NP,I-PER
+",",",",O,O
+Florian,NNP,B-NP,B-PER
+Rousseau,NNP,I-NP,I-PER
+",",",",O,O
+Herve,NNP,B-NP,B-PER
+Thuet,NNP,I-NP,I-PER
+),),O,O

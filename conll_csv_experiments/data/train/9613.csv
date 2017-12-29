@@ -1,0 +1,12 @@
+0,1,2,3
+Sjeng,VBG,B-VP,B-PER
+Schalken,NNP,O,I-PER
+(,(,O,O
+Netherlands,NNP,B-NP,B-LOC
+),),O,O
+vs.,IN,B-PP,O
+Gilbert,NNP,B-NP,B-PER
+Schaller,NNP,I-NP,I-PER
+(,(,O,O
+Austria,NNP,B-NP,B-LOC
+),),O,O

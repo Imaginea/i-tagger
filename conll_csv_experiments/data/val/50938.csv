@@ -1,0 +1,17 @@
+0,1,2,3
+It,PRP,B-NP,O
+was,VBD,B-VP,O
+not,RB,I-VP,O
+immediately,RB,I-VP,O
+clear,VB,I-VP,O
+what,WP,B-NP,O
+caused,VBD,B-VP,O
+the,DT,B-NP,O
+fire,NN,I-NP,O
+or,CC,O,O
+if,IN,B-SBAR,O
+there,EX,B-NP,O
+were,VBD,B-VP,O
+any,DT,B-NP,O
+casualties,NNS,I-NP,O
+.,.,O,O

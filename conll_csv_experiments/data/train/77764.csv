@@ -1,0 +1,10 @@
+0,1,2,3
+Conde,NNP,B-NP,B-PER
+scored,VBD,B-VP,O
+his,PRP$,B-NP,O
+second,JJ,B-NP,O
+in,IN,B-PP,O
+the,DT,B-NP,O
+70th,JJ,I-NP,O
+minute,NN,I-NP,O
+.,.,O,O

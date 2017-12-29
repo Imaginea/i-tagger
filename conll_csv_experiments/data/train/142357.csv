@@ -1,0 +1,9 @@
+0,1,2,3
+Commercial,JJ,B-NP,O
+TV,NN,I-NP,O
+127,CD,I-NP,O
+6,CD,I-NP,O
+loss,NN,I-NP,O
+174,CD,I-NP,O
+33,CD,I-NP,O
+profit,NN,I-NP,O

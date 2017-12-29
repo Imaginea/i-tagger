@@ -1,0 +1,18 @@
+0,1,2,3
+ ,O,O,<UNK>
+It,PRP,B-NP,O
+'s,VBZ,B-VP,O
+a,DT,B-NP,O
+positive,JJ,I-NP,O
+strategic,JJ,I-NP,O
+move,NN,I-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+said,VBD,B-VP,O
+Miles,NNP,B-NP,B-PER
+Kan,NNP,I-NP,I-PER
+of,IN,B-PP,O
+Hambrecht,NNP,B-NP,B-ORG
+&,CC,I-NP,I-ORG
+Quist,NNP,I-NP,I-ORG
+.,.,O,O

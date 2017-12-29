@@ -1,0 +1,8 @@
+0,1,2,3
+Airport,NNP,B-NP,B-ORG
+Facilities,NNPS,I-NP,I-ORG
+-,:,O,O
+6mth,JJ,B-NP,O
+parent,NN,I-NP,O
+forecast,NN,I-NP,O
+.,.,O,O

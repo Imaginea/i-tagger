@@ -1,0 +1,13 @@
+0,1,2,3
+Experts,NNS,B-NP,O
+believe,VBP,B-VP,O
+both,DT,B-NP,O
+India,NNP,I-NP,B-LOC
+and,CC,O,O
+Pakistan,NNP,B-NP,B-LOC
+could,MD,B-VP,O
+quickly,RB,I-VP,O
+assemble,VB,I-VP,O
+nuclear,JJ,B-NP,O
+weapons,NNS,I-NP,O
+.,.,O,O

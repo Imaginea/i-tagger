@@ -1,0 +1,17 @@
+0,1,2,3
+He,PRP,B-NP,O
+clutched,VBD,B-VP,O
+a,DT,B-NP,O
+fly,NN,I-NP,O
+whisk,NN,I-NP,O
+which,WDT,B-NP,O
+for,IN,B-PP,O
+a,DT,B-NP,O
+long,JJ,I-NP,O
+time,NN,I-NP,O
+symbolised,VBD,B-VP,O
+his,PRP$,B-NP,O
+obsession,NN,I-NP,O
+with,IN,B-PP,O
+power,NN,B-NP,O
+.,.,O,O

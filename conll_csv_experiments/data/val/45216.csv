@@ -1,0 +1,31 @@
+0,1,2,3
+ ,O,O,<UNK>
+We,PRP,B-NP,O
+think,VBP,B-VP,O
+that,IN,B-SBAR,O
+the,DT,B-NP,O
+Afrikaner,JJ,I-NP,B-MISC
+model,NN,I-NP,O
+within,IN,B-PP,O
+this,DT,B-NP,O
+new,JJ,I-NP,O
+",",",",I-NP,O
+multi-,JJ,I-NP,O
+ethnic,JJ,I-NP,O
+society,NN,I-NP,O
+of,IN,B-PP,O
+South,NNP,B-NP,B-LOC
+Africa,NNP,I-NP,I-LOC
+will,MD,B-VP,O
+have,VB,I-VP,O
+to,TO,I-VP,O
+develop,VB,I-VP,O
+experimentally,RB,B-ADVP,O
+with,IN,B-PP,O
+world,NN,B-NP,O
+thinking,VBG,B-VP,O
+in,IN,B-PP,O
+this,DT,B-NP,O
+regard,NN,I-NP,O
+.,.,O,O
+ ,O,O,<UNK>

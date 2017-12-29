@@ -1,0 +1,16 @@
+0,1,2,3
+It,PRP,B-NP,O
+said,VBD,B-VP,O
+he,PRP,B-NP,O
+had,VBD,B-VP,O
+admitted,VBN,I-VP,O
+the,DT,B-NP,O
+attack,NN,I-NP,O
+but,CC,O,O
+had,VBD,B-VP,O
+denied,VBN,I-VP,O
+intending,NN,B-NP,O
+to,TO,B-VP,O
+kill,VB,I-VP,O
+Kotlarska,NNP,B-NP,B-PER
+.,.,O,O

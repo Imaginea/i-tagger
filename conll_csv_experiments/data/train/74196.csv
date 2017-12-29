@@ -1,0 +1,7 @@
+0,1,2,3
+Gloria,NNP,B-NP,B-ORG
+Bistrita,NNP,I-NP,I-ORG
+0,CD,I-NP,O
+Universitatea,NNP,I-NP,B-ORG
+Cluj,NNP,I-NP,I-ORG
+1,CD,I-NP,O

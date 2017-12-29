@@ -1,0 +1,16 @@
+0,1,2,3
+He,PRP,B-NP,O
+said,VBD,B-VP,O
+the,DT,B-NP,O
+Mia,NNP,I-NP,B-PER
+'s,POS,B-NP,O
+issue,NN,I-NP,O
+had,VBD,B-VP,O
+been,VBN,I-VP,O
+raised,VBN,I-VP,O
+in,IN,B-PP,O
+the,DT,B-NP,O
+House,NNP,I-NP,B-ORG
+of,IN,B-PP,I-ORG
+Commons,NNPS,B-NP,I-ORG
+.,.,O,O

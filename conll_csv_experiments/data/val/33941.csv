@@ -1,0 +1,14 @@
+0,1,2,3
+Results,NNS,B-NP,O
+and,CC,O,O
+close,JJ,B-NP,O
+scores,NNS,I-NP,O
+of,IN,B-PP,O
+four-day,JJ,B-NP,O
+English,JJ,I-NP,B-MISC
+county,NN,I-NP,O
+championship,NN,I-NP,O
+matches,NNS,I-NP,O
+on,IN,B-PP,O
+Saturday,NNP,B-NP,O
+:,:,O,O

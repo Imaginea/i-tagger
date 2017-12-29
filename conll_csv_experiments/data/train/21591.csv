@@ -1,0 +1,8 @@
+0,1,2,3
+Kevorkian,JJ,B-NP,B-PER
+attends,VBZ,B-VP,O
+third,JJ,B-NP,O
+suicide,NN,I-NP,O
+in,IN,B-PP,O
+week,NN,B-NP,O
+.,.,O,O

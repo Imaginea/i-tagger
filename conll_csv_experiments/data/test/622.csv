@@ -1,0 +1,16 @@
+0,1,2,3
+ ,O,O,<UNK>
+He,PRP,B-NP,O
+ended,VBD,B-VP,O
+the,DT,B-NP,O
+World,NNP,I-NP,B-MISC
+Cup,NNP,I-NP,I-MISC
+on,IN,B-PP,O
+the,DT,B-NP,O
+wrong,JJ,I-NP,O
+note,NN,I-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+Coste,NNP,B-NP,B-PER
+said,VBD,B-VP,O
+.,.,O,O

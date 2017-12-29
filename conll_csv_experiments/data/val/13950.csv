@@ -1,0 +1,17 @@
+0,1,2,3
+Interfax,JJ,B-NP,B-ORG
+quoted,VBN,B-VP,O
+Levrentyeva,NNP,B-NP,B-PER
+'s,POS,B-NP,O
+colleagues,NNS,I-NP,O
+as,IN,B-PP,O
+saying,VBG,B-VP,O
+that,IN,B-SBAR,O
+judges,NNS,B-NP,O
+were,VBD,B-VP,O
+generally,RB,B-ADVP,O
+unprotected,JJ,B-ADJP,O
+against,IN,B-PP,O
+criminal,JJ,B-NP,O
+attacks,NNS,I-NP,O
+.,.,O,O

@@ -1,0 +1,11 @@
+0,1,2,3
+We,PRP,B-NP,O
+have,VBP,B-VP,O
+no,DT,B-NP,O
+idea,NN,I-NP,O
+why,WRB,B-ADVP,O
+they,PRP,B-NP,O
+are,VBP,B-VP,O
+being,VBG,I-VP,O
+held,VBN,I-VP,O
+.,.,O,O

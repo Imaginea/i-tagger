@@ -1,0 +1,9 @@
+0,1,2,3
+School,NNP,B-NP,O
+football,NN,I-NP,O
+player,NN,I-NP,O
+banned,VBN,B-VP,O
+for,IN,B-PP,O
+slashing,VBG,B-NP,O
+opponents,NNS,I-NP,O
+.,.,O,O

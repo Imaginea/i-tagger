@@ -1,0 +1,21 @@
+0,1,2,3
+In,IN,B-PP,O
+his,PRP$,B-NP,O
+autobiography,NN,I-NP,O
+published,VBN,B-VP,O
+in,IN,B-PP,O
+1990,CD,B-NP,O
+",",",",O,O
+Lanusse,NNP,B-NP,B-PER
+described,VBD,B-VP,O
+himself,PRP,B-NP,O
+as,IN,B-PP,O
+a,DT,B-NP,O
+military,JJ,I-NP,O
+man,NN,I-NP,O
+with,IN,B-PP,O
+ ,O,O,<UNK>
+democratic,JJ,B-NP,O
+ideas,NNS,I-NP,O
+.,.,O,O
+ ,O,O,<UNK>

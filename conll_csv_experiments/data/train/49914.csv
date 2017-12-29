@@ -1,0 +1,11 @@
+0,1,2,3
+--,:,O,O
+Keiron,NNP,B-NP,B-PER
+Henderson,NNP,I-NP,I-PER
+",",",",O,O
+Amsterdam,NNP,B-NP,B-ORG
+Newsroom,NNP,I-NP,I-ORG
++31,CD,I-NP,O
+20,CD,I-NP,O
+504,CD,I-NP,O
+5000,CD,I-NP,O

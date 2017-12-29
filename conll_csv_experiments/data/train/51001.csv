@@ -1,0 +1,26 @@
+0,1,2,3
+Niugini,NNP,B-NP,B-ORG
+Mining,NNP,I-NP,I-ORG
+Ltd,NNP,I-NP,I-ORG
+said,VBD,B-VP,O
+on,IN,B-PP,O
+Thursday,NNP,B-NP,O
+that,IN,B-SBAR,O
+Battle,NNP,B-NP,B-ORG
+Mountain,NNP,I-NP,I-ORG
+had,VBD,B-VP,O
+initiated,VBN,I-VP,O
+talks,NNS,B-NP,O
+about,IN,B-PP,O
+acquiring,VBG,B-VP,O
+the,DT,B-NP,O
+shares,NNS,I-NP,O
+in,IN,B-PP,O
+Niugini,NNP,B-NP,B-ORG
+it,PRP,B-NP,O
+does,VBZ,B-VP,O
+not,RB,I-VP,O
+already,RB,I-VP,O
+own,VB,I-VP,O
+.,.,O,O
+ ,O,O,<UNK>

@@ -1,0 +1,7 @@
+0,1,2,3
+5.,CD,B-NP,O
+Dekker,NNP,I-NP,B-PER
+1,CD,I-NP,O
+minute,NN,I-NP,O
+21,CD,B-NP,O
+seconds,NNS,I-NP,O

@@ -1,0 +1,8 @@
+0,1,2,3
+Amor,NNP,B-NP,B-PER
+16-1,NNP,B-NP,O
+Jose,NNP,I-NP,B-PER
+Amavisca,NNP,I-NP,I-PER
+14-1,NNP,I-NP,O
+Roger,NNP,I-NP,B-PER
+Garcia,NNP,I-NP,I-PER

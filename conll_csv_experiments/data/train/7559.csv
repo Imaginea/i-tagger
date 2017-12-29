@@ -1,0 +1,14 @@
+0,1,2,3
+Mikael,NNP,B-NP,B-PER
+Tillstrom,NNP,I-NP,I-PER
+(,(,O,O
+Sweden,NNP,B-NP,B-LOC
+),),O,O
+beat,VB,B-VP,O
+2,CD,B-NP,O
+-,:,I-NP,O
+Goran,NNP,I-NP,B-PER
+Ivanisevic,NNP,I-NP,I-PER
+(,(,O,O
+Croatia,NNP,B-NP,B-LOC
+),),O,O

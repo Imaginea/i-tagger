@@ -1,0 +1,6 @@
+0,1,2,3
+England,NNP,B-NP,B-LOC
+and,CC,O,O
+Pakistan,NNP,B-NP,B-LOC
+Test,NNP,I-NP,O
+averages,VBZ,B-VP,O

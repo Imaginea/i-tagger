@@ -1,0 +1,15 @@
+0,1,2,3
+",",",",O,O
+41,CD,B-NP,O
+",",",",O,O
+was,VBD,B-VP,O
+put,VBN,I-VP,O
+to,TO,B-PP,O
+death,NN,B-NP,O
+in,IN,B-PP,O
+Florida,NNP,B-NP,B-LOC
+'s,POS,B-NP,O
+electric,JJ,I-NP,O
+chair,NN,I-NP,O
+Friday,NNP,B-NP,O
+.,.,O,O

@@ -1,0 +1,32 @@
+0,1,2,3
+ ,O,O,<UNK>
+Morris,NNP,B-NP,B-PER
+has,VBZ,B-VP,O
+been,VBN,I-VP,O
+trying,VBG,I-VP,O
+to,TO,I-VP,O
+make,VB,I-VP,O
+President,NNP,B-NP,O
+Clinton,NNP,I-NP,B-PER
+a,DT,I-NP,O
+Republican,NNP,I-NP,B-MISC
+",",",",O,O
+now,RB,B-ADVP,O
+maybe,RB,I-ADVP,O
+he,PRP,B-NP,O
+'ll,MD,B-VP,O
+revert,VB,I-VP,O
+to,TO,B-PP,O
+the,DT,B-NP,O
+liberal,JJ,I-NP,O
+Democrat,NNP,I-NP,B-MISC
+that,IN,B-SBAR,O
+he,PRP,B-NP,O
+really,RB,B-ADVP,O
+is,VBZ,B-VP,O
+",",",",O,O
+ ,O,O,<UNK>
+Dole,NNP,B-NP,B-PER
+told,VBD,B-VP,O
+reporters,NNS,B-NP,O
+.,.,O,O

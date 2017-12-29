@@ -1,0 +1,11 @@
+0,1,2,3
+Wk,VB,B-VP,O
+to,TO,B-PP,O
+Aug,NNP,B-NP,O
+28,CD,I-NP,O
+Chg,VBG,B-VP,O
+on,IN,B-PP,O
+wk,NN,B-NP,O
+Chg,NNP,I-NP,O
+on,IN,B-PP,O
+yr,NN,B-NP,O

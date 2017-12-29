@@ -1,0 +1,10 @@
+0,1,2,3
+Shipment,NN,B-NP,O
+is,VBZ,B-VP,O
+for,IN,B-PP,O
+Nov,NNP,B-NP,O
+15,CD,I-NP,O
+-,:,I-NP,O
+Dec,NNP,B-NP,O
+10,CD,I-NP,O
+.,.,O,O

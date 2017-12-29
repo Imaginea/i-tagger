@@ -1,0 +1,18 @@
+0,1,2,3
+NOTE,NN,B-NP,O
+-,:,O,O
+Tokyo,NNP,B-NP,B-ORG
+Soir,NNP,I-NP,I-ORG
+Co,NNP,I-NP,I-ORG
+Ltd,NNP,I-NP,I-ORG
+is,VBZ,B-VP,O
+a,DT,B-NP,O
+specialised,JJ,I-NP,O
+manufacturer,NN,I-NP,O
+of,IN,B-PP,O
+women,NNS,B-NP,O
+ ,O,O,<UNK>
+s,VBZ,B-VP,O
+formal,JJ,B-NP,O
+wear,NN,I-NP,O
+.,.,O,O

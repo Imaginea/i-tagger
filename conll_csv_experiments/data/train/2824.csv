@@ -1,0 +1,7 @@
+0,1,2,3
+ ,O,O,<UNK>
+The,DT,B-NP,O
+problem,NN,I-NP,O
+is,VBZ,B-VP,O
+over,RB,B-ADVP,O
+.,.,O,O

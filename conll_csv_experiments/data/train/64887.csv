@@ -1,0 +1,29 @@
+0,1,2,3
+ ,O,O,<UNK>
+He,PRP,B-NP,O
+'ll,MD,B-VP,O
+make,VB,I-VP,O
+news,NN,B-NP,O
+during,IN,B-PP,O
+the,DT,B-NP,O
+day,NN,I-NP,O
+...,:,O,O
+and,CC,B-CONJP,O
+then,RB,I-CONJP,O
+at,IN,B-PP,O
+night,NN,B-NP,O
+the,DT,B-NP,O
+attention,NN,I-NP,O
+will,MD,B-VP,O
+go,VB,I-VP,O
+to,TO,B-PP,O
+the,DT,B-NP,O
+convention,NN,I-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+said,VBD,B-VP,O
+the,DT,B-NP,O
+campaign,NN,I-NP,O
+official,NN,I-NP,O
+.,.,O,O
+ ,O,O,<UNK>

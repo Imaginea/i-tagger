@@ -1,0 +1,4 @@
+0,1,2,3
+Revenue,NN,B-NP,O
+ref,NN,B-NP,O
+.,.,O,O

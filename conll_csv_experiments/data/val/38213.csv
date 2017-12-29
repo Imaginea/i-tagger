@@ -1,0 +1,5 @@
+0,1,2,3
+United,NNP,B-NP,B-LOC
+States,NNP,I-NP,I-LOC
+at,IN,B-PP,O
+Netherlands,NNPS,B-NP,B-LOC

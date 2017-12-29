@@ -1,0 +1,8 @@
+0,1,2,3
+4.,CD,B-NP,O
+Jean,NNP,B-NP,B-PER
+Alesi,NNP,I-NP,I-PER
+(,(,O,O
+France,NNP,B-NP,B-LOC
+),),O,O
+38,CD,B-NP,O

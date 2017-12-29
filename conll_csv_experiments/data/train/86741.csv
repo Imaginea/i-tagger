@@ -1,0 +1,17 @@
+0,1,2,3
+This,DT,B-NP,O
+coming,VBG,I-NP,O
+shift,NN,I-NP,O
+",",",",O,O
+O'Neal,NNP,B-NP,B-PER
+said,VBD,B-VP,O
+",",",",O,O
+ ,O,O,<UNK>
+is,VBZ,B-VP,O
+not,RB,O,O
+just,RB,B-ADVP,O
+isolated,VBN,B-NP,O
+or,CC,I-NP,O
+a,DT,I-NP,O
+fad,NN,I-NP,O
+.,.,O,O

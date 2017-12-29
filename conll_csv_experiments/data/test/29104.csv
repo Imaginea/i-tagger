@@ -1,0 +1,11 @@
+0,1,2,3
+Spain,NNP,B-NP,B-LOC
+'s,POS,B-NP,O
+police,NN,I-NP,O
+seize,VB,B-VP,O
+petrol,NN,B-NP,O
+bombs,NNS,I-NP,O
+",",",",O,O
+arrest,NN,B-NP,O
+five,CD,I-NP,O
+.,.,O,O

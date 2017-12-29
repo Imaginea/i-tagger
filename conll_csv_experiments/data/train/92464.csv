@@ -1,0 +1,7 @@
+0,1,2,3
+Nottinghamshire,NNP,B-NP,B-ORG
+446-9,CD,I-NP,O
+declared,VBD,B-VP,O
+and,CC,O,O
+53-0,CD,B-NP,O
+.,.,O,O

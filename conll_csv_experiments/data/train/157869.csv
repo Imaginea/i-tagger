@@ -1,0 +1,14 @@
+0,1,2,3
+Karlsruhe,NNP,B-NP,B-ORG
+4,CD,I-NP,O
+(,(,O,O
+Keller,NNP,B-NP,B-PER
+18th,JJ,I-NP,O
+minute,NN,I-NP,O
+",",",",O,O
+Dundee,NNP,B-NP,B-ORG
+56th,NNP,I-NP,O
+59th,JJ,I-NP,O
+and,CC,I-NP,O
+64th,JJ,I-NP,O
+),),O,O

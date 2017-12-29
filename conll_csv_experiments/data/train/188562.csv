@@ -1,0 +1,11 @@
+0,1,2,3
+Second,JJ,B-NP,O
+match,NN,I-NP,O
+:,:,O,O
+August,NNP,B-NP,O
+31,CD,I-NP,O
+",",",",O,O
+Edgbaston,NNP,B-NP,B-LOC
+(,(,O,O
+Birmingham,NNP,B-NP,B-LOC
+),),O,O

@@ -1,0 +1,8 @@
+0,1,2,3
+Somerset,NNP,B-NP,B-ORG
+298-6,CD,I-NP,O
+(,(,O,O
+M.,NNP,B-NP,B-PER
+Lathwell,NNP,I-NP,I-PER
+85,CD,I-NP,O
+",",",",O,O

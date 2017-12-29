@@ -1,0 +1,10 @@
+0,1,2,3
+Oldest,NNP,B-NP,O
+Albania,NNP,I-NP,B-LOC
+book,NN,I-NP,O
+disappears,VBZ,B-VP,O
+from,IN,B-PP,O
+Vatican,JJ,B-NP,B-LOC
+-,:,I-NP,O
+paper,NN,I-NP,O
+.,.,O,O

@@ -1,0 +1,10 @@
+0,1,2,3
+They,PRP,B-NP,O
+read,VBD,B-VP,O
+:,:,O,O
+ ,O,O,<UNK>
+Ballybunion,JJ,B-NP,B-ORG
+backs,NNS,I-NP,O
+Clinton,NNP,I-NP,B-PER
+.,.,I-NP,O
+ ,O,O,<UNK>

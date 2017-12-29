@@ -1,0 +1,14 @@
+0,1,2,3
+and,CC,O,O
+New,NNP,B-NP,B-LOC
+Zealand,NNP,I-NP,I-LOC
+drew,VBD,B-VP,O
+18-18,CD,B-NP,O
+(,(,I-NP,O
+halftime,NN,I-NP,O
+6-10,JJ,I-NP,O
+),),O,O
+in,IN,B-PP,O
+their,PRP$,B-NP,O
+rugby,JJ,I-NP,O
+union,NN,I-NP,O

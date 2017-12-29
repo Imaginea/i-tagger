@@ -1,0 +1,12 @@
+0,1,2,3
+Police,NNS,B-NP,O
+ended,VBD,B-VP,O
+the,DT,B-NP,O
+protest,NN,I-NP,O
+on,IN,B-PP,O
+Tuesday,NNP,B-NP,O
+after,IN,B-PP,O
+storming,VBG,B-VP,O
+the,DT,B-NP,O
+campus,NN,I-NP,O
+.,.,O,O

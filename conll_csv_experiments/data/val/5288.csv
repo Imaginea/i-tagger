@@ -1,0 +1,16 @@
+0,1,2,3
+Among,IN,B-PP,O
+the,DT,B-NP,O
+crowd,NN,I-NP,O
+on,IN,B-PP,O
+Friday,NNP,B-NP,O
+were,VBD,B-VP,O
+Olympic,NNP,B-NP,B-MISC
+100,CD,I-NP,O
+metres,NNS,I-NP,O
+champions,NNS,I-NP,O
+going,VBG,B-VP,O
+back,RB,B-ADVP,O
+to,TO,B-PP,O
+1948,CD,B-NP,O
+.,.,O,O

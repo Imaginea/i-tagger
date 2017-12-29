@@ -1,0 +1,22 @@
+0,1,2,3
+The,DT,B-NP,O
+IOC,NNP,I-NP,B-ORG
+tender,NN,I-NP,O
+had,VBD,B-VP,O
+ ,O,O,<UNK>
+a,DT,B-NP,O
+bearish,JJ,I-NP,O
+impact,NN,I-NP,O
+",",",",O,O
+but,CC,O,O
+not,RB,B-NP,O
+a,DT,I-NP,O
+great,JJ,I-NP,O
+impact,NN,I-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+one,CD,B-NP,O
+German,JJ,I-NP,B-MISC
+player,NN,I-NP,O
+said,VBD,B-VP,O
+.,.,O,O

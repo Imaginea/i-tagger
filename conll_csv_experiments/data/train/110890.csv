@@ -1,0 +1,23 @@
+0,1,2,3
+He,PRP,B-NP,O
+painted,VBD,B-VP,O
+a,DT,B-NP,O
+scene,NN,I-NP,O
+of,IN,B-PP,O
+horrors,NNS,B-NP,O
+he,PRP,B-NP,O
+saw,VBD,B-VP,O
+if,IN,B-SBAR,O
+Republicans,NNPS,B-NP,B-MISC
+controlled,VBD,B-VP,O
+the,DT,B-NP,O
+White,NNP,I-NP,B-LOC
+House,NNP,I-NP,I-LOC
+and,CC,O,O
+the,DT,B-NP,O
+Congress,NNP,I-NP,B-ORG
+they,PRP,B-NP,O
+hold,VBP,B-VP,O
+now,RB,B-ADVP,O
+.,.,O,O
+ ,O,O,<UNK>

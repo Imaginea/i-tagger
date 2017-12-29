@@ -1,0 +1,14 @@
+0,1,2,3
+Three,CD,B-NP,O
+dissidents,NNS,I-NP,O
+and,CC,O,O
+their,PRP$,B-NP,O
+translator,NN,I-NP,O
+were,VBD,B-VP,O
+killed,VBN,I-VP,O
+in,IN,B-PP,O
+the,DT,B-NP,O
+gangland-style,JJ,I-NP,O
+machinegun,NN,I-NP,O
+attack,NN,I-NP,O
+.,.,O,O

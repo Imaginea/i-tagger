@@ -1,0 +1,16 @@
+0,1,2,3
+France,NNP,B-NP,B-LOC
+managed,VBD,B-VP,O
+third,JJ,B-NP,O
+place,NN,I-NP,O
+with,IN,B-PP,O
+0.68,CD,B-NP,O
+percent,NN,I-NP,O
+in,IN,B-PP,O
+the,DT,B-NP,O
+16-nation,JJ,I-NP,O
+world,NN,I-NP,O
+government,NN,I-NP,O
+bond,NN,I-NP,O
+index,NN,I-NP,O
+.,.,O,O

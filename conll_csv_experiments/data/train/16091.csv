@@ -1,0 +1,20 @@
+0,1,2,3
+I,PRP,B-NP,O
+asked,VBD,B-VP,O
+for,IN,B-PP,O
+a,DT,B-NP,O
+day,NN,I-NP,O
+match,NN,I-NP,O
+and,CC,O,O
+they,PRP,B-NP,O
+gave,VBD,B-VP,O
+me,PRP,B-NP,O
+a,DT,B-NP,O
+night,NN,I-NP,O
+match,NN,I-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+he,PRP,B-NP,O
+said,VBD,B-VP,O
+.,.,O,O
+ ,O,O,<UNK>

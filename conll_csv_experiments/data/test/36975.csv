@@ -1,0 +1,7 @@
+0,1,2,3
+Princess,NNP,B-NP,B-MISC
+of,IN,B-PP,I-MISC
+Loine,NNP,B-NP,I-MISC
+19/11/96,CD,I-NP,O
+"10,000",CD,I-NP,O
+Philippines,NNP,I-NP,B-LOC

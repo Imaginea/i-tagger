@@ -1,0 +1,31 @@
+0,1,2,3
+ ,O,O,<UNK>
+Under,IN,B-PP,O
+the,DT,B-NP,O
+law,NN,I-NP,O
+before,IN,B-PP,O
+launching,VBG,B-VP,O
+the,DT,B-NP,O
+strike,NN,I-NP,O
+we,PRP,B-NP,O
+have,VBP,B-VP,O
+to,TO,I-VP,O
+sign,VB,I-VP,O
+an,DT,B-NP,O
+agreement,NN,I-NP,O
+with,IN,B-PP,O
+our,PRP$,B-NP,O
+employer,NN,I-NP,O
+for,IN,B-PP,O
+a,DT,B-NP,O
+minimal,JJ,I-NP,O
+transport,NN,I-NP,O
+servicing,NN,I-NP,O
+of,IN,B-PP,O
+emergency,NN,B-NP,O
+flights,NNS,I-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+Raichev,NNP,B-NP,B-PER
+said,VBD,B-VP,O
+.,.,O,O

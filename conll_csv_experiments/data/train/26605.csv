@@ -1,0 +1,12 @@
+0,1,2,3
+RTRS,NNS,B-NP,B-ORG
+-,:,O,O
+Budget,NNP,B-NP,O
+cuts,VBZ,B-VP,O
+to,TO,I-VP,O
+boost,VB,I-VP,O
+Australia,NNP,B-NP,B-LOC
+savings,NNS,I-NP,O
+-,:,O,O
+RBA,NNP,B-NP,B-ORG
+.,.,O,O

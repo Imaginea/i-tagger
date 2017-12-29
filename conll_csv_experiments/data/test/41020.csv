@@ -1,0 +1,14 @@
+0,1,2,3
+1.,CD,B-NP,O
+Vadim,NNP,I-NP,B-PER
+Sashurin,NNP,I-NP,I-PER
+(,(,O,O
+Belarus,NNP,B-NP,B-LOC
+),),O,O
+26,CD,B-NP,O
+minutes,NNS,I-NP,O
+17.2,CD,B-NP,O
+seconds,NNS,I-NP,O
+(,(,O,O
+no,DT,B-NP,O
+penalty,NN,I-NP,O

@@ -1,0 +1,7 @@
+0,1,2,3
+North,NNP,B-NP,B-ORG
+Sydney,NNP,I-NP,I-ORG
+46,CD,I-NP,O
+South,NNP,I-NP,B-ORG
+Sydney,NNP,I-NP,I-ORG
+4,CD,I-NP,O

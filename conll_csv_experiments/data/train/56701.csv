@@ -1,0 +1,5 @@
+0,1,2,3
+Exeter,NNP,B-NP,B-ORG
+2,CD,I-NP,O
+Scarborough,NNP,I-NP,B-ORG
+2,CD,I-NP,O

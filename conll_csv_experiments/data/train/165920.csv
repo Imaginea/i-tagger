@@ -1,0 +1,9 @@
+0,1,2,3
+Nigeria,NNP,B-NP,B-LOC
+rights,NNS,I-NP,O
+group,NN,I-NP,O
+says,VBZ,B-VP,O
+four,CD,B-NP,O
+academics,NNS,I-NP,O
+arrested,VBN,B-VP,O
+.,.,O,O

@@ -1,0 +1,15 @@
+0,1,2,3
+ ,O,O,<UNK>
+She,PRP,B-NP,O
+is,VBZ,B-VP,O
+doing,VBG,I-VP,O
+well,RB,B-ADVP,O
+",",",",O,O
+ ,O,O,<UNK>
+hospital,NN,B-NP,O
+spokeswoman,NN,I-NP,O
+Carol,NNP,I-NP,B-PER
+Norris,NNP,I-NP,I-PER
+said,VBD,B-VP,O
+.,.,O,O
+ ,O,O,<UNK>

@@ -1,0 +1,7 @@
+0,1,2,3
+Men,NN,B-NP,O
+'s,POS,B-NP,O
+singles,NNS,I-NP,O
+",",",",O,O
+first,JJ,B-NP,O
+round,NN,I-NP,O

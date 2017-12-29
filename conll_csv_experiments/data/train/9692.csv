@@ -1,0 +1,12 @@
+0,1,2,3
+Hendrik,NNP,B-NP,B-PER
+Dreekman,NNP,I-NP,I-PER
+(,(,O,O
+Germany,NNP,B-NP,B-LOC
+),),O,O
+vs.,IN,B-PP,O
+Greg,NNP,B-NP,B-PER
+Rusedski,NNP,I-NP,I-PER
+(,(,O,O
+Britain,NNP,B-NP,B-LOC
+),),O,O

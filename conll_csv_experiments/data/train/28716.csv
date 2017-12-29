@@ -1,0 +1,21 @@
+0,1,2,3
+ ,O,O,<UNK>
+The,DT,B-NP,O
+strategic,JJ,I-NP,O
+aim,NN,I-NP,O
+of,IN,B-PP,O
+European,JJ,B-NP,B-MISC
+integration,NN,I-NP,O
+should,MD,B-VP,O
+not,RB,I-VP,O
+in,IN,B-PP,O
+any,DT,B-NP,O
+way,NN,I-NP,O
+damage,NN,I-NP,O
+Ukraine,NNP,I-NP,B-LOC
+'s,POS,B-NP,O
+interests,NNS,I-NP,O
+in,IN,B-PP,O
+post-Soviet,NN,B-NP,B-MISC
+areas,NNS,I-NP,O
+.,.,O,O

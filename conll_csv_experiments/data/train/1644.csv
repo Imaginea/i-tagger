@@ -1,0 +1,16 @@
+0,1,2,3
+LATTAKIA,NNP,B-NP,B-LOC
+",",",",O,O
+Aug,NNP,B-NP,O
+10,CD,I-NP,O
+-,:,I-NP,O
+waiting,VBG,B-VP,O
+time,NN,B-NP,O
+at,IN,B-PP,O
+Lattakia,NNP,B-NP,B-LOC
+and,CC,I-NP,O
+Tartous,NNP,I-NP,B-LOC
+presently,RB,B-ADVP,O
+24,CD,B-NP,O
+hours,NNS,I-NP,O
+.,.,O,O

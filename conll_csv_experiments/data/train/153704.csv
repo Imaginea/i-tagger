@@ -1,0 +1,14 @@
+0,1,2,3
+Amr,NNP,B-NP,B-PER
+Shabana,NNP,I-NP,I-PER
+(,(,O,O
+Egypt,NNP,B-NP,B-LOC
+),),O,O
+beat,VB,B-VP,O
+John,NNP,B-NP,B-PER
+White,NNP,I-NP,I-PER
+(,(,O,O
+Australia,NNP,B-NP,B-LOC
+),),O,O
+10-15,CD,B-NP,O
+15-9,JJ,I-NP,O

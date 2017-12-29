@@ -1,0 +1,16 @@
+0,1,2,3
+Markets,NNS,B-NP,O
+in,IN,B-PP,O
+central,JJ,B-NP,O
+India,NNP,I-NP,B-LOC
+would,MD,B-VP,O
+be,VB,I-VP,O
+closed,VBN,I-VP,O
+for,IN,B-PP,O
+a,DT,B-NP,O
+local,JJ,I-NP,O
+religious,JJ,I-NP,O
+holiday,NN,I-NP,O
+on,IN,B-PP,O
+Wednesday,NNP,B-NP,O
+.,.,O,O

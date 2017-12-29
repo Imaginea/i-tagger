@@ -1,0 +1,7 @@
+0,1,2,3
+French,JJ,B-NP,B-MISC
+shares,NNS,I-NP,O
+end,VBP,B-VP,O
+fractionally,RB,B-ADVP,O
+weaker,JJR,B-NP,O
+.,.,O,O

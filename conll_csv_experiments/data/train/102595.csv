@@ -1,0 +1,11 @@
+0,1,2,3
+Unsecured,JJ,B-NP,O
+claims,NNS,I-NP,O
+are,VBP,B-VP,O
+estimated,VBN,I-VP,O
+at,IN,B-PP,O
+about,IN,B-NP,O
+$,$,I-NP,O
+90,CD,I-NP,O
+million,CD,I-NP,O
+.,.,O,O

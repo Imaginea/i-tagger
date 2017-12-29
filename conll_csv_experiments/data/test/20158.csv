@@ -1,0 +1,23 @@
+0,1,2,3
+He,PRP,B-NP,O
+told,VBD,B-VP,O
+me,PRP,B-NP,O
+that,IN,B-SBAR,O
+he,PRP,B-NP,O
+had,VBD,B-VP,O
+lost,VBN,I-VP,O
+20,CD,B-NP,O
+kg,VBG,B-VP,O
+(,(,O,O
+44,CD,B-NP,O
+lbs,NNS,I-NP,O
+),),O,O
+which,WDT,B-NP,O
+is,VBZ,B-VP,O
+natural,JJ,B-NP,O
+after,IN,B-PP,O
+such,PDT,B-NP,O
+an,DT,I-NP,O
+operation,NN,I-NP,O
+.,.,O,O
+ ,O,O,<UNK>

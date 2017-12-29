@@ -1,0 +1,15 @@
+0,1,2,3
+Crohn,NNP,B-NP,B-PER
+'s,POS,I-NP,O
+is,VBZ,B-VP,O
+an,DT,B-NP,O
+inflammation,NN,I-NP,O
+of,IN,B-PP,O
+the,DT,B-NP,O
+bowel,NN,I-NP,O
+that,WDT,B-NP,O
+can,MD,B-VP,O
+sometimes,RB,I-VP,O
+require,VB,I-VP,O
+surgery,NN,B-NP,O
+.,.,O,O

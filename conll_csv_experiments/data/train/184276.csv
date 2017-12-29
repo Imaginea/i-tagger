@@ -1,0 +1,13 @@
+0,1,2,3
+Japan,NNP,B-NP,B-LOC
+July,NNP,I-NP,O
+refined,JJ,I-NP,O
+zinc,NN,I-NP,O
+imports,NNS,I-NP,O
+off,IN,B-PP,O
+47.5,CD,B-NP,O
+pct,JJ,I-NP,O
+yr,NN,I-NP,O
+/,SYM,O,O
+yr,NN,B-NP,O
+.,.,O,O

@@ -1,0 +1,11 @@
+0,1,2,3
+China,NNP,B-NP,B-LOC
+copper,NN,I-NP,O
+stocks,NNS,I-NP,O
+owned,VBN,B-VP,O
+by,IN,B-PP,O
+state,NN,B-NP,O
+reserve,NN,I-NP,O
+-,:,O,O
+trade,VB,B-VP,O
+.,.,O,O

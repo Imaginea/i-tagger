@@ -1,0 +1,9 @@
+0,1,2,3
+Result,NN,B-NP,O
+:,:,O,O
+England,NNP,B-NP,B-LOC
+won,VBD,B-VP,O
+by,IN,B-PP,O
+five,CD,B-NP,O
+wickets,NNS,I-NP,O
+.,.,O,O

@@ -1,0 +1,7 @@
+0,1,2,3
+Indonesia,NNP,B-NP,B-LOC
+'s,POS,B-NP,O
+SBPUs,NNS,I-NP,O
+auction,VBP,B-VP,O
+results,NNS,B-NP,O
+.,.,O,O

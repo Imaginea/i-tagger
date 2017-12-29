@@ -1,0 +1,14 @@
+0,1,2,3
+The,DT,B-NP,O
+draft,NN,I-NP,O
+suggests,VBZ,B-VP,O
+further,JJ,B-NP,O
+sanctions,NNS,I-NP,O
+against,IN,B-PP,O
+those,DT,B-NP,O
+who,WP,B-NP,O
+impede,VBP,B-VP,O
+a,DT,B-NP,O
+political,JJ,I-NP,O
+solution,NN,I-NP,O
+.,.,O,O

@@ -1,0 +1,8 @@
+0,1,2,3
+L.O.,NNP,B-NP,O
+:,:,O,O
+Steptoe,NNP,B-NP,B-ORG
+&,CC,I-NP,I-ORG
+Johnson,NNP,I-NP,I-ORG
+",",",",O,O
+Clarksburg,NNP,B-NP,B-LOC

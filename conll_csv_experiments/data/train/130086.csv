@@ -1,0 +1,34 @@
+0,1,2,3
+But,CC,O,O
+the,DT,B-NP,O
+separatist,JJ,I-NP,O
+command,NN,I-NP,O
+told,VBD,B-VP,O
+Interfax,NN,B-NP,B-ORG
+news,NN,I-NP,O
+agency,NN,I-NP,O
+the,DT,B-NP,O
+patrols,NNS,I-NP,O
+",",",",O,O
+part,NN,B-NP,O
+of,IN,B-PP,O
+the,DT,B-NP,O
+truce,NN,I-NP,O
+brokered,VBD,B-VP,O
+by,IN,B-PP,O
+Lebed,NNP,B-NP,B-PER
+last,JJ,B-NP,O
+week,NN,I-NP,O
+",",",",O,O
+would,MD,B-VP,O
+begin,VB,I-VP,O
+on,IN,B-PP,O
+Tuesday,NNP,B-NP,O
+after,IN,B-SBAR,O
+delays,NNS,B-NP,O
+for,IN,B-PP,O
+ ,O,O,<UNK>
+technical,JJ,B-NP,O
+reasons,NNS,I-NP,O
+ ,O,O,<UNK>
+.,.,O,O

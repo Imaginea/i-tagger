@@ -1,0 +1,7 @@
+0,1,2,3
+Dutch,JJ,B-NP,B-MISC
+closing,NN,I-NP,O
+share,NN,I-NP,O
+market,NN,I-NP,O
+report,NN,I-NP,O
+.,.,O,O

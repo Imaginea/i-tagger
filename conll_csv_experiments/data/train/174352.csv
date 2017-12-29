@@ -1,0 +1,10 @@
+0,1,2,3
+Sept,NNP,B-NP,O
+Euro,NNP,I-NP,B-MISC
+Swiss,NNP,I-NP,I-MISC
+francs,NNS,I-NP,O
+up,RP,B-ADVP,O
+three,CD,B-NP,O
+at,IN,B-PP,O
+97.82,CD,B-NP,O
+.,.,O,O

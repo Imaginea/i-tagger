@@ -1,0 +1,11 @@
+0,1,2,3
+Union,NNP,B-NP,O
+leaders,NNS,I-NP,O
+outraged,JJ,B-ADJP,O
+by,IN,B-PP,O
+WTO,NNP,B-NP,B-ORG
+snub,NNS,I-NP,O
+to,TO,B-PP,O
+ILO,NNP,B-NP,B-ORG
+head,NN,I-NP,O
+.,.,O,O

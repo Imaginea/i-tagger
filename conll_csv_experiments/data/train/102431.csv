@@ -1,0 +1,13 @@
+0,1,2,3
+This,DT,B-NP,O
+is,VBZ,B-VP,O
+the,DT,B-NP,O
+leading,VBG,I-NP,O
+story,NN,I-NP,O
+in,IN,B-PP,O
+the,DT,B-NP,O
+Mozambican,NNP,I-NP,B-MISC
+press,NN,I-NP,O
+on,IN,B-PP,O
+Monday,NNP,B-NP,O
+.,.,O,O

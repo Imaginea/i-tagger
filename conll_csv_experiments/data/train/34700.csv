@@ -1,0 +1,13 @@
+0,1,2,3
+metres,NNS,B-NP,O
+world,NN,I-NP,O
+record,NN,I-NP,O
+(,(,O,O
+tabulated,VBN,B-VP,O
+under,IN,B-PP,O
+time,NN,B-NP,O
+",",",",O,O
+name,NN,B-NP,O
+/,SYM,O,O
+nationality,NN,B-NP,O
+",",",",O,O

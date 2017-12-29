@@ -1,0 +1,9 @@
+0,1,2,3
+Most,JJS,B-NP,O
+Spaniards,NNP,I-NP,O
+back,RB,B-ADVP,O
+talks,VBZ,B-VP,O
+with,IN,B-PP,O
+Basque,JJ,B-NP,B-MISC
+rebels--poll,NN,I-NP,O
+.,.,O,O

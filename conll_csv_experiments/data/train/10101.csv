@@ -1,0 +1,12 @@
+0,1,2,3
+Carlos,NNP,B-NP,B-PER
+Costa,NNP,I-NP,I-PER
+(,(,O,O
+Spain,NNP,B-NP,B-LOC
+),),O,O
+vs.,IN,B-PP,O
+Magnus,NNP,B-NP,B-PER
+Gustafsson,NNP,I-NP,I-PER
+(,(,O,O
+Sweden,NNP,B-NP,B-LOC
+),),O,O

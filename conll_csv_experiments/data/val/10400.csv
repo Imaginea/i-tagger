@@ -1,0 +1,11 @@
+0,1,2,3
+The,DT,B-NP,O
+long,JJ,I-NP,O
+bond,NN,I-NP,O
+was,VBD,B-VP,O
+quoted,VBN,I-VP,O
+to,TO,B-VP,O
+yield,VB,I-VP,O
+7.12,CD,B-NP,O
+percent,NN,I-NP,O
+.,.,O,O

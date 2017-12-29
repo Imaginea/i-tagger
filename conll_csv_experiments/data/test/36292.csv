@@ -1,0 +1,13 @@
+0,1,2,3
+The,DT,B-NP,O
+unnamed,JJ,I-NP,O
+accomplice,NN,I-NP,O
+was,VBD,B-VP,O
+earlier,RBR,I-VP,O
+sentenced,VBN,I-VP,O
+to,TO,B-PP,O
+20,CD,B-NP,O
+years,NNS,I-NP,O
+in,IN,B-PP,O
+prison,NN,B-NP,O
+.,.,O,O

@@ -1,0 +1,9 @@
+0,1,2,3
+Iraqi,JJ,B-NP,B-MISC
+Kurd,NNP,I-NP,I-MISC
+group,NN,I-NP,O
+says,VBZ,B-VP,O
+agrees,VBZ,B-VP,O
+new,JJ,B-NP,O
+ceasefire,NN,I-NP,O
+.,.,O,O

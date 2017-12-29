@@ -1,0 +1,17 @@
+0,1,2,3
+Jonas,NNP,B-NP,B-PER
+Bjorkman,NNP,I-NP,I-PER
+(,(,O,O
+Sweden,NNP,B-NP,B-LOC
+),),O,O
+beat,VB,B-VP,O
+David,NNP,B-NP,B-PER
+Nainkin,NNP,I-NP,I-PER
+(,(,O,O
+South,NNP,B-NP,B-LOC
+Africa,NNP,I-NP,I-LOC
+),),O,O
+),),O,O
+6-4,CD,B-NP,O
+6-1,JJ,B-ADVP,O
+6-1,CD,B-NP,O

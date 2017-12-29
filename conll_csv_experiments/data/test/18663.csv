@@ -1,0 +1,9 @@
+0,1,2,3
+Albanian,NNP,B-NP,B-MISC
+jailed,VBD,B-VP,O
+for,IN,B-PP,O
+threat,NN,B-NP,O
+of,IN,B-PP,O
+bomb,NN,B-NP,O
+suicide,NN,I-NP,O
+.,.,O,O

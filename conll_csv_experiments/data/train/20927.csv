@@ -1,0 +1,17 @@
+0,1,2,3
+The,DT,B-NP,O
+market,NN,I-NP,O
+had,VBD,B-VP,O
+its,PRP$,B-NP,O
+first,JJ,I-NP,O
+resistance,NN,I-NP,O
+at,IN,B-PP,O
+"67,000",CD,B-NP,O
+if,IN,B-SBAR,O
+it,PRP,B-NP,O
+pierced,VBD,B-VP,O
+"65,000",CD,B-NP,O
+",",",",O,O
+they,PRP,B-NP,O
+added,VBD,B-VP,O
+.,.,O,O

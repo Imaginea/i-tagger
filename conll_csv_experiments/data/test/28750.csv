@@ -1,0 +1,15 @@
+0,1,2,3
+Dressed,VBD,B-VP,O
+Basis,NNP,B-NP,O
+Heifers,NNP,I-NP,O
+:,:,O,O
+Few,JJ,B-NP,O
+Select,NNP,I-NP,O
+and,CC,O,O
+Choice,NNP,B-NP,O
+2-3,CD,I-NP,O
+",",",",I-NP,O
+1100-1200,CD,I-NP,O
+lbs,VBZ,B-VP,O
+112.00,CD,B-NP,O
+.,.,O,O

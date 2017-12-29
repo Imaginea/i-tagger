@@ -1,0 +1,8 @@
+0,1,2,3
+12.,CD,B-NP,O
+Mika,NNP,I-NP,B-PER
+Salo,NNP,I-NP,I-PER
+(,(,O,O
+Finland,NNP,B-NP,B-LOC
+),),O,O
+5,CD,B-NP,O

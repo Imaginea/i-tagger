@@ -1,0 +1,34 @@
+0,1,2,3
+ ,O,O,<UNK>
+Two,CD,B-NP,O
+months,NNS,I-NP,O
+ago,RB,B-ADVP,O
+I,PRP,B-NP,O
+started,VBD,B-VP,O
+talking,VBG,I-VP,O
+about,IN,B-PP,O
+quitting,VBG,B-VP,O
+",",",",O,O
+ ,O,O,<UNK>
+said,VBD,B-VP,O
+Oncins,NNP,B-NP,B-PER
+",",",",O,O
+who,WP,B-NP,O
+decided,VBD,B-VP,O
+to,TO,I-VP,O
+give,VB,I-VP,O
+it,PRP,B-NP,O
+one,CD,B-NP,O
+last,JJ,I-NP,O
+try,NN,I-NP,O
+and,CC,O,O
+made,VBD,B-VP,O
+it,PRP,B-NP,O
+through,IN,B-PP,O
+the,DT,B-NP,O
+Open,NNP,I-NP,B-MISC
+qualifying,VBG,B-VP,O
+tournament,NN,B-NP,O
+last,JJ,B-NP,O
+weekend,NN,I-NP,O
+.,.,O,O

@@ -1,0 +1,13 @@
+0,1,2,3
+Ponting,NNP,B-VP,B-PER
+",",",",O,O
+Michael,NNP,B-NP,B-PER
+Slater,NNP,I-NP,I-PER
+",",",",O,O
+Darren,NNP,B-NP,B-PER
+Lehmann,NNP,I-NP,I-PER
+",",",",O,O
+Mark,NNP,B-NP,B-PER
+Waugh,NNP,I-NP,I-PER
+",",",",O,O
+Steve,NNP,B-NP,B-PER

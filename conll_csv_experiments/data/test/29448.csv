@@ -1,0 +1,9 @@
+0,1,2,3
+German,NNP,B-NP,B-MISC
+Santa,NNP,I-NP,B-PER
+in,IN,B-PP,O
+bank,NN,B-NP,O
+nearly,RB,B-ADVP,O
+gets,VBZ,B-VP,O
+arrested,VBN,I-VP,O
+.,.,O,O

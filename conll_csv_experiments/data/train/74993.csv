@@ -1,0 +1,11 @@
+0,1,2,3
+Krylya,NNP,B-NP,B-ORG
+Sovetov,NNP,I-NP,I-ORG
+Samara,NNP,I-NP,I-ORG
+25,CD,I-NP,O
+8,CD,I-NP,O
+7,CD,I-NP,O
+10,CD,I-NP,O
+19,CD,I-NP,O
+29,CD,I-NP,O
+31,CD,I-NP,O

@@ -1,0 +1,11 @@
+0,1,2,3
+Alaska,NNP,B-NP,B-ORG
+Milk,NN,I-NP,I-ORG
+beat,VBD,B-VP,O
+Purefoods,NNP,B-NP,B-ORG
+Hotdogs,NNP,I-NP,I-ORG
+103-95,CD,I-NP,O
+(,(,O,O
+34-48,CD,B-NP,O
+half-time,NN,I-NP,O
+),),O,O

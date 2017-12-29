@@ -1,0 +1,11 @@
+0,1,2,3
+the,DT,B-NP,O
+German,NNP,I-NP,B-MISC
+Open,NNP,I-NP,I-MISC
+golf,NN,I-NP,O
+championship,NN,I-NP,O
+on,IN,B-PP,O
+Sunday,NNP,B-NP,O
+after,IN,B-PP,O
+the,DT,B-NP,O
+final,JJ,I-NP,O

@@ -1,0 +1,16 @@
+0,1,2,3
+Some,DT,B-NP,O
+of,IN,B-PP,O
+our,PRP$,B-NP,O
+people,NNS,I-NP,O
+have,VBP,B-VP,O
+been,VBN,I-VP,O
+in,IN,B-PP,O
+prison,NN,B-NP,O
+for,IN,B-PP,O
+five,CD,B-NP,O
+to,TO,I-NP,O
+six,CD,I-NP,O
+years,NNS,I-NP,O
+.,.,O,O
+ ,O,O,<UNK>

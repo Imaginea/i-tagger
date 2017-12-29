@@ -1,0 +1,17 @@
+0,1,2,3
+ ,O,O,<UNK>
+The,DT,B-NP,O
+market,NN,I-NP,O
+'s,POS,B-NP,O
+very,JJ,I-NP,O
+healthy,JJ,I-NP,O
+",",",",O,O
+we,PRP,B-NP,O
+'re,VBP,B-VP,O
+buying,NN,B-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+said,VBD,B-VP,O
+another,DT,B-NP,O
+trader,NN,I-NP,O
+.,.,O,O

@@ -1,0 +1,8 @@
+0,1,2,3
+Russian,JJ,B-NP,B-MISC
+grade,NN,I-NP,O
+A7E,NN,I-NP,O
+3.25-3.75,CD,I-NP,O
+cents,NNS,I-NP,O
+/,SYM,O,O
+pound,NN,B-NP,O

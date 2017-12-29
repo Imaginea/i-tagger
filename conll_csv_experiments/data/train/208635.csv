@@ -1,0 +1,10 @@
+0,1,2,3
+Beachcomber,NN,B-NP,O
+finds,VBZ,B-VP,O
+piece,NN,B-NP,O
+that,WDT,B-NP,O
+could,MD,B-VP,O
+be,VB,I-VP,O
+TWA,NNP,B-NP,B-ORG
+part,NN,I-NP,O
+.,.,O,O

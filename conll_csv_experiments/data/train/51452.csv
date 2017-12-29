@@ -1,0 +1,9 @@
+0,1,2,3
+Current,JJ,B-NP,O
+loss,NN,I-NP,O
+371,CD,I-NP,O
+million,CD,I-NP,O
+vs,NNP,O,O
+loss,NN,O,O
+278,CD,B-NP,O
+million,CD,I-NP,O

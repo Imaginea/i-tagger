@@ -1,0 +1,30 @@
+0,1,2,3
+ ,O,O,<UNK>
+(,(,O,O
+Chamorro,NNP,B-NP,B-PER
+),),O,O
+is,VBZ,B-VP,O
+in,IN,B-PP,O
+good,JJ,B-NP,O
+health,NN,I-NP,O
+and,CC,O,O
+",",",",O,O
+according,VBG,B-PP,O
+to,TO,B-PP,O
+her,PRP$,B-NP,O
+doctors,NNS,I-NP,O
+",",",",O,O
+will,MD,B-VP,O
+be,VB,I-VP,O
+able,JJ,B-ADJP,O
+to,TO,B-VP,O
+return,VB,I-VP,O
+to,TO,B-PP,O
+Nicaragua,NNP,B-NP,B-LOC
+next,JJ,B-NP,O
+week,NN,I-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+it,PRP,B-NP,O
+said,VBD,B-VP,O
+.,.,O,O

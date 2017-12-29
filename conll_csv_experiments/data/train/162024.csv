@@ -1,0 +1,5 @@
+0,1,2,3
+the,DT,B-NP,O
+FDA,NNP,I-NP,B-ORG
+said,VBD,B-VP,O
+.,.,O,O

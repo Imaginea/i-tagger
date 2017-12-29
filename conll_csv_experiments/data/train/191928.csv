@@ -1,0 +1,11 @@
+0,1,2,3
+The,DT,B-NP,O
+crowds,NNS,I-NP,O
+",",",",O,O
+they,PRP,B-NP,O
+speak,VBP,B-VP,O
+louder,JJR,B-ADJP,O
+or,CC,I-ADJP,O
+they,PRP,B-NP,O
+move,VBP,B-VP,O
+.,.,O,O

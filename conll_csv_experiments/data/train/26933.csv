@@ -1,0 +1,12 @@
+0,1,2,3
+Power,NNP,B-NP,B-ORG
+NZ,NNP,I-NP,I-ORG
+ODV,NNP,I-NP,I-ORG
+up,RB,B-ADVP,O
+8,CD,B-NP,O
+pct,NN,I-NP,O
+at,IN,B-PP,O
+NZ$,$,B-NP,B-MISC
+524,CD,I-NP,O
+million,CD,I-NP,O
+.,.,O,O

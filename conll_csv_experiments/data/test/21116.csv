@@ -1,0 +1,21 @@
+0,1,2,3
+It,PRP,B-NP,O
+'s,VBZ,B-VP,O
+a,DT,B-NP,O
+sudden,JJ,I-NP,O
+plunge,NN,I-NP,O
+that,WDT,B-NP,O
+takes,VBZ,B-VP,O
+its,PRP$,B-NP,O
+toll,NN,I-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+said,VBD,B-VP,O
+Carlos,NNP,B-NP,B-PER
+Ponce,NNP,I-NP,I-PER
+",",",",O,O
+research,NN,B-NP,O
+director,NN,I-NP,O
+at,IN,B-PP,O
+Santander,NNP,B-NP,B-LOC
+.,.,O,O

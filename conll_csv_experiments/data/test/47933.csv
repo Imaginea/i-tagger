@@ -1,0 +1,11 @@
+0,1,2,3
+Hapoel,NNP,B-NP,B-ORG
+Beit,NNP,I-NP,I-ORG
+She'an,NNP,I-NP,I-ORG
+12,CD,I-NP,O
+2,CD,I-NP,O
+3,CD,I-NP,O
+7,CD,I-NP,O
+9,CD,I-NP,O
+13,CD,I-NP,O
+9,CD,I-NP,O

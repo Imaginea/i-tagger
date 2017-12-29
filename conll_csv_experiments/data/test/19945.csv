@@ -1,0 +1,15 @@
+0,1,2,3
+ ,O,O,<UNK>
+Our,PRP$,B-NP,O
+countries,NNS,I-NP,O
+',POS,B-NP,O
+leaders,NNS,I-NP,O
+have,VBP,B-VP,O
+agreed,VBN,I-VP,O
+to,TO,I-VP,O
+meet,VB,I-VP,O
+in,IN,B-PP,O
+March,NNP,B-NP,O
+",",",",O,O
+1997,CD,B-NP,O
+.,.,O,O

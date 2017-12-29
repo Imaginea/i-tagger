@@ -1,0 +1,10 @@
+0,1,2,3
+6.,CD,B-NP,O
+Pier,NNP,I-NP,B-PER
+Francesco,NNP,I-NP,I-PER
+Chili,NNP,I-NP,I-PER
+(,(,O,O
+Italy,NNP,B-NP,B-LOC
+),),O,O
+Ducati,NNP,B-NP,B-ORG
+175,CD,I-NP,O

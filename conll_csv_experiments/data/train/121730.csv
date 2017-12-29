@@ -1,0 +1,14 @@
+0,1,2,3
+Dan,NNP,B-NP,B-PER
+Jensen,NNP,I-NP,I-PER
+(,(,O,O
+Australia,NNP,B-NP,B-LOC
+),),O,O
+beat,VB,B-VP,O
+Anders,NNP,B-NP,B-PER
+Thoren,NNP,I-NP,I-PER
+(,(,O,O
+Sweden,NNP,B-NP,B-LOC
+),),O,O
+8-15,CD,B-NP,O
+15-12,CD,B-NP,O

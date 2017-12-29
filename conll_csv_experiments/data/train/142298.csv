@@ -1,0 +1,7 @@
+0,1,2,3
+--,:,O,O
+New,NNP,B-NP,B-ORG
+York,NNP,I-NP,I-ORG
+Newsdesk,NNP,I-NP,I-ORG
+212-859-1610,NNS,I-NP,O
+.,.,O,O

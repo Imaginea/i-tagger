@@ -1,0 +1,12 @@
+0,1,2,3
+A,DT,B-NP,O
+police,NN,I-NP,O
+spokesman,NN,I-NP,O
+said,VBD,B-VP,O
+the,DT,B-NP,O
+boy,NN,I-NP,O
+was,VBD,B-VP,O
+being,VBG,I-VP,O
+questioned,VBN,I-VP,O
+.,.,O,O
+ ,O,O,<UNK>

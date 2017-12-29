@@ -1,0 +1,14 @@
+0,1,2,3
+Zenith,NNP,B-NP,B-ORG
+lands,NNS,I-NP,O
+$,$,B-NP,O
+1,CD,I-NP,O
+billion,CD,I-NP,O
+contract,NN,I-NP,O
+",",",",O,O
+plans,VBZ,B-VP,O
+$,$,B-NP,O
+100,CD,I-NP,O
+million,CD,I-NP,O
+plant,NN,I-NP,O
+.,.,O,O

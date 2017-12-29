@@ -1,0 +1,8 @@
+0,1,2,3
+Extras,NNS,B-NP,O
+(,(,O,O
+lb-12,CD,B-NP,O
+w-1,JJ,I-NP,O
+nb-10,JJ,I-NP,O
+),),O,O
+23,CD,B-NP,O

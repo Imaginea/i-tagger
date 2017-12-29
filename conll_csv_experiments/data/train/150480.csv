@@ -1,0 +1,7 @@
+0,1,2,3
+2.,NNP,B-NP,O
+Gary,NNP,I-NP,B-PER
+Neiwand,NNP,I-NP,I-PER
+(,(,O,O
+Australia,NNP,B-NP,B-LOC
+),),O,O

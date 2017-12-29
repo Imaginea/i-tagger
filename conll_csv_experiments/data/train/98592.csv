@@ -1,0 +1,34 @@
+0,1,2,3
+ ,O,O,<UNK>
+But,CC,O,O
+there,EX,B-NP,O
+are,VBP,B-VP,O
+so,RB,B-NP,O
+many,JJ,I-NP,O
+reasons,NNS,I-NP,O
+to,TO,B-VP,O
+play,VB,I-VP,O
+",",",",O,O
+especially,RB,B-NP,O
+spectators,NNS,I-NP,O
+and,CC,O,O
+the,DT,B-NP,O
+kids,NNS,I-NP,O
+who,WP,B-NP,O
+come,VBP,B-VP,O
+out,RP,B-PRT,O
+here,RB,B-ADVP,O
+and,CC,O,O
+want,VBP,B-VP,O
+to,TO,I-VP,O
+enjoy,VB,I-VP,O
+watching,VBG,I-VP,O
+tennis,NN,B-NP,O
+",",",",O,O
+that,IN,B-SBAR,O
+I,PRP,B-NP,O
+decided,VBD,B-VP,O
+to,TO,I-VP,O
+stay,VB,I-VP,O
+.,.,O,O
+ ,O,O,<UNK>

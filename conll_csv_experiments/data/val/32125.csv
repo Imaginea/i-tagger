@@ -1,0 +1,6 @@
+0,1,2,3
+London,NNP,B-NP,B-ORG
+Irish,NNP,I-NP,I-ORG
+27,CD,I-NP,O
+Bristol,NNP,I-NP,B-ORG
+28,CD,I-NP,O

@@ -1,0 +1,11 @@
+0,1,2,3
+The,DT,B-NP,O
+government,NN,I-NP,O
+also,RB,B-ADVP,O
+wants,VBZ,B-VP,O
+10,CD,B-NP,O
+percent,NN,I-NP,O
+of,IN,B-PP,O
+the,DT,B-NP,O
+property,NN,I-NP,O
+.,.,O,O

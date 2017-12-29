@@ -1,0 +1,10 @@
+0,1,2,3
+Nyva,NNP,B-NP,B-ORG
+Ternopil,NNP,I-NP,I-ORG
+6,CD,I-NP,O
+2,CD,I-NP,O
+0,CD,I-NP,O
+4,CD,I-NP,O
+4,CD,I-NP,O
+11,CD,I-NP,O
+6,CD,I-NP,O

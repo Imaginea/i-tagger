@@ -1,0 +1,11 @@
+0,1,2,3
+Spetses,NN,B-NP,B-MISC
+139,CD,I-NP,O
+17/12,CD,I-NP,O
+Sidi,NNP,I-NP,B-LOC
+Kreir,NN,I-NP,I-LOC
+/,SYM,O,O
+Augusta,NNP,B-NP,B-LOC
+W97.50,NNP,I-NP,O
+Exxon,NNP,I-NP,B-ORG
+.,.,O,O

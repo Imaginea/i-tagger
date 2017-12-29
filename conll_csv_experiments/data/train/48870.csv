@@ -1,0 +1,26 @@
+0,1,2,3
+ ,O,O,<UNK>
+He,PRP,B-NP,O
+had,VBD,B-VP,O
+climbed,VBN,I-VP,O
+up,RP,B-PRT,O
+in,IN,B-PP,O
+this,DT,B-NP,O
+boxcar,NN,I-NP,O
+to,TO,B-VP,O
+get,VB,I-VP,O
+out,IN,B-PP,O
+of,IN,B-PP,O
+the,DT,B-NP,O
+weather,NN,I-NP,O
+and,CC,O,O
+to,TO,B-VP,O
+get,VB,I-VP,O
+some,DT,B-NP,O
+sleep,VB,B-VP,O
+",",",",O,O
+ ,O,O,<UNK>
+Jewell,NNP,B-NP,B-PER
+said,VBD,B-VP,O
+.,.,O,O
+ ,O,O,<UNK>

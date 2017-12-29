@@ -1,0 +1,11 @@
+0,1,2,3
+--,:,O,O
+(,(,O,O
+New,NNP,B-NP,B-LOC
+York,NNP,I-NP,I-LOC
+commodities,NNS,I-NP,O
+desk,NN,B-NP,O
+212,CD,I-NP,O
+859,CD,I-NP,O
+1646,CD,I-NP,O
+),),O,O

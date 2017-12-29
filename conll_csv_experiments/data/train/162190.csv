@@ -1,0 +1,8 @@
+0,1,2,3
+Tax,NN,B-NP,O
+/,SYM,O,O
+loan,NN,B-NP,O
+note,NN,I-NP,O
+acct,NN,I-NP,O
+14.828,CD,I-NP,O
+15.687,CD,I-NP,O

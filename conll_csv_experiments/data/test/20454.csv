@@ -1,0 +1,34 @@
+0,1,2,3
+ ,O,O,<UNK>
+This,DT,B-NP,O
+was,VBD,B-VP,O
+an,DT,B-NP,O
+act,NN,I-NP,O
+of,IN,B-PP,O
+terrorism,NN,B-NP,O
+and,CC,O,O
+now,RB,B-ADVP,O
+I,PRP,B-NP,O
+fear,VBP,B-VP,O
+not,RB,B-CONJP,O
+only,RB,I-CONJP,O
+for,IN,B-PP,O
+my,PRP$,B-NP,O
+own,JJ,I-NP,O
+life,NN,I-NP,O
+",",",",O,O
+but,CC,B-CONJP,O
+also,RB,I-CONJP,O
+of,IN,I-CONJP,O
+that,IN,B-SBAR,O
+of,IN,B-PP,O
+my,PRP$,B-NP,O
+wife,NN,I-NP,O
+and,CC,I-NP,O
+children,NNS,I-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+he,PRP,B-NP,O
+told,VBD,B-VP,O
+TASR,NNP,B-NP,B-ORG
+.,.,O,O

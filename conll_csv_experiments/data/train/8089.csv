@@ -1,0 +1,15 @@
+0,1,2,3
+Scorers,NNS,B-NP,O
+:,:,O,O
+Zoran,NNP,B-NP,B-PER
+Kundic,NNP,I-NP,I-PER
+(,(,O,O
+28th,CD,B-NP,O
+),),O,O
+",",",",O,O
+Klimis,NNP,B-NP,B-PER
+Alexandrou,NNP,I-NP,I-PER
+(,(,O,O
+41st,CD,B-NP,O
+),),O,O
+",",",",O,O

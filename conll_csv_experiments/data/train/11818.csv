@@ -1,0 +1,14 @@
+0,1,2,3
+Jaha,NN,B-NP,B-PER
+added,VBD,B-VP,O
+an,DT,B-NP,O
+RBI,NNP,I-NP,B-MISC
+single,JJ,I-NP,O
+in,IN,B-PP,O
+the,DT,B-NP,O
+ninth,JJ,I-NP,O
+and,CC,I-NP,O
+had,VBD,B-VP,O
+four,CD,B-NP,O
+RBI,NNP,I-NP,B-MISC
+.,.,O,O

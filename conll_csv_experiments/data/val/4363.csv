@@ -1,0 +1,11 @@
+0,1,2,3
+"6,739-yard",JJ,B-NP,O
+Brown,NNP,I-NP,B-LOC
+Deer,NNP,I-NP,I-LOC
+Park,NNP,I-NP,I-LOC
+Golf,NNP,I-NP,I-LOC
+Course,NNP,I-NP,I-LOC
+after,IN,B-PP,O
+the,DT,B-NP,O
+first,JJ,I-NP,O
+round,NN,I-NP,O

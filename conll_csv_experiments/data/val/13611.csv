@@ -1,0 +1,24 @@
+0,1,2,3
+ ,O,O,<UNK>
+Naina,NNP,B-NP,B-PER
+Yeltsin,NNP,I-NP,I-PER
+looks,VBZ,B-VP,O
+well,RB,B-ADVP,O
+",",",",O,O
+she,PRP,B-NP,O
+is,VBZ,B-VP,O
+active,JJ,B-ADJP,O
+",",",",O,O
+she,PRP,B-NP,O
+is,VBZ,B-VP,O
+clearly,RB,I-VP,O
+getting,VBG,I-VP,O
+better,JJR,B-NP,O
+",",",",I-NP,O
+ ,O,O,<UNK>
+Yastrzhembsky,NNP,B-NP,B-PER
+quoted,VBD,B-VP,O
+Yeltsin,NNP,B-NP,B-PER
+as,IN,B-PP,O
+saying,VBG,B-VP,O
+.,.,O,O

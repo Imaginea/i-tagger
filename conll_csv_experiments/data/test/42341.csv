@@ -1,0 +1,8 @@
+0,1,2,3
+5.,CD,B-NP,O
+Jacqui,NNP,I-NP,B-PER
+Cooper,NNP,I-NP,I-PER
+(,(,O,O
+Australia,NNP,B-NP,B-LOC
+),),O,O
+156.52,CD,B-NP,O

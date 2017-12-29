@@ -1,0 +1,13 @@
+0,1,2,3
+72,CD,B-NP,O
+Clarence,NNP,B-NP,B-PER
+Rose,NNP,I-NP,I-PER
+",",",",O,O
+Loren,NNP,B-NP,B-PER
+Roberts,NNP,I-NP,I-PER
+",",",",O,O
+Fred,NNP,B-NP,B-PER
+Funk,NNP,I-NP,I-PER
+",",",",O,O
+Sven,NNP,B-NP,B-PER
+Struver,NNP,I-NP,I-PER

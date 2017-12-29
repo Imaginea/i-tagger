@@ -1,0 +1,10 @@
+0,1,2,3
+German,JJ,B-NP,B-MISC
+troops,NNS,I-NP,O
+to,TO,B-VP,O
+remain,VB,I-VP,O
+in,IN,B-PP,O
+Bosnia,NNP,B-NP,B-LOC
+for,IN,B-PP,O
+1997--Ruehe,CD,B-NP,B-MISC
+.,.,O,O

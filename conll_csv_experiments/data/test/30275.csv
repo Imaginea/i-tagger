@@ -1,0 +1,8 @@
+0,1,2,3
+UK,NNP,B-NP,B-LOC
+bookmakers,NNS,I-NP,O
+lengthen,VBP,B-VP,O
+Conservative,JJ,B-NP,B-MISC
+victory,NN,I-NP,O
+odds,NNS,I-NP,O
+.,.,O,O

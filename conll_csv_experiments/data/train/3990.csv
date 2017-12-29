@@ -1,0 +1,10 @@
+0,1,2,3
+AD-DIYAR,NN,B-NP,B-ORG
+-,:,O,O
+Financial,NNP,B-NP,O
+negotiations,NNS,I-NP,O
+between,IN,B-PP,O
+Lebanon,NNP,B-NP,B-LOC
+and,CC,I-NP,O
+Pakistan,NNP,I-NP,B-LOC
+.,.,O,O

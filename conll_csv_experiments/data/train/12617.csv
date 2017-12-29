@@ -1,0 +1,12 @@
+0,1,2,3
+Jonathan,NNP,B-NP,B-PER
+Lomas,NNP,I-NP,I-PER
+",",",",O,O
+Jose,NNP,B-NP,B-PER
+Rivero,NNP,I-NP,I-PER
+(,(,O,O
+Spain,NNP,B-NP,B-LOC
+),),O,O
+",",",",O,O
+Robert,NNP,B-NP,B-PER
+Karlsson,NNP,I-NP,I-PER

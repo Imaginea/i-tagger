@@ -1,0 +1,19 @@
+0,1,2,3
+ ,O,O,<UNK>
+They,PRP,B-NP,O
+have,VBP,B-VP,O
+confirmed,VBN,I-VP,O
+to,TO,B-PP,O
+us,PRP,B-NP,O
+that,IN,B-SBAR,O
+Iraqi,JJ,B-NP,B-MISC
+troops,NNS,I-NP,O
+are,VBP,B-VP,O
+taking,VBG,I-VP,O
+part,NN,B-NP,O
+in,IN,B-PP,O
+the,DT,B-NP,O
+attack,NN,I-NP,O
+on,IN,B-PP,O
+Arbil,NNP,B-NP,B-LOC
+...,:,O,O

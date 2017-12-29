@@ -1,0 +1,11 @@
+0,1,2,3
+Automakers,NNS,B-NP,O
+",",",",O,O
+U.S.,NNP,B-NP,B-LOC
+agency,NN,I-NP,O
+plan,NN,I-NP,O
+air,NN,I-NP,O
+bag,NN,I-NP,O
+safety,NN,I-NP,O
+ads,NNS,I-NP,O
+.,.,O,O

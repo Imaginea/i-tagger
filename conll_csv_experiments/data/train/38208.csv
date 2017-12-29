@@ -1,0 +1,15 @@
+0,1,2,3
+Reuters,NNP,B-NP,B-ORG
+has,VBZ,B-VP,O
+not,RB,I-VP,O
+verified,VBN,I-VP,O
+these,DT,B-NP,O
+stories,NNS,I-NP,O
+and,CC,O,O
+does,VBZ,B-VP,O
+not,RB,I-VP,O
+vouch,NN,B-NP,O
+for,IN,B-PP,O
+their,PRP$,B-NP,O
+accuracy,NN,I-NP,O
+.,.,O,O

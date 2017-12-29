@@ -1,0 +1,7 @@
+0,1,2,3
+Software,NNP,B-NP,O
+Revenue,NN,I-NP,O
+"2,383",CD,I-NP,O
+"1,558",CD,I-NP,O
+"1,086",CD,I-NP,O
+"1,074",CD,I-NP,O

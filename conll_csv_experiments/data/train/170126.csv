@@ -1,0 +1,11 @@
+0,1,2,3
+Briton,NN,B-NP,B-MISC
+held,VBN,B-VP,O
+in,IN,B-PP,O
+Thailand,NNP,B-NP,B-LOC
+over,IN,B-PP,O
+4.4,CD,B-NP,O
+kg,VBG,I-NP,O
+heroin,NN,I-NP,O
+find,VB,B-VP,O
+.,.,O,O

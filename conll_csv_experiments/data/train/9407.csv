@@ -1,0 +1,15 @@
+0,1,2,3
+2,CD,B-NP,O
+-,:,I-NP,O
+Zhang,NNP,I-NP,B-PER
+Ning,NNP,I-NP,I-PER
+(,(,O,O
+China,NNP,B-NP,B-LOC
+),),O,O
+beat,VB,B-VP,O
+Olivia,NNP,B-NP,B-PER
+(,(,O,O
+Indonesia,NNP,O,B-LOC
+),),O,O
+11-8,CD,B-NP,O
+11-6,CD,I-NP,O

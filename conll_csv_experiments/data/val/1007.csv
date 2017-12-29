@@ -1,0 +1,13 @@
+0,1,2,3
+July,NNP,B-NP,O
+July,NNP,B-NP,O
+3-7,CD,I-NP,O
+Third,NNP,I-NP,O
+test,NN,I-NP,O
+(,(,O,O
+at,IN,B-PP,O
+Old,NNP,B-NP,B-LOC
+Trafford,NNP,I-NP,I-LOC
+",",",",O,O
+Manchester,NNP,B-NP,B-LOC
+),),O,O

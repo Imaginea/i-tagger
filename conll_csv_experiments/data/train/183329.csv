@@ -1,0 +1,9 @@
+0,1,2,3
+Japan,NNP,B-NP,B-LOC
+coalition,NN,I-NP,O
+party,NN,I-NP,O
+leader,NN,I-NP,O
+plans,NNS,I-NP,O
+to,TO,B-VP,O
+resign,VB,I-VP,O
+.,.,O,O

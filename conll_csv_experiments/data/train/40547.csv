@@ -1,0 +1,20 @@
+0,1,2,3
+ ,O,O,<UNK>
+We,PRP,B-NP,O
+do,VBP,B-VP,O
+n't,RB,I-VP,O
+feel,VB,I-VP,O
+our,PRP$,B-NP,O
+club,NN,I-NP,O
+represents,VBZ,B-VP,O
+Palestinian,JJ,B-NP,B-MISC
+Arabs,NNPS,I-NP,I-MISC
+",",",",O,O
+ ,O,O,<UNK>
+said,VBD,B-VP,O
+club,NN,B-NP,O
+chairman,NN,I-NP,O
+Abdul,NNP,I-NP,B-PER
+Rahman,NNP,I-NP,I-PER
+.,.,I-NP,O
+ ,O,O,<UNK>

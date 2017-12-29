@@ -1,0 +1,11 @@
+0,1,2,3
+Edberg,NNP,B-NP,B-PER
+'s,POS,B-NP,O
+tenacity,NN,I-NP,O
+paid,VBD,B-VP,O
+off,RP,B-PRT,O
+in,IN,B-PP,O
+the,DT,B-NP,O
+second,JJ,I-NP,O
+set,NN,I-NP,O
+.,.,O,O

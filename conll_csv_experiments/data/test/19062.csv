@@ -1,0 +1,11 @@
+0,1,2,3
+Russia,NNP,B-NP,B-LOC
+warns,VBZ,B-VP,O
+Norilsk,NNP,B-NP,B-ORG
+",",",",O,O
+not,RB,B-VP,O
+expected,VBN,I-VP,O
+to,TO,I-VP,O
+liquidate,VB,I-VP,O
+it,PRP,B-NP,O
+.,.,O,O

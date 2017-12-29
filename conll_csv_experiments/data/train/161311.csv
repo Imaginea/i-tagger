@@ -1,0 +1,12 @@
+0,1,2,3
+Nothing,NN,B-NP,O
+has,VBZ,B-VP,O
+been,VBN,I-VP,O
+found,VBN,I-VP,O
+so,RB,B-ADVP,O
+far,RB,I-ADVP,O
+",",",",O,O
+added,VBD,B-VP,O
+the,DT,B-NP,O
+official,NN,I-NP,O
+.,.,O,O

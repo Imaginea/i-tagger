@@ -1,0 +1,17 @@
+0,1,2,3
+Sudan,NNP,B-NP,B-LOC
+accuses,VBZ,B-VP,O
+the,DT,B-NP,O
+Eritrean,JJ,I-NP,B-MISC
+authorities,NNS,I-NP,O
+of,IN,B-PP,O
+providing,VBG,B-VP,O
+support,NN,B-NP,O
+to,TO,B-PP,O
+Sudanese,NNP,B-NP,B-MISC
+opposition,NN,I-NP,O
+elements,NNS,I-NP,O
+based,VBN,B-VP,O
+in,IN,B-PP,O
+Eritrea,NNP,B-NP,B-LOC
+.,.,O,O

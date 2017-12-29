@@ -1,0 +1,10 @@
+0,1,2,3
+--,:,B-NP,O
+Tokyo,NNP,I-NP,B-ORG
+Commodities,NNP,I-NP,I-ORG
+Desk,NNP,I-NP,I-ORG
+(,(,O,O
+81-3,CD,B-NP,O
+3432,CD,I-NP,O
+6179,CD,I-NP,O
+),),O,O

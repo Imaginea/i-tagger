@@ -1,0 +1,11 @@
+0,1,2,3
+NYMEX,NNP,B-NP,O
+will,MD,B-VP,O
+be,VB,I-VP,O
+closed,VBN,I-VP,O
+Monday,NNP,B-NP,O
+due,JJ,B-ADJP,O
+to,TO,B-PP,O
+Labor,NNP,B-NP,B-MISC
+Day,NNP,I-NP,I-MISC
+.,.,O,O

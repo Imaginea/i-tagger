@@ -1,0 +1,10 @@
+0,1,2,3
+ ,O,O,<UNK>
+I,PRP,B-NP,O
+do,VBP,B-VP,O
+n't,RB,I-VP,O
+take,VB,I-VP,O
+anything,NN,B-NP,O
+for,IN,B-PP,O
+granted,VBN,B-ADJP,O
+.,.,O,O

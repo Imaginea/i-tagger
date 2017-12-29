@@ -1,0 +1,14 @@
+0,1,2,3
+Winters,NNS,B-NP,B-PER
+(,(,O,O
+Dundee,NNP,B-NP,B-ORG
+United,NNP,I-NP,I-ORG
+),),O,O
+",",",",O,O
+Paolo,NNP,B-NP,B-PER
+Di,NNP,I-NP,I-PER
+Canio,NNP,I-NP,I-PER
+(,(,O,O
+Celtic,NNP,B-NP,B-ORG
+),),O,O
+.,.,O,O

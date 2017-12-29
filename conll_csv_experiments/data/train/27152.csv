@@ -1,0 +1,13 @@
+0,1,2,3
+He,PRP,B-NP,O
+was,VBD,B-VP,O
+believed,VBN,I-VP,O
+by,IN,B-PP,O
+prison,NN,B-NP,O
+officials,NNS,I-NP,O
+to,TO,B-VP,O
+still,RB,I-VP,O
+be,VB,I-VP,O
+in,IN,B-PP,O
+Thailand,NNP,B-NP,B-LOC
+.,.,O,O

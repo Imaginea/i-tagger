@@ -1,0 +1,16 @@
+0,1,2,3
+The,DT,B-NP,O
+Palestinian,NNP,I-NP,B-ORG
+Authority,NNP,I-NP,I-ORG
+said,VBD,B-VP,O
+the,DT,B-NP,O
+dead,JJ,I-NP,O
+man,NN,I-NP,O
+",",",",O,O
+Nahed,NNP,B-NP,B-PER
+Dahlan,NNP,I-NP,I-PER
+",",",",O,O
+had,VBD,B-VP,O
+committed,VBN,I-VP,O
+suicide,NN,B-NP,O
+.,.,O,O

@@ -1,0 +1,5 @@
+0,1,2,3
+Result,NN,B-NP,O
+of,IN,B-PP,O
+National,NNP,B-NP,B-ORG
+Football,NNP,I-NP,B-LOC

@@ -1,0 +1,9 @@
+0,1,2,3
+Mike,NNP,B-NP,B-PER
+Atherton,NNP,I-NP,I-PER
+3,CD,I-NP,O
+5,CD,I-NP,O
+0,CD,I-NP,O
+162,CD,I-NP,O
+64,CD,I-NP,O
+32.40,CD,I-NP,O

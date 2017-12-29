@@ -1,0 +1,14 @@
+0,1,2,3
+-,:,O,O
+Internal,NNP,B-NP,O
+Security,NNP,I-NP,O
+Minister,NNP,I-NP,O
+Kahalani,NNP,I-NP,B-PER
+warns,VBZ,B-VP,O
+cabinet,NN,B-NP,O
+of,IN,B-PP,O
+increase,NN,B-NP,O
+in,IN,B-PP,O
+organised,VBD,B-VP,O
+crime,NN,B-NP,O
+.,.,O,O

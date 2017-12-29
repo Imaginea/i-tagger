@@ -1,0 +1,21 @@
+0,1,2,3
+It,PRP,B-NP,O
+is,VBZ,B-VP,O
+time,NN,B-NP,O
+to,TO,B-VP,O
+end,VB,I-VP,O
+this,DT,B-NP,O
+nightly,JJ,I-NP,O
+farce,NN,I-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+said,VBD,B-VP,O
+the,DT,B-NP,O
+pro-government,JJ,I-NP,O
+daily,JJ,I-NP,O
+Le,NNP,I-NP,B-ORG
+Figaro,FW,I-NP,I-ORG
+in,IN,B-PP,O
+an,DT,B-NP,O
+editorial,NN,I-NP,O
+.,.,O,O

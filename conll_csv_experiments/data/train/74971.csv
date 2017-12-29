@@ -1,0 +1,10 @@
+0,1,2,3
+Torpedo,NNP,B-NP,B-ORG
+Moscow,NNP,I-NP,I-ORG
+25,CD,I-NP,O
+8,CD,I-NP,O
+9,CD,I-NP,O
+8,CD,I-NP,O
+31,CD,I-NP,O
+33,CD,I-NP,O
+33,CD,I-NP,O

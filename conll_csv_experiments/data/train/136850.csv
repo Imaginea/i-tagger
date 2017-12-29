@@ -1,0 +1,6 @@
+0,1,2,3
+U.S.,NNP,B-NP,B-LOC
+lauds,NN,I-NP,O
+Russian-Chechen,JJ,I-NP,B-MISC
+deal,NN,I-NP,O
+.,.,O,O

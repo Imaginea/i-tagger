@@ -1,0 +1,8 @@
+0,1,2,3
+No,DT,B-NP,O
+one,CD,I-NP,O
+benefits,NNS,I-NP,O
+from,IN,B-PP,O
+wars,NNS,B-NP,O
+.,.,O,O
+ ,O,O,<UNK>

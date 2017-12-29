@@ -1,0 +1,12 @@
+0,1,2,3
+--,:,B-NP,O
+Juan,NNP,I-NP,B-PER
+Guillermo,NNP,I-NP,I-PER
+Londono,NNP,I-NP,I-PER
+",",",",O,O
+Bogota,NNP,B-NP,B-LOC
+newsroom,NN,I-NP,O
+",",",",O,O
+571,CD,B-ADVP,O
+610,CD,B-NP,O
+7944,CD,I-NP,O

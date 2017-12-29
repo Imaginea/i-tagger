@@ -1,0 +1,10 @@
+0,1,2,3
+Arminia,NNP,B-NP,B-ORG
+Bielefeld,NNP,I-NP,I-ORG
+4,CD,I-NP,O
+0,CD,I-NP,O
+3,CD,I-NP,O
+1,CD,I-NP,O
+3,CD,I-NP,O
+4,CD,I-NP,O
+3,CD,I-NP,O

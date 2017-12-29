@@ -1,0 +1,14 @@
+0,1,2,3
+They,PRP,B-NP,O
+can,MD,B-VP,O
+be,VB,I-VP,O
+flown,VBN,I-VP,O
+in,IN,B-PP,O
+quieter,JJR,B-NP,O
+ways,NNS,I-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+a,DT,B-NP,O
+spokesman,NN,I-NP,O
+said,VBD,B-VP,O
+.,.,O,O

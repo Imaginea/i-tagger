@@ -1,0 +1,20 @@
+0,1,2,3
+The,DT,B-NP,O
+government,NN,I-NP,O
+still,RB,B-ADVP,O
+has,VBZ,B-VP,O
+a,DT,B-NP,O
+majority,NN,I-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+a,DT,B-NP,O
+spokesman,NN,I-NP,O
+from,IN,B-PP,O
+Major,NNP,B-NP,B-PER
+'s,POS,B-NP,O
+office,NN,I-NP,O
+in,IN,B-PP,O
+Downing,NNP,B-NP,B-LOC
+Street,NNP,I-NP,I-LOC
+said,VBD,B-VP,O
+.,.,O,O

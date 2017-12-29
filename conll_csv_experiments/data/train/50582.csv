@@ -1,0 +1,16 @@
+0,1,2,3
+Beaver,NNP,B-NP,B-PER
+once,RB,B-ADVP,O
+worked,VBD,B-VP,O
+for,IN,B-PP,O
+the,DT,B-NP,O
+U.S.,NNP,I-NP,B-ORG
+Navy,NNP,I-NP,I-ORG
+and,CC,I-NP,O
+Sake,FW,I-NP,B-PER
+is,VBZ,B-VP,O
+an,DT,B-NP,O
+amusement,NN,I-NP,O
+park,NN,I-NP,O
+veteran,NN,I-NP,O
+.,.,O,O

@@ -1,0 +1,10 @@
+0,1,2,3
+Inverness,NNP,B-NP,B-ORG
+Thistle,NNP,I-NP,I-ORG
+16,CD,I-NP,O
+8,CD,I-NP,O
+5,CD,I-NP,O
+3,CD,I-NP,O
+28,CD,I-NP,O
+20,CD,I-NP,O
+29,CD,I-NP,O

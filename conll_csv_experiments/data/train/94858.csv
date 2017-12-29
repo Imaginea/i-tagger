@@ -1,0 +1,7 @@
+0,1,2,3
+Artmedia,NNP,B-NP,B-ORG
+Petrzalka,NNP,I-NP,I-ORG
+0,CD,I-NP,O
+JAS,VBZ,B-VP,B-ORG
+Bardejov,NNP,B-NP,I-ORG
+0,CD,I-NP,O

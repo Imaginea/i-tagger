@@ -1,0 +1,36 @@
+0,1,2,3
+ ,O,O,<UNK>
+A,DT,B-NP,O
+preview,NN,I-NP,O
+of,IN,B-PP,O
+the,DT,B-NP,O
+second,JJ,I-NP,O
+half,NN,I-NP,O
+of,IN,B-PP,O
+1996,CD,B-NP,O
+does,VBZ,B-VP,O
+not,RB,I-VP,O
+reveal,VB,I-VP,O
+any,DT,B-NP,O
+signs,NNS,I-NP,O
+of,IN,B-PP,O
+a,DT,B-NP,O
+significant,JJ,I-NP,O
+improvement,NN,I-NP,O
+in,IN,B-PP,O
+market,NN,B-NP,O
+conditions,NNS,I-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+Lenzing,NNP,B-NP,B-ORG
+said,VBD,B-VP,O
+in,IN,B-PP,O
+a,DT,B-NP,O
+statement,NN,I-NP,O
+released,VBN,B-VP,O
+ahead,RB,B-ADVP,O
+of,IN,B-PP,O
+its,PRP$,B-NP,O
+earnings,NNS,I-NP,O
+conference,NN,I-NP,O
+.,.,O,O

@@ -1,0 +1,11 @@
+0,1,2,3
+5/8,CD,B-NP,O
+-,:,I-NP,O
+Christine,NNP,I-NP,B-PER
+Magnusson,NNP,I-NP,I-PER
+(,(,O,O
+Sweden,NNP,B-NP,B-LOC
+),),O,O
+beat,VB,B-VP,O
+Ishwari,NNP,B-NP,B-PER
+Boopathy,NNP,I-NP,I-PER

@@ -1,0 +1,16 @@
+0,1,2,3
+And,CC,O,O
+my,PRP$,B-NP,O
+mandate,NN,I-NP,O
+is,VBZ,B-VP,O
+also,RB,B-ADVP,O
+under,IN,B-PP,O
+Chapter,NNP,B-NP,O
+Seven,NNP,I-NP,O
+to,TO,B-VP,O
+operate,VB,I-VP,O
+in,IN,B-PP,O
+eastern,JJ,B-NP,O
+Zaire,NNP,I-NP,B-LOC
+.,.,I-NP,O
+ ,O,O,<UNK>

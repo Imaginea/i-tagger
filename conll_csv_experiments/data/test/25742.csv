@@ -1,0 +1,13 @@
+0,1,2,3
+Trade,NNP,B-NP,O
+was,VBD,B-VP,O
+slow,JJ,B-ADJP,O
+in,IN,B-PP,O
+the,DT,B-NP,O
+Panhandle,NNP,I-NP,B-LOC
+area,NN,I-NP,O
+Friday,NNP,B-NP,O
+",",",",O,O
+USDA,NNP,B-NP,B-ORG
+said,VBD,B-VP,O
+.,.,O,O

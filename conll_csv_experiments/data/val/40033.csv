@@ -1,0 +1,15 @@
+0,1,2,3
+ ,O,O,<UNK>
+I,PRP,B-NP,O
+knew,VBD,B-VP,O
+he,PRP,B-NP,O
+had,VBD,B-VP,O
+problems,NNS,B-NP,O
+with,IN,B-PP,O
+something,NN,B-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+Edberg,NNP,B-NP,B-PER
+said,VBD,B-VP,O
+.,.,O,O
+ ,O,O,<UNK>

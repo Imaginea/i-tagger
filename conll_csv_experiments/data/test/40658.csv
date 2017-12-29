@@ -1,0 +1,5 @@
+0,1,2,3
+1.,CD,B-NP,O
+Austria,NNP,I-NP,B-LOC
+"1,973",CD,I-NP,O
+points,NNS,I-NP,O

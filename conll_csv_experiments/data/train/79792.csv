@@ -1,0 +1,16 @@
+0,1,2,3
+(,(,O,O
+Germany,NNP,B-NP,B-LOC
+),),O,O
+70,CD,B-NP,O
+67,CD,I-NP,O
+65,CD,I-NP,O
+",",",",O,O
+Ronan,NNP,B-NP,B-PER
+Rafferty,NNP,I-NP,I-PER
+64,CD,I-NP,O
+72,CD,I-NP,O
+66,CD,I-NP,O
+",",",",O,O
+Barry,NNP,B-NP,B-PER
+Lane,NNP,I-NP,I-PER

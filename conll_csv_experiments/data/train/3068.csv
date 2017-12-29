@@ -1,0 +1,29 @@
+0,1,2,3
+ ,O,O,<UNK>
+The,DT,B-NP,O
+meeting,NN,I-NP,O
+between,IN,B-PP,O
+Peres,NNP,B-NP,B-PER
+and,CC,I-NP,O
+Arafat,NNP,I-NP,B-PER
+will,MD,B-VP,O
+take,VB,I-VP,O
+place,NN,B-NP,O
+at,IN,B-PP,O
+Erez,NNP,B-NP,B-LOC
+checkpoint,NN,I-NP,O
+in,IN,B-PP,O
+Gaza,NNP,B-NP,B-LOC
+and,CC,O,O
+not,RB,B-PP,O
+in,IN,I-PP,O
+Ramallah,NNP,B-NP,B-LOC
+as,IN,B-PP,O
+planned,VBN,B-NP,O
+",",",",I-NP,O
+ ,O,O,<UNK>
+Peres,NNP,B-NP,B-PER
+',POS,B-NP,O
+office,NN,I-NP,O
+said,VBD,B-VP,O
+.,.,O,O

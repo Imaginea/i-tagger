@@ -1,0 +1,26 @@
+0,1,2,3
+A,DT,B-NP,O
+spokesman,NN,I-NP,O
+for,IN,B-PP,O
+the,DT,B-NP,O
+group,NN,I-NP,O
+said,VBD,B-VP,O
+the,DT,B-NP,O
+meeting,NN,I-NP,O
+ ,O,O,<UNK>
+signals,NNS,B-NP,O
+a,DT,B-NP,O
+new,JJ,I-NP,O
+level,NN,I-NP,O
+of,IN,B-PP,O
+cooperation,NN,B-NP,O
+between,IN,B-PP,O
+Mujahideen,NNP,B-NP,B-ORG
+Khalq,NNP,I-NP,I-ORG
+and,CC,O,O
+the,DT,B-NP,O
+Iranian,NNP,I-NP,B-MISC
+Kurdish,NNP,I-NP,I-MISC
+oppositions,VBZ,B-VP,O
+ ,O,O,<UNK>
+.,.,O,O

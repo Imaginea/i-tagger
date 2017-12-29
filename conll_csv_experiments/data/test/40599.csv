@@ -1,0 +1,8 @@
+0,1,2,3
+12=,CD,B-NP,O
+Katharina,NNP,I-NP,B-PER
+Gutensohn,NNP,I-NP,I-PER
+(,(,O,O
+Germany,NNP,B-NP,B-LOC
+),),O,O
+42,CD,B-NP,O

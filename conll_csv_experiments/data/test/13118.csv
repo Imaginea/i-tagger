@@ -1,0 +1,10 @@
+0,1,2,3
+One,CD,B-NP,O
+Global,NNP,I-NP,O
+Depository,NNP,I-NP,O
+Receipt,NNP,I-NP,O
+represents,VBZ,B-VP,O
+10,CD,B-NP,O
+common,JJ,I-NP,O
+shares,NNS,I-NP,O
+.,.,O,O

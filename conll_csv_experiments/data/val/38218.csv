@@ -1,0 +1,5 @@
+0,1,2,3
+Czech,NNP,B-NP,B-LOC
+Republic,NNP,I-NP,I-LOC
+at,IN,B-PP,O
+Germany,NNP,B-NP,B-LOC

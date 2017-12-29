@@ -1,0 +1,14 @@
+0,1,2,3
+(,(,O,O
+Slask,NNP,B-NP,B-ORG
+Wroclaw,NNP,I-NP,I-ORG
+),),O,O
+",",",",O,O
+Krzysztof,NNP,B-NP,B-PER
+Piskula,NNP,I-NP,I-PER
+(,(,O,O
+Lech,NNP,B-NP,B-ORG
+Poznan,NNP,I-NP,I-ORG
+),),O,O
+",",",",O,O
+Mariusz,NNP,B-NP,B-PER

@@ -1,0 +1,15 @@
+0,1,2,3
+The,DT,B-NP,O
+plant,NN,I-NP,O
+will,MD,B-VP,O
+have,VB,I-VP,O
+annual,JJ,B-NP,O
+production,NN,I-NP,O
+of,IN,B-PP,O
+"400,000",CD,B-NP,O
+tonnes,NNS,I-NP,O
+",",",",O,O
+the,DT,B-NP,O
+newspaper,NN,I-NP,O
+said,VBD,B-VP,O
+.,.,O,O

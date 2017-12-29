@@ -1,0 +1,10 @@
+0,1,2,3
+Rugby,JJ,B-NP,O
+star,NN,I-NP,O
+once,RB,B-ADVP,O
+linked,VBD,B-VP,O
+to,TO,B-PP,O
+Princess,NNP,B-NP,O
+Diana,NNP,I-NP,B-PER
+divorces,VBZ,B-VP,O
+.,.,O,O

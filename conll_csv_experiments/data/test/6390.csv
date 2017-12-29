@@ -1,0 +1,4 @@
+0,1,2,3
+National,NNP,B-NP,B-ORG
+Football,NNP,I-NP,I-ORG
+League,NNP,I-NP,I-ORG

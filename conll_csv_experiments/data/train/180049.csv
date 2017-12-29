@@ -1,0 +1,9 @@
+0,1,2,3
+Stephanie,NNP,B-NP,B-PER
+of,IN,B-PP,O
+Monaco,NNP,B-NP,B-LOC
+'s,POS,B-NP,O
+husband,NN,I-NP,O
+snapped,VBD,B-VP,O
+cavorting,VBG,I-VP,O
+.,.,O,O

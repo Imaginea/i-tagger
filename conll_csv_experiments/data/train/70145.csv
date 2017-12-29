@@ -1,0 +1,11 @@
+0,1,2,3
+1.,CD,B-NP,O
+Charmaine,NNP,I-NP,B-PER
+Crooks,NNP,I-NP,I-PER
+(,(,O,O
+Canada,NNP,B-NP,B-LOC
+),),O,O
+two,CD,B-NP,O
+minutes,NNS,I-NP,O
+00.42,CD,B-NP,O
+seconds,NNS,I-NP,O

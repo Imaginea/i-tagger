@@ -1,0 +1,35 @@
+0,1,2,3
+Jan,NNP,B-NP,B-PER
+Buettner,NNP,I-NP,I-PER
+",",",",O,O
+managing,VBG,B-NP,O
+director,NN,I-NP,O
+of,IN,B-PP,O
+AOL,NNP,B-NP,B-ORG
+Germany,NNP,I-NP,I-ORG
+",",",",O,O
+said,VBD,B-VP,O
+AdOn,NNP,B-NP,B-ORG
+was,VBD,B-VP,O
+in,IN,B-PP,O
+the,DT,B-NP,O
+formation,NN,I-NP,O
+phase,NN,I-NP,O
+and,CC,O,O
+would,MD,B-VP,O
+ ,O,O,<UNK>
+get,VB,B-VP,O
+off,RP,B-PRT,O
+the,DT,B-NP,O
+ground,NN,I-NP,O
+next,JJ,B-NP,O
+year,NN,I-NP,O
+",",",",O,O
+bringing,VBG,B-VP,O
+in,IN,B-PP,O
+advertising,NN,B-NP,O
+from,IN,B-PP,O
+around,IN,B-PP,O
+Europe,NNP,B-NP,B-LOC
+.,.,I-NP,O
+ ,O,O,<UNK>

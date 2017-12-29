@@ -1,0 +1,17 @@
+0,1,2,3
+Czech,NNP,B-NP,B-LOC
+Republic,NNP,I-NP,I-LOC
+President,NNP,I-NP,O
+Vaclav,NNP,I-NP,B-PER
+Havel,NNP,I-NP,I-PER
+is,VBZ,B-VP,O
+scheduled,VBN,I-VP,O
+to,TO,I-VP,O
+make,VB,I-VP,O
+an,DT,B-NP,O
+official,NN,I-NP,O
+visit,NN,I-NP,O
+to,TO,B-PP,O
+Brazil,NNP,B-NP,B-LOC
+Sept,NNP,I-NP,O
+.,.,O,O

@@ -1,0 +1,12 @@
+0,1,2,3
+Eriksson,NNP,B-NP,B-PER
+(,(,O,O
+Sweden,NNP,B-NP,B-LOC
+),),O,O
+71,CD,B-NP,O
+75,CD,I-NP,O
+",",",",O,O
+Paul,NNP,B-NP,B-PER
+Eales,NNPS,I-NP,I-PER
+75,CD,I-NP,O
+71,CD,I-NP,O

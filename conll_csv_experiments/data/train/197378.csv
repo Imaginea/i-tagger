@@ -1,0 +1,11 @@
+0,1,2,3
+Brazil,NNP,B-NP,B-LOC
+gov't,MD,B-VP,O
+set,VB,I-VP,O
+to,TO,I-VP,O
+send,VB,I-VP,O
+1997,CD,B-NP,O
+budget,NN,I-NP,O
+to,TO,B-PP,O
+Congress,NNP,B-NP,B-ORG
+.,.,O,O

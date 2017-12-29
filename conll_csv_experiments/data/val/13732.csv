@@ -1,0 +1,8 @@
+0,1,2,3
+Lebed,JJ,B-ADJP,B-PER
+",",",",O,O
+Chechens,NNP,B-NP,B-MISC
+start,NN,I-NP,O
+peace,NN,I-NP,O
+talks,NNS,I-NP,O
+.,.,O,O

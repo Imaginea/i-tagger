@@ -1,0 +1,15 @@
+0,1,2,3
+PT,PRP,B-NP,B-ORG
+Tambang,NNP,I-NP,I-ORG
+Timah,NNP,I-NP,I-ORG
+closed,VBD,B-VP,O
+at,IN,B-PP,O
+$,$,B-NP,O
+15.575,CD,I-NP,O
+per,IN,B-PP,O
+GDR,NNP,B-NP,O
+in,IN,B-PP,O
+London,NNP,B-NP,B-LOC
+on,IN,B-PP,O
+Friday,NNP,B-NP,O
+.,.,O,O

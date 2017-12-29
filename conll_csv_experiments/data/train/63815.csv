@@ -1,0 +1,19 @@
+0,1,2,3
+Two,CD,B-NP,O
+civilians,NNS,I-NP,O
+were,VBD,B-VP,O
+killed,VBN,I-VP,O
+in,IN,B-PP,O
+the,DT,B-NP,O
+Iraqi,JJ,I-NP,B-MISC
+bombing,NN,I-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+IRNA,NNP,B-NP,B-ORG
+quoted,VBD,B-VP,O
+the,DT,B-NP,O
+radio,NN,I-NP,O
+report,NN,I-NP,O
+as,IN,B-PP,O
+saying,VBG,B-VP,O
+.,.,O,O

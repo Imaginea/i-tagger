@@ -1,0 +1,13 @@
+0,1,2,3
+Essex,NNP,B-NP,B-ORG
+532-8,CD,I-NP,O
+declared,NNS,I-NP,O
+(,(,O,O
+G.,NNP,B-NP,B-PER
+Gooch,NNP,I-NP,I-PER
+111,CD,I-NP,O
+",",",",O,O
+R.,NNP,B-NP,B-PER
+Irani,NNP,I-NP,I-PER
+91,CD,I-NP,O
+",",",",O,O

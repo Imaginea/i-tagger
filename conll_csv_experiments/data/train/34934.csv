@@ -1,0 +1,14 @@
+0,1,2,3
+133,CD,B-NP,O
+Ricky,NNP,I-NP,B-PER
+Willison,NNP,I-NP,I-PER
+69,CD,I-NP,O
+64,CD,I-NP,O
+",",",",O,O
+Stephen,NNP,B-NP,B-PER
+Ames,NNP,I-NP,I-PER
+(,(,O,O
+Trinidad,NNP,B-NP,B-LOC
+and,CC,I-NP,I-LOC
+Tobago,NNP,I-NP,I-LOC
+),),O,O

@@ -1,0 +1,9 @@
+0,1,2,3
+Egypt,NN,B-NP,B-LOC
+to,TO,B-VP,O
+press,VB,I-VP,O
+Britain,NNP,B-NP,B-LOC
+over,IN,B-PP,O
+Islamist,NNP,B-NP,B-MISC
+conference,NN,I-NP,O
+.,.,O,O

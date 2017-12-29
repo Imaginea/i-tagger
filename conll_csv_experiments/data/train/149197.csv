@@ -1,0 +1,8 @@
+0,1,2,3
+3.,NNP,B-NP,O
+Nastja,NNP,I-NP,B-PER
+Rysich,NNP,I-NP,I-PER
+(,(,O,O
+germany,RB,O,B-LOC
+),),O,O
+3.75,CD,B-NP,O

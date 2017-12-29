@@ -1,0 +1,17 @@
+0,1,2,3
+Magna,NNP,B-NP,B-ORG
+'s,POS,B-NP,O
+traditional,JJ,I-NP,O
+strength,NN,I-NP,O
+has,VBZ,B-VP,O
+been,VBN,I-VP,O
+instrument,NN,B-NP,O
+panels,NNS,I-NP,O
+",",",",O,O
+door,NN,B-NP,O
+panels,NNS,I-NP,O
+and,CC,O,O
+other,JJ,B-NP,O
+interior,NN,I-NP,O
+components,NNS,I-NP,O
+.,.,O,O

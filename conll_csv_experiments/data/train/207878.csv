@@ -1,0 +1,9 @@
+0,1,2,3
+B-,NNP,B-NP,O
+reflects,VBZ,B-VP,O
+"55,000",CD,B-NP,O
+tonnes,VBZ,B-VP,O
+changed,VBN,I-VP,O
+from,IN,B-PP,O
+unknown,JJ,B-ADJP,O
+.,.,O,O

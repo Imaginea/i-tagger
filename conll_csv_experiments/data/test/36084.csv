@@ -1,0 +1,7 @@
+0,1,2,3
+Australian,JJ,B-NP,B-MISC
+hitman,NN,I-NP,O
+killed,VBN,B-VP,O
+wrong,JJ,B-NP,O
+victim,NN,I-NP,O
+.,.,O,O

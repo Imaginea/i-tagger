@@ -1,0 +1,15 @@
+0,1,2,3
+In,IN,B-PP,O
+1968,CD,B-NP,O
+",",",",O,O
+IVAC,NNP,B-NP,B-ORG
+introduced,VBD,B-VP,O
+the,DT,B-NP,O
+world,NN,I-NP,O
+'s,POS,B-NP,O
+first,JJ,I-NP,O
+infusion,NN,I-NP,O
+therapy,NN,I-NP,O
+monitoring,NN,I-NP,O
+device,NN,I-NP,O
+.,.,O,O

@@ -1,0 +1,9 @@
+0,1,2,3
+Thursday,NNP,B-NP,O
+600,CD,I-NP,O
+week,NN,I-NP,O
+ago,RB,B-ADVP,O
+holiday,NN,B-NP,O
+year,NN,I-NP,O
+ago,RB,B-ADVP,O
+"14,200",CD,B-NP,O

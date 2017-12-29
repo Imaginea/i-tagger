@@ -1,0 +1,17 @@
+0,1,2,3
+We,PRP,B-NP,O
+had,VBD,B-VP,O
+very,RB,B-ADVP,O
+little,JJ,I-ADVP,O
+food,NN,B-NP,O
+and,CC,O,O
+sometimes,RB,B-VP,O
+went,VBD,I-VP,O
+two,CD,B-NP,O
+or,CC,I-NP,O
+three,CD,I-NP,O
+days,NNS,I-NP,O
+without,IN,B-PP,O
+eating,VBG,B-VP,O
+.,.,O,O
+ ,O,O,<UNK>

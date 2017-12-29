@@ -1,0 +1,9 @@
+0,1,2,3
+Shrewsbury,NNP,B-NP,B-ORG
+v,FW,I-NP,O
+Brentford,NNP,I-NP,B-ORG
+",",",",O,O
+Walsall,NNP,B-NP,B-ORG
+v,FW,I-NP,O
+Wrexham,NNP,I-NP,B-ORG
+.,.,O,O

@@ -1,0 +1,8 @@
+0,1,2,3
+6.,CD,B-NP,O
+Nicoleta,NNP,I-NP,B-PER
+Grasu,NNP,I-NP,I-PER
+(,(,O,O
+Romania,NNP,B-NP,B-LOC
+),),O,O
+61.36,CD,B-NP,O

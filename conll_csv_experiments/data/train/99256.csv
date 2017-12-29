@@ -1,0 +1,14 @@
+0,1,2,3
+Anne-Gaelle,NNP,B-NP,B-PER
+Sidot,NNP,I-NP,I-PER
+(,(,O,O
+France,NNP,B-NP,B-LOC
+),),O,O
+beat,VB,B-VP,O
+Janette,NNP,B-NP,B-PER
+Husarova,NNP,I-NP,I-PER
+(,(,O,O
+Slovakia,NNP,B-NP,B-LOC
+),),O,O
+6-4,CD,B-NP,O
+6-4,CD,I-NP,O

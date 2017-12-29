@@ -1,0 +1,7 @@
+0,1,2,3
+Ferro,NNP,B-NP,B-ORG
+Carril,NNP,I-NP,I-ORG
+Oeste,NNP,I-NP,I-ORG
+0,CD,I-NP,O
+Independiente,NNP,I-NP,B-ORG
+3,CD,I-NP,O

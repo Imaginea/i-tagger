@@ -1,0 +1,12 @@
+0,1,2,3
+Kiev,NNP,B-NP,B-LOC
+'s,POS,B-NP,O
+Foreign,NNP,I-NP,O
+Minister,NNP,I-NP,O
+Hennady,NNP,I-NP,B-PER
+Udovenko,NNP,I-NP,I-PER
+said,VBD,B-VP,O
+Beijing,NNP,B-NP,B-LOC
+was,VBD,B-VP,O
+overreacting,VBG,I-VP,O
+.,.,O,O

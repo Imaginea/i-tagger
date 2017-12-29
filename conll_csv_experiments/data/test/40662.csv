@@ -1,0 +1,4 @@
+0,1,2,3
+2.,NNP,B-NP,O
+Germany,NNP,I-NP,B-LOC
+"1,135",CD,I-NP,O

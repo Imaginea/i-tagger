@@ -1,0 +1,17 @@
+0,1,2,3
+ ,O,O,<UNK>
+When,WRB,B-ADVP,O
+our,PRP$,B-NP,O
+people,NNS,I-NP,O
+are,VBP,B-VP,O
+tried,VBN,I-VP,O
+",",",",O,O
+they,PRP,B-NP,O
+are,VBP,B-VP,O
+tried,VBN,I-VP,O
+in,IN,B-PP,O
+a,DT,B-NP,O
+very,RB,I-NP,O
+secretive,JJ,I-NP,O
+way,NN,I-NP,O
+.,.,O,O

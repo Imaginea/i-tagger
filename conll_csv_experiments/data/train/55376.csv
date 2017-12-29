@@ -1,0 +1,14 @@
+0,1,2,3
+Fourth-placed,JJ,B-NP,O
+Leicestershire,NNP,I-NP,B-ORG
+had,VBD,B-VP,O
+Hampshire,NNP,B-NP,B-ORG
+on,IN,B-PP,O
+the,DT,B-NP,O
+ropes,NNS,I-NP,O
+at,IN,B-PP,O
+Leicester,NNP,B-NP,B-LOC
+before,IN,B-PP,O
+rain,NN,B-NP,O
+intervened,VBD,B-VP,O
+.,.,O,O

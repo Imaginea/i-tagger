@@ -1,0 +1,11 @@
+0,1,2,3
+15.,CD,B-NP,O
+Stadler,NNP,I-NP,B-ORG
+FC,NNP,I-NP,O
+3,CD,I-NP,O
+-,:,I-NP,O
+1,CD,I-NP,O
+2,CD,I-NP,O
+2,CD,I-NP,O
+6,CD,I-NP,O
+1,CD,I-NP,O

@@ -1,0 +1,10 @@
+0,1,2,3
+ ,O,O,<UNK>
+Obviously,RB,B-ADVP,O
+we,PRP,B-NP,O
+are,VBP,B-VP,O
+interested,JJ,B-ADJP,O
+in,IN,B-PP,O
+this,DT,B-NP,O
+research,NN,I-NP,O
+.,.,O,O

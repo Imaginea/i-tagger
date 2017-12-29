@@ -1,0 +1,11 @@
+0,1,2,3
+Port,NNP,B-NP,B-ORG
+Christine,NNP,I-NP,I-ORG
+"36,5",CD,I-NP,O
+3/9,CD,I-NP,O
+Pembroke,NNP,I-NP,B-LOC
+/,SYM,O,O
+US,NNP,B-NP,B-LOC
+W145,NNP,I-NP,O
+Stentex,NNP,I-NP,B-ORG
+.,.,O,O

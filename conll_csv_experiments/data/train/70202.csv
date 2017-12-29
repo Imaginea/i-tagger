@@ -1,0 +1,8 @@
+0,1,2,3
+1.,CD,B-NP,O
+Tom,NNP,I-NP,B-PER
+Pukstys,NNP,I-NP,I-PER
+(,(,O,O
+U.S.,NNP,B-NP,B-LOC
+),),O,O
+86.82,CD,B-NP,O

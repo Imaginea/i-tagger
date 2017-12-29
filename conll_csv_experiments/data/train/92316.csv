@@ -1,0 +1,6 @@
+0,1,2,3
+N.,NNP,B-NP,B-PER
+Williams,NNP,I-NP,I-PER
+5-43,CD,I-NP,O
+),),O,O
+.,.,O,O

@@ -1,0 +1,5 @@
+0,1,2,3
+Sale,NNP,B-NP,O
+Amount,NNP,I-NP,O
+:,:,O,O
+"1,820,000",CD,B-NP,O

@@ -1,0 +1,24 @@
+0,1,2,3
+But,CC,O,O
+for,IN,B-PP,O
+the,DT,B-NP,O
+great,JJ,I-NP,O
+majority,NN,I-NP,O
+of,IN,B-PP,O
+us,PRP,B-NP,O
+",",",",O,O
+Hong,NNP,B-NP,B-LOC
+Kong,NNP,I-NP,I-LOC
+is,VBZ,B-VP,O
+our,PRP$,B-NP,O
+home,NN,I-NP,O
+and,CC,O,O
+Hong,NNP,B-NP,B-LOC
+Kong,NNP,I-NP,I-LOC
+'s,POS,B-NP,O
+future,JJ,I-NP,O
+is,VBZ,B-VP,O
+our,PRP$,B-NP,O
+future,NN,I-NP,O
+.,.,O,O
+ ,O,O,<UNK>

@@ -1,0 +1,9 @@
+0,1,2,3
+BALTIMORE,VB,B-VP,B-ORG
+12,CD,B-NP,O
+Oakland,NNP,I-NP,B-ORG
+11,CD,I-NP,O
+(,(,O,O
+10,CD,B-NP,O
+innings,NN,I-NP,O
+),),O,O

@@ -1,0 +1,8 @@
+0,1,2,3
+4.,CD,B-NP,O
+Jacky,NNP,I-NP,B-PER
+Martens,NNS,I-NP,I-PER
+(,(,O,O
+Belgium,NNP,B-NP,B-LOC
+),),O,O
+Husqvarna,NNP,B-NP,B-ORG

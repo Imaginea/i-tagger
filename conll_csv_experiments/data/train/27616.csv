@@ -1,0 +1,11 @@
+0,1,2,3
+INDONESIAN,NNP,B-NP,B-MISC
+STOCKS,NNS,I-NP,O
+-,:,O,O
+factors,NNS,B-NP,O
+to,TO,B-VP,O
+watch,VB,I-VP,O
+-,:,O,O
+August,NNP,B-NP,O
+22,CD,I-NP,O
+.,.,O,O

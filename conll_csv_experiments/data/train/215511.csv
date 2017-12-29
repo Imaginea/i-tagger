@@ -1,0 +1,16 @@
+0,1,2,3
+Cur,NNP,B-NP,O
+Acc,NNP,I-NP,O
+(,(,O,O
+bln,FW,B-NP,O
+pts,NNS,I-NP,O
+),),O,O
+May,NNP,B-NP,O
+-,:,O,O
+9.5,CD,B-NP,O
+-,:,I-NP,O
+42.0,CD,I-NP,O
+-,:,I-NP,O
+110.4,CD,I-NP,O
+-,:,I-NP,O
+-,:,O,O

@@ -1,0 +1,12 @@
+0,1,2,3
+Neither,DT,B-NP,O
+Lebed,NNP,B-NP,B-PER
+nor,CC,O,O
+Maskhadov,NNP,B-NP,B-PER
+made,VBD,B-VP,O
+any,DT,B-NP,O
+statement,NN,I-NP,O
+before,IN,B-PP,O
+the,DT,B-NP,O
+talks,NNS,I-NP,O
+.,.,O,O

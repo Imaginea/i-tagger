@@ -1,0 +1,9 @@
+0,1,2,3
+Week,NN,B-NP,O
+ago,RB,B-ADVP,O
+(,(,O,O
+est,FW,O,O
+),),O,O
+"130,000",CD,B-NP,O
+"6,000",CD,I-NP,O
+"346,000",CD,I-NP,O

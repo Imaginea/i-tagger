@@ -1,0 +1,14 @@
+0,1,2,3
+*,SYM,O,O
+President,NNP,B-NP,O
+Clinton,NNP,I-NP,B-PER
+proposes,VBZ,B-VP,O
+five-point,JJ,B-NP,O
+plan,NN,I-NP,O
+to,TO,B-VP,O
+clean,VB,I-VP,O
+up,RP,B-PRT,O
+toxic,JJ,B-NP,O
+waste,NN,I-NP,O
+sites,NNS,I-NP,O
+.,.,O,O

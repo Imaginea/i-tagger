@@ -1,0 +1,17 @@
+0,1,2,3
+The,DT,B-NP,O
+statement,NN,I-NP,O
+from,IN,B-PP,O
+Morris,NNP,B-NP,B-PER
+said,VBD,B-VP,O
+that,IN,B-SBAR,O
+he,PRP,B-NP,O
+had,VBD,B-VP,O
+submitted,VBN,I-VP,O
+his,PRP$,B-NP,O
+resignation,NN,I-NP,O
+on,IN,B-PP,O
+Wednesday,NNP,B-NP,O
+night,NN,I-NP,O
+.,.,O,O
+ ,O,O,<UNK>

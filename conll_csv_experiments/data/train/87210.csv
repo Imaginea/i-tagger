@@ -1,0 +1,13 @@
+0,1,2,3
+Zicot,NNP,B-NP,B-PER
+",",",",O,O
+45,CD,B-NP,O
+",",",",O,O
+is,VBZ,B-VP,O
+a,DT,B-NP,O
+specialist,NN,I-NP,O
+in,IN,B-PP,O
+tackling,VBG,B-VP,O
+vehicle,NN,B-NP,O
+theft,NN,I-NP,O
+.,.,O,O

@@ -1,0 +1,17 @@
+0,1,2,3
+The,DT,B-NP,O
+PUK,NNP,I-NP,B-ORG
+statement,NN,I-NP,O
+follows,VBZ,B-VP,O
+KDP,NNP,B-NP,B-ORG
+assertions,NNS,I-NP,O
+that,IN,B-SBAR,O
+the,DT,B-NP,O
+PUK,NNP,I-NP,B-ORG
+is,VBZ,B-VP,O
+receiving,VBG,I-VP,O
+military,JJ,B-NP,O
+support,NN,I-NP,O
+from,IN,B-PP,O
+Iran,NNP,B-NP,B-LOC
+.,.,O,O

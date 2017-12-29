@@ -1,0 +1,13 @@
+0,1,2,3
+Scott,NNP,B-NP,B-PER
+Erickson,NNP,I-NP,I-PER
+(,(,O,O
+8-10,CD,B-NP,O
+),),O,O
+laboured,VBD,B-VP,O
+to,TO,B-PP,O
+his,PRP$,B-NP,O
+third,JJ,I-NP,O
+straight,JJ,I-NP,O
+win,NN,I-NP,O
+.,.,O,O

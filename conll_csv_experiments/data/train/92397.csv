@@ -1,0 +1,10 @@
+0,1,2,3
+Glamorgan,NNP,B-NP,B-ORG
+first,RB,B-ADVP,O
+innings,NN,B-NP,O
+forfeited,JJ,I-NP,O
+and,CC,I-NP,O
+273-5,CD,I-NP,O
+(,(,O,O
+H.,NNP,B-NP,B-PER
+Morris,NNP,I-NP,I-PER

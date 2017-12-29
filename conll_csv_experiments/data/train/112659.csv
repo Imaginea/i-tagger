@@ -1,0 +1,11 @@
+0,1,2,3
+--,:,B-NP,O
+Nicholas,NNP,I-NP,B-PER
+Shaxson,NNP,I-NP,I-PER
+",",",",O,O
+London,NNP,B-NP,B-LOC
+newsroom,NN,I-NP,O
++44,CD,I-NP,O
+171,CD,I-NP,O
+542,CD,I-NP,O
+8167,CD,I-NP,O

@@ -1,0 +1,10 @@
+0,1,2,3
+Cunningham,NNP,B-NP,B-PER
+has,VBZ,B-VP,O
+already,RB,I-VP,O
+been,VBN,I-VP,O
+signed,VBN,I-VP,O
+as,IN,B-PP,O
+a,DT,B-NP,O
+broadcaster,NN,I-NP,O
+.,.,O,O

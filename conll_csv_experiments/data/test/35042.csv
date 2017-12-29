@@ -1,0 +1,8 @@
+0,1,2,3
+Munich,NNP,B-NP,B-ORG
+Re,NNP,I-NP,I-ORG
+says,VBZ,B-VP,O
+to,TO,I-VP,O
+split,VB,I-VP,O
+stock,NN,B-NP,O
+.,.,O,O

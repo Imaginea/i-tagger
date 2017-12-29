@@ -1,0 +1,12 @@
+0,1,2,3
+Slaughter,NNP,B-NP,O
+Steers,NNP,I-NP,O
+-,:,O,O
+Select,NNP,B-NP,O
+and,CC,O,O
+Choice,NNP,B-NP,O
+2-3,CD,I-NP,O
+1150-1200,CD,I-NP,O
+lbs,VBZ,B-VP,O
+67.00,CD,B-NP,O
+.,.,O,O

@@ -1,0 +1,30 @@
+0,1,2,3
+ ,O,O,<UNK>
+It,PRP,B-NP,O
+'s,VBZ,B-VP,O
+sad,JJ,B-NP,O
+someone,NN,I-NP,O
+would,MD,B-VP,O
+have,VB,I-VP,O
+that,DT,B-NP,O
+kind,NN,I-NP,O
+of,IN,B-PP,O
+spite,NN,B-NP,O
+in,IN,B-PP,O
+their,PRP$,B-NP,O
+heart,NN,I-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+said,VBD,B-VP,O
+Rev.,NNP,B-NP,O
+Jerome,NNP,I-NP,B-PER
+Turner,NNP,I-NP,I-PER
+",",",",O,O
+pastor,NN,B-NP,O
+of,IN,B-PP,O
+Mount,NNP,B-NP,B-LOC
+Zion,NNP,I-NP,I-LOC
+Missionary,NNP,I-NP,I-LOC
+Baptist,NNP,I-NP,I-LOC
+Church,NNP,I-NP,I-LOC
+.,.,O,O

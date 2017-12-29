@@ -1,0 +1,17 @@
+0,1,2,3
+Expectations,NNS,B-NP,O
+the,DT,B-NP,O
+storm,NN,I-NP,O
+would,MD,B-VP,O
+turn,VB,I-VP,O
+more,JJR,B-NP,O
+to,TO,B-PP,O
+the,DT,B-NP,O
+north,JJ,I-NP,O
+partly,RB,B-ADVP,O
+eased,VBD,B-VP,O
+concerns,NNS,B-NP,O
+",",",",O,O
+they,PRP,B-NP,O
+said,VBD,B-VP,O
+.,.,O,O

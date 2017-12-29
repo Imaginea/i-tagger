@@ -1,0 +1,16 @@
+0,1,2,3
+3,CD,B-NP,O
+-,:,I-NP,O
+Jacek,NNP,I-NP,B-PER
+Berensztain,NNP,I-NP,I-PER
+(,(,O,O
+GKS,NNP,B-NP,B-ORG
+Belchatow,NNP,I-NP,I-ORG
+),),O,O
+",",",",O,O
+Marek,NNP,B-NP,B-PER
+Citko,NNP,I-NP,I-PER
+(,(,O,O
+Widzew,NNP,B-NP,B-ORG
+),),O,O
+",",",",O,O

@@ -1,0 +1,9 @@
+0,1,2,3
+1.,CD,B-NP,O
+Frankie,NNP,I-NP,B-PER
+Fredericks,NNP,I-NP,I-PER
+(,(,O,O
+Namibia,NNP,B-NP,B-LOC
+),),O,O
+19.97,CD,B-NP,O
+seconds,NNS,I-NP,O

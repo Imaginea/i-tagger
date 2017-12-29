@@ -1,0 +1,10 @@
+0,1,2,3
+Ballanger,JJR,B-NP,B-PER
+beat,VB,B-VP,O
+Neumann,NNP,B-NP,B-PER
+2-0,CD,I-NP,O
+(,(,O,O
+11.959,CD,B-NP,O
+/,SYM,O,O
+12.225,CD,B-NP,O
+),),O,O

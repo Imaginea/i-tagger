@@ -1,0 +1,10 @@
+0,1,2,3
+-,:,O,O
+Caja,NNP,B-NP,B-ORG
+de,NNP,I-NP,I-ORG
+Madrid,NNP,I-NP,I-ORG
+stagnates,VBZ,B-VP,O
+during,IN,B-PP,O
+struggle,NN,B-NP,O
+for,IN,B-PP,O
+presidency,NN,B-NP,O

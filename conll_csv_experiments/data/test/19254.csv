@@ -1,0 +1,30 @@
+0,1,2,3
+ ,O,O,<UNK>
+But,CC,O,O
+if,IN,B-SBAR,O
+it,PRP,B-NP,O
+was,VBD,B-VP,O
+a,DT,B-NP,O
+response,NN,I-NP,O
+to,TO,B-PP,O
+a,DT,B-NP,O
+deputy,NN,I-NP,O
+'s,POS,B-NP,O
+question,NN,I-NP,O
+that,WDT,B-NP,O
+was,VBD,B-VP,O
+essentially,RB,B-ADJP,O
+loaded,VBN,I-ADJP,O
+",",",",O,O
+then,RB,B-ADVP,O
+it,PRP,B-NP,O
+was,VBD,B-VP,O
+the,DT,B-NP,O
+only,JJ,I-NP,O
+answer,NN,I-NP,O
+he,PRP,B-NP,O
+could,MD,B-VP,O
+have,VB,I-VP,O
+given,VBN,I-VP,O
+.,.,O,O
+ ,O,O,<UNK>

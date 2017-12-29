@@ -1,0 +1,17 @@
+0,1,2,3
+The,DT,B-NP,O
+formal,JJ,I-NP,O
+inauguration,NN,I-NP,O
+had,VBD,B-VP,O
+been,VBN,I-VP,O
+due,JJ,B-ADJP,O
+to,TO,B-VP,O
+take,VB,I-VP,O
+place,VB,I-VP,O
+this,DT,B-NP,O
+week,NN,I-NP,O
+but,CC,O,O
+was,VBD,B-VP,O
+put,VBN,I-VP,O
+back,RB,B-ADVP,O
+.,.,O,O

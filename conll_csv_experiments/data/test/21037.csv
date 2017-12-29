@@ -1,0 +1,17 @@
+0,1,2,3
+Sidek,NN,B-NP,B-ORG
+fell,VBD,B-VP,O
+4,CD,B-NP,O
+centavos,NNS,I-NP,O
+(,(,O,O
+1,CD,B-NP,O
+cent,NN,I-NP,O
+),),O,O
+to,TO,B-PP,O
+95,CD,B-NP,O
+centavos,NNS,I-NP,O
+(,(,O,O
+12,CD,B-NP,O
+cents,NNS,I-NP,O
+),),O,O
+.,.,O,O

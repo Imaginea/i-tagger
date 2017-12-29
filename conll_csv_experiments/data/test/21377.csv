@@ -1,0 +1,13 @@
+0,1,2,3
+Our,PRP$,B-NP,O
+statistics,NNS,I-NP,O
+are,VBP,B-VP,O
+the,DT,B-NP,O
+highest,JJS,I-NP,O
+for,IN,B-PP,O
+everything,NN,B-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+Hakme,NNP,B-NP,B-PER
+said,VBD,B-VP,O
+.,.,O,O

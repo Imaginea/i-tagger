@@ -1,0 +1,9 @@
+0,1,2,3
+RUGBY,NNP,B-NP,B-ORG
+UNION,NN,I-NP,I-ORG
+-,:,O,O
+All,DT,B-NP,B-ORG
+Blacks,NNPS,I-NP,I-ORG
+relive,VBP,B-VP,O
+triumph,NN,B-NP,O
+.,.,O,O

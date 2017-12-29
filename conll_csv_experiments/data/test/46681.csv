@@ -1,0 +1,13 @@
+0,1,2,3
+213,CD,B-NP,O
+Sean,NNP,I-NP,B-PER
+Farrell,NNP,I-NP,I-PER
+(,(,O,O
+Zimbabwe,NNP,B-NP,B-LOC
+),),O,O
+77,CD,B-NP,O
+68,CD,I-NP,O
+68,CD,I-NP,O
+",",",",O,O
+Glen,NNP,B-NP,B-PER
+Cayeux,NN,I-NP,I-PER

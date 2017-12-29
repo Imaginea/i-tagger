@@ -1,0 +1,5 @@
+0,1,2,3
+--,:,B-NP,O
+Islamabad,NNP,I-NP,B-LOC
+newsroom,NN,I-NP,O
+9251-274757,CD,B-VP,O

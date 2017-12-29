@@ -1,0 +1,15 @@
+0,1,2,3
+Rice,NNP,B-NP,O
+options,NNS,I-NP,O
+volume,NN,I-NP,O
+was,VBD,B-VP,O
+estimated,VBN,I-VP,O
+at,IN,B-PP,O
+50,CD,B-NP,O
+contracts,NNS,I-NP,O
+",",",",O,O
+down,RB,B-ADVP,O
+from,IN,B-PP,O
+56,CD,B-NP,O
+Friday,NNP,B-NP,O
+.,.,O,O

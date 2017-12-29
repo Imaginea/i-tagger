@@ -1,0 +1,9 @@
+0,1,2,3
+Boatmen,NNP,B-NP,B-ORG
+'s,POS,B-NP,I-ORG
+deal,NN,I-NP,O
+could,MD,B-VP,O
+spark,VB,I-VP,O
+more,JJR,B-NP,O
+mergers,NNS,I-NP,O
+.,.,O,O

@@ -1,0 +1,13 @@
+0,1,2,3
+70,CD,B-NP,O
+Tim,NNP,I-NP,B-PER
+Herron,NNP,I-NP,I-PER
+",",",",O,O
+Duffy,NNP,B-NP,B-PER
+Waldorf,NNP,I-NP,I-PER
+",",",",O,O
+Davis,NNP,B-NP,B-PER
+Love,NNP,I-NP,I-PER
+",",",",O,O
+Anders,NNP,B-NP,B-PER
+Forsbrand,NN,I-NP,I-PER

@@ -1,0 +1,24 @@
+0,1,2,3
+Dole,NNP,B-NP,B-PER
+said,VBD,B-VP,O
+70,CD,B-NP,O
+percent,NN,I-NP,O
+of,IN,B-PP,O
+the,DT,B-NP,O
+cocaine,NN,I-NP,O
+that,WDT,B-NP,O
+entered,VBD,B-VP,O
+the,DT,B-NP,O
+United,NNP,I-NP,B-LOC
+States,NNP,I-NP,I-LOC
+and,CC,O,O
+40,CD,B-NP,O
+percent,NN,I-NP,O
+of,IN,B-PP,O
+the,DT,B-NP,O
+marijuana,NN,I-NP,O
+came,VBD,B-VP,O
+from,IN,B-PP,O
+Mexico,NNP,B-NP,B-LOC
+.,.,I-NP,O
+ ,O,O,<UNK>

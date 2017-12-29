@@ -1,0 +1,20 @@
+0,1,2,3
+Throughout,IN,B-PP,O
+the,DT,B-NP,O
+group,NN,I-NP,O
+",",",",O,O
+higher,JJR,B-NP,O
+paper,NN,I-NP,O
+prices,NNS,I-NP,O
+increased,VBD,B-VP,O
+costs,NNS,B-NP,O
+by,IN,B-PP,O
+over,IN,B-NP,O
+US$,$,I-NP,B-MISC
+300,CD,I-NP,O
+million,CD,I-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+it,PRP,B-NP,O
+said,VBD,B-VP,O
+.,.,O,O

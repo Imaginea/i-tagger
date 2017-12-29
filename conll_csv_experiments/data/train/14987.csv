@@ -1,0 +1,18 @@
+0,1,2,3
+The,DT,B-NP,O
+development,NN,I-NP,O
+of,IN,B-PP,O
+the,DT,B-NP,O
+north,NN,I-NP,O
+will,MD,B-VP,O
+help,VB,I-VP,O
+them,PRP,B-NP,O
+to,TO,B-VP,O
+do,VB,I-VP,O
+just,RB,B-NP,O
+that,DT,I-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+she,PRP,B-NP,O
+said,VBD,B-VP,O
+.,.,O,O

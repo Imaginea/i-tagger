@@ -1,0 +1,15 @@
+0,1,2,3
+Defending,VBG,B-VP,O
+champions,NNS,B-NP,O
+Ajax,NNP,I-NP,B-ORG
+Amsterdam,NNP,I-NP,I-ORG
+were,VBD,B-VP,O
+defeated,VBN,I-VP,O
+2-0,CD,B-NP,O
+loss,NN,I-NP,O
+away,RB,B-ADVP,O
+to,TO,B-PP,O
+Heerenveen,NNP,B-NP,B-ORG
+on,IN,B-PP,O
+Saturday,NNP,B-NP,O
+.,.,O,O

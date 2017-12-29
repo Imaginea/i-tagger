@@ -1,0 +1,11 @@
+0,1,2,3
+.,.,O,O
+Only,RB,B-NP,O
+France,NNP,I-NP,B-LOC
+and,CC,I-NP,O
+Britain,NNP,I-NP,B-LOC
+backed,VBD,B-VP,O
+Fischler,NNP,B-NP,B-PER
+'s,POS,B-NP,O
+proposal,NN,I-NP,O
+.,.,O,O

@@ -1,0 +1,16 @@
+0,1,2,3
+Clinton,NNP,B-NP,B-PER
+is,VBZ,B-VP,O
+leading,VBG,I-VP,O
+Dole,NNP,B-NP,B-PER
+by,IN,B-PP,O
+as,RB,B-NP,O
+much,JJ,I-NP,O
+as,IN,I-NP,O
+15,CD,I-NP,O
+points,NNS,I-NP,O
+according,VBG,B-PP,O
+to,TO,B-PP,O
+some,DT,B-NP,O
+polls,NNS,I-NP,O
+.,.,O,O

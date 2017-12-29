@@ -1,0 +1,8 @@
+0,1,2,3
+3.,NNP,B-NP,O
+Michelle,NNP,I-NP,B-PER
+Ferris,NNP,I-NP,I-PER
+(,(,O,O
+Australia,NNP,B-NP,B-LOC
+),),O,O
+35.694,CD,B-NP,O

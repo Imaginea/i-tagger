@@ -1,0 +1,12 @@
+0,1,2,3
+1.,CD,B-NP,O
+Yuuchi,NNP,I-NP,B-PER
+Takeda,NNP,I-NP,I-PER
+(,(,O,O
+Japan,NNP,O,B-LOC
+),),O,O
+Honda,NNP,B-NP,B-ORG
+38,CD,I-NP,O
+minutes,NNS,I-NP,O
+30.054,CD,I-NP,O
+seconds,NNS,I-NP,O

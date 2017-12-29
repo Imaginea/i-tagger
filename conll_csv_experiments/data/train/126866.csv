@@ -1,0 +1,6 @@
+0,1,2,3
+2.,CD,B-NP,O
+McEwen,JJ,I-NP,B-PER
+0:04,CD,I-NP,O
+seconds,NNS,I-NP,O
+behind,IN,B-PP,O

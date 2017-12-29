@@ -1,0 +1,15 @@
+0,1,2,3
+Postponed,VBN,B-VP,O
+:,:,O,O
+Albion,NNP,B-NP,B-ORG
+v,NNP,O,O
+Forfar,NNP,B-NP,B-ORG
+",",",",O,O
+Huntly,NNP,B-NP,B-ORG
+v,FW,I-NP,O
+Clyde,NNP,I-NP,B-ORG
+(,(,O,O
+both,DT,B-NP,O
+now,RB,I-NP,O
+play,VB,I-NP,O
+on,IN,B-PP,O

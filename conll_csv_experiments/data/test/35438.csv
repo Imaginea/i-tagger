@@ -1,0 +1,11 @@
+0,1,2,3
+--,:,B-NP,O
+Rosemary,NNP,I-NP,B-PER
+Bennett,NNP,I-NP,I-PER
+",",",",O,O
+London,NNP,B-NP,B-ORG
+Newsroom,NNP,I-NP,I-ORG
+44,CD,I-NP,O
+171,CD,I-NP,O
+542,CD,I-NP,O
+2774,CD,I-NP,O

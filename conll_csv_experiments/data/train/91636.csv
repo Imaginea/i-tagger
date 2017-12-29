@@ -1,0 +1,6 @@
+0,1,2,3
+Result,NN,B-NP,O
+of,IN,B-PP,O
+an,DT,B-NP,O
+English,JJ,I-NP,B-MISC
+premier,NN,I-NP,O

@@ -1,0 +1,12 @@
+0,1,2,3
+Premiership,NNP,B-NP,O
+standings,NNS,I-NP,O
+(,(,O,O
+tabulate,NN,B-NP,O
+under,IN,B-PP,O
+played,JJ,B-NP,O
+",",",",O,O
+won,VBD,B-VP,O
+",",",",B-VP,O
+drawn,VBN,I-VP,O
+",",",",O,O

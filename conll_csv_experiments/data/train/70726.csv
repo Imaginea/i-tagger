@@ -1,0 +1,10 @@
+0,1,2,3
+Frenchman,NNP,B-NP,B-MISC
+Jean,NNP,I-NP,B-PER
+Alesi,NNP,I-NP,I-PER
+came,VBD,B-VP,O
+fourth,JJ,B-NP,O
+in,IN,B-PP,O
+his,PRP$,B-NP,O
+Benetton,NNP,I-NP,B-ORG
+with,IN,B-PP,O

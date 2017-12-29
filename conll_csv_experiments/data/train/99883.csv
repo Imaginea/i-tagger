@@ -1,0 +1,15 @@
+0,1,2,3
+Sarah,NNP,B-NP,B-PER
+Pitkowski,NNP,I-NP,I-PER
+(,(,O,O
+France,NNP,B-NP,B-LOC
+),),O,O
+beat,VB,B-VP,O
+Meghann,NNP,B-NP,B-PER
+Shaughnessy,NNP,I-NP,I-PER
+(,(,O,O
+U.S.,NNP,B-NP,B-LOC
+),),O,O
+6-3,CD,B-NP,O
+6-,JJ,I-NP,O
+3,CD,I-NP,O

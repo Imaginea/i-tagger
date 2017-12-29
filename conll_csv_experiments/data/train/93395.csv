@@ -1,0 +1,13 @@
+0,1,2,3
+Crewe,JJ,B-NP,B-ORG
+v,FW,I-NP,O
+Watford,NNP,I-NP,B-ORG
+",",",",O,O
+Gillingham,NNP,B-NP,B-ORG
+v,FW,I-NP,O
+Chesterfield,NNP,I-NP,B-ORG
+",",",",O,O
+Luton,JJ,B-NP,B-ORG
+v,FW,I-NP,O
+Rotherham,NNP,I-NP,B-ORG
+",",",",O,O

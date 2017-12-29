@@ -1,0 +1,7 @@
+0,1,2,3
+-,:,O,O
+Operating,NN,B-NP,O
+profit,NN,I-NP,O
+46,CD,I-NP,O
+vs,NNP,O,O
+48,CD,O,O

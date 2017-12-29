@@ -1,0 +1,17 @@
+0,1,2,3
+Quarracino,NNS,B-NP,B-PER
+and,CC,O,O
+other,JJ,B-NP,O
+Church,NNP,I-NP,O
+leaders,NNS,I-NP,O
+are,VBP,B-VP,O
+regular,JJ,B-NP,O
+critics,NNS,I-NP,O
+of,IN,B-PP,O
+the,DT,B-NP,O
+government,NN,I-NP,O
+'s,POS,B-NP,O
+free-market,JJ,I-NP,O
+economic,JJ,I-NP,O
+policy,NN,I-NP,O
+.,.,O,O

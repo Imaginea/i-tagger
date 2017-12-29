@@ -1,0 +1,15 @@
+0,1,2,3
+ ,O,O,<UNK>
+Apparently,RB,B-ADVP,O
+",",",",O,O
+we,PRP,B-NP,O
+'re,VBP,B-VP,O
+home,NN,B-NP,O
+free,JJ,B-ADJP,O
+for,IN,B-PP,O
+the,DT,B-NP,O
+rest,NN,I-NP,O
+of,IN,B-PP,O
+the,DT,B-NP,O
+week,NN,I-NP,O
+.,.,O,O

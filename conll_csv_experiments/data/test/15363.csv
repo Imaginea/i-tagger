@@ -1,0 +1,12 @@
+0,1,2,3
+Lula,NN,B-NP,B-MISC
+I,PRP,B-NP,I-MISC
+85,CD,I-NP,O
+25/12,CD,I-NP,O
+Sidi,NNP,I-NP,B-LOC
+Kreir,NN,I-NP,I-LOC
+/,SYM,O,O
+Augusta,NNP,B-NP,B-LOC
+W100,NN,I-NP,O
+Exxon,NNP,I-NP,B-ORG
+.,.,O,O

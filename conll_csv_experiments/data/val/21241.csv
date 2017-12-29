@@ -1,0 +1,19 @@
+0,1,2,3
+ ,O,O,<UNK>
+We,PRP,B-NP,O
+have,VBP,B-VP,O
+found,VBN,I-VP,O
+Nicole,NNP,B-NP,B-PER
+on,IN,B-PP,O
+a,DT,B-NP,O
+campsite,NN,I-NP,O
+in,IN,B-PP,O
+Groningen,NNP,B-NP,B-LOC
+thanks,NNS,I-NP,O
+to,TO,B-VP,O
+tipoffs,NNS,B-NP,O
+from,IN,B-PP,O
+the,DT,B-NP,O
+Dutch,JJ,I-NP,B-MISC
+public,NN,I-NP,O
+.,.,O,O

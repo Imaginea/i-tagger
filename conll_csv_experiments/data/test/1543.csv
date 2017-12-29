@@ -1,0 +1,8 @@
+0,1,2,3
+Inzamamul,JJ,B-NP,B-PER
+Haq,NNP,I-NP,I-PER
+st,NN,I-NP,O
+Germon,NNP,B-NP,B-PER
+b,SYM,O,O
+Astle,NNP,B-NP,B-PER
+2,CD,I-NP,O

@@ -1,0 +1,6 @@
+0,1,2,3
+Radio,NNP,B-NP,B-ORG
+Romania,NNP,I-NP,I-ORG
+news,NN,I-NP,O
+headlines,NNS,I-NP,O
+:,:,O,O

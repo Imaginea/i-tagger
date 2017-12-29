@@ -1,0 +1,8 @@
+0,1,2,3
+U.S.,NNP,B-NP,B-LOC
+surgeon,NN,I-NP,O
+investigated,VBN,B-VP,O
+for,IN,B-PP,O
+discarding,VBG,B-VP,O
+foot,NN,B-NP,O
+.,.,O,O

@@ -1,0 +1,10 @@
+0,1,2,3
+--,:,B-NP,O
+Amra,NN,I-NP,B-PER
+Kevic,NNP,I-NP,I-PER
+",",",",O,O
+Belgrade,NNP,B-NP,B-LOC
+newsroom,NN,I-NP,O
++381,CD,B-NP,O
+11,CD,I-NP,O
+2224305,CD,I-NP,O

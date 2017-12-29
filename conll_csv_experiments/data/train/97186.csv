@@ -1,0 +1,6 @@
+0,1,2,3
+Widad,NNP,B-NP,B-ORG
+Fes,NNPS,I-NP,I-ORG
+3,CD,I-NP,O
+Oujda,NNP,I-NP,B-ORG
+1,CD,I-NP,O

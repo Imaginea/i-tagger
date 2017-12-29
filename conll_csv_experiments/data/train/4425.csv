@@ -1,0 +1,5 @@
+0,1,2,3
+Income,NNP,B-NP,O
+Statement,NNP,I-NP,O
+Data,NNPS,I-NP,O
+:,:,O,O

@@ -1,0 +1,10 @@
+0,1,2,3
+Her,PRP$,B-NP,O
+tour,NN,I-NP,O
+will,MD,B-VP,O
+also,RB,I-VP,O
+include,VB,I-VP,O
+Honduras,NNP,B-NP,B-LOC
+and,CC,I-NP,O
+Guatemala,NNP,I-NP,B-LOC
+.,.,O,O

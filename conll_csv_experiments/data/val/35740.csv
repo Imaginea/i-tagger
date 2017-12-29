@@ -1,0 +1,14 @@
+0,1,2,3
+Radnicki,NNP,B-NP,B-ORG
+(,(,O,I-ORG
+N,NNP,B-NP,I-ORG
+),),O,I-ORG
+-,:,O,O
+Spartak,NNP,B-NP,B-ORG
+(,(,O,O
+to,TO,B-VP,O
+be,VB,I-VP,O
+played,VBN,I-VP,O
+on,IN,B-PP,O
+Sunday,NNP,B-NP,O
+),),O,O

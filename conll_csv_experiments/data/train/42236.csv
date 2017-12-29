@@ -1,0 +1,14 @@
+0,1,2,3
+The,DT,B-NP,O
+Andean,JJ,I-NP,B-MISC
+nation,NN,I-NP,O
+'s,POS,B-NP,O
+population,NN,I-NP,O
+of,IN,B-PP,O
+11.4,CD,B-NP,O
+million,CD,I-NP,O
+is,VBZ,B-VP,O
+47,CD,B-NP,O
+percent,NN,I-NP,O
+indigenous,NNS,I-NP,O
+.,.,O,O

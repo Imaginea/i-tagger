@@ -1,0 +1,16 @@
+0,1,2,3
+(,(,O,O
+Spain,NNP,B-NP,B-LOC
+),),O,O
+67,CD,B-NP,O
+67,CD,I-NP,O
+69,CD,I-NP,O
+",",",",O,O
+Jonathan,NNP,B-NP,B-PER
+Lomas,NNP,I-NP,I-PER
+67,CD,I-NP,O
+67,CD,I-NP,O
+69,CD,I-NP,O
+",",",",O,O
+Paul,NNP,B-NP,B-PER
+Eales,NNPS,I-NP,I-PER

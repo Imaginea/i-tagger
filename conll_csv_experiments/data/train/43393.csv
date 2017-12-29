@@ -1,0 +1,13 @@
+0,1,2,3
+His,PRP$,B-NP,O
+statement,NN,I-NP,O
+gave,VBD,B-VP,O
+no,DT,B-NP,O
+venue,NN,I-NP,O
+or,CC,O,O
+precise,JJ,B-NP,O
+date,NN,I-NP,O
+for,IN,B-PP,O
+the,DT,B-NP,O
+meeting,NN,I-NP,O
+.,.,O,O

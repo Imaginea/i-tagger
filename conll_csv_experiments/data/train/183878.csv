@@ -1,0 +1,10 @@
+0,1,2,3
+Fire,NN,B-NP,O
+bomb,NN,I-NP,O
+hurled,VBD,B-VP,O
+at,IN,B-PP,O
+U.S.,NNP,B-NP,B-LOC
+consulate,VBP,B-VP,O
+in,IN,B-PP,O
+Indonesia,NNP,B-NP,B-LOC
+.,.,O,O

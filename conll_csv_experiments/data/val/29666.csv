@@ -1,0 +1,10 @@
+0,1,2,3
+6.,CD,B-NP,O
+Vyacheslav,NNP,I-NP,B-PER
+Ekimov,NNP,I-NP,I-PER
+(,(,O,O
+Russia,NNP,B-NP,B-LOC
+),),O,O
+Rabobank,NN,B-NP,B-ORG
+same,JJ,I-NP,O
+time,NN,I-NP,O

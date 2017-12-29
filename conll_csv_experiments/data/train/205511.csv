@@ -1,0 +1,16 @@
+0,1,2,3
+Housecall,DT,B-NP,B-ORG
+said,VBD,B-VP,O
+fourth,JJ,B-NP,O
+quarter,NN,I-NP,O
+earnings,NNS,I-NP,O
+and,CC,I-NP,O
+revenues,NNS,I-NP,O
+were,VBD,B-VP,O
+expected,VBN,I-VP,O
+to,TO,I-VP,O
+fall,VB,I-VP,O
+short,RB,B-ADVP,O
+of,IN,B-PP,O
+expectations,NNS,B-NP,O
+.,.,O,O

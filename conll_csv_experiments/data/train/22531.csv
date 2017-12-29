@@ -1,0 +1,42 @@
+0,1,2,3
+During,IN,B-PP,O
+the,DT,B-NP,O
+three-month,JJ,I-NP,O
+trial,NN,I-NP,O
+",",",",O,O
+the,DT,B-NP,O
+court,NN,I-NP,O
+dealt,VBN,B-VP,O
+mainly,RB,B-ADVP,O
+with,IN,B-PP,O
+issues,NNS,B-NP,O
+of,IN,B-PP,O
+the,DT,B-NP,O
+NSDAP-AO,NNP,I-NP,B-ORG
+'s,POS,I-NP,O
+ ,O,O,<UNK>
+NS,NNP,B-NP,B-ORG
+Kampfruf,NNP,I-NP,I-ORG
+ ,O,O,<UNK>
+(,(,O,O
+ ,O,O,<UNK>
+National,NNP,B-NP,B-ORG
+Socialist,NNP,I-NP,I-ORG
+Battle,NNP,I-NP,I-ORG
+Cry,NNP,I-NP,I-ORG
+ ,O,O,<UNK>
+),),O,O
+magazine,NN,B-NP,O
+",",",",O,O
+filled,VBN,B-VP,O
+with,IN,B-PP,O
+references,NNS,B-NP,O
+to,TO,B-PP,O
+Aryan,JJ,B-NP,B-MISC
+supremacy,NN,I-NP,O
+and,CC,O,O
+defamatory,JJ,B-NP,O
+statements,NNS,I-NP,O
+about,IN,B-PP,O
+Jews,NNPS,B-NP,B-MISC
+.,.,O,O

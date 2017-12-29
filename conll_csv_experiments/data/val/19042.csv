@@ -1,0 +1,34 @@
+0,1,2,3
+ ,O,O,<UNK>
+NationsBank,NN,B-NP,B-ORG
+just,RB,B-ADVP,O
+strolled,VBD,B-VP,O
+into,IN,B-PP,O
+the,DT,B-NP,O
+Midwest,NNP,I-NP,B-LOC
+and,CC,O,O
+bagged,VBD,B-VP,O
+the,DT,B-NP,O
+biggest,JJS,I-NP,O
+banking,NN,I-NP,O
+trophy,NN,I-NP,O
+in,IN,B-PP,O
+the,DT,B-NP,O
+landscape,NN,I-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+said,VBD,B-VP,O
+Michael,NNP,B-NP,B-PER
+Ancell,NNP,I-NP,I-PER
+",",",",I-NP,O
+banking,NN,I-NP,O
+industry,NN,I-NP,O
+analyst,NN,I-NP,O
+at,IN,B-PP,O
+Edward,NNP,B-NP,B-ORG
+D.,NNP,I-NP,I-ORG
+Jones,NNP,I-NP,I-ORG
+&,CC,I-NP,I-ORG
+Co,NNP,I-NP,I-ORG
+.,.,I-NP,O
+ ,O,O,<UNK>

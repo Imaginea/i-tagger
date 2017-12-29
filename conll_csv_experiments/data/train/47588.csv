@@ -1,0 +1,25 @@
+0,1,2,3
+ ,O,O,<UNK>
+It,PRP,B-NP,O
+did,VBD,B-VP,O
+n't,RB,I-VP,O
+do,VB,I-VP,O
+as,RB,B-ADVP,O
+well,RB,I-ADVP,O
+as,IN,B-SBAR,O
+it,PRP,B-NP,O
+could,MD,B-VP,O
+have,VB,I-VP,O
+",",",",O,O
+ ,O,O,<UNK>
+said,VBD,B-VP,O
+Rob,NNP,B-NP,B-PER
+Enderle,NNP,I-NP,I-PER
+",",",",O,O
+an,DT,B-NP,O
+analyst,NN,I-NP,O
+with,IN,B-PP,O
+Giga,NNP,B-NP,B-ORG
+Information,NNP,I-NP,I-ORG
+Group,NNP,I-NP,I-ORG
+.,.,O,O

@@ -1,0 +1,6 @@
+0,1,2,3
+Indore,VB,B-VP,B-LOC
+25,CD,B-NP,O
+Yellow,NNP,I-NP,O
+"12,750-12,950",CD,I-NP,O
+"12,900-13,100",CD,I-NP,O

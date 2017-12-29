@@ -1,0 +1,32 @@
+0,1,2,3
+It,PRP,B-NP,O
+was,VBD,B-VP,O
+apparently,RB,I-VP,O
+neglected,VBN,I-VP,O
+on,IN,B-PP,O
+his,PRP$,B-NP,O
+long,JJ,I-NP,O
+ ,O,O,<UNK>
+whistle-stop,JJ,B-NP,O
+ ,O,O,<UNK>
+train,NN,B-NP,O
+trip,NN,I-NP,O
+to,TO,B-PP,O
+the,DT,B-NP,O
+convention,NN,I-NP,O
+",",",",O,O
+during,IN,B-PP,O
+which,WDT,B-NP,O
+he,PRP,B-NP,O
+revelled,VBD,B-VP,O
+in,IN,B-PP,O
+contact,NN,B-NP,O
+with,IN,B-PP,O
+friendly,JJ,B-NP,O
+crowds,NNS,I-NP,O
+across,IN,B-PP,O
+the,DT,B-NP,O
+country,NN,I-NP,O
+'s,POS,B-NP,O
+heartland,NN,I-NP,O
+.,.,O,O

@@ -1,0 +1,9 @@
+0,1,2,3
+The,DT,B-NP,O
+teams,NNS,I-NP,O
+meet,VB,B-VP,O
+each,DT,B-NP,O
+other,JJ,I-NP,O
+once,RB,B-ADVP,O
+in,IN,B-PP,O
+each,DT,B-NP,O

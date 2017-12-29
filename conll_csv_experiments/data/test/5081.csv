@@ -1,0 +1,13 @@
+0,1,2,3
+Ye,NNP,B-NP,B-PER
+Zhaoying,NNP,I-NP,I-PER
+(,(,O,O
+China,NNP,B-NP,B-LOC
+),),O,O
+beat,VB,B-VP,O
+Meiluawati,NNP,B-NP,B-PER
+(,(,O,O
+Indonesia,NNP,O,B-LOC
+),),O,O
+11-6,CD,B-NP,O
+12-10,JJ,I-NP,O

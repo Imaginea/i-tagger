@@ -1,0 +1,14 @@
+0,1,2,3
+Rita,NNP,B-NP,B-PER
+Grande,NNP,I-NP,I-PER
+(,(,O,O
+Italy,NNP,B-NP,B-LOC
+),),O,O
+beat,VB,B-VP,O
+Tina,NNP,B-NP,B-PER
+Krizan,NNP,I-NP,I-PER
+(,(,O,O
+Slovenia,NNP,B-NP,B-LOC
+),),O,O
+6-2,CD,B-NP,O
+6-0,CD,I-NP,O

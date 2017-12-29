@@ -1,0 +1,7 @@
+0,1,2,3
+ ,O,O,<UNK>
+Paul,NNP,B-NP,B-PER
+accepted,VBD,B-VP,O
+the,DT,B-NP,O
+situation,NN,I-NP,O
+.,.,O,O

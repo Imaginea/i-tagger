@@ -1,0 +1,14 @@
+0,1,2,3
+OSLOBODJENJE,RB,O,B-ORG
+-,:,O,O
+The,DT,B-NP,O
+Bosnian,JJ,I-NP,B-MISC
+federation,NN,I-NP,O
+launches,VBZ,B-VP,O
+a,DT,B-NP,O
+common,JJ,I-NP,O
+payment,NN,I-NP,O
+system,NN,I-NP,O
+on,IN,B-PP,O
+Friday,NNP,B-NP,O
+.,.,O,O

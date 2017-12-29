@@ -1,0 +1,11 @@
+0,1,2,3
+Leading,VBG,B-VP,O
+World,NNP,B-NP,B-MISC
+Cup,NNP,I-NP,I-MISC
+standings,VBZ,B-VP,O
+(,(,O,O
+after,IN,B-PP,O
+three,CD,B-NP,O
+events,NNS,I-NP,O
+),),O,O
+:,:,O,O

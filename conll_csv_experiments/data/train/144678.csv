@@ -1,0 +1,30 @@
+0,1,2,3
+But,CC,O,O
+it,PRP,B-NP,O
+noted,VBD,B-VP,O
+in,IN,B-PP,O
+a,DT,B-NP,O
+brief,JJ,I-NP,O
+statement,NN,I-NP,O
+:,:,O,O
+ ,O,O,<UNK>
+However,RB,B-ADVP,O
+",",",",O,O
+it,PRP,B-NP,O
+is,VBZ,B-VP,O
+too,RB,B-ADVP,O
+early,JJ,I-ADVP,O
+to,TO,B-PP,O
+say,VBP,B-VP,O
+at,IN,B-PP,O
+this,DT,B-NP,O
+stage,NN,I-NP,O
+whether,IN,B-SBAR,O
+or,CC,O,O
+not,RB,B-NP,O
+terms,NNS,I-NP,O
+can,MD,B-VP,O
+be,VB,I-VP,O
+agreed,VBN,I-VP,O
+.,.,O,O
+ ,O,O,<UNK>

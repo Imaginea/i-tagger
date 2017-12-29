@@ -1,0 +1,14 @@
+0,1,2,3
+5,CD,B-NP,O
+-,:,I-NP,O
+Gabriela,NNP,I-NP,B-PER
+Sabatini,NNP,I-NP,I-PER
+(,(,O,O
+Argentina,NNP,B-NP,B-LOC
+),),O,O
+beat,VB,B-VP,O
+Asa,NNP,B-NP,B-PER
+Carlsson,NNP,I-NP,I-PER
+(,(,O,O
+Sweden,NNP,B-NP,B-LOC
+),),O,O

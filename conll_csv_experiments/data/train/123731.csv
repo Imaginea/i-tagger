@@ -1,0 +1,19 @@
+0,1,2,3
+It,PRP,B-NP,O
+gave,VBD,B-VP,O
+me,PRP,B-NP,O
+more,JJR,B-NP,O
+life,NN,I-NP,O
+in,IN,B-PP,O
+all,DT,B-NP,O
+of,IN,B-PP,O
+my,PRP$,B-NP,O
+pitches,NNS,I-NP,O
+",",",",O,O
+so,IN,B-SBAR,O
+the,DT,B-NP,O
+ball,NN,I-NP,O
+moved,VBD,B-VP,O
+more,JJR,B-NP,O
+.,.,O,O
+ ,O,O,<UNK>

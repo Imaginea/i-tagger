@@ -1,0 +1,13 @@
+0,1,2,3
+5.,CD,B-NP,O
+Fabien,NNP,I-NP,B-PER
+Giroix,NNP,I-NP,I-PER
+(,(,O,O
+France,NNP,B-NP,B-LOC
+),),O,O
+/,SYM,O,O
+Jean-Denis,NNP,B-NP,B-PER
+Deletraz,NNP,I-NP,I-PER
+(,(,O,O
+Switzerland,NNP,B-NP,B-LOC
+),),O,O

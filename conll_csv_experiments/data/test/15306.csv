@@ -1,0 +1,10 @@
+0,1,2,3
+Danila,NNP,B-NP,B-MISC
+28.5,CD,I-NP,O
+16/12,CD,I-NP,O
+Caribs,NNP,I-NP,B-LOC
+/,SYM,O,O
+up,RP,B-PRT,O
+W224,NNS,B-NP,O
+Mobil,NNP,I-NP,B-ORG
+.,.,O,O

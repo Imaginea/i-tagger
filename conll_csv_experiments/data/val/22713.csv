@@ -1,0 +1,8 @@
+0,1,2,3
+Israel,NNP,B-NP,B-LOC
+blocks,NNS,I-NP,O
+Palestinian,JJ,I-NP,B-MISC
+pilgrims,NNS,I-NP,O
+',POS,B-NP,O
+progress,NN,I-NP,O
+.,.,O,O

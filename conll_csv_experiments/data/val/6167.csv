@@ -1,0 +1,8 @@
+0,1,2,3
+2.,NNP,B-NP,O
+Michael,NNP,I-NP,B-PER
+Green,NNP,I-NP,I-PER
+(,(,O,O
+Jamaica,NNP,B-NP,B-LOC
+),),O,O
+10.09,CD,B-NP,O

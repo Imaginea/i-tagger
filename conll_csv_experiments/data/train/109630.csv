@@ -1,0 +1,7 @@
+0,1,2,3
+extrusion,NN,B-NP,O
+billet,NN,I-NP,O
+85,CD,B-NP,O
+cents,NNS,I-NP,O
+/,SYM,O,O
+pound,NN,B-NP,O

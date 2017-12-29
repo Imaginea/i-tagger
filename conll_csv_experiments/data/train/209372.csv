@@ -1,0 +1,16 @@
+0,1,2,3
+ ,O,O,<UNK>
+These,DT,B-NP,O
+(,(,I-NP,O
+writings,NNS,I-NP,O
+),),O,O
+are,VBP,B-VP,O
+not,RB,I-VP,O
+only,RB,I-VP,O
+poetic,JJ,B-ADJP,O
+but,CC,O,O
+a,DT,B-NP,O
+linguistic,JJ,I-NP,O
+treasure,NN,I-NP,O
+trove,JJ,B-ADJP,O
+.,.,O,O

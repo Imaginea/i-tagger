@@ -1,0 +1,8 @@
+0,1,2,3
+They,PRP,B-NP,O
+are,VBP,B-VP,O
+fourth,JJ,B-NP,O
+in,IN,B-PP,O
+the,DT,B-NP,O
+table,NN,I-NP,O
+.,.,O,O

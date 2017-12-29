@@ -1,0 +1,16 @@
+0,1,2,3
+Anthony,NNP,B-NP,B-PER
+Hill,NNP,I-NP,I-PER
+(,(,O,O
+Australia,NNP,B-NP,B-LOC
+),),O,O
+beat,VB,B-VP,O
+Mir,NNP,B-NP,B-PER
+Zaman,NNP,I-NP,I-PER
+Gul,NNP,I-NP,I-PER
+(,(,O,O
+Pakistan,NNP,B-NP,B-LOC
+),),O,O
+15-12,CD,B-NP,O
+15-11,CD,I-NP,O
+15-13,CD,I-NP,O

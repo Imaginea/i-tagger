@@ -1,0 +1,13 @@
+0,1,2,3
+The,DT,B-NP,O
+combined,VBN,I-NP,O
+company,NN,I-NP,O
+will,MD,B-VP,O
+have,VB,I-VP,O
+estimated,JJ,B-NP,O
+revenues,NNS,I-NP,O
+of,IN,B-PP,O
+$,$,B-NP,O
+353,CD,I-NP,O
+million,CD,I-NP,O
+.,.,O,O

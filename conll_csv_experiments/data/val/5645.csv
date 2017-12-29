@@ -1,0 +1,8 @@
+0,1,2,3
+4.,CD,B-NP,O
+Geir,NNP,I-NP,B-PER
+Moen,NNP,I-NP,I-PER
+(,(,O,O
+Norway,NNP,B-NP,B-LOC
+),),O,O
+20.41,CD,B-NP,O

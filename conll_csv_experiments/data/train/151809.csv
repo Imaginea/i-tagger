@@ -1,0 +1,6 @@
+0,1,2,3
+I,PRP,B-NP,O
+'m,VBP,B-VP,O
+only,RB,B-NP,O
+34,CD,I-NP,O
+.,.,O,O

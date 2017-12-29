@@ -1,0 +1,8 @@
+0,1,2,3
+Reuters,NNP,B-NP,B-ORG
+historical,JJ,I-NP,O
+calendar,NN,I-NP,O
+-,:,O,O
+September,NNP,B-NP,O
+4,CD,I-NP,O
+.,.,O,O

@@ -1,0 +1,8 @@
+0,1,2,3
+It,PRP,B-NP,O
+uses,VBZ,B-VP,O
+the,DT,B-NP,O
+former,JJ,I-NP,O
+Sudanese,NNP,I-NP,B-MISC
+embassy,NN,I-NP,O
+.,.,O,O

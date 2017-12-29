@@ -1,0 +1,12 @@
+0,1,2,3
+He,PRP,B-NP,O
+is,VBZ,B-VP,O
+appealing,VBG,I-VP,O
+in,IN,B-PP,O
+both,DT,B-NP,O
+cases,NNS,I-NP,O
+to,TO,B-PP,O
+the,DT,B-NP,O
+Supreme,NNP,I-NP,B-ORG
+Court,NNP,I-NP,I-ORG
+.,.,O,O

@@ -1,0 +1,8 @@
+0,1,2,3
+8.,CD,B-NP,O
+Sinead,NNP,I-NP,B-PER
+Delahunty,NNP,I-NP,I-PER
+(,(,O,O
+Ireland,NNP,B-NP,B-LOC
+),),O,O
+4:07.27,CD,B-NP,O

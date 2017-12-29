@@ -1,0 +1,8 @@
+0,1,2,3
+Brush,NNP,B-NP,B-ORG
+Wellman,NNP,I-NP,I-ORG
+comments,NNS,I-NP,O
+on,IN,B-PP,O
+beryllium,NN,B-NP,O
+lawsuits,NNS,I-NP,O
+.,.,O,O

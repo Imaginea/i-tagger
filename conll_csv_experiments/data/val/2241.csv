@@ -1,0 +1,15 @@
+0,1,2,3
+won,VBD,B-VP,O
+",",",",B-VP,O
+drawn,VBN,I-VP,O
+",",",",O,O
+lost,VBD,B-VP,O
+",",",",O,O
+winning,VBG,B-VP,O
+percentage,NN,B-NP,O
+",",",",O,O
+games,NNS,B-NP,O
+behind,IN,B-PP,O
+first,JJ,B-NP,O
+place,NN,I-NP,O
+),),O,O

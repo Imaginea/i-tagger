@@ -1,0 +1,6 @@
+0,1,2,3
+-,:,O,O
+Tegel,NNP,B-NP,B-LOC
+"10,896",NNP,I-NP,O
+up,RB,B-ADVP,O
+3.1,CD,B-NP,O

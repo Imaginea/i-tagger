@@ -1,0 +1,17 @@
+0,1,2,3
+U.S.,NNP,B-NP,B-LOC
+barge,NN,I-NP,O
+rates,NNS,I-NP,O
+were,VBD,B-VP,O
+lightly,RB,I-VP,O
+quoted,VBN,I-VP,O
+Friday,NNP,B-NP,O
+on,IN,B-PP,O
+the,DT,B-NP,O
+St.,NNP,I-NP,B-LOC
+Louis,NNP,I-NP,I-LOC
+Merchants,NNP,I-NP,O
+Exchange,NNP,I-NP,O
+call,NN,I-NP,O
+session,NN,I-NP,O
+.,.,O,O

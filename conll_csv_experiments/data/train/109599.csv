@@ -1,0 +1,7 @@
+0,1,2,3
+U.S.,NNP,B-NP,B-LOC
+Producer,NN,I-NP,O
+list,NN,I-NP,O
+/,SYM,O,O
+transaction,NN,B-NP,O
+prices,NNS,I-NP,O

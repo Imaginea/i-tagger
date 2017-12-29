@@ -1,0 +1,31 @@
+0,1,2,3
+ ,O,O,<UNK>
+We,PRP,B-NP,O
+hope,VBP,B-VP,O
+that,IN,B-SBAR,O
+the,DT,B-NP,O
+analysis,NN,I-NP,O
+of,IN,B-PP,O
+such,JJ,B-NP,O
+substances,NNS,I-NP,O
+and,CC,I-NP,O
+liquids,NNS,I-NP,O
+will,MD,B-VP,O
+reveal,VB,I-VP,O
+some,DT,B-NP,O
+secrets,NNS,I-NP,O
+of,IN,B-PP,O
+the,DT,B-NP,O
+mummification,JJ,I-NP,O
+process,NN,I-NP,O
+and,CC,I-NP,O
+materials,NNS,I-NP,O
+used,VBN,B-VP,O
+in,IN,B-PP,O
+this,DT,B-NP,O
+process,NN,I-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+he,PRP,B-NP,O
+added,VBD,B-VP,O
+.,.,O,O

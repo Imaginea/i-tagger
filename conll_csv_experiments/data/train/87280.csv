@@ -1,0 +1,8 @@
+0,1,2,3
+The,DT,B-NP,O
+other,JJ,I-NP,O
+was,VBD,B-VP,O
+insurer,NN,B-NP,O
+Thierry,NNP,I-NP,B-PER
+Dehaan,NNP,I-NP,I-PER
+.,.,O,O

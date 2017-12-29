@@ -1,0 +1,10 @@
+0,1,2,3
+--,:,O,O
+Aluminum,NN,B-NP,O
+alloy,NN,I-NP,O
+(,(,O,O
+A380,NN,B-NP,O
+grade,NN,I-NP,O
+),),O,O
+",",",",O,O
+Midwest,NNP,B-NP,B-LOC

@@ -1,0 +1,8 @@
+0,1,2,3
+Chad,JJ,B-NP,B-LOC
+government,NN,I-NP,O
+closes,VBZ,B-VP,O
+university,NN,B-NP,O
+after,IN,B-PP,O
+protests,NNS,B-NP,O
+.,.,O,O

@@ -1,0 +1,15 @@
+0,1,2,3
+ ,O,O,<UNK>
+I,PRP,B-NP,O
+feel,VBP,B-VP,O
+that,IN,B-SBAR,O
+we,PRP,B-NP,O
+made,VBD,B-VP,O
+it,PRP,B-NP,O
+a,DT,B-NP,O
+little,JJ,I-NP,O
+easy,JJ,I-NP,O
+for,IN,B-PP,O
+the,DT,B-NP,O
+USTA,NNP,I-NP,B-ORG
+.,.,O,O

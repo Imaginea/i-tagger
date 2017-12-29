@@ -1,0 +1,6 @@
+0,1,2,3
+--,:,O,O
+New,NNP,B-NP,B-ORG
+York,NNP,I-NP,I-ORG
+Commodities,NNP,I-NP,I-ORG
+212-859-1646,CD,I-NP,O

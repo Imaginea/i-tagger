@@ -1,0 +1,7 @@
+0,1,2,3
+First,RB,B-ADVP,O
+round,NN,B-NP,O
+results,NNS,I-NP,O
+in,IN,B-PP,O
+the,DT,B-NP,O
+Hong,NNP,I-NP,B-MISC

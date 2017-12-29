@@ -1,0 +1,11 @@
+0,1,2,3
+I,PRP,B-NP,O
+lost,VBD,B-VP,O
+too,RB,B-NP,O
+many,JJ,I-NP,O
+points,NNS,I-NP,O
+that,IN,B-NP,O
+I,PRP,B-NP,O
+never,RB,B-ADVP,O
+lose,VBP,B-VP,O
+.,.,O,O

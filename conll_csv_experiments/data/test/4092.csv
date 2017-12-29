@@ -1,0 +1,11 @@
+0,1,2,3
+Total,JJ,B-NP,O
+(,(,O,O
+for,IN,B-PP,O
+five,CD,B-NP,O
+wickets,NNS,I-NP,O
+",",",",O,O
+48.4,CD,B-NP,O
+overs,NNS,I-NP,O
+),),O,O
+173,CD,B-NP,O

@@ -1,0 +1,10 @@
+0,1,2,3
+Lokomotiv,NNP,B-NP,B-ORG
+Moscow,NNP,I-NP,I-ORG
+25,CD,I-NP,O
+9,CD,I-NP,O
+9,CD,I-NP,O
+7,CD,I-NP,O
+30,CD,B-NP,O
+24,CD,I-NP,O
+36,CD,I-NP,O

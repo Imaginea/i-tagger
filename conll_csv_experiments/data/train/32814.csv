@@ -1,0 +1,9 @@
+0,1,2,3
+Cincinnati,NNP,B-NP,B-ORG
+3,CD,I-NP,O
+ATLANTA,NNP,I-NP,B-ORG
+2,CD,I-NP,O
+(,(,O,O
+in,IN,B-PP,O
+13,CD,B-NP,O
+),),O,O

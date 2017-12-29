@@ -1,0 +1,7 @@
+0,1,2,3
+--,:,B-NP,O
+Taipei,NNP,I-NP,B-ORG
+Newsroom,NNP,I-NP,I-ORG
+(,(,O,O
+5080815,CD,B-NP,O
+),),O,O

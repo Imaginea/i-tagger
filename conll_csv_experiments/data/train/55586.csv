@@ -1,0 +1,8 @@
+0,1,2,3
+Saeed,NNP,B-NP,B-PER
+Anwar,NNP,I-NP,I-PER
+c,SYM,O,O
+Croft,NNP,B-NP,B-PER
+b,SYM,O,O
+Cork,NN,B-NP,B-PER
+176,CD,I-NP,O

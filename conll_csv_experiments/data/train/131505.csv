@@ -1,0 +1,13 @@
+0,1,2,3
+The,DT,B-NP,O
+final,JJ,I-NP,O
+decision,NN,I-NP,O
+will,MD,B-VP,O
+now,RB,I-VP,O
+be,VB,I-VP,O
+made,VBN,I-VP,O
+by,IN,B-PP,O
+a,DT,B-NP,O
+larger,JJR,I-NP,O
+assembly,NN,I-NP,O
+.,.,O,O

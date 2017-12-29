@@ -1,0 +1,15 @@
+0,1,2,3
+They,PRP,B-NP,O
+took,VBD,B-VP,O
+the,DT,B-NP,O
+tie,NN,I-NP,O
+3-2,JJ,B-ADJP,O
+on,IN,B-PP,O
+aggregate,NN,B-NP,O
+and,CC,O,O
+qualified,VBN,B-NP,O
+for,IN,B-PP,O
+the,DT,B-NP,O
+UEFA,NNP,I-NP,B-MISC
+Cup,NNP,I-NP,I-MISC
+.,.,O,O

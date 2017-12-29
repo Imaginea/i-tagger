@@ -1,0 +1,8 @@
+0,1,2,3
+10=,CD,B-NP,O
+Megan,JJ,I-NP,B-PER
+Gerety,NN,I-NP,I-PER
+(,(,O,O
+U.S.,NNP,B-NP,B-LOC
+),),O,O
+51,CD,B-NP,O

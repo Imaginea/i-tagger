@@ -1,0 +1,10 @@
+0,1,2,3
+Riot,NN,B-NP,O
+police,NN,I-NP,O
+took,VBD,B-VP,O
+10,CD,B-NP,O
+minutes,NNS,I-NP,O
+to,TO,B-VP,O
+restore,VB,I-VP,O
+order,NN,B-NP,O
+.,.,O,O

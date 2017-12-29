@@ -1,0 +1,31 @@
+0,1,2,3
+ ,O,O,<UNK>
+To,TO,B-VP,O
+be,VB,I-VP,O
+in,IN,B-PP,O
+that,DT,B-NP,O
+situation,NN,I-NP,O
+today,NN,B-NP,O
+",",",",O,O
+a,DT,B-NP,O
+couple,NN,I-NP,O
+of,IN,B-PP,O
+times,NNS,B-NP,O
+having,VBG,B-VP,O
+to,TO,I-VP,O
+play,VB,I-VP,O
+well,RB,B-ADVP,O
+",",",",O,O
+get,VB,B-VP,O
+down,RB,B-ADVP,O
+and,CC,O,O
+play,VB,B-VP,O
+point-by-point,JJ,B-ADJP,O
+",",",",O,O
+definitely,RB,B-VP,O
+is,VBZ,I-VP,O
+a,DT,B-NP,O
+good,JJ,I-NP,O
+start,NN,I-NP,O
+.,.,O,O
+ ,O,O,<UNK>

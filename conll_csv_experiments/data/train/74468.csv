@@ -1,0 +1,7 @@
+0,1,2,3
+Wisla,NNP,B-NP,B-ORG
+Krakow,NNP,I-NP,I-ORG
+1,CD,I-NP,O
+Gornik,NNP,I-NP,B-ORG
+Zabrze,NNP,I-NP,I-ORG
+0,CD,I-NP,O

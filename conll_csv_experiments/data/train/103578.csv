@@ -1,0 +1,10 @@
+0,1,2,3
+After,IN,B-PP,O
+truce,NN,B-NP,O
+",",",",O,O
+Lebed,NNP,B-NP,B-PER
+faces,VBZ,B-VP,O
+tougher,JJR,B-ADJP,O
+Chechen,NNP,B-NP,B-MISC
+problem,NN,I-NP,O
+.,.,O,O

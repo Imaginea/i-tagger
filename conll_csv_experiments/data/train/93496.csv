@@ -1,0 +1,13 @@
+0,1,2,3
+Morton,NNP,B-NP,B-ORG
+v,FW,I-NP,O
+Falkir,NNP,I-NP,B-ORG
+",",",",O,O
+Partick,NNP,B-NP,B-ORG
+v,FW,I-NP,O
+St,NNP,I-NP,B-ORG
+Mirren,NNP,I-NP,I-ORG
+",",",",O,O
+St,NNP,B-NP,B-ORG
+Johnstone,NNP,I-NP,I-ORG
+v,SYM,O,O

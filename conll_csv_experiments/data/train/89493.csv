@@ -1,0 +1,7 @@
+0,1,2,3
+Gencor,NNP,B-NP,B-ORG
+swells,VBZ,B-VP,O
+profit,NN,B-NP,O
+despite,IN,B-PP,O
+setbacks,NNS,B-NP,O
+.,.,O,O

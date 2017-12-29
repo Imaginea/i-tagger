@@ -1,0 +1,15 @@
+0,1,2,3
+It,PRP,B-NP,O
+'s,VBZ,B-VP,O
+a,DT,B-NP,O
+pretty,RB,I-NP,O
+quiet,JJ,I-NP,O
+day,NN,I-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+one,CD,B-NP,O
+foreign,JJ,I-NP,O
+bank,NN,I-NP,O
+dealer,NN,I-NP,O
+said,VBD,B-VP,O
+.,.,O,O

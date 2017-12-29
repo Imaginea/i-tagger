@@ -1,0 +1,21 @@
+0,1,2,3
+Granma,NNP,B-NP,B-ORG
+called,VBD,B-VP,O
+ ,O,O,<UNK>
+Sleeping,NN,B-NP,B-MISC
+Bread,NNP,I-NP,I-MISC
+ ,O,O,<UNK>
+Puig,NNP,B-NP,B-PER
+'s,POS,I-NP,O
+ ,O,O,<UNK>
+greatest,JJS,B-NP,O
+gift,NN,I-NP,O
+to,TO,B-PP,O
+the,DT,B-NP,O
+modern,JJ,I-NP,O
+novel,NN,I-NP,O
+in,IN,B-PP,O
+our,PRP$,B-NP,O
+America,NNP,I-NP,B-LOC
+.,.,I-NP,O
+ ,O,O,<UNK>

@@ -1,0 +1,7 @@
+0,1,2,3
+Leipzig,NNP,B-NP,B-LOC
+/,SYM,O,O
+Halle,NNP,B-NP,B-LOC
+"1,806",CD,I-NP,O
+up,RB,B-ADVP,O
+45.6,CD,B-NP,O

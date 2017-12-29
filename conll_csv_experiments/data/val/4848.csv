@@ -1,0 +1,10 @@
+0,1,2,3
+Sometimes,RB,B-ADVP,O
+I,PRP,B-NP,O
+take,VBP,B-VP,O
+more,JJR,B-NP,O
+pride,NN,I-NP,O
+in,IN,B-PP,O
+that,DT,B-NP,O
+.,.,O,O
+ ,O,O,<UNK>

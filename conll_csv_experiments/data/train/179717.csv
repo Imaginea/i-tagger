@@ -1,0 +1,17 @@
+0,1,2,3
+In,IN,B-PP,O
+another,DT,B-NP,O
+scene,NN,I-NP,O
+",",",",O,O
+a,DT,B-NP,O
+young,JJ,I-NP,O
+girl,NN,I-NP,O
+performed,VBD,B-VP,O
+oral,JJ,B-NP,O
+sex,NN,I-NP,O
+with,IN,B-PP,O
+an,DT,B-NP,O
+unidentified,JJ,I-NP,O
+adult,NN,I-NP,O
+man,NN,I-NP,O
+.,.,O,O

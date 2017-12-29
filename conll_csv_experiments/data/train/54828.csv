@@ -1,0 +1,9 @@
+0,1,2,3
++7,NNP,B-NP,O
+Satoshi,NNP,I-NP,B-PER
+Higashi,NNP,I-NP,I-PER
+(,(,O,O
+Japan,NNP,B-NP,B-LOC
+),),O,O
+through,IN,B-PP,O
+16,CD,B-NP,O

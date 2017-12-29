@@ -1,0 +1,9 @@
+0,1,2,3
+142,CD,B-NP,O
+Daniel,NNP,I-NP,B-PER
+Chopra,NNP,I-NP,I-PER
+(,(,O,O
+Sweden,NNP,B-NP,B-LOC
+),),O,O
+74,CD,B-NP,O
+68,CD,I-NP,O

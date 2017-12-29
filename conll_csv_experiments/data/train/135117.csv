@@ -1,0 +1,9 @@
+0,1,2,3
+Hong,NNP,B-NP,B-LOC
+Kong,NNP,I-NP,I-LOC
+nabs,VBZ,B-VP,O
+blind,JJ,B-ADJP,O
+10-year-old,JJ,B-NP,O
+illegal,JJ,I-NP,O
+immigrant,NN,I-NP,O
+.,.,O,O

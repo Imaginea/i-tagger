@@ -1,0 +1,17 @@
+0,1,2,3
+Speaking,VBG,B-VP,O
+strictly,RB,B-ADVP,O
+of,IN,B-PP,O
+dogs,NNS,B-NP,O
+",",",",O,O
+15,CD,B-NP,O
+years,NNS,I-NP,O
+ago,RB,B-ADVP,O
+the,DT,B-NP,O
+macho,NN,I-NP,O
+fad,NN,I-NP,O
+pet,JJ,B-NP,O
+was,VBD,B-VP,O
+a,DT,B-NP,O
+Doberman,NNP,I-NP,B-MISC
+.,.,O,O

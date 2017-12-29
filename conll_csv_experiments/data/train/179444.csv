@@ -1,0 +1,8 @@
+0,1,2,3
+Gun-wielding,JJ,B-NP,O
+motorist,NN,I-NP,O
+snapped,VBN,B-VP,O
+by,IN,B-PP,O
+cool,JJ,B-NP,O
+passenger,NN,I-NP,O
+.,.,O,O

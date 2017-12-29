@@ -1,0 +1,12 @@
+0,1,2,3
+Washington,NN,B-NP,B-LOC
+to,TO,B-VP,O
+curb,VB,I-VP,O
+Tamil,NNP,B-NP,B-MISC
+support,NN,I-NP,O
+in,IN,B-PP,O
+U.S.,NNP,B-NP,B-LOC
+-,:,O,O
+Sri,NNP,B-NP,B-LOC
+Lanka,NNP,I-NP,I-LOC
+.,.,O,O

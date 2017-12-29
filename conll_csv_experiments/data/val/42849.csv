@@ -1,0 +1,4 @@
+0,1,2,3
+Attendence,NN,B-NP,O
+:,:,O,O
+200,CD,B-NP,O

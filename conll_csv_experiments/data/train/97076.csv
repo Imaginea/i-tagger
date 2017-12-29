@@ -1,0 +1,12 @@
+0,1,2,3
+Standings,NNS,B-NP,O
+after,IN,B-SBAR,O
+games,NNS,B-NP,O
+played,VBN,B-VP,O
+on,IN,B-PP,O
+Sunday,NNP,B-NP,O
+(,(,O,O
+tabulate,NN,B-NP,O
+under,IN,B-PP,O
+won,JJ,B-NP,O
+",",",",I-NP,O

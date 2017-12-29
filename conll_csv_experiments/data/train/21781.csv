@@ -1,0 +1,16 @@
+0,1,2,3
+He,PRP,B-NP,O
+offered,VBD,B-VP,O
+no,DT,B-NP,O
+details,NNS,I-NP,O
+about,IN,B-PP,O
+the,DT,B-NP,O
+cause,NN,I-NP,O
+of,IN,B-PP,O
+Smith,NNP,B-NP,B-PER
+'s,POS,B-NP,O
+death,NN,I-NP,O
+or,CC,O,O
+the,DT,B-NP,O
+location,NN,I-NP,O
+.,.,O,O

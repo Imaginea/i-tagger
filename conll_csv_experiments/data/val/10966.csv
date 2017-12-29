@@ -1,0 +1,12 @@
+0,1,2,3
+Keith,NNP,B-NP,B-PER
+O'Neill,NNP,I-NP,I-PER
+of,IN,B-PP,O
+Norwich,NNP,B-NP,B-ORG
+City,NNP,I-NP,I-ORG
+joins,VBZ,B-VP,O
+Niall,NNP,B-NP,B-PER
+Quinn,NNP,I-NP,I-PER
+up,RP,B-PRT,O
+front,NN,B-NP,O
+.,.,O,O

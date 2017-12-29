@@ -1,0 +1,17 @@
+0,1,2,3
+But,CC,O,O
+he,PRP,B-NP,O
+surprised,VBD,B-VP,O
+me,PRP,B-NP,O
+in,IN,B-PP,O
+training,NN,B-NP,O
+over,IN,B-PP,O
+the,DT,B-NP,O
+last,JJ,I-NP,O
+two,CD,I-NP,O
+days,NNS,I-NP,O
+because,IN,B-PP,O
+of,IN,I-PP,O
+his,PRP$,B-NP,O
+involvement,NN,I-NP,O
+.,.,O,O

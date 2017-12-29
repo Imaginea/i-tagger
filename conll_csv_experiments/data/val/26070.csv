@@ -1,0 +1,14 @@
+0,1,2,3
+The,DT,B-NP,O
+conflict,NN,I-NP,O
+",",",",O,O
+which,WDT,B-NP,O
+began,VBD,B-VP,O
+in,IN,B-PP,O
+1988,CD,B-NP,O
+",",",",O,O
+claimed,VBD,B-VP,O
+over,RB,B-NP,O
+"10,000",CD,I-NP,O
+lives,NNS,I-NP,O
+.,.,O,O

@@ -1,0 +1,12 @@
+0,1,2,3
+In,IN,B-PP,O
+a,DT,B-NP,O
+picture,NN,I-NP,O
+required,VBN,B-VP,O
+for,IN,B-PP,O
+his,PRP$,B-NP,O
+military,JJ,I-NP,O
+discharge,NN,I-NP,O
+",",",",O,O
+Pvt,NNP,B-NP,O
+.,.,O,O

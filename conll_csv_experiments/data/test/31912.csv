@@ -1,0 +1,10 @@
+0,1,2,3
+One,CD,B-NP,O
+of,IN,B-PP,O
+the,DT,B-NP,O
+dead,NN,I-NP,O
+was,VBD,B-VP,O
+a,DT,B-NP,O
+civilian,JJ,I-NP,O
+passer-by,NNS,I-NP,O
+.,.,O,O

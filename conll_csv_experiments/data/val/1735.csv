@@ -1,0 +1,8 @@
+0,1,2,3
+This,DT,B-NP,O
+match,NN,I-NP,O
+is,VBZ,B-VP,O
+to,TO,B-VP,O
+prepare,VB,I-VP,O
+me,PRP,B-NP,O
+.,.,O,O

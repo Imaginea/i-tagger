@@ -1,0 +1,28 @@
+0,1,2,3
+Best,JJS,B-NP,O
+known,VBN,B-VP,O
+for,IN,B-PP,O
+his,PRP$,B-NP,O
+films,NNS,I-NP,O
+ ,O,O,<UNK>
+Crossfire,NNP,B-NP,B-MISC
+ ,O,O,<UNK>
+-,:,O,O
+one,CD,B-NP,O
+of,IN,B-PP,O
+Hollywood,NNP,B-NP,B-LOC
+'s,POS,B-NP,O
+first,JJ,I-NP,O
+attempts,NNS,I-NP,O
+to,TO,B-VP,O
+deal,VB,I-VP,O
+with,IN,B-PP,O
+racial,JJ,B-NP,O
+discrimination,NN,I-NP,O
+and,CC,O,O
+ ,O,O,<UNK>
+Farewell,NNP,B-NP,B-MISC
+My,NNP,I-NP,I-MISC
+lovely,JJ,I-NP,I-MISC
+ ,O,O,<UNK>
+.,.,O,O

@@ -1,0 +1,14 @@
+0,1,2,3
+Bonilla,NNP,B-NP,B-PER
+has,VBZ,B-VP,O
+21,CD,B-NP,O
+RBI,NNP,I-NP,B-MISC
+and,CC,O,O
+15,CD,B-NP,O
+runs,NNS,I-NP,O
+in,IN,B-PP,O
+his,PRP$,B-NP,O
+last,JJ,I-NP,O
+20,CD,I-NP,O
+games,NNS,I-NP,O
+.,.,O,O

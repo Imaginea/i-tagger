@@ -1,0 +1,13 @@
+0,1,2,3
+Li,NNP,B-NP,B-PER
+said,VBD,B-VP,O
+Kim,NNP,B-NP,B-PER
+had,VBD,B-VP,O
+been,VBN,I-VP,O
+critically,RB,B-ADVP,O
+ill,JJ,B-NP,O
+with,IN,B-PP,O
+a,DT,B-NP,O
+cerebral,JJ,I-NP,O
+haemorrhage,NN,I-NP,O
+.,.,O,O

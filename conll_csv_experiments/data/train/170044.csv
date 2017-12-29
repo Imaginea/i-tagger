@@ -1,0 +1,9 @@
+0,1,2,3
+Total,JJ,B-NP,O
+dividend,NN,I-NP,O
+(,(,O,O
+cents,NNS,B-NP,O
+),),O,O
+6.0,CD,B-NP,O
+vs,NNP,O,O
+6.0,CD,B-NP,O

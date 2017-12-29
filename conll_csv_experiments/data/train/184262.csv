@@ -1,0 +1,19 @@
+0,1,2,3
+The,DT,B-NP,O
+rights,NNS,I-NP,O
+issue,NN,I-NP,O
+also,RB,B-ADVP,O
+prompted,VBD,B-VP,O
+dilution,NN,B-NP,O
+fears,NNS,I-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+said,VBD,B-VP,O
+a,DT,B-NP,O
+dealing,NN,I-NP,O
+director,NN,I-NP,O
+at,IN,B-PP,O
+a,DT,B-NP,O
+local,JJ,I-NP,O
+brokerage,NN,I-NP,O
+.,.,O,O

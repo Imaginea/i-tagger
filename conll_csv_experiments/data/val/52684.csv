@@ -1,0 +1,13 @@
+0,1,2,3
+They,PRP,B-NP,O
+are,VBP,B-VP,O
+unharmed,JJ,B-ADJP,O
+",",",",O,O
+ ,O,O,<UNK>
+a,DT,B-NP,O
+police,NN,I-NP,O
+official,NN,I-NP,O
+in,IN,B-PP,O
+Liege,NNP,B-NP,B-LOC
+said,VBD,B-VP,O
+.,.,O,O

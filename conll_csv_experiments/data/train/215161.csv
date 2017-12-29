@@ -1,0 +1,21 @@
+0,1,2,3
+But,CC,O,O
+nothing,NN,B-NP,O
+has,VBZ,B-VP,O
+been,VBN,I-VP,O
+decided,VBN,I-VP,O
+as,IN,B-SBAR,O
+they,PRP,B-NP,O
+are,VBP,B-VP,O
+still,RB,I-VP,O
+waiting,VBG,I-VP,O
+for,IN,B-PP,O
+an,DT,B-NP,O
+X-ray,NN,I-NP,O
+machine,NN,I-NP,O
+to,TO,B-VP,O
+determine,VB,I-VP,O
+the,DT,B-NP,O
+problem,NN,I-NP,O
+.,.,O,O
+ ,O,O,<UNK>

@@ -1,0 +1,15 @@
+0,1,2,3
+75,CD,B-NP,O
+Jim,NNP,I-NP,B-PER
+Furyk,NNP,I-NP,I-PER
+",",",",O,O
+Satoshi,NNP,B-NP,B-PER
+Higashi,NNP,I-NP,I-PER
+(,(,O,O
+Japan,NNP,B-NP,B-LOC
+),),O,O
+",",",",O,O
+Willie,NNP,B-NP,B-PER
+Wood,NNP,I-NP,I-PER
+",",",",O,O
+Shigeki,NNP,B-NP,B-PER

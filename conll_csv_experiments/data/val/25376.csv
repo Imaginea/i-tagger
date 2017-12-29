@@ -1,0 +1,13 @@
+0,1,2,3
+A,DT,B-NP,O
+limited,VBN,I-NP,O
+attempt,NN,I-NP,O
+to,TO,B-VP,O
+reinvigorate,VB,I-VP,O
+the,DT,B-NP,O
+contract,NN,I-NP,O
+two,CD,B-NP,O
+years,NNS,I-NP,O
+ago,RB,B-ADVP,O
+failed,VBD,B-VP,O
+.,.,O,O

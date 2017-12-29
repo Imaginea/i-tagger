@@ -1,0 +1,8 @@
+0,1,2,3
+10=,CD,B-NP,O
+Martina,NNP,I-NP,B-PER
+Ertl,NNP,I-NP,I-PER
+(,(,O,O
+Germany,NNP,B-NP,B-LOC
+),),O,O
+1:18.48,CD,B-NP,O

@@ -1,0 +1,9 @@
+0,1,2,3
+USDA,NNP,B-NP,B-ORG
+gross,JJ,I-NP,O
+cutout,JJ,I-NP,O
+hide,NN,I-NP,O
+and,CC,I-NP,O
+offal,NN,I-NP,O
+value,NN,I-NP,O
+.,.,O,O

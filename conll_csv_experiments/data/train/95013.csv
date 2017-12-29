@@ -1,0 +1,11 @@
+0,1,2,3
+FC,NNP,B-NP,B-ORG
+Rimavska,NNP,I-NP,I-ORG
+Sobota,NNP,I-NP,I-ORG
+4,CD,I-NP,O
+2,CD,I-NP,O
+0,CD,I-NP,O
+2,CD,I-NP,O
+4,CD,I-NP,O
+5,CD,I-NP,O
+6,CD,I-NP,O

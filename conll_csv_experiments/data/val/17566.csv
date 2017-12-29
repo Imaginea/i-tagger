@@ -1,0 +1,24 @@
+0,1,2,3
+ ,O,O,<UNK>
+I,PRP,B-NP,O
+think,VBP,B-VP,O
+that,IN,B-SBAR,O
+",",",",O,O
+on,IN,B-PP,O
+balance,NN,B-NP,O
+",",",",O,O
+it,PRP,B-NP,O
+is,VBZ,B-VP,O
+looking,VBG,I-VP,O
+a,DT,B-NP,O
+little,JJ,I-NP,O
+bit,NN,I-NP,O
+on,IN,B-PP,O
+the,DT,B-NP,O
+strong,JJ,I-NP,O
+side,NN,I-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+Lindsey,NNP,B-NP,B-PER
+said,VBD,B-VP,O
+.,.,O,O

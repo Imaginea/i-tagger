@@ -1,0 +1,7 @@
+0,1,2,3
+1.,CD,B-NP,O
+Belim,NNP,I-NP,B-PER
+",",",",O,O
+Weaver,NNP,B-NP,B-PER
+156,CD,I-NP,O
+points,NNS,I-NP,O

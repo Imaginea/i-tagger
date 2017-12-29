@@ -1,0 +1,8 @@
+0,1,2,3
+6.,NNP,B-NP,O
+Michael,NNP,I-NP,B-PER
+Marsh,NNP,I-NP,I-PER
+(,(,O,O
+U.S.,NNP,B-NP,B-LOC
+),),O,O
+20.43,CD,B-NP,O

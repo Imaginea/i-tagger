@@ -1,0 +1,12 @@
+0,1,2,3
+Presidential,NNP,B-NP,O
+",",",",I-NP,O
+parliamentary,JJ,I-NP,O
+and,CC,I-NP,O
+municipal,JJ,I-NP,O
+elections,NNS,I-NP,O
+are,VBP,B-VP,O
+planned,VBN,I-VP,O
+for,IN,B-PP,O
+May,NNP,B-NP,O
+.,.,O,O

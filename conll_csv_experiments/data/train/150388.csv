@@ -1,0 +1,8 @@
+0,1,2,3
+8.,NNP,B-NP,O
+Jose,NNP,I-NP,B-PER
+Moreno,NNP,I-NP,I-PER
+(,(,O,O
+Spain,NNP,B-NP,B-LOC
+),),O,O
+1:05.219,CD,B-NP,O

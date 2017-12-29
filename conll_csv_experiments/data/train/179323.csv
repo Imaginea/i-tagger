@@ -1,0 +1,10 @@
+0,1,2,3
+German,JJ,B-NP,B-MISC
+police,NNS,I-NP,O
+made,VBD,B-VP,O
+Nazi,JJ,B-NP,B-MISC
+gestures,NNS,I-NP,O
+",",",",O,O
+officials,NNS,B-NP,O
+say,VBP,B-VP,O
+.,.,O,O

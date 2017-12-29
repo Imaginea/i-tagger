@@ -1,0 +1,10 @@
+0,1,2,3
+Athletic,NNP,B-NP,B-ORG
+Bilbao,NNP,I-NP,I-ORG
+15,CD,I-NP,O
+7,CD,I-NP,O
+4,CD,I-NP,O
+4,CD,I-NP,O
+28,CD,I-NP,O
+22,CD,I-NP,O
+25,CD,I-NP,O

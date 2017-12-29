@@ -1,0 +1,11 @@
+0,1,2,3
+--,:,O,O
+Artyom,NNP,B-NP,B-PER
+Danielyan,NNP,I-NP,I-PER
+",",",",O,O
+Moscow,NNP,B-NP,B-ORG
+Newsroom,NNP,I-NP,I-ORG
+",",",",O,O
++7095,CD,B-NP,O
+941,CD,I-NP,O
+8520,CD,I-NP,O

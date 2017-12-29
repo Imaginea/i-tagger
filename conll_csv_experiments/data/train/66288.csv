@@ -1,0 +1,8 @@
+0,1,2,3
+Both,DT,B-NP,O
+houses,NNS,I-NP,O
+are,VBP,B-VP,O
+owned,VBN,I-VP,O
+by,IN,B-PP,O
+Dutroux,NNP,B-NP,B-PER
+.,.,O,O

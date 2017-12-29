@@ -1,0 +1,6 @@
+0,1,2,3
+--,:,B-NP,O
+Canberra,NNP,I-NP,B-LOC
+Bureau,NNP,I-NP,O
+61-6,CD,I-NP,O
+273-2730,CD,I-NP,O

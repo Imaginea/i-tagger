@@ -1,0 +1,7 @@
+0,1,2,3
+Demand,NN,B-NP,O
+and,CC,I-NP,O
+seller,NN,I-NP,O
+interest,NN,I-NP,O
+light,NN,I-NP,O
+.,.,O,O

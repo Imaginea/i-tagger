@@ -1,0 +1,6 @@
+0,1,2,3
+Summaries,NNS,B-NP,O
+of,IN,B-PP,O
+French,JJ,B-NP,B-MISC
+first,JJ,I-NP,O
+division,NN,I-NP,O

@@ -1,0 +1,16 @@
+0,1,2,3
+and,CC,O,O
+we,PRP,B-NP,O
+will,MD,B-VP,O
+deal,VB,I-VP,O
+with,IN,B-PP,O
+such,JJ,B-NP,O
+designs,NNS,I-NP,O
+sternly,RB,B-ADVP,O
+",",",",O,O
+ ,O,O,<UNK>
+the,DT,B-NP,O
+prime,JJ,I-NP,O
+minister,NN,I-NP,O
+said,VBD,B-VP,O
+.,.,O,O

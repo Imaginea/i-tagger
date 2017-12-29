@@ -1,0 +1,24 @@
+0,1,2,3
+Washington,NNP,B-NP,B-LOC
+would,MD,B-VP,O
+also,RB,I-VP,O
+take,VB,I-VP,O
+ ,O,O,<UNK>
+prompt,VB,B-VP,O
+and,CC,I-VP,O
+effective,JJ,B-ADJP,O
+law,NN,B-NP,O
+enforcement,NN,I-NP,O
+action,NN,I-NP,O
+ ,O,O,<UNK>
+against,IN,B-PP,O
+alien,JJ,B-NP,O
+smuggling,NN,I-NP,O
+and,CC,O,O
+hijackings,JJ,B-ADJP,O
+from,IN,B-PP,O
+Cuba,NNP,B-NP,B-LOC
+",",",",O,O
+it,PRP,B-NP,O
+added,VBD,B-VP,O
+.,.,O,O

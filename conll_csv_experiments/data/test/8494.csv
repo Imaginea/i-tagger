@@ -1,0 +1,5 @@
+0,1,2,3
+5-1,CD,B-NP,O
+Draw,NNP,I-NP,O
+Real,NNP,I-NP,B-ORG
+Madrid,NNP,I-NP,I-ORG

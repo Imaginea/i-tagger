@@ -1,0 +1,5 @@
+0,1,2,3
+Ijaz,NNP,B-NP,B-PER
+Ahmad,NNP,I-NP,I-PER
+0.1-0-0-0,NNS,I-NP,O
+.,.,O,O

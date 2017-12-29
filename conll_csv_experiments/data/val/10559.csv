@@ -1,0 +1,11 @@
+0,1,2,3
+DNIB,NNP,B-NP,B-ORG
+also,RB,B-ADVP,O
+set,VBN,B-VP,O
+a,DT,B-NP,O
+110,CD,I-NP,O
+million,CD,I-NP,O
+guilder,NN,I-NP,O
+step-up,JJ,I-NP,O
+bond,NN,I-NP,O
+.,.,O,O

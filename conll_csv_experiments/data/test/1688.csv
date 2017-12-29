@@ -1,0 +1,9 @@
+0,1,2,3
+C.,NNP,B-NP,B-PER
+Spearman,NNP,I-NP,I-PER
+c,SYM,O,O
+Moin,NNP,B-NP,B-PER
+Khan,NNP,I-NP,I-PER
+b,SYM,O,O
+Wasim,NNP,B-NP,B-PER
+0,CD,I-NP,O

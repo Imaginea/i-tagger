@@ -1,0 +1,10 @@
+0,1,2,3
+U.S.,NNP,B-NP,B-LOC
+wheat,NN,I-NP,O
+weekly,JJ,I-NP,O
+export,NN,I-NP,O
+sales,NNS,I-NP,O
+highlights,VBZ,B-VP,O
+-,:,O,O
+USDA,NNP,B-NP,B-ORG
+.,.,O,O

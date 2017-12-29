@@ -1,0 +1,9 @@
+0,1,2,3
+Lucy,NNP,B-NP,B-PER
+Tyler-Sharman,NNP,I-NP,I-PER
+(,(,O,O
+Australia,NNP,B-NP,B-LOC
+),),O,O
+3:35.087,CD,B-NP,O
+beat,NN,I-NP,O
+Svetlana,NNP,I-NP,B-PER

@@ -1,0 +1,9 @@
+0,1,2,3
+Burmese,NN,B-NP,B-MISC
+students,NNS,I-NP,O
+march,VBP,B-VP,O
+briefly,NN,B-ADVP,O
+out,RP,B-PRT,O
+of,IN,B-PP,O
+campus,NN,B-NP,O
+.,.,O,O

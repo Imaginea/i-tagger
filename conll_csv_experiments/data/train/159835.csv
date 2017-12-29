@@ -1,0 +1,22 @@
+0,1,2,3
+ ,O,O,<UNK>
+Most,JJS,B-NP,O
+of,IN,B-PP,O
+the,DT,B-NP,O
+Olympic,JJ,I-NP,B-MISC
+champions,NNS,I-NP,O
+of,IN,B-PP,O
+the,DT,B-NP,O
+past,NN,I-NP,O
+are,VBP,B-VP,O
+coming,VBG,I-VP,O
+including,VBG,B-PP,O
+Britain,NNP,B-NP,B-LOC
+'s,POS,I-NP,O
+(,(,O,O
+1980,CD,B-NP,O
+champion,NN,I-NP,O
+),),O,O
+Allan,NNP,B-NP,B-PER
+Wells,NNP,I-NP,I-PER
+.,.,O,O

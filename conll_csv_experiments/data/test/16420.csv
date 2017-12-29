@@ -1,0 +1,9 @@
+0,1,2,3
+Russ,NNP,B-NP,B-ORG
+Berrie,NNP,I-NP,I-ORG
+president,NN,I-NP,O
+to,TO,B-VP,O
+retire,VB,I-VP,O
+in,IN,B-PP,O
+July,NNP,B-NP,O
+.,.,O,O

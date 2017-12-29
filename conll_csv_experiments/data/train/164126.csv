@@ -1,0 +1,8 @@
+0,1,2,3
+No,DT,B-NP,O
+further,JJ,I-NP,O
+details,NNS,I-NP,O
+were,VBD,B-VP,O
+immediately,RB,B-ADJP,O
+available,JJ,I-ADJP,O
+.,.,O,O

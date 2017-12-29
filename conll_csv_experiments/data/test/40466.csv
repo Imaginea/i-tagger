@@ -1,0 +1,8 @@
+0,1,2,3
+18.,CD,B-NP,O
+Barbara,NNP,I-NP,B-PER
+Merlin,NNP,I-NP,I-PER
+(,(,O,O
+Italy,NNP,B-NP,B-LOC
+),),O,O
+92,CD,B-NP,O

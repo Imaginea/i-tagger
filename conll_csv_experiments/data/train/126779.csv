@@ -1,0 +1,8 @@
+0,1,2,3
+3.,NNP,B-NP,O
+Jans,NNPS,I-NP,B-PER
+Koerts,NNP,I-NP,I-PER
+(,(,I-NP,O
+Netherlands,NNP,I-NP,B-LOC
+),),O,O
+Palmans,NNS,B-NP,B-ORG

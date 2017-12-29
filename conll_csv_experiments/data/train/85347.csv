@@ -1,0 +1,15 @@
+0,1,2,3
+Saudi,NNP,B-NP,B-LOC
+Arabia,NNP,I-NP,I-LOC
+beheads,VBZ,B-VP,O
+convicted,VBN,I-VP,O
+drug,NN,B-NP,O
+smugglers,NNS,I-NP,O
+",",",",O,O
+rapists,NNS,B-NP,O
+",",",",O,O
+murderers,NNS,B-NP,O
+and,CC,O,O
+other,JJ,B-NP,O
+criminals,NNS,I-NP,O
+.,.,O,O

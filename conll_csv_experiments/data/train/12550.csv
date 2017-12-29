@@ -1,0 +1,14 @@
+0,1,2,3
+Thomas,NNP,B-NP,B-PER
+Bjorn,NNP,I-NP,I-PER
+(,(,O,O
+Denmark,NNP,B-NP,B-LOC
+),),O,O
+",",",",O,O
+Fernando,NNP,B-NP,B-PER
+Roca,NNP,I-NP,I-PER
+(,(,O,O
+Spain,NNP,B-NP,B-LOC
+),),O,O
+",",",",O,O
+Derrick,NNP,B-NP,B-PER

@@ -1,0 +1,5 @@
+0,1,2,3
+Reg,VBG,B-VP,O
+date,NN,B-NP,O
+Nov,NNP,B-NP,O
+11,CD,I-NP,O

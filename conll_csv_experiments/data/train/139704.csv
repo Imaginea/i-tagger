@@ -1,0 +1,18 @@
+0,1,2,3
+Street,NNP,B-NP,O
+children,NNS,I-NP,O
+",",",",O,O
+some,DT,B-NP,O
+of,IN,B-PP,O
+them,PRP,B-NP,O
+born,VBN,B-VP,O
+to,TO,B-PP,O
+prostitutes,NNS,B-NP,O
+",",",",O,O
+held,VBN,B-VP,O
+prayers,NNS,B-NP,O
+on,IN,B-PP,O
+the,DT,B-NP,O
+street,NN,I-NP,O
+.,.,O,O
+ ,O,O,<UNK>

@@ -1,0 +1,11 @@
+0,1,2,3
+Freezing,NN,B-NP,O
+occurs,VBZ,B-VP,O
+at,IN,B-PP,O
+0,CD,B-NP,O
+Celsius,NNP,I-NP,B-MISC
+(,(,O,O
+32.0,CD,B-NP,O
+F,NN,I-NP,B-MISC
+),),O,O
+.,.,O,O

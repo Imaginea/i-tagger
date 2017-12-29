@@ -1,0 +1,8 @@
+0,1,2,3
+Saskatchewan,NNP,B-NP,B-ORG
+Wheat,NNP,I-NP,I-ORG
+Pool,NNP,I-NP,I-ORG
+eyes,NNS,I-NP,O
+hog,NNS,I-NP,O
+market,NN,I-NP,O
+.,.,O,O

@@ -1,0 +1,14 @@
+0,1,2,3
+(,(,O,O
+Korneev,NNP,B-NP,B-PER
+15th,JJ,I-NP,O
+",",",",I-NP,O
+Hansma,NNP,I-NP,B-PER
+24th,CD,I-NP,O
+",",",",O,O
+Wouden,NNP,B-NP,B-PER
+70th,CD,I-NP,O
+",",",",I-NP,O
+90th,CD,I-NP,O
+),),O,O
+.,.,O,O

@@ -1,0 +1,9 @@
+0,1,2,3
+2:30.67,CD,B-NP,O
+Christine,NNP,I-NP,B-PER
+Wachtel,NNP,I-NP,I-PER
+(,(,O,O
+Germany,NNP,O,B-LOC
+),),O,O
+Berlin,NNP,B-NP,B-LOC
+17.8.90,CD,B-NP,O

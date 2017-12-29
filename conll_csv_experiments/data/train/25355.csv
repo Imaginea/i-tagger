@@ -1,0 +1,9 @@
+0,1,2,3
+They,PRP,B-NP,O
+need,VBP,B-VP,O
+our,PRP$,B-NP,O
+love,NN,I-NP,O
+and,CC,I-NP,O
+compassion,NN,I-NP,O
+.,.,O,O
+ ,O,O,<UNK>

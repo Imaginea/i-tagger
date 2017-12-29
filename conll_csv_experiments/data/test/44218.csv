@@ -1,0 +1,17 @@
+0,1,2,3
+Arsenal,JJ,B-NP,B-ORG
+2,CD,I-NP,O
+(,(,O,O
+Adams,NNP,B-NP,B-PER
+45,CD,I-NP,O
+",",",",O,O
+Vieira,NNP,B-NP,B-PER
+90,CD,I-NP,O
+),),O,O
+Derby,NNP,B-NP,B-ORG
+2,CD,I-NP,O
+(,(,O,O
+Sturridge,NNP,B-NP,B-PER
+62,CD,I-NP,O
+",",",",O,O
+Powell,NNP,B-NP,B-PER

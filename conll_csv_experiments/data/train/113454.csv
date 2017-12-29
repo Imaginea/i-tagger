@@ -1,0 +1,5 @@
+0,1,2,3
+CALL,JJ,B-NP,O
+:,:,O,O
+Non-Callable,NNP,B-NP,O
+NIC,NNP,I-NP,O

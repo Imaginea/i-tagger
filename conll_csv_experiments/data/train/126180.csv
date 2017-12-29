@@ -1,0 +1,16 @@
+0,1,2,3
+Finland,NN,B-NP,B-LOC
+-,:,O,O
+Ville,NNP,B-NP,B-PER
+Peltonen,NNP,I-NP,I-PER
+(,(,O,O
+10th,JJ,B-NP,O
+minute,NN,I-NP,O
+),),O,O
+",",",",O,O
+Juha,NNP,B-NP,B-PER
+Ylonen,NNP,I-NP,I-PER
+(,(,O,O
+10th,JJ,B-NP,O
+),),O,O
+",",",",O,O

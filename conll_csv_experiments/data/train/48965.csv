@@ -1,0 +1,6 @@
+0,1,2,3
+LITTLE,NNP,B-NP,B-LOC
+ROCK,NNP,I-NP,I-LOC
+",",",",O,O
+Ark,NNP,B-NP,B-LOC
+.,.,O,O

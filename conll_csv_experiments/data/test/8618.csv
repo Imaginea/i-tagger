@@ -1,0 +1,6 @@
+0,1,2,3
+40-1,JJ,B-NP,O
+Rafael,NNP,I-NP,B-PER
+Alkorta,NNP,B-NP,I-PER
+33-1,NNP,I-NP,O
+Albert,NNP,I-NP,B-PER

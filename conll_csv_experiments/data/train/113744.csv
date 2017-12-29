@@ -1,0 +1,15 @@
+0,1,2,3
+The,DT,B-NP,B-ORG
+Washington,NNP,I-NP,I-ORG
+Post,NNP,I-NP,I-ORG
+carried,VBD,B-VP,O
+only,JJ,B-NP,O
+local,JJ,I-NP,O
+business,NN,I-NP,O
+stories,NNS,I-NP,O
+on,IN,B-PP,O
+August,NNP,B-NP,O
+26,CD,I-NP,O
+",",",",I-NP,O
+1996,CD,I-NP,O
+.,.,O,O

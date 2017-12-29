@@ -1,0 +1,13 @@
+0,1,2,3
+"50,000",CD,B-NP,O
+Bayer,NNP,B-NP,B-ORG
+Leverkusen,NNP,I-NP,I-ORG
+0,CD,I-NP,O
+Fortuna,NNP,I-NP,B-ORG
+Duesseldorf,NNP,I-NP,I-ORG
+1,CD,I-NP,O
+(,(,O,O
+Seeliger,JJR,B-NP,B-PER
+47th,JJ,I-NP,O
+),),O,O
+.,.,O,O

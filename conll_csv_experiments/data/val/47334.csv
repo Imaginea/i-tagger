@@ -1,0 +1,12 @@
+0,1,2,3
+The,DT,B-NP,O
+stories,NNS,I-NP,O
+have,VBP,B-VP,O
+been,VBN,I-VP,O
+given,VBN,I-VP,O
+to,TO,B-PP,O
+me,PRP,B-NP,O
+by,IN,B-PP,O
+people,NNS,B-NP,O
+.,.,O,O
+ ,O,O,<UNK>

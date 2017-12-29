@@ -1,0 +1,15 @@
+0,1,2,3
+Scorers,NNS,B-NP,O
+:,:,O,O
+Bruce,NNP,B-NP,B-PER
+Dyer,NNP,I-NP,I-PER
+(,(,O,O
+39th,JJ,B-NP,O
+minute,NN,I-NP,O
+),),O,O
+",",",",O,O
+Darren,NNP,B-NP,B-PER
+Eadie,NNP,I-NP,I-PER
+(,(,O,O
+53rd,CD,B-NP,O
+),),O,O

@@ -1,0 +1,11 @@
+0,1,2,3
+It,PRP,B-NP,O
+'s,VBZ,B-VP,O
+not,RB,O,O
+a,DT,B-NP,O
+question,NN,I-NP,O
+we,PRP,B-NP,O
+ask,VBP,B-VP,O
+any,DT,B-NP,O
+more,JJR,I-NP,O
+.,.,O,O

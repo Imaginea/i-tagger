@@ -1,0 +1,8 @@
+0,1,2,3
+--,:,B-NP,O
+Bonn,NNP,I-NP,B-LOC
+newsroom,NN,I-NP,O
+",",",",O,O
++49,CD,B-NP,O
+228,CD,I-NP,O
+2609760,CD,I-NP,O

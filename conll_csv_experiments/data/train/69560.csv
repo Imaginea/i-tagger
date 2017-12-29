@@ -1,0 +1,4 @@
+0,1,2,3
+3.,NNP,B-NP,O
+Seguy,NNP,I-NP,B-PER
+24,CD,I-NP,O

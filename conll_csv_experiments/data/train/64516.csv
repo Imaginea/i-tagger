@@ -1,0 +1,10 @@
+0,1,2,3
+That,DT,B-NP,O
+plan,NN,I-NP,O
+has,VBZ,B-VP,O
+now,RB,I-VP,O
+reached,VBN,I-VP,O
+my,PRP$,B-NP,O
+desk,NN,I-NP,O
+.,.,O,O
+ ,O,O,<UNK>

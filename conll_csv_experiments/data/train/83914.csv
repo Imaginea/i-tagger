@@ -1,0 +1,11 @@
+0,1,2,3
+Russian,JJ,B-NP,B-MISC
+troops,NNS,I-NP,O
+start,VBP,B-VP,O
+pullout,NN,B-NP,O
+",",",",O,O
+but,CC,O,O
+not,RB,O,O
+in,IN,B-PP,O
+Grozny,NNP,B-NP,B-LOC
+.,.,O,O

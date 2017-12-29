@@ -1,0 +1,8 @@
+0,1,2,3
+7.,NNP,B-NP,O
+Frank,NNP,I-NP,B-PER
+Busemann,NNP,I-NP,I-PER
+(,(,O,O
+Germany,NNP,B-NP,B-LOC
+),),O,O
+13.58,CD,B-NP,O

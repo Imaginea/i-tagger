@@ -1,0 +1,15 @@
+0,1,2,3
+ ,O,O,<UNK>
+I,PRP,B-NP,O
+do,VBP,B-VP,O
+not,RB,I-VP,O
+visualise,VB,I-VP,O
+its,PRP$,B-NP,O
+straining,VBG,B-VP,O
+our,PRP$,B-NP,O
+bilateral,JJ,I-NP,O
+relations,NNS,I-NP,O
+with,IN,B-PP,O
+any,DT,B-NP,O
+country,NN,I-NP,O
+.,.,O,O

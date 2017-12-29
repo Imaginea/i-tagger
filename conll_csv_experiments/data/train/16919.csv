@@ -1,0 +1,16 @@
+0,1,2,3
+The,DT,B-NP,O
+West,JJ,I-NP,B-MISC
+African,JJ,I-NP,I-MISC
+state,NN,I-NP,O
+of,IN,B-PP,O
+Guinea,NNP,B-NP,B-LOC
+declared,VBD,B-VP,O
+Thursday,NNP,B-NP,O
+and,CC,I-NP,O
+Friday,NNP,I-NP,O
+days,NNS,I-NP,O
+of,IN,B-PP,O
+national,JJ,B-NP,O
+prayer,NN,I-NP,O
+.,.,O,O

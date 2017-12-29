@@ -1,0 +1,22 @@
+0,1,2,3
+ ,O,O,<UNK>
+The,DT,B-NP,O
+struggle,NN,I-NP,O
+will,MD,B-VP,O
+go,VB,I-VP,O
+on,IN,B-PP,O
+",",",",O,O
+ ,O,O,<UNK>
+the,DT,B-NP,O
+43-year-old,JJ,I-NP,O
+shouted,VBD,B-VP,O
+in,IN,B-PP,O
+German,JJ,B-NP,B-MISC
+before,IN,B-PP,O
+being,VBG,B-VP,O
+escorted,VBD,I-VP,O
+out,RP,B-PRT,O
+by,IN,B-PP,O
+security,NN,B-NP,O
+guards,NNS,I-NP,O
+.,.,O,O

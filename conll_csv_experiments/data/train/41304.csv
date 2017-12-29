@@ -1,0 +1,17 @@
+0,1,2,3
+Up,IN,B-NP,O
+to,TO,I-NP,O
+"200,000",CD,I-NP,O
+Serbs,NNS,I-NP,B-MISC
+fled,VBD,B-VP,O
+to,TO,B-PP,O
+Bosnia,NNP,B-NP,B-LOC
+and,CC,I-NP,O
+Yugoslavia,NNP,I-NP,B-LOC
+",",",",O,O
+leaving,VBG,B-VP,O
+Krajina,NNP,B-NP,B-LOC
+vacant,JJ,B-ADJP,O
+and,CC,I-ADJP,O
+depopulated,JJ,I-ADJP,O
+.,.,O,O

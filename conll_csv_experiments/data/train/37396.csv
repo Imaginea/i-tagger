@@ -1,0 +1,9 @@
+0,1,2,3
+Goalkeepers,NNS,B-NP,O
+-,:,O,O
+Vitor,NNP,B-NP,B-PER
+Baia,NNP,I-NP,I-PER
+",",",",O,O
+Rui,NNP,B-NP,B-PER
+Correia,NNP,I-NP,I-PER
+.,.,O,O

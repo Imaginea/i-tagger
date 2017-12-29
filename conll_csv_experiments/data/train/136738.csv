@@ -1,0 +1,10 @@
+0,1,2,3
+Wenatchee,NNP,B-NP,B-LOC
+WA,NNP,I-NP,B-LOC
+5.15,CD,I-NP,O
+up,RB,B-ADVP,O
+.02,CD,B-NP,O
+---,JJ,I-NP,O
+---,JJ,I-NP,O
+4.7200,CD,I-NP,O
+unc,NNS,I-NP,O

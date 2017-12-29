@@ -1,0 +1,10 @@
+0,1,2,3
+South,JJ,B-NP,B-MISC
+African,JJ,I-NP,I-MISC
+answers,NNS,I-NP,O
+U.S.,NNP,B-NP,B-LOC
+message,NN,I-NP,O
+in,IN,B-PP,O
+a,DT,B-NP,O
+bottle,NN,I-NP,O
+.,.,O,O

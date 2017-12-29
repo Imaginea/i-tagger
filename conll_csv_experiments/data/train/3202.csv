@@ -1,0 +1,13 @@
+0,1,2,3
+ ,O,O,<UNK>
+Our,PRP$,B-NP,O
+ambassador,NN,I-NP,O
+is,VBZ,B-VP,O
+in,IN,B-PP,O
+touch,NN,B-NP,O
+with,IN,B-PP,O
+the,DT,B-NP,O
+UAE,NNP,I-NP,B-LOC
+foreign,JJ,I-NP,O
+ministry,NN,I-NP,O
+.,.,O,O

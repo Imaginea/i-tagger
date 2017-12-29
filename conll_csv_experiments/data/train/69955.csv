@@ -1,0 +1,6 @@
+0,1,2,3
+6.,CD,B-NP,O
+Owen-Jones,NNP,I-NP,B-PER
+",",",",O,O
+Raphanel,NNP,B-NP,B-PER
+82,CD,I-NP,O

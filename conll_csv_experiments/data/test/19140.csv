@@ -1,0 +1,35 @@
+0,1,2,3
+ ,O,O,<UNK>
+Norilsk,NNP,B-NP,B-ORG
+really,RB,B-ADVP,O
+is,VBZ,B-VP,O
+a,DT,B-NP,O
+big,JJ,I-NP,O
+debtor,NN,I-NP,O
+",",",",O,O
+both,DT,B-VP,O
+to,TO,I-VP,O
+the,DT,B-NP,O
+federal,JJ,I-NP,O
+and,CC,I-NP,O
+regional,JJ,I-NP,O
+budgets,NNS,I-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+said,VBD,B-VP,O
+Konstantin,NNP,B-NP,B-PER
+Chernyshev,NNPS,B-NP,I-PER
+",",",",O,O
+equities,NNS,B-NP,O
+analyst,NN,I-NP,O
+at,IN,B-PP,O
+Moscow,NNP,B-NP,B-LOC
+brokerage,NN,I-NP,O
+Rinaco,NNP,B-NP,B-ORG
+Plus,NNP,I-NP,I-ORG
+and,CC,O,O
+a,DT,B-NP,O
+Norilsk,NNP,I-NP,B-ORG
+watcher,NN,I-NP,O
+.,.,O,O
+ ,O,O,<UNK>

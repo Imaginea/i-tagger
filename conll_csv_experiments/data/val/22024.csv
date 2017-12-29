@@ -1,0 +1,12 @@
+0,1,2,3
+--,:,B-NP,O
+Jeffrey,NNP,I-NP,B-PER
+Hodgson,NNP,I-NP,I-PER
+(,(,O,O
+416,CD,B-NP,O
+),),O,O
+941-8105,CD,B-ADVP,O
+",",",",O,O
+e-mail,NN,B-NP,O
+:,:,O,O
+jeffrey.hodgson@reuters.com,NN,B-NP,O

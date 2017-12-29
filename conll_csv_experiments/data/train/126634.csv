@@ -1,0 +1,11 @@
+0,1,2,3
+The,DT,B-NP,O
+case,NN,I-NP,O
+is,VBZ,B-VP,O
+closed,JJ,B-ADJP,O
+",",",",O,O
+ ,O,O,<UNK>
+a,DT,B-NP,O
+spokesman,NN,I-NP,O
+said,VBD,B-VP,O
+.,.,O,O

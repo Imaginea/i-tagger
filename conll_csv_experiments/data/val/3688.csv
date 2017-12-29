@@ -1,0 +1,20 @@
+0,1,2,3
+ ,O,O,<UNK>
+You,PRP,B-NP,O
+just,RB,B-ADVP,O
+kind,NN,B-NP,O
+of,IN,B-PP,O
+keep,VB,B-VP,O
+fighting,VBG,I-VP,O
+and,CC,O,O
+you,PRP,B-NP,O
+keep,VBP,B-VP,O
+trying,VBG,I-VP,O
+to,TO,I-VP,O
+make,VB,I-VP,O
+him,PRP,B-NP,O
+play,VBP,B-VP,O
+a,DT,B-NP,O
+little,JJ,I-NP,O
+bit,NN,I-NP,O
+.,.,O,O

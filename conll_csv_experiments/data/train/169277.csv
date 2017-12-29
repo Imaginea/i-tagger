@@ -1,0 +1,16 @@
+0,1,2,3
+They,PRP,B-NP,O
+were,VBD,B-VP,O
+held,VBN,I-VP,O
+for,IN,B-PP,O
+71,CD,B-NP,O
+days,NNS,I-NP,O
+before,IN,B-PP,O
+relatives,NNS,B-NP,O
+paid,VBD,B-VP,O
+a,DT,B-NP,O
+ransom,NN,I-NP,O
+to,TO,B-VP,O
+free,VB,I-VP,O
+them,PRP,B-NP,O
+.,.,O,O

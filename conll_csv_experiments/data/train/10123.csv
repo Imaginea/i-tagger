@@ -1,0 +1,10 @@
+0,1,2,3
+Qualifier,NN,B-NP,O
+vs.,NN,O,O
+10,CD,B-NP,O
+-,:,I-NP,O
+Marcelo,NNP,I-NP,B-PER
+Rios,NNP,I-NP,I-PER
+(,(,O,O
+Chile,NNP,B-NP,B-LOC
+),),O,O

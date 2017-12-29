@@ -1,0 +1,9 @@
+0,1,2,3
+19.,CD,B-NP,O
+Pedro,NNP,B-NP,B-PER
+Lamy,NNP,I-NP,I-PER
+(,(,O,O
+Portugal,NNP,B-NP,B-LOC
+),),O,O
+Minardi,NNP,B-NP,B-ORG
+1:56.830,CD,I-NP,O

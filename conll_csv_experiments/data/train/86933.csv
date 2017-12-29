@@ -1,0 +1,14 @@
+0,1,2,3
+The,DT,B-NP,O
+more,RBR,I-NP,O
+important,JJ,I-NP,O
+question,NN,I-NP,O
+is,VBZ,B-VP,O
+--,:,O,O
+','',O,O
+Do,VBP,O,O
+we,PRP,B-NP,O
+have,VBP,B-VP,O
+results,NNS,B-NP,O
+?,.,O,O
+','',O,O

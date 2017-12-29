@@ -1,0 +1,25 @@
+0,1,2,3
+There,EX,B-NP,O
+are,VBP,B-VP,O
+terrorists,NNS,B-NP,O
+they,PRP,B-NP,O
+are,VBP,B-VP,O
+sheltering,VBG,B-NP,O
+and,CC,I-NP,O
+they,PRP,I-NP,O
+make,VBP,B-VP,O
+Sudanese,NNP,B-NP,B-MISC
+passorts,VBZ,B-VP,O
+for,IN,B-PP,O
+them,PRP,B-NP,O
+and,CC,O,O
+they,PRP,B-NP,O
+get,VBP,B-VP,O
+paid,VBN,I-VP,O
+by,IN,B-PP,O
+them,PRP,B-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+Mubarak,NNP,B-NP,B-PER
+said,VBD,B-VP,O
+.,.,O,O

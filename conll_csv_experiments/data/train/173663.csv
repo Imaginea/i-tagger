@@ -1,0 +1,14 @@
+0,1,2,3
+We,PRP,B-NP,O
+must,MD,B-VP,O
+not,RB,I-VP,O
+send,VB,I-VP,O
+a,DT,B-NP,O
+signal,NN,I-NP,O
+different,JJ,B-ADJP,O
+from,IN,B-PP,O
+the,DT,B-NP,O
+African,JJ,I-NP,B-MISC
+leaders,NNS,I-NP,O
+themselves,PRP,B-NP,O
+.,.,O,O

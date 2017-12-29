@@ -1,0 +1,11 @@
+0,1,2,3
+Lokomotiv,NNP,B-NP,B-ORG
+Nizhny,NNP,I-NP,I-ORG
+Novgorod,NNP,I-NP,I-ORG
+25,CD,I-NP,O
+11,CD,I-NP,O
+4,CD,I-NP,O
+10,CD,I-NP,O
+27,CD,I-NP,O
+35,CD,I-NP,O
+37,CD,I-NP,O

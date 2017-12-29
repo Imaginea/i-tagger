@@ -1,0 +1,6 @@
+0,1,2,3
+Tommy,NNP,B-NP,B-PER
+Thompson,NNP,I-NP,I-PER
+said,VBD,B-VP,O
+Thursday,NNP,B-NP,O
+.,.,O,O

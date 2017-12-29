@@ -1,0 +1,9 @@
+0,1,2,3
+Adelt,NNP,B-NP,B-PER
+did,VBD,B-VP,O
+not,RB,I-VP,O
+give,VB,I-VP,O
+a,DT,B-NP,O
+concrete,JJ,I-NP,O
+forecast,NN,I-NP,O
+.,.,O,O

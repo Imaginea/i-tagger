@@ -1,0 +1,10 @@
+0,1,2,3
+September,NNP,B-NP,O
+went,VBD,B-VP,O
+out,RP,B-ADVP,O
+0.05,CD,B-NP,O
+cent,NN,I-NP,O
+lower,RBR,B-ADVP,O
+at,IN,B-PP,O
+91.05,CD,B-NP,O
+.,.,O,O

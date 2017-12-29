@@ -1,0 +1,10 @@
+0,1,2,3
+championship,NN,B-NP,O
+at,IN,B-PP,O
+Collingtree,NNP,B-NP,B-LOC
+Park,NNP,I-NP,I-LOC
+on,IN,B-PP,O
+Wednesday,NNP,B-NP,O
+(,(,O,O
+Britain,NNP,B-NP,B-LOC
+unless,IN,B-SBAR,O

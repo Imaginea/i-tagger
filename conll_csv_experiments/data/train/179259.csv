@@ -1,0 +1,21 @@
+0,1,2,3
+Chiate,NNP,B-NP,B-PER
+said,VBD,B-VP,O
+he,PRP,B-NP,O
+has,VBZ,B-VP,O
+advised,VBN,I-VP,O
+Names,NNS,B-NP,B-MISC
+that,WDT,B-NP,O
+ ,O,O,<UNK>
+they,PRP,B-NP,O
+must,MD,B-VP,O
+make,VB,I-VP,O
+",",",",O,O
+individually,RB,B-ADVP,O
+",",",",O,O
+a,DT,B-NP,O
+risk,NN,I-NP,O
+benefit,NN,I-NP,O
+analysis,NN,I-NP,O
+.,.,O,O
+ ,O,O,<UNK>

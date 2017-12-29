@@ -1,0 +1,8 @@
+0,1,2,3
+Highlights,NNS,B-NP,O
+of,IN,B-PP,O
+Wednesday,NNP,B-NP,O
+'s,POS,B-NP,O
+Commission,NNP,I-NP,B-ORG
+briefing,NN,I-NP,O
+.,.,O,O

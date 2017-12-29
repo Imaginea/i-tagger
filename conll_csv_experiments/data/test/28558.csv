@@ -1,0 +1,14 @@
+0,1,2,3
+Today,NN,B-NP,O
+",",",",O,O
+Rottweilers,NNP,B-NP,B-MISC
+are,VBP,B-VP,O
+on,IN,B-PP,O
+the,DT,B-NP,O
+way,NN,I-NP,O
+up,RP,B-PRT,O
+",",",",O,O
+ ,O,O,<UNK>
+Rieck,NNP,B-NP,B-PER
+said,VBD,B-VP,O
+.,.,O,O

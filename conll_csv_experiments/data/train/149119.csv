@@ -1,0 +1,9 @@
+0,1,2,3
+1.,CD,B-NP,O
+Osmond,NNP,I-NP,B-PER
+Ezinwa,NNP,I-NP,I-PER
+(,(,O,O
+Nigeria,NNP,B-NP,B-LOC
+),),O,O
+10.13,CD,B-NP,O
+seconds,NNS,I-NP,O

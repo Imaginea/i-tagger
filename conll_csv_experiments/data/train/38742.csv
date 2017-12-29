@@ -1,0 +1,31 @@
+0,1,2,3
+ ,O,O,<UNK>
+The,DT,B-NP,O
+reaction,NN,I-NP,O
+of,IN,B-PP,O
+the,DT,B-NP,O
+regime,NN,I-NP,O
+there,EX,B-NP,O
+is,VBZ,B-VP,O
+such,JJ,B-ADJP,O
+that,IN,B-SBAR,O
+many,JJ,B-NP,O
+of,IN,B-PP,O
+us,PRP,B-NP,O
+feel,VB,B-VP,O
+that,IN,B-SBAR,O
+the,DT,B-NP,O
+mission,NN,I-NP,O
+under,IN,B-PP,O
+the,DT,B-NP,O
+present,JJ,I-NP,O
+circumstances,NNS,I-NP,O
+should,MD,B-VP,O
+n't,RB,I-VP,O
+go,VB,I-VP,O
+ahead,RB,B-ADVP,O
+",",",",O,O
+ ,O,O,<UNK>
+Axworthy,NNP,B-NP,B-PER
+said,VBD,B-VP,O
+.,.,O,O

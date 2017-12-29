@@ -1,0 +1,6 @@
+0,1,2,3
+Gold,NN,B-NP,O
+(,(,O,O
+ounce,NN,B-NP,O
+),),O,O
+..,NNS,B-NP,O

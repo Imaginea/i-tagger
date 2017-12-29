@@ -1,0 +1,9 @@
+0,1,2,3
+(,(,O,O
+Northern,NNP,B-NP,B-LOC
+Ireland,NNP,I-NP,I-LOC
+),),O,O
+0,CD,B-NP,O
+(,(,O,O
+4-0,JJ,B-NP,O
+),),O,O

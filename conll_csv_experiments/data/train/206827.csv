@@ -1,0 +1,11 @@
+0,1,2,3
+Mideast,NNP,B-NP,B-LOC
+Gulf,NNP,I-NP,I-LOC
+oil,NN,I-NP,O
+outlook,NN,I-NP,O
+-,:,O,O
+India,NNP,B-NP,B-LOC
+holds,VBZ,B-VP,O
+the,DT,B-NP,O
+key,NN,I-NP,O
+.,.,O,O

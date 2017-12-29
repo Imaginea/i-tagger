@@ -1,0 +1,25 @@
+0,1,2,3
+ ,O,O,<UNK>
+Digital,NNP,B-NP,O
+is,VBZ,B-VP,O
+coming,VBG,I-VP,O
+",",",",O,O
+it,PRP,B-NP,O
+'s,POS,I-NP,O
+economic,JJ,B-ADJP,O
+and,CC,O,O
+the,DT,B-NP,O
+question,NN,I-NP,O
+is,VBZ,B-VP,O
+what,WP,B-NP,O
+will,MD,B-VP,O
+make,VB,I-VP,O
+the,DT,B-NP,O
+consumer,NN,I-NP,O
+happy,JJ,B-ADJP,O
+and,CC,O,O
+at,IN,B-PP,O
+what,WP,B-NP,O
+price,NN,I-NP,O
+.,.,O,O
+ ,O,O,<UNK>

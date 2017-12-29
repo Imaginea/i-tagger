@@ -1,0 +1,28 @@
+0,1,2,3
+Spanish,NNP,B-NP,B-MISC
+Farm,NNP,I-NP,O
+Minister,NNP,I-NP,O
+Loyola,NNP,I-NP,B-PER
+de,NNP,I-NP,I-PER
+Palacio,NNP,I-NP,I-PER
+had,VBD,B-VP,O
+earlier,RBR,I-VP,O
+accused,VBN,I-VP,O
+Fischler,NNP,B-NP,B-PER
+at,IN,B-PP,O
+an,DT,B-NP,O
+EU,JJ,I-NP,B-ORG
+farm,NN,I-NP,O
+ministers,NNS,I-NP,O
+',POS,B-NP,O
+meeting,NN,I-NP,O
+of,IN,B-PP,O
+causing,VBG,B-VP,O
+unjustified,JJ,B-ADJP,O
+alarm,NN,B-NP,O
+through,IN,B-PP,O
+ ,O,O,<UNK>
+dangerous,JJ,B-NP,O
+generalisation,NN,I-NP,O
+.,.,O,O
+ ,O,O,<UNK>

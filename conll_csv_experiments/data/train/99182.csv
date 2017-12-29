@@ -1,0 +1,27 @@
+0,1,2,3
+ ,O,O,<UNK>
+I,PRP,B-NP,O
+think,VBP,B-VP,O
+he,PRP,B-NP,O
+deserves,VBZ,B-VP,O
+to,TO,I-VP,O
+be,VB,I-VP,O
+seeded,VBN,I-VP,O
+as,IN,B-PP,O
+everybody,NN,B-NP,O
+else,RB,I-NP,O
+who,WP,B-NP,O
+is,VBZ,B-VP,O
+in,IN,B-PP,O
+the,DT,B-NP,O
+top,JJ,I-NP,O
+16,CD,I-NP,O
+deserves,VBZ,B-VP,O
+to,TO,I-VP,O
+be,VB,I-VP,O
+seeded,VBN,I-VP,O
+",",",",O,O
+ ,O,O,<UNK>
+Stich,NNP,B-NP,B-PER
+said,VBD,B-VP,O
+.,.,O,O

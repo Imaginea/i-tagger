@@ -1,0 +1,6 @@
+0,1,2,3
+Penalties,NNS,B-NP,O
+:,:,O,O
+Preston,NNP,B-NP,B-PER
+2,CD,I-NP,O
+.,.,O,O

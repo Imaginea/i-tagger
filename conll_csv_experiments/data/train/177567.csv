@@ -1,0 +1,24 @@
+0,1,2,3
+In,IN,B-PP,O
+his,PRP$,B-NP,O
+speech,NN,I-NP,O
+to,TO,B-PP,O
+the,DT,B-NP,O
+crowded,JJ,I-NP,O
+legislature,NN,I-NP,O
+",",",",O,O
+Arafat,NNP,B-NP,B-PER
+signalled,VBD,B-VP,O
+he,PRP,B-NP,O
+was,VBD,B-VP,O
+not,RB,I-VP,O
+abandoning,VBG,I-VP,O
+diplomacy,NN,B-NP,O
+although,IN,B-SBAR,O
+ ,O,O,<UNK>
+alarm,NN,B-NP,O
+bells,NNS,I-NP,O
+are,VBP,B-VP,O
+ringing,NN,B-NP,O
+ ,O,O,<UNK>
+.,.,O,O

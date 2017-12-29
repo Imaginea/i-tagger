@@ -1,0 +1,15 @@
+0,1,2,3
+Forwards,NNS,B-NP,O
+-,:,O,O
+Ioan,NNP,B-NP,B-PER
+Vladoiu,NNP,I-NP,I-PER
+",",",",O,O
+Gheorghe,NNP,B-NP,B-PER
+Craioveanu,NNP,I-NP,I-PER
+",",",",O,O
+Ionel,NNP,B-NP,B-PER
+Danciulescu,NNP,I-NP,I-PER
+",",",",O,O
+Viorel,NNP,B-NP,B-PER
+Ion,NNP,I-NP,I-PER
+.,.,O,O

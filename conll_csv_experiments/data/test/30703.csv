@@ -1,0 +1,10 @@
+0,1,2,3
+--,:,B-NP,O
+Stephen,NNP,I-NP,B-PER
+Nisbet,NNP,I-NP,I-PER
+",",",",O,O
+International,NNP,B-NP,B-ORG
+Bonds,NNP,I-NP,I-ORG
++44,CD,I-NP,O
+171,CD,I-NP,O
+6320,CD,I-NP,O

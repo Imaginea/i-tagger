@@ -1,0 +1,17 @@
+0,1,2,3
+Her,PRP$,B-NP,O
+health,NN,I-NP,O
+began,VBD,B-VP,O
+to,TO,I-VP,O
+deteriorate,VB,I-VP,O
+in,IN,B-PP,O
+1989,CD,B-NP,O
+when,WRB,B-ADVP,O
+she,PRP,B-NP,O
+was,VBD,B-VP,O
+fitted,VBN,I-VP,O
+with,IN,B-PP,O
+a,DT,B-NP,O
+heart,NN,I-NP,O
+pacemaker,NN,I-NP,O
+.,.,O,O

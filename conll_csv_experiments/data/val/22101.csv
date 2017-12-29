@@ -1,0 +1,11 @@
+0,1,2,3
+(,(,O,O
+All,DT,B-NP,O
+Data,NNP,I-NP,O
+Above,IN,B-PP,O
+000s,NNPS,B-NP,O
+Except,IN,B-PP,O
+Per,IN,B-NP,O
+Share,NN,I-NP,O
+Numbers,NNP,I-NP,O
+),),O,O

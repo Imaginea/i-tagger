@@ -1,0 +1,16 @@
+0,1,2,3
+",",",",O,B-ORG
+Inc.,NNP,B-NP,I-ORG
+",",",",O,O
+said,VBD,B-VP,O
+it,PRP,B-NP,O
+won,VBD,B-VP,O
+$,$,B-NP,O
+1,CD,I-NP,O
+million,CD,I-NP,O
+of,IN,B-PP,O
+Eau,NNP,B-NP,B-ORG
+Claire,NNP,I-NP,I-ORG
+",",",",O,O
+Wisc,NNP,B-NP,B-LOC
+.,.,O,I-LOC

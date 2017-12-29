@@ -1,0 +1,13 @@
+0,1,2,3
+Lauck,NN,B-NP,B-PER
+was,VBD,B-VP,O
+also,RB,I-VP,O
+convicted,VBN,I-VP,O
+of,IN,B-PP,O
+disseminating,VBG,B-VP,O
+the,DT,B-NP,O
+symbols,NNS,I-NP,O
+of,IN,B-PP,O
+anti-constitutional,JJ,B-NP,O
+organisations,NNS,I-NP,O
+.,.,O,O

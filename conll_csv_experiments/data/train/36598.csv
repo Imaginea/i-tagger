@@ -1,0 +1,11 @@
+0,1,2,3
+1.,CD,B-NP,O
+Svetlana,NNP,I-NP,B-PER
+Masterkova,NNP,I-NP,I-PER
+(,(,O,O
+Russia,NNP,B-NP,B-LOC
+),),O,O
+2,CD,B-NP,O
+minutes,NNS,I-NP,O
+28.98,CD,I-NP,O
+seconds,NNS,I-NP,O

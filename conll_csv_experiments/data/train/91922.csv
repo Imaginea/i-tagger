@@ -1,0 +1,13 @@
+0,1,2,3
+bowlers,NNS,B-NP,O
+and,CC,O,O
+the,DT,B-NP,O
+second,JJ,I-NP,O
+Pakistani,NNP,I-NP,B-MISC
+",",",",O,O
+after,IN,B-SBAR,O
+Imran,NNP,B-NP,B-PER
+Khan,NNP,I-NP,I-PER
+",",",",O,O
+to,TO,B-VP,O
+achieve,VB,I-VP,O

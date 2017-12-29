@@ -1,0 +1,12 @@
+0,1,2,3
+Patrick,NNP,B-NP,B-PER
+Rafter,NNP,I-NP,I-PER
+(,(,O,O
+Australia,NNP,B-NP,B-LOC
+),),O,O
+vs.,IN,B-PP,O
+Kenneth,NNP,B-NP,B-PER
+Carlsen,NNP,I-NP,I-PER
+(,(,O,O
+Denmark,NNP,B-NP,B-LOC
+),),O,O

@@ -1,0 +1,11 @@
+0,1,2,3
+San,NNP,B-NP,B-ORG
+Diego,NNP,I-NP,I-ORG
+3,CD,I-NP,O
+NEW,NN,I-NP,B-ORG
+YORK,NNP,B-NP,I-ORG
+2,CD,I-NP,O
+(,(,O,O
+10,CD,B-NP,O
+innings,NN,I-NP,O
+),),O,O

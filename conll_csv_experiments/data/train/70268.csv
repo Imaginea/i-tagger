@@ -1,0 +1,8 @@
+0,1,2,3
+2.,NNP,B-NP,O
+Doug,NNP,I-NP,B-PER
+Turner,NNP,I-NP,I-PER
+(,(,O,O
+Britain,NNP,B-NP,B-LOC
+),),O,O
+20.48,CD,B-NP,O

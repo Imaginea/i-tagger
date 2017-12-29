@@ -1,0 +1,11 @@
+0,1,2,3
+2.,NNP,B-NP,O
+Lance,NNP,I-NP,B-PER
+Armstrong,NNP,I-NP,I-PER
+(,(,O,O
+U.S.,NNP,B-NP,B-LOC
+),),O,O
+Motorola,NNP,B-NP,B-ORG
+2,CD,I-NP,O
+seconds,NNS,I-NP,O
+behind,IN,B-PP,O

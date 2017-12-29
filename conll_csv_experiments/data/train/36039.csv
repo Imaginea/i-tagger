@@ -1,0 +1,8 @@
+0,1,2,3
+6.,NNP,B-NP,O
+Catherine,NNP,I-NP,B-PER
+McKiernan,NNP,I-NP,I-PER
+(,(,O,O
+Ireland,NNP,B-NP,B-LOC
+),),O,O
+15:07.57,CD,B-NP,O

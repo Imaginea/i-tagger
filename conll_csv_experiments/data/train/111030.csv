@@ -1,0 +1,27 @@
+0,1,2,3
+Dole,NNP,B-NP,B-PER
+'s,POS,B-NP,O
+tax,NN,I-NP,O
+cut,NN,I-NP,O
+plans,NNS,I-NP,O
+were,VBD,B-VP,O
+called,VBN,I-VP,O
+ ,O,O,<UNK>
+deja-voodoo,NN,B-NP,O
+economics,NNS,I-NP,O
+....,NN,I-NP,O
+It,PRP,I-NP,O
+'s,VBZ,B-VP,O
+a,DT,B-NP,O
+warmed-over,JJ,I-NP,O
+plan,NN,I-NP,O
+that,WDT,B-NP,O
+failed,VBD,B-VP,O
+and,CC,I-VP,O
+drove,VBD,I-VP,O
+our,PRP$,B-NP,O
+economy,NN,I-NP,O
+into,IN,B-PP,O
+a,DT,B-NP,O
+ditch,NN,I-NP,O
+.,.,O,O

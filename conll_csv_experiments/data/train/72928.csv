@@ -1,0 +1,6 @@
+0,1,2,3
+Salim,NNP,B-NP,B-PER
+Malik,NNP,I-NP,I-PER
+not,RB,O,O
+out,IN,B-PP,O
+100,CD,B-NP,O

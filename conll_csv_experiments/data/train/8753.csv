@@ -1,0 +1,6 @@
+0,1,2,3
+Andreas,NNP,B-NP,B-PER
+Andersson,NNP,I-NP,I-PER
+(,(,O,O
+87th,CD,B-NP,O
+),),O,O

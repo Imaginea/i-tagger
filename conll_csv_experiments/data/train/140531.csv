@@ -1,0 +1,35 @@
+0,1,2,3
+ ,O,O,<UNK>
+A,DT,B-NP,O
+great,JJ,I-NP,O
+game,NN,I-NP,O
+has,VBZ,B-VP,O
+been,VBN,I-VP,O
+started,VBN,I-VP,O
+in,IN,B-PP,O
+Afghanistan,NNP,B-NP,B-LOC
+as,IN,B-PP,O
+America,NNP,B-NP,B-LOC
+feels,VBZ,B-VP,O
+that,IN,B-SBAR,O
+Tehran,NNP,B-NP,B-LOC
+and,CC,I-NP,O
+Moscow,NNP,I-NP,B-LOC
+have,VBP,B-VP,O
+got,VBN,I-VP,O
+stronger,JJR,B-NP,O
+in,IN,B-PP,O
+the,DT,B-NP,O
+Afghan,JJ,I-NP,B-MISC
+picture,NN,I-NP,O
+--,:,O,O
+something,NN,B-NP,O
+Washington,NNP,I-NP,B-LOC
+wants,VBZ,B-VP,O
+to,TO,I-VP,O
+change,VB,I-VP,O
+",",",",O,O
+ ,O,O,<UNK>
+he,PRP,B-NP,O
+said,VBD,B-VP,O
+.,.,O,O

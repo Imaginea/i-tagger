@@ -1,0 +1,33 @@
+0,1,2,3
+ ,O,O,<UNK>
+The,DT,B-NP,O
+EU,NNP,I-NP,B-ORG
+and,CC,I-NP,O
+Poland,NNP,I-NP,B-LOC
+have,VBP,B-VP,O
+now,RB,I-VP,O
+reached,VBD,I-VP,O
+a,DT,B-NP,O
+final,JJ,I-NP,O
+settlement,NN,I-NP,O
+regarding,VBG,B-VP,O
+issues,NNS,B-NP,O
+related,VBN,B-VP,O
+to,TO,B-PP,O
+the,DT,B-NP,O
+Polish,JJ,I-NP,B-MISC
+import,NN,I-NP,O
+regime,NN,I-NP,O
+in,IN,B-PP,O
+the,DT,B-NP,O
+oils,NNS,I-NP,O
+sector,NN,I-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+the,DT,B-NP,O
+Commission,NNP,I-NP,B-ORG
+said,VBD,B-VP,O
+in,IN,B-PP,O
+a,DT,B-NP,O
+statement,NN,I-NP,O
+.,.,O,O

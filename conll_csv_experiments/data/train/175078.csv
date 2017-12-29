@@ -1,0 +1,12 @@
+0,1,2,3
+Belgium,NN,B-NP,B-LOC
+bank,NN,I-NP,O
+sanctions,VBZ,B-VP,O
+$,$,B-NP,O
+6.5,CD,I-NP,O
+mln,JJ,I-NP,O
+loan,NN,I-NP,O
+to,TO,B-PP,O
+India,NNP,B-NP,B-LOC
+WSRL,NNP,I-NP,B-ORG
+.,.,O,O

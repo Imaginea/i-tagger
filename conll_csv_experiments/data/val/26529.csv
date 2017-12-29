@@ -1,0 +1,8 @@
+0,1,2,3
+It,PRP,B-NP,O
+'s,VBZ,B-VP,O
+a,DT,B-NP,O
+tragedy,NN,I-NP,O
+for,IN,B-PP,O
+everyone,NN,B-NP,O
+.,.,O,O

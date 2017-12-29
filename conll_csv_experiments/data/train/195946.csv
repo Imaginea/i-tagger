@@ -1,0 +1,11 @@
+0,1,2,3
+The,DT,B-NP,O
+stake,NN,I-NP,O
+represented,VBD,B-VP,O
+0.042,CD,B-NP,O
+percent,NN,I-NP,O
+of,IN,B-PP,O
+Gazprom,NNP,B-NP,B-ORG
+'s,POS,B-NP,O
+capital,NN,I-NP,O
+.,.,O,O

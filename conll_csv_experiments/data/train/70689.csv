@@ -1,0 +1,13 @@
+0,1,2,3
+Germany,NNP,B-NP,B-LOC
+",",",",O,O
+driving,VBG,B-VP,O
+a,DT,B-NP,O
+Ferrari,NNP,I-NP,B-ORG
+",",",",O,O
+won,VBD,B-VP,O
+the,DT,B-NP,O
+Belgian,NNP,I-NP,B-MISC
+Grand,NNP,I-NP,I-MISC
+Prix,NNP,I-NP,I-MISC
+motor,NN,I-NP,O

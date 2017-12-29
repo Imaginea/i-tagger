@@ -1,0 +1,9 @@
+0,1,2,3
+--,:,B-NP,O
+Seoul,NNP,I-NP,B-ORG
+Newsroom,NNP,I-NP,I-ORG
+(,(,O,O
+822,CD,B-NP,O
+),),O,O
+727,NNP,B-NP,O
+5644,CD,I-NP,O

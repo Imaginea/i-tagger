@@ -1,0 +1,6 @@
+0,1,2,3
+R.,NNP,B-NP,B-PER
+Kaluwitharana,NNP,I-NP,I-PER
+b,SYM,O,O
+Tendulkar,JJ,B-NP,B-PER
+53,CD,I-NP,O

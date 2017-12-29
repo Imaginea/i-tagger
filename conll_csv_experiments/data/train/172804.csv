@@ -1,0 +1,7 @@
+0,1,2,3
+--,:,B-NP,O
+Greg,NNP,I-NP,B-PER
+Frost,NNP,I-NP,I-PER
+",",",",O,O
+816,CD,B-NP,O
+561-8671,CD,I-NP,O

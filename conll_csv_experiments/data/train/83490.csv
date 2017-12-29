@@ -1,0 +1,15 @@
+0,1,2,3
+ ,O,O,<UNK>
+Eleven,CD,B-NP,O
+thousand,CD,I-NP,O
+Serbs,NNS,I-NP,B-MISC
+who,WP,B-NP,O
+came,VBD,B-VP,O
+from,IN,B-PP,O
+elsewhere,RB,B-ADVP,O
+to,TO,B-PP,O
+Doboj,NNP,B-NP,B-LOC
+will,MD,B-VP,O
+vote,VB,I-VP,O
+there,RB,B-ADVP,O
+.,.,O,O

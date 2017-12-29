@@ -1,0 +1,14 @@
+0,1,2,3
+All,DT,B-NP,O
+four,CD,I-NP,O
+teams,NNS,I-NP,O
+are,VBP,B-VP,O
+level,NN,B-NP,O
+with,IN,B-PP,O
+one,CD,B-NP,O
+point,NN,I-NP,O
+each,DT,B-NP,O
+from,IN,B-PP,O
+one,CD,B-NP,O
+game,NN,I-NP,O
+.,.,O,O

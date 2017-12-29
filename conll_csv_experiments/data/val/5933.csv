@@ -1,0 +1,8 @@
+0,1,2,3
+8.,CD,B-NP,O
+Inger,NNP,I-NP,B-PER
+Miller,NNP,I-NP,I-PER
+(,(,O,O
+U.S.,NNP,B-NP,B-LOC
+),),O,O
+11.37,CD,B-NP,O

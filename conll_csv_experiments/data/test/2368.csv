@@ -1,0 +1,10 @@
+0,1,2,3
+Estudiantes,NNP,B-NP,B-ORG
+Madrid,NNP,I-NP,I-ORG
+(,(,O,O
+Spain,NNP,B-NP,B-LOC
+),),O,O
+9,CD,B-NP,O
+5,CD,I-NP,O
+4,CD,I-NP,O
+14,CD,I-NP,O

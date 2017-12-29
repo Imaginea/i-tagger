@@ -1,0 +1,11 @@
+0,1,2,3
+Results,NNS,B-NP,O
+of,IN,B-PP,O
+Asian,NNP,B-NP,B-MISC
+Cup,NNP,I-NP,I-MISC
+group,NN,I-NP,O
+A,NNP,I-NP,O
+matches,VBZ,B-VP,O
+on,IN,B-PP,O
+Saturday,NNP,B-NP,O
+:,:,O,O

@@ -1,0 +1,15 @@
+0,1,2,3
+1.,CD,B-NP,O
+Ray,NNP,I-NP,B-PER
+Belim,NNP,I-NP,I-PER
+(,(,O,O
+Britain,NNP,B-NP,B-LOC
+),),O,O
+/,SYM,O,O
+James,NNP,B-NP,B-PER
+Weaver,NNP,I-NP,I-PER
+(,(,O,O
+Britain,NNP,B-NP,B-LOC
+),),O,O
+/,SYM,O,O
+J.J.Lehto,NNP,B-NP,O

@@ -1,0 +1,8 @@
+0,1,2,3
+Ahold,NNP,B-NP,B-ORG
+launches,VBZ,B-VP,O
+Asian,JJ,B-NP,B-MISC
+food,NN,I-NP,O
+discount,NN,I-NP,O
+stores,NNS,I-NP,O
+.,.,O,O

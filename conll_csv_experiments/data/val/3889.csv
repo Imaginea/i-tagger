@@ -1,0 +1,19 @@
+0,1,2,3
+ ,O,O,<UNK>
+I,PRP,B-NP,O
+played,VBD,B-VP,O
+some,DT,B-NP,O
+of,IN,B-PP,O
+my,PRP$,B-NP,O
+best,JJS,I-NP,O
+tennis,NN,I-NP,O
+in,IN,B-PP,O
+college,NN,B-NP,O
+when,WRB,B-ADVP,O
+fraternities,NNS,B-NP,O
+were,VBD,B-VP,O
+throwing,VBG,I-VP,O
+beer,NN,B-NP,O
+on,IN,B-PP,O
+me,PRP,B-NP,O
+.,.,O,O

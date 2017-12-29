@@ -1,0 +1,8 @@
+0,1,2,3
+1.,CD,B-NP,O
+Felicia,NNP,I-NP,B-PER
+Ballanger,NNP,I-NP,I-PER
+(,(,O,O
+France,NNP,B-NP,B-LOC
+),),O,O
+34.829,CD,B-NP,O

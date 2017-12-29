@@ -1,0 +1,10 @@
+0,1,2,3
+66,CD,B-NP,O
+",",",",O,O
+M.,NNP,B-NP,B-PER
+Vaughan,NNP,I-NP,I-PER
+57,CD,I-NP,O
+),),O,O
+v,JJ,B-NP,O
+Lancashire,NN,I-NP,B-ORG
+.,.,O,O

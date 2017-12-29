@@ -1,0 +1,15 @@
+0,1,2,3
+After,IN,B-SBAR,O
+I,PRP,B-NP,O
+won,VBD,B-VP,O
+I,PRP,B-NP,O
+figured,VBD,B-VP,O
+I,PRP,B-NP,O
+could,MD,B-VP,O
+give,VB,I-VP,O
+them,PRP,B-NP,O
+a,DT,B-NP,O
+little,JJ,I-NP,O
+razzle-dazzle,NN,I-NP,O
+.,.,O,O
+ ,O,O,<UNK>

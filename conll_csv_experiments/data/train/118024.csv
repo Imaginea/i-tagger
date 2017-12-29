@@ -1,0 +1,40 @@
+0,1,2,3
+One,CD,B-NP,O
+road,NN,I-NP,O
+protestor,NN,I-NP,O
+under,IN,B-PP,O
+the,DT,B-NP,O
+codename,JJ,I-NP,O
+Steady,NNP,I-NP,B-PER
+Eddie,NNP,I-NP,I-PER
+told,VBD,B-VP,O
+construction,NN,B-NP,O
+journal,NN,I-NP,O
+ ,O,O,<UNK>
+Building,NNP,B-NP,B-ORG
+ ,O,O,<UNK>
+earlier,RBR,B-ADVP,O
+this,DT,B-NP,O
+year,NN,I-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+If,IN,B-SBAR,O
+it,PRP,B-NP,O
+comes,VBZ,B-VP,O
+down,RB,B-ADVP,O
+to,TO,B-PP,O
+full-scale,JJ,B-NP,O
+economic,JJ,I-NP,O
+warfare,NN,I-NP,O
+",",",",O,O
+we,PRP,B-NP,O
+will,MD,B-VP,O
+aim,VB,I-VP,O
+to,TO,I-VP,O
+drive,VB,I-VP,O
+them,PRP,B-NP,O
+out,IN,B-PP,O
+of,IN,B-PP,O
+business,NN,B-NP,O
+.,.,O,O
+ ,O,O,<UNK>

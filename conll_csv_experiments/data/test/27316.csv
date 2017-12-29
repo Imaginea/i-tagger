@@ -1,0 +1,7 @@
+0,1,2,3
+Most,JJS,B-NP,O
+others,NNS,I-NP,O
+also,RB,B-ADVP,O
+were,VBD,B-VP,O
+down,RB,B-ADVP,O
+.,.,O,O

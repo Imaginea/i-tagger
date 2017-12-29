@@ -1,0 +1,15 @@
+0,1,2,3
+7.,CD,B-NP,O
+Jean-Marc,NNP,I-NP,B-PER
+Gounon,NNP,I-NP,I-PER
+(,(,O,O
+France,NNP,B-NP,B-LOC
+),),O,O
+/,SYM,O,O
+Eric,NNP,B-NP,B-PER
+Bernard,NNP,I-NP,I-PER
+(,(,O,O
+France,NNP,B-NP,B-LOC
+),),O,O
+/,SYM,O,O
+Paul,NNP,B-NP,B-PER

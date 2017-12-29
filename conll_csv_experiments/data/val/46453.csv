@@ -1,0 +1,43 @@
+0,1,2,3
+Mamatuyev,NNP,B-NP,B-PER
+joked,VBD,B-VP,O
+that,IN,B-SBAR,O
+his,PRP$,B-NP,O
+sister,NN,I-NP,O
+Lisa,NNP,B-NP,B-PER
+was,VBD,B-VP,O
+a,DT,B-NP,O
+rebel,NN,I-NP,O
+too,RB,B-ADVP,O
+",",",",O,O
+and,CC,O,O
+she,PRP,B-NP,O
+responded,VBD,B-VP,O
+by,IN,B-PP,O
+grabbing,VBG,B-VP,O
+hold,NN,B-NP,O
+of,IN,B-PP,O
+his,PRP$,B-NP,O
+gun,NN,I-NP,O
+and,CC,O,O
+shouting,VBG,B-VP,O
+the,DT,B-NP,O
+Chechen,NNP,I-NP,B-MISC
+war,NN,I-NP,O
+cry,NN,I-NP,O
+ ,O,O,<UNK>
+Allahu,NNP,B-NP,B-PER
+Akhbar,NNP,I-NP,I-PER
+ ,O,O,<UNK>
+(,(,O,O
+God,NNP,B-NP,B-PER
+is,VBZ,B-VP,O
+Greatest,NNP,B-NP,O
+),),O,O
+and,CC,O,O
+ ,O,O,<UNK>
+Freedom,NNP,B-NP,O
+for,IN,B-PP,O
+Chechnya,NNP,B-NP,B-LOC
+!,.,O,O
+ ,O,O,<UNK>

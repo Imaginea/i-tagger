@@ -1,0 +1,21 @@
+0,1,2,3
+will,MD,B-VP,O
+exacerbate,VB,I-VP,O
+the,DT,B-NP,O
+problem,NN,I-NP,O
+in,IN,B-PP,O
+finding,VBG,B-VP,O
+a,DT,B-NP,O
+solution,NN,I-NP,O
+(,(,O,O
+to,TO,B-PP,O
+East,NNP,B-NP,B-LOC
+Timor,NNP,I-NP,I-LOC
+),),O,O
+",",",",O,O
+ ,O,O,<UNK>
+Alatas,NNS,B-NP,B-PER
+said,VBD,B-VP,O
+on,IN,B-PP,O
+Friday,NNP,B-NP,O
+.,.,O,O

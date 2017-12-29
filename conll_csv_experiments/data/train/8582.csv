@@ -1,0 +1,11 @@
+0,1,2,3
+In,IN,B-PP,O
+Anjalonkoski,NNP,B-NP,B-MISC
+:,:,O,O
+MyPa-47,NNP,B-NP,B-ORG
+(,(,O,O
+Finland,NNP,B-NP,B-LOC
+),),O,O
+1,CD,B-NP,O
+Karabach,NNP,I-NP,B-ORG
+Agdam,NNP,I-NP,I-ORG

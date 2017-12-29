@@ -1,0 +1,15 @@
+0,1,2,3
+5,CD,B-NP,O
+-,:,I-NP,O
+Andrei,NNP,I-NP,B-PER
+Medvedev,NNP,I-NP,I-PER
+(,(,O,O
+Ukraine,NNP,B-NP,B-LOC
+),),O,O
+beat,VB,B-VP,O
+Karol,NNP,B-NP,B-PER
+Kucera,NNP,I-NP,I-PER
+(,(,O,O
+Slovakia,NNP,B-NP,B-LOC
+),),O,O
+7-6,CD,B-ADVP,O

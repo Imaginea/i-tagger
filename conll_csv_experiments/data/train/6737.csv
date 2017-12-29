@@ -1,0 +1,17 @@
+0,1,2,3
+I,PRP,B-NP,O
+have,VBP,B-VP,O
+stayed,VBN,I-VP,O
+out,IN,B-PP,O
+of,IN,B-PP,O
+the,DT,B-NP,O
+way,NN,I-NP,O
+and,CC,O,O
+let,VB,B-VP,O
+them,PRP,B-NP,O
+get,VBP,B-VP,O
+on,RP,B-PRT,O
+with,IN,B-PP,O
+the,DT,B-NP,O
+job,NN,I-NP,O
+.,.,O,O

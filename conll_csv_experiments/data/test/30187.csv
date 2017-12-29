@@ -1,0 +1,7 @@
+0,1,2,3
+London,NNP,B-NP,B-LOC
+coal,NN,I-NP,O
+/,SYM,O,O
+ore,NN,B-NP,O
+fixtures,NNS,I-NP,O
+.,.,O,O

@@ -1,0 +1,8 @@
+0,1,2,3
+Japan,NNP,B-NP,B-LOC
+declares,VBZ,B-VP,O
+food,NN,B-NP,O
+poisoning,NN,I-NP,O
+threat,NN,I-NP,O
+receding,NN,I-NP,O
+.,.,O,O

@@ -1,0 +1,16 @@
+0,1,2,3
+ ,O,O,<UNK>
+I,PRP,B-NP,O
+have,VBP,B-VP,O
+my,PRP$,B-NP,O
+own,JJ,I-NP,O
+car,NN,I-NP,O
+now,RB,B-ADVP,O
+and,CC,O,O
+that,DT,B-NP,O
+helps,VBZ,B-VP,O
+",",",",O,O
+ ,O,O,<UNK>
+said,VBD,B-VP,O
+Martinez,NNP,B-NP,B-PER
+.,.,O,O

@@ -1,0 +1,9 @@
+0,1,2,3
+Dominic,JJ,B-NP,B-PER
+Cork,NN,I-NP,I-PER
+3,CD,I-NP,O
+5,CD,I-NP,O
+0,CD,I-NP,O
+58,CD,I-NP,O
+26,CD,B-NP,O
+11.60,CD,I-NP,O

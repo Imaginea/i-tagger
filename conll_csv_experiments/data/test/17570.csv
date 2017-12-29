@@ -1,0 +1,9 @@
+0,1,2,3
+Senegal,JJ,B-NP,B-LOC
+proposes,VBZ,B-VP,O
+foreign,JJ,B-NP,O
+minister,NN,I-NP,O
+for,IN,B-PP,O
+U.N.,NNP,B-NP,B-ORG
+post,NN,B-NP,O
+.,.,O,O

@@ -1,0 +1,7 @@
+0,1,2,3
+FC,NNP,B-NP,B-ORG
+Bohemians,NNP,I-NP,I-ORG
+0,CD,I-NP,O
+FC,NNP,I-NP,B-ORG
+Karvina,NNP,I-NP,I-ORG
+2,CD,I-NP,O

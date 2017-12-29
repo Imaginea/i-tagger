@@ -1,0 +1,9 @@
+0,1,2,3
+Chad,JJ,B-NP,B-LOC
+parliamentary,JJ,I-NP,O
+election,NN,I-NP,O
+set,VBN,B-VP,O
+for,IN,B-PP,O
+November,NNP,B-NP,O
+24,CD,I-NP,O
+.,.,O,O

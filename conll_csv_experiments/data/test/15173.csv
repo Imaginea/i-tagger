@@ -1,0 +1,4 @@
+0,1,2,3
+Port,NNP,B-NP,O
+Loading,NNP,I-NP,O
+Waiting,NNP,B-VP,O

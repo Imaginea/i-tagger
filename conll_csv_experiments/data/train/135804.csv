@@ -1,0 +1,30 @@
+0,1,2,3
+Fulcheri,FW,O,B-PER
+declined,VBD,B-VP,O
+comment,NN,B-NP,O
+on,IN,B-PP,O
+the,DT,B-NP,O
+differences,NNS,I-NP,O
+between,IN,B-PP,O
+the,DT,B-NP,O
+U.N.,NNP,I-NP,B-ORG
+and,CC,I-NP,O
+Iraq,NNP,I-NP,B-LOC
+",",",",O,O
+saying,VBG,B-VP,O
+only,RB,B-ADVP,O
+:,:,O,O
+ ,O,O,<UNK>
+There,EX,B-NP,O
+are,VBP,B-VP,O
+several,JJ,B-NP,O
+different,JJ,I-NP,O
+things,NNS,I-NP,O
+which,WDT,B-NP,O
+still,RB,B-ADVP,O
+need,VB,B-VP,O
+to,TO,I-VP,O
+be,VB,I-VP,O
+done,VBN,I-VP,O
+.,.,O,O
+ ,O,O,<UNK>

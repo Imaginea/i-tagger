@@ -1,0 +1,10 @@
+0,1,2,3
+Chelsea,NN,B-NP,B-PER
+makes,VBZ,B-VP,O
+political,JJ,B-NP,O
+debut,NN,I-NP,O
+on,IN,B-PP,O
+Clinton,NNP,B-NP,B-PER
+train,NN,I-NP,O
+trip,NN,I-NP,O
+.,.,O,O

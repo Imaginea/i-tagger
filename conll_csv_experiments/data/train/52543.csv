@@ -1,0 +1,6 @@
+0,1,2,3
+Net,JJ,B-NP,O
+profit,NN,I-NP,O
+20.318,CD,I-NP,O
+vs,NNP,O,O
+22.828,CD,B-NP,O

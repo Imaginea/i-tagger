@@ -1,0 +1,12 @@
+0,1,2,3
+CPI,NNP,B-NP,O
+(,(,O,O
+%,NN,B-NP,O
+),),O,O
+Jul,NNP,B-NP,O
++0.1,NNP,I-NP,O
+-,:,O,O
+0.1,CD,B-NP,O
++0.0,CD,I-NP,O
+119.3**,CD,I-NP,O
+-,:,I-NP,O

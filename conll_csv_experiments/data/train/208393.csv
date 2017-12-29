@@ -1,0 +1,11 @@
+0,1,2,3
+Baker,NNP,B-NP,B-PER
+made,VBD,B-VP,O
+secret,JJ,B-NP,O
+trip,NN,I-NP,O
+to,TO,B-PP,O
+Syria,NNP,B-NP,B-LOC
+in,IN,B-PP,O
+March,NNP,B-NP,O
+1995,CD,I-NP,O
+.,.,O,O

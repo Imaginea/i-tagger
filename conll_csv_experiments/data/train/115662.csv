@@ -1,0 +1,13 @@
+0,1,2,3
+His,PRP$,B-NP,O
+critics,NNS,I-NP,O
+allege,VBP,B-VP,O
+he,PRP,B-NP,O
+may,MD,B-VP,O
+be,VB,I-VP,O
+attempting,VBG,I-VP,O
+to,TO,I-VP,O
+delay,VB,I-VP,O
+the,DT,B-NP,O
+debate,NN,I-NP,O
+.,.,O,O

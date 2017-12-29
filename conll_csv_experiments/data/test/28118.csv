@@ -1,0 +1,22 @@
+0,1,2,3
+But,CC,O,O
+when,WRB,B-ADVP,O
+asked,VBD,B-VP,O
+how,WRB,B-ADVP,O
+frequent,JJ,B-NP,O
+these,DT,B-NP,O
+would,MD,B-VP,O
+be,VB,I-VP,O
+",",",",O,O
+he,PRP,B-NP,O
+was,VBD,B-VP,O
+evasive,JJ,B-ADJP,O
+",",",",O,O
+saying,VBG,B-VP,O
+",",",",O,O
+ ,O,O,<UNK>
+periodic,JJ,B-NP,O
+",",",",I-NP,O
+occasional,JJ,I-NP,O
+.,.,O,O
+ ,O,O,<UNK>

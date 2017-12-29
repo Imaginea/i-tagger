@@ -1,0 +1,5 @@
+0,1,2,3
+Temperatures,NNS,B-NP,O
+near,IN,B-PP,O
+normal,JJ,B-ADJP,O
+.,.,O,O

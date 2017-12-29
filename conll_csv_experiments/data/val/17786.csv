@@ -1,0 +1,15 @@
+0,1,2,3
+Orders,NNS,B-NP,O
+for,IN,B-PP,O
+nondurables,NNS,B-NP,O
+jumped,VBD,B-VP,O
+1.8,CD,B-NP,O
+percent,NN,I-NP,O
+following,VBG,B-PP,O
+a,DT,B-NP,O
+1.2,CD,I-NP,O
+percent,NN,I-NP,O
+decrease,NN,I-NP,O
+in,IN,B-PP,O
+June,NNP,B-NP,O
+.,.,O,O

@@ -1,0 +1,8 @@
+0,1,2,3
+6.,NNP,B-NP,O
+Frank,NNP,I-NP,B-PER
+Asselman,NNP,I-NP,I-PER
+(,(,O,O
+Belgium,NNP,B-NP,B-LOC
+),),O,O
+13.64,CD,B-NP,O

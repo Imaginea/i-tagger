@@ -1,0 +1,10 @@
+0,1,2,3
+He,PRP,B-NP,O
+improved,VBN,I-NP,O
+to,TO,B-PP,O
+12-2,RB,B-ADVP,O
+following,VBG,B-PP,O
+Yankees,NNPS,B-NP,B-ORG
+',POS,B-NP,O
+losses,NNS,I-NP,O
+.,.,O,O

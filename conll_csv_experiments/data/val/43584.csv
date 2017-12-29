@@ -1,0 +1,17 @@
+0,1,2,3
+He,PRP,B-NP,O
+succeeded,VBD,B-VP,O
+to,TO,B-PP,O
+the,DT,B-NP,O
+throne,NN,I-NP,O
+in,IN,B-PP,O
+1951,CD,B-NP,O
+on,IN,B-PP,O
+the,DT,B-NP,O
+abdication,NN,I-NP,O
+of,IN,B-PP,O
+his,PRP$,B-NP,O
+father,NN,I-NP,O
+Leopold,NNP,B-NP,B-PER
+III,NNP,I-NP,I-PER
+.,.,O,O

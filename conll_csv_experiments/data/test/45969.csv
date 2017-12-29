@@ -1,0 +1,6 @@
+0,1,2,3
+Ross,NNP,B-NP,B-ORG
+County,NNP,I-NP,I-ORG
+4,CD,I-NP,O
+Montrose,NNP,I-NP,B-ORG
+4,CD,I-NP,O

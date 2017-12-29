@@ -1,0 +1,26 @@
+0,1,2,3
+Dal,NNP,B-NP,B-PER
+Maso,NNP,I-NP,I-PER
+declined,VBD,B-VP,O
+to,TO,I-VP,O
+comment,VB,I-VP,O
+on,IN,B-PP,O
+the,DT,B-NP,O
+alleged,JJ,I-NP,O
+fifth,NN,I-NP,O
+murder,NN,I-NP,O
+",",",",O,O
+saying,VBG,B-VP,O
+only,RB,B-ADVP,O
+that,IN,B-SBAR,O
+ ,O,O,<UNK>
+the,DT,B-NP,O
+interrogations,NNS,I-NP,O
+are,VBP,B-VP,O
+not,RB,I-VP,O
+over,IN,B-PP,O
+yet,RB,B-NP,O
+ ,O,O,<UNK>
+with,IN,B-PP,O
+investigators,NNS,B-NP,O
+.,.,O,O

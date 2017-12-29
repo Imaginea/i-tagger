@@ -1,0 +1,14 @@
+0,1,2,3
+Sun,NNP,B-NP,B-PER
+Jun,NNP,I-NP,I-PER
+(,(,O,O
+China,NNP,B-NP,B-LOC
+),),O,O
+beat,VB,B-VP,O
+Rashid,NNP,B-NP,B-PER
+Sidek,NNP,I-NP,I-PER
+(,(,O,O
+Malaysia,NNP,B-NP,B-LOC
+),),O,O
+15-12,CD,B-NP,O
+17-14,CD,I-NP,O

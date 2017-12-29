@@ -1,0 +1,18 @@
+0,1,2,3
+ ,O,O,<UNK>
+I,PRP,B-NP,O
+changed,VBD,B-VP,O
+my,PRP$,B-NP,O
+strategy,NN,I-NP,O
+against,IN,B-PP,O
+him,PRP,B-NP,O
+today,NN,B-NP,O
+and,CC,O,O
+had,VBD,B-VP,O
+him,PRP,B-NP,O
+rattled,VBD,B-VP,O
+",",",",O,O
+ ,O,O,<UNK>
+he,PRP,B-NP,O
+added,VBD,B-VP,O
+.,.,O,O

@@ -1,0 +1,9 @@
+0,1,2,3
+1.,CD,B-NP,O
+Alexis,NNP,I-NP,B-PER
+Blanc,NNP,I-NP,I-PER
+(,(,O,O
+France,NNP,B-NP,B-LOC
+),),O,O
+238.36,CD,B-NP,O
+points,NNS,I-NP,O

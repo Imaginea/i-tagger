@@ -1,0 +1,11 @@
+0,1,2,3
+Third,JJ,B-NP,O
+:,:,O,O
+September,NNP,B-NP,O
+1,CD,I-NP,O
+",",",",O,O
+Trent,NNP,B-NP,B-LOC
+Bridge,NNP,I-NP,I-LOC
+(,(,O,O
+Nottingham,NNP,B-NP,B-LOC
+),),O,O

@@ -1,0 +1,7 @@
+0,1,2,3
+--,:,B-NP,O
+Sydney,NNP,I-NP,B-ORG
+Newsroom,NNP,I-NP,I-ORG
+61-2,NN,I-NP,O
+9373,CD,B-NP,O
+1800,CD,I-NP,O

@@ -1,0 +1,15 @@
+0,1,2,3
+Most,JJS,B-NP,O
+of,IN,B-PP,O
+the,DT,B-NP,O
+others,NNS,I-NP,O
+have,VBP,B-VP,O
+been,VBN,I-VP,O
+released,VBN,I-VP,O
+after,IN,B-PP,O
+a,DT,B-NP,O
+brief,JJ,I-NP,O
+stay,NN,I-NP,O
+in,IN,B-PP,O
+detention,NN,B-NP,O
+.,.,O,O

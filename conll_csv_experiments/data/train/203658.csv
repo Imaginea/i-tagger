@@ -1,0 +1,11 @@
+0,1,2,3
+-,:,O,O
+Karachi,NNP,B-NP,B-ORG
+Stock,NNP,I-NP,I-ORG
+Exchange,NNP,I-NP,I-ORG
+index,NN,I-NP,O
+falls,NNS,I-NP,O
+by,IN,B-PP,O
+7.84,CD,B-NP,O
+points,NNS,I-NP,O
+.,.,O,O

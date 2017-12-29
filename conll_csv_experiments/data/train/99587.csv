@@ -1,0 +1,16 @@
+0,1,2,3
+Dirk,NNP,B-NP,B-PER
+Dier,NNP,I-NP,I-PER
+(,(,O,O
+Germany,NNP,B-NP,B-LOC
+),),O,O
+beat,VB,B-VP,O
+Chuck,NNP,B-NP,B-PER
+Adams,NNP,I-NP,I-PER
+(,(,O,O
+U.S.,NNP,B-NP,B-LOC
+),),O,O
+6-4,CD,B-NP,O
+2-6,CD,I-NP,O
+6-4,CD,I-NP,O
+6-4,CD,I-NP,O

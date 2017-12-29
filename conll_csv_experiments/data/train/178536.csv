@@ -1,0 +1,16 @@
+0,1,2,3
+Lamm,NNP,B-NP,B-PER
+is,VBZ,B-VP,O
+a,DT,B-NP,O
+friend,NN,I-NP,O
+of,IN,B-PP,O
+President,NNP,B-NP,O
+Clinton,NNP,I-NP,B-PER
+and,CC,O,O
+supported,VBD,B-VP,O
+him,PRP,B-NP,O
+in,IN,B-PP,O
+the,DT,B-NP,O
+1992,CD,I-NP,O
+election,NN,I-NP,O
+.,.,O,O

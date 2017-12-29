@@ -1,0 +1,10 @@
+0,1,2,3
+-,:,O,O
+Order,NN,B-NP,O
+book,NN,I-NP,O
+(,(,O,O
+billions,NNS,B-NP,O
+),),O,O
+2.37,CD,B-NP,O
+vs,NNP,O,O
+2.01,CD,O,O

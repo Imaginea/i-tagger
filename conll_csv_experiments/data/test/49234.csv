@@ -1,0 +1,16 @@
+0,1,2,3
+Real,JJ,B-NP,B-ORG
+Madrid,NNP,I-NP,I-ORG
+2,CD,I-NP,O
+(,(,O,O
+Davor,NN,B-NP,B-PER
+Suker,NN,I-NP,I-PER
+24,CD,I-NP,O
+",",",",O,O
+Predrag,NNP,B-NP,B-PER
+Mijatovic,NNP,I-NP,I-PER
+48,CD,I-NP,O
+),),O,O
+Barcelona,NNP,B-NP,B-ORG
+0,CD,I-NP,O
+.,.,O,O

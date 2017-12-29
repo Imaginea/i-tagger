@@ -1,0 +1,16 @@
+0,1,2,3
+Demel,NNP,B-NP,B-PER
+said,VBD,B-VP,O
+the,DT,B-NP,O
+carmaker,NN,I-NP,O
+had,VBD,B-VP,O
+hedged,VBN,I-VP,O
+about,RB,B-NP,O
+half,NN,I-NP,O
+of,IN,B-PP,O
+its,PRP$,B-NP,O
+currency,NN,I-NP,O
+risk,NN,I-NP,O
+for,IN,B-PP,O
+1996,CD,B-NP,O
+.,.,O,O

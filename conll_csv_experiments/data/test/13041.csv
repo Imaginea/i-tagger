@@ -1,0 +1,15 @@
+0,1,2,3
+useful,JJ,B-ADJP,O
+progress,NN,B-NP,O
+was,VBD,B-VP,O
+made,VBN,I-VP,O
+on,IN,B-PP,O
+a,DT,B-NP,O
+number,NN,I-NP,O
+of,IN,B-PP,O
+issues,NNS,B-NP,O
+",",",",B-NP,O
+but,CC,I-NP,O
+not,RB,I-NP,O
+all,DT,I-NP,O
+.,.,O,O

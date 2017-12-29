@@ -1,0 +1,16 @@
+0,1,2,3
+Longyear,NNP,B-NP,B-LOC
+is,VBZ,B-VP,O
+a,DT,B-NP,O
+town,NN,I-NP,O
+in,IN,B-PP,O
+mourning,VBG,B-NP,O
+",",",",O,O
+a,DT,B-NP,O
+close-knit,JJ,I-NP,O
+community,NN,I-NP,O
+that,WDT,B-NP,O
+has,VBZ,B-VP,O
+been,VBN,I-VP,O
+shattered,VBN,B-NP,O
+.,.,O,O

@@ -1,0 +1,11 @@
+0,1,2,3
+Other,JJ,B-NP,O
+cricketers,NNS,I-NP,O
+who,WP,B-NP,O
+have,VBP,B-VP,O
+taken,VBN,I-VP,O
+over,IN,B-NP,O
+300,CD,I-NP,O
+Test,NNP,I-NP,O
+wickets,NNS,I-NP,O
+:,:,O,O

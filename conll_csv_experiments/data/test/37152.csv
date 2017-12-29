@@ -1,0 +1,10 @@
+0,1,2,3
+South,JJ,B-NP,B-MISC
+Korean,JJ,I-NP,I-MISC
+won,VBD,B-VP,O
+closes,NNS,B-NP,O
+down,RP,B-PRT,O
+on,IN,B-PP,O
+import,NN,B-NP,O
+settlements,NNS,I-NP,O
+.,.,O,O

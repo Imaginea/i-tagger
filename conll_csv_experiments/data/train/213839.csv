@@ -1,0 +1,27 @@
+0,1,2,3
+The,DT,B-NP,O
+Taiwan,NNP,I-NP,B-LOC
+dollar,NN,I-NP,O
+fell,VBD,B-VP,O
+in,IN,B-PP,O
+early,JJ,B-NP,O
+trade,NN,I-NP,O
+on,IN,B-PP,O
+month-end,NN,B-NP,O
+U.S.,NNP,I-NP,B-LOC
+dollar,NN,I-NP,O
+demand,NN,I-NP,O
+",",",",O,O
+but,CC,O,O
+the,DT,B-NP,O
+downtrend,NN,I-NP,O
+was,VBD,B-VP,O
+later,RB,I-VP,O
+reversed,VBN,I-VP,O
+as,IN,B-PP,O
+Taiwan,NNP,B-NP,B-LOC
+dollar,NN,I-NP,O
+liquidity,NN,I-NP,O
+tightened,VBD,B-VP,O
+.,.,O,O
+ ,O,O,<UNK>

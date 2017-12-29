@@ -1,0 +1,7 @@
+0,1,2,3
+145.4,CD,B-NP,O
+/,SYM,O,O
+second,JJ,B-NP,O
+jump,NN,I-NP,O
+158,CD,I-NP,O
+),),O,O

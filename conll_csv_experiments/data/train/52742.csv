@@ -1,0 +1,9 @@
+0,1,2,3
+Promodes,NNS,B-NP,B-ORG
+was,VBD,B-VP,O
+not,RB,I-VP,O
+immediately,RB,I-VP,O
+available,JJ,B-ADJP,O
+for,IN,B-PP,O
+comment,NN,B-NP,O
+.,.,O,O

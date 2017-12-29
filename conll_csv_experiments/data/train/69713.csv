@@ -1,0 +1,5 @@
+0,1,2,3
+Ferrari,NNP,B-NP,B-MISC
+F40,NNP,B-NP,I-MISC
+170,CD,I-NP,O
+laps,NNS,I-NP,O

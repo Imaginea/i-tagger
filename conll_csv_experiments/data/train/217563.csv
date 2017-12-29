@@ -1,0 +1,19 @@
+0,1,2,3
+Quigley,RB,B-ADVP,B-PER
+",",",",O,O
+a,DT,B-NP,O
+former,JJ,I-NP,O
+medallist,NN,I-NP,O
+in,IN,B-PP,O
+the,DT,B-NP,O
+points,NNS,I-NP,O
+event,NN,I-NP,O
+",",",",O,O
+led,VBD,B-VP,O
+the,DT,B-NP,O
+race,NN,I-NP,O
+at,IN,B-PP,O
+half,JJ,B-NP,O
+distance,NN,I-NP,O
+.,.,O,O
+ ,O,O,<UNK>

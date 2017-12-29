@@ -1,0 +1,26 @@
+0,1,2,3
+Scotland,NNP,B-NP,B-LOC
+manager,NN,I-NP,O
+Craig,NNP,I-NP,B-PER
+Brown,NNP,I-NP,I-PER
+said,VBD,B-VP,O
+on,IN,B-PP,O
+Thursday,NNP,B-NP,O
+:,:,O,O
+ ,O,O,<UNK>
+I,PRP,B-NP,O
+'ve,VBP,B-VP,O
+watched,VBN,I-VP,O
+Duncan,NNP,B-NP,B-PER
+Ferguson,NNP,I-NP,I-PER
+in,IN,B-PP,O
+action,NN,B-NP,O
+twice,RB,B-ADVP,O
+recently,RB,I-ADVP,O
+and,CC,O,O
+he,PRP,B-NP,O
+'s,VBZ,B-VP,O
+bang,NN,B-NP,O
+in,IN,B-PP,O
+form,NN,B-NP,O
+.,.,O,O

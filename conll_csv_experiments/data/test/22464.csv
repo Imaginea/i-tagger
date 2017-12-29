@@ -1,0 +1,10 @@
+0,1,2,3
+Indonesia,NNP,B-NP,B-LOC
+'s,POS,B-NP,O
+Belo,NNP,I-NP,B-PER
+leaves,VBZ,B-VP,O
+for,IN,B-SBAR,O
+Nobel,NNP,B-NP,B-MISC
+award,NN,I-NP,O
+ceremony,NN,I-NP,O
+.,.,O,O

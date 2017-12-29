@@ -1,0 +1,10 @@
+0,1,2,3
+Estonian,JJ,B-NP,B-MISC
+Tallinna,NNP,I-NP,B-ORG
+Pank,NNP,I-NP,I-ORG
+11-mo,CD,I-NP,O
+net,JJ,I-NP,O
+46.6,CD,I-NP,O
+mln,JJ,I-NP,O
+kroons,NNS,I-NP,O
+.,.,O,O

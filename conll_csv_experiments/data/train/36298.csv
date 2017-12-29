@@ -1,0 +1,11 @@
+0,1,2,3
+1.,CD,B-NP,O
+Regina,NNP,I-NP,B-PER
+Jacobs,NNP,I-NP,I-PER
+(,(,O,O
+U.S.,NNP,B-NP,B-LOC
+),),O,O
+4,CD,B-NP,O
+minutes,NNS,I-NP,O
+01.77,CD,I-NP,O
+seconds,NNS,I-NP,O

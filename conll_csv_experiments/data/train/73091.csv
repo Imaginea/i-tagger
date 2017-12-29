@@ -1,0 +1,5 @@
+0,1,2,3
+Pakistan,NNP,B-NP,B-LOC
+declared,VBD,B-VP,O
+their,PRP$,B-NP,O
+first,JJ,I-NP,O

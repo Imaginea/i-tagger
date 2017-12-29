@@ -1,0 +1,11 @@
+0,1,2,3
+74,CD,B-NP,O
+",",",",O,O
+Peter,NNP,B-NP,B-PER
+O'Malley,NNP,I-NP,I-PER
+(,(,O,O
+Australia,NNP,B-NP,B-LOC
+),),O,O
+71,CD,B-NP,O
+73,CD,I-NP,O
+75,CD,I-NP,O

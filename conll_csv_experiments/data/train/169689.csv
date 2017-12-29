@@ -1,0 +1,9 @@
+0,1,2,3
+Quake,NN,B-NP,O
+shakes,VBZ,B-VP,O
+Costa,NNP,B-NP,B-LOC
+Rica,NNP,I-NP,I-LOC
+during,IN,B-PP,O
+Hashimoto,NNP,B-NP,B-PER
+visit,NN,B-NP,O
+.,.,O,O

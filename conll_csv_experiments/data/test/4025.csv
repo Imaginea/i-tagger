@@ -1,0 +1,5 @@
+0,1,2,3
+M.,NNP,B-NP,B-PER
+Waugh,NNP,I-NP,I-PER
+3-0-11-1,NNP,I-NP,O
+.,.,O,O

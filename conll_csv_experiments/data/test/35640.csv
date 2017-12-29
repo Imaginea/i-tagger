@@ -1,0 +1,7 @@
+0,1,2,3
+Kenneth,NNP,B-NP,B-PER
+Clarke,NNP,I-NP,I-PER
+has,VBZ,B-VP,O
+to,TO,I-VP,O
+go,VB,I-VP,O
+.,.,O,O

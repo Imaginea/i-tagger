@@ -1,0 +1,8 @@
+0,1,2,3
+7.,CD,B-NP,O
+Ivan,NNP,B-NP,B-PER
+Garcia,NNP,I-NP,I-PER
+(,(,O,O
+Cuba,NNP,B-NP,B-LOC
+),),O,O
+20.45,CD,B-NP,O

@@ -1,0 +1,14 @@
+0,1,2,3
+The,DT,B-NP,O
+race,NN,I-NP,O
+continues,VBZ,B-VP,O
+on,IN,B-PP,O
+Thursday,NNP,B-NP,O
+afternoon,NN,I-NP,O
+with,IN,B-PP,O
+a,DT,B-NP,O
+19.6,CD,I-NP,O
+fourth-stage,JJ,I-NP,O
+Doetinchem-Doetinchem,JJ,I-NP,B-MISC
+time,NN,I-NP,O
+trial,NN,I-NP,O

@@ -1,0 +1,5 @@
+0,1,2,3
+BALTIMORE,VB,B-VP,B-ORG
+5,CD,B-NP,O
+California,NNP,I-NP,B-ORG
+4,CD,I-NP,O

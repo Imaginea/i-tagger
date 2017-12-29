@@ -1,0 +1,21 @@
+0,1,2,3
+We,PRP,B-NP,O
+'ll,MD,B-VP,O
+have,VB,I-VP,O
+to,TO,I-VP,O
+see,VB,I-VP,O
+which,WDT,B-NP,O
+other,JJ,B-NP,O
+players,NNS,I-NP,O
+produce,VBP,B-VP,O
+good,JJ,B-NP,O
+league,NN,I-NP,O
+performances,NNS,I-NP,O
+to,TO,B-VP,O
+play,VB,I-VP,O
+themselves,PRP,B-NP,O
+into,IN,B-PP,O
+the,DT,B-NP,O
+squad,NN,I-NP,O
+.,.,O,O
+ ,O,O,<UNK>

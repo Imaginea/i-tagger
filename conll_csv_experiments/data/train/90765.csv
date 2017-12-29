@@ -1,0 +1,17 @@
+0,1,2,3
+New,NNP,B-NP,B-ORG
+York,NNP,I-NP,I-ORG
+Stock,NNP,I-NP,I-ORG
+Exchange,NNP,I-NP,I-ORG
+advances,NNS,I-NP,O
+lagged,VBD,B-VP,O
+declines,NNS,B-NP,O
+by,IN,B-PP,O
+476/698,CD,B-NP,O
+while,IN,B-SBAR,O
+NASDAQ,NNP,B-NP,B-MISC
+advances,NNS,I-NP,O
+led,VBD,B-VP,O
+declines,NNS,B-NP,O
+837/763,CD,I-NP,O
+.,.,O,O

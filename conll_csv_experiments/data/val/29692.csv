@@ -1,0 +1,8 @@
+0,1,2,3
+9.,CD,B-NP,O
+Michael,NNP,I-NP,B-PER
+Andersson,NNP,I-NP,I-PER
+(,(,O,O
+Sweden,NNP,B-NP,B-LOC
+),),O,O
+Telekom,NN,B-NP,B-ORG

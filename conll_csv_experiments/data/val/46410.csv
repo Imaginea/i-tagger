@@ -1,0 +1,7 @@
+0,1,2,3
+We,PRP,B-NP,O
+believe,VBP,B-VP,O
+in,IN,B-PP,O
+God,NNP,B-NP,B-PER
+.,.,I-NP,O
+ ,O,O,<UNK>

@@ -1,0 +1,5 @@
+0,1,2,3
+Netherlands,NNP,B-NP,B-LOC
+),),O,O
+6-2,CD,B-NP,O
+6-1,JJ,B-ADVP,O

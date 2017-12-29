@@ -1,0 +1,14 @@
+0,1,2,3
+I,PRP,B-NP,O
+think,VBP,B-VP,O
+we,PRP,B-NP,O
+can,MD,B-VP,O
+do,VB,I-VP,O
+it,PRP,B-NP,O
+with,IN,B-PP,O
+the,DT,B-NP,O
+same,JJ,I-NP,O
+body,NN,I-NP,O
+of,IN,B-PP,O
+players,NNS,B-NP,O
+.,.,O,O

@@ -1,0 +1,17 @@
+0,1,2,3
+ ,O,O,<UNK>
+The,DT,B-NP,O
+search,NN,I-NP,O
+for,IN,B-PP,O
+peace,NN,B-NP,O
+in,IN,B-PP,O
+Liberia,NNPS,B-NP,B-LOC
+has,VBZ,B-VP,O
+been,VBN,I-VP,O
+difficult,JJ,B-ADJP,O
+",",",",O,O
+challenging,VBG,B-VP,O
+and,CC,I-VP,O
+sometimes,RB,B-ADVP,O
+painful,JJ,B-ADJP,O
+.,.,O,O

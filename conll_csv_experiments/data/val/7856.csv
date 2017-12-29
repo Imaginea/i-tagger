@@ -1,0 +1,13 @@
+0,1,2,3
+Sri,NNP,B-NP,B-LOC
+Lanka,NNP,I-NP,I-LOC
+-,:,O,O
+Arjuna,NNP,B-NP,B-PER
+Ranatunga,NNP,I-NP,I-PER
+(,(,O,O
+captain,NN,B-NP,O
+),),O,O
+",",",",O,O
+Sanath,NNP,B-NP,B-PER
+Jayasuriya,NNP,I-NP,I-PER
+",",",",O,O

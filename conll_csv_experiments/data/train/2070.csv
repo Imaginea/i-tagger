@@ -1,0 +1,36 @@
+0,1,2,3
+ ,O,O,<UNK>
+We,PRP,B-NP,O
+expect,VB,B-VP,O
+from,IN,B-PP,O
+Syria,NNP,B-NP,B-LOC
+",",",",O,O
+if,IN,B-SBAR,O
+its,PRP$,B-NP,O
+face,NN,I-NP,O
+is,VBZ,B-VP,O
+to,TO,B-PP,O
+peace,NN,B-NP,O
+",",",",O,O
+that,IN,B-SBAR,O
+it,PRP,B-NP,O
+will,MD,B-VP,O
+answer,VB,I-VP,O
+Israel,NNP,B-NP,B-LOC
+'s,POS,B-NP,O
+message,NN,I-NP,O
+to,TO,B-VP,O
+enter,VB,I-VP,O
+peace,NN,B-NP,O
+negotiations,NNS,I-NP,O
+because,IN,B-SBAR,O
+that,DT,B-NP,O
+is,VBZ,B-VP,O
+our,PRP$,B-NP,O
+goal,NN,I-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+he,PRP,B-NP,O
+said,VBD,B-VP,O
+.,.,O,O
+ ,O,O,<UNK>

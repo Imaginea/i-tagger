@@ -1,0 +1,11 @@
+0,1,2,3
+Mark,NNP,B-NP,B-PER
+Philippoussis,NNP,I-NP,I-PER
+(,(,O,O
+Australia,NNP,B-NP,B-LOC
+),),O,O
+beat,VB,B-VP,O
+8,CD,B-NP,O
+-,:,I-NP,O
+Marc,NNP,I-NP,B-PER
+Rosset,NNP,I-NP,I-PER

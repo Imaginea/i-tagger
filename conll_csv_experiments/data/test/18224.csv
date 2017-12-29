@@ -1,0 +1,13 @@
+0,1,2,3
+Church-led,JJ,B-NP,O
+meadiation,NN,I-NP,O
+attempts,NNS,I-NP,O
+hit,VBP,B-VP,O
+deadlock,NN,B-NP,O
+over,IN,B-PP,O
+rebel,NN,B-NP,O
+demands,NNS,I-NP,O
+for,IN,B-PP,O
+his,PRP$,B-NP,O
+departure,NN,I-NP,O
+.,.,O,O

@@ -1,0 +1,7 @@
+0,1,2,3
+Fontaine,NNP,B-NP,B-ORG
+-,:,O,O
+6mth,JJ,B-NP,O
+parent,NN,I-NP,O
+forecast,NN,I-NP,O
+.,.,O,O

@@ -1,0 +1,12 @@
+0,1,2,3
+Cunningham,NNP,B-NP,B-PER
+played,VBD,B-VP,O
+his,PRP$,B-NP,O
+entire,JJ,I-NP,O
+11-year,JJ,I-NP,O
+career,NN,I-NP,O
+with,IN,B-PP,O
+the,DT,B-NP,O
+Philadelphia,NNP,I-NP,B-ORG
+Eagles,NNPS,I-NP,I-ORG
+.,.,O,O

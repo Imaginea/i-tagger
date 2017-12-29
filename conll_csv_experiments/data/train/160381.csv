@@ -1,0 +1,8 @@
+0,1,2,3
+M.,NNP,B-NP,B-PER
+Azharuddin,NNP,I-NP,I-PER
+st,NN,I-NP,O
+Kaluwitharana,NNP,I-NP,B-PER
+b,SYM,O,O
+Jayasuriya,NN,B-NP,B-PER
+58,CD,I-NP,O

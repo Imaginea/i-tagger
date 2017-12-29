@@ -1,0 +1,7 @@
+0,1,2,3
+--,:,B-NP,O
+Paris,NNP,I-NP,B-LOC
+newsroom,NN,I-NP,O
++331,CD,B-NP,O
+4221,CD,I-NP,O
+5432,CD,I-NP,O

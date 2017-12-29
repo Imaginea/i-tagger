@@ -1,0 +1,18 @@
+0,1,2,3
+This,DT,B-NP,O
+will,MD,B-VP,O
+stay,VB,I-VP,O
+at,IN,B-PP,O
+this,DT,B-NP,O
+sort,NN,I-NP,O
+of,IN,B-PP,O
+price,NN,B-NP,O
+premium,NN,I-NP,O
+for,IN,B-PP,O
+a,DT,B-NP,O
+while,NN,I-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+one,CD,B-NP,O
+said,VBD,B-VP,O
+.,.,O,O

@@ -1,0 +1,5 @@
+0,1,2,3
+Italy,NNP,B-NP,B-LOC
+recalled,VBD,B-VP,O
+Marcello,NNP,B-NP,B-PER
+Cuttitta,NNP,I-NP,I-PER

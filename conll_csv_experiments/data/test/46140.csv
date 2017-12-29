@@ -1,0 +1,6 @@
+0,1,2,3
+Reading,VBG,B-VP,B-ORG
+0,CD,B-NP,O
+Port,NNP,I-NP,B-ORG
+Vale,NNP,I-NP,I-ORG
+1,CD,I-NP,O

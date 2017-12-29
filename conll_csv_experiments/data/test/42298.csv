@@ -1,0 +1,7 @@
+0,1,2,3
+10.,CD,B-NP,O
+Dmitri,NNP,B-NP,B-PER
+Dashinski,NNP,I-NP,I-PER
+Belarus,NNPS,I-NP,B-LOC
+),),O,O
+190.70,CD,B-NP,O

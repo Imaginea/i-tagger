@@ -1,0 +1,6 @@
+0,1,2,3
+Kinder,NN,B-NP,O
+-,:,O,O
+Zoran,NNP,B-NP,B-PER
+Savic,NNP,I-NP,I-PER
+18,CD,I-NP,O

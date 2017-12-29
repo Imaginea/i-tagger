@@ -1,0 +1,11 @@
+0,1,2,3
+Several,JJ,B-NP,O
+had,VBD,B-VP,O
+brought,VBN,I-VP,O
+their,PRP$,B-NP,O
+families,NNS,I-NP,O
+along,IN,B-PP,O
+",",",",O,O
+including,VBG,B-PP,O
+children,NNS,B-NP,O
+.,.,O,O

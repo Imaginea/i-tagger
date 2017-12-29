@@ -1,0 +1,10 @@
+0,1,2,3
+Venezuela,NNP,B-NP,B-LOC
+non-oil,JJ,I-NP,O
+exports,NNS,I-NP,O
+rise,VB,B-VP,O
+10.6,CD,B-NP,O
+pct,NN,I-NP,O
+in,IN,B-PP,O
+July,NNP,B-NP,O
+.,.,O,O

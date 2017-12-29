@@ -1,0 +1,17 @@
+0,1,2,3
+It,PRP,B-NP,O
+showed,VBD,B-VP,O
+23,CD,B-NP,O
+percent,NN,I-NP,O
+believed,VBD,B-VP,O
+it,PRP,B-NP,O
+possible,JJ,B-NP,O
+compared,VBN,B-PP,O
+to,TO,B-PP,O
+70,CD,B-NP,O
+who,WP,B-NP,O
+believed,VBD,B-VP,O
+it,PRP,B-NP,O
+was,VBD,B-VP,O
+n't,RB,O,O
+.,.,O,O

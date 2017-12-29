@@ -1,0 +1,14 @@
+0,1,2,3
+Fernando,NNP,B-NP,B-PER
+Meligeni,NNP,I-NP,I-PER
+(,(,O,O
+Brazil,NNP,B-NP,B-LOC
+),),O,O
+vs.,IN,B-PP,O
+7,CD,B-NP,O
+-,:,I-NP,O
+Yevgeny,NNP,I-NP,B-PER
+Kafelnikov,NNP,I-NP,I-PER
+(,(,O,O
+Russia,NNP,B-NP,B-LOC
+),),O,O

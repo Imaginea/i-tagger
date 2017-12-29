@@ -1,0 +1,16 @@
+0,1,2,3
+Last,JJ,B-NP,O
+November,NNP,I-NP,O
+",",",",O,O
+South,NNP,B-NP,B-MISC
+Korea-based,JJ,I-NP,I-MISC
+LG,NNP,I-NP,B-ORG
+Electronics,NNP,I-NP,I-ORG
+Inc.,NNP,I-NP,I-ORG
+bought,VBD,B-VP,O
+a,DT,B-NP,O
+majority,NN,I-NP,O
+stake,NN,I-NP,O
+in,IN,B-PP,O
+Zenith,NNP,B-NP,B-ORG
+.,.,O,O

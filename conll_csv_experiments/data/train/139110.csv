@@ -1,0 +1,14 @@
+0,1,2,3
+Bomb,VB,B-VP,O
+blast,NN,B-NP,O
+in,IN,B-PP,O
+TELO,NNP,B-NP,B-ORG
+office,NN,I-NP,O
+in,IN,B-PP,O
+Trincomalee,PRP,B-NP,B-LOC
+kills,VBZ,B-VP,O
+one,CD,B-NP,O
+",",",",O,O
+wounds,NNS,B-NP,O
+six,CD,I-NP,O
+.,.,O,O

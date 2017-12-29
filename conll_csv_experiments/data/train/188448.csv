@@ -1,0 +1,10 @@
+0,1,2,3
+G.,NNP,B-NP,B-PER
+Thorpe,NNP,I-NP,I-PER
+st,NN,I-NP,O
+Moin,NNP,I-NP,B-PER
+Khan,NNP,I-NP,I-PER
+b,SYM,O,O
+Aamir,NNP,B-NP,B-PER
+Sohail,NNP,I-NP,I-PER
+23,CD,I-NP,O

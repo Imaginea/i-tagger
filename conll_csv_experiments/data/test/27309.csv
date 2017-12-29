@@ -1,0 +1,10 @@
+0,1,2,3
+Feb,NN,B-NP,O
+settled,VBD,B-VP,O
+down,RB,B-ADVP,O
+22,CD,B-NP,O
+cents,NNS,I-NP,O
+at,IN,B-PP,O
+$,$,B-NP,O
+3.186,CD,I-NP,O
+.,.,O,O

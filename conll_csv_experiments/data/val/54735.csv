@@ -1,0 +1,14 @@
+0,1,2,3
+Broker,NNP,B-NP,O
+Khurshid,NNP,I-NP,B-PER
+Alam,NNP,I-NP,I-PER
+said,VBD,B-VP,O
+:,:,O,O
+ ,O,O,<UNK>
+The,DT,B-NP,O
+market,NN,I-NP,O
+sentiment,NN,I-NP,O
+will,MD,B-VP,O
+remain,VB,I-VP,O
+strong,JJ,B-ADJP,O
+.,.,O,O

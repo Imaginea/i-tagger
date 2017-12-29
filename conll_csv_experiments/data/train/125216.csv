@@ -1,0 +1,13 @@
+0,1,2,3
+The,DT,B-NP,O
+26-year-old,JJ,I-NP,O
+Brazilian,JJ,I-NP,B-MISC
+had,VBD,B-VP,O
+risen,VBN,I-VP,O
+into,IN,B-PP,O
+the,DT,B-NP,O
+top,JJ,I-NP,O
+30,CD,I-NP,O
+in,IN,B-PP,O
+1992,CD,B-NP,O
+.,.,O,O

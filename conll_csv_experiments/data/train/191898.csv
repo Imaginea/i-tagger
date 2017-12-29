@@ -1,0 +1,29 @@
+0,1,2,3
+ ,O,O,<UNK>
+There,EX,B-NP,O
+is,VBZ,B-VP,O
+a,DT,B-NP,O
+lot,NN,I-NP,O
+of,IN,B-PP,O
+things,NNS,B-NP,O
+that,WDT,B-NP,O
+can,MD,B-VP,O
+happen,VB,I-VP,O
+",",",",O,O
+ ,O,O,<UNK>
+Martinez,NNP,B-NP,B-PER
+said,VBD,B-VP,O
+about,IN,B-PP,O
+her,PRP$,B-NP,O
+early,JJ,I-NP,O
+difficulties,NNS,I-NP,O
+adjusting,VBG,B-VP,O
+to,TO,I-VP,O
+tennis,VB,I-VP,O
+on,IN,B-PP,O
+the,DT,B-NP,O
+cement,NN,I-NP,O
+at,IN,B-PP,O
+Flushing,NNP,B-NP,B-LOC
+Meadows,NNP,I-NP,I-LOC
+.,.,O,O

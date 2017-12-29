@@ -1,0 +1,19 @@
+0,1,2,3
+ ,O,O,<UNK>
+We,PRP,B-NP,O
+suspect,VBP,B-VP,O
+that,IN,B-SBAR,O
+these,DT,B-NP,O
+killings,NNS,I-NP,O
+are,VBP,B-VP,O
+linked,VBN,I-VP,O
+to,TO,B-PP,O
+politics,NNS,B-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+spokesman,NN,B-NP,O
+Bala,NNP,I-NP,B-PER
+Naidoo,NNP,I-NP,I-PER
+told,VBD,B-VP,O
+Reuters,NNP,B-NP,B-ORG
+.,.,O,O

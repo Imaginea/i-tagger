@@ -1,0 +1,5 @@
+0,1,2,3
+Plymouth,NN,B-NP,B-ORG
+4,CD,I-NP,O
+Exeter,NNP,I-NP,B-ORG
+1,CD,I-NP,O

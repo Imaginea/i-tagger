@@ -1,0 +1,7 @@
+0,1,2,3
+Buffett,NNP,B-NP,B-PER
+raises,VBZ,B-VP,O
+Property,NNP,B-NP,B-ORG
+Capital,NNP,I-NP,I-ORG
+stake,NN,I-NP,O
+.,.,O,O

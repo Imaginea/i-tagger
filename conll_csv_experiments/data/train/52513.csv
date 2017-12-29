@@ -1,0 +1,8 @@
+0,1,2,3
+Shanghai,NNP,B-NP,B-ORG
+Post,NNP,I-NP,I-ORG
+and,CC,I-NP,I-ORG
+Telecomm,NNP,I-NP,I-ORG
+net,NN,I-NP,O
+down,RP,B-PRT,O
+.,.,O,O

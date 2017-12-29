@@ -1,0 +1,8 @@
+0,1,2,3
+16.,CD,B-NP,O
+Leatitia,NNP,I-NP,B-PER
+Dalloz,NNP,I-NP,I-PER
+(,(,O,O
+France,NNP,B-NP,B-LOC
+),),O,O
+33,CD,B-NP,O

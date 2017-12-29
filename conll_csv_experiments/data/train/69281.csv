@@ -1,0 +1,10 @@
+0,1,2,3
+3.,NNP,B-NP,O
+Gert,NNP,I-NP,B-PER
+Jan,NNP,I-NP,I-PER
+Van,NNP,I-NP,I-PER
+Doorn,NNP,I-NP,I-PER
+(,(,I-NP,O
+Netherlands,NNP,I-NP,B-LOC
+),),O,O
+Honda,NNP,B-NP,B-ORG

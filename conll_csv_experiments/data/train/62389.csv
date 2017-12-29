@@ -1,0 +1,13 @@
+0,1,2,3
+He,PRP,B-NP,O
+said,VBD,B-VP,O
+the,DT,B-NP,O
+spirit,NN,I-NP,O
+of,IN,B-PP,O
+a,DT,B-NP,O
+hurricane,NN,I-NP,O
+had,VBD,B-VP,O
+guided,VBN,I-VP,O
+him,PRP,B-NP,O
+there,RB,B-ADVP,O
+.,.,O,O

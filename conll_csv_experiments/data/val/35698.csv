@@ -1,0 +1,8 @@
+0,1,2,3
+Sloboda,NNP,B-NP,B-ORG
+4,CD,I-NP,O
+Mladost,NNP,I-NP,B-ORG
+(,(,O,I-ORG
+BJ,NNP,B-NP,I-ORG
+),),O,I-ORG
+0,CD,B-NP,O

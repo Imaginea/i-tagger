@@ -1,0 +1,14 @@
+0,1,2,3
+The,DT,B-NP,O
+message,NN,I-NP,O
+was,VBD,B-VP,O
+quite,RB,B-ADJP,O
+clear,JJ,I-ADJP,O
+",",",",O,O
+ ,O,O,<UNK>
+she,PRP,B-NP,O
+told,VBD,B-VP,O
+one,CD,B-NP,O
+interviewer,NN,I-NP,O
+.,.,O,O
+ ,O,O,<UNK>

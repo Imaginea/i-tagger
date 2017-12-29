@@ -1,0 +1,9 @@
+0,1,2,3
+The,DT,B-NP,O
+students,NNS,I-NP,O
+were,VBD,B-VP,O
+later,JJ,I-VP,O
+allowed,VBN,I-VP,O
+to,TO,I-VP,O
+return,VB,I-VP,O
+.,.,O,O

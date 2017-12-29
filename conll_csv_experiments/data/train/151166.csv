@@ -1,0 +1,11 @@
+0,1,2,3
+Queens,NNP,B-NP,B-ORG
+Park,NNP,I-NP,I-ORG
+Rangers,NNPS,I-NP,I-ORG
+3,CD,I-NP,O
+2,CD,I-NP,O
+1,CD,I-NP,O
+0,CD,I-NP,O
+5,CD,I-NP,O
+3,CD,I-NP,O
+7,CD,I-NP,O

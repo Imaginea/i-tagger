@@ -1,0 +1,11 @@
+0,1,2,3
+Kurds,NNPS,B-NP,B-MISC
+clash,VBP,B-VP,O
+again,RB,B-ADVP,O
+in,IN,B-PP,O
+Iraq,NNP,B-NP,B-LOC
+",",",",O,O
+dozens,NNS,B-NP,O
+reported,VBD,B-VP,O
+dead,JJ,B-ADJP,O
+.,.,O,O

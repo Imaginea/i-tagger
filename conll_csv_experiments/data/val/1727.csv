@@ -1,0 +1,8 @@
+0,1,2,3
+ ,O,O,<UNK>
+I,PRP,B-NP,O
+want,VBP,B-VP,O
+a,DT,B-NP,O
+fifth,JJ,I-NP,O
+title,NN,I-NP,O
+.,.,O,O

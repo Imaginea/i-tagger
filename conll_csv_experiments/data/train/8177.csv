@@ -1,0 +1,5 @@
+0,1,2,3
+Aggregate,JJ,B-NP,O
+score,NN,I-NP,O
+2-2,JJ,B-ADVP,O
+.,.,O,O

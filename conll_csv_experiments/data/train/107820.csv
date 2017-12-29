@@ -1,0 +1,12 @@
+0,1,2,3
+By,IN,B-PP,O
+0120,CD,B-NP,O
+GMT,RB,I-NP,B-MISC
+",",",",O,O
+"357,000",CD,B-NP,O
+Metro,NNP,I-NP,B-ORG
+shares,NNS,I-NP,O
+had,VBD,B-VP,O
+been,VBN,I-VP,O
+traded,VBN,I-VP,O
+.,.,O,O

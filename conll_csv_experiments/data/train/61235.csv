@@ -1,0 +1,8 @@
+0,1,2,3
+Cholera,NN,B-NP,O
+kills,VBZ,B-VP,O
+21,CD,B-NP,O
+in,IN,B-PP,O
+southern,JJ,B-NP,O
+Nigeria,NNP,I-NP,B-LOC
+.,.,O,O

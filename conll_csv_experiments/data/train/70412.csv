@@ -1,0 +1,8 @@
+0,1,2,3
+2.,NNP,B-NP,O
+Ian,NNP,I-NP,B-PER
+Mackie,NNP,I-NP,I-PER
+(,(,O,O
+Britain,NNP,B-NP,B-LOC
+),),O,O
+10.17,CD,B-NP,O

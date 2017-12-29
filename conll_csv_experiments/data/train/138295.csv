@@ -1,0 +1,10 @@
+0,1,2,3
+Garrity,NN,B-NP,B-PER
+said,VBD,B-VP,O
+a,DT,B-NP,O
+train,NN,I-NP,O
+conductor,NN,I-NP,O
+was,VBD,B-VP,O
+also,RB,I-VP,O
+injured,VBN,I-VP,O
+.,.,O,O

@@ -1,0 +1,9 @@
+0,1,2,3
+Ulster,NNP,B-NP,B-ORG
+Petroleums,NNPS,I-NP,I-ORG
+Ltd,NNP,I-NP,I-ORG
+Q2,NNP,I-NP,O
+net,JJ,I-NP,O
+profit,NN,I-NP,O
+falls,NNS,I-NP,O
+.,.,O,O

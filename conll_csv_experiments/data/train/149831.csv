@@ -1,0 +1,7 @@
+0,1,2,3
+Haarlem,NNS,B-NP,B-LOC
+and,CC,O,O
+Almere,NNP,B-NP,B-LOC
+on,IN,B-PP,O
+Wednesday,NNP,B-NP,O
+:,:,O,O

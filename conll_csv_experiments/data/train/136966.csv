@@ -1,0 +1,15 @@
+0,1,2,3
+Akron,NNP,B-NP,B-LOC
+",",",",O,O
+Ohio,NNP,B-NP,B-LOC
+",",",",O,O
+$,$,B-NP,O
+6,CD,I-NP,O
+mln,NN,I-NP,O
+bonds,NNS,I-NP,O
+rated,VBD,B-VP,O
+single-A,JJ,B-ADJP,O
+-,:,O,O
+Moody,NNP,B-NP,B-ORG
+'s,POS,I-NP,I-ORG
+.,.,O,O

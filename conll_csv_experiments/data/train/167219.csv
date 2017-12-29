@@ -1,0 +1,8 @@
+0,1,2,3
+Albania,NNP,B-NP,B-LOC
+asks,VBZ,B-VP,O
+Greece,NNP,B-NP,B-LOC
+to,TO,B-VP,O
+explain,VB,I-VP,O
+deportations,NNS,B-NP,O
+.,.,O,O

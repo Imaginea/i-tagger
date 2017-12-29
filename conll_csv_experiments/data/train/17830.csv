@@ -1,0 +1,7 @@
+0,1,2,3
+Polish,JJ,B-NP,B-MISC
+schoolgirl,NN,I-NP,O
+blackmailer,NN,I-NP,O
+wanted,VBD,B-VP,O
+textbooks,NNS,B-NP,O
+.,.,O,O

@@ -1,0 +1,7 @@
+0,1,2,3
+--,:,O,O
+Sarajevo,NNP,B-NP,B-LOC
+newsroom,NN,I-NP,O
+",",",",O,O
++387-71-663-864,CD,B-NP,O
+.,.,O,O

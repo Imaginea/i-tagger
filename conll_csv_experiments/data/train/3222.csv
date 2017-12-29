@@ -1,0 +1,20 @@
+0,1,2,3
+Their,PRP$,B-NP,O
+return,NN,I-NP,O
+to,TO,B-PP,O
+Afghanistan,NNP,B-NP,B-LOC
+will,MD,B-VP,O
+take,VB,I-VP,O
+place,NN,B-NP,O
+in,IN,B-PP,O
+two,CD,B-NP,O
+or,CC,I-NP,O
+three,CD,I-NP,O
+days,NNS,I-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+an,DT,B-NP,O
+embassy,NN,I-NP,O
+official,NN,I-NP,O
+said,VBD,B-VP,O
+.,.,O,O

@@ -1,0 +1,12 @@
+0,1,2,3
+But,CC,O,O
+they,PRP,B-NP,O
+do,VBP,B-VP,O
+not,RB,I-VP,O
+want,VB,I-VP,O
+to,TO,I-VP,O
+talk,VB,I-VP,O
+to,TO,B-PP,O
+anyone,NN,B-NP,O
+.,.,O,O
+ ,O,O,<UNK>

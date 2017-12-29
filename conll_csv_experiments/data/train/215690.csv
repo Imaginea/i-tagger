@@ -1,0 +1,14 @@
+0,1,2,3
+/,SYM,O,O
+surplus,NN,B-NP,O
+to,TO,B-PP,O
+date,NN,B-NP,O
+-,:,O,O
+"1,184.0",CD,B-NP,O
+-,:,I-NP,O
+"1,466.1",CD,I-NP,O
+-,:,I-NP,O
+"1,456.7",CD,I-NP,O
+-,:,I-NP,O
+2.6,CD,I-NP,O
+trln,NNS,I-NP,O

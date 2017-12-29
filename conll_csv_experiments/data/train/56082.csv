@@ -1,0 +1,5 @@
+0,1,2,3
+Raith,NNS,B-NP,B-ORG
+0,CD,B-ADVP,O
+Motherwell,NNP,B-NP,B-ORG
+3,CD,I-NP,O

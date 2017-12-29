@@ -1,0 +1,11 @@
+0,1,2,3
+Three,CD,B-NP,O
+dead,JJ,I-NP,O
+in,IN,B-PP,O
+Kurd,NNP,B-NP,B-MISC
+militia,NN,I-NP,O
+blood,NN,I-NP,O
+feud,NN,I-NP,O
+in,IN,B-PP,O
+Turkey,NNP,B-NP,B-LOC
+.,.,O,O

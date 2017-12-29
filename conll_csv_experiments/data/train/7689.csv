@@ -1,0 +1,11 @@
+0,1,2,3
+Patrick,NNP,B-NP,B-PER
+Rafter,NNP,I-NP,I-PER
+(,(,O,O
+Australia,NNP,B-NP,B-LOC
+),),O,O
+beat,VB,B-VP,O
+11,CD,B-NP,O
+-,:,I-NP,O
+Alberto,NNP,I-NP,B-PER
+Berasategui,NNP,I-NP,I-PER

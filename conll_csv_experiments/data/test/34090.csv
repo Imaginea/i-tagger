@@ -1,0 +1,16 @@
+0,1,2,3
+Benchaou,NN,B-NP,B-PER
+died,VBD,B-VP,O
+of,IN,B-PP,O
+his,PRP$,B-NP,O
+injuries,NNS,I-NP,O
+on,IN,B-PP,O
+Thursday,NNP,B-NP,O
+night,NN,I-NP,O
+",",",",O,O
+two,CD,B-NP,O
+days,NNS,I-NP,O
+after,IN,B-PP,O
+the,DT,B-NP,O
+blast,NN,I-NP,O
+.,.,O,O

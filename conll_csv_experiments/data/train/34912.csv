@@ -1,0 +1,14 @@
+0,1,2,3
+Thomas,NNP,B-NP,B-PER
+Gogele,NNP,I-NP,I-PER
+(,(,O,O
+Germany,NNP,B-NP,B-LOC
+),),O,O
+67,CD,B-NP,O
+65,CD,I-NP,O
+",",",",O,O
+Paul,NNP,B-NP,B-PER
+Broadhurst,NNP,I-NP,I-PER
+62,CD,I-NP,O
+70,CD,I-NP,O
+",",",",O,O

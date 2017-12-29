@@ -1,0 +1,32 @@
+0,1,2,3
+ ,O,O,<UNK>
+Egypt,NNP,B-NP,B-LOC
+will,MD,B-VP,O
+contact,VB,I-VP,O
+the,DT,B-NP,O
+British,JJ,I-NP,B-MISC
+government,NN,I-NP,O
+to,TO,B-VP,O
+find,VB,I-VP,O
+out,RP,B-PRT,O
+the,DT,B-NP,O
+truth,NN,I-NP,O
+of,IN,B-PP,O
+the,DT,B-NP,O
+matter,NN,I-NP,O
+and,CC,O,O
+to,TO,B-VP,O
+discuss,VB,I-VP,O
+the,DT,B-NP,O
+possible,JJ,I-NP,O
+consequences,NNS,I-NP,O
+of,IN,B-PP,O
+such,JJ,B-NP,O
+an,DT,I-NP,O
+unfortunate,JJ,I-NP,O
+step,NN,I-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+he,PRP,B-NP,O
+added,VBD,B-VP,O
+.,.,O,O

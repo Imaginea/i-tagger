@@ -1,0 +1,12 @@
+0,1,2,3
+Confirmed,VBN,B-NP,O
+-,:,O,O
+None,NN,B-NP,O
+Week,NN,I-NP,O
+Ago,NNP,I-NP,O
+-,:,O,O
+800,CD,B-NP,O
+Year,NNP,I-NP,O
+Ago,NNP,I-NP,O
+-,:,O,O
+900,CD,B-NP,O

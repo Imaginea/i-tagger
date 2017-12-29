@@ -1,0 +1,10 @@
+0,1,2,3
+BALANCE,NNP,B-NP,O
+-,:,O,O
+Ohio,NNP,B-NP,B-LOC
+refunding,NN,I-NP,O
+bonds,NNS,I-NP,O
+at,IN,B-PP,O
+$,$,B-NP,O
+"290,000",CD,I-NP,O
+.,.,O,O

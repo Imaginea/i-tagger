@@ -1,0 +1,16 @@
+0,1,2,3
+O,UH,B-INTJ,B-ORG
+Globo,NNP,B-NP,I-ORG
+also,RB,B-ADVP,O
+said,VBD,B-VP,O
+another,DT,B-NP,O
+delicate,JJ,I-NP,O
+case,NN,I-NP,O
+to,TO,B-VP,O
+be,VB,I-VP,O
+solved,VBN,I-VP,O
+involves,VBZ,B-VP,O
+private,JJ,B-NP,O
+bank,NN,I-NP,O
+Bamerindus,NNS,I-NP,B-ORG
+.,.,O,O

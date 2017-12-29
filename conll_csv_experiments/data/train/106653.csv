@@ -1,0 +1,9 @@
+0,1,2,3
+Japan,NNP,B-NP,B-LOC
+'s,POS,B-NP,O
+Hashimoto,NNP,I-NP,B-PER
+leaves,VBZ,B-VP,O
+Brazil,NNP,B-NP,B-LOC
+for,IN,B-PP,O
+Peru,NNP,B-NP,B-LOC
+.,.,O,O

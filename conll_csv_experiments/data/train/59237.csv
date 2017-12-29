@@ -1,0 +1,8 @@
+0,1,2,3
+Willem,NNP,B-NP,B-ORG
+II,NNP,I-NP,I-ORG
+Tilburg,NNP,I-NP,I-ORG
+0,CD,I-NP,O
+Fortuna,NNP,I-NP,B-ORG
+Sittard,NNP,I-NP,I-ORG
+1,CD,I-NP,O

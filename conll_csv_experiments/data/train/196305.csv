@@ -1,0 +1,11 @@
+0,1,2,3
+They,PRP,B-NP,O
+caused,VBD,B-VP,O
+damage,NN,B-NP,O
+but,CC,O,O
+no,DT,B-NP,O
+casualties,NNS,I-NP,O
+",",",",I-NP,O
+police,NN,I-NP,O
+said,VBD,B-VP,O
+.,.,O,O

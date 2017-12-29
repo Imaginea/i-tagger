@@ -1,0 +1,5 @@
+0,1,2,3
+Watford,NNP,B-NP,B-ORG
+0,CD,I-NP,O
+Plymouth,NNP,I-NP,B-ORG
+2,CD,I-NP,O

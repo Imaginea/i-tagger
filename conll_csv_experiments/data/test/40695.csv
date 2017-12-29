@@ -1,0 +1,5 @@
+0,1,2,3
+10.,CD,B-NP,O
+United,NNP,I-NP,B-LOC
+States,NNP,I-NP,I-LOC
+164,CD,I-NP,O

@@ -1,0 +1,14 @@
+0,1,2,3
+Bunge,NN,B-NP,B-ORG
+sold,VBD,B-VP,O
+the,DT,B-NP,O
+first,JJ,I-NP,O
+shipment,NN,I-NP,O
+and,CC,O,O
+Cargill,NNP,B-NP,B-ORG
+the,DT,B-NP,O
+second,JJ,I-NP,O
+",",",",I-NP,O
+traders,NNS,I-NP,O
+said,VBD,B-VP,O
+.,.,O,O

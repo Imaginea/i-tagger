@@ -1,0 +1,20 @@
+0,1,2,3
+BioVest,JJS,B-NP,B-ORG
+Research,NN,I-NP,I-ORG
+",",",",O,I-ORG
+Inc,NNP,B-NP,I-ORG
+'s,POS,B-NP,O
+analyst,NN,I-NP,O
+Eddie,NNP,I-NP,B-PER
+Hedaya,NNP,I-NP,I-PER
+said,VBD,B-VP,O
+",",",",O,O
+ ,O,O,<UNK>
+Berlex,NNP,B-NP,B-ORG
+sales,NNS,I-NP,O
+are,VBP,B-VP,O
+losing,VBG,I-VP,O
+share,NN,B-NP,O
+like,IN,B-PP,O
+mad,JJ,B-NP,O
+...,:,O,O

@@ -1,0 +1,17 @@
+0,1,2,3
+Wuhan,NNP,B-NP,B-LOC
+consumes,NNS,I-NP,O
+more,JJR,B-NP,O
+than,IN,I-NP,O
+200,CD,I-NP,O
+million,CD,I-NP,O
+disposable,JJ,I-NP,O
+plastic,NN,I-NP,O
+containers,NNS,I-NP,O
+a,DT,B-NP,O
+year,NN,I-NP,O
+",",",",O,O
+the,DT,B-NP,O
+newspaper,NN,I-NP,O
+said,VBD,B-VP,O
+.,.,O,O

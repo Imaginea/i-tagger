@@ -1,0 +1,20 @@
+0,1,2,3
+Death,NN,B-NP,O
+is,VBZ,B-VP,O
+not,RB,O,O
+a,DT,B-NP,O
+punishment,NN,I-NP,O
+--,:,O,O
+death,NN,B-NP,O
+is,VBZ,B-VP,O
+the,DT,B-NP,O
+end,NN,I-NP,O
+of,IN,B-PP,O
+life,NN,B-NP,O
+'s,POS,B-NP,O
+punishment,NN,I-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+he,PRP,B-NP,O
+said,VBD,B-VP,O
+.,.,O,O

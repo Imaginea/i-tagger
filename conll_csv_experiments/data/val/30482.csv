@@ -1,0 +1,13 @@
+0,1,2,3
+Darryn,NNP,B-NP,B-PER
+Hill,NNP,I-NP,I-PER
+(,(,O,O
+Australia,NNP,B-NP,B-LOC
+),),O,O
+beat,VB,B-VP,O
+Christian,NNP,B-NP,B-PER
+Arrue,NNP,I-NP,I-PER
+(,(,O,O
+U.S.,NNP,B-NP,B-LOC
+),),O,O
+2-0,CD,B-NP,O

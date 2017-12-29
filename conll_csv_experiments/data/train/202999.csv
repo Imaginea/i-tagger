@@ -1,0 +1,15 @@
+0,1,2,3
+EU,NN,B-NP,B-ORG
+barley,NN,I-NP,O
+sale,NN,I-NP,O
+worth,JJ,B-ADJP,O
+$,$,B-NP,O
+145,CD,I-NP,O
+/,SYM,O,O
+T,NN,B-NP,O
+",",",",O,O
+for,IN,B-PP,O
+Saudi,JJ,B-NP,B-MISC
+-,:,I-NP,O
+sources,NNS,I-NP,O
+.,.,O,O

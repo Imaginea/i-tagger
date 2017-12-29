@@ -1,0 +1,7 @@
+0,1,2,3
+Pedro,NNP,B-NP,B-PER
+Diniz,NNP,I-NP,I-PER
+(,(,O,O
+Brazil,NNP,B-NP,B-LOC
+),),O,O
+1,CD,B-NP,O

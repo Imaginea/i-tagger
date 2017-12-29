@@ -1,0 +1,10 @@
+0,1,2,3
+Bowling,NNP,B-NP,O
+:,:,O,O
+Gough,JJ,B-NP,B-PER
+8-0-39-3,CD,I-NP,O
+",",",",O,O
+Mullally,NNP,B-NP,B-PER
+6-0-30-1,CD,I-NP,O
+",",",",O,O
+Headley,NNP,B-NP,B-PER

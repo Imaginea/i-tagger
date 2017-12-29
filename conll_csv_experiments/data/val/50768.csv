@@ -1,0 +1,8 @@
+0,1,2,3
+KPD,NNP,B-NP,B-ORG
+confirms,VBZ,B-VP,O
+Iraqi,JJ,B-NP,B-MISC
+military,JJ,I-NP,O
+aid-U.N.,NN,I-NP,B-MISC
+official,NN,I-NP,O
+.,.,O,O

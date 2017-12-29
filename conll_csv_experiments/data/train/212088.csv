@@ -1,0 +1,10 @@
+0,1,2,3
+Finns,NNPS,B-NP,B-MISC
+hold,VBP,B-VP,O
+two,CD,B-NP,O
+men,NNS,I-NP,O
+on,IN,B-PP,O
+child,NN,B-NP,O
+sex-abuse,NN,I-NP,O
+charges,NNS,I-NP,O
+.,.,O,O

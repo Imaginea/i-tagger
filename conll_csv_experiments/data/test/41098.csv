@@ -1,0 +1,5 @@
+0,1,2,3
+Women,NNS,B-NP,O
+'s,POS,B-NP,O
+7.5,CD,I-NP,O
+kms,NNS,I-NP,O

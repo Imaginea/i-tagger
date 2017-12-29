@@ -1,0 +1,30 @@
+0,1,2,3
+ ,O,O,<UNK>
+There,EX,B-NP,O
+is,VBZ,B-VP,O
+no,DT,B-NP,O
+doubt,NN,I-NP,O
+that,IN,B-SBAR,O
+economic,JJ,B-NP,O
+growth,NN,I-NP,O
+has,VBZ,B-VP,O
+already,RB,I-VP,O
+started,VBN,I-VP,O
+",",",",O,O
+ ,O,O,<UNK>
+said,VBD,B-VP,O
+Adelbert,NNP,B-NP,B-PER
+Knobl,NNP,I-NP,I-PER
+",",",",O,O
+head,NN,B-NP,O
+of,IN,B-PP,O
+the,DT,B-NP,O
+International,NNP,I-NP,B-ORG
+Monetary,NNP,I-NP,I-ORG
+Fund,NNP,I-NP,I-ORG
+'s,POS,B-NP,O
+mission,NN,I-NP,O
+in,IN,B-PP,O
+Ukraine,NNP,B-NP,B-LOC
+.,.,I-NP,O
+ ,O,O,<UNK>

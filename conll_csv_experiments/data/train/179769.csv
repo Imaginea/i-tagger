@@ -1,0 +1,8 @@
+0,1,2,3
+Investigators,NNS,B-NP,O
+are,VBP,B-VP,O
+probing,VBG,I-VP,O
+several,JJ,B-NP,O
+other,JJ,I-NP,O
+cases,NNS,I-NP,O
+.,.,O,O

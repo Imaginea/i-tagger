@@ -1,0 +1,22 @@
+0,1,2,3
+But,CC,O,O
+Raichev,NNP,B-NP,B-PER
+said,VBD,B-VP,O
+it,PRP,B-NP,O
+would,MD,B-VP,O
+be,VB,I-VP,O
+ ,O,O,<UNK>
+discrimination,NN,B-NP,O
+ ,O,O,<UNK>
+against,IN,B-PP,O
+the,DT,B-NP,O
+other,JJ,I-NP,O
+airlines,NNS,I-NP,O
+if,IN,B-SBAR,O
+only,JJ,B-NP,O
+Balkan,NNP,I-NP,B-LOC
+planes,NNS,I-NP,O
+were,VBD,B-VP,O
+guided,VBN,I-VP,O
+in,RP,B-PRT,O
+.,.,O,O

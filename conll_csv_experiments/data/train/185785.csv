@@ -1,0 +1,30 @@
+0,1,2,3
+The,DT,B-NP,O
+Iraqi,JJ,I-NP,B-MISC
+statement,NN,I-NP,O
+said,VBD,B-VP,O
+the,DT,B-NP,O
+United,NNP,I-NP,B-LOC
+States,NNP,I-NP,I-LOC
+was,VBD,B-VP,O
+ ,O,O,<UNK>
+interfering,VBG,B-VP,O
+and,CC,I-VP,O
+pressing,VBG,I-VP,O
+to,TO,I-VP,O
+augment,VB,I-VP,O
+the,DT,B-NP,O
+number,NN,I-NP,O
+of,IN,B-PP,O
+international,JJ,B-NP,O
+staff,NN,I-NP,O
+and,CC,O,O
+this,DT,B-NP,O
+is,VBZ,B-VP,O
+not,RB,O,O
+legal,JJ,B-NP,O
+and,CC,B-CONJP,O
+not,RB,I-CONJP,O
+justified,VBN,B-VP,O
+.,.,O,O
+ ,O,O,<UNK>

@@ -1,0 +1,16 @@
+0,1,2,3
+ ,O,O,<UNK>
+At,IN,B-PP,O
+some,DT,B-NP,O
+points,NNS,I-NP,O
+I,PRP,B-NP,O
+felt,VBD,B-VP,O
+a,DT,B-NP,O
+little,RB,I-NP,O
+nervous,JJ,I-NP,O
+",",",",I-NP,O
+ ,O,O,<UNK>
+she,PRP,B-NP,O
+admitted,VBD,B-VP,O
+.,.,O,O
+ ,O,O,<UNK>

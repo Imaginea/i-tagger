@@ -1,0 +1,11 @@
+0,1,2,3
+There,EX,B-NP,O
+were,VBD,B-VP,O
+only,RB,B-NP,O
+two,CD,I-NP,O
+service,NN,I-NP,O
+breaks,NNS,I-NP,O
+in,IN,B-PP,O
+the,DT,B-NP,O
+match,NN,I-NP,O
+.,.,O,O

@@ -1,0 +1,9 @@
+0,1,2,3
+Nigerian,JJ,B-NP,B-MISC
+general,JJ,I-NP,O
+takes,VBZ,B-VP,O
+over,IN,B-PP,O
+Liberia,NNPS,B-NP,B-LOC
+ECOMOG,NN,I-NP,B-ORG
+force,NN,I-NP,O
+.,.,O,O

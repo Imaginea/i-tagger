@@ -1,0 +1,10 @@
+0,1,2,3
+Only,RB,B-NP,O
+a,DT,I-NP,O
+few,JJ,I-NP,O
+Palestinians,NNPS,I-NP,B-MISC
+trickled,VBN,B-VP,O
+to,TO,B-PP,O
+the,DT,B-NP,O
+roadblocks,NNS,I-NP,O
+.,.,O,O

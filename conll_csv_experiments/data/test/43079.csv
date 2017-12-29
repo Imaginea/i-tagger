@@ -1,0 +1,8 @@
+0,1,2,3
+2.,CD,B-NP,O
+Kusunose,NNP,I-NP,B-PER
+Shiho,NNP,I-NP,I-PER
+(,(,O,O
+Japan,NNP,B-NP,B-LOC
+),),O,O
+1:24.77,CD,B-NP,O

@@ -1,0 +1,16 @@
+0,1,2,3
+Guingamp,NN,B-NP,B-ORG
+2,CD,I-NP,O
+(,(,O,O
+Wreh,NNP,B-NP,B-PER
+15th,JJ,I-NP,O
+",",",",I-NP,O
+42nd,NNP,I-NP,O
+),),O,O
+Monaco,NNP,B-NP,B-ORG
+1,CD,I-NP,O
+(,(,O,O
+Scifo,NNP,B-NP,B-PER
+35th,JJ,I-NP,O
+),),O,O
+.,.,O,O

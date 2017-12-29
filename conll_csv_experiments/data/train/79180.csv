@@ -1,0 +1,5 @@
+0,1,2,3
+13.,CD,B-NP,O
+Paul,NNP,I-NP,B-PER
+Lawrie,NNP,I-NP,I-PER
+"207,990",CD,I-NP,O

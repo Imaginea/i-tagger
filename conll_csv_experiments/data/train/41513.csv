@@ -1,0 +1,5 @@
+0,1,2,3
+GROZNY,NNP,B-NP,B-LOC
+",",",",O,O
+Russia,NNP,B-NP,B-LOC
+1996-08-23,CD,I-NP,O

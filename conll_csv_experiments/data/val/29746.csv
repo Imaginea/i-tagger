@@ -1,0 +1,9 @@
+0,1,2,3
+4.,CD,B-NP,O
+Marco,NNP,I-NP,B-PER
+Lietti,NNP,I-NP,I-PER
+(,(,O,O
+Italy,NNP,B-NP,B-LOC
+),),O,O
+MG-Technogym,NNP,B-NP,B-ORG
+1:16,CD,I-NP,O

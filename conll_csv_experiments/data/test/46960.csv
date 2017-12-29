@@ -1,0 +1,15 @@
+0,1,2,3
+Forwards,NNS,B-NP,O
+-,:,O,O
+Altin,NNP,B-NP,B-PER
+Rraklli,NNP,I-NP,I-PER
+",",",",O,O
+Viktor,NNP,B-NP,B-PER
+Paco,NNP,I-NP,I-PER
+",",",",O,O
+Fatmir,NNP,B-NP,B-PER
+Vata,NNP,I-NP,I-PER
+",",",",O,O
+Erjon,NNP,B-NP,B-PER
+Bogdani,NNP,I-NP,I-PER
+.,.,O,O

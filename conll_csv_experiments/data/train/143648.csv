@@ -1,0 +1,9 @@
+0,1,2,3
+Wife,NN,B-NP,O
+of,IN,B-PP,O
+gun,NN,B-NP,O
+victim,NN,I-NP,O
+Brady,NNP,I-NP,B-PER
+praises,VBZ,B-VP,O
+Clinton,NNP,B-NP,B-PER
+.,.,O,O

@@ -1,0 +1,8 @@
+0,1,2,3
+England,NNP,B-NP,B-LOC
+second,JJ,I-NP,O
+innings,NN,I-NP,O
+(,(,O,O
+overnight,JJ,B-NP,O
+74-0,JJ,I-NP,O
+),),O,O

@@ -1,0 +1,15 @@
+0,1,2,3
+The,DT,B-NP,O
+group,NN,I-NP,O
+reported,VBD,B-VP,O
+a,DT,B-NP,O
+1996,CD,I-NP,O
+first-half,JJ,I-NP,O
+group,NN,I-NP,O
+net,JJ,I-NP,O
+profit,NN,I-NP,O
+of,IN,B-PP,O
+282,CD,B-NP,O
+million,CD,I-NP,O
+marks,NNS,I-NP,O
+.,.,O,O

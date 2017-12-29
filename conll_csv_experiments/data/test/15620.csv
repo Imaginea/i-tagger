@@ -1,0 +1,15 @@
+0,1,2,3
+The,DT,B-NP,O
+refunding,JJ,I-NP,O
+planned,VBN,I-NP,O
+for,IN,B-PP,O
+January,NNP,B-NP,O
+also,RB,B-ADVP,O
+includes,VBZ,B-VP,O
+a,DT,B-NP,O
+$,$,I-NP,O
+475,CD,I-NP,O
+million,CD,I-NP,O
+tax-exempt,JJ,I-NP,O
+offering,NN,I-NP,O
+.,.,O,O

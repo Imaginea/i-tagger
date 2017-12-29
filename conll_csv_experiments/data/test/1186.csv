@@ -1,0 +1,8 @@
+0,1,2,3
+4.,CD,B-NP,O
+Jean-Luc,NNP,I-NP,B-PER
+Brassard,NNP,I-NP,I-PER
+(,(,O,O
+Canada,NNP,B-NP,B-LOC
+),),O,O
+24.40,CD,B-NP,O

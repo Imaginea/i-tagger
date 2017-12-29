@@ -1,0 +1,21 @@
+0,1,2,3
+ ,O,O,<UNK>
+I,PRP,B-NP,O
+thought,VBD,B-VP,O
+he,PRP,B-NP,O
+looked,VBD,B-VP,O
+a,DT,B-NP,O
+little,RB,I-NP,O
+unfocused,JJ,B-ADJP,O
+at,IN,B-PP,O
+certain,JJ,B-NP,O
+times,NNS,I-NP,O
+on,IN,B-PP,O
+his,PRP$,B-NP,O
+ground,NN,I-NP,O
+strokes,NNS,I-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+said,VBD,B-VP,O
+Tillstrom,NNP,B-NP,B-PER
+.,.,O,O

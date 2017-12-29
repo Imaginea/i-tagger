@@ -1,0 +1,7 @@
+0,1,2,3
+Six,CD,B-NP,O
+month,NN,I-NP,O
+rate,NN,I-NP,O
+10.5,CD,B-NP,O
+pct,NN,I-NP,O
+10.75,CD,B-NP,O

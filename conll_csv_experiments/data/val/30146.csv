@@ -1,0 +1,8 @@
+0,1,2,3
+2.,NNP,B-NP,O
+Marion,NNP,I-NP,B-PER
+Clignet,NNP,I-NP,I-PER
+(,(,O,O
+France,NNP,B-NP,B-LOC
+),),O,O
+3:31.674,CD,B-NP,O

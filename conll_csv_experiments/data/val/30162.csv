@@ -1,0 +1,8 @@
+0,1,2,3
+4.,CD,B-NP,O
+Yvonne,NNP,I-NP,B-PER
+McGregor,NNP,I-NP,I-PER
+(,(,O,O
+Britain,NNP,B-NP,B-LOC
+),),O,O
+3:41.823,CD,B-NP,O

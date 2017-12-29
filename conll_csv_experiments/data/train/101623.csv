@@ -1,0 +1,17 @@
+0,1,2,3
+Barcelona,NNP,B-NP,B-ORG
+beat,VBD,B-VP,O
+Atletico,NNP,B-NP,B-ORG
+Madrid,NNP,B-NP,I-ORG
+5-2,CD,I-NP,O
+(,(,I-NP,O
+halftime,NN,I-NP,O
+2-1,CD,I-NP,O
+),),O,O
+in,IN,B-PP,O
+the,DT,B-NP,O
+Spanish,NNP,I-NP,B-MISC
+Supercup,NNP,I-NP,I-MISC
+on,IN,B-PP,O
+Sunday,NNP,B-NP,O
+:,:,O,O

@@ -1,0 +1,7 @@
+0,1,2,3
+Advanced,NNP,B-NP,B-ORG
+Medical,NNP,I-NP,I-ORG
+buying,VBG,B-VP,O
+IVAC,NNP,B-NP,B-ORG
+Medical,NNP,I-NP,I-ORG
+.,.,O,O

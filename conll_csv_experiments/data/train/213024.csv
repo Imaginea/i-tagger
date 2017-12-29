@@ -1,0 +1,28 @@
+0,1,2,3
+ ,O,O,<UNK>
+When,WRB,B-ADVP,O
+the,DT,B-NP,O
+(,(,O,O
+profit,NN,B-NP,O
+),),O,O
+figures,VBZ,B-VP,O
+will,MD,B-VP,O
+bounce,VB,I-VP,O
+back,RB,B-ADVP,O
+up,IN,I-ADVP,O
+again,RB,B-ADVP,O
+is,VBZ,B-VP,O
+just,RB,B-NP,O
+a,DT,I-NP,O
+function,NN,I-NP,O
+of,IN,B-PP,O
+markets,NNS,B-NP,O
+recovering,VBG,B-VP,O
+just,RB,B-NP,O
+a,DT,I-NP,O
+fraction,NN,I-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+he,PRP,B-NP,O
+added,VBD,B-VP,O
+.,.,O,O

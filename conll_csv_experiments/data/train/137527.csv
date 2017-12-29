@@ -1,0 +1,9 @@
+0,1,2,3
+U.S.,NNP,B-NP,B-LOC
+bulk,NN,I-NP,O
+millfeeds,NNS,I-NP,O
+-,:,O,O
+Immediate,NNP,B-NP,O
+supply,NN,I-NP,O
+tight,JJ,I-NP,O
+.,.,O,O

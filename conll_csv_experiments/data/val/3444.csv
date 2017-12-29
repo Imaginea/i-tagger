@@ -1,0 +1,9 @@
+0,1,2,3
+But,CC,O,O
+the,DT,B-NP,O
+night,NN,I-NP,O
+belonged,VBD,B-VP,O
+to,TO,B-PP,O
+the,DT,B-NP,O
+upstarts,NNS,I-NP,O
+.,.,O,O

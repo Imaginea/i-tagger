@@ -1,0 +1,16 @@
+0,1,2,3
+The,DT,B-NP,O
+evening,NN,I-NP,O
+of,IN,B-PP,O
+the,DT,B-NP,O
+same,JJ,I-NP,O
+day,NN,I-NP,O
+the,DT,B-NP,O
+missionaries,NNS,I-NP,O
+were,VBD,B-VP,O
+put,VBN,I-VP,O
+in,IN,B-PP,O
+prison,NN,B-NP,O
+or,CC,I-NP,O
+isolation,NN,I-NP,O
+.,.,O,O

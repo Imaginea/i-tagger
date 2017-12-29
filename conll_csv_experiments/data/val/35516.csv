@@ -1,0 +1,8 @@
+0,1,2,3
+Hajduk,NNS,B-NP,B-ORG
+2,CD,B-NP,O
+Proleter,NNP,I-NP,B-ORG
+(,(,O,I-ORG
+Z,NNP,B-NP,I-ORG
+),),O,I-ORG
+0,CD,B-NP,O

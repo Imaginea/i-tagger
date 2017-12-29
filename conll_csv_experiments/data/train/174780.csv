@@ -1,0 +1,10 @@
+0,1,2,3
+Bhutto,NNP,B-NP,B-PER
+has,VBZ,B-VP,O
+vowed,VBN,I-VP,O
+to,TO,I-VP,O
+complete,VB,I-VP,O
+her,PRP$,B-NP,O
+five-year,JJ,I-NP,O
+term,NN,I-NP,O
+.,.,O,O

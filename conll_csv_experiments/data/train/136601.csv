@@ -1,0 +1,10 @@
+0,1,2,3
+Spring,NNP,B-NP,O
+Chg,NNP,I-NP,O
+Durum,NNP,I-NP,O
+(,(,O,O
+m,VBP,B-VP,O
+),),O,O
+Chg,NNP,B-NP,O
+White,NNP,I-NP,O
+Chg,NNP,I-NP,O

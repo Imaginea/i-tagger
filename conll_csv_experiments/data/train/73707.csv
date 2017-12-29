@@ -1,0 +1,12 @@
+0,1,2,3
+tennis,NN,B-NP,O
+tournament,NN,I-NP,O
+on,IN,B-PP,O
+Sunday,NNP,B-NP,O
+(,(,O,O
+prefix,JJ,B-NP,O
+number,NN,I-NP,O
+denotes,VBZ,B-VP,O
+seeding,NN,B-NP,O
+),),O,O
+:,:,O,O

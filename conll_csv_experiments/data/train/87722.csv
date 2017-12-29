@@ -1,0 +1,11 @@
+0,1,2,3
+North,JJ,B-NP,B-MISC
+Afghan,JJ,I-NP,I-MISC
+highway,NN,I-NP,O
+opening,NN,I-NP,O
+put,VBD,B-VP,O
+off,RP,B-PRT,O
+",",",",O,O
+radio,NN,B-NP,O
+says,VBZ,B-VP,O
+.,.,O,O

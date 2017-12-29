@@ -1,0 +1,10 @@
+0,1,2,3
+Shops,NNS,B-NP,O
+and,CC,I-NP,O
+businesses,NNS,I-NP,O
+have,VBP,B-VP,O
+remained,VBN,I-VP,O
+shut,VBN,I-VP,O
+this,DT,B-NP,O
+week,NN,I-NP,O
+.,.,O,O

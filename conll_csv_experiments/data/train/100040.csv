@@ -1,0 +1,14 @@
+0,1,2,3
+Nathalie,NNP,B-NP,B-PER
+Dechy,NNP,I-NP,I-PER
+(,(,O,O
+France,NNP,B-NP,B-LOC
+),),O,O
+beat,VB,B-VP,O
+Christina,NNP,B-NP,B-PER
+Singer,NNP,I-NP,I-PER
+(,(,O,O
+Germany,NNP,B-NP,B-LOC
+),),O,O
+6-4,CD,B-NP,O
+6-0,CD,I-NP,O

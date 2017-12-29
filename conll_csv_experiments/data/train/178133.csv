@@ -1,0 +1,10 @@
+0,1,2,3
+Israel,NNP,B-NP,B-LOC
+'s,POS,B-NP,O
+Levy,NNP,I-NP,B-PER
+to,TO,B-VP,O
+meet,VB,I-VP,O
+Mubarak,NNP,B-NP,B-PER
+in,IN,B-PP,O
+Egypt,NNP,B-NP,B-LOC
+.,.,O,O

@@ -1,0 +1,8 @@
+0,1,2,3
+Earnings,NNS,B-NP,O
+Per,IN,I-NP,O
+Share,NN,I-NP,O
+0.31,CD,I-NP,O
+0.34,CD,I-NP,O
+0.19,CD,I-NP,O
+0.20,CD,I-NP,O

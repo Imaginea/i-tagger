@@ -1,0 +1,12 @@
+0,1,2,3
+8.,NNP,B-NP,O
+Andre,NNP,I-NP,B-PER
+Ribeiro,NNP,I-NP,I-PER
+(,(,O,O
+Brazil,NNP,B-NP,B-LOC
+),),O,O
+",",",",O,O
+Lola,NNP,B-NP,B-ORG
+Honda,NNP,I-NP,I-ORG
+",",",",O,O
+54.750,CD,B-NP,O

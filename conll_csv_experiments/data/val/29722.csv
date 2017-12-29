@@ -1,0 +1,9 @@
+0,1,2,3
+1.,CD,B-NP,O
+Rolf,NNP,I-NP,B-PER
+Sorensen,NNP,I-NP,I-PER
+(,(,O,O
+Denmark,NNP,B-NP,B-LOC
+),),O,O
+Rabobank,NNP,B-NP,B-ORG
+20:36:54,NNS,I-NP,O

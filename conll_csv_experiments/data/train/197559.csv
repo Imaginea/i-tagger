@@ -1,0 +1,17 @@
+0,1,2,3
+Bank,NNP,B-NP,O
+notes,NNS,I-NP,O
+and,CC,I-NP,O
+acceptances,NNS,I-NP,O
+",",",",O,O
+including,VBG,B-PP,O
+pagares,NNS,B-NP,O
+",",",",O,O
+rose,VBD,B-VP,O
+46,CD,B-NP,O
+basis,NN,I-NP,O
+points,NNS,I-NP,O
+to,TO,B-PP,O
+25.10,CD,B-NP,O
+percent,NN,I-NP,O
+.,.,O,O

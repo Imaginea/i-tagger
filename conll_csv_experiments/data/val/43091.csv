@@ -1,0 +1,36 @@
+0,1,2,3
+Thatcher,NNP,B-NP,B-PER
+",",",",O,O
+dubbed,VBD,B-VP,O
+the,DT,B-NP,O
+ ,O,O,<UNK>
+Iron,NNP,B-NP,B-PER
+Lady,NNP,I-NP,I-PER
+ ,O,O,<UNK>
+for,IN,B-PP,O
+her,PRP$,B-NP,O
+driven,JJ,I-NP,O
+",",",",I-NP,O
+forceful,JJ,I-NP,O
+personality,NN,I-NP,O
+",",",",O,O
+was,VBD,B-VP,O
+never,RB,I-VP,O
+known,VBN,I-VP,O
+to,TO,I-VP,O
+have,VB,I-VP,O
+an,DT,B-NP,O
+interest,NN,I-NP,O
+in,IN,B-PP,O
+the,DT,B-NP,O
+occult,JJ,I-NP,O
+and,CC,O,O
+in,IN,B-PP,O
+fact,NN,B-NP,O
+has,VBZ,B-VP,O
+a,DT,B-NP,O
+university,NN,I-NP,O
+degree,NN,I-NP,O
+in,IN,B-PP,O
+chemistry,NN,B-NP,O
+.,.,O,O

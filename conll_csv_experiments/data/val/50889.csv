@@ -1,0 +1,17 @@
+0,1,2,3
+A,DT,B-NP,O
+fire,NN,I-NP,O
+has,VBZ,B-VP,O
+completely,RB,B-ADJP,O
+gutted,VBD,B-VP,O
+a,DT,B-NP,O
+Turkish-operated,JJ,I-NP,O
+restaurant,NN,I-NP,O
+in,IN,B-PP,O
+a,DT,B-NP,O
+Bahraini,NNP,I-NP,B-LOC
+village,NN,I-NP,O
+",",",",O,O
+residents,NNS,B-NP,O
+said,VBD,B-VP,O
+.,.,O,O

@@ -1,0 +1,13 @@
+0,1,2,3
+How,WRB,B-ADVP,O
+could,MD,O,O
+we,PRP,B-NP,O
+alone,RB,B-ADVP,O
+be,VB,B-VP,O
+held,VBN,I-VP,O
+responsible,JJ,B-ADJP,O
+for,IN,B-PP,O
+the,DT,B-NP,O
+influx,NN,I-NP,O
+?,.,O,O
+ ,O,O,<UNK>

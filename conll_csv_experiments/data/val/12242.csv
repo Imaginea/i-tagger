@@ -1,0 +1,8 @@
+0,1,2,3
+Belgrade,NNP,B-NP,B-LOC
+airport,NN,I-NP,O
+runway,NN,I-NP,O
+repairs,NNS,I-NP,O
+Sept,NNP,B-NP,O
+21-26-agency,NNP,I-NP,O
+.,.,O,O

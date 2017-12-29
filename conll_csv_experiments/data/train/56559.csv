@@ -1,0 +1,6 @@
+0,1,2,3
+Sheffield,NNP,B-NP,B-ORG
+United,NNP,I-NP,I-ORG
+4,CD,I-NP,O
+Birmingham,NNP,B-NP,B-ORG
+4,CD,I-NP,O

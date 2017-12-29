@@ -1,0 +1,14 @@
+0,1,2,3
+Deliveries,NNS,B-NP,O
+are,VBP,B-VP,O
+due,JJ,B-ADJP,O
+to,TO,B-VP,O
+be,VB,I-VP,O
+completed,VBN,I-VP,O
+by,IN,B-PP,O
+1999,CD,B-NP,O
+",",",",O,O
+the,DT,B-NP,O
+company,NN,I-NP,O
+said,VBD,B-VP,O
+.,.,O,O

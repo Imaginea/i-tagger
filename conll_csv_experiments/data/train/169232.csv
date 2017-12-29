@@ -1,0 +1,34 @@
+0,1,2,3
+ ,O,O,<UNK>
+Even,RB,B-ADVP,O
+though,IN,B-SBAR,O
+it,PRP,B-NP,O
+'s,VBZ,B-VP,O
+an,DT,B-NP,O
+act,NN,I-NP,O
+of,IN,B-PP,O
+common,JJ,B-NP,O
+delinquency,NN,I-NP,O
+",",",",O,O
+the,DT,B-NP,O
+case,NN,I-NP,O
+could,MD,B-VP,O
+take,VB,I-VP,O
+a,DT,B-NP,O
+difficult,JJ,I-NP,O
+turn,NN,I-NP,O
+because,IN,B-SBAR,O
+former,JJ,B-NP,O
+Nicaraguan,JJ,I-NP,B-MISC
+guerrillas,NNS,I-NP,O
+are,VBP,B-VP,O
+involved,VBN,I-VP,O
+",",",",O,O
+ ,O,O,<UNK>
+Security,NNP,B-NP,O
+Minister,NNP,I-NP,O
+Bernardo,NNP,I-NP,B-PER
+Arce,NNP,I-NP,I-PER
+told,VBD,B-VP,O
+reporters,NNS,B-NP,O
+.,.,O,O

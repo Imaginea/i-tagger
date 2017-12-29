@@ -1,0 +1,29 @@
+0,1,2,3
+ ,O,O,<UNK>
+If,IN,B-SBAR,O
+it,PRP,B-NP,O
+goes,VBZ,B-VP,O
+on,IN,B-PP,O
+like,JJ,B-NP,O
+this,DT,B-NP,O
+",",",",O,O
+we,PRP,B-NP,O
+wo,MD,B-VP,O
+n't,RB,I-VP,O
+have,VB,I-VP,O
+enough,JJ,B-NP,O
+time,NN,I-NP,O
+to,TO,B-VP,O
+finish,VB,I-VP,O
+all,DT,B-NP,O
+the,DT,I-NP,O
+discussions,NNS,I-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+a,DT,B-NP,O
+frustrated,JJ,I-NP,O
+Western,JJ,I-NP,O
+delegate,NN,I-NP,O
+said,VBD,B-VP,O
+.,.,O,O
+ ,O,O,<UNK>

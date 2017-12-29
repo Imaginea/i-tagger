@@ -1,0 +1,8 @@
+0,1,2,3
+5.,NNP,B-NP,O
+Steve,NNP,I-NP,B-PER
+Brown,NNP,I-NP,I-PER
+(,(,O,O
+U.S.,NNP,B-NP,B-LOC
+),),O,O
+13.38,CD,B-NP,O

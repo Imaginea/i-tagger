@@ -1,0 +1,15 @@
+0,1,2,3
+"18,000",CD,B-NP,O
+Freiburg,VBG,B-VP,B-ORG
+1,CD,B-NP,O
+(,(,O,O
+Zeyer,JJR,B-NP,B-PER
+52nd,CD,I-NP,O
+),),O,O
+Cologne,NNP,B-NP,B-ORG
+3,CD,I-NP,O
+(,(,O,O
+Gaissmayer,JJR,B-NP,B-PER
+9th,CD,I-NP,O
+",",",",O,O
+Polster,NNP,B-NP,B-PER

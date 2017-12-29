@@ -1,0 +1,6 @@
+0,1,2,3
+Jens,NNP,B-NP,B-PER
+Lehman,NNP,I-NP,I-PER
+(,(,O,O
+Germany,NNP,B-NP,B-LOC
+),),O,O

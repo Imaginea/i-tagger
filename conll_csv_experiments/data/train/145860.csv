@@ -1,0 +1,30 @@
+0,1,2,3
+ ,O,O,<UNK>
+The,DT,B-NP,O
+letter,NN,I-NP,O
+said,VBD,B-VP,O
+the,DT,B-NP,O
+party,NN,I-NP,O
+would,MD,B-VP,O
+assault,VB,I-VP,O
+the,DT,B-NP,O
+embassy,NN,I-NP,O
+",",",",O,O
+other,JJ,B-NP,O
+South,NNP,I-NP,B-MISC
+Korean-related,JJ,I-NP,I-MISC
+facilities,NNS,I-NP,O
+and,CC,I-NP,O
+Korean,JJ,I-NP,B-MISC
+nationals,NNS,I-NP,O
+unless,IN,B-SBAR,O
+our,PRP$,B-NP,O
+authorities,NNS,I-NP,O
+released,VBD,B-VP,O
+arrested,VBN,I-VP,O
+students,NNS,B-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+he,PRP,B-NP,O
+said,VBD,B-VP,O
+.,.,O,O

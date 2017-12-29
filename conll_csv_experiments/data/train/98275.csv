@@ -1,0 +1,14 @@
+0,1,2,3
+The,DT,B-NP,O
+fast-moving,JJ,I-NP,O
+Olsza,NNP,I-NP,B-PER
+",",",",O,O
+18,CD,B-NP,O
+",",",",O,O
+was,VBD,B-VP,O
+cool,JJ,B-ADJP,O
+in,IN,B-PP,O
+her,PRP$,B-NP,O
+opening,NN,I-NP,O
+match,NN,I-NP,O
+.,.,O,O

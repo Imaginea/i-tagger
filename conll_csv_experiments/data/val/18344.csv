@@ -1,0 +1,20 @@
+0,1,2,3
+We,PRP,B-NP,O
+'ll,MD,B-VP,O
+get,VB,I-VP,O
+it,PRP,B-NP,O
+resolved,VBD,B-VP,O
+as,RB,B-ADVP,O
+quickly,RB,I-ADVP,O
+as,IN,B-SBAR,O
+we,PRP,B-NP,O
+can,MD,B-VP,O
+",",",",O,O
+based,VBN,B-PP,O
+on,IN,B-PP,O
+the,DT,B-NP,O
+best,JJS,I-NP,O
+available,JJ,I-NP,O
+science,NN,I-NP,O
+.,.,O,O
+ ,O,O,<UNK>

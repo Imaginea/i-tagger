@@ -1,0 +1,8 @@
+0,1,2,3
+8.,CD,B-NP,O
+Irina,NNP,I-NP,B-PER
+Yatchenko,NNP,I-NP,I-PER
+(,(,O,O
+Belarus,NNP,B-NP,B-LOC
+),),O,O
+58.92,CD,B-NP,O

@@ -1,0 +1,5 @@
+0,1,2,3
+18.,CD,B-NP,O
+Peter,NNP,I-NP,B-PER
+Mitchell,NNP,I-NP,I-PER
+"170,952",CD,I-NP,O

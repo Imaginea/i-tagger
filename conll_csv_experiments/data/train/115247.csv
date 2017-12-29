@@ -1,0 +1,11 @@
+0,1,2,3
+--,:,B-NP,O
+Garry,NNP,I-NP,B-PER
+West,NNP,I-NP,I-PER
+",",",",O,O
+Amsterdam,NNP,B-NP,B-LOC
+newsroom,NN,I-NP,O
++31,CD,B-NP,O
+20,CD,I-NP,O
+504,CD,I-NP,O
+5000,CD,I-NP,O

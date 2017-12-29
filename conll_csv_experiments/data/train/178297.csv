@@ -1,0 +1,12 @@
+0,1,2,3
+--,:,B-NP,O
+Akron,NNP,I-NP,B-LOC
+",",",",O,O
+Ohio,NNP,B-NP,B-LOC
+",",",",O,O
+$,$,B-NP,O
+6.31,CD,I-NP,O
+million,CD,I-NP,O
+improvement,NN,I-NP,O
+bonds,NNS,I-NP,O
+.,.,O,O

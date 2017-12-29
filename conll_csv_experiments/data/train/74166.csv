@@ -1,0 +1,7 @@
+0,1,2,3
+Sportul,JJ,B-NP,B-ORG
+Studentesc,NNP,I-NP,I-ORG
+4,CD,I-NP,O
+Universitatea,NNP,I-NP,B-ORG
+Craiova,NNP,I-NP,I-ORG
+2,CD,I-NP,O

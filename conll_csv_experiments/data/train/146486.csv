@@ -1,0 +1,14 @@
+0,1,2,3
+Two,CD,B-NP,O
+children,NNS,I-NP,O
+in,IN,B-PP,O
+Sakai,NNP,B-NP,B-LOC
+have,VBP,B-VP,O
+died,VBN,I-VP,O
+from,IN,B-PP,O
+complications,NNS,B-NP,O
+associated,VBN,B-VP,O
+with,IN,B-PP,O
+the,DT,B-NP,O
+bacteria,NNS,I-NP,O
+.,.,O,O

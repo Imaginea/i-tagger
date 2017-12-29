@@ -1,0 +1,7 @@
+0,1,2,3
+State,NNP,B-NP,B-ORG
+Street,NNP,I-NP,I-ORG
+Bank,NNP,I-NP,I-ORG
+and,CC,O,I-ORG
+Trust,NNP,B-NP,I-ORG
+Company,NNP,I-NP,I-ORG

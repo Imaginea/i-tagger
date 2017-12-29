@@ -1,0 +1,13 @@
+0,1,2,3
+Resalat,NN,B-NP,B-ORG
+said,VBD,B-VP,O
+the,DT,B-NP,O
+executions,NNS,I-NP,O
+were,VBD,B-VP,O
+ordered,VBN,I-VP,O
+by,IN,B-PP,O
+the,DT,B-NP,O
+Islamic,NNP,I-NP,B-ORG
+Revolutionary,NNP,I-NP,I-ORG
+Court,NNP,I-NP,I-ORG
+.,.,O,O

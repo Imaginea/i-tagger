@@ -1,0 +1,9 @@
+0,1,2,3
+Graham,NNP,B-NP,B-PER
+Thorpe,NNP,I-NP,I-PER
+3,CD,I-NP,O
+5,CD,I-NP,O
+0,CD,I-NP,O
+159,CD,I-NP,O
+77,CD,I-NP,O
+31.80,CD,I-NP,O

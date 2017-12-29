@@ -1,0 +1,7 @@
+0,1,2,3
+5-1,CD,B-NP,O
+Pedrag,NNP,I-NP,B-PER
+Mijatovic,NNP,I-NP,I-PER
+7-1,NNP,I-NP,O
+Luis,NNP,I-NP,B-PER
+Figo,NNP,I-NP,I-PER

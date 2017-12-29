@@ -1,0 +1,8 @@
+0,1,2,3
+England,NNP,B-NP,B-LOC
+were,VBD,B-VP,O
+74,CD,B-NP,O
+for,IN,B-PP,O
+no,DT,B-NP,O
+wicket,NN,I-NP,O
+in,IN,B-PP,O

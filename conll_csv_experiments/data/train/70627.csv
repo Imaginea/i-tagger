@@ -1,0 +1,12 @@
+0,1,2,3
+Did,VBD,O,O
+not,RB,O,O
+start,VB,B-VP,O
+(,(,O,O
+failed,VBN,B-VP,O
+to,TO,I-VP,O
+complete,VB,I-VP,O
+one,CD,B-NP,O
+lap,NN,I-NP,O
+),),O,O
+:,:,O,O

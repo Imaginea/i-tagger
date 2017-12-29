@@ -1,0 +1,36 @@
+0,1,2,3
+ ,O,O,<UNK>
+If,IN,B-SBAR,O
+they,PRP,B-NP,O
+are,VBP,B-VP,O
+still,RB,B-ADVP,O
+undecided,JJ,B-ADJP,O
+whether,IN,B-SBAR,O
+the,DT,B-NP,O
+war,NN,I-NP,O
+Japan,NNP,B-NP,B-LOC
+launched,VBD,B-VP,O
+was,VBD,B-VP,O
+aggressive,JJ,B-ADJP,O
+in,IN,B-PP,O
+nature,NN,B-NP,O
+",",",",O,O
+it,PRP,B-NP,O
+will,MD,B-VP,O
+be,VB,I-VP,O
+difficult,JJ,B-ADJP,O
+to,TO,B-VP,O
+tell,VB,I-VP,O
+whether,IN,B-SBAR,O
+they,PRP,B-NP,O
+will,MD,B-VP,O
+do,VB,I-VP,O
+the,DT,B-NP,O
+same,JJ,I-NP,O
+again,RB,B-ADVP,O
+",",",",O,O
+ ,O,O,<UNK>
+the,DT,B-NP,O
+newspaper,NN,I-NP,O
+said,VBD,B-VP,O
+.,.,O,O

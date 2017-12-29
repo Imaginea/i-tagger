@@ -1,0 +1,14 @@
+0,1,2,3
+The,DT,B-NP,O
+judge,NN,I-NP,O
+overturned,VBD,B-VP,O
+a,DT,B-NP,O
+decision,NN,I-NP,O
+to,TO,B-VP,O
+shut,VB,I-VP,O
+down,RP,B-PRT,O
+Hen,NNP,B-NP,B-PER
+Vipheak,NNP,I-NP,I-PER
+'s,POS,B-NP,O
+newspaper,NN,I-NP,O
+.,.,O,O

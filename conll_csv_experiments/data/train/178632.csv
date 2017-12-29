@@ -1,0 +1,6 @@
+0,1,2,3
+Amount,NN,B-NP,O
+$,$,I-NP,O
+0.69,CD,I-NP,O
+$,$,I-NP,O
+0.69,CD,I-NP,O

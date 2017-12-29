@@ -1,0 +1,20 @@
+0,1,2,3
+Avonex,JJ,B-NP,B-MISC
+ ,O,O,<UNK>
+has,VBZ,B-VP,O
+been,VBN,I-VP,O
+allowed,VBN,I-VP,O
+to,TO,I-VP,O
+enter,VB,I-VP,O
+the,DT,B-NP,O
+market,NN,I-NP,O
+because,IN,B-SBAR,O
+it,PRP,B-NP,O
+differs,VBZ,B-VP,O
+from,IN,B-PP,O
+interferon,NN,B-NP,O
+beta-1b,CD,I-NP,O
+(,(,O,O
+Betaseron,NNP,B-NP,B-MISC
+),),O,O
+..,NNS,B-NP,O

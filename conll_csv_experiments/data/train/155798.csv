@@ -1,0 +1,32 @@
+0,1,2,3
+ ,O,O,<UNK>
+I,PRP,B-NP,O
+won,VBD,B-VP,O
+the,DT,B-NP,O
+second,JJ,I-NP,O
+set,NN,I-NP,O
+",",",",O,O
+which,WDT,B-NP,O
+I,PRP,B-NP,O
+did,VBD,B-VP,O
+n't,RB,I-VP,O
+think,VB,I-VP,O
+I,PRP,B-NP,O
+would,MD,B-VP,O
+do,VB,I-VP,O
+",",",",O,O
+being,VBG,B-VP,O
+down,RB,B-ADVP,O
+5-2,CD,B-NP,O
+and,CC,O,O
+the,DT,B-NP,O
+chances,NNS,I-NP,O
+she,PRP,B-NP,O
+had,VBD,B-VP,O
+at,IN,B-PP,O
+6-5,CD,B-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+Graf,VB,B-VP,B-PER
+recalled,VBD,I-VP,O
+.,.,O,O

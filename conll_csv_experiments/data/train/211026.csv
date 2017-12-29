@@ -1,0 +1,10 @@
+0,1,2,3
+Thieves,NNS,B-NP,O
+make,VBP,B-VP,O
+off,RP,B-PRT,O
+with,IN,B-PP,O
+cash,NN,B-NP,O
+from,IN,B-PP,O
+prison,NN,B-NP,O
+canteen,NN,I-NP,O
+.,.,O,O

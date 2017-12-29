@@ -1,0 +1,16 @@
+0,1,2,3
+More,JJR,B-NP,O
+than,IN,I-NP,O
+100,CD,I-NP,O
+delegates,NNS,I-NP,O
+flew,VBD,B-VP,O
+in,IN,B-ADVP,O
+from,IN,B-PP,O
+around,IN,B-PP,O
+the,DT,B-NP,O
+world,NN,I-NP,O
+to,TO,B-VP,O
+elect,VB,I-VP,O
+a,DT,B-NP,O
+successor,NN,I-NP,O
+.,.,O,O

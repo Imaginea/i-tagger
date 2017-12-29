@@ -1,0 +1,16 @@
+0,1,2,3
+She,PRP,B-NP,O
+was,VBD,B-VP,O
+the,DT,B-NP,O
+first,JJ,I-NP,O
+non-,JJ,I-NP,O
+seeded,VBN,I-NP,O
+player,NN,I-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+said,VBD,B-VP,O
+the,DT,B-NP,O
+21-year-old,JJ,I-NP,O
+German,JJ,I-NP,B-MISC
+.,.,O,O
+ ,O,O,<UNK>

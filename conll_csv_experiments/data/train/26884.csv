@@ -1,0 +1,6 @@
+0,1,2,3
+Three,CD,B-NP,O
+year,NN,I-NP,O
+10.5,CD,B-NP,O
+pct,NN,I-NP,O
+11.25,CD,B-NP,O

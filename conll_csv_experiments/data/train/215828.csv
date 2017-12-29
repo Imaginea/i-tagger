@@ -1,0 +1,11 @@
+0,1,2,3
+Data,NNS,B-NP,O
+give,VBP,B-VP,O
+variation,NN,B-NP,O
+in,IN,B-PP,O
+employed,VBN,B-NP,O
+persons,NNS,I-NP,O
+",",",",O,O
+in,IN,B-PP,O
+thousands,NNS,B-NP,O
+.,.,O,O

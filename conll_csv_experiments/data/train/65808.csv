@@ -1,0 +1,31 @@
+0,1,2,3
+ ,O,O,<UNK>
+We,PRP,B-NP,O
+want,VBP,B-VP,O
+to,TO,I-VP,O
+help,VB,I-VP,O
+turn,VB,I-VP,O
+down,RP,B-PRT,O
+the,DT,B-NP,O
+rhetoric,NN,I-NP,O
+in,IN,B-PP,O
+a,DT,B-NP,O
+country,NN,I-NP,O
+that,IN,B-SBAR,O
+borders,NNS,B-NP,O
+former,JJ,B-NP,O
+Yugoslavia,NNP,I-NP,B-LOC
+yet,RB,B-ADVP,O
+in,IN,B-PP,O
+which,WDT,B-NP,O
+people,NNS,B-NP,O
+are,VBP,B-VP,O
+still,RB,I-VP,O
+talking,VBG,I-VP,O
+about,IN,B-PP,O
+secession,NN,B-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+he,PRP,B-NP,O
+added,VBD,B-VP,O
+.,.,O,O

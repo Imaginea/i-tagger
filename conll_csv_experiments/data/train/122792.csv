@@ -1,0 +1,14 @@
+0,1,2,3
+Annabel,NNP,B-NP,B-PER
+Ellwood,NNP,I-NP,I-PER
+(,(,O,O
+Australia,NNP,B-NP,B-LOC
+),),O,O
+beat,VB,B-VP,O
+Jennifer,NNP,B-NP,B-PER
+Capriati,NNP,I-NP,I-PER
+(,(,O,O
+U.S.,NNP,B-NP,B-LOC
+),),O,O
+6-4,CD,B-NP,O
+6,CD,I-NP,O

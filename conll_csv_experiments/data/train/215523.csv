@@ -1,0 +1,12 @@
+0,1,2,3
+RESERVES,NNS,B-NP,O
+(,(,O,O
+$,$,B-NP,O
+MLN,NNP,I-NP,O
+),),O,O
+Jul,NNP,B-NP,O
+"+1,161",CD,I-NP,O
++400.9,CD,I-NP,O
++310.4,CD,I-NP,O
+-,:,I-NP,O
+"54,703.0",CD,I-NP,O

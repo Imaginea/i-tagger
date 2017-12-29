@@ -1,0 +1,9 @@
+0,1,2,3
+In,IN,B-PP,B-ORG
+Home,NNP,B-NP,I-ORG
+Health,NNP,I-NP,I-ORG
+to,TO,B-VP,O
+appeal,VB,I-VP,O
+payment,NN,B-NP,O
+denial,NN,I-NP,O
+.,.,O,O

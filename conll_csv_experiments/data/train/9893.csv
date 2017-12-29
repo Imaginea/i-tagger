@@ -1,0 +1,12 @@
+0,1,2,3
+Jan,NNP,B-NP,B-PER
+Siemerink,NNP,I-NP,I-PER
+(,(,I-NP,O
+Netherlands,NNP,I-NP,B-LOC
+),),O,O
+vs.,IN,B-PP,O
+Carl-Uwe,NNP,B-NP,B-PER
+Steeb,NNP,I-NP,I-PER
+(,(,O,O
+Germany,NNP,B-NP,B-LOC
+),),O,O

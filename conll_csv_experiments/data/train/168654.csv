@@ -1,0 +1,22 @@
+0,1,2,3
+This,DT,B-NP,O
+tactical,JJ,I-NP,O
+manoeuvre,NNP,I-NP,O
+also,RB,B-ADVP,O
+shows,VBZ,B-VP,O
+that,DT,B-NP,O
+in,IN,B-PP,O
+the,DT,B-NP,O
+ruling,NN,I-NP,O
+circle,NN,I-NP,O
+there,EX,B-NP,O
+is,VBZ,B-VP,O
+no,DT,B-NP,O
+unity,NN,I-NP,O
+of,IN,B-PP,O
+action,NN,B-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+he,PRP,B-NP,O
+said,VBD,B-VP,O
+.,.,O,O

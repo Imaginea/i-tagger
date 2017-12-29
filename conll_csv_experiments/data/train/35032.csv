@@ -1,0 +1,15 @@
+0,1,2,3
+Riley,NNP,B-NP,B-PER
+(,(,O,O
+Australia,NNP,B-NP,B-LOC
+),),O,O
+64,CD,B-NP,O
+71,CD,I-NP,O
+",",",",O,O
+Carl,NNP,B-NP,B-PER
+Mason,NNP,I-NP,I-PER
+69,CD,I-NP,O
+66,CD,I-NP,O
+",",",",O,O
+Barry,NNP,B-NP,B-PER
+Lane,NNP,I-NP,I-PER

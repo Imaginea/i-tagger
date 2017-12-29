@@ -1,0 +1,8 @@
+0,1,2,3
+193,CD,B-NP,O
+Ian,NNP,I-NP,B-PER
+Woosnam,NNP,I-NP,I-PER
+64,CD,I-NP,O
+64,CD,I-NP,O
+65,CD,I-NP,O
+.,.,O,O

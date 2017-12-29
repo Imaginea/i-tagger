@@ -1,0 +1,35 @@
+0,1,2,3
+ ,O,O,<UNK>
+Although,IN,B-SBAR,O
+the,DT,B-NP,O
+final,JJ,I-NP,O
+draft,NN,I-NP,O
+of,IN,B-PP,O
+the,DT,B-NP,O
+treaty,NN,I-NP,O
+probably,RB,B-ADVP,O
+did,VBD,B-VP,O
+n't,RB,I-VP,O
+totally,RB,I-VP,O
+satisfy,VB,I-VP,O
+any,DT,B-NP,O
+country,NN,I-NP,O
+",",",",O,O
+it,PRP,B-NP,O
+was,VBD,B-VP,O
+in,IN,B-PP,O
+general,JJ,B-NP,O
+balanced,JJ,I-NP,O
+",",",",I-NP,O
+ ,O,O,<UNK>
+the,DT,B-NP,O
+official,JJ,I-NP,O
+People,NNS,I-NP,B-ORG
+'s,POS,B-NP,I-ORG
+Daily,JJ,I-NP,I-ORG
+newspaper,NN,I-NP,O
+said,VBD,B-VP,O
+in,IN,B-PP,O
+a,DT,B-NP,O
+commentary,NN,I-NP,O
+.,.,O,O

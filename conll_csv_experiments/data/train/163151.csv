@@ -1,0 +1,27 @@
+0,1,2,3
+He,PRP,B-NP,O
+wrote,VBD,B-VP,O
+a,DT,B-NP,O
+jazz,NN,I-NP,O
+ballet,NN,I-NP,O
+ ,O,O,<UNK>
+La,NNP,B-NP,B-MISC
+Creation,NN,I-NP,I-MISC
+du,FW,I-NP,I-MISC
+Monde,NNP,I-NP,I-MISC
+ ,O,O,<UNK>
+and,CC,O,O
+scores,NNS,B-NP,O
+for,IN,B-PP,O
+many,JJ,B-NP,O
+films,NNS,I-NP,O
+including,VBG,B-PP,O
+an,DT,B-NP,O
+early,JJ,I-NP,O
+version,NN,I-NP,O
+of,IN,B-PP,O
+ ,O,O,<UNK>
+Madame,NNP,B-NP,B-MISC
+Bovary,NNP,I-NP,I-MISC
+ ,O,O,<UNK>
+.,.,O,O

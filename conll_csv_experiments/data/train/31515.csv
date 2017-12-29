@@ -1,0 +1,21 @@
+0,1,2,3
+Martin,NNP,B-NP,B-PER
+was,VBD,B-VP,O
+pleased,JJ,B-ADJP,O
+with,IN,B-PP,O
+his,PRP$,B-NP,O
+victory,NN,I-NP,O
+over,IN,B-PP,O
+Pioline,NNP,B-NP,B-PER
+",",",",O,O
+his,PRP$,B-NP,O
+first,JJ,I-NP,O
+in,IN,B-PP,O
+five,CD,B-NP,O
+meetings,NNS,I-NP,O
+with,IN,B-PP,O
+the,DT,B-NP,O
+11th-ranked,JJ,I-NP,O
+Frenchman,NNP,I-NP,B-MISC
+.,.,I-NP,O
+ ,O,O,<UNK>

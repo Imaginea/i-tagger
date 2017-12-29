@@ -1,0 +1,15 @@
+0,1,2,3
+1.,CD,B-NP,O
+Silvio,NNP,I-NP,B-PER
+Martinelli,NNP,I-NP,I-PER
+-,:,O,O
+Marco,NNP,B-NP,B-PER
+Villa,NNP,I-NP,I-PER
+(,(,O,O
+Italy,NNP,B-NP,B-LOC
+),),O,O
+34,CD,B-NP,O
+points,NNS,I-NP,O
+",",",",O,O
+in,IN,B-PP,O
+a,DT,B-NP,O

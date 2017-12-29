@@ -1,0 +1,13 @@
+0,1,2,3
+Roberto,NNP,B-NP,B-PER
+Chiappa,NNP,I-NP,I-PER
+(,(,O,O
+Italy,NNP,B-NP,B-LOC
+),),O,O
+beat,VB,B-VP,O
+Frederic,NNP,B-NP,B-PER
+Magne,NNP,I-NP,I-PER
+(,(,O,O
+France,NNP,B-NP,B-LOC
+),),O,O
+2-0,CD,B-NP,O

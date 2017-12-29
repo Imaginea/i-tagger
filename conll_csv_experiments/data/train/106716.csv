@@ -1,0 +1,13 @@
+0,1,2,3
+After,IN,B-PP,O
+Peru,NNP,B-NP,B-LOC
+",",",",O,O
+he,PRP,B-NP,O
+was,VBD,B-VP,O
+due,JJ,B-ADJP,O
+to,TO,B-VP,O
+go,VB,I-VP,O
+to,TO,B-PP,O
+Costa,NNP,B-NP,B-LOC
+Rica,NNP,I-NP,I-LOC
+.,.,O,O

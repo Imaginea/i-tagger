@@ -1,0 +1,14 @@
+0,1,2,3
+Karim,NNP,B-NP,B-PER
+Alami,NNP,I-NP,I-PER
+(,(,O,O
+Morocco,NNP,B-NP,B-LOC
+),),O,O
+vs.,IN,B-PP,O
+11,CD,B-NP,O
+-,:,I-NP,O
+MaliVai,NNP,I-NP,B-PER
+Washington,NNP,I-NP,I-PER
+(,(,O,O
+U.S.,NNP,B-NP,B-LOC
+),),O,O

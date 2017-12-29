@@ -1,0 +1,27 @@
+0,1,2,3
+ ,O,O,<UNK>
+I,PRP,B-NP,O
+'ve,VB,B-VP,O
+been,VBN,I-VP,O
+trying,VBG,I-VP,O
+my,PRP$,B-NP,O
+whole,JJ,I-NP,O
+career,NN,I-NP,O
+to,TO,B-VP,O
+be,VB,I-VP,O
+aggressive,JJ,B-ADJP,O
+",",",",O,O
+ ,O,O,<UNK>
+said,VBD,B-VP,O
+the,DT,B-NP,O
+24-year-old,JJ,I-NP,O
+Martinez,NNP,I-NP,B-PER
+after,IN,B-PP,O
+crushing,VBG,B-VP,O
+Tauziat,NNPS,B-NP,B-PER
+in,IN,B-PP,O
+just,RB,B-NP,O
+over,IN,I-NP,O
+an,DT,I-NP,O
+hour,NN,I-NP,O
+.,.,O,O

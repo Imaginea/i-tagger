@@ -1,0 +1,12 @@
+0,1,2,3
+ ,O,O,<UNK>
+They,PRP,B-NP,O
+were,VBD,B-VP,O
+far,RB,B-ADVP,O
+too,RB,B-ADJP,O
+strong,JJ,I-ADJP,O
+",",",",O,O
+ ,O,O,<UNK>
+he,PRP,B-NP,O
+said,VBD,B-VP,O
+.,.,O,O

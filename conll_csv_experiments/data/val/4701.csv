@@ -1,0 +1,12 @@
+0,1,2,3
+It,PRP,B-NP,O
+was,VBD,B-VP,O
+my,PRP$,B-NP,O
+best,JJS,I-NP,O
+round,NN,I-NP,O
+in,IN,B-PP,O
+a,DT,B-NP,O
+very,RB,I-NP,O
+long,JJ,I-NP,O
+time,NN,I-NP,O
+.,.,O,O

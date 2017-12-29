@@ -1,0 +1,11 @@
+0,1,2,3
+U.S.,NNP,B-NP,B-LOC
+warplanes,VBZ,B-VP,O
+",",",",O,O
+ships,NNS,B-NP,O
+in,IN,B-PP,O
+Gulf,NNP,B-NP,B-LOC
+await,VBP,B-VP,O
+Clinton,NNP,B-NP,B-PER
+order,NN,I-NP,O
+.,.,O,O

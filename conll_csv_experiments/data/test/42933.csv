@@ -1,0 +1,10 @@
+0,1,2,3
+Jin,NNP,B-NP,B-PER
+Hua,NNP,I-NP,I-PER
+(,(,O,O
+China,NNP,B-NP,B-LOC
+),),O,O
+41.59,CD,B-NP,O
+;,:,O,O
+8,LS,B-LST,O
+.,.,O,O

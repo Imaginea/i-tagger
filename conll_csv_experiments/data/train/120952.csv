@@ -1,0 +1,7 @@
+0,1,2,3
+Thorpe,NNP,B-NP,B-PER
+13,CD,I-NP,O
+4,CD,I-NP,O
+19,CD,I-NP,O
+0,CD,I-NP,O
+-,:,I-NP,O

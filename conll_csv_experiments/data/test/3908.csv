@@ -1,0 +1,8 @@
+0,1,2,3
+B.,NNP,B-NP,B-PER
+Lara,NNP,I-NP,I-PER
+c,SYM,O,O
+Warne,NNP,B-NP,B-PER
+b,SYM,O,O
+Moody,NNP,B-NP,B-PER
+5,CD,I-NP,O

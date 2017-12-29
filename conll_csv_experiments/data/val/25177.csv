@@ -1,0 +1,12 @@
+0,1,2,3
+It,PRP,B-NP,O
+has,VBZ,B-VP,O
+investments,NNS,B-NP,O
+in,IN,B-PP,O
+several,JJ,B-NP,O
+industrial,JJ,I-NP,O
+joint,JJ,I-NP,O
+ventures,NNS,I-NP,O
+in,IN,B-PP,O
+China,NNP,B-NP,B-LOC
+.,.,O,O

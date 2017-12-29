@@ -1,0 +1,10 @@
+0,1,2,3
+Jordanian,NNP,B-NP,B-MISC
+PM,NNP,I-NP,O
+Kabariti,NNP,I-NP,B-PER
+meets,VBZ,B-VP,O
+Arafat,NNP,B-NP,B-PER
+in,IN,B-PP,O
+West,NNP,B-NP,B-LOC
+Bank,NNP,I-NP,I-LOC
+.,.,O,O

@@ -1,0 +1,15 @@
+0,1,2,3
+218,CD,B-NP,O
+Stephen,NNP,I-NP,B-PER
+McAllister,NNP,I-NP,I-PER
+73,CD,I-NP,O
+76,CD,I-NP,O
+69,CD,I-NP,O
+",",",",O,O
+Joakim,NNP,B-NP,B-PER
+Haeggman,NNP,I-NP,I-PER
+(,(,O,O
+Swe,NNP,O,B-LOC
+),),O,O
+71,CD,B-NP,O
+77,CD,I-NP,O

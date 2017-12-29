@@ -1,0 +1,5 @@
+0,1,2,3
+LAST,NNS,B-NP,O
+SALE,NNP,I-NP,O
+:,:,O,O
+None,NN,B-NP,O

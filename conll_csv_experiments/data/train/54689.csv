@@ -1,0 +1,6 @@
+0,1,2,3
++2,NNP,B-NP,O
+D.A.,NNP,I-NP,B-PER
+Weibring,NNP,I-NP,I-PER
+through,IN,B-PP,O
+12,CD,B-NP,O

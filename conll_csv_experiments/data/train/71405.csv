@@ -1,0 +1,11 @@
+0,1,2,3
+Revised,VBN,B-NP,O
+world,NN,I-NP,O
+championship,NN,I-NP,O
+standings,NNS,I-NP,O
+(,(,O,O
+after,IN,B-PP,O
+nine,CD,B-NP,O
+rounds,NNS,I-NP,O
+),),O,O
+:,:,O,O

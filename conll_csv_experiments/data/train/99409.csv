@@ -1,0 +1,15 @@
+0,1,2,3
+Cristina,NNP,B-NP,B-PER
+Torrens-Valero,NNP,I-NP,I-PER
+(,(,O,O
+Spain,NNP,B-NP,B-LOC
+),),O,O
+beat,VB,B-VP,O
+Sabine,NNP,B-NP,B-PER
+Hack,NNP,I-NP,I-PER
+(,(,O,O
+Germany,NNP,B-NP,B-LOC
+),),O,O
+2-6,CD,B-NP,O
+6-4,CD,I-NP,O
+6-2,CD,I-NP,O

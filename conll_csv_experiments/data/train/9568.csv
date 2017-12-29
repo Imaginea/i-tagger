@@ -1,0 +1,12 @@
+0,1,2,3
+Karol,NNP,B-NP,B-PER
+Kucera,NNP,I-NP,I-PER
+(,(,O,O
+Slovakia,NNP,B-NP,B-LOC
+),),O,O
+vs.,IN,B-PP,O
+Jonas,NNP,B-NP,B-PER
+Bjorkman,NNP,I-NP,I-PER
+(,(,O,O
+Sweden,NNP,B-NP,B-LOC
+),),O,O

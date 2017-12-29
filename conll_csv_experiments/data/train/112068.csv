@@ -1,0 +1,17 @@
+0,1,2,3
+He,PRP,B-NP,O
+has,VBZ,B-VP,O
+made,VBN,I-VP,O
+clear,JJ,B-ADJP,O
+he,PRP,B-NP,O
+opposed,VBD,B-VP,O
+Clinton,NNP,B-NP,B-PER
+'s,POS,B-NP,O
+signing,NN,I-NP,O
+of,IN,B-PP,O
+the,DT,B-NP,O
+Republican-initiated,JJ,I-NP,B-MISC
+welfare,NN,I-NP,O
+reform,NN,I-NP,O
+bill,NN,I-NP,O
+.,.,O,O

@@ -1,0 +1,13 @@
+0,1,2,3
+5.,CD,B-NP,O
+Ari-Pekka,NNP,I-NP,B-PER
+Nikkola,NNP,I-NP,I-PER
+(,(,O,O
+Finland,NNP,B-NP,B-LOC
+),),O,O
+256.4,CD,B-NP,O
+(,(,O,O
+126,CD,B-NP,O
+/,SYM,O,O
+130.4,CD,B-NP,O
+),),O,O

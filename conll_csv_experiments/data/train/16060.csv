@@ -1,0 +1,32 @@
+0,1,2,3
+ ,O,O,<UNK>
+He,PRP,B-NP,O
+played,VBD,B-VP,O
+a,DT,B-NP,O
+good,JJ,I-NP,O
+match,NN,I-NP,O
+",",",",O,O
+took,VBD,B-VP,O
+a,DT,B-NP,O
+few,JJ,I-NP,O
+chances,NNS,I-NP,O
+",",",",O,O
+and,CC,O,O
+every,DT,B-NP,O
+time,NN,I-NP,O
+he,PRP,B-NP,O
+was,VBD,B-VP,O
+down,RB,B-ADVP,O
+he,PRP,B-NP,O
+was,VBD,B-VP,O
+able,JJ,B-ADJP,O
+to,TO,B-VP,O
+come,VB,I-VP,O
+up,RP,B-PRT,O
+with,IN,B-PP,O
+a,DT,B-NP,O
+big,JJ,I-NP,O
+first,JJ,I-NP,O
+serve,NN,I-NP,O
+.,.,O,O
+ ,O,O,<UNK>

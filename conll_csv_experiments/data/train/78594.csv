@@ -1,0 +1,6 @@
+0,1,2,3
+Summary,NNS,B-NP,O
+of,IN,B-PP,O
+German,JJ,B-NP,B-MISC
+first,JJ,I-NP,O
+division,NN,I-NP,O

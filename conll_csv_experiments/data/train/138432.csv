@@ -1,0 +1,8 @@
+0,1,2,3
+Paralympics,NNS,B-NP,B-MISC
+an,DT,B-NP,O
+example,NN,I-NP,O
+for,IN,B-PP,O
+gloomy,JJ,B-NP,O
+France-Juppe,JJ,I-NP,B-MISC
+.,.,O,O

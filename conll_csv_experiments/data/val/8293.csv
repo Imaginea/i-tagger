@@ -1,0 +1,7 @@
+0,1,2,3
+Govt,NN,B-NP,O
+securities,NNS,I-NP,O
+outstanding,JJ,B-ADJP,O
+463.73,CD,B-NP,O
++1.660,CD,I-NP,O
++10.436,CD,I-NP,O

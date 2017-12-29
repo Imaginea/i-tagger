@@ -1,0 +1,26 @@
+0,1,2,3
+ ,O,O,<UNK>
+One,CD,B-NP,O
+must,MD,B-VP,O
+give,VB,I-VP,O
+B.,NNP,B-NP,B-PER
+Yeltsin,NNP,I-NP,I-PER
+a,DT,B-NP,O
+chance,NN,I-NP,O
+to,TO,B-VP,O
+rest,VB,I-VP,O
+and,CC,I-VP,O
+recover,VB,I-VP,O
+his,PRP$,B-NP,O
+health,NN,I-NP,O
+after,IN,B-PP,O
+the,DT,B-NP,O
+elections,NNS,I-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+Interfax,NN,B-NP,B-ORG
+quoted,VBN,B-VP,O
+Yastrezhembsky,NNP,B-NP,B-PER
+as,IN,B-PP,O
+saying,VBG,B-VP,O
+.,.,O,O

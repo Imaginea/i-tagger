@@ -1,0 +1,17 @@
+0,1,2,3
+Goosen,NNP,B-NP,B-PER
+(,(,O,O
+South,NNP,B-NP,B-LOC
+Africa,NNP,I-NP,I-LOC
+),),O,O
+71,CD,B-NP,O
+74,CD,B-NP,O
+",",",",O,O
+Ove,NNP,B-NP,B-PER
+Sellberg,NNP,I-NP,I-PER
+(,(,O,O
+Sweden,NNP,B-NP,B-LOC
+),),O,O
+71,CD,B-NP,O
+74,CD,B-NP,O
+",",",",O,O

@@ -1,0 +1,6 @@
+0,1,2,3
+Operating,NN,B-NP,O
+profit,NN,I-NP,O
+9.75,CD,I-NP,O
+vs,NNP,O,O
+5.79,CD,B-NP,O

@@ -1,0 +1,10 @@
+0,1,2,3
+N.,NNP,B-NP,B-PER
+Astle,NNP,I-NP,I-PER
+c,SYM,O,O
+Ijaz,NNP,B-NP,B-PER
+Ahmad,NNP,I-NP,I-PER
+b,SYM,O,O
+Salim,NNP,B-NP,B-PER
+Malik,NNP,I-NP,I-PER
+20,CD,I-NP,O

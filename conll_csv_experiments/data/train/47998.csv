@@ -1,0 +1,14 @@
+0,1,2,3
+Many,JJ,B-NP,O
+people,NNS,I-NP,O
+began,VBD,B-VP,O
+to,TO,I-VP,O
+believe,VB,I-VP,O
+that,IN,B-SBAR,O
+Windows,NNS,B-NP,B-MISC
+95,CD,B-NP,I-MISC
+was,VBD,B-VP,O
+being,VBG,I-VP,O
+downplayed,VBD,I-VP,O
+.,.,O,O
+ ,O,O,<UNK>

@@ -1,0 +1,12 @@
+0,1,2,3
+Proleter,NNP,B-NP,B-ORG
+(,(,O,I-ORG
+Z,NNP,B-NP,I-ORG
+),),O,I-ORG
+4,CD,B-NP,O
+0,CD,I-NP,O
+1,CD,I-NP,O
+3,CD,I-NP,O
+2,CD,I-NP,O
+9,CD,I-NP,O
+1,CD,I-NP,O

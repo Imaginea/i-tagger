@@ -1,0 +1,13 @@
+0,1,2,3
+Thomas,NNP,B-NP,B-PER
+",",",",O,O
+Harold,NNP,B-NP,B-PER
+Baines,NNP,I-NP,I-PER
+and,CC,O,O
+Robin,NNP,B-NP,B-PER
+Ventura,NNP,I-NP,I-PER
+each,DT,B-NP,O
+collected,VBD,B-VP,O
+three,CD,B-NP,O
+hits,NNS,I-NP,O
+.,.,O,O

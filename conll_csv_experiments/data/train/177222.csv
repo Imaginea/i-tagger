@@ -1,0 +1,18 @@
+0,1,2,3
+They,PRP,B-NP,O
+are,VBP,B-VP,O
+idiots,NNS,B-NP,O
+to,TO,B-VP,O
+have,VB,I-VP,O
+started,VBN,I-VP,O
+the,DT,B-NP,O
+Jerusalem,NNP,I-NP,B-LOC
+battle,NN,I-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+Arafat,NNP,B-NP,B-PER
+said,VBD,B-VP,O
+in,IN,B-PP,O
+Arabic,NNP,B-NP,B-MISC
+.,.,I-NP,O
+ ,O,O,<UNK>

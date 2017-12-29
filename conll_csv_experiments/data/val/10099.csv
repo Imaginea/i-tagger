@@ -1,0 +1,17 @@
+0,1,2,3
+This,DT,B-NP,O
+is,VBZ,B-VP,O
+how,WRB,B-NP,O
+major,JJ,I-NP,O
+world,NN,I-NP,O
+bond,NN,I-NP,O
+markets,NNS,I-NP,O
+were,VBD,B-VP,O
+trading,NN,B-NP,O
+in,IN,B-PP,O
+late,JJ,B-NP,O
+European,JJ,I-NP,B-MISC
+business,NN,I-NP,O
+on,IN,B-PP,O
+Friday,NNP,B-NP,O
+.,.,O,O

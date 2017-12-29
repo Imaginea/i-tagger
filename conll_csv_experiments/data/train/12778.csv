@@ -1,0 +1,4 @@
+0,1,2,3
+Norway,NNP,B-NP,B-LOC
+8.62,CD,I-NP,O
+points,NNS,I-NP,O

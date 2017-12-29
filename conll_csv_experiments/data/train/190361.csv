@@ -1,0 +1,15 @@
+0,1,2,3
+Natasha,NN,B-NP,B-PER
+Zvereva,NNP,I-NP,I-PER
+(,(,O,O
+Belarus,NNP,B-NP,B-LOC
+),),O,O
+beat,VB,B-VP,O
+Ai,VBZ,I-VP,B-PER
+Sugiyama,NNP,B-NP,I-PER
+(,(,O,O
+Japan,NNP,B-NP,B-LOC
+),),O,O
+4-6,RB,B-VP,O
+6-4,CD,B-NP,O
+6-3,CD,I-NP,O

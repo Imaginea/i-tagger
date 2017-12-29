@@ -1,0 +1,12 @@
+0,1,2,3
+Bohdan,NNP,B-NP,B-PER
+Ulihrach,NNP,I-NP,I-PER
+(,(,O,O
+Czech,NNP,B-NP,B-LOC
+Republic,NNP,I-NP,I-LOC
+),),O,O
+vs.,IN,B-PP,O
+14,CD,B-NP,O
+-,:,I-NP,O
+Alberto,NNP,I-NP,B-PER
+Costa,NNP,I-NP,I-PER

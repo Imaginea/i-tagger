@@ -1,0 +1,34 @@
+0,1,2,3
+He,PRP,B-NP,O
+praised,VBD,B-VP,O
+Clinton,NNP,B-NP,B-PER
+for,IN,B-PP,O
+vetoing,VBG,B-VP,O
+the,DT,B-NP,O
+Republican,NNP,I-NP,B-MISC
+Congress,NNP,I-NP,B-ORG
+',POS,B-NP,O
+attempt,NN,I-NP,O
+to,TO,B-PP,O
+repeal,NN,B-NP,O
+parts,NNS,I-NP,O
+of,IN,B-PP,O
+the,DT,B-NP,O
+Clean,NNP,I-NP,B-MISC
+Air,NNP,I-NP,I-MISC
+Act,NNP,I-NP,I-MISC
+",",",",O,O
+and,CC,O,O
+criticized,VBD,B-VP,O
+Republicans,NNPS,B-NP,B-MISC
+for,IN,B-PP,O
+ ,O,O,<UNK>
+slashing,VBG,B-VP,O
+money,NN,B-NP,O
+to,TO,B-PP,O
+combat,NN,B-NP,O
+drugs,NNS,I-NP,O
+in,IN,B-PP,O
+schools,NNS,B-NP,O
+.,.,O,O
+ ,O,O,<UNK>

@@ -1,0 +1,7 @@
+0,1,2,3
+Top,JJ,B-NP,O
+ten,CD,I-NP,O
+drivers,NNS,I-NP,O
+in,IN,B-PP,O
+grid,NN,B-NP,O
+for,IN,B-PP,O

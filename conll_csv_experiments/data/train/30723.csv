@@ -1,0 +1,6 @@
+0,1,2,3
+R.,NNP,B-NP,B-PER
+Croft,JJ,B-ADVP,I-PER
+not,RB,B-CONJP,O
+out,RP,B-PRT,O
+5,CD,B-NP,O

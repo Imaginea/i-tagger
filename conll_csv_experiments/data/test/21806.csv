@@ -1,0 +1,6 @@
+0,1,2,3
+Sorghum,NNP,B-NP,O
+unq,NN,I-NP,O
+unq,JJ,I-NP,O
+unq,NN,I-NP,O
+unq,JJ,B-ADJP,O

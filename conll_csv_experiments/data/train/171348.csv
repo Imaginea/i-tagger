@@ -1,0 +1,9 @@
+0,1,2,3
+But,CC,O,O
+it,PRP,B-NP,O
+worked,VBD,B-VP,O
+",",",",O,O
+ ,O,O,<UNK>
+Dole,NNP,B-NP,B-PER
+said,VBD,B-VP,O
+.,.,O,O

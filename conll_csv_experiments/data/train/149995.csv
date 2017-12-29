@@ -1,0 +1,10 @@
+0,1,2,3
+10.,CD,B-NP,O
+George,NNP,I-NP,B-PER
+Hincapie,NNP,I-NP,I-PER
+(,(,O,O
+U.S.,NNP,B-NP,B-LOC
+),),O,O
+Motorola,NNP,B-NP,B-ORG
+same,JJ,I-NP,O
+time,NN,I-NP,O

@@ -1,0 +1,9 @@
+0,1,2,3
+15.,CD,B-NP,O
+Pedro,NNP,B-NP,B-PER
+Diniz,NNP,I-NP,I-PER
+(,(,O,O
+Brazil,NNP,B-NP,B-LOC
+),),O,O
+Ligier,NNP,B-NP,B-ORG
+22,CD,I-NP,O

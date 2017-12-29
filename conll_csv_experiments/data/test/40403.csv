@@ -1,0 +1,8 @@
+0,1,2,3
+10.,CD,B-NP,O
+Svetlana,NNP,I-NP,B-PER
+Gladishiva,NNP,I-NP,I-PER
+(,(,O,O
+Russia,NNP,B-NP,B-LOC
+),),O,O
+137,CD,B-NP,O

@@ -1,0 +1,17 @@
+0,1,2,3
+The,DT,B-NP,O
+NBH,NNP,I-NP,B-ORG
+trade,NN,I-NP,O
+data,NNS,I-NP,O
+is,VBZ,B-VP,O
+based,VBN,I-VP,O
+on,IN,B-PP,O
+cash,NN,B-NP,O
+flow,NN,I-NP,O
+",",",",O,O
+MIT,NNP,B-NP,B-ORG
+data,NNS,I-NP,O
+on,IN,B-PP,O
+customs,NNS,B-NP,O
+statistics,NNS,I-NP,O
+.,.,O,O

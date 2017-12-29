@@ -1,0 +1,10 @@
+0,1,2,3
+Hashan,NNP,B-NP,B-PER
+Tillekeratne,NNP,I-NP,I-PER
+",",",",O,O
+Roshan,NNP,B-NP,B-PER
+Mahanama,NNP,I-NP,I-PER
+",",",",O,O
+Kumara,NNP,B-NP,B-PER
+Dharmasena,NNP,I-NP,I-PER
+",",",",O,O

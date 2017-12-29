@@ -1,0 +1,11 @@
+0,1,2,3
+(,(,O,O
+Nigeria,NNP,B-NP,B-LOC
+),),O,O
+",",",",O,O
+Davidson,NNP,B-NP,B-PER
+Ezinwa,NNP,I-NP,I-PER
+(,(,O,O
+Nigeria,NNP,B-NP,B-LOC
+),),O,O
+38.87,CD,B-NP,O

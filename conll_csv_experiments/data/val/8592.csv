@@ -1,0 +1,10 @@
+0,1,2,3
+Friday,NNP,B-NP,O
+'s,POS,B-NP,O
+low,NN,I-NP,O
+in,IN,B-PP,O
+September,NNP,B-NP,O
+gasoline,NN,I-NP,O
+was,VBD,B-VP,O
+62.75,CD,B-NP,O
+.,.,O,O

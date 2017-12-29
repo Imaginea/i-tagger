@@ -1,0 +1,8 @@
+0,1,2,3
+Zhirinovsky,NNP,B-NP,B-PER
+visited,VBD,B-VP,O
+Iraq,NNP,B-NP,B-LOC
+twice,RB,B-ADVP,O
+in,IN,B-PP,O
+1995,CD,B-NP,O
+.,.,O,O

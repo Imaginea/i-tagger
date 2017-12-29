@@ -1,0 +1,16 @@
+0,1,2,3
+292,CD,B-NP,O
+Wayne,NNP,I-NP,B-PER
+Westner,NNP,I-NP,I-PER
+(,(,O,O
+South,NNP,B-NP,B-LOC
+Africa,NNP,I-NP,I-LOC
+),),O,O
+77,CD,B-NP,O
+68,CD,I-NP,O
+73,CD,I-NP,O
+74,CD,B-NP,O
+",",",",O,O
+Sven,NNP,B-NP,B-PER
+Struver,NNP,I-NP,I-PER
+(,(,O,O

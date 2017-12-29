@@ -1,0 +1,9 @@
+0,1,2,3
+10-0-52-0,CD,B-NP,O
+",",",",O,O
+Irani,JJ,B-NP,B-PER
+10-0-56-1,CD,I-NP,O
+",",",",O,O
+Croft,NNP,B-NP,B-PER
+10-1-36-2,NNP,I-NP,O
+.,.,O,O

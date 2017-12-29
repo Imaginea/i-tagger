@@ -1,0 +1,23 @@
+0,1,2,3
+ ,O,O,<UNK>
+They,PRP,B-NP,O
+rammed,VBD,B-VP,O
+our,PRP$,B-NP,O
+shacks,NNS,I-NP,O
+with,IN,B-PP,O
+jeeps,NNS,B-NP,O
+and,CC,O,O
+destroyed,VBD,B-VP,O
+the,DT,B-NP,O
+shack,NN,I-NP,O
+over,IN,B-PP,O
+my,PRP$,B-NP,O
+baby,NN,I-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+said,VBD,B-VP,O
+25-year-old,JJ,B-NP,O
+Amina,NNP,I-NP,B-PER
+Muhammad,NNP,I-NP,I-PER
+.,.,I-NP,O
+ ,O,O,<UNK>

@@ -1,0 +1,13 @@
+0,1,2,3
+leaving,VBG,B-VP,O
+Gencor,NNP,B-NP,B-ORG
+clearly,RB,B-ADVP,O
+structured,VBN,B-VP,O
+along,IN,B-PP,O
+commodity,NN,B-NP,O
+lines,NNS,I-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+Gilbertson,NNP,B-NP,B-PER
+said,VBD,B-VP,O
+.,.,O,O

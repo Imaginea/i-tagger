@@ -1,0 +1,7 @@
+0,1,2,3
+L.,NNP,B-NP,B-PER
+Germon,NNP,I-NP,I-PER
+lbw,NN,I-NP,O
+b,SYM,O,O
+Afridi,NNP,B-NP,B-PER
+2,CD,I-NP,O

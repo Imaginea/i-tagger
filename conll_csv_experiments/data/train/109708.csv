@@ -1,0 +1,13 @@
+0,1,2,3
+ASARCO,NNP,B-NP,B-ORG
+pure,JJ,I-NP,O
+lead,NN,I-NP,O
+(,(,O,O
+effective,JJ,B-NP,O
+date,NN,I-NP,O
+:,:,O,O
+August,NNP,B-NP,O
+1,CD,I-NP,O
+",",",",I-NP,O
+1996,CD,I-NP,O
+),),O,O

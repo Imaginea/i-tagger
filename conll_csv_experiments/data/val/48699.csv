@@ -1,0 +1,26 @@
+0,1,2,3
+ ,O,O,<UNK>
+This,DT,B-NP,O
+lack,NN,I-NP,O
+of,IN,B-PP,O
+rule,NN,B-NP,O
+of,IN,B-PP,O
+law,NN,B-NP,O
+is,VBZ,B-VP,O
+an,DT,B-NP,O
+indication,NN,I-NP,O
+that,IN,B-SBAR,O
+the,DT,B-NP,O
+authorities,NNS,I-NP,O
+are,VBP,B-VP,O
+not,RB,O,O
+interested,JJ,B-ADJP,O
+in,IN,B-PP,O
+fair,JJ,B-NP,O
+play,NN,I-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+she,PRP,B-NP,O
+said,VBD,B-VP,O
+.,.,O,O
+ ,O,O,<UNK>

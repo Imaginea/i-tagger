@@ -1,0 +1,9 @@
+0,1,2,3
+-,:,O,O
+Saudi,NNP,B-NP,B-MISC
+Prince,NNP,I-NP,O
+Sultan,NNP,I-NP,O
+telephones,NNS,I-NP,O
+prime,JJ,I-NP,O
+minister,NN,I-NP,O
+.,.,O,O

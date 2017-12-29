@@ -1,0 +1,15 @@
+0,1,2,3
+72,CD,B-NP,O
+Niclas,NNP,I-NP,B-PER
+Fasth,NNP,I-NP,I-PER
+(,(,O,O
+Sweden,NNP,B-NP,B-LOC
+),),O,O
+",",",",O,O
+Michael,NNP,B-NP,B-PER
+Jonzon,NNP,I-NP,I-PER
+(,(,O,O
+Sweden,NNP,B-NP,B-LOC
+),),O,O
+",",",",O,O
+Chistian,NNP,B-NP,B-PER

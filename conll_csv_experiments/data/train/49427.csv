@@ -1,0 +1,7 @@
+0,1,2,3
+SunGard,NN,B-NP,B-ORG
+to,TO,B-VP,O
+buy,VB,I-VP,O
+CheckFree,NNP,B-NP,B-ORG
+unit,NN,I-NP,O
+.,.,O,O

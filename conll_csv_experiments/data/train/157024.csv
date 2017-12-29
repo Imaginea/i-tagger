@@ -1,0 +1,8 @@
+0,1,2,3
+(,(,O,O
+Barcelona,NNP,B-NP,B-ORG
+win,VBP,B-VP,O
+6-5,CD,B-NP,O
+on,IN,B-PP,O
+aggregate,NN,B-NP,O
+),),O,O

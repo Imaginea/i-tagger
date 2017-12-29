@@ -1,0 +1,14 @@
+0,1,2,3
+10-0-42-0,CD,B-NP,O
+(,(,O,O
+1w,CD,B-NP,O
+),),O,O
+",",",",O,O
+Shahid,NNP,B-NP,B-PER
+Afridi,NNP,I-NP,I-PER
+7-0-40-2,CD,I-NP,O
+",",",",O,O
+Salim,NNP,B-NP,B-PER
+Malik,NNP,I-NP,I-PER
+2.5-0-8-1,CD,I-NP,O
+",",",",O,O

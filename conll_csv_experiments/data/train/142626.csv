@@ -1,0 +1,15 @@
+0,1,2,3
+In,IN,B-PP,O
+Europe,NNP,B-NP,B-LOC
+",",",",O,O
+the,DT,B-NP,O
+service,NN,I-NP,O
+is,VBZ,B-VP,O
+available,JJ,B-ADJP,O
+in,IN,B-PP,O
+Germany,NNP,B-NP,B-LOC
+",",",",I-NP,O
+France,NNP,I-NP,B-LOC
+and,CC,I-NP,O
+Britain,NNP,I-NP,B-LOC
+.,.,O,O

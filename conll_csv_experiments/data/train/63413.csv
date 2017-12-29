@@ -1,0 +1,37 @@
+0,1,2,3
+Iran,NNP,B-NP,B-LOC
+has,VBZ,B-VP,O
+an,DT,B-NP,O
+estimated,VBN,I-NP,O
+one,CD,I-NP,O
+million,CD,I-NP,O
+drug,NN,B-NP,O
+addicts,NNS,I-NP,O
+and,CC,O,O
+is,VBZ,B-VP,O
+a,DT,B-NP,O
+key,JJ,I-NP,O
+transit,NN,I-NP,O
+route,NN,I-NP,O
+for,IN,B-PP,O
+drugs,NNS,B-NP,O
+",",",",O,O
+mostly,RB,B-NP,O
+opium,NN,I-NP,O
+",",",",O,O
+smuggled,VBN,B-VP,O
+to,TO,B-PP,O
+Europe,NNP,B-NP,B-LOC
+through,IN,B-PP,O
+Afghanistan,NNP,B-NP,B-LOC
+and,CC,I-NP,O
+Pakistan,NNP,I-NP,B-LOC
+--,:,O,O
+the,DT,B-NP,O
+so,RB,B-ADVP,O
+called,VBD,B-VP,O
+ ,O,O,<UNK>
+Golden,NNP,B-NP,B-ORG
+Crescent,NNP,I-NP,I-ORG
+.,.,I-NP,O
+ ,O,O,<UNK>

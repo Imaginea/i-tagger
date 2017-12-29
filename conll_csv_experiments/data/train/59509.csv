@@ -1,0 +1,10 @@
+0,1,2,3
+Borussia,NNP,B-NP,B-ORG
+Moenchengladbach,NNP,I-NP,I-ORG
+1,CD,I-NP,O
+(,(,O,O
+Andersson,NNP,B-NP,B-PER
+22nd,CD,I-NP,O
+),),O,O
+Karlsruhe,NN,B-NP,B-ORG
+3,CD,I-NP,O

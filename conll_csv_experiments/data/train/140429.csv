@@ -1,0 +1,30 @@
+0,1,2,3
+ ,O,O,<UNK>
+We,PRP,B-NP,O
+are,VBP,B-VP,O
+certainly,RB,B-ADVP,O
+serious,JJ,B-ADJP,O
+more,RBR,B-NP,O
+than,IN,I-NP,O
+before,IN,B-PP,O
+to,TO,B-VP,O
+find,VB,I-VP,O
+a,DT,B-NP,O
+solution,NN,I-NP,O
+to,TO,B-PP,O
+the,DT,B-NP,O
+Afghan,JJ,I-NP,B-MISC
+problem,NN,I-NP,O
+and,CC,O,O
+support,VB,B-VP,O
+every,DT,B-NP,O
+U.N.,NNP,I-NP,B-ORG
+plan,NN,I-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+Amrollah,NNP,B-NP,B-PER
+quoted,VBD,B-VP,O
+Rohrabacher,NNP,B-NP,B-PER
+as,IN,B-PP,O
+saying,VBG,B-VP,O
+.,.,O,O

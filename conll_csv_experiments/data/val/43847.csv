@@ -1,0 +1,6 @@
+0,1,2,3
+Escaped,VBN,B-VP,O
+British,JJ,B-NP,B-MISC
+paedophile,NN,I-NP,O
+recaptured,VBN,B-VP,O
+.,.,O,O

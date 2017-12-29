@@ -1,0 +1,27 @@
+0,1,2,3
+ ,O,O,<UNK>
+At,IN,B-PP,O
+the,DT,B-NP,O
+moment,NN,I-NP,O
+we,PRP,B-NP,O
+have,VBP,B-VP,O
+a,DT,B-NP,O
+preliminary,JJ,I-NP,O
+list,NN,I-NP,O
+of,IN,B-PP,O
+less,JJR,B-NP,O
+than,IN,I-NP,O
+10,CD,I-NP,O
+people,NNS,I-NP,O
+",",",",O,O
+but,CC,O,O
+this,DT,B-NP,O
+is,VBZ,B-VP,O
+just,RB,B-NP,O
+the,DT,I-NP,O
+beginning,NN,I-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+he,PRP,B-NP,O
+said,VBD,B-VP,O
+.,.,O,O

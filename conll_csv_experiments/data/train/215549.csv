@@ -1,0 +1,13 @@
+0,1,2,3
+Yr,NN,B-NP,O
+/,SYM,O,O
+yr,JJR,B-NP,O
+rise,NN,I-NP,O
+(,(,O,O
+%,NN,B-NP,O
+),),O,O
++1.2,CD,B-NP,O
++1.5,CD,I-NP,O
++7.1,CD,I-NP,O
+119.6,CD,I-NP,O
+-,:,I-NP,O

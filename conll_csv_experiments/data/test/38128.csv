@@ -1,0 +1,16 @@
+0,1,2,3
+Umar,NN,B-NP,B-PER
+said,VBD,B-VP,O
+the,DT,B-NP,O
+government,NN,I-NP,O
+had,VBD,B-VP,O
+yet,RB,I-VP,O
+to,TO,I-VP,O
+receive,VB,I-VP,O
+a,DT,B-NP,O
+formal,JJ,I-NP,O
+reply,NN,I-NP,O
+from,IN,B-PP,O
+the,DT,B-NP,O
+companies,NNS,I-NP,O
+.,.,O,O

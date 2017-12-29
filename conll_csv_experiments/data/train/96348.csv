@@ -1,0 +1,7 @@
+0,1,2,3
+River,NNP,B-NP,B-ORG
+Plate,NNP,I-NP,I-ORG
+0,CD,I-NP,O
+Gimnasia-La,NNP,I-NP,B-ORG
+Plata,NNP,I-NP,I-ORG
+0,CD,I-NP,O

@@ -1,0 +1,8 @@
+0,1,2,3
+11.,CD,B-NP,O
+Wendy,NNP,I-NP,B-PER
+Everson,NNP,I-NP,I-PER
+(,(,O,O
+Britain,NNP,B-NP,B-LOC
+),),O,O
+37.624,CD,B-NP,O

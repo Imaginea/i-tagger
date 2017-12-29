@@ -1,0 +1,5 @@
+0,1,2,3
+4.,CD,B-NP,O
+Faroe,NNP,I-NP,B-LOC
+Islands,NNPS,I-NP,I-LOC
+8.56,CD,I-NP,O

@@ -1,0 +1,8 @@
+0,1,2,3
+Southern,JJ,B-NP,B-MISC
+records,NNS,I-NP,O
+have,VBP,B-VP,O
+already,RB,I-VP,O
+been,VBN,I-VP,O
+preserved,VBN,I-VP,O
+.,.,O,O

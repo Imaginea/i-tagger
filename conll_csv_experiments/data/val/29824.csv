@@ -1,0 +1,11 @@
+0,1,2,3
+England,NNP,B-NP,B-LOC
+N.,NNP,B-NP,B-PER
+Knight,NNP,I-NP,I-PER
+st,NN,I-NP,O
+Moin,NNP,I-NP,B-PER
+Khan,NNP,I-NP,I-PER
+b,SYM,O,O
+Saqlain,NNP,B-NP,B-PER
+Mushtaq,NNP,I-NP,I-PER
+113,CD,I-NP,O

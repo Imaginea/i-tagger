@@ -1,0 +1,6 @@
+0,1,2,3
+Net,JJ,B-NP,O
+foreign,JJ,I-NP,O
+debt,NN,I-NP,O
+"14,278.9",CD,B-NP,O
+"14,390.7",CD,I-NP,O

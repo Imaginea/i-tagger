@@ -1,0 +1,10 @@
+0,1,2,3
+18.,CD,B-NP,O
+Vac,NNP,I-NP,B-ORG
+3,CD,I-NP,O
+-,:,I-NP,O
+-,:,O,O
+3,CD,B-NP,O
+2,CD,I-NP,O
+8,CD,I-NP,O
+0,CD,I-NP,O

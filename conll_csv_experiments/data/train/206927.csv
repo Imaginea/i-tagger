@@ -1,0 +1,9 @@
+0,1,2,3
+It,PRP,B-NP,O
+'s,VBZ,B-VP,O
+been,VBN,I-VP,O
+99,CD,B-NP,O
+cents,NNS,I-NP,O
+to,TO,B-PP,O
+Korea,NNP,B-NP,B-LOC
+.,.,O,O

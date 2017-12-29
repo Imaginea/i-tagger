@@ -1,0 +1,14 @@
+0,1,2,3
+(,(,O,O
+Sweden,NNP,B-NP,B-LOC
+),),O,O
+",",",",O,O
+Miles,NNP,B-NP,B-PER
+Tunnicliff,NNP,I-NP,I-PER
+",",",",O,O
+Christian,NNP,B-NP,B-PER
+Cevaer,NNP,I-NP,I-PER
+(,(,O,O
+France,NNP,B-NP,B-LOC
+),),O,O
+",",",",O,O

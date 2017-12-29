@@ -1,0 +1,18 @@
+0,1,2,3
+ ,O,O,<UNK>
+In,IN,B-PP,O
+1970s,NNS,B-NP,O
+",",",",O,O
+Poland,NNP,B-NP,B-LOC
+received,VBD,B-VP,O
+from,IN,B-PP,O
+unclaimed,JJ,B-NP,O
+accounts,NNS,I-NP,O
+in,IN,B-PP,O
+Switzerland,NNP,B-NP,B-LOC
+a,DT,B-NP,O
+sum,NN,I-NP,O
+of,IN,B-PP,O
+"460,000",CD,B-NP,O
+francs,NNS,I-NP,O
+.,.,O,O

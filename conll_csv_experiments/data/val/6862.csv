@@ -1,0 +1,14 @@
+0,1,2,3
+Karlsruhe,NNP,B-NP,B-ORG
+won,VBD,B-VP,O
+the,DT,B-NP,O
+August,NNP,I-NP,O
+20,CD,I-NP,O
+match,NN,I-NP,O
+3-1,CD,I-NP,O
+thanks,NNS,I-NP,O
+to,TO,B-PP,O
+two,CD,B-NP,O
+late,JJ,I-NP,O
+goals,NNS,I-NP,O
+.,.,O,O

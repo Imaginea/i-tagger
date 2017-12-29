@@ -1,0 +1,8 @@
+0,1,2,3
+ ,O,O,<UNK>
+I,PRP,B-NP,O
+do,VBP,B-VP,O
+n't,RB,I-VP,O
+believe,VB,I-VP,O
+it,PRP,B-NP,O
+...,:,O,O

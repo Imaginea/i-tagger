@@ -1,0 +1,15 @@
+0,1,2,3
+Stephanie,NNP,B-NP,B-PER
+had,VBD,B-VP,O
+two,CD,B-NP,O
+children,NNS,I-NP,O
+with,IN,B-PP,O
+Ducruet,NNP,B-NP,B-PER
+before,IN,B-PP,O
+their,PRP$,B-NP,O
+marriage,NN,I-NP,O
+in,IN,B-PP,O
+July,NNP,B-NP,O
+last,JJ,B-NP,O
+year,NN,I-NP,O
+.,.,O,O

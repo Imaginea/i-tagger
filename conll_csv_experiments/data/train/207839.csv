@@ -1,0 +1,6 @@
+0,1,2,3
+Net,JJ,B-NP,O
+Sales,NNS,I-NP,O
+:,:,O,O
+1996/97,CD,B-NP,O
+1997/98,CD,I-NP,O

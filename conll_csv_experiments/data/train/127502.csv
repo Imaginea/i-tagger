@@ -1,0 +1,4 @@
+0,1,2,3
+Price,NNP,B-NP,O
+Max,NNP,I-NP,O
+.,.,O,O

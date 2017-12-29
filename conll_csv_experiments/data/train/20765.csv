@@ -1,0 +1,8 @@
+0,1,2,3
+Turkish,JJ,B-NP,B-MISC
+shares,NNS,I-NP,O
+shed,VB,B-VP,O
+gains,NNS,B-NP,O
+in,IN,B-PP,O
+profit-taking,NN,B-NP,O
+.,.,O,O

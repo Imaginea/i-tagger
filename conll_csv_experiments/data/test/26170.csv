@@ -1,0 +1,11 @@
+0,1,2,3
+14,CD,B-NP,O
+years,NNS,I-NP,O
+later,RBR,B-ADVP,O
+",",",",O,O
+Florida,NNP,B-NP,B-LOC
+man,NN,I-NP,O
+dies,VBZ,B-VP,O
+for,IN,B-PP,O
+killing,NN,B-NP,O
+.,.,O,O

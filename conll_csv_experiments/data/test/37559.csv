@@ -1,0 +1,7 @@
+0,1,2,3
+Sangetsu,NNP,B-NP,B-ORG
+-,:,O,O
+96/97,CD,B-NP,O
+parent,NN,I-NP,O
+forecast,NN,I-NP,O
+.,.,O,O

@@ -1,0 +1,11 @@
+0,1,2,3
+SDA,NNP,B-NP,B-ORG
+has,VBZ,B-VP,O
+a,DT,B-NP,O
+representative,NN,I-NP,O
+on,IN,B-PP,O
+the,DT,B-NP,O
+Provisional,NNP,I-NP,B-ORG
+Election,NNP,I-NP,I-ORG
+Commission,NNP,I-NP,I-ORG
+.,.,O,O

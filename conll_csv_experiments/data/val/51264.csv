@@ -1,0 +1,7 @@
+0,1,2,3
+I,PRP,B-NP,O
+think,VBP,B-VP,O
+they,PRP,B-NP,O
+will,MD,B-VP,O
+succeed,VB,I-VP,O
+.,.,O,O

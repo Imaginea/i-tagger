@@ -1,0 +1,14 @@
+0,1,2,3
+I,PRP,B-NP,O
+have,VB,B-VP,O
+much,RB,B-NP,O
+more,JJR,I-NP,O
+fun,NN,I-NP,O
+on,IN,B-PP,O
+the,DT,B-NP,O
+court,NN,I-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+he,PRP,B-NP,O
+said,VBD,B-VP,O
+.,.,O,O

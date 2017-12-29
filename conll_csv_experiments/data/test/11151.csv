@@ -1,0 +1,10 @@
+0,1,2,3
+The,DT,B-NP,O
+ceremony,NN,I-NP,O
+was,VBD,B-VP,O
+attended,VBN,I-VP,O
+by,IN,B-PP,O
+President,NNP,B-NP,O
+Emil,NNP,I-NP,B-PER
+Constantinescu,NNP,I-NP,I-PER
+.,.,O,O

@@ -1,0 +1,17 @@
+0,1,2,3
+It,PRP,B-NP,O
+just,RB,B-ADVP,O
+has,VBZ,B-VP,O
+n't,RB,I-VP,O
+had,VBD,I-VP,O
+the,DT,B-NP,O
+huge,JJ,I-NP,O
+earth-shattering,JJ,I-NP,O
+impact,NN,I-NP,O
+some,DT,B-NP,O
+people,NNS,I-NP,O
+were,VBD,B-VP,O
+looking,VBG,I-VP,O
+for,IN,B-PP,O
+.,.,O,O
+ ,O,O,<UNK>

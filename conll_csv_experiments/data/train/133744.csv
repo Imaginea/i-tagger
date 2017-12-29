@@ -1,0 +1,10 @@
+0,1,2,3
+--,:,B-NP,O
+Omar,NNP,I-NP,B-PER
+Lugo,NNP,I-NP,I-PER
+",",",",O,O
+Caracas,NNP,B-NP,B-LOC
+newsroom,NN,I-NP,O
+",",",",O,O
+582,CD,B-NP,O
+834405,CD,I-NP,O

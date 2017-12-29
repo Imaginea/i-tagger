@@ -1,0 +1,10 @@
+0,1,2,3
+3.,NNP,B-NP,O
+Hever,NNP,B-NP,B-PER
+Golf,NNP,I-NP,I-PER
+Rose,NNP,I-NP,I-PER
+11-4,NNP,I-NP,O
+(,(,O,O
+Jason,NNP,B-NP,B-PER
+Weaver,NNP,I-NP,I-PER
+),),O,O

@@ -1,0 +1,8 @@
+0,1,2,3
+ ,O,O,<UNK>
+She,PRP,B-NP,O
+'s,VBZ,B-VP,O
+fine,JJ,B-ADJP,O
+with,IN,B-PP,O
+it,PRP,B-NP,O
+.,.,O,O

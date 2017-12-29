@@ -1,0 +1,21 @@
+0,1,2,3
+we,PRP,B-NP,O
+are,VBP,B-VP,O
+not,RB,I-VP,O
+selling,VBG,I-VP,O
+furniture,NN,B-NP,O
+",",",",O,O
+and,CC,O,O
+Bre-X,NNP,B-NP,B-ORG
+has,VBZ,B-VP,O
+"13,000",CD,B-NP,O
+shareholders,NNS,I-NP,O
+to,TO,B-VP,O
+answer,VB,I-VP,O
+to,TO,I-VP,O
+",",",",O,O
+ ,O,O,<UNK>
+the,DT,B-NP,O
+source,NN,I-NP,O
+said,VBD,B-VP,O
+.,.,O,O

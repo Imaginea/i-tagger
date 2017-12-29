@@ -1,0 +1,6 @@
+0,1,2,3
+CHONJU,NNP,B-NP,B-LOC
+",",",",O,O
+South,NNP,B-NP,B-LOC
+Korea,NNP,I-NP,I-LOC
+1996-12-07,CD,I-NP,O

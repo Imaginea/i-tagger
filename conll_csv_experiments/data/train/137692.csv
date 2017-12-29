@@ -1,0 +1,10 @@
+0,1,2,3
+Puerto,NNP,B-NP,B-LOC
+Rico,NNP,I-NP,I-LOC
+girl,NN,I-NP,O
+has,VBZ,B-VP,O
+surgery,NN,B-NP,O
+for,IN,B-PP,O
+hairy,JJ,B-NP,O
+face,NN,I-NP,O
+.,.,O,O

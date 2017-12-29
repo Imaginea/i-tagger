@@ -1,0 +1,12 @@
+0,1,2,3
+UN,NNP,B-INTJ,B-ORG
+official,NN,B-NP,O
+says,VBZ,B-VP,O
+Iraqi,JJ,B-NP,B-MISC
+deal,NN,I-NP,O
+will,MD,B-VP,O
+occur,VB,I-VP,O
+ ,O,O,<UNK>
+soon,RB,B-ADVP,O
+ ,O,O,<UNK>
+.,.,O,O

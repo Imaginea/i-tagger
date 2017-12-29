@@ -1,0 +1,27 @@
+0,1,2,3
+ ,O,O,<UNK>
+They,PRP,B-NP,O
+could,MD,B-VP,O
+cause,VB,I-VP,O
+serious,JJ,B-NP,O
+damage,NN,I-NP,O
+as,RB,B-ADVP,O
+much,JJ,I-ADVP,O
+as,IN,B-PP,O
+500,CD,B-NP,O
+meters,NNS,I-NP,O
+(,(,O,O
+yards,NNS,B-NP,O
+),),O,O
+away,RB,B-ADVP,O
+from,IN,B-PP,O
+wherever,WRB,B-ADVP,O
+they,PRP,B-NP,O
+were,VBD,B-VP,O
+detonated,VBD,I-VP,O
+",",",",O,O
+ ,O,O,<UNK>
+the,DT,B-NP,O
+spokesman,NN,I-NP,O
+added,VBD,B-VP,O
+.,.,O,O

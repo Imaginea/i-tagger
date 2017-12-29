@@ -1,0 +1,12 @@
+0,1,2,3
+Diana,NNP,B-NP,B-PER
+first,RB,B-ADVP,O
+met,VBD,B-VP,O
+the,DT,B-NP,O
+Albanian-born,NNP,I-NP,B-MISC
+missionary,JJ,I-NP,O
+in,IN,B-PP,O
+Rome,NNP,B-NP,B-LOC
+in,IN,B-PP,O
+1992,CD,B-NP,O
+.,.,O,O

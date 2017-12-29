@@ -1,0 +1,33 @@
+0,1,2,3
+ ,O,O,<UNK>
+The,DT,B-NP,O
+opportunity,NN,I-NP,O
+to,TO,B-VP,O
+import,VB,I-VP,O
+(,(,O,O
+Mexican,JJ,B-NP,B-MISC
+avocados,NNS,I-NP,O
+),),O,O
+probably,RB,B-ADVP,O
+wo,MD,B-VP,O
+n't,RB,I-VP,O
+become,VBN,I-VP,O
+possible,JJ,B-ADJP,O
+for,IN,B-PP,O
+another,DT,B-NP,O
+year,NN,I-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+said,VBD,B-VP,O
+Paul,NNP,B-NP,B-PER
+Drazek,NNP,I-NP,I-PER
+",",",",O,O
+senior,JJ,B-NP,O
+trade,NN,I-NP,O
+advisor,NN,I-NP,O
+to,TO,B-PP,O
+Agriculture,NNP,B-NP,O
+Secretary,NNP,I-NP,O
+Dan,NNP,I-NP,B-PER
+Glickman,NNP,I-NP,I-PER
+.,.,O,O

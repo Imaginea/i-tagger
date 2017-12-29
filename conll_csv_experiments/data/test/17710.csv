@@ -1,0 +1,22 @@
+0,1,2,3
+I,PRP,B-NP,O
+see,VBP,B-VP,O
+in,IN,B-PP,O
+him,PRP,B-NP,O
+the,DT,B-NP,O
+profile,NN,I-NP,O
+of,IN,B-PP,O
+a,DT,B-NP,O
+secretray-general,NN,I-NP,O
+of,IN,B-PP,O
+the,DT,B-NP,O
+United,NNP,I-NP,B-ORG
+Nations,NNPS,I-NP,I-ORG
+and,CC,I-NP,O
+I,PRP,I-NP,O
+have,VBP,B-VP,O
+given,VBN,I-VP,O
+my,PRP$,B-NP,O
+endorsement,NN,I-NP,O
+.,.,O,O
+ ,O,O,<UNK>

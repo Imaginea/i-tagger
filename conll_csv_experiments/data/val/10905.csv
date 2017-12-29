@@ -1,0 +1,10 @@
+0,1,2,3
+Soccer,JJR,B-NP,O
+-,:,O,O
+McCarthy,NNP,B-NP,B-PER
+names,NNS,I-NP,O
+team,NN,I-NP,O
+to,TO,B-VP,O
+play,VB,I-VP,O
+Liechtenstein,NNP,B-NP,B-LOC
+.,.,O,O

@@ -1,0 +1,14 @@
+0,1,2,3
+Shares,NNS,B-NP,O
+were,VBD,B-VP,O
+to,TO,I-VP,O
+be,VB,I-VP,O
+pro-rated,VBN,I-VP,O
+if,IN,B-SBAR,O
+more,JJR,B-NP,O
+than,IN,I-NP,O
+14.4,CD,I-NP,O
+million,CD,I-NP,O
+were,VBD,B-VP,O
+requested,VBN,I-VP,O
+.,.,O,O

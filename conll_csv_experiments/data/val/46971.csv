@@ -1,0 +1,8 @@
+0,1,2,3
+--,:,B-NP,O
+Anthony,NNP,I-NP,B-PER
+Barker,NNP,I-NP,I-PER
++48,CD,I-NP,O
+22,CD,I-NP,O
+653,CD,I-NP,O
+9700,CD,I-NP,O

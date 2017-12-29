@@ -1,0 +1,14 @@
+0,1,2,3
+Netanyahu,NNP,B-NP,B-PER
+met,VBD,B-VP,O
+Weizman,NNP,B-NP,B-PER
+last,JJ,B-NP,O
+Tuesday,NNP,I-NP,O
+and,CC,O,O
+voiced,VBD,B-VP,O
+his,PRP$,B-NP,O
+opposition,NN,I-NP,O
+",",",",O,O
+Yedioth,NN,B-NP,B-ORG
+said,VBD,B-VP,O
+.,.,O,O

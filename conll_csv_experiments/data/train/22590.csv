@@ -1,0 +1,14 @@
+0,1,2,3
+He,PRP,B-NP,O
+will,MD,B-VP,O
+probably,RB,I-VP,O
+be,VB,I-VP,O
+free,JJ,B-ADJP,O
+in,IN,B-PP,O
+around,IN,B-NP,O
+two,CD,I-NP,O
+and,CC,I-NP,O
+a,DT,I-NP,O
+half,NN,I-NP,O
+years,NNS,I-NP,O
+.,.,O,O

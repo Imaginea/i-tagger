@@ -1,0 +1,11 @@
+0,1,2,3
+TYPE,NNP,B-NP,O
+straight,RB,B-ADVP,O
+bond,NN,B-NP,O
+ISSUE,NNP,I-NP,O
+NO,DT,I-NP,O
+13,CD,I-NP,O
+AMT,NNP,O,O
+10,CD,O,O
+bln,FW,B-NP,O
+yen,NNS,I-NP,O

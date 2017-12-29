@@ -1,0 +1,16 @@
+0,1,2,3
+Maybe,RB,B-ADVP,O
+I,PRP,B-NP,O
+have,VBP,B-VP,O
+n't,RB,I-VP,O
+been,VBN,I-VP,O
+as,IN,B-PP,O
+keyed,VBN,B-VP,O
+up,RP,B-PRT,O
+as,IN,B-SBAR,O
+I,PRP,B-NP,O
+should,MD,B-VP,O
+have,VB,I-VP,O
+been,VBN,I-VP,O
+.,.,O,O
+ ,O,O,<UNK>

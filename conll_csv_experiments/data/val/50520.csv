@@ -1,0 +1,9 @@
+0,1,2,3
+Ceasefire,JJ,B-NP,O
+monitors,NNS,I-NP,O
+to,TO,B-VP,O
+meet,VB,I-VP,O
+in,IN,B-PP,O
+south,JJ,B-NP,O
+Lebanon,NNP,I-NP,B-LOC
+.,.,O,O

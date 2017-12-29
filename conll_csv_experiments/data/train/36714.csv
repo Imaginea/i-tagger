@@ -1,0 +1,8 @@
+0,1,2,3
+6.,CD,B-NP,O
+Chandra,NNP,I-NP,B-PER
+Sturrup,NNP,I-NP,I-PER
+(,(,O,O
+Bahamas,NNPS,B-NP,B-LOC
+),),O,O
+22.85,CD,B-NP,O

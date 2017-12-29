@@ -1,0 +1,11 @@
+0,1,2,3
+ ,O,O,<UNK>
+China,NNP,B-NP,B-LOC
+is,VBZ,B-VP,O
+going,VBG,I-VP,O
+through,IN,B-PP,O
+this,DT,B-NP,O
+power,NN,I-NP,O
+transition,NN,I-NP,O
+period,NN,I-NP,O
+.,.,O,O

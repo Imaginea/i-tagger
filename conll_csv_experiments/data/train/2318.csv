@@ -1,0 +1,9 @@
+0,1,2,3
+Two,CD,B-NP,O
+Iranian,JJ,I-NP,B-MISC
+opposition,NN,I-NP,O
+leaders,NNS,I-NP,O
+meet,VBP,B-VP,O
+in,IN,B-PP,O
+Baghdad,NNP,B-NP,B-LOC
+.,.,O,O

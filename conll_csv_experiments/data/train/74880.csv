@@ -1,0 +1,13 @@
+0,1,2,3
+the,DT,B-NP,O
+side,NN,I-NP,O
+with,IN,B-PP,O
+the,DT,B-NP,O
+most,RBS,I-NP,O
+successful,JJ,I-NP,O
+record,NN,I-NP,O
+against,IN,B-PP,O
+the,DT,B-NP,O
+others,NNS,I-NP,O
+),),O,O
+.,.,O,O

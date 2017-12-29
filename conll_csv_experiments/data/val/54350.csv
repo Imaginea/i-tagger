@@ -1,0 +1,19 @@
+0,1,2,3
+He,PRP,B-NP,O
+was,VBD,B-VP,O
+a,DT,B-NP,O
+soldier,NN,I-NP,O
+and,CC,O,O
+a,DT,B-NP,O
+statesman,NN,I-NP,O
+and,CC,O,O
+",",",",O,O
+over,IN,B-PP,O
+time,NN,B-NP,O
+",",",",O,O
+a,DT,B-NP,O
+man,NN,I-NP,O
+of,IN,B-PP,O
+peace,NN,B-NP,O
+.,.,O,O
+ ,O,O,<UNK>

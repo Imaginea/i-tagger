@@ -1,0 +1,7 @@
+0,1,2,3
+Sion,NN,B-NP,B-ORG
+win,VBP,B-VP,O
+4-2,JJ,B-ADJP,O
+on,IN,B-PP,O
+agrregate,VB,B-VP,O
+.,.,O,O

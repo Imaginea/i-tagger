@@ -1,0 +1,17 @@
+0,1,2,3
+Their,PRP$,B-NP,O
+enemies,NNS,I-NP,O
+were,VBD,B-VP,O
+tangible,JJ,B-ADJP,O
+if,IN,B-SBAR,O
+elusive,JJ,B-ADJP,O
+",",",",O,O
+such,JJ,B-PP,O
+as,IN,I-PP,O
+the,DT,B-NP,O
+people,NNS,I-NP,O
+who,WP,B-NP,O
+pirated,VBD,B-VP,O
+music,NN,B-NP,O
+cassettes,NNS,I-NP,O
+.,.,O,O

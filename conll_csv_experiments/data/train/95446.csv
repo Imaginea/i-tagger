@@ -1,0 +1,7 @@
+0,1,2,3
+Boby,JJ,B-NP,B-ORG
+Brno,NNP,B-NP,I-ORG
+1,CD,I-NP,O
+Sigma,NNP,I-NP,B-ORG
+Olomouc,NNP,I-NP,I-ORG
+0,CD,I-NP,O

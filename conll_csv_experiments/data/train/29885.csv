@@ -1,0 +1,10 @@
+0,1,2,3
+after,IN,B-PP,O
+Friday,NNP,B-NP,O
+'s,POS,B-NP,O
+opening,NN,I-NP,O
+practice,NN,I-NP,O
+sessions,NNS,I-NP,O
+for,IN,B-PP,O
+Sunday,NNP,B-NP,O
+'s,POS,I-NP,O

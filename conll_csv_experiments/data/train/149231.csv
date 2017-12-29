@@ -1,0 +1,8 @@
+0,1,2,3
+3.,NNP,B-NP,O
+Inez,NNP,I-NP,B-PER
+Turner,NNP,I-NP,I-PER
+(,(,O,O
+Jamaica,NNP,B-NP,B-LOC
+),),O,O
+2:00.91,CD,B-NP,O

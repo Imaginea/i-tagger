@@ -1,0 +1,10 @@
+0,1,2,3
+He,PRP,B-NP,O
+cut,VBD,B-VP,O
+his,PRP$,B-NP,O
+third-quarter,JJ,I-NP,O
+share,NN,I-NP,O
+earnings,NNS,I-NP,O
+estimate,VBP,B-VP,O
+on,RB,B-PRT,O
+:,:,O,O

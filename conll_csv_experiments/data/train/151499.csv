@@ -1,0 +1,18 @@
+0,1,2,3
+ ,O,O,<UNK>
+They,PRP,B-NP,O
+had,VBD,B-VP,O
+some,DT,B-NP,O
+scans,NNS,I-NP,O
+and,CC,I-NP,O
+X-rays,NNS,I-NP,O
+yesterday,NN,B-NP,O
+and,CC,O,O
+they,PRP,B-NP,O
+'re,VBP,B-VP,O
+out,IN,B-ADVP,O
+",",",",O,O
+ ,O,O,<UNK>
+said,VBD,B-VP,O
+Hoddle,NNP,B-NP,B-PER
+.,.,O,O

@@ -1,0 +1,12 @@
+0,1,2,3
+Los,NNP,B-NP,B-ORG
+Angeles,NNP,I-NP,I-ORG
+won,VBD,B-VP,O
+for,IN,B-PP,O
+the,DT,B-NP,O
+seventh,JJ,I-NP,O
+time,NN,I-NP,O
+in,IN,B-PP,O
+eight,CD,B-NP,O
+games,NNS,I-NP,O
+.,.,O,O

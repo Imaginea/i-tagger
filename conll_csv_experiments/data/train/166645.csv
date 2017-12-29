@@ -1,0 +1,10 @@
+0,1,2,3
+Knifeman,NNP,B-NP,O
+kills,VBZ,B-VP,O
+Polish,JJ,B-NP,B-MISC
+beauty,NN,I-NP,O
+queen,NN,I-NP,O
+",",",",O,O
+wounds,NNS,B-NP,O
+husband,NN,I-NP,O
+.,.,O,O

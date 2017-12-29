@@ -1,0 +1,7 @@
+0,1,2,3
+Total,JJ,B-NP,O
+Canadian,JJ,I-NP,B-MISC
+liquid,JJ,I-NP,O
+assets,NNS,I-NP,O
+107.83,CD,I-NP,O
+107.24,CD,I-NP,O

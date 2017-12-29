@@ -1,0 +1,10 @@
+0,1,2,3
+Police,NNS,B-NP,O
+said,VBD,B-VP,O
+their,PRP$,B-NP,O
+lives,NNS,I-NP,O
+were,VBD,B-VP,O
+not,RB,O,O
+in,IN,B-PP,O
+danger,NN,B-NP,O
+.,.,O,O

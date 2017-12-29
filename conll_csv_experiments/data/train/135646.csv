@@ -1,0 +1,16 @@
+0,1,2,3
+Baghdad,NNP,B-NP,B-LOC
+says,VBZ,B-VP,O
+it,PRP,B-NP,O
+can,MD,B-VP,O
+only,RB,I-VP,O
+accept,VB,I-VP,O
+a,DT,B-NP,O
+few,JJ,I-NP,O
+dozens,NNS,I-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+said,VBD,B-VP,O
+the,DT,B-NP,O
+diplomat,NN,I-NP,O
+.,.,O,O

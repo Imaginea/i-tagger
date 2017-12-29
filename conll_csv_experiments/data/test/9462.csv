@@ -1,0 +1,6 @@
+0,1,2,3
+Manchester,NNP,B-NP,B-ORG
+United,NNP,I-NP,I-ORG
+won,VBD,B-VP,O
+2-0,CD,B-NP,O
+.,.,O,O

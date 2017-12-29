@@ -1,0 +1,10 @@
+0,1,2,3
+He,PRP,B-NP,O
+would,MD,B-VP,O
+give,VB,I-VP,O
+no,DT,B-NP,O
+forecasts,NNS,I-NP,O
+on,IN,B-PP,O
+advertising,VBG,B-VP,O
+revenue,NN,B-NP,O
+.,.,O,O

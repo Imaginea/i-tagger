@@ -1,0 +1,9 @@
+0,1,2,3
+Chris,NNP,B-NP,B-PER
+Lewis,NNP,I-NP,I-PER
+2,CD,I-NP,O
+3,CD,I-NP,O
+0,CD,I-NP,O
+18,CD,I-NP,O
+9,CD,I-NP,O
+6.00,CD,I-NP,O

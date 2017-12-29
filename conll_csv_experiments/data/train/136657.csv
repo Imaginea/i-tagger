@@ -1,0 +1,11 @@
+0,1,2,3
+Billings,NNS,B-NP,B-LOC
+MT,IN,B-PP,B-LOC
+4.62,CD,B-NP,O
+up,RB,B-ADVP,O
+.01,CD,B-NP,O
+4.50,CD,I-NP,O
+dn,NN,I-NP,O
+.01,CD,B-NP,O
+---,IN,B-PP,O
+---,NN,B-NP,O

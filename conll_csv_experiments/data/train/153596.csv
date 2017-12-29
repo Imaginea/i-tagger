@@ -1,0 +1,11 @@
+0,1,2,3
+Kong,NNP,B-NP,B-MISC
+Open,NNP,I-NP,I-MISC
+on,IN,B-PP,O
+Wednesday,NNP,B-NP,O
+(,(,O,O
+prefix,JJ,B-NP,O
+denotes,NNS,I-NP,O
+seeding,VBG,B-VP,O
+),),O,O
+:,:,O,O

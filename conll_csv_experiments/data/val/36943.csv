@@ -1,0 +1,23 @@
+0,1,2,3
+ ,O,O,<UNK>
+I,PRP,B-NP,O
+have,VBP,B-VP,O
+nothing,NN,B-NP,O
+against,IN,B-PP,O
+Jansher,NNP,B-NP,B-PER
+but,CC,O,O
+it,PRP,B-NP,O
+will,MD,B-VP,O
+be,VB,I-VP,O
+great,JJ,B-ADJP,O
+if,IN,B-SBAR,O
+I,PRP,B-NP,O
+could,MD,B-VP,O
+beat,VB,I-VP,O
+him,PRP,B-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+said,VBD,B-VP,O
+Eyles,NNPS,B-NP,B-PER
+.,.,O,O
+ ,O,O,<UNK>

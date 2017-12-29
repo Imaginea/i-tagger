@@ -1,0 +1,17 @@
+0,1,2,3
+The,DT,B-NP,O
+electoral,JJ,I-NP,O
+commission,NN,I-NP,O
+said,VBD,B-VP,O
+the,DT,B-NP,O
+new,JJ,I-NP,O
+125-member,JJ,I-NP,O
+national,JJ,I-NP,O
+assembly,NN,I-NP,O
+would,MD,B-VP,O
+be,VB,I-VP,O
+installed,VBN,I-VP,O
+on,IN,B-PP,O
+February,NNP,B-NP,O
+10,CD,I-NP,O
+.,.,O,O

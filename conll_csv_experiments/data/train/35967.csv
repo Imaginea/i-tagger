@@ -1,0 +1,8 @@
+0,1,2,3
+7.,NNP,B-NP,O
+Hubert,NNP,I-NP,B-PER
+Grossard,NNP,I-NP,I-PER
+(,(,O,O
+Belgium,NNP,B-NP,B-LOC
+),),O,O
+13.65,CD,B-NP,O

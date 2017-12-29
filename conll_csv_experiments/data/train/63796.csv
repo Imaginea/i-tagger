@@ -1,0 +1,18 @@
+0,1,2,3
+ ,O,O,<UNK>
+Iraqi,JJ,B-NP,B-MISC
+army,NN,I-NP,O
+heavily,RB,B-ADVP,O
+shelled,VBD,B-VP,O
+the,DT,B-NP,O
+Kanie,NNP,I-NP,B-LOC
+Karzhala,NNP,I-NP,I-LOC
+camp,NN,I-NP,O
+",",",",O,O
+west,NN,B-NP,O
+of,IN,B-PP,O
+Arbil,NNP,B-NP,B-LOC
+",",",",O,O
+on,IN,B-PP,O
+Friday,NNP,B-NP,O
+...,:,O,O

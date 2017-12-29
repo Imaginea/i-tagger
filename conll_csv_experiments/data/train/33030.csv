@@ -1,0 +1,29 @@
+0,1,2,3
+ ,O,O,<UNK>
+Things,NNS,B-NP,O
+fell,VBD,B-VP,O
+in,RP,B-PRT,O
+for,IN,B-PP,O
+us,PRP,B-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+said,VBD,B-VP,O
+Sorrento,NNP,B-NP,B-PER
+",",",",O,O
+who,WP,B-NP,O
+has,VBZ,B-VP,O
+six,CD,B-NP,O
+career,NN,I-NP,O
+grand,JJ,I-NP,O
+slams,NNS,I-NP,O
+and,CC,O,O
+hit,VBD,B-VP,O
+the,DT,B-NP,O
+ninth,JJ,I-NP,O
+of,IN,B-PP,O
+the,DT,B-NP,O
+season,NN,I-NP,O
+for,IN,B-PP,O
+the,DT,B-NP,O
+Mariners,NNPS,I-NP,B-ORG
+.,.,O,O

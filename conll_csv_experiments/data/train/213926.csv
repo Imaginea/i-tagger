@@ -1,0 +1,15 @@
+0,1,2,3
+Simex,NNP,B-NP,B-MISC
+Nikkei,NNP,I-NP,I-MISC
+futures,NNS,I-NP,O
+ended,VBD,B-VP,O
+easier,JJR,B-ADJP,O
+but,CC,O,O
+off,RB,B-ADVP,O
+the,DT,B-NP,O
+day,NN,I-NP,O
+'s,POS,B-NP,O
+lows,NNS,I-NP,O
+on,IN,B-PP,O
+Thursday,NNP,B-NP,O
+.,.,O,O

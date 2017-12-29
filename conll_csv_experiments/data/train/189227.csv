@@ -1,0 +1,17 @@
+0,1,2,3
+The,DT,B-NP,O
+pair,NN,I-NP,O
+last,JJ,B-NP,O
+worked,VBD,B-VP,O
+together,RB,B-ADVP,O
+when,WRB,B-ADVP,O
+Scotland,NNP,B-NP,B-LOC
+won,VBD,B-VP,O
+the,DT,B-NP,O
+Five,CD,I-NP,B-MISC
+Nations,NNS,I-NP,I-MISC
+grand,JJ,I-NP,O
+slam,NN,I-NP,O
+in,IN,B-PP,O
+1990,CD,B-NP,O
+.,.,O,O

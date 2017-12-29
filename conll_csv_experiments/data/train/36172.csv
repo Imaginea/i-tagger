@@ -1,0 +1,8 @@
+0,1,2,3
+5.,NNP,B-NP,O
+Jean-Paul,NNP,I-NP,B-PER
+Bruwier,NNP,I-NP,I-PER
+(,(,O,O
+Belgium,NNP,B-NP,B-LOC
+),),O,O
+49.24,CD,B-NP,O

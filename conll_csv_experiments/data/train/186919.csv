@@ -1,0 +1,11 @@
+0,1,2,3
+French,JJ,B-NP,B-MISC
+farmers,NNS,I-NP,O
+set,VBD,B-VP,O
+up,RP,B-PRT,O
+blockades,NNS,B-NP,O
+in,IN,B-PP,O
+mad,JJ,B-NP,O
+cow,NN,I-NP,O
+protest,NN,I-NP,O
+.,.,O,O

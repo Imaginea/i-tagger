@@ -1,0 +1,28 @@
+0,1,2,3
+Nomura,NNP,B-NP,B-ORG
+Research,NNP,I-NP,I-ORG
+Institute,NNP,I-NP,I-ORG
+Ltd,NNP,I-NP,I-ORG
+downgraded,VBD,B-VP,O
+Aronkasei,NNP,B-NP,B-ORG
+Co,NNP,I-NP,I-ORG
+Ltd,NNP,I-NP,I-ORG
+to,TO,B-PP,O
+a,DT,B-NP,O
+ ,O,O,<UNK>
+2,CD,B-NP,O
+ ,O,O,<UNK>
+rating,NN,B-NP,O
+from,IN,B-PP,O
+its,PRP$,B-NP,O
+previous,JJ,I-NP,O
+ ,O,O,<UNK>
+1,CD,B-NP,O
+ ,O,O,<UNK>
+",",",",O,O
+market,NN,B-NP,O
+sources,NNS,I-NP,O
+said,VBD,B-VP,O
+on,IN,B-PP,O
+Monday,NNP,B-NP,O
+.,.,O,O

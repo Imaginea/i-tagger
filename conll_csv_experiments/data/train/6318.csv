@@ -1,0 +1,10 @@
+0,1,2,3
+Favourite,NNP,B-NP,O
+:,:,O,O
+Mind,VB,B-VP,B-PER
+Games,NNPS,B-NP,I-PER
+(,(,O,O
+7-4,CD,B-NP,O
+),),O,O
+finished,VBD,B-VP,O
+4th,JJ,B-NP,O

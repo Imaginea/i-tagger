@@ -1,0 +1,76 @@
+0,1,2,3
+The,DT,B-NP,O
+titles,NNS,I-NP,O
+of,IN,B-PP,O
+his,PRP$,B-NP,O
+other,JJ,I-NP,O
+novels,NNS,I-NP,O
+translate,VBP,B-VP,O
+as,IN,B-PP,O
+ ,O,O,<UNK>
+In,IN,B-PP,B-MISC
+the,DT,B-NP,I-MISC
+Year,NNP,I-NP,I-MISC
+of,IN,B-PP,I-MISC
+January,NNP,B-NP,I-MISC
+ ,O,O,<UNK>
+(,(,O,O
+1963,CD,B-NP,O
+),),O,O
+",",",",O,O
+ ,O,O,<UNK>
+The,DT,B-NP,B-MISC
+Collapse,NNP,I-NP,I-MISC
+ ,O,O,<UNK>
+(,(,O,O
+1964,CD,B-NP,O
+),),O,O
+",",",",O,O
+ ,O,O,<UNK>
+Sleeping,NN,B-NP,B-MISC
+Bread,NNP,I-NP,I-MISC
+ ,O,O,<UNK>
+(,(,O,O
+1975,CD,B-NP,O
+),),O,O
+",",",",O,O
+ ,O,O,<UNK>
+The,DT,B-NP,B-MISC
+Decaying,NNP,I-NP,I-MISC
+Mansion,NNP,I-NP,I-MISC
+ ,O,O,<UNK>
+(,(,O,O
+1977,CD,B-NP,O
+),),O,O
+and,CC,O,O
+ ,O,O,<UNK>
+A,DT,B-NP,B-MISC
+World,NNP,I-NP,I-MISC
+of,IN,B-PP,I-MISC
+Things,NNS,B-NP,I-MISC
+ ,O,O,<UNK>
+(,(,O,O
+1982,CD,B-NP,O
+),),O,O
+",",",",O,O
+followed,VBN,B-VP,O
+by,IN,B-PP,O
+ ,O,O,<UNK>
+The,DT,B-NP,B-MISC
+Knot,NNP,I-NP,I-MISC
+",",",",O,O
+ ,O,O,<UNK>
+ ,O,O,<UNK>
+Soul,NNP,B-NP,B-MISC
+Alone,RB,B-ADVP,I-MISC
+ ,O,O,<UNK>
+and,CC,O,O
+",",",",O,O
+most,RBS,B-ADVP,O
+recently,RB,I-ADVP,O
+",",",",O,O
+ ,O,O,<UNK>
+A,DT,B-NP,B-MISC
+Woman,NNP,I-NP,I-MISC
+.,.,I-NP,O
+ ,O,O,<UNK>

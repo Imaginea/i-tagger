@@ -1,0 +1,13 @@
+0,1,2,3
+third,JJ,B-NP,O
+and,CC,I-NP,O
+final,JJ,I-NP,O
+test,NN,I-NP,O
+between,IN,B-PP,O
+England,NNP,B-NP,B-LOC
+and,CC,I-NP,O
+Pakistan,NNP,I-NP,B-LOC
+at,IN,B-PP,O
+the,DT,B-NP,O
+Oval,JJ,I-NP,B-LOC
+on,IN,B-PP,O

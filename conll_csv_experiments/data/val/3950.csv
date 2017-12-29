@@ -1,0 +1,8 @@
+0,1,2,3
+I,PRP,B-NP,O
+think,VBP,B-VP,O
+I,PRP,B-NP,O
+played,VBD,B-VP,O
+really,RB,B-ADJP,O
+bad,JJ,I-ADJP,O
+.,.,O,O

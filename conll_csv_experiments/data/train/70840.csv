@@ -1,0 +1,8 @@
+0,1,2,3
+10.,CD,B-NP,O
+Eddie,NNP,I-NP,B-PER
+Irvine,NNP,I-NP,I-PER
+(,(,O,O
+Britain,NNP,B-NP,B-LOC
+),),O,O
+9,CD,B-NP,O

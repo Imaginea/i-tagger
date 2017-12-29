@@ -1,0 +1,9 @@
+0,1,2,3
+But,CC,O,O
+I,PRP,B-NP,O
+'m,VBP,B-VP,O
+still,RB,I-VP,O
+competing,VBG,I-VP,O
+well,RB,B-ADVP,O
+.,.,O,O
+ ,O,O,<UNK>

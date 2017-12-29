@@ -1,0 +1,10 @@
+0,1,2,3
+NWE,JJ,B-NP,O
+oil,NN,I-NP,O
+products,NNS,I-NP,O
+mixed,JJ,B-ADJP,O
+",",",",O,O
+holiday,NN,B-NP,O
+dulls,NNS,I-NP,O
+trade,NN,I-NP,O
+.,.,O,O

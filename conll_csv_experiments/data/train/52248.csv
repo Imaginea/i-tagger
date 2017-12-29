@@ -1,0 +1,9 @@
+0,1,2,3
+--,:,B-NP,O
+Hong,NNP,I-NP,B-LOC
+Kong,NNP,I-NP,I-LOC
+newsroom,NN,I-NP,O
+(,(,O,O
+852,CD,B-NP,O
+),),O,O
+2843-6470,JJ,B-NP,O

@@ -1,0 +1,9 @@
+0,1,2,3
+---------------------,SYM,O,O
+(,(,O,O
+Prices,NNS,B-NP,O
+in,IN,B-PP,O
+rupees,NNS,B-NP,O
+per,IN,B-PP,O
+tonne,NN,B-NP,O
+),),O,O

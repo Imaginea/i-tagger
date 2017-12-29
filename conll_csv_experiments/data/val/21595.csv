@@ -1,0 +1,7 @@
+0,1,2,3
+Profit,NN,B-NP,O
+before,IN,B-PP,O
+extraordinaries,NNS,B-NP,O
+",",",",O,O
+appropriations,NNS,B-NP,O
+",",",",O,O

@@ -1,0 +1,15 @@
+0,1,2,3
+West,JJ,B-NP,B-MISC
+African,JJ,I-NP,I-MISC
+leaders,NNS,I-NP,O
+have,VBP,B-VP,O
+threatened,VBN,I-VP,O
+individual,JJ,B-NP,O
+sanctions,NNS,I-NP,O
+against,IN,B-PP,O
+faction,NN,B-NP,O
+leaders,NNS,I-NP,O
+to,TO,B-VP,O
+ensure,VB,I-VP,O
+compliance,NN,B-NP,O
+.,.,O,O

@@ -1,0 +1,8 @@
+0,1,2,3
+Admira,NNP,B-NP,B-ORG
+/,SYM,O,I-ORG
+Wacker,NN,B-NP,I-ORG
+0,CD,I-NP,O
+Sturm,NNP,I-NP,B-ORG
+Graz,NNP,I-NP,I-ORG
+3,CD,I-NP,O

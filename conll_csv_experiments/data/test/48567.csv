@@ -1,0 +1,14 @@
+0,1,2,3
+lost,VBD,B-VP,O
+",",",",O,O
+tied,VBN,B-VP,O
+",",",",O,O
+goals,NNS,B-NP,O
+for,IN,B-PP,O
+",",",",O,O
+goals,NNS,B-NP,O
+against,IN,B-PP,O
+",",",",O,O
+points,VBZ,B-VP,O
+),),O,O
+:,:,O,O

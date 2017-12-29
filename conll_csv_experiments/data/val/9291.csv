@@ -1,0 +1,9 @@
+0,1,2,3
+Douglas,NNP,B-NP,B-ORG
+&,CC,I-NP,I-ORG
+Lomason,NN,I-NP,I-ORG
+shares,NNS,I-NP,O
+rise,NN,I-NP,O
+on,IN,B-PP,O
+merger,NN,B-NP,O
+.,.,O,O

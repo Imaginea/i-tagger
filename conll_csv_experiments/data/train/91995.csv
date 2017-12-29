@@ -1,0 +1,9 @@
+0,1,2,3
+Dennis,NNP,B-NP,B-PER
+Lillee,NNP,I-NP,I-PER
+(,(,O,O
+Australia,NNP,B-NP,B-LOC
+),),O,O
+355,CD,B-NP,O
+",",",",I-NP,O
+70,CD,I-NP,O

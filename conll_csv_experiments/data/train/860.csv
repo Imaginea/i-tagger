@@ -1,0 +1,25 @@
+0,1,2,3
+that,WDT,B-NP,O
+is,VBZ,B-VP,O
+to,TO,B-VP,O
+end,VB,I-VP,O
+the,DT,B-NP,O
+state,NN,I-NP,O
+of,IN,B-PP,O
+hostility,NN,B-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+Thursday,NNP,B-NP,O
+'s,POS,B-NP,O
+overseas,JJ,I-NP,O
+edition,NN,I-NP,O
+of,IN,B-PP,O
+the,DT,B-NP,O
+People,NNPS,I-NP,B-ORG
+'s,POS,B-NP,I-ORG
+Daily,JJ,I-NP,I-ORG
+quoted,VBN,B-VP,O
+Tang,NNP,B-NP,B-PER
+as,IN,B-PP,O
+saying,VBG,B-VP,O
+.,.,O,O

@@ -1,0 +1,16 @@
+0,1,2,3
+Derek,NNP,B-NP,B-PER
+Ryan,NNP,I-NP,I-PER
+(,(,O,O
+Ireland,NNP,B-NP,B-LOC
+),),O,O
+beat,VB,B-VP,O
+5,CD,B-NP,O
+-,:,I-NP,O
+Simon,NNP,I-NP,B-PER
+Parke,NNP,I-NP,I-PER
+(,(,O,O
+England,NNP,B-NP,B-LOC
+),),O,O
+15-11,CD,B-NP,O
+15-11,CD,I-NP,O

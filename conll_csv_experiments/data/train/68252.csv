@@ -1,0 +1,13 @@
+0,1,2,3
+This,DT,B-NP,O
+was,VBD,B-VP,O
+a,DT,B-NP,O
+win,VBP,B-VP,O
+I,PRP,B-NP,O
+wanted,VBD,B-VP,O
+very,RB,B-ADVP,O
+",",",",O,O
+very,RB,B-ADJP,O
+much,RB,I-ADJP,O
+.,.,O,O
+ ,O,O,<UNK>

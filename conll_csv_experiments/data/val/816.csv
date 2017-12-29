@@ -1,0 +1,4 @@
+0,1,2,3
+Tour,NNP,B-NP,O
+itinerary,NN,I-NP,O
+:,:,O,O

@@ -1,0 +1,16 @@
+0,1,2,3
+Scorers,NNS,B-NP,O
+:,:,O,O
+Arkadiusz,NNP,B-NP,B-PER
+Bak,NNP,I-NP,I-PER
+(,(,O,O
+1st,CD,B-NP,O
+and,CC,O,O
+55th,JJ,B-NP,O
+),),O,O
+",",",",O,O
+Arwel,NNP,B-NP,B-PER
+Jones,NNP,I-NP,I-PER
+(,(,O,O
+47th,CD,B-NP,O
+",",",",O,O

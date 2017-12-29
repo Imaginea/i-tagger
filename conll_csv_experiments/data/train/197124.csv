@@ -1,0 +1,9 @@
+0,1,2,3
+--,:,B-NP,O
+Caracas,NNP,I-NP,B-LOC
+newsroom,NN,I-NP,O
+",",",",O,O
+582,CD,B-NP,O
+834405,CD,I-NP,O
+REUTER,NN,I-NP,B-PER
+JPR,NNS,I-NP,O

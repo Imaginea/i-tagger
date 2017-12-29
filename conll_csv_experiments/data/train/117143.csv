@@ -1,0 +1,14 @@
+0,1,2,3
+Consequently,RB,B-ADVP,O
+",",",",O,O
+stocks,NNS,B-NP,O
+and,CC,I-NP,O
+bonds,NNS,I-NP,O
+are,VBP,B-VP,O
+both,DT,B-NP,O
+subject,JJ,B-ADJP,O
+to,TO,B-PP,O
+rapid,JJ,B-NP,O
+swings,NNS,I-NP,O
+.,.,O,O
+ ,O,O,<UNK>

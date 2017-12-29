@@ -1,0 +1,18 @@
+0,1,2,3
+Activists,NNS,B-NP,O
+dressed,VBD,B-VP,O
+as,IN,B-PP,O
+police,NN,B-NP,O
+brandished,VBD,B-VP,O
+batons,NNS,B-NP,O
+and,CC,O,O
+firing,VBG,B-VP,O
+a,DT,B-NP,O
+theatre-prop,JJ,I-NP,O
+water,NN,I-NP,O
+cannon,NN,I-NP,O
+at,IN,B-PP,O
+ ,O,O,<UNK>
+demonstrators,NNS,B-NP,O
+ ,O,O,<UNK>
+.,.,O,O

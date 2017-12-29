@@ -1,0 +1,8 @@
+0,1,2,3
+8.,NNP,B-NP,O
+Craig,NNP,I-NP,B-PER
+Winrow,NNP,I-NP,I-PER
+(,(,O,O
+Britain,NNP,B-NP,B-LOC
+),),O,O
+1:46.66,CD,B-NP,O

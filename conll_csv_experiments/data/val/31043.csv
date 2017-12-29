@@ -1,0 +1,10 @@
+0,1,2,3
+Brian,NNP,B-NP,B-PER
+Giles,NNP,I-NP,I-PER
+and,CC,I-NP,O
+Jim,NNP,I-NP,B-PER
+Thome,NNP,I-NP,I-PER
+homered,VBD,B-VP,O
+for,IN,B-PP,O
+Cleveland,NNP,B-NP,B-ORG
+.,.,O,O

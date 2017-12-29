@@ -1,0 +1,20 @@
+0,1,2,3
+We,PRP,B-NP,O
+have,VBP,B-VP,O
+seen,VBN,I-VP,O
+elections,NNS,B-NP,O
+as,IN,B-PP,O
+a,DT,B-NP,O
+step,NN,I-NP,O
+in,IN,B-PP,O
+the,DT,B-NP,O
+normalisation,JJ,I-NP,O
+process,NN,I-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+the,DT,B-NP,O
+foreign,JJ,I-NP,O
+ministry,NN,I-NP,O
+official,NN,I-NP,O
+said,VBD,B-VP,O
+.,.,O,O

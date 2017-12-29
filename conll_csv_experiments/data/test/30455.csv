@@ -1,0 +1,9 @@
+0,1,2,3
+Canada,NNP,B-NP,B-LOC
+'s,POS,I-NP,O
+were,VBD,B-VP,O
+the,DT,B-NP,O
+worst,JJS,I-NP,O
+performing,VBG,I-NP,O
+bonds,NNS,I-NP,O
+.,.,O,O

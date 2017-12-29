@@ -1,0 +1,8 @@
+0,1,2,3
+6.,CD,B-NP,O
+Juergen,NNP,I-NP,B-PER
+Schult,NNP,I-NP,I-PER
+(,(,O,O
+Germany,NNP,B-NP,B-LOC
+),),O,O
+64.46,CD,B-NP,O

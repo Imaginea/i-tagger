@@ -1,0 +1,22 @@
+0,1,2,3
+For,IN,B-PP,O
+the,DT,B-NP,O
+first,JJ,I-NP,O
+time,NN,I-NP,O
+",",",",O,O
+the,DT,B-NP,O
+Democratic,NNP,I-NP,B-ORG
+Party,NNP,I-NP,I-ORG
+has,VBZ,B-VP,O
+included,VBN,I-VP,O
+in,IN,B-PP,O
+our,PRP$,B-NP,O
+platform,NN,I-NP,O
+a,DT,B-NP,O
+conscience,NN,I-NP,O
+clause,NN,I-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+he,PRP,B-NP,O
+said,VBD,B-VP,O
+.,.,O,O

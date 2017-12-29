@@ -1,0 +1,9 @@
+0,1,2,3
+I,PRP,B-NP,O
+always,RB,B-ADVP,O
+expect,VBP,B-VP,O
+elections,NNS,B-NP,O
+to,TO,B-VP,O
+get,VB,I-VP,O
+close,RB,B-ADVP,O
+.,.,O,O

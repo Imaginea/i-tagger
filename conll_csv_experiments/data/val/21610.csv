@@ -1,0 +1,10 @@
+0,1,2,3
+Earnings,NNS,B-NP,O
+per,IN,B-PP,O
+share,NN,B-NP,O
+(,(,O,O
+markka,NNS,B-NP,O
+),),O,O
+2.2,CD,B-NP,O
+vs,NNP,O,O
+7.2,CD,O,O

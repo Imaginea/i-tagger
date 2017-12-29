@@ -1,0 +1,9 @@
+0,1,2,3
+Ukraine,NNP,B-NP,B-LOC
+hails,VBZ,B-VP,O
+peace,NN,B-NP,O
+as,IN,B-SBAR,O
+marks,NNS,B-NP,O
+five-year,JJ,I-NP,O
+independence,NN,I-NP,O
+.,.,O,O

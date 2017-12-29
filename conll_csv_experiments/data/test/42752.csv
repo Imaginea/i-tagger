@@ -1,0 +1,10 @@
+0,1,2,3
+Men,NN,B-NP,O
+'s,POS,B-NP,O
+500,CD,I-NP,O
+metres,NNS,I-NP,O
+first,RB,B-ADVP,O
+round,NN,B-NP,O
+:,:,O,O
+1,LS,B-LST,O
+.,.,O,O

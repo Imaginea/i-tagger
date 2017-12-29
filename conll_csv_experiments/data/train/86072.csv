@@ -1,0 +1,10 @@
+0,1,2,3
+Voting,NNP,B-NP,O
+begins,VBZ,B-VP,O
+in,IN,B-PP,O
+second,JJ,B-NP,O
+round,NN,I-NP,O
+of,IN,B-PP,O
+Lebanese,JJ,B-NP,B-MISC
+election,NN,I-NP,O
+.,.,O,O

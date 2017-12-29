@@ -1,0 +1,10 @@
+0,1,2,3
+The,DT,B-NP,O
+foot,NN,I-NP,O
+later,RB,B-ADVP,O
+washed,VBD,B-VP,O
+up,IN,B-PP,O
+on,IN,B-PP,O
+the,DT,B-NP,O
+beach,NN,I-NP,O
+.,.,O,O

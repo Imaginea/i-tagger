@@ -1,0 +1,14 @@
+0,1,2,3
+Pablo,NNP,B-NP,B-PER
+Campana,NNP,I-NP,I-PER
+(,(,O,O
+Ecuador,NNP,B-NP,B-LOC
+),),O,O
+beat,VB,B-VP,O
+Todd,NNP,B-NP,B-PER
+Woodbridge,NNP,I-NP,I-PER
+(,(,O,O
+Australia,NNP,B-NP,B-LOC
+),),O,O
+6-2,CD,B-NP,O
+4-,JJ,I-NP,O

@@ -1,0 +1,13 @@
+0,1,2,3
+But,CC,O,O
+that,DT,B-NP,O
+did,VBD,B-VP,O
+not,RB,I-VP,O
+prevent,VB,I-VP,O
+him,PRP,B-NP,O
+from,IN,B-PP,O
+collecting,VBG,B-VP,O
+the,DT,B-NP,O
+one-match,NN,I-NP,O
+suspension,NN,I-NP,O
+.,.,O,O

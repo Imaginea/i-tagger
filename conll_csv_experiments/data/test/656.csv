@@ -1,0 +1,14 @@
+0,1,2,3
+I,PRP,B-NP,O
+think,VBP,B-VP,O
+now,RB,I-VP,O
+is,VBZ,I-VP,O
+the,DT,B-NP,O
+right,JJ,I-NP,O
+time,NN,I-NP,O
+for,IN,B-SBAR,O
+him,PRP,B-NP,O
+to,TO,B-VP,O
+return,VB,I-VP,O
+.,.,O,O
+ ,O,O,<UNK>

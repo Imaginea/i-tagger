@@ -1,0 +1,12 @@
+0,1,2,3
+Partly,RB,B-ADVP,O
+cloudy,RB,B-ADVP,O
+in,IN,B-PP,O
+northern,JJ,B-NP,O
+India,NNP,I-NP,B-LOC
+with,IN,B-PP,O
+a,DT,B-NP,O
+few,JJ,I-NP,O
+light,NN,I-NP,O
+showers,NNS,I-NP,O
+.,.,O,O

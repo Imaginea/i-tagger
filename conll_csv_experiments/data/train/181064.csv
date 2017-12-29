@@ -1,0 +1,10 @@
+0,1,2,3
+Note,VB,B-VP,O
+-,:,O,O
+Industrial,NNP,B-NP,O
+gases,NNS,I-NP,O
+maker,NN,I-NP,O
+Hoek,NNP,I-NP,B-ORG
+Loos,NNP,I-NP,I-ORG
+NV,NNP,I-NP,I-ORG
+.,.,O,O

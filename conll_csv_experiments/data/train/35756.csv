@@ -1,0 +1,8 @@
+0,1,2,3
+Grand,NNP,B-NP,B-MISC
+Prix,NNP,I-NP,I-MISC
+athletics,NNS,I-NP,O
+meeting,NN,I-NP,O
+on,IN,B-PP,O
+Friday,NNP,B-NP,O
+:,:,O,O

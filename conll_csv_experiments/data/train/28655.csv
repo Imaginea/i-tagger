@@ -1,0 +1,12 @@
+0,1,2,3
+China,NNP,B-NP,B-LOC
+cancelled,VBD,B-VP,O
+a,DT,B-NP,O
+visit,NN,I-NP,O
+by,IN,B-PP,O
+a,DT,B-NP,O
+top-level,JJ,I-NP,O
+delegation,NN,I-NP,O
+in,IN,B-PP,O
+protest,NN,B-NP,O
+.,.,O,O

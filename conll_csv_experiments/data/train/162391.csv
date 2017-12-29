@@ -1,0 +1,8 @@
+0,1,2,3
+Volume,NN,B-NP,O
+was,VBD,B-VP,O
+estimated,VBN,I-VP,O
+at,IN,B-PP,O
+"8,000",CD,B-NP,O
+lots,NNS,I-NP,O
+.,.,O,O

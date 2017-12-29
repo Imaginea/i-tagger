@@ -1,0 +1,20 @@
+0,1,2,3
+I,PRP,B-NP,O
+do,VBP,B-VP,O
+n't,RB,I-VP,O
+like,VB,I-VP,O
+playing,VBG,I-VP,O
+under,IN,B-PP,O
+the,DT,B-NP,O
+lights,NNS,I-NP,O
+but,CC,O,O
+maybe,RB,B-ADVP,O
+it,PRP,B-NP,O
+would,MD,B-VP,O
+not,RB,I-VP,O
+have,VB,I-VP,O
+made,VBN,I-VP,O
+any,DT,B-NP,O
+difference,NN,I-NP,O
+.,.,O,O
+ ,O,O,<UNK>

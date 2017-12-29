@@ -1,0 +1,4 @@
+0,1,2,3
+Offerings,NNS,B-NP,O
+light,NN,I-NP,O
+.,.,O,O

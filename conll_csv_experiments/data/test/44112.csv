@@ -1,0 +1,19 @@
+0,1,2,3
+ ,O,O,<UNK>
+I,PRP,B-NP,O
+'d,MD,B-VP,O
+like,VB,I-VP,O
+to,TO,I-VP,O
+come,VB,I-VP,O
+over,IN,B-PP,O
+but,CC,O,O
+there,EX,B-NP,O
+are,VBP,B-VP,O
+a,DT,B-NP,O
+lot,NN,I-NP,O
+of,IN,B-PP,O
+things,NNS,B-NP,O
+happening,VBG,B-VP,O
+at,IN,B-PP,O
+home,NN,B-NP,O
+.,.,O,O

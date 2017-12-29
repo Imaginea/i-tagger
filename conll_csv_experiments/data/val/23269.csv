@@ -1,0 +1,9 @@
+0,1,2,3
+PAYING,VBG,B-VP,O
+AGENT,NNP,B-NP,O
+:,:,O,O
+Michigan,NNP,B-NP,B-ORG
+National,NNP,I-NP,I-ORG
+Bank,NNP,I-NP,I-ORG
+",",",",O,O
+Detroit,NNP,B-NP,B-LOC

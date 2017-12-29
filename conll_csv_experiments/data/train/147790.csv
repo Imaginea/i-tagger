@@ -1,0 +1,16 @@
+0,1,2,3
+Israel,NNP,B-NP,B-LOC
+captured,VBD,B-VP,O
+Arab,NNP,B-NP,B-LOC
+East,NNP,I-NP,I-LOC
+Jerusalem,NNP,I-NP,I-LOC
+in,IN,B-PP,O
+the,DT,B-NP,O
+1967,CD,I-NP,O
+Middle,NNP,I-NP,B-LOC
+East,NNP,I-NP,I-LOC
+war,NN,I-NP,O
+and,CC,O,O
+annexed,VBD,B-VP,O
+it,PRP,B-NP,O
+.,.,O,O

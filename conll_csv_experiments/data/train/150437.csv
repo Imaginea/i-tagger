@@ -1,0 +1,9 @@
+0,1,2,3
+14.,CD,B-NP,O
+Darren,NNP,I-NP,B-PER
+McKenzie-Potter,NNP,I-NP,I-PER
+(,(,O,O
+New,NNP,B-NP,B-LOC
+Zealand,NNP,I-NP,I-LOC
+),),O,O
+1:06.289,CD,B-NP,O

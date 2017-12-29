@@ -1,0 +1,9 @@
+0,1,2,3
+August,NNP,B-NP,O
+16-18,CD,I-NP,O
+v,SYM,B-VP,O
+Kent,NNP,B-NP,B-ORG
+(,(,O,O
+three,CD,B-NP,O
+days,NNS,I-NP,O
+),),O,O

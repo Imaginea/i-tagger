@@ -1,0 +1,11 @@
+0,1,2,3
+Dean,NNP,B-NP,B-PER
+Palmer,NNP,I-NP,I-PER
+hit,VBD,B-VP,O
+his,PRP$,B-NP,O
+30th,JJ,I-NP,O
+homer,NN,I-NP,O
+for,IN,B-PP,O
+the,DT,B-NP,O
+Rangers,NNPS,I-NP,B-ORG
+.,.,O,O

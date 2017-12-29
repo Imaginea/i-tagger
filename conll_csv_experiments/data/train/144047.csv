@@ -1,0 +1,9 @@
+0,1,2,3
+Mr.,NNP,B-NP,O
+President,NNP,I-NP,O
+you,PRP,B-NP,O
+deserve,VBP,B-VP,O
+our,PRP$,B-NP,O
+thanks,NNS,I-NP,O
+.,.,O,O
+ ,O,O,<UNK>

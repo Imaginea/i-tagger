@@ -1,0 +1,4 @@
+0,1,2,3
+Men,NN,B-NP,O
+'s,POS,B-NP,O
+javelin,NN,I-NP,O

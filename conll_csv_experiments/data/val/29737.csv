@@ -1,0 +1,4 @@
+0,1,2,3
+3.,NNP,B-NP,O
+Ekimov,NNP,I-NP,B-PER
+1:7,CD,I-NP,O

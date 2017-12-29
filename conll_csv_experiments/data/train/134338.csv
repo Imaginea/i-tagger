@@ -1,0 +1,14 @@
+0,1,2,3
+Bamerindus,NNS,B-NP,B-ORG
+declined,VBD,B-VP,O
+to,TO,I-VP,O
+comment,VB,I-VP,O
+on,IN,B-PP,O
+negotiations,NNS,B-NP,O
+being,VBG,B-VP,O
+held,VBN,I-VP,O
+with,IN,B-PP,O
+the,DT,B-NP,O
+Central,NNP,I-NP,B-ORG
+Bank,NNP,I-NP,I-ORG
+.,.,O,O

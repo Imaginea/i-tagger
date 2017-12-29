@@ -1,0 +1,13 @@
+0,1,2,3
+round,NN,B-NP,O
+of,IN,B-PP,O
+the,DT,B-NP,O
+$,$,I-NP,O
+2.1,CD,I-NP,O
+million,CD,I-NP,O
+NEC,NNP,I-NP,B-MISC
+World,NNP,I-NP,I-MISC
+Series,NNP,I-NP,I-MISC
+of,IN,B-PP,I-MISC
+Golf,NNP,B-NP,I-MISC
+at,IN,B-PP,O

@@ -1,0 +1,5 @@
+0,1,2,3
+Revenue,NN,B-NP,O
+from,IN,B-PP,O
+long-distance,JJ,B-NP,O
+passenger,NN,I-NP,O

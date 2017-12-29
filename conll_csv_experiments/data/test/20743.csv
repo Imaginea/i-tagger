@@ -1,0 +1,12 @@
+0,1,2,3
+On,IN,B-PP,O
+Thursday,NNP,B-NP,O
+",",",",O,O
+overnight,JJ,B-NP,O
+rates,NNS,I-NP,O
+moved,VBN,B-VP,O
+between,IN,B-PP,O
+21.625,CD,B-NP,O
+and,CC,I-NP,O
+22.125,CD,I-NP,O
+.,.,O,O

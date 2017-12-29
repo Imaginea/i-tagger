@@ -1,0 +1,26 @@
+0,1,2,3
+ ,O,O,<UNK>
+We,PRP,B-NP,O
+have,VBP,B-VP,O
+notified,VBN,I-VP,O
+them,PRP,B-NP,O
+of,IN,B-PP,O
+our,PRP$,B-NP,O
+concerns,NNS,I-NP,O
+and,CC,O,O
+asked,VBD,B-VP,O
+them,PRP,B-NP,O
+to,TO,B-VP,O
+give,VB,I-VP,O
+us,PRP,B-NP,O
+a,DT,B-NP,O
+response,NN,I-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+said,VBD,B-VP,O
+Colorado,NNP,B-NP,B-LOC
+attorney,NN,I-NP,O
+general,NN,I-NP,O
+Gale,NNP,I-NP,B-PER
+Norton,NNP,I-NP,I-PER
+.,.,O,O

@@ -1,0 +1,6 @@
+0,1,2,3
+Fidelis,NNP,B-NP,B-ORG
+Andria,NNP,I-NP,I-ORG
+0,CD,I-NP,O
+Juventus,NNS,I-NP,B-ORG
+2,CD,B-NP,O

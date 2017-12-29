@@ -1,0 +1,10 @@
+0,1,2,3
+The,DT,B-NP,O
+youth,NN,I-NP,O
+side,NN,I-NP,O
+replied,VBD,B-VP,O
+with,IN,B-PP,O
+246,CD,B-NP,O
+for,IN,B-PP,O
+seven,CD,B-NP,O
+.,.,O,O

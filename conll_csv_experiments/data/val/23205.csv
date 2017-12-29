@@ -1,0 +1,7 @@
+0,1,2,3
+M,NNP,B-NP,O
+/,SYM,O,O
+SP,NNP,B-NP,O
+/,SYM,O,O
+F,NN,B-NP,O
+:,:,O,O

@@ -1,0 +1,14 @@
+0,1,2,3
+NOTES,NNS,B-NP,O
+-,:,O,O
+Sales,NNS,B-NP,O
+and,CC,O,O
+operating,NN,B-NP,O
+profit,NN,I-NP,O
+are,VBP,B-VP,O
+given,VBN,I-VP,O
+in,IN,B-PP,O
+millions,NNS,B-NP,O
+of,IN,B-PP,O
+guilders,NNS,B-NP,O
+.,.,O,O

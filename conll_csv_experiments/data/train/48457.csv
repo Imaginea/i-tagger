@@ -1,0 +1,11 @@
+0,1,2,3
+says,VBZ,B-VP,O
+is,VBZ,B-VP,O
+first,JJ,B-NP,O
+state,NN,I-NP,O
+to,TO,B-VP,O
+apply,VB,I-VP,O
+for,IN,B-PP,O
+new,JJ,B-NP,O
+welfare,NN,I-NP,O
+.,.,O,O

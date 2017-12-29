@@ -1,0 +1,6 @@
+0,1,2,3
+Lead,JJ,B-NP,O
+3.50-4.00,CD,I-NP,O
+cents,NNS,I-NP,O
+/,SYM,O,O
+pound,NN,B-NP,O

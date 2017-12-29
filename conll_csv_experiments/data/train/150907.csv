@@ -1,0 +1,8 @@
+0,1,2,3
+1.,CD,B-NP,O
+Chris,NNP,I-NP,B-PER
+Boardman,NNP,I-NP,I-PER
+(,(,O,O
+Britain,NNP,B-NP,B-LOC
+),),O,O
+4:13.353,CD,B-NP,O

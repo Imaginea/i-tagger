@@ -1,0 +1,8 @@
+0,1,2,3
+Business,NN,B-NP,O
+info,NN,I-NP,O
+USA,NNP,B-NP,B-LOC
+382,CD,B-ADVP,O
+61,CD,B-NP,O
+362,CD,I-NP,O
+41,CD,I-NP,O

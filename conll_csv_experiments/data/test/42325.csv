@@ -1,0 +1,8 @@
+0,1,2,3
+3.,NNP,B-NP,O
+Evelyne,NNP,I-NP,B-PER
+Leu,NNP,I-NP,I-PER
+(,(,O,O
+Switzerland,NNP,B-NP,B-LOC
+),),O,O
+160.36,CD,B-NP,O

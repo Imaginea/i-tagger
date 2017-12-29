@@ -1,0 +1,14 @@
+0,1,2,3
+Tim,NNP,B-NP,B-PER
+Henman,NNP,I-NP,I-PER
+(,(,O,O
+Britain,NNP,B-NP,B-LOC
+),),O,O
+beat,VB,B-VP,O
+Chris,NNP,B-NP,B-PER
+Woodruff,NNP,I-NP,I-PER
+(,(,O,O
+U.S.,NNP,B-NP,B-LOC
+),),O,O
+",",",",O,O
+walkover,WP,B-NP,O

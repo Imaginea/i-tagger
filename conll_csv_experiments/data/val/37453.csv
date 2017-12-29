@@ -1,0 +1,7 @@
+0,1,2,3
+Jasper,NNP,B-NP,B-PER
+blew,VBD,B-VP,O
+right,JJ,B-ADJP,O
+by,IN,B-PP,O
+me,PRP,B-NP,O
+.,.,O,O

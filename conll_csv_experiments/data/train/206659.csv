@@ -1,0 +1,35 @@
+0,1,2,3
+Jomhuri,NNP,B-NP,B-ORG
+Eslami,NNP,I-NP,I-ORG
+quoted,VBD,B-VP,O
+the,DT,B-NP,O
+West,NNP,I-NP,B-LOC
+Azerbaijan,NNP,I-NP,I-LOC
+province,NN,I-NP,O
+security,NN,I-NP,O
+chief,NN,I-NP,O
+as,IN,B-PP,O
+saying,VBG,B-VP,O
+those,DT,B-NP,O
+held,VBN,I-NP,O
+confessed,VBD,B-VP,O
+to,TO,B-PP,O
+gathering,VBG,B-VP,O
+confidential,JJ,B-NP,O
+information,NN,I-NP,O
+",",",",O,O
+photographing,VBG,B-VP,O
+strategic,JJ,B-NP,O
+sites,NNS,I-NP,O
+",",",",O,O
+doing,VBG,B-VP,O
+propaganda,NN,B-NP,O
+against,IN,B-PP,O
+state,NN,B-NP,O
+officials,NNS,I-NP,O
+and,CC,O,O
+ ,O,O,<UNK>
+spreading,VBG,B-VP,O
+pan-Turkism,JJ,B-NP,B-MISC
+ ,O,O,<UNK>
+.,.,O,O

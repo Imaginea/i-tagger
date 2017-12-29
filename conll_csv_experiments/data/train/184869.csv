@@ -1,0 +1,14 @@
+0,1,2,3
+-,:,O,O
+Work,NN,B-NP,O
+groups,NNS,I-NP,O
+and,CC,O,O
+weekend,NN,B-NP,O
+arrest,NN,I-NP,O
+to,TO,B-VP,O
+quell,VB,I-VP,O
+juvenile,JJ,B-NP,O
+violence,NN,I-NP,O
+in,IN,B-PP,O
+Basque,NNP,B-NP,B-LOC
+Country,NNP,I-NP,I-LOC

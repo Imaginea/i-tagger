@@ -1,0 +1,16 @@
+0,1,2,3
+Simpson,NNP,B-NP,B-PER
+said,VBD,B-VP,O
+at,IN,B-PP,O
+the,DT,B-NP,O
+hotel,NN,I-NP,O
+news,NN,I-NP,O
+conference,NN,I-NP,O
+his,PRP$,B-NP,O
+plans,NNS,I-NP,O
+include,VBP,B-VP,O
+eventually,RB,I-VP,O
+writing,VBG,I-VP,O
+another,DT,B-NP,O
+book,NN,I-NP,O
+.,.,O,O

@@ -1,0 +1,7 @@
+0,1,2,3
+Adventurers,NNS,B-NP,O
+start,VBP,B-VP,O
+Canadian,JJ,B-NP,B-MISC
+wilderness,NN,I-NP,O
+race,NN,I-NP,O
+.,.,O,O

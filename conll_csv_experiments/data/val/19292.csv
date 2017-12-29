@@ -1,0 +1,14 @@
+0,1,2,3
+With,IN,B-PP,O
+a,DT,B-NP,O
+presence,NN,I-NP,O
+in,IN,B-PP,O
+nine,CD,B-NP,O
+states,NNS,I-NP,O
+and,CC,O,O
+$,$,B-NP,O
+41,CD,I-NP,O
+billion,CD,I-NP,O
+in,IN,B-PP,O
+assets,NNS,B-NP,O
+",",",",O,O

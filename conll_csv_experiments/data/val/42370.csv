@@ -1,0 +1,6 @@
+0,1,2,3
+The,DT,B-NP,B-LOC
+Netherlands,NNP,I-NP,I-LOC
+drew,VBD,B-VP,O
+2-2,RB,B-ADVP,O
+with,IN,B-PP,O

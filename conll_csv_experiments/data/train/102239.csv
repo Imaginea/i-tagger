@@ -1,0 +1,9 @@
+0,1,2,3
+Result,NN,B-NP,O
+:,:,O,O
+Australia,NNP,B-NP,B-LOC
+won,VBD,B-VP,O
+by,IN,B-PP,O
+125,CD,B-NP,O
+runs,NNS,I-NP,O
+.,.,O,O

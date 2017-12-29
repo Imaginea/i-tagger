@@ -1,0 +1,22 @@
+0,1,2,3
+ ,O,O,<UNK>
+We,PRP,B-NP,O
+could,MD,B-VP,O
+lift,VB,I-VP,O
+the,DT,B-NP,O
+ban,NN,I-NP,O
+tomorrow,NN,B-NP,O
+",",",",O,O
+but,CC,O,O
+that,DT,B-NP,O
+would,MD,B-VP,O
+not,RB,I-VP,O
+mean,VB,I-VP,O
+anything,NN,B-NP,O
+immediately,RB,B-ADVP,O
+",",",",O,O
+ ,O,O,<UNK>
+said,VBD,B-VP,O
+Drazek,NNP,B-NP,B-PER
+.,.,I-NP,O
+ ,O,O,<UNK>

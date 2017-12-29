@@ -1,0 +1,8 @@
+0,1,2,3
+30.,NNP,B-NP,O
+Alessandra,NNP,I-NP,B-PER
+Merlin,NNP,I-NP,I-PER
+(,(,O,O
+Italy,NNP,B-NP,B-LOC
+),),O,O
+1:51.16,CD,B-NP,O

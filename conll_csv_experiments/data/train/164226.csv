@@ -1,0 +1,12 @@
+0,1,2,3
+Cricket,NNP,B-NP,O
+-,:,O,O
+NZ,NNP,B-NP,B-LOC
+face,NN,I-NP,O
+tough,JJ,I-NP,O
+schedule,NN,I-NP,O
+at,IN,B-PP,O
+home,NN,B-NP,O
+and,CC,O,O
+abroad,RB,B-ADVP,O
+.,.,O,O

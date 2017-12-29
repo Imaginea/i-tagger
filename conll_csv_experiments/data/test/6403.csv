@@ -1,0 +1,13 @@
+0,1,2,3
+standings,NNS,B-NP,O
+after,IN,B-PP,O
+Thursday,NNP,B-NP,O
+'s,POS,B-NP,O
+game,NN,I-NP,O
+(,(,O,O
+tabulate,NN,B-NP,O
+under,IN,B-PP,O
+won,JJ,B-NP,O
+",",",",O,O
+lost,VBD,B-VP,O
+",",",",O,O

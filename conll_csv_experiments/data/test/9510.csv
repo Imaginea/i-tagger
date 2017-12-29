@@ -1,0 +1,11 @@
+0,1,2,3
+Bologna,NNP,B-NP,B-ORG
+(,(,O,O
+4,CD,B-NP,O
+),),O,O
+v,JJ,B-NP,O
+Piacenza,NNS,I-NP,B-ORG
+(,(,O,O
+13,CD,B-NP,O
+),),O,O
+1330,CD,B-NP,O

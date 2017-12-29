@@ -1,0 +1,11 @@
+0,1,2,3
+Mohammad,NNP,B-NP,B-PER
+Akram,NNP,I-NP,I-PER
+12-1-41-1,CD,I-NP,O
+",",",",O,O
+Mushtaq,NNP,B-NP,B-PER
+Ahmed,NNP,I-NP,I-PER
+27-5-78-2,CD,I-NP,O
+",",",",O,O
+Aamir,NNP,B-NP,B-PER
+Sohail,NNP,I-NP,I-PER

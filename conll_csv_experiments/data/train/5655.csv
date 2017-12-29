@@ -1,0 +1,13 @@
+0,1,2,3
+66,CD,B-NP,O
+Paul,NNP,I-NP,B-PER
+Goydos,NNP,I-NP,I-PER
+",",",",O,O
+Billy,NNP,B-NP,B-PER
+Mayfair,NNP,I-NP,I-PER
+",",",",O,O
+Hidemichi,NNP,B-NP,B-PER
+Tanaka,NNP,I-NP,I-PER
+(,(,O,O
+Japan,NNP,B-NP,B-LOC
+),),O,O

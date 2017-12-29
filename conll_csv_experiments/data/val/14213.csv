@@ -1,0 +1,18 @@
+0,1,2,3
+ ,O,O,<UNK>
+Obviously,RB,B-ADVP,O
+",",",",O,O
+at,IN,B-PP,O
+some,DT,B-NP,O
+point,NN,I-NP,O
+it,PRP,B-NP,O
+represents,VBZ,B-VP,O
+a,DT,B-NP,O
+buying,NN,I-NP,O
+opportunity,NN,I-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+Frater,NNP,B-NP,B-PER
+said,VBD,B-VP,O
+.,.,O,O
+ ,O,O,<UNK>

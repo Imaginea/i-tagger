@@ -1,0 +1,9 @@
+0,1,2,3
+Variable,JJ,B-NP,O
+clouds,NNS,I-NP,O
+in,IN,B-PP,O
+southern,JJ,B-NP,O
+India,NNP,I-NP,B-LOC
+with,IN,B-PP,O
+showers,NNS,B-NP,O
+.,.,O,O

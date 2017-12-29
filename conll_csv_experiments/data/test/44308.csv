@@ -1,0 +1,12 @@
+0,1,2,3
+"19,306",CD,B-NP,O
+Liverpool,NNP,B-NP,B-ORG
+0,CD,I-NP,O
+Sheffield,NNP,I-NP,B-ORG
+Wednesday,NNP,B-NP,I-ORG
+1,CD,I-NP,O
+(,(,O,O
+Whittingham,UH,B-INTJ,B-PER
+22,CD,B-NP,O
+),),O,O
+.,.,O,O

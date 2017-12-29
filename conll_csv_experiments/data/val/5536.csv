@@ -1,0 +1,8 @@
+0,1,2,3
+8.,NNP,B-NP,O
+Sara,NNP,I-NP,B-PER
+Thorsett,NNP,I-NP,I-PER
+(,(,O,O
+U.S.,NNP,B-NP,B-LOC
+),),O,O
+4:11.06,CD,B-NP,O

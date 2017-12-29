@@ -1,0 +1,15 @@
+0,1,2,3
+-,:,O,O
+Maronite,NNP,B-NP,B-ORG
+Patriarch,NNP,I-NP,O
+Sfeir,NNP,I-NP,B-PER
+expressed,VBD,B-VP,O
+sorrow,NN,B-NP,O
+over,IN,B-PP,O
+the,DT,B-NP,O
+violations,NNS,I-NP,O
+in,IN,B-PP,O
+Sunday,NNP,B-NP,O
+',POS,B-NP,O
+elections,NNS,I-NP,O
+.,.,O,O

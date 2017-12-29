@@ -1,0 +1,8 @@
+0,1,2,3
+Ross,NNP,B-NP,B-ORG
+County,NNP,I-NP,I-ORG
+1,CD,I-NP,O
+Queen,NNP,I-NP,B-ORG
+'s,POS,B-NP,I-ORG
+Park,NNP,I-NP,I-ORG
+2,CD,I-NP,O

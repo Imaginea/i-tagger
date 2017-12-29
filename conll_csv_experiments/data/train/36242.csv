@@ -1,0 +1,8 @@
+0,1,2,3
+4.,CD,B-NP,O
+Mary,NNP,B-NP,B-PER
+Onyali,NNP,I-NP,I-PER
+(,(,O,O
+Nigeria,NNP,B-NP,B-LOC
+),),O,O
+11.09,CD,B-NP,O

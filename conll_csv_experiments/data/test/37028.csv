@@ -1,0 +1,6 @@
+0,1,2,3
+Tong,NNP,B-NP,B-MISC
+Shun,NNP,I-NP,I-MISC
+25/11/96,CD,I-NP,O
+"3,000",CD,I-NP,O
+Vietnam,NNP,B-NP,B-LOC

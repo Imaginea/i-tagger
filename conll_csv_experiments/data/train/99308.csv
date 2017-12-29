@@ -1,0 +1,16 @@
+0,1,2,3
+Michael,NNP,B-NP,B-PER
+Stich,NNP,I-NP,I-PER
+(,(,O,O
+Germany,NNP,B-NP,B-LOC
+),),O,O
+beat,VB,B-VP,O
+Tommy,NNP,B-NP,B-PER
+Haas,NNP,I-NP,I-PER
+(,(,O,O
+Germany,NNP,B-NP,B-LOC
+),),O,O
+6-3,CD,B-NP,O
+1-6,CD,I-NP,O
+6-1,CD,I-NP,O
+7-5,CD,I-NP,O

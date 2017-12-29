@@ -1,0 +1,10 @@
+0,1,2,3
+Dynamo,NNP,B-NP,B-ORG
+Moscow,NNP,I-NP,I-ORG
+(,(,O,O
+Russia,NNP,B-NP,B-LOC
+),),O,O
+9,CD,B-NP,O
+2,CD,I-NP,O
+7,CD,I-NP,O
+11,CD,I-NP,O

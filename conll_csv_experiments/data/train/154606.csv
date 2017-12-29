@@ -1,0 +1,14 @@
+0,1,2,3
+I,PRP,B-NP,O
+think,VBP,B-VP,O
+it,PRP,B-NP,O
+'s,VBZ,B-VP,O
+destined,VBN,I-VP,O
+that,IN,B-SBAR,O
+it,PRP,B-NP,O
+turned,VBD,B-VP,O
+out,RP,B-PRT,O
+for,IN,B-PP,O
+me,PRP,B-NP,O
+.,.,O,O
+ ,O,O,<UNK>

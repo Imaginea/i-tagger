@@ -1,0 +1,11 @@
+0,1,2,3
+for,IN,B-PP,O
+",",",",O,O
+against,RB,B-ADVP,O
+",",",",O,O
+percentage,NN,B-NP,O
+",",",",O,O
+total,JJ,B-NP,O
+points,NNS,I-NP,O
+),),O,O
+:,:,O,O

@@ -1,0 +1,13 @@
+0,1,2,3
+6.,NNP,B-NP,O
+Reinhard,NNP,I-NP,B-PER
+Schwarzenberger,NNP,I-NP,I-PER
+(,(,O,O
+Austria,NNP,B-NP,B-LOC
+),),O,O
+252.6,CD,B-NP,O
+(,(,O,O
+119.7,CD,B-NP,O
+/,SYM,O,O
+132.9,CD,B-NP,O
+),),O,O

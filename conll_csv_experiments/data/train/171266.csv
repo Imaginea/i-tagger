@@ -1,0 +1,24 @@
+0,1,2,3
+It,PRP,B-NP,O
+'s,VBZ,B-VP,O
+too,RB,B-ADJP,O
+late,JJ,I-ADJP,O
+",",",",O,O
+Mr.,NNP,B-NP,O
+President,NNP,I-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+Dole,NNP,B-NP,B-PER
+told,VBD,B-VP,O
+an,DT,B-NP,O
+outdoor,JJ,I-NP,O
+crowd,NN,I-NP,O
+of,IN,B-PP,O
+several,JJ,B-NP,O
+hundred,CD,I-NP,O
+at,IN,B-PP,O
+a,DT,B-NP,O
+private,JJ,I-NP,O
+religious,JJ,I-NP,O
+school,NN,I-NP,O
+.,.,O,O

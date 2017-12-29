@@ -1,0 +1,13 @@
+0,1,2,3
+East,NNP,B-NP,B-ORG
+Stirling,NNP,I-NP,I-ORG
+",",",",O,O
+Inverness,NNP,B-NP,B-ORG
+v,FW,I-NP,O
+Alloa,NNP,I-NP,B-ORG
+",",",",O,O
+Montrose,NNP,B-NP,B-ORG
+v,FW,I-NP,O
+Ross,NNP,I-NP,B-ORG
+County,NNP,I-NP,I-ORG
+",",",",O,O

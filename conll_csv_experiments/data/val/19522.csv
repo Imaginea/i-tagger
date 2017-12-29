@@ -1,0 +1,10 @@
+0,1,2,3
+U.S.,NNP,B-NP,B-LOC
+tight-lipped,JJ,B-ADJP,O
+on,IN,B-PP,O
+Libya,NNP,B-NP,B-LOC
+'s,POS,B-NP,O
+award,NN,I-NP,O
+to,TO,B-PP,O
+Farrakhan,NNP,B-NP,B-PER
+.,.,O,O

@@ -1,0 +1,16 @@
+0,1,2,3
+(,(,O,O
+Sweden,NNP,B-NP,B-LOC
+),),O,O
+67,CD,B-NP,O
+62,CD,I-NP,O
+70,CD,I-NP,O
+",",",",O,O
+Ian,NNP,B-NP,B-PER
+Pyman,NNP,I-NP,I-PER
+66,CD,I-NP,O
+64,CD,I-NP,O
+69,CD,I-NP,O
+",",",",O,O
+Fernando,NNP,B-NP,B-PER
+Roca,NNP,I-NP,I-PER

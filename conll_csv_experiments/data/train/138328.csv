@@ -1,0 +1,14 @@
+0,1,2,3
+The,DT,B-NP,O
+exact,JJ,I-NP,O
+number,NN,I-NP,O
+of,IN,B-PP,O
+passangers,NNS,B-NP,O
+on,IN,B-PP,O
+the,DT,B-NP,O
+train,NN,I-NP,O
+was,VBD,B-VP,O
+not,RB,I-VP,O
+known,VBN,I-VP,O
+.,.,O,O
+ ,O,O,<UNK>

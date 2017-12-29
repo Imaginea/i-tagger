@@ -1,0 +1,18 @@
+0,1,2,3
+ ,O,O,<UNK>
+The,DT,B-NP,O
+British,JJ,I-NP,B-MISC
+government,NN,I-NP,O
+wants,VBZ,B-VP,O
+a,DT,B-NP,O
+thorough,JJ,I-NP,O
+investigation,NN,I-NP,O
+and,CC,O,O
+a,DT,B-NP,O
+just,JJ,I-NP,O
+outcome,NN,I-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+he,PRP,B-NP,O
+said,VBD,B-VP,O
+.,.,O,O

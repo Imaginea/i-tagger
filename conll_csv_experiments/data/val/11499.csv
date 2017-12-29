@@ -1,0 +1,13 @@
+0,1,2,3
+It,PRP,B-NP,O
+was,VBD,B-VP,O
+agreed,VBN,I-VP,O
+with,IN,B-PP,O
+Boris,NNP,B-NP,B-PER
+Nikolayevich,NNP,I-NP,I-PER
+(,(,O,O
+Yeltsin,NNP,B-NP,B-PER
+),),O,O
+yesterday,NN,B-NP,O
+.,.,O,O
+ ,O,O,<UNK>

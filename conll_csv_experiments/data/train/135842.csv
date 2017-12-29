@@ -1,0 +1,12 @@
+0,1,2,3
+Kansas,NNP,B-NP,B-LOC
+feedlot,NN,I-NP,O
+cattle,NNS,I-NP,O
+market,NN,I-NP,O
+quiet,JJ,B-ADJP,O
+",",",",O,O
+no,DT,B-NP,O
+sales,NNS,I-NP,O
+-,:,O,O
+USDA,NNP,B-NP,B-ORG
+.,.,O,O

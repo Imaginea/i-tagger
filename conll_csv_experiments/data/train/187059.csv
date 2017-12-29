@@ -1,0 +1,5 @@
+0,1,2,3
+NORTHAMPTON,NNP,B-NP,B-LOC
+",",",",O,O
+England,NNP,B-NP,B-LOC
+1996-08-29,CD,I-NP,O

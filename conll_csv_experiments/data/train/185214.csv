@@ -1,0 +1,8 @@
+0,1,2,3
+NATO,NNP,B-NP,B-ORG
+military,JJ,I-NP,O
+chiefs,NNS,I-NP,O
+to,TO,B-VP,O
+visit,VB,I-VP,O
+Iberia,NNP,B-NP,B-ORG
+.,.,O,O

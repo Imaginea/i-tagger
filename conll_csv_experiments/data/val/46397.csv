@@ -1,0 +1,16 @@
+0,1,2,3
+ ,O,O,<UNK>
+Two,CD,B-NP,O
+sons,NNS,I-NP,O
+have,VBP,B-VP,O
+come,VBN,I-VP,O
+back,RB,B-ADVP,O
+",",",",O,O
+ ,O,O,<UNK>
+said,VBD,B-VP,O
+his,PRP$,B-NP,O
+mother,NN,I-NP,O
+Nurbika,NNP,I-NP,B-PER
+Mamatuyeva,NNP,I-NP,I-PER
+.,.,I-NP,O
+ ,O,O,<UNK>

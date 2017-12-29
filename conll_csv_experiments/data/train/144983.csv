@@ -1,0 +1,10 @@
+0,1,2,3
+Hijacked,JJ,B-NP,O
+Sudan,NNP,I-NP,B-LOC
+plane,NN,I-NP,O
+expected,VBD,B-VP,O
+at,IN,B-PP,O
+London,NNP,B-NP,B-LOC
+'s,POS,B-NP,O
+Stansted,NNP,I-NP,B-LOC
+.,.,O,O

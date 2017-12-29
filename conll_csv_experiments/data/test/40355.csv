@@ -1,0 +1,8 @@
+0,1,2,3
+4.,CD,B-NP,O
+Anita,NNP,I-NP,B-PER
+Wachter,NNP,I-NP,I-PER
+(,(,O,O
+Austria,NNP,B-NP,B-LOC
+),),O,O
+180,CD,B-NP,O

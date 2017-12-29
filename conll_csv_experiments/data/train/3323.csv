@@ -1,0 +1,10 @@
+0,1,2,3
+It,PRP,B-NP,O
+has,VBZ,B-VP,O
+since,RB,I-VP,O
+been,VBN,I-VP,O
+silent,JJ,B-ADJP,O
+on,IN,B-PP,O
+the,DT,B-NP,O
+issue,NN,I-NP,O
+.,.,O,O

@@ -1,0 +1,11 @@
+0,1,2,3
+HK,NNP,B-NP,B-LOC
+'s,POS,B-NP,O
+Tsang,NNP,I-NP,B-PER
+to,TO,B-VP,O
+visit,VB,I-VP,O
+Indonesia,NNP,B-NP,B-LOC
+",",",",O,O
+New,NNP,B-NP,B-LOC
+Zealand,NNP,I-NP,I-LOC
+.,.,O,O

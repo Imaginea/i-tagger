@@ -1,0 +1,10 @@
+0,1,2,3
+Australia,NNP,B-NP,B-LOC
+M.,NNP,B-NP,B-PER
+Slater,NNP,I-NP,I-PER
+c,SYM,O,O
+P.,NNP,B-NP,B-PER
+Strang,NNP,I-NP,I-PER
+b,SYM,O,O
+Whittall,NNP,B-NP,B-PER
+50,CD,I-NP,O

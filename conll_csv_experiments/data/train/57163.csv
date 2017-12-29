@@ -1,0 +1,17 @@
+0,1,2,3
+South,NNP,B-NP,B-LOC
+Africa,NNP,I-NP,I-LOC
+-,:,O,O
+Tries,NNPS,B-NP,O
+:,:,O,O
+Hannes,NNP,B-NP,B-PER
+Strydom,NNP,I-NP,I-PER
+",",",",O,O
+Ruben,NNP,B-NP,B-PER
+Kruger,NNP,I-NP,I-PER
+",",",",O,O
+Joost,NNP,B-NP,B-PER
+van,NNP,I-NP,I-PER
+der,FW,I-NP,I-PER
+Westhuizen,FW,I-NP,I-PER
+.,.,O,O

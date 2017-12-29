@@ -1,0 +1,10 @@
+0,1,2,3
+Formula,NNP,B-NP,B-ORG
+Shell,NNP,I-NP,I-ORG
+beat,VBD,B-VP,O
+Alaska,NNP,B-NP,B-ORG
+Milk,NN,I-NP,I-ORG
+85-82,CD,I-NP,O
+(,(,O,O
+36-46,CD,B-NP,O
+),),O,O

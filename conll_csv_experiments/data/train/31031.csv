@@ -1,0 +1,9 @@
+0,1,2,3
+ ,O,O,<UNK>
+Having,VBG,B-VP,O
+seen,VBN,I-VP,O
+Ravanelli,NNP,B-NP,B-PER
+celebrate,VB,B-VP,O
+his,PRP$,B-NP,O
+goals,NNS,I-NP,O
+...,:,O,O

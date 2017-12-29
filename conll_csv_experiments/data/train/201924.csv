@@ -1,0 +1,8 @@
+0,1,2,3
+I,PRP,B-NP,O
+am,VBP,B-VP,O
+not,RB,I-VP,O
+crying,VBG,I-VP,O
+the,DT,B-NP,O
+blues,NNS,I-NP,O
+.,.,O,O

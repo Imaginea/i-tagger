@@ -1,0 +1,32 @@
+0,1,2,3
+ ,O,O,<UNK>
+Salvador,NNP,B-NP,B-LOC
+is,VBZ,B-VP,O
+a,DT,B-NP,O
+small,JJ,I-NP,O
+facility,NN,I-NP,O
+",",",",O,O
+and,CC,O,O
+the,DT,B-NP,O
+prospects,NNS,I-NP,O
+are,VBP,B-VP,O
+that,IN,B-SBAR,O
+if,IN,B-SBAR,O
+there,EX,B-NP,O
+will,MD,B-VP,O
+be,VB,I-VP,O
+a,DT,B-NP,O
+strike,NN,I-NP,O
+",",",",O,O
+it,PRP,B-NP,O
+will,MD,B-VP,O
+not,RB,I-VP,O
+be,VB,I-VP,O
+a,DT,B-NP,O
+long,JJ,I-NP,O
+strike,NN,I-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+O'Neill,NNP,B-NP,B-PER
+said,VBD,B-VP,O
+.,.,O,O

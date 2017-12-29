@@ -1,0 +1,5 @@
+0,1,2,3
+Pound,NN,B-NP,O
+/,SYM,O,O
+dollar,NN,B-NP,O
+..,NNS,I-NP,O

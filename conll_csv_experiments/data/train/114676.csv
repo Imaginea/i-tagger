@@ -1,0 +1,18 @@
+0,1,2,3
+That,DT,B-NP,O
+is,VBZ,B-VP,O
+why,WRB,B-ADVP,O
+I,PRP,B-NP,O
+will,MD,B-VP,O
+no,RB,I-VP,O
+longer,RB,I-VP,O
+be,VB,I-VP,O
+deputy,NN,B-NP,O
+by,IN,B-PP,O
+the,DT,B-NP,O
+time,NN,I-NP,O
+the,DT,B-NP,O
+film,NN,I-NP,O
+opens,VBZ,B-VP,O
+.,.,O,O
+ ,O,O,<UNK>

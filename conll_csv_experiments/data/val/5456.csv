@@ -1,0 +1,8 @@
+0,1,2,3
+6.,NNP,B-NP,O
+Julie,NNP,I-NP,B-PER
+Baumann,NNP,I-NP,I-PER
+(,(,O,O
+Switzerland,NNP,B-NP,B-LOC
+),),O,O
+13.11,CD,B-NP,O

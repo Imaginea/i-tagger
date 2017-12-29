@@ -1,0 +1,15 @@
+0,1,2,3
+1.,CD,B-NP,O
+Marty,NNP,I-NP,B-PER
+Nothstein,NNP,I-NP,I-PER
+(,(,O,O
+U.S.,NNP,B-NP,B-LOC
+),),O,O
+",",",",O,O
+last,JJ,B-NP,O
+200,CD,I-NP,O
+metres,NNS,I-NP,O
+in,IN,B-PP,O
+10.982,CD,B-NP,O
+seconds,NNS,I-NP,O
+.,.,O,O

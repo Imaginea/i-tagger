@@ -1,0 +1,8 @@
+0,1,2,3
+9.,CD,B-NP,O
+Tatian,NNP,I-NP,B-PER
+Stiajkina,NNP,I-NP,I-PER
+(,(,O,O
+Ukraine,NNP,B-NP,B-LOC
+),),O,O
+3:52.204,CD,B-NP,O

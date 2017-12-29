@@ -1,0 +1,23 @@
+0,1,2,3
+The,DT,B-NP,O
+agency,NN,I-NP,O
+said,VBD,B-VP,O
+it,PRP,B-NP,O
+would,MD,B-VP,O
+monitor,VB,I-VP,O
+effects,NNS,B-NP,O
+of,IN,B-PP,O
+the,DT,B-NP,O
+two,CD,I-NP,O
+new,JJ,I-NP,O
+rules,NNS,I-NP,O
+before,IN,B-PP,O
+considering,VBG,B-VP,O
+the,DT,B-NP,O
+ ,O,O,<UNK>
+price,NN,B-NP,O
+improvement,NN,I-NP,O
+ ,O,O,<UNK>
+proposal,NN,B-NP,O
+again,RB,B-ADVP,O
+.,.,O,O

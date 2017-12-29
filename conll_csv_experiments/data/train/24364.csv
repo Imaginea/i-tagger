@@ -1,0 +1,13 @@
+0,1,2,3
+Fox,NNP,B-NP,B-PER
+said,VBD,B-VP,O
+the,DT,B-NP,O
+incident,NN,I-NP,O
+had,VBD,B-VP,O
+strained,VBD,I-VP,O
+relations,NNS,B-NP,O
+between,IN,B-PP,O
+the,DT,B-NP,O
+two,CD,I-NP,O
+governments,NNS,I-NP,O
+.,.,O,O

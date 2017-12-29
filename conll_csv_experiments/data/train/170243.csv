@@ -1,0 +1,11 @@
+0,1,2,3
+PLO,NNP,B-NP,B-ORG
+Council,NNP,I-NP,I-ORG
+calls,VBZ,B-VP,O
+for,IN,B-PP,O
+halt,NN,B-NP,O
+to,TO,B-PP,O
+contacts,NNS,B-NP,O
+with,IN,B-PP,O
+Israel,NNP,B-NP,B-LOC
+.,.,O,O

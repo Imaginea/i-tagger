@@ -1,0 +1,7 @@
+0,1,2,3
+Vorskla,NNP,B-NP,B-ORG
+Poltava,NNP,I-NP,I-ORG
+2,CD,I-NP,O
+Nyva,NNP,I-NP,B-ORG
+Ternopil,NNP,I-NP,I-ORG
+1,CD,I-NP,O

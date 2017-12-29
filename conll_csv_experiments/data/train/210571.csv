@@ -1,0 +1,8 @@
+0,1,2,3
+All,DT,B-NP,O
+figures,NNS,I-NP,O
+in,IN,B-PP,O
+thousands,NNS,B-NP,O
+of,IN,B-PP,O
+tonnes,NNS,B-NP,O
+:,:,O,O

@@ -1,0 +1,10 @@
+0,1,2,3
+ ,O,O,<UNK>
+Both,DT,B-NP,O
+countries,NNS,I-NP,O
+',POS,B-NP,O
+governments,NNS,I-NP,O
+were,VBD,B-VP,O
+formed,VBN,I-VP,O
+recently,RB,B-ADVP,O
+.,.,O,O

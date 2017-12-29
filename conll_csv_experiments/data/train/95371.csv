@@ -1,0 +1,13 @@
+0,1,2,3
+*Name,NN,B-NP,O
+of,IN,B-PP,O
+Parmalat,NNP,B-NP,B-ORG
+/,SYM,O,I-ORG
+Fehervar,NNP,B-NP,I-ORG
+FC,NNP,I-NP,I-ORG
+has,VBZ,B-VP,O
+been,VBN,I-VP,O
+changed,VBN,I-VP,O
+to,TO,B-PP,O
+Videoton,NNP,B-NP,B-ORG
+.,.,O,O

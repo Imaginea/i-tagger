@@ -1,0 +1,10 @@
+0,1,2,3
+Federal,NNP,B-NP,O
+Yugoslav,NNP,I-NP,B-MISC
+elections,NNS,I-NP,O
+are,VBP,B-VP,O
+due,JJ,B-ADJP,O
+on,IN,B-PP,O
+November,NNP,B-NP,O
+3,CD,I-NP,O
+.,.,O,O

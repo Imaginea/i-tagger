@@ -1,0 +1,8 @@
+0,1,2,3
+3.,NNP,B-NP,O
+Malgorzata,NNP,I-NP,B-PER
+Rydz,NNP,I-NP,I-PER
+(,(,O,O
+Poland,NNP,B-NP,B-LOC
+),),O,O
+2:39.00,CD,B-NP,O

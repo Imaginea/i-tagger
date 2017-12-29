@@ -1,0 +1,16 @@
+0,1,2,3
+147,CD,B-NP,O
+Antoine,NNP,I-NP,B-PER
+Lebouc,NNP,I-NP,I-PER
+(,(,O,O
+France,NNP,B-NP,B-LOC
+),),O,O
+74,CD,B-NP,O
+73,CD,I-NP,O
+",",",",O,O
+Paul,NNP,B-NP,B-PER
+Curry,NNP,I-NP,I-PER
+76,CD,I-NP,O
+71,CD,I-NP,O
+",",",",O,O
+Andrew,NNP,B-NP,B-PER

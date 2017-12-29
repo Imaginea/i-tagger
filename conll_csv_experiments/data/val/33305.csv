@@ -1,0 +1,10 @@
+0,1,2,3
+Notts,NNP,B-NP,B-ORG
+County,NNP,I-NP,I-ORG
+3,CD,I-NP,O
+1,CD,I-NP,O
+1,CD,I-NP,O
+1,CD,I-NP,O
+2,CD,I-NP,O
+2,CD,I-NP,O
+4,CD,I-NP,O

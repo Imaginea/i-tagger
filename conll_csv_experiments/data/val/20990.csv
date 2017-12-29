@@ -1,0 +1,8 @@
+0,1,2,3
+The,DT,B-NP,O
+other,JJ,I-NP,O
+two,CD,I-NP,O
+were,VBD,B-VP,O
+military,JJ,B-NP,O
+jets,NNS,I-NP,O
+.,.,O,O

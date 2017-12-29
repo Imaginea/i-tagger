@@ -1,0 +1,21 @@
+0,1,2,3
+She,PRP,B-NP,O
+is,VBZ,B-VP,O
+like,IN,B-PP,O
+a,DT,B-NP,O
+goddess,NN,I-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+said,VBD,B-VP,O
+Raju,NNP,B-NP,O
+",",",",O,O
+8,CD,B-NP,O
+",",",",O,O
+who,WP,B-NP,O
+has,VBZ,B-VP,O
+a,DT,B-NP,O
+mother,NN,I-NP,O
+but,CC,O,O
+no,DT,B-NP,O
+father,NN,I-NP,O
+.,.,O,O

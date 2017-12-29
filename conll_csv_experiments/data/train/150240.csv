@@ -1,0 +1,6 @@
+0,1,2,3
+Selected,VBN,B-VP,O
+result,NN,B-NP,O
+from,IN,B-PP,O
+first,JJ,B-NP,O
+round,NN,I-NP,O

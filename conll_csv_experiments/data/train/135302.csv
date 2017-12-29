@@ -1,0 +1,10 @@
+0,1,2,3
+Bosnian,NN,B-NP,B-MISC
+premier,NN,I-NP,O
+in,IN,B-PP,O
+Turkey,NNP,B-NP,B-LOC
+for,IN,B-PP,O
+one,CD,B-NP,O
+day,NN,I-NP,O
+visit,NN,I-NP,O
+.,.,O,O

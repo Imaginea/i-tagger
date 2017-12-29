@@ -1,0 +1,9 @@
+0,1,2,3
+Wall,NNP,B-NP,B-LOC
+St,NNP,I-NP,I-LOC
+speculates,VBZ,B-VP,O
+about,IN,B-PP,O
+Santa,NNP,B-NP,B-LOC
+Fe,NNP,I-NP,I-LOC
+savior,NN,I-NP,O
+.,.,O,O

@@ -1,0 +1,18 @@
+0,1,2,3
+It,PRP,B-NP,O
+'s,VBZ,B-VP,O
+the,DT,B-NP,O
+biggest,JJS,I-NP,O
+success,NN,I-NP,O
+for,IN,B-PP,O
+Viacom,NNP,B-NP,B-MISC
+Inc-owned,JJ,I-NP,I-MISC
+Paramount,NNP,I-NP,B-ORG
+since,IN,B-PP,O
+1994,CD,B-NP,O
+'s,POS,I-NP,O
+ ,O,O,<UNK>
+Forrest,NNP,B-NP,B-MISC
+Gump,NNP,I-NP,I-MISC
+ ,O,O,<UNK>
+.,.,O,O

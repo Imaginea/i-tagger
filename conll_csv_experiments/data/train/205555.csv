@@ -1,0 +1,7 @@
+0,1,2,3
+First,NNP,B-NP,B-ORG
+Alliance,NNP,I-NP,I-ORG
+net,JJ,I-NP,O
+income,NN,I-NP,O
+slips,VBZ,B-VP,O
+.,.,O,O

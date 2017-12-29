@@ -1,0 +1,10 @@
+0,1,2,3
+Export,NN,B-NP,O
+demand,NN,I-NP,O
+was,VBD,B-VP,O
+good,JJ,B-ADJP,O
+but,CC,O,O
+availability,NN,B-NP,O
+was,VBD,B-VP,O
+limited,VBN,I-VP,O
+.,.,O,O

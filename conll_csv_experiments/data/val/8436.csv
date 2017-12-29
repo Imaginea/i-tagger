@@ -1,0 +1,10 @@
+0,1,2,3
+Jones,NNP,B-NP,B-ORG
+stock,NN,I-NP,O
+closed,VBD,B-VP,O
+down,RB,B-ADVP,O
+1/8,CD,B-NP,O
+at,IN,B-PP,O
+40,CD,B-NP,O
+Friday,NNP,B-NP,O
+.,.,O,O

@@ -1,0 +1,8 @@
+0,1,2,3
+Northern,NNP,B-NP,B-ORG
+States,NNPS,I-NP,I-ORG
+Power,NNP,I-NP,I-ORG
+Co,NNP,I-NP,I-ORG
+sets,NNS,I-NP,O
+payout,NN,I-NP,O
+.,.,O,O

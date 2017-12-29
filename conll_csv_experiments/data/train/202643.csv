@@ -1,0 +1,18 @@
+0,1,2,3
+Detective,NNP,B-NP,O
+Earl,NNP,I-NP,B-PER
+Feugill,NNP,I-NP,I-PER
+",",",",O,O
+camouflaged,VBN,B-VP,O
+as,IN,B-PP,O
+a,DT,B-NP,O
+shaggy,JJ,I-NP,O
+green,JJ,I-NP,O
+bush,NN,I-NP,O
+",",",",O,O
+ordered,VBD,B-VP,O
+them,PRP,B-NP,O
+to,TO,B-VP,O
+freeze,VB,I-VP,O
+.,.,O,O
+ ,O,O,<UNK>

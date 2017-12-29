@@ -1,0 +1,15 @@
+0,1,2,3
+Klas,UH,B-INTJ,B-PER
+Eriksson,NNP,B-NP,I-PER
+(,(,O,O
+Sweden,NNP,B-NP,B-LOC
+),),O,O
+71,CD,B-NP,O
+75,CD,I-NP,O
+72,CD,I-NP,O
+",",",",O,O
+Mike,NNP,B-NP,B-PER
+Clayton,NNP,I-NP,I-PER
+(,(,O,O
+Australia,NNP,B-NP,B-LOC
+),),O,O

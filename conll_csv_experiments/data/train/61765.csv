@@ -1,0 +1,7 @@
+0,1,2,3
+It,PRP,B-NP,O
+has,VBZ,B-VP,O
+also,RB,I-VP,O
+disrupted,VBN,I-VP,O
+flights,NNS,B-NP,O
+.,.,O,O

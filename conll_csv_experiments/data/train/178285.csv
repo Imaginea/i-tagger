@@ -1,0 +1,16 @@
+0,1,2,3
+--,:,O,O
+Seaford,NNP,B-NP,B-LOC
+Union,NNP,I-NP,I-LOC
+Free,NNP,I-NP,O
+School,NNP,I-NP,O
+District,NNP,I-NP,O
+",",",",O,O
+N.Y.,NNP,B-NP,B-LOC
+",",",",O,O
+$,$,B-NP,O
+5,CD,I-NP,O
+million,CD,I-NP,O
+school,NN,I-NP,O
+bonds,NNS,I-NP,O
+.,.,O,O

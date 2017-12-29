@@ -1,0 +1,11 @@
+0,1,2,3
+precedence,NN,B-NP,O
+is,VBZ,B-VP,O
+given,VBN,I-VP,O
+to,TO,B-PP,O
+the,DT,B-NP,O
+one,NN,I-NP,O
+with,IN,B-PP,O
+most,JJS,B-NP,O
+wins,VBZ,B-VP,O
+.,.,O,O

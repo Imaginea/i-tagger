@@ -1,0 +1,14 @@
+0,1,2,3
+Somerset,NNP,B-NP,B-ORG
+83,CD,I-NP,O
+and,CC,I-NP,O
+174,CD,I-NP,O
+(,(,O,O
+P.,NNP,B-NP,B-PER
+Simmons,NNP,I-NP,I-PER
+4-38,CD,I-NP,O
+),),O,O
+",",",",O,O
+Leicestershire,NNP,B-NP,B-ORG
+296,CD,I-NP,O
+.,.,O,O

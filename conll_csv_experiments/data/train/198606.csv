@@ -1,0 +1,10 @@
+0,1,2,3
+Thai,NNP,B-NP,B-MISC
+poll,NN,I-NP,O
+shows,VBZ,B-VP,O
+military,JJ,B-NP,O
+wants,VBZ,B-VP,O
+PM,NNP,B-NP,O
+Banharn,NNP,I-NP,B-PER
+out,RB,B-ADVP,O
+.,.,O,O

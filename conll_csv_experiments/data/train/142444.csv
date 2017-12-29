@@ -1,0 +1,8 @@
+0,1,2,3
+AOL,NNP,B-NP,B-ORG
+Europe,NNP,I-NP,I-ORG
+forms,NNS,I-NP,O
+online,VBP,B-VP,O
+advertising,VBG,I-VP,O
+agency,NN,B-NP,O
+.,.,O,O

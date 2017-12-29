@@ -1,0 +1,13 @@
+0,1,2,3
+-,:,O,O
+Secondhand,VB,B-VP,O
+tonnage,NN,B-NP,O
+brokers,NNS,I-NP,O
+reported,VBD,B-VP,O
+the,DT,B-NP,O
+sale,NN,I-NP,O
+of,IN,B-PP,O
+the,DT,B-NP,O
+following,VBG,I-NP,O
+vessels,NNS,I-NP,O
+.,.,O,O

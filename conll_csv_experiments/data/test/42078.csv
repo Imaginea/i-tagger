@@ -1,0 +1,11 @@
+0,1,2,3
+Woolmer,NNP,B-NP,B-PER
+'s,POS,B-NP,O
+memories,NNS,I-NP,O
+of,IN,B-PP,O
+Kanpur,NNP,B-NP,B-LOC
+are,VBP,B-VP,O
+few,JJ,B-ADJP,O
+and,CC,O,O
+blurred,VBD,B-VP,O
+.,.,O,O

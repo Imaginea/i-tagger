@@ -1,0 +1,8 @@
+0,1,2,3
+3.,NNP,B-NP,O
+Jan,NNP,I-NP,B-PER
+Bos,NNP,I-NP,I-PER
+(,(,I-NP,O
+Netherlands,NNP,I-NP,B-LOC
+),),O,O
+1:16.38,CD,B-NP,O

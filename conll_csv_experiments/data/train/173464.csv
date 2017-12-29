@@ -1,0 +1,34 @@
+0,1,2,3
+He,PRP,B-NP,O
+said,VBD,B-VP,O
+his,PRP$,B-NP,O
+government,NN,I-NP,O
+had,VBD,B-VP,O
+just,RB,I-VP,O
+asked,VBD,I-VP,O
+U.N.,NNP,B-NP,B-ORG
+human,JJ,I-NP,O
+rights,NNS,I-NP,O
+monitors,NNS,I-NP,O
+to,TO,B-VP,O
+increase,VB,I-VP,O
+their,PRP$,B-NP,O
+numbers,NNS,I-NP,O
+in,IN,B-PP,O
+Burundi,NNP,B-NP,B-LOC
+in,IN,B-PP,O
+an,DT,B-NP,O
+effort,NN,I-NP,O
+ ,O,O,<UNK>
+to,TO,B-VP,O
+put,VB,I-VP,O
+an,DT,B-NP,O
+end,NN,I-NP,O
+to,TO,B-PP,O
+this,DT,B-NP,O
+vicious,JJ,I-NP,O
+circle,NN,I-NP,O
+of,IN,B-PP,O
+violence,NN,B-NP,O
+.,.,O,O
+ ,O,O,<UNK>

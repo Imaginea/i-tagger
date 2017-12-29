@@ -1,0 +1,31 @@
+0,1,2,3
+ ,O,O,<UNK>
+I,PRP,B-NP,O
+am,VBP,B-VP,O
+sorry,JJ,B-ADJP,O
+to,TO,B-PP,O
+my,PRP$,B-NP,O
+ancestors,NNS,I-NP,O
+for,IN,B-PP,O
+five,CD,B-NP,O
+generations,NNS,I-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+Chen,NNP,B-NP,B-PER
+Chun-yeh,NNP,I-NP,I-PER
+told,VBD,B-VP,O
+the,DT,B-NP,O
+High,NNP,I-NP,B-ORG
+Court,NNP,I-NP,I-ORG
+after,IN,B-PP,O
+sentencing,VBG,B-VP,O
+on,IN,B-PP,O
+Friday,NNP,B-NP,O
+",",",",O,O
+the,DT,B-NP,O
+Hong,NNP,I-NP,B-ORG
+Kong,NNP,I-NP,I-ORG
+Standard,NNP,I-NP,I-ORG
+said,VBD,B-VP,O
+.,.,O,O
+ ,O,O,<UNK>

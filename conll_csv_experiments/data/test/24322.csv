@@ -1,0 +1,32 @@
+0,1,2,3
+ ,O,O,<UNK>
+Though,IN,B-SBAR,O
+schemes,NNS,B-NP,O
+designed,VBN,B-VP,O
+to,TO,I-VP,O
+realise,VB,I-VP,O
+further,JJ,B-NP,O
+increases,NNS,I-NP,O
+in,IN,B-PP,O
+the,DT,B-NP,O
+production,NN,I-NP,O
+of,IN,B-PP,O
+natural,JJ,B-NP,O
+rubber,NN,I-NP,O
+are,VBP,B-VP,O
+being,VBG,I-VP,O
+operated,VBN,I-VP,O
+successfully,RB,B-ADVP,O
+",",",",O,O
+the,DT,B-NP,O
+demand-supply,JJ,I-NP,O
+gap,NN,I-NP,O
+is,VBZ,B-VP,O
+expected,VBN,I-VP,O
+to,TO,I-VP,O
+widen,VB,I-VP,O
+",",",",O,O
+ ,O,O,<UNK>
+he,PRP,B-NP,O
+said,VBD,B-VP,O
+.,.,O,O

@@ -1,0 +1,16 @@
+0,1,2,3
+It,PRP,B-NP,O
+was,VBD,B-VP,O
+also,RB,B-ADVP,O
+Williams,NNP,B-NP,B-PER
+',POS,B-NP,O
+first,JJ,I-NP,O
+win,NN,I-NP,O
+in,IN,B-PP,O
+three,CD,B-NP,O
+career,NN,I-NP,O
+decisions,NNS,I-NP,O
+against,IN,B-PP,O
+San,NNP,B-NP,B-LOC
+Francisco,NNP,I-NP,I-LOC
+.,.,O,O

@@ -1,0 +1,17 @@
+0,1,2,3
+Neville,NNP,B-NP,B-PER
+Godwin,NNP,I-NP,I-PER
+(,(,O,O
+South,NNP,B-NP,B-LOC
+Africa,NNP,I-NP,I-LOC
+),),O,O
+beat,VB,B-VP,O
+Tomas,NNP,B-NP,B-PER
+Carbonell,NNP,I-NP,I-PER
+(,(,O,O
+Spain,NNP,B-NP,B-LOC
+),),O,O
+6-4,CD,B-NP,O
+6-2,CD,I-NP,O
+3-6,CD,I-NP,O
+6-1,CD,I-NP,O

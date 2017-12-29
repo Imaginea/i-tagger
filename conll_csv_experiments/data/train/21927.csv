@@ -1,0 +1,9 @@
+0,1,2,3
+Defiant,NNP,B-NP,O
+U.S.,NNP,I-NP,B-LOC
+neo-Nazi,JJ,I-NP,B-MISC
+jailed,VBN,B-VP,O
+by,IN,B-PP,O
+German,JJ,B-NP,B-MISC
+court,NN,I-NP,O
+.,.,O,O

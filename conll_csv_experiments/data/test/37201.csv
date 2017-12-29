@@ -1,0 +1,8 @@
+0,1,2,3
+It,PRP,B-NP,O
+ranged,VBD,B-VP,O
+between,IN,B-PP,O
+830.20,CD,B-NP,O
+and,CC,I-NP,O
+831.40,CD,I-NP,O
+.,.,O,O

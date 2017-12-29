@@ -1,0 +1,16 @@
+0,1,2,3
+ ,O,O,<UNK>
+I,PRP,B-NP,O
+see,VBP,B-VP,O
+an,DT,B-NP,O
+overhang,NN,I-NP,O
+of,IN,B-PP,O
+gas,NN,B-NP,O
+oil,NN,I-NP,O
+further,RBR,B-ADVP,O
+out,IN,B-PP,O
+",",",",O,O
+ ,O,O,<UNK>
+one,CD,B-NP,O
+said,VBD,B-VP,O
+.,.,O,O

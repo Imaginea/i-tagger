@@ -1,0 +1,8 @@
+0,1,2,3
+Help-wanted,JJ,B-NP,O
+ad,NN,I-NP,O
+index,NN,I-NP,O
+fell,VBD,B-VP,O
+in,IN,B-PP,O
+July,NNP,B-NP,O
+.,.,O,O

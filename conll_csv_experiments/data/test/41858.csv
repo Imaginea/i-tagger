@@ -1,0 +1,9 @@
+0,1,2,3
+United,NNP,B-NP,B-ORG
+States,NNP,I-NP,I-ORG
+I,PRP,B-NP,I-ORG
+(,(,O,O
+Jim,NNP,B-NP,B-PER
+Herberich,NNP,I-NP,I-PER
+",",",",O,O
+Garrett,NNP,B-NP,B-PER

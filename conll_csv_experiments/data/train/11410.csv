@@ -1,0 +1,10 @@
+0,1,2,3
+Chris,NNP,B-NP,B-PER
+Hoiles,NNP,I-NP,I-PER
+hit,VBD,B-VP,O
+his,PRP$,B-NP,O
+22nd,JJ,I-NP,O
+homer,NN,I-NP,O
+for,IN,B-PP,O
+Baltimore,NNP,B-NP,B-LOC
+.,.,O,O

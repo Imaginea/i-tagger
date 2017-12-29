@@ -1,0 +1,8 @@
+0,1,2,3
+Sudan,NNP,B-NP,B-LOC
+arrests,NNS,I-NP,O
+opposition,NN,I-NP,O
+sewing,VBG,I-NP,O
+machine,NN,I-NP,O
+smugglers,NNS,I-NP,O
+.,.,O,O

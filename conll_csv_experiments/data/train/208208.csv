@@ -1,0 +1,16 @@
+0,1,2,3
+*,SYM,O,O
+President,NNP,B-NP,O
+Bill,NNP,I-NP,B-PER
+Clinton,NNP,I-NP,I-PER
+is,VBZ,B-VP,O
+expected,VBN,I-VP,O
+to,TO,I-VP,O
+propose,VB,I-VP,O
+a,DT,B-NP,O
+tax,NN,I-NP,O
+break,NN,I-NP,O
+on,IN,B-PP,O
+home,NN,B-NP,O
+sales,NNS,I-NP,O
+.,.,O,O

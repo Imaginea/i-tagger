@@ -1,0 +1,11 @@
+0,1,2,3
+-,:,O,O
+Aleix,NNP,B-NP,B-PER
+Vidal-Quadras,NNP,I-NP,I-PER
+-,:,O,O
+Catalan,JJ,B-NP,B-MISC
+nationalists,NNS,I-NP,O
+are,VBP,B-VP,O
+demanding,VBG,I-VP,O
+my,PRP$,B-NP,O
+defenestration,NN,I-NP,O

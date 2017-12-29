@@ -1,0 +1,24 @@
+0,1,2,3
+That,IN,B-NP,O
+",",",",O,O
+and,CC,O,O
+the,DT,B-NP,O
+fact,NN,I-NP,O
+he,PRP,B-NP,O
+is,VBZ,B-VP,O
+only,RB,B-ADVP,O
+a,DT,B-NP,O
+few,JJ,I-NP,O
+hours,NNS,I-NP,O
+drive,VBP,B-VP,O
+away,RB,B-ADVP,O
+",",",",O,O
+influenced,VBD,B-VP,O
+my,PRP$,B-NP,O
+decision,NN,I-NP,O
+to,TO,B-VP,O
+come,VB,I-VP,O
+to,TO,B-PP,O
+Aberdeen,NNP,B-NP,B-ORG
+.,.,I-NP,O
+ ,O,O,<UNK>

@@ -1,0 +1,7 @@
+0,1,2,3
+William,NNP,B-NP,B-PER
+Hill,NNP,I-NP,I-PER
+betting,VBG,B-VP,O
+on,IN,B-PP,O
+Saturday,NNP,B-NP,O
+'s,POS,I-NP,O

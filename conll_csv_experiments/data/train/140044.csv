@@ -1,0 +1,35 @@
+0,1,2,3
+ ,O,O,<UNK>
+People,NNS,B-NP,O
+who,WP,B-NP,O
+wish,VBP,B-VP,O
+to,TO,I-VP,O
+hold,VB,I-VP,O
+conferences,NNS,B-NP,O
+of,IN,B-PP,O
+course,NN,B-NP,O
+do,VBP,B-VP,O
+n't,RB,I-VP,O
+need,VB,I-VP,O
+to,TO,I-VP,O
+seek,VB,I-VP,O
+permission,NN,B-NP,O
+from,IN,B-PP,O
+the,DT,B-NP,O
+government,NN,I-NP,O
+in,IN,B-PP,O
+Britain,NNP,B-NP,B-LOC
+",",",",O,O
+ ,O,O,<UNK>
+Rifkind,NNP,B-NP,B-PER
+",",",",O,O
+in,IN,B-PP,O
+Pakistan,NNP,B-NP,B-LOC
+for,IN,B-PP,O
+a,DT,B-NP,O
+visit,NN,I-NP,O
+",",",",O,O
+told,VBD,B-VP,O
+Reuters,NNP,B-NP,B-ORG
+.,.,I-NP,O
+ ,O,O,<UNK>

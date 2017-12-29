@@ -1,0 +1,18 @@
+0,1,2,3
+A,DT,B-NP,O
+meeting,NN,I-NP,O
+with,IN,B-PP,O
+the,DT,B-NP,O
+Pope,NNP,I-NP,O
+is,VBZ,B-VP,O
+also,RB,I-VP,O
+planned,VBN,I-VP,O
+",",",",O,O
+ ,O,O,<UNK>
+Dariusz,NNP,B-NP,B-PER
+Rosati,NNP,I-NP,I-PER
+told,VBD,B-VP,O
+a,DT,B-NP,O
+news,NN,I-NP,O
+conference,NN,I-NP,O
+.,.,O,O

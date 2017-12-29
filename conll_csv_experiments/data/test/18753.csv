@@ -1,0 +1,17 @@
+0,1,2,3
+Buza,NNP,B-NP,B-PER
+was,VBD,B-VP,O
+overpowered,VBN,I-VP,O
+by,IN,B-PP,O
+riot,NN,B-NP,O
+police,NN,I-NP,O
+less,JJR,B-ADJP,O
+than,IN,B-PP,O
+one,CD,B-NP,O
+hour,NN,I-NP,O
+after,IN,B-SBAR,O
+he,PRP,B-NP,O
+began,VBD,B-VP,O
+his,PRP$,B-NP,O
+action,NN,I-NP,O
+.,.,O,O

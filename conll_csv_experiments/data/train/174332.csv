@@ -1,0 +1,9 @@
+0,1,2,3
+Sept,NNP,B-NP,O
+conf,NN,I-NP,O
+bond,NN,I-NP,O
+up,IN,B-PP,O
+12,CD,B-NP,O
+at,IN,B-PP,O
+113.02,CD,B-NP,O
+.,.,O,O

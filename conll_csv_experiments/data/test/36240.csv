@@ -1,0 +1,33 @@
+0,1,2,3
+In,IN,B-PP,O
+sentencing,VBG,B-VP,O
+Crofts,NNPS,B-NP,B-PER
+",",",",O,O
+who,WP,B-NP,O
+pleaded,VBD,B-VP,O
+guilty,JJ,B-ADJP,O
+",",",",O,O
+Grove,NNP,B-NP,B-PER
+took,VBD,B-VP,O
+into,IN,B-PP,O
+account,NN,B-NP,O
+his,PRP$,B-NP,O
+ ,O,O,<UNK>
+mildly,RB,B-ADJP,O
+retarded,JJ,I-ADJP,O
+ ,O,O,<UNK>
+intellectual,JJ,B-NP,O
+state,NN,I-NP,O
+",",",",O,O
+which,WDT,B-NP,O
+placed,VBD,B-VP,O
+him,PRP,B-NP,O
+in,IN,B-PP,O
+the,DT,B-NP,O
+lowest,JJS,I-NP,O
+two,CD,I-NP,O
+percent,NNS,I-NP,O
+of,IN,B-PP,O
+the,DT,B-NP,O
+population,NN,I-NP,O
+.,.,O,O

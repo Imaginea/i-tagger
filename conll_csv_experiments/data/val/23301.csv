@@ -1,0 +1,8 @@
+0,1,2,3
+Year,NNP,B-NP,O
+Amount,NNP,I-NP,O
+Coupon,NN,I-NP,O
+Yield,NN,I-NP,O
+Price,NN,I-NP,O
+Conc,NN,I-NP,O
+.,.,O,O

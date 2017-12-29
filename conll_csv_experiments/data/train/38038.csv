@@ -1,0 +1,17 @@
+0,1,2,3
+ ,O,O,<UNK>
+I,PRP,B-NP,O
+believe,VBP,B-VP,O
+relations,NNS,B-NP,O
+between,IN,B-PP,O
+the,DT,B-NP,O
+two,CD,I-NP,O
+teams,NNS,I-NP,O
+will,MD,B-VP,O
+be,VB,I-VP,O
+excellent,JJ,B-ADJP,O
+",",",",O,O
+ ,O,O,<UNK>
+Batterby,NNP,B-NP,B-PER
+said,VBD,B-VP,O
+.,.,O,O

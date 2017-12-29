@@ -1,0 +1,8 @@
+0,1,2,3
+6.,NNP,B-NP,O
+Francis,NNP,I-NP,B-PER
+Agyepong,NNP,I-NP,I-PER
+(,(,O,O
+Britain,NNP,B-NP,B-LOC
+),),O,O
+16.63,CD,B-NP,O

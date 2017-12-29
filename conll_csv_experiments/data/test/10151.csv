@@ -1,0 +1,15 @@
+0,1,2,3
+Charleroi,NNP,B-NP,B-ORG
+(,(,O,O
+Belgium,NNP,B-NP,B-LOC
+),),O,O
+75,CD,B-NP,O
+Estudiantes,NNP,I-NP,B-ORG
+Madrid,NNP,I-NP,I-ORG
+(,(,O,O
+Spain,NNP,B-NP,B-LOC
+),),O,O
+82,CD,B-NP,O
+(,(,O,O
+34-35,CD,B-NP,O
+),),O,O

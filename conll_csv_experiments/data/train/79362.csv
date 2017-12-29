@@ -1,0 +1,4 @@
+0,1,2,3
+3.,NNP,B-NP,O
+Bartoli,NNP,I-NP,B-PER
+108,CD,I-NP,O

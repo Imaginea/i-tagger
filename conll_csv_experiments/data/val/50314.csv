@@ -1,0 +1,27 @@
+0,1,2,3
+They,PRP,B-NP,O
+have,VBP,B-VP,O
+established,VBN,I-VP,O
+a,DT,B-NP,O
+headquarters,NN,I-NP,O
+in,IN,B-PP,O
+Chuman,NNP,B-NP,B-LOC
+",",",",O,O
+ ,O,O,<UNK>
+Faik,NNP,B-NP,B-PER
+Nerweyi,NNP,I-NP,I-PER
+of,IN,B-PP,O
+the,DT,B-NP,O
+Kurdistan,NNP,I-NP,B-ORG
+Democratic,NNP,I-NP,I-ORG
+Party,NNP,I-NP,I-ORG
+(,(,O,O
+KDP,NNP,B-NP,B-ORG
+),),O,O
+told,VBD,B-VP,O
+Reuters,NNP,B-NP,B-ORG
+by,IN,B-PP,O
+telephone,NN,B-NP,O
+from,IN,B-PP,O
+Ankara,NNP,B-NP,B-LOC
+.,.,O,O

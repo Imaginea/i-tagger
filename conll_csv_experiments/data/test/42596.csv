@@ -1,0 +1,8 @@
+0,1,2,3
+7.,CD,B-NP,O
+Espen,NNP,I-NP,B-PER
+Bredesen,NNP,I-NP,I-PER
+(,(,O,O
+Norway,NNP,B-NP,B-LOC
+),),O,O
+112,CD,B-NP,O

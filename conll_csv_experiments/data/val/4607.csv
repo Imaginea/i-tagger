@@ -1,0 +1,20 @@
+0,1,2,3
+ ,O,O,<UNK>
+Yesterday,NN,B-NP,O
+was,VBD,B-VP,O
+the,DT,B-NP,O
+toughest,JJS,I-NP,O
+day,NN,I-NP,O
+I,PRP,B-NP,O
+'ve,VBP,B-VP,O
+had,VBD,I-VP,O
+for,IN,B-PP,O
+a,DT,B-NP,O
+long,JJ,I-NP,O
+time,NN,I-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+Woods,NNP,B-NP,B-PER
+said,VBD,B-VP,O
+.,.,O,O
+ ,O,O,<UNK>

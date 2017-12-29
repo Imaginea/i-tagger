@@ -1,0 +1,11 @@
+0,1,2,3
+Italy,NNP,B-NP,B-LOC
+tops,NNS,I-NP,O
+week,NN,I-NP,O
+of,IN,B-PP,O
+meagre,NN,B-NP,O
+bond,NN,I-NP,O
+returns,NNS,I-NP,O
+-,:,O,O
+Salomon,NNP,B-NP,B-ORG
+.,.,O,O

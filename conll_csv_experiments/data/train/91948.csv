@@ -1,0 +1,11 @@
+0,1,2,3
+Kapil,NNP,B-NP,B-PER
+Dev,NNP,I-NP,I-PER
+(,(,O,O
+India,NNP,B-NP,B-LOC
+),),O,O
+434,CD,B-NP,O
+wickets,NNS,I-NP,O
+",",",",O,O
+131,CD,B-NP,O
+Tests,NNP,I-NP,O

@@ -1,0 +1,9 @@
+0,1,2,3
+7.,CD,B-NP,O
+Luca,NNP,I-NP,B-PER
+Pavanello,NNP,I-NP,I-PER
+(,(,O,O
+Italy,NNP,B-NP,B-LOC
+),),O,O
+Aki,NNP,B-NP,B-PER
+11,CD,I-NP,O

@@ -1,0 +1,11 @@
+0,1,2,3
+More,JJR,B-NP,O
+than,IN,I-NP,O
+"185,000",CD,I-NP,O
+black,JJ,I-NP,O
+soldiers,NNS,I-NP,O
+fought,VBD,B-VP,O
+and,CC,O,O
+"37,000",CD,B-NP,O
+died,VBD,B-VP,O
+.,.,O,O

@@ -1,0 +1,14 @@
+0,1,2,3
+Kristina,NNP,B-NP,B-PER
+Brandi,NNP,I-NP,I-PER
+(,(,O,O
+U.S.,NNP,B-NP,B-LOC
+),),O,O
+beat,VB,B-VP,O
+Andrea,NNP,B-NP,B-PER
+Glass,NNP,I-NP,I-PER
+(,(,O,O
+Germany,NNP,B-NP,B-LOC
+),),O,O
+6-2,CD,B-NP,O
+6-3,CD,I-NP,O

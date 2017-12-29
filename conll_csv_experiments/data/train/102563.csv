@@ -1,0 +1,15 @@
+0,1,2,3
+The,DT,B-NP,O
+reorganization,NN,I-NP,O
+plan,NN,I-NP,O
+calls,VBZ,B-VP,O
+for,IN,B-PP,O
+all,DT,B-NP,O
+secured,VBN,I-NP,O
+claims,NNS,I-NP,O
+to,TO,B-VP,O
+be,VB,I-VP,O
+paid,VBN,I-VP,O
+in,IN,B-PP,O
+full,JJ,B-ADJP,O
+.,.,O,O

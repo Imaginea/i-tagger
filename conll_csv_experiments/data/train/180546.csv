@@ -1,0 +1,9 @@
+0,1,2,3
+Spanish,JJ,B-NP,B-MISC
+tomato,NN,I-NP,O
+warriors,NNS,I-NP,O
+paint,VBP,B-VP,O
+the,DT,B-NP,O
+town,NN,I-NP,O
+red,NN,I-NP,O
+.,.,O,O

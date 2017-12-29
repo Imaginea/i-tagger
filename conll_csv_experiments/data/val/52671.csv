@@ -1,0 +1,13 @@
+0,1,2,3
+ ,O,O,<UNK>
+The,DT,B-NP,O
+girls,NNS,I-NP,O
+",",",",O,O
+Rachel,NNP,B-NP,B-PER
+and,CC,I-NP,O
+Severine,NNP,I-NP,B-PER
+",",",",O,O
+have,VBP,B-VP,O
+been,VBN,I-VP,O
+found,VBN,I-VP,O
+.,.,O,O

@@ -1,0 +1,13 @@
+0,1,2,3
+But,CC,O,O
+the,DT,B-NP,O
+changes,NNS,I-NP,O
+have,VBP,B-VP,O
+yet,RB,I-VP,O
+to,TO,I-VP,O
+improve,VB,I-VP,O
+significantly,RB,B-ADVP,O
+Norilsk,NNP,B-NP,B-ORG
+'s,POS,B-NP,O
+situation,NN,I-NP,O
+.,.,O,O

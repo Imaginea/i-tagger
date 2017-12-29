@@ -1,0 +1,23 @@
+0,1,2,3
+ ,O,O,<UNK>
+Three,CD,B-NP,O
+of,IN,B-PP,O
+the,DT,B-NP,O
+four,CD,I-NP,O
+children,NNS,I-NP,O
+had,VBD,O,O
+Crohn,NNP,B-NP,B-PER
+'s,POS,B-NP,O
+disease,NN,I-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+Wakefield,NNP,B-NP,B-PER
+'s,POS,B-NP,O
+group,NN,I-NP,O
+wrote,VBD,B-VP,O
+in,IN,B-PP,O
+the,DT,B-NP,O
+Lancet,NNP,I-NP,B-ORG
+medical,JJ,I-NP,O
+journal,NN,I-NP,O
+.,.,O,O

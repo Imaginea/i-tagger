@@ -1,0 +1,9 @@
+0,1,2,3
+Basketball,NNP,B-NP,B-ORG
+Association,NNP,I-NP,I-ORG
+teams,NNS,I-NP,O
+after,IN,B-SBAR,O
+games,NNS,B-NP,O
+played,VBN,B-VP,O
+on,IN,B-PP,O
+Friday,NNP,B-NP,O

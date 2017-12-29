@@ -1,0 +1,11 @@
+0,1,2,3
+Bowling,NNP,B-NP,O
+:,:,O,O
+Cork,NNP,B-NP,B-PER
+3-0-15-0,CD,I-NP,O
+",",",",O,O
+Mullally,NNP,B-NP,B-PER
+3-0-24-1,CD,I-NP,O
+",",",",O,O
+Croft,NNP,B-NP,B-PER
+0.4-0-9-0,NNP,I-NP,O

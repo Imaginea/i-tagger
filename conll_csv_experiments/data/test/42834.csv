@@ -1,0 +1,10 @@
+0,1,2,3
+Sylvain,NNP,B-NP,B-PER
+Bouchard,NNP,I-NP,I-PER
+(,(,O,O
+Canada,NNP,B-NP,B-LOC
+),),O,O
+38.00,CD,B-NP,O
+;,:,O,O
+9,LS,B-LST,O
+.,.,O,O

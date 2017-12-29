@@ -1,0 +1,9 @@
+0,1,2,3
+Pilgrims,NNS,B-NP,O
+stood,VBD,B-VP,O
+little,JJ,B-NP,O
+chance,NN,I-NP,O
+of,IN,B-PP,O
+making,VBG,B-VP,O
+progress,NN,B-NP,O
+.,.,O,O

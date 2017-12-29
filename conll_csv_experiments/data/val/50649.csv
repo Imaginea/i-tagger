@@ -1,0 +1,14 @@
+0,1,2,3
+on,IN,B-PP,O
+August,NNP,B-NP,O
+29,CD,I-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+an,DT,B-NP,O
+Israeli,JJ,I-NP,B-MISC
+army,NN,I-NP,O
+spokeswoman,NN,I-NP,O
+said,VBD,B-VP,O
+on,IN,B-PP,O
+Saturday,NNP,B-NP,O
+.,.,O,O

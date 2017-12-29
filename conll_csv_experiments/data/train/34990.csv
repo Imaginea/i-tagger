@@ -1,0 +1,15 @@
+0,1,2,3
+Jonzon,NNP,B-NP,B-PER
+(,(,O,O
+Sweden,NNP,B-NP,B-LOC
+),),O,O
+67,CD,B-NP,O
+67,CD,I-NP,O
+",",",",O,O
+Roger,NNP,B-NP,B-PER
+Chapman,NNP,I-NP,I-PER
+72,CD,I-NP,O
+62,CD,I-NP,O
+",",",",O,O
+Jonathan,NNP,B-NP,B-PER
+Lomas,NNP,I-NP,I-PER

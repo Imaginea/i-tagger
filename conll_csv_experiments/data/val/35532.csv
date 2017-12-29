@@ -1,0 +1,8 @@
+0,1,2,3
+Borac,NNP,B-NP,B-ORG
+1,CD,I-NP,O
+Mladost,NNP,I-NP,B-ORG
+(,(,O,I-ORG
+L,NNP,B-NP,I-ORG
+),),O,I-ORG
+2,CD,B-NP,O

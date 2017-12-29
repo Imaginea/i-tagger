@@ -1,0 +1,14 @@
+0,1,2,3
+-,:,O,O
+Hariri,NNP,B-NP,B-PER
+to,TO,B-VP,O
+step,VB,I-VP,O
+into,IN,B-PP,O
+the,DT,B-NP,O
+election,NN,I-NP,O
+battle,NN,I-NP,O
+with,IN,B-PP,O
+an,DT,B-NP,O
+incomplete,JJ,I-NP,O
+list,NN,I-NP,O
+.,.,O,O

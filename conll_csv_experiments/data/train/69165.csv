@@ -1,0 +1,11 @@
+0,1,2,3
+1.,CD,B-NP,O
+Tommi,NNP,I-NP,B-PER
+Makinen,NNP,I-NP,I-PER
+(,(,O,O
+Finland,NNP,B-NP,B-LOC
+),),O,O
+Mitsubishi,NNP,B-NP,B-MISC
+Lancer,NNP,I-NP,I-MISC
+three,CD,B-NP,O
+hours,NNS,I-NP,O

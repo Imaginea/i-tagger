@@ -1,0 +1,11 @@
+0,1,2,3
+ ,O,O,<UNK>
+It,PRP,B-NP,O
+'s,VBZ,B-VP,O
+a,DT,B-NP,O
+strong,JJ,I-NP,O
+dollar,NN,I-NP,O
+",",",",O,O
+not,RB,O,O
+stronger,JJR,B-NP,O
+.,.,O,O

@@ -1,0 +1,16 @@
+0,1,2,3
+",",",",O,O
+at,IN,B-PP,O
+midday,NN,B-NP,O
+and,CC,O,O
+told,VBD,B-VP,O
+doctors,NNS,B-NP,O
+that,IN,B-SBAR,O
+she,PRP,B-NP,O
+had,VBD,B-VP,O
+been,VBN,I-VP,O
+paralysed,VBN,I-VP,O
+by,IN,B-PP,O
+the,DT,B-NP,O
+disease,NN,I-NP,O
+.,.,O,O

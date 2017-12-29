@@ -1,0 +1,5 @@
+0,1,2,3
+28-1,CD,B-NP,O
+Real,JJ,I-NP,B-ORG
+Madrid,NNP,I-NP,I-ORG
+Barcelona,NNP,I-NP,B-ORG

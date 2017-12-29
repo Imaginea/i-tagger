@@ -1,0 +1,12 @@
+0,1,2,3
+They,PRP,B-NP,O
+seized,VBD,B-VP,O
+revolvers,NNS,B-NP,O
+",",",",O,O
+sawn-off,JJ,B-NP,O
+rifles,NNS,I-NP,O
+",",",",O,O
+shotguns,NNS,B-NP,O
+and,CC,O,O
+knives,NNS,B-NP,O
+.,.,O,O

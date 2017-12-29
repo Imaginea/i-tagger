@@ -1,0 +1,8 @@
+0,1,2,3
+4.,CD,B-NP,O
+Erik,NNP,I-NP,B-PER
+Zabel,NNP,I-NP,I-PER
+(,(,O,O
+Germany,NNP,B-NP,B-LOC
+),),O,O
+Telekom,NN,B-NP,B-ORG

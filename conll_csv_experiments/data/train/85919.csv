@@ -1,0 +1,10 @@
+0,1,2,3
+-,:,O,O
+Former,NNP,B-NP,O
+prime,JJ,I-NP,O
+minister,NN,I-NP,O
+Peres,NNP,I-NP,B-PER
+to,TO,B-PP,O
+Morocco,NNP,B-NP,B-LOC
+today,NN,B-NP,O
+.,.,O,O

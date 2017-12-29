@@ -1,0 +1,5 @@
+0,1,2,3
+Belgium,NN,B-NP,B-LOC
+beat,VBD,B-VP,O
+Turkey,NNP,B-NP,B-LOC
+2-1,CD,I-NP,O

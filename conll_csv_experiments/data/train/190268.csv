@@ -1,0 +1,15 @@
+0,1,2,3
+13,CD,B-NP,O
+-,:,I-NP,O
+Thomas,NNP,I-NP,B-PER
+Enqvist,NNP,I-NP,I-PER
+(,(,O,O
+Sweden,NNP,B-NP,B-LOC
+),),O,O
+beat,VB,B-VP,O
+Guillaume,NNP,B-NP,B-PER
+Raoux,NNP,I-NP,I-PER
+(,(,O,O
+France,NNP,B-NP,B-LOC
+),),O,O
+6-3,CD,B-NP,O

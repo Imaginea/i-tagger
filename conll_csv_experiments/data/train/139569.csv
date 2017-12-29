@@ -1,0 +1,16 @@
+0,1,2,3
+The,DT,B-NP,O
+nun,NN,I-NP,O
+'s,POS,B-NP,O
+birthday,NN,I-NP,O
+prompted,VBD,B-VP,O
+greetings,NNS,B-NP,O
+",",",",O,O
+bouquets,NNS,B-NP,O
+and,CC,O,O
+prayers,NNS,B-NP,O
+from,IN,B-PP,O
+around,IN,B-PP,O
+the,DT,B-NP,O
+world,NN,I-NP,O
+.,.,O,O

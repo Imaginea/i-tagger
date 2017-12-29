@@ -1,0 +1,10 @@
+0,1,2,3
+U.S.,NNP,B-NP,B-LOC
+copper,NN,I-NP,O
+service,NN,I-NP,O
+center,NN,I-NP,O
+shipments,NNS,I-NP,O
+stable,JJ,B-NP,O
+-,:,O,O
+CBSA,NNP,B-NP,B-ORG
+.,.,O,O

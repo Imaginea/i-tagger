@@ -1,0 +1,5 @@
+0,1,2,3
+Chievo,VB,B-VP,B-ORG
+2,CD,B-NP,O
+Cagliari,NNP,I-NP,B-ORG
+3,CD,I-NP,O

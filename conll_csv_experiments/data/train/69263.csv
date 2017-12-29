@@ -1,0 +1,8 @@
+0,1,2,3
+1.,CD,B-NP,O
+Joel,NNP,I-NP,B-PER
+Smets,NNP,I-NP,I-PER
+(,(,O,O
+Belgium,NNP,B-NP,B-LOC
+),),O,O
+Husaberg,NNP,B-NP,B-ORG

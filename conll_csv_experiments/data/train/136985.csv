@@ -1,0 +1,6 @@
+0,1,2,3
+Announcement,NN,B-NP,O
+As,IN,B-SBAR,O
+of,IN,B-PP,O
+08/26/96,CD,B-NP,O
+.,.,O,O

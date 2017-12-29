@@ -1,0 +1,7 @@
+0,1,2,3
+Turnover,NN,B-NP,O
+was,VBD,B-VP,O
+US$,$,B-NP,B-MISC
+275,CD,I-NP,O
+million,CD,I-NP,O
+.,.,O,O

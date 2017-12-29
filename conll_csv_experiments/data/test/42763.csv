@@ -1,0 +1,11 @@
+0,1,2,3
+Horii,NNP,B-NP,B-PER
+Manabu,NNP,I-NP,I-PER
+(,(,O,O
+Japan,NNP,B-NP,B-LOC
+),),O,O
+37.23,CD,B-NP,O
+seconds,NNS,I-NP,O
+;,:,O,O
+2,LS,B-LST,O
+.,.,O,O

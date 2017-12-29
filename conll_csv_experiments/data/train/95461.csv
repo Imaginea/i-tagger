@@ -1,0 +1,8 @@
+0,1,2,3
+SK,NNP,B-NP,B-ORG
+Hradec,NNP,I-NP,I-ORG
+Kralove,NNP,I-NP,I-ORG
+0,CD,I-NP,O
+Kaucuk,NNP,I-NP,B-ORG
+Opava,NNP,I-NP,I-ORG
+0,CD,I-NP,O

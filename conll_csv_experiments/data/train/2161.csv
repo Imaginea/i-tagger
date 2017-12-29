@@ -1,0 +1,9 @@
+0,1,2,3
+Polish,JJ,B-NP,B-MISC
+diplomat,NN,I-NP,O
+denies,VBZ,B-VP,O
+nurses,NNS,B-NP,O
+stranded,VBN,B-VP,O
+in,IN,B-PP,O
+Libya,NNP,B-NP,B-LOC
+.,.,O,O

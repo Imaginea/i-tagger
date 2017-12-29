@@ -1,0 +1,33 @@
+0,1,2,3
+Nevertheless,RB,B-ADVP,O
+",",",",O,O
+ ,O,O,<UNK>
+a,DT,B-NP,O
+treatment,NN,I-NP,O
+based,VBN,B-PP,O
+on,IN,B-PP,O
+the,DT,B-NP,O
+new,JJ,I-NP,O
+strategy,NN,I-NP,O
+....,NN,I-NP,O
+may,MD,B-VP,O
+have,VB,I-VP,O
+the,DT,B-NP,O
+potential,JJ,I-NP,O
+to,TO,B-VP,O
+benefit,VB,I-VP,O
+many,JJ,B-NP,O
+patients,NNS,I-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+the,DT,B-NP,O
+University,NNP,I-NP,B-ORG
+of,IN,B-PP,I-ORG
+Pennsylvania,NNP,B-NP,I-ORG
+Medical,NNP,I-NP,O
+Centre,NNP,I-NP,O
+said,VBD,B-VP,O
+in,IN,B-PP,O
+a,DT,B-NP,O
+release,NN,I-NP,O
+.,.,O,O

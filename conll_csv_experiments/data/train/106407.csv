@@ -1,0 +1,9 @@
+0,1,2,3
+ ,O,O,<UNK>
+We,PRP,B-NP,O
+have,VBP,B-VP,O
+a,DT,B-NP,O
+suitable,JJ,I-NP,O
+exchange,NN,I-NP,O
+rate,NN,I-NP,O
+.,.,O,O

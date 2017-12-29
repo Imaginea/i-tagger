@@ -1,0 +1,10 @@
+0,1,2,3
+U.S.,NNP,B-NP,B-LOC
+corn,NN,I-NP,O
+gluten,NN,I-NP,O
+meal,NN,I-NP,O
+steady-higher,NN,I-NP,O
+",",",",O,O
+feed,VBP,B-VP,O
+flat,JJ,B-ADJP,O
+.,.,O,O

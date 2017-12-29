@@ -1,0 +1,14 @@
+0,1,2,3
+Club,NN,B-NP,O
+president,NN,I-NP,O
+Andre,NNP,I-NP,B-PER
+Bois,NNP,I-NP,I-PER
+said,VBD,B-VP,O
+a,DT,B-NP,O
+successor,NN,I-NP,O
+would,MD,B-VP,O
+be,VB,I-VP,O
+named,VBN,I-VP,O
+on,IN,B-PP,O
+Friday,NNP,B-NP,O
+.,.,O,O

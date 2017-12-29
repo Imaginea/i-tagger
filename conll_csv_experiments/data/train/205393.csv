@@ -1,0 +1,8 @@
+0,1,2,3
+Housecall,NN,B-NP,B-ORG
+shares,NNS,I-NP,O
+sink,VBP,B-VP,O
+after,IN,B-PP,O
+profit,NN,B-NP,O
+warning,NN,I-NP,O
+.,.,O,O

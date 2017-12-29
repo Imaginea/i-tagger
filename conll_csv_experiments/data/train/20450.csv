@@ -1,0 +1,6 @@
+0,1,2,3
+It,PRP,B-NP,O
+'s,VBZ,B-VP,O
+very,RB,B-ADJP,O
+wet,JJ,I-ADJP,O
+.,.,O,O

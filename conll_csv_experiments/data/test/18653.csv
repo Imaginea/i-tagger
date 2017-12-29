@@ -1,0 +1,8 @@
+0,1,2,3
+Meyers,NNP,B-NP,B-PER
+was,VBD,B-VP,O
+not,RB,O,O
+available,JJ,B-ADJP,O
+for,IN,B-PP,O
+comment,NN,B-NP,O
+.,.,O,O

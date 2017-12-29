@@ -1,0 +1,6 @@
+0,1,2,3
+Mauritius,NNS,B-NP,B-LOC
+win,VBP,B-VP,O
+2-1,CD,B-NP,O
+on,IN,B-PP,O
+aggregate,JJ,B-NP,O

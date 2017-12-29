@@ -1,0 +1,7 @@
+0,1,2,3
+Results,NNS,B-NP,O
+in,IN,B-PP,O
+the,DT,B-NP,O
+Trofej,NNP,I-NP,B-MISC
+Beograd,NNP,I-NP,I-MISC
+96,CD,I-NP,I-MISC

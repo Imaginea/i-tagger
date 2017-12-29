@@ -1,0 +1,16 @@
+0,1,2,3
+Dealers,NNS,B-NP,O
+blamed,VBD,B-VP,O
+a,DT,B-NP,O
+weakening,NN,I-NP,O
+franc,NN,I-NP,O
+and,CC,O,O
+worries,NNS,B-NP,O
+about,IN,B-PP,O
+the,DT,B-NP,O
+1997,CD,I-NP,O
+budget,NN,I-NP,O
+and,CC,O,O
+possible,JJ,B-NP,O
+autumn,NN,I-NP,O
+strikes,NNS,I-NP,O

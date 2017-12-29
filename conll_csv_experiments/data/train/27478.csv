@@ -1,0 +1,10 @@
+0,1,2,3
+--,:,B-NP,O
+Hong,NNP,I-NP,B-ORG
+Kong,NNP,I-NP,I-ORG
+Newsroom,NNP,I-NP,I-ORG
+(,(,O,O
+852,CD,B-NP,O
+),),O,O
+2847,CD,B-NP,O
+4039,CD,I-NP,O

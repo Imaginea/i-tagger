@@ -1,0 +1,17 @@
+0,1,2,3
+Soymeal,NN,B-NP,O
+yellow,RB,I-NP,O
+was,VBD,B-VP,O
+$,$,B-NP,O
+276-277,CD,I-NP,O
+and,CC,O,O
+soymeal,JJ,B-NP,O
+black,JJ,I-NP,O
+was,VBD,B-VP,O
+$,$,B-NP,O
+246-248,CD,I-NP,O
+per,IN,B-PP,O
+tonne,NN,B-NP,O
+in,IN,B-PP,O
+export,NN,B-NP,O
+.,.,O,O

@@ -1,0 +1,15 @@
+0,1,2,3
+ ,O,O,<UNK>
+It,PRP,B-NP,O
+'s,VBZ,B-VP,O
+not,RB,I-VP,O
+going,VBG,I-VP,O
+to,TO,I-VP,O
+be,VB,I-VP,O
+easy,JJ,B-ADJP,O
+to,TO,B-VP,O
+say,VB,I-VP,O
+goodbye,NN,B-NP,O
+to,TO,B-PP,O
+everybody,NN,B-NP,O
+.,.,O,O

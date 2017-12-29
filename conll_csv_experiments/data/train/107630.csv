@@ -1,0 +1,29 @@
+0,1,2,3
+The,DT,B-NP,O
+man,NN,I-NP,O
+entered,VBD,B-VP,O
+the,DT,B-NP,O
+Northcote,NNP,I-NP,B-ORG
+College,NNP,I-NP,I-ORG
+swimming,NN,I-NP,O
+pool,NN,I-NP,O
+changing,VBG,B-VP,O
+sheds,NNS,B-NP,O
+on,IN,B-PP,O
+Monday,NNP,B-NP,O
+and,CC,O,O
+told,VBD,B-VP,O
+the,DT,B-NP,O
+girl,NN,I-NP,O
+and,CC,O,O
+a,DT,B-NP,O
+friend,NN,I-NP,O
+:,:,O,O
+ ,O,O,<UNK>
+You,PRP,B-NP,O
+'re,VBP,B-VP,O
+for,IN,B-PP,O
+it,PRP,B-NP,O
+now,RB,B-ADVP,O
+.,.,O,O
+ ,O,O,<UNK>

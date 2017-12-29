@@ -1,0 +1,9 @@
+0,1,2,3
+Germany,NNP,B-NP,B-LOC
+1,CD,I-NP,O
+0,CD,I-NP,O
+0,CD,I-NP,O
+1,CD,I-NP,O
+1,CD,I-NP,O
+6,CD,I-NP,O
+0,CD,I-NP,O

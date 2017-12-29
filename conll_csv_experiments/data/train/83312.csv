@@ -1,0 +1,13 @@
+0,1,2,3
+We,PRP,B-NP,O
+demand,VB,B-VP,O
+to,TO,I-VP,O
+vote,VB,I-VP,O
+in,IN,B-PP,O
+Doboj,NNP,B-NP,B-LOC
+",",",",O,O
+ ,O,O,<UNK>
+other,JJ,B-NP,O
+banners,NNS,I-NP,O
+said,VBD,B-VP,O
+.,.,O,O

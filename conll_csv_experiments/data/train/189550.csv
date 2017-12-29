@@ -1,0 +1,10 @@
+0,1,2,3
+They,PRP,B-NP,O
+are,VBP,B-VP,O
+due,JJ,B-ADJP,O
+to,TO,B-VP,O
+stand,VB,I-VP,O
+trial,NN,B-NP,O
+next,IN,B-NP,O
+January,NNP,I-NP,O
+.,.,O,O

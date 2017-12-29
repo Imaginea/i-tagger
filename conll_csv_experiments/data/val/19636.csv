@@ -1,0 +1,24 @@
+0,1,2,3
+Davies,NNP,B-NP,B-PER
+also,RB,B-ADVP,O
+noted,VBD,B-VP,O
+:,:,O,O
+ ,O,O,<UNK>
+We,PRP,B-NP,O
+'ve,VBP,B-VP,O
+talked,VBN,I-VP,O
+about,IN,B-PP,O
+the,DT,B-NP,O
+passport,NN,I-NP,O
+restriction,NN,I-NP,O
+for,IN,B-PP,O
+travel,NN,B-NP,O
+to,TO,B-PP,O
+Libya,NNP,B-NP,B-LOC
+ ,O,O,<UNK>
+but,CC,O,O
+he,PRP,B-NP,O
+did,VBD,B-VP,O
+not,RB,I-VP,O
+elaborate,VB,I-VP,O
+.,.,O,O

@@ -1,0 +1,13 @@
+0,1,2,3
+Softbank,VBG,B-VP,B-ORG
+to,TO,I-VP,O
+procure,NN,B-NP,O
+$,$,I-NP,O
+900,CD,I-NP,O
+mln,NN,I-NP,O
+via,IN,B-PP,O
+forex,VBN,B-VP,O
+by,IN,B-PP,O
+Sept,NNP,B-NP,O
+5,CD,I-NP,O
+.,.,O,O

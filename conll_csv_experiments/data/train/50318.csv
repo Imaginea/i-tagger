@@ -1,0 +1,7 @@
+0,1,2,3
+Group,NNP,B-NP,O
+pre-tax,JJ,I-NP,O
+profit,NN,I-NP,O
+188,CD,I-NP,O
+vs,NNP,O,O
+160,CD,O,O

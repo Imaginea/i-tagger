@@ -1,0 +1,20 @@
+0,1,2,3
+ ,O,O,<UNK>
+They,PRP,B-NP,O
+want,VBP,B-VP,O
+to,TO,I-VP,O
+drive,VB,I-VP,O
+you,PRP,B-NP,O
+out,IN,B-PP,O
+of,IN,B-PP,O
+politics,NNS,B-NP,O
+and,CC,O,O
+they,PRP,B-NP,O
+ca,MD,B-VP,O
+n't,RB,O,O
+",",",",O,O
+ ,O,O,<UNK>
+he,PRP,B-NP,O
+added,VBD,B-VP,O
+.,.,O,O
+ ,O,O,<UNK>

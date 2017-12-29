@@ -1,0 +1,19 @@
+0,1,2,3
+ ,O,O,<UNK>
+If,IN,B-SBAR,O
+you,PRP,B-NP,O
+do,VBP,B-VP,O
+a,DT,B-NP,O
+lot,NN,I-NP,O
+of,IN,B-PP,O
+something,NN,B-NP,O
+",",",",O,O
+sometimes,RB,B-ADVP,O
+it,PRP,B-NP,O
+'s,VBZ,B-VP,O
+good,JJ,B-ADJP,O
+to,TO,B-VP,O
+have,VB,I-VP,O
+a,DT,B-NP,O
+break,NN,I-NP,O
+.,.,O,O

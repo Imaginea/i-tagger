@@ -1,0 +1,15 @@
+0,1,2,3
+He,PRP,B-NP,O
+added,VBD,B-VP,O
+Chiron,NNP,B-NP,B-ORG
+Corp,NNP,I-NP,I-ORG
+reported,VBD,B-VP,O
+its,PRP$,B-NP,O
+sales,NNS,I-NP,O
+of,IN,B-PP,O
+inventory,NN,B-NP,O
+to,TO,B-PP,O
+Berlex,NNP,B-NP,B-ORG
+was,VBD,B-VP,O
+down,RB,B-ADVP,O
+.,.,O,O

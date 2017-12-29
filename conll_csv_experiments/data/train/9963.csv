@@ -1,0 +1,12 @@
+0,1,2,3
+Guillaume,NNP,B-NP,B-PER
+Raoux,NNP,I-NP,I-PER
+(,(,O,O
+France,NNP,B-NP,B-LOC
+),),O,O
+vs.,IN,B-PP,O
+Filip,NNP,B-NP,B-PER
+Dewulf,NNP,I-NP,I-PER
+(,(,O,O
+Belgium,NNP,B-NP,B-LOC
+),),O,O

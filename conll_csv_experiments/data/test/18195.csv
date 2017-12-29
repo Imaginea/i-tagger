@@ -1,0 +1,13 @@
+0,1,2,3
+His,PRP$,B-NP,O
+spokesman,NN,I-NP,O
+had,VBD,B-VP,O
+predicted,VBN,I-VP,O
+the,DT,B-NP,O
+meeting,NN,I-NP,O
+to,TO,B-VP,O
+send,VB,I-VP,O
+an,DT,B-NP,O
+assessment,NN,I-NP,O
+mission,NN,I-NP,O
+.,.,O,O

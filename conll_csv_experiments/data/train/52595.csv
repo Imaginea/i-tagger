@@ -1,0 +1,10 @@
+0,1,2,3
+Promodes,NNS,B-NP,B-ORG
+set,VBN,B-VP,O
+to,TO,I-VP,O
+sell,VB,I-VP,O
+German,JJ,B-NP,B-MISC
+assets,NNS,I-NP,O
+-,:,O,O
+paper,NN,B-NP,O
+.,.,O,O

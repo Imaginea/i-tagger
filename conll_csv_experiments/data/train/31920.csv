@@ -1,0 +1,14 @@
+0,1,2,3
+6-3,CD,B-NP,O
+Todd,NNP,B-NP,B-PER
+Woodbridge,NNP,I-NP,I-PER
+(,(,O,O
+Australia,NNP,B-NP,B-LOC
+),),O,O
+beat,VB,B-VP,O
+Daniel,NNP,B-NP,B-PER
+Nestor,NNP,I-NP,I-PER
+(,(,O,O
+Canada,NNP,B-NP,B-LOC
+),),O,O
+7-6,CD,B-ADVP,O

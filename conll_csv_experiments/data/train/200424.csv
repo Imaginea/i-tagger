@@ -1,0 +1,9 @@
+0,1,2,3
+Export,NNP,B-NP,O
+Business,NNP,I-NP,O
+-,:,O,O
+Grain,NN,B-NP,O
+/,SYM,O,O
+oilseeds,NNS,B-NP,O
+complex,JJ,B-ADJP,O
+.,.,O,O

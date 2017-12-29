@@ -1,0 +1,12 @@
+0,1,2,3
+New,NNP,B-NP,B-LOC
+Zealand,NNP,I-NP,I-LOC
+-,:,O,O
+Tries,NNS,B-NP,O
+:,:,O,O
+Scott,NNP,B-NP,B-PER
+McLeod,NNP,I-NP,I-PER
+",",",",O,O
+Glen,NNP,B-NP,B-PER
+Osborne,NNP,I-NP,I-PER
+.,.,O,O

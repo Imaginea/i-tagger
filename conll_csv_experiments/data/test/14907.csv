@@ -1,0 +1,9 @@
+0,1,2,3
+Scores,NNS,B-NP,O
+:,:,O,O
+Pakistan,NNP,B-NP,B-LOC
+277-9,CD,I-NP,O
+",",",",O,O
+New,NNP,B-NP,B-LOC
+Zealand,NNP,I-NP,I-LOC
+231,CD,I-NP,O

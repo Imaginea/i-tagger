@@ -1,0 +1,17 @@
+0,1,2,3
+The,DT,B-NP,O
+consumption,NN,I-NP,O
+tax,NN,I-NP,O
+will,MD,B-VP,O
+be,VB,I-VP,O
+raised,VBN,I-VP,O
+to,TO,B-PP,O
+five,CD,B-NP,O
+percent,NN,I-NP,O
+from,IN,B-PP,O
+three,CD,B-NP,O
+percent,NN,I-NP,O
+from,IN,B-PP,O
+April,NNP,B-NP,O
+1,CD,I-NP,O
+.,.,O,O

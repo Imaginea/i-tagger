@@ -1,0 +1,6 @@
+0,1,2,3
+Following,VBG,B-VP,O
+are,VBP,B-VP,O
+the,DT,B-NP,O
+European,JJ,I-NP,B-MISC
+soccer,NN,I-NP,O

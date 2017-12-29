@@ -1,0 +1,15 @@
+0,1,2,3
+The,DT,B-NP,O
+PLO,NNP,I-NP,B-ORG
+wants,VBZ,B-VP,O
+East,NNP,B-NP,B-LOC
+Jerusalem,NNP,I-NP,I-LOC
+as,IN,B-PP,O
+the,DT,B-NP,O
+capital,NN,I-NP,O
+of,IN,B-PP,O
+a,DT,B-NP,O
+future,JJ,I-NP,O
+Palestinian,JJ,I-NP,B-MISC
+state,NN,I-NP,O
+.,.,O,O

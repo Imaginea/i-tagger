@@ -1,0 +1,44 @@
+0,1,2,3
+ ,O,O,<UNK>
+If,IN,B-SBAR,O
+you,PRP,B-NP,O
+really,RB,B-ADVP,O
+look,VB,B-VP,O
+at,IN,B-PP,O
+the,DT,B-NP,O
+match,NN,I-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+said,VBD,B-VP,O
+the,DT,B-NP,O
+12th-ranked,JJ,I-NP,O
+Washington,NNP,I-NP,B-PER
+after,IN,B-PP,O
+losing,VBG,B-VP,O
+to,TO,B-PP,O
+the,DT,B-NP,O
+70th-ranked,JJ,I-NP,O
+Rafter,NNP,I-NP,B-PER
+",",",",O,O
+ ,O,O,<UNK>
+I,PRP,B-NP,O
+never,RB,B-ADVP,O
+really,RB,B-VP,O
+got,VBN,I-VP,O
+a,DT,B-NP,O
+chance,NN,I-NP,O
+to,TO,B-VP,O
+play,VB,I-VP,O
+because,IN,B-SBAR,O
+he,PRP,B-NP,O
+was,VBD,B-VP,O
+serving,VBG,I-VP,O
+big,JJ,B-NP,O
+and,CC,I-NP,O
+getting,JJ,I-NP,O
+in,IN,B-PP,O
+close,RB,B-NP,O
+to,TO,B-PP,O
+the,DT,B-NP,O
+net,NN,I-NP,O
+.,.,O,O

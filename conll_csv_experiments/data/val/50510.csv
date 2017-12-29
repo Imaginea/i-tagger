@@ -1,0 +1,16 @@
+0,1,2,3
+U.S.-led,JJ,B-NP,B-MISC
+allied,VBN,I-NP,O
+planes,NNS,I-NP,O
+based,VBN,B-VP,O
+in,IN,B-PP,O
+Turkey,NNP,B-NP,B-LOC
+are,VBP,B-VP,O
+intended,VBN,I-VP,O
+to,TO,I-VP,O
+protect,VB,I-VP,O
+the,DT,B-NP,O
+Kurds,NNPS,I-NP,B-MISC
+from,IN,B-PP,O
+Baghdad,NNP,B-NP,B-LOC
+.,.,O,O

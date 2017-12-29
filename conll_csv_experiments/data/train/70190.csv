@@ -1,0 +1,8 @@
+0,1,2,3
+3.,NNP,B-NP,O
+Tim,NNP,I-NP,B-PER
+Lobinger,NNP,I-NP,I-PER
+(,(,O,O
+Germany,NNP,B-NP,B-LOC
+),),O,O
+5.50,CD,B-NP,O

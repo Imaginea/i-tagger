@@ -1,0 +1,29 @@
+0,1,2,3
+ ,O,O,<UNK>
+The,DT,B-NP,O
+ministry,NN,I-NP,O
+has,VBZ,B-VP,O
+ordered,VBN,I-VP,O
+the,DT,B-NP,O
+embassy,NN,I-NP,O
+to,TO,B-VP,O
+take,VB,I-VP,O
+urgent,JJ,B-NP,O
+security,NN,I-NP,O
+measures,NNS,I-NP,O
+against,IN,B-PP,O
+possible,JJ,B-NP,O
+terrorist,JJ,I-NP,O
+attacks,NNS,I-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+the,DT,B-NP,O
+official,NN,I-NP,O
+said,VBD,B-VP,O
+",",",",O,O
+asking,VBG,B-VP,O
+not,RB,O,O
+to,TO,B-VP,O
+be,VB,I-VP,O
+named,VBN,I-VP,O
+.,.,O,O

@@ -1,0 +1,8 @@
+0,1,2,3
+3.,NNP,B-NP,O
+Goulnara,NNP,I-NP,B-PER
+Fatkoullina,NNP,I-NP,I-PER
+(,(,O,O
+Russia,NNP,B-NP,B-LOC
+),),O,O
+16,CD,B-NP,O

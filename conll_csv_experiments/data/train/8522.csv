@@ -1,0 +1,9 @@
+0,1,2,3
+Red,NNP,B-NP,B-ORG
+Star,NNP,I-NP,I-ORG
+-,:,O,O
+Vinko,NNP,B-NP,B-MISC
+Marinovic,NNP,I-NP,I-MISC
+(,(,O,O
+59th,CD,B-NP,O
+),),O,O

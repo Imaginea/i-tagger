@@ -1,0 +1,7 @@
+0,1,2,3
+VNU,JJ,B-NP,B-ORG
+details,NNS,I-NP,O
+first-half,NN,I-NP,O
+operating,NN,I-NP,O
+profits,NNS,I-NP,O
+.,.,O,O

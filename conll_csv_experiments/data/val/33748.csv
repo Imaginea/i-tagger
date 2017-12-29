@@ -1,0 +1,6 @@
+0,1,2,3
+Huddersfield,VBN,B-VP,B-ORG
+1,CD,B-NP,O
+Crystal,NNP,I-NP,B-ORG
+Palace,NNP,I-NP,I-ORG
+1,CD,I-NP,O

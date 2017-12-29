@@ -1,0 +1,5 @@
+0,1,2,3
+MANTUA,NNP,B-NP,O
+",",",",O,O
+Italy,NNP,B-NP,B-LOC
+1996-12-06,CD,I-NP,O

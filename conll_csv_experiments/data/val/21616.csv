@@ -1,0 +1,6 @@
+0,1,2,3
+Net,JJ,B-NP,O
+sales,NNS,I-NP,O
+289.1,CD,I-NP,O
+vs,NNP,O,O
+256.9,CD,B-NP,O

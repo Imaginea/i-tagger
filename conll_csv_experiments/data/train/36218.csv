@@ -1,0 +1,9 @@
+0,1,2,3
+1.,CD,B-NP,O
+Gail,NNP,I-NP,B-PER
+Devers,NNP,I-NP,I-PER
+(,(,O,O
+U.S.,NNP,B-NP,B-LOC
+),),O,O
+10.84,CD,B-NP,O
+seconds,NNS,I-NP,O

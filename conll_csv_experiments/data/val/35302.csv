@@ -1,0 +1,15 @@
+0,1,2,3
+New,NNP,B-NP,B-LOC
+Zealand,NNP,I-NP,I-LOC
+-,:,O,O
+Tries,NNS,B-NP,O
+:,:,O,O
+Sean,NNP,B-NP,B-PER
+Fitzpatrick,NNP,I-NP,I-PER
+",",",",O,O
+Walter,NNP,B-NP,B-PER
+Little,NNP,I-NP,I-PER
+",",",",O,O
+Justin,NNP,B-NP,B-PER
+Marshall,NNP,I-NP,I-PER
+.,.,O,O

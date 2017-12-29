@@ -1,0 +1,27 @@
+0,1,2,3
+ ,O,O,<UNK>
+We,PRP,B-NP,O
+'ve,VBP,B-VP,O
+been,VBN,I-VP,O
+asked,VBN,I-VP,O
+(,(,O,O
+by,IN,B-PP,O
+Yemen,NNP,B-NP,B-LOC
+),),O,O
+not,RB,B-ADJP,O
+to,TO,B-VP,O
+comment,VB,I-VP,O
+(,(,O,O
+on,IN,B-PP,O
+the,DT,B-NP,O
+talks,NNS,I-NP,O
+),),O,O
+",",",",O,O
+ ,O,O,<UNK>
+said,VBD,B-VP,O
+Amoco,NNP,B-NP,B-ORG
+spokesman,NN,I-NP,O
+Dan,NNP,I-NP,B-PER
+Dietsch,NNP,I-NP,I-PER
+.,.,I-NP,O
+ ,O,O,<UNK>

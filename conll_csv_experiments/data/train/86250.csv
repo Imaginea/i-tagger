@@ -1,0 +1,34 @@
+0,1,2,3
+The,DT,B-NP,O
+newspaper,NN,I-NP,O
+said,VBD,B-VP,O
+Weizman,NNP,B-NP,B-PER
+scheduled,VBD,B-VP,O
+the,DT,B-NP,O
+meeting,NN,I-NP,O
+at,IN,B-PP,O
+his,PRP$,B-NP,O
+private,JJ,I-NP,O
+residence,NN,I-NP,O
+in,IN,B-PP,O
+the,DT,B-NP,O
+central,JJ,I-NP,O
+Israeli,JJ,I-NP,B-MISC
+village,NN,I-NP,O
+of,IN,B-PP,O
+Caesarea,NNP,B-NP,B-LOC
+after,IN,B-SBAR,O
+Arafat,NNP,B-NP,B-PER
+sent,VBD,B-VP,O
+him,PRP,B-NP,O
+an,DT,B-NP,O
+emotional,JJ,I-NP,O
+appeal,NN,I-NP,O
+ ,O,O,<UNK>
+to,TO,B-VP,O
+save,VB,I-VP,O
+the,DT,B-NP,O
+peace,NN,I-NP,O
+process,NN,I-NP,O
+ ,O,O,<UNK>
+.,.,O,O

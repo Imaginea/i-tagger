@@ -1,0 +1,13 @@
+0,1,2,3
+They,PRP,B-NP,O
+finally,RB,B-ADVP,O
+went,VBD,B-VP,O
+ahead,RB,B-ADVP,O
+with,IN,B-PP,O
+an,DT,B-NP,O
+escort,NN,I-NP,O
+from,IN,B-PP,O
+the,DT,B-NP,O
+ULIMO-J,JJ,I-NP,B-ORG
+faction,NN,I-NP,O
+.,.,O,O

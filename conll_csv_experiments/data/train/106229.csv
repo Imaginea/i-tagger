@@ -1,0 +1,13 @@
+0,1,2,3
+It,PRP,B-NP,O
+forecast,NN,I-NP,O
+an,DT,B-NP,O
+end,NN,I-NP,O
+1997,CD,I-NP,O
+peso,NN,I-NP,O
+in,IN,B-PP,O
+the,DT,B-NP,O
+range,NN,I-NP,O
+of,IN,B-PP,O
+9.20-9.40,JJ,B-ADVP,O
+.,.,O,O

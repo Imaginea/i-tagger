@@ -1,0 +1,11 @@
+0,1,2,3
+Sweden,NNP,B-NP,B-LOC
+'s,POS,B-NP,O
+OM,NN,I-NP,B-ORG
+to,TO,B-VP,O
+open,VB,I-VP,O
+London,NNP,B-NP,B-LOC
+forest,NN,I-NP,O
+products,NNS,I-NP,O
+bourse,VBD,B-VP,O
+.,.,O,O

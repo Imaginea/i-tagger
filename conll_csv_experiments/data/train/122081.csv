@@ -1,0 +1,15 @@
+0,1,2,3
+Rios,NNP,B-NP,B-PER
+claimed,VBD,B-VP,O
+a,DT,B-NP,O
+4-6,JJ,I-NP,O
+6-1,CD,I-NP,O
+6-4,CD,I-NP,O
+6-2,CD,I-NP,O
+victory,NN,I-NP,O
+over,IN,B-PP,O
+Romania,NNP,B-NP,B-LOC
+'s,POS,B-NP,O
+Andrei,NNP,I-NP,B-PER
+Pavel,NNP,I-NP,I-PER
+.,.,O,O

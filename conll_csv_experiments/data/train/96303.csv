@@ -1,0 +1,6 @@
+0,1,2,3
+Estudiantes,NNP,B-NP,B-ORG
+2,CD,I-NP,O
+Boca,NNP,I-NP,B-ORG
+Juniors,NNPS,I-NP,I-ORG
+3,CD,I-NP,O

@@ -1,0 +1,8 @@
+0,1,2,3
+6.,CD,B-NP,O
+Dusan,NNP,I-NP,B-PER
+Kovacs,NNP,I-NP,I-PER
+(,(,O,O
+Hungary,NNP,B-NP,B-LOC
+),),O,O
+49.31,CD,B-NP,O

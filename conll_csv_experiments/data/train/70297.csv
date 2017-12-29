@@ -1,0 +1,8 @@
+0,1,2,3
+2.,NNP,B-NP,O
+Tim,NNP,I-NP,B-PER
+Forsyth,NNP,I-NP,I-PER
+(,(,O,O
+Australia,NNP,B-NP,B-LOC
+),),O,O
+2.30,CD,B-NP,O

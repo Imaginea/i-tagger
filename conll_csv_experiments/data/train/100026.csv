@@ -1,0 +1,14 @@
+0,1,2,3
+Naoko,NNP,B-NP,B-PER
+Kijimuta,NNP,I-NP,I-PER
+(,(,O,O
+Japan,NNP,B-NP,B-LOC
+),),O,O
+beat,VB,B-VP,O
+Tatyana,NNP,B-NP,B-PER
+Jecmenica,NNP,I-NP,I-PER
+(,(,O,O
+Yugoslavia,NNP,B-NP,B-LOC
+),),O,O
+6-3,CD,B-NP,O
+6-2,CD,I-NP,O

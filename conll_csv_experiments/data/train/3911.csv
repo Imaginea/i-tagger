@@ -1,0 +1,12 @@
+0,1,2,3
+AN-NAHAR,NNP,B-NP,B-ORG
+-,:,O,O
+Confrontation,NN,B-NP,O
+is,VBZ,B-VP,O
+escalating,VBG,B-NP,O
+between,IN,B-PP,O
+Hizbollah,NNP,B-NP,B-ORG
+and,CC,O,O
+the,DT,B-NP,O
+government,NN,I-NP,O
+.,.,O,O

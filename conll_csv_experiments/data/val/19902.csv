@@ -1,0 +1,10 @@
+0,1,2,3
+Dole,NNP,B-NP,B-PER
+team,NN,I-NP,O
+seeking,VBG,B-VP,O
+to,TO,I-VP,O
+pin,VB,I-VP,O
+down,RP,B-ADVP,O
+debate,NN,B-NP,O
+details,NNS,I-NP,O
+.,.,O,O

@@ -1,0 +1,29 @@
+0,1,2,3
+He,PRP,B-NP,O
+said,VBD,B-VP,O
+that,IN,B-SBAR,O
+the,DT,B-NP,O
+bond,NN,I-NP,O
+market,NN,I-NP,O
+would,MD,B-VP,O
+be,VB,I-VP,O
+the,DT,B-NP,O
+first,JJ,I-NP,O
+to,TO,B-VP,O
+react,VB,I-VP,O
+if,IN,B-SBAR,O
+the,DT,B-NP,O
+ ,O,O,<UNK>
+bidding,NN,B-NP,O
+ ,O,O,<UNK>
+intensifies,NNS,B-NP,O
+and,CC,I-NP,O
+stocks,NNS,I-NP,O
+would,MD,B-VP,O
+quickly,RB,I-VP,O
+drop,VB,I-VP,O
+as,IN,B-PP,O
+interest,NN,B-NP,O
+rates,NNS,I-NP,O
+rise,VBP,B-VP,O
+.,.,O,O

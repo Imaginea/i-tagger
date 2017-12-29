@@ -1,0 +1,11 @@
+0,1,2,3
+1.,CD,B-NP,O
+Daniel,NNP,I-NP,B-PER
+Komen,NNP,I-NP,I-PER
+(,(,O,O
+Kenya,NNP,B-NP,B-LOC
+),),O,O
+7,CD,B-NP,O
+minutes,NNS,I-NP,O
+25.87,CD,I-NP,O
+seconds,NNS,I-NP,O

@@ -1,0 +1,10 @@
+0,1,2,3
+Ata-ur-Rehman,NNP,B-NP,B-PER
+6-0-40-1,CD,I-NP,O
+",",",",O,O
+Saqlain,NNP,B-NP,B-PER
+Mushtaq,NNP,I-NP,I-PER
+10-0-59-1,CD,I-NP,O
+",",",",O,O
+Mushtaq,NNP,B-NP,B-PER
+Ahmed,NNPS,I-NP,I-PER

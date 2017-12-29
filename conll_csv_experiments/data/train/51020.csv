@@ -1,0 +1,19 @@
+0,1,2,3
+Battle,NNP,B-NP,B-ORG
+Mountain,NNP,I-NP,I-ORG
+are,VBP,B-VP,O
+set,VBN,I-VP,O
+to,TO,I-VP,O
+take,VB,I-VP,O
+out,RP,B-PRT,O
+the,DT,B-NP,O
+minorities,NNS,I-NP,O
+there,RB,B-ADVP,O
+soon,RB,I-ADVP,O
+",",",",O,O
+ ,O,O,<UNK>
+said,VBD,B-VP,O
+a,DT,B-NP,O
+Sydney,NNP,I-NP,B-LOC
+broker,NN,I-NP,O
+.,.,O,O

@@ -1,0 +1,17 @@
+0,1,2,3
+Obree,NNP,B-NP,B-PER
+was,VBD,B-VP,O
+forced,VBN,I-VP,O
+to,TO,I-VP,O
+pull,VB,I-VP,O
+out,IN,B-PP,O
+of,IN,B-PP,O
+his,PRP$,B-NP,O
+title,NN,I-NP,O
+defence,NN,I-NP,O
+because,IN,B-PP,O
+of,IN,I-PP,O
+a,DT,B-NP,O
+viral,JJ,I-NP,O
+infection,NN,I-NP,O
+.,.,O,O

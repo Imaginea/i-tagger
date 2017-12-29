@@ -1,0 +1,15 @@
+0,1,2,3
+Alba,NNP,B-NP,B-ORG
+(,(,O,O
+Germany,NNP,B-NP,B-LOC
+),),O,O
+75,CD,B-NP,O
+Red,NNP,I-NP,B-ORG
+Star,NNP,I-NP,I-ORG
+(,(,O,O
+Yugoslavia,NNP,B-NP,B-LOC
+),),O,O
+70,CD,B-NP,O
+(,(,O,O
+42-41,CD,B-NP,O
+),),O,O

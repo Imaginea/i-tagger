@@ -1,0 +1,9 @@
+0,1,2,3
+1.,CD,B-NP,O
+Ludmila,NNP,I-NP,B-PER
+Ninova,NNP,I-NP,I-PER
+(,(,O,O
+Austria,NNP,B-NP,B-LOC
+),),O,O
+6.72,CD,B-NP,O
+metres,NNS,I-NP,O

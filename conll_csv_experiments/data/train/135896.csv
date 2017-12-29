@@ -1,0 +1,7 @@
+0,1,2,3
+--,:,B-NP,O
+Chicago,NNP,I-NP,B-LOC
+newsdesk,NN,I-NP,O
+312,CD,I-NP,O
+408,CD,I-NP,O
+8720--,CD,B-VP,O

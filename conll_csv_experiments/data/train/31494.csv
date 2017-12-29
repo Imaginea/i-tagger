@@ -1,0 +1,20 @@
+0,1,2,3
+I,PRP,B-NP,O
+just,RB,B-ADVP,O
+do,VBP,B-VP,O
+n't,RB,I-VP,O
+have,VB,I-VP,O
+as,RB,B-NP,O
+many,JJ,I-NP,O
+set,NN,I-NP,O
+routines,NNS,I-NP,O
+and,CC,O,O
+it,PRP,B-NP,O
+'s,VBZ,B-VP,O
+made,VBN,I-VP,O
+me,PRP,B-NP,O
+a,DT,B-NP,O
+happier,JJR,I-NP,O
+person,NN,I-NP,O
+.,.,O,O
+ ,O,O,<UNK>

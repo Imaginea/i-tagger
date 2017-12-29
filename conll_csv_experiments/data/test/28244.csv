@@ -1,0 +1,11 @@
+0,1,2,3
+Half,NN,B-NP,O
+of,IN,B-PP,O
+dog,NN,B-NP,O
+bites,NNS,I-NP,O
+provoked,VBD,B-VP,O
+",",",",O,O
+says,VBZ,B-VP,O
+American,NNP,B-NP,B-MISC
+vet,NN,I-NP,O
+.,.,O,O

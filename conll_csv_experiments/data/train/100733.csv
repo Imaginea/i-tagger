@@ -1,0 +1,13 @@
+0,1,2,3
+He,PRP,B-NP,O
+left,VBD,B-VP,O
+the,DT,B-NP,O
+game,NN,I-NP,O
+with,IN,B-PP,O
+a,DT,B-NP,O
+knot,NN,I-NP,O
+in,IN,B-PP,O
+his,PRP$,B-NP,O
+right,JJ,I-NP,O
+shoulder,NN,I-NP,O
+.,.,O,O

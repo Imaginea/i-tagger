@@ -1,0 +1,16 @@
+0,1,2,3
+Australian,JJ,B-NP,B-MISC
+coach,NN,I-NP,O
+Geoff,NNP,I-NP,B-PER
+Marsh,NNP,I-NP,I-PER
+said,VBD,B-VP,O
+he,PRP,B-NP,O
+was,VBD,B-VP,O
+impressed,VBN,I-VP,O
+with,IN,B-PP,O
+the,DT,B-NP,O
+competitiveness,NN,I-NP,O
+of,IN,B-PP,O
+the,DT,B-NP,O
+opposition,NN,I-NP,O
+.,.,O,O

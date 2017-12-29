@@ -1,0 +1,9 @@
+0,1,2,3
+Senate,NNP,B-NP,B-ORG
+intelligence,NN,I-NP,O
+chairman,NN,I-NP,O
+in,IN,B-PP,O
+Saudi,JJ,B-NP,B-MISC
+bomb,NN,I-NP,O
+probe,NN,I-NP,O
+.,.,O,O

@@ -1,0 +1,6 @@
+0,1,2,3
+Former,NNP,B-NP,O
+Colorado,NNP,I-NP,B-LOC
+Democratic,NNP,I-NP,B-MISC
+Gov,NNP,I-NP,O
+.,.,O,O

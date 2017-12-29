@@ -1,0 +1,14 @@
+0,1,2,3
+Ally,RB,B-ADVP,B-PER
+McCoist,NNP,B-NP,I-PER
+is,VBZ,B-VP,O
+also,RB,B-ADVP,O
+in,IN,B-PP,O
+great,JJ,B-NP,O
+scoring,NN,I-NP,O
+form,NN,I-NP,O
+at,IN,B-PP,O
+the,DT,B-NP,O
+moment,NN,I-NP,O
+.,.,O,O
+ ,O,O,<UNK>

@@ -1,0 +1,6 @@
+0,1,2,3
+Elgin,NNP,B-NP,B-ORG
+City,NNP,I-NP,I-ORG
+0,CD,I-NP,O
+Whitehill,NNP,I-NP,B-ORG
+3,CD,I-NP,O

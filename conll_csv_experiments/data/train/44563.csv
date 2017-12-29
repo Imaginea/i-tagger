@@ -1,0 +1,35 @@
+0,1,2,3
+The,DT,B-NP,O
+statement,NN,I-NP,O
+said,VBD,B-VP,O
+the,DT,B-NP,O
+U.S.,NNP,I-NP,B-LOC
+government,NN,I-NP,O
+ ,O,O,<UNK>
+would,MD,B-VP,O
+do,VB,I-VP,O
+all,DT,B-NP,O
+within,IN,B-PP,O
+its,PRP$,B-NP,O
+prevailing,VBG,I-NP,O
+legal,JJ,I-NP,O
+framework,NN,I-NP,O
+to,TO,B-VP,O
+prevent,VB,I-VP,O
+the,DT,B-NP,O
+use,NN,I-NP,O
+of,IN,B-PP,O
+American,JJ,B-NP,B-MISC
+soil,NN,I-NP,O
+to,TO,B-VP,O
+perpetrate,VB,I-VP,O
+violence,NN,B-NP,O
+against,IN,B-PP,O
+the,DT,B-NP,O
+democratic,JJ,I-NP,O
+government,NN,I-NP,O
+of,IN,B-PP,O
+Sri,NNP,B-NP,B-LOC
+Lanka,NNP,I-NP,I-LOC
+ ,O,O,<UNK>
+.,.,O,O

@@ -1,0 +1,12 @@
+0,1,2,3
+Roosevelt,NNP,B-NP,B-ORG
+Financial,NNP,I-NP,I-ORG
+Group,NNP,I-NP,I-ORG
+Inc,NNP,I-NP,I-ORG
+is,VBZ,B-VP,O
+a,DT,B-NP,O
+$,$,I-NP,O
+9.33,CD,I-NP,O
+billion,CD,I-NP,O
+asset-St,NN,I-NP,B-MISC
+.,.,O,I-MISC

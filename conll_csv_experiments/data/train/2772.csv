@@ -1,0 +1,10 @@
+0,1,2,3
+One-year,JJ,B-NP,B-MISC
+funds,NNS,I-NP,O
+were,VBD,B-VP,O
+at,IN,B-PP,O
+six,CD,B-NP,O
+",",",",I-NP,O
+5-7/8,JJ,I-NP,O
+percent,NN,I-NP,O
+.,.,O,O

@@ -1,0 +1,8 @@
+0,1,2,3
+S.,NNP,B-NP,B-PER
+Fleming,NNP,I-NP,I-PER
+c,SYM,O,O
+and,CC,O,O
+b,SYM,O,O
+Afridi,NNP,B-NP,B-PER
+88,CD,I-NP,O

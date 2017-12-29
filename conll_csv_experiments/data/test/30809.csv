@@ -1,0 +1,10 @@
+0,1,2,3
+Relations,NNS,B-NP,O
+between,IN,B-PP,O
+Clarke,NNP,B-NP,B-PER
+",",",",O,O
+Major,JJ,B-NP,B-PER
+good,JJ,I-NP,O
+-,:,I-NP,O
+spokesman,NN,I-NP,O
+.,.,O,O

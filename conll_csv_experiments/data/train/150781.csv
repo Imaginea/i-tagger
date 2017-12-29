@@ -1,0 +1,12 @@
+0,1,2,3
+Who,WP,B-NP,O
+knows,VBZ,B-VP,O
+what,WP,B-NP,O
+will,MD,B-VP,O
+happen,VB,I-VP,O
+in,IN,B-PP,O
+the,DT,B-NP,O
+later,JJ,I-NP,O
+stages,NNS,I-NP,O
+?,.,O,O
+ ,O,O,<UNK>

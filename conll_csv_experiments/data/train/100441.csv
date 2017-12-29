@@ -1,0 +1,19 @@
+0,1,2,3
+But,CC,O,O
+I,PRP,B-NP,O
+ca,MD,B-VP,O
+n't,RB,I-VP,O
+wait,VB,I-VP,O
+to,TO,I-VP,O
+see,VB,I-VP,O
+how,WRB,B-ADJP,O
+good,JJ,I-ADJP,O
+he,PRP,B-NP,O
+'ll,MD,B-VP,O
+be,VB,I-VP,O
+when,WRB,B-ADVP,O
+he,PRP,B-NP,O
+grows,VBZ,B-VP,O
+up,RP,B-PRT,O
+.,.,O,O
+ ,O,O,<UNK>

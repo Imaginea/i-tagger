@@ -1,0 +1,6 @@
+0,1,2,3
+Leading,VBG,B-NP,O
+money,NN,I-NP,O
+winners,NNS,I-NP,O
+on,IN,B-PP,O
+the,DT,B-NP,O

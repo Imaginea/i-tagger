@@ -1,0 +1,21 @@
+0,1,2,3
+Fears,NNS,B-NP,O
+of,IN,B-PP,O
+a,DT,B-NP,O
+Fed,NNP,I-NP,B-ORG
+tightening,NN,I-NP,O
+next,IN,B-NP,O
+month,NN,I-NP,O
+have,VBP,B-VP,O
+resurfaced,VBN,I-VP,O
+for,IN,B-PP,O
+the,DT,B-NP,O
+first,JJ,I-NP,O
+time,NN,I-NP,O
+since,IN,B-PP,O
+the,DT,B-NP,O
+end,NN,I-NP,O
+of,IN,B-PP,O
+July,NNP,B-NP,O
+.,.,I-NP,O
+ ,O,O,<UNK>

@@ -1,0 +1,10 @@
+0,1,2,3
+The,DT,B-NP,O
+facility,NN,I-NP,O
+has,VBZ,B-VP,O
+a,DT,B-NP,O
+tenor,NN,I-NP,O
+of,IN,B-PP,O
+six,CD,B-NP,O
+months,NNS,I-NP,O
+.,.,O,O

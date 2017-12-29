@@ -1,0 +1,22 @@
+0,1,2,3
+There,EX,B-NP,O
+is,VBZ,B-VP,O
+nothing,NN,B-NP,O
+left,VBD,B-VP,O
+for,IN,B-PP,O
+us,PRP,B-NP,O
+but,CC,O,O
+to,TO,B-VP,O
+be,VB,I-VP,O
+grateful,JJ,B-ADJP,O
+to,TO,B-VP,O
+civilisation,VB,I-VP,O
+for,IN,B-PP,O
+inventing,VBG,B-VP,O
+photocopies,NNS,B-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+Gazeta,NNP,B-NP,B-ORG
+Shqiptare,NNP,I-NP,I-ORG
+said,VBD,B-VP,O
+.,.,O,O

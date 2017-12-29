@@ -1,0 +1,20 @@
+0,1,2,3
+ ,O,O,<UNK>
+Towards,NNP,B-NP,O
+the,DT,B-NP,O
+end,NN,I-NP,O
+of,IN,B-PP,O
+my,PRP$,B-NP,O
+match,NN,I-NP,O
+my,PRP$,B-NP,O
+stomach,NN,I-NP,O
+felt,VBD,B-VP,O
+like,IN,B-PP,O
+week-old,JJ,B-NP,O
+sushi,NN,I-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+said,VBD,B-VP,O
+Washington,NNP,B-NP,B-LOC
+.,.,I-NP,O
+ ,O,O,<UNK>

@@ -1,0 +1,12 @@
+0,1,2,3
+The,DT,B-NP,O
+American,NNP,I-NP,B-ORG
+Stock,NNP,I-NP,I-ORG
+Exchange,NNP,I-NP,I-ORG
+said,VBD,B-VP,O
+there,EX,B-NP,O
+was,VBD,B-VP,O
+no,DT,B-NP,O
+after-hours,NNS,I-NP,O
+activity,NN,I-NP,O
+.,.,O,O

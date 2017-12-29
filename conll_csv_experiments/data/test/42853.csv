@@ -1,0 +1,8 @@
+0,1,2,3
+Inoue,NNP,B-NP,B-PER
+Junichi,NNP,I-NP,I-PER
+(,(,O,O
+Japan,NNP,B-NP,B-LOC
+),),O,O
+38.08,CD,B-NP,O
+.,.,O,O

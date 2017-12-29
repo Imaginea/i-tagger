@@ -1,0 +1,14 @@
+0,1,2,3
+Camilla,NNP,B-NP,B-PER
+Martin,NNP,I-NP,I-PER
+(,(,O,O
+Denmark,NNP,B-NP,B-LOC
+),),O,O
+beat,VB,B-VP,O
+Wang,NNP,B-NP,B-PER
+Chen,NNP,I-NP,I-PER
+(,(,O,O
+China,NNP,B-NP,B-LOC
+),),O,O
+11-0,CD,B-NP,O
+12-10,JJ,I-NP,O

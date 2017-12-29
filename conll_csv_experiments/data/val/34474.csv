@@ -1,0 +1,10 @@
+0,1,2,3
+Panama,NNP,B-NP,B-LOC
+-,:,O,O
+Jorge,NNP,B-NP,B-PER
+Luis,NNP,I-NP,I-PER
+Dely,NNP,I-NP,I-PER
+Valdes,NNPS,I-NP,I-PER
+(,(,O,O
+50th,JJ,B-NP,O
+),),O,O

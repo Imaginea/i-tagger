@@ -1,0 +1,8 @@
+0,1,2,3
+7.,CD,B-NP,O
+Samson,NNP,I-NP,B-PER
+Kitur,NNP,I-NP,I-PER
+(,(,O,O
+Kenya,NNP,B-NP,B-LOC
+),),O,O
+45.34,CD,B-NP,O

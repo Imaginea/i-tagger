@@ -1,0 +1,8 @@
+0,1,2,3
+2.,CD,B-NP,O
+Yoelvis,NNPS,I-NP,B-PER
+Quesada,NNP,I-NP,I-PER
+(,(,O,O
+Cuba,NNP,B-NP,B-LOC
+),),O,O
+17.44,CD,B-NP,O

@@ -1,0 +1,6 @@
+0,1,2,3
+Finland,NN,B-NP,B-LOC
+beat,VBD,B-VP,O
+the,DT,B-NP,O
+Czech,NNP,I-NP,B-LOC
+Republic,NNP,I-NP,I-LOC

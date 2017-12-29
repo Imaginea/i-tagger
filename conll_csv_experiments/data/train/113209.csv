@@ -1,0 +1,5 @@
+0,1,2,3
+--,:,B-NP,O
+Cleveland,NNP,I-NP,B-ORG
+Newsdesk,NNP,I-NP,I-ORG
+216-579-0077,CD,I-NP,O

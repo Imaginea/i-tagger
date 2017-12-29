@@ -1,0 +1,12 @@
+0,1,2,3
+At,IN,B-PP,O
+Headingley,NNP,B-NP,B-LOC
+:,:,O,O
+Yorkshire,NNP,B-NP,B-ORG
+529-8,CD,I-NP,O
+declared,NNS,I-NP,O
+(,(,O,O
+C.,NNP,B-NP,B-PER
+White,NNP,I-NP,I-PER
+181,CD,I-NP,O
+",",",",O,O

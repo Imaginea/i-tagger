@@ -1,0 +1,9 @@
+0,1,2,3
+M'bishi,NNP,B-NP,B-ORG
+Gas,NNP,I-NP,I-ORG
+sets,VBZ,B-VP,O
+terms,NNS,B-NP,O
+on,IN,B-PP,O
+7-year,JJ,B-NP,O
+straight,JJ,I-NP,O
+.,.,O,O

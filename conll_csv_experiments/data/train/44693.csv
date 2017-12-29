@@ -1,0 +1,11 @@
+0,1,2,3
+Nepal,NNP,B-NP,B-LOC
+'s,POS,B-NP,O
+king,NN,I-NP,O
+leaves,VBZ,B-VP,O
+on,IN,B-PP,O
+week-long,JJ,B-NP,O
+visit,NN,I-NP,O
+to,TO,B-PP,O
+China,NNP,B-NP,B-LOC
+.,.,O,O

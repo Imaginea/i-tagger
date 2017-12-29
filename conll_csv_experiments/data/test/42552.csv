@@ -1,0 +1,13 @@
+0,1,2,3
+10.,CD,B-NP,O
+Kristian,JJ,I-NP,B-PER
+Brenden,NNP,I-NP,I-PER
+(,(,O,O
+Norway,NNP,B-NP,B-LOC
+),),O,O
+228.1,CD,B-NP,O
+(,(,O,O
+129.4,CD,B-NP,O
+/,SYM,O,O
+98.7,CD,B-NP,O
+),),O,O

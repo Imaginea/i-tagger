@@ -1,0 +1,6 @@
+0,1,2,3
+Saqlain,NNP,B-NP,B-PER
+Mushtaq,NNP,I-NP,I-PER
+b,SYM,O,O
+Hollioake,NNP,B-NP,B-PER
+0,CD,I-NP,O

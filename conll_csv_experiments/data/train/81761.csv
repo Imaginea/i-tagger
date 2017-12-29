@@ -1,0 +1,17 @@
+0,1,2,3
+I,PRP,B-NP,O
+just,RB,B-ADVP,O
+hit,VBD,B-VP,O
+through,IN,B-PP,O
+and,CC,O,O
+I,PRP,B-NP,O
+was,VBD,B-VP,O
+punching,VBG,I-VP,O
+the,DT,B-NP,O
+air,NN,I-NP,O
+before,IN,B-PP,O
+the,DT,B-NP,O
+ball,NN,I-NP,O
+got,VBD,B-VP,O
+there,RB,B-ADVP,O
+.,.,O,O

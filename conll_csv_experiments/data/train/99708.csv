@@ -1,0 +1,14 @@
+0,1,2,3
+Barbara,NNP,B-NP,B-PER
+Rittner,NNP,I-NP,I-PER
+(,(,O,O
+Germany,NNP,B-NP,B-LOC
+),),O,O
+beat,VB,B-VP,O
+Katarina,NNP,B-NP,B-PER
+Studenikova,NNP,I-NP,I-PER
+(,(,O,O
+Slovakia,NNP,B-NP,B-LOC
+),),O,O
+7-5,CD,B-NP,O
+7-5,CD,I-NP,O

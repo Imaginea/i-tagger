@@ -1,0 +1,14 @@
+0,1,2,3
+Simon,NNP,B-NP,B-PER
+Frenz,NNP,I-NP,I-PER
+(,(,O,O
+Germany,NNP,B-NP,B-LOC
+),),O,O
+beat,VB,B-VP,O
+Martin,NNP,B-NP,B-PER
+Heath,NNP,I-NP,I-PER
+(,(,O,O
+Scotland,NNP,B-NP,B-LOC
+),),O,O
+12-15,CD,B-NP,O
+15-6,CD,I-NP,O

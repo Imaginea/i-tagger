@@ -1,0 +1,6 @@
+0,1,2,3
+14-1,NNP,B-NP,O
+Victor,NNP,I-NP,B-PER
+Sanchez,NNP,I-NP,I-PER
+12-1,NNP,I-NP,O
+Guillermo,NNP,I-NP,B-PER

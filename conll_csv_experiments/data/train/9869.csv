@@ -1,0 +1,13 @@
+0,1,2,3
+Marcos,NNP,B-NP,B-PER
+Ondruska,NNP,I-NP,I-PER
+(,(,O,O
+South,NNP,B-NP,B-LOC
+Africa,NNP,I-NP,I-LOC
+),),O,O
+vs.,IN,B-PP,O
+Felix,NNP,B-NP,B-PER
+Mantilla,NNP,I-NP,I-PER
+(,(,O,O
+Spain,NNP,B-NP,B-LOC
+),),O,O

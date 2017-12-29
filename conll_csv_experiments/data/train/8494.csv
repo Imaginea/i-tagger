@@ -1,0 +1,12 @@
+0,1,2,3
+In,IN,B-PP,O
+Edinburgh,NNP,B-NP,B-LOC
+:,:,O,O
+Hearts,NNPS,B-NP,B-ORG
+(,(,O,O
+Scotland,NNP,B-NP,B-LOC
+),),O,O
+1,CD,B-NP,O
+Red,NNP,I-NP,B-ORG
+Star,NNP,I-NP,I-ORG
+Belgrade,NNP,I-NP,I-ORG

@@ -1,0 +1,9 @@
+0,1,2,3
+It,PRP,B-NP,O
+was,VBD,B-VP,O
+their,PRP$,B-NP,O
+fourth,JJ,I-NP,O
+meeting,NN,I-NP,O
+this,DT,B-NP,O
+year,NN,I-NP,O
+.,.,O,O

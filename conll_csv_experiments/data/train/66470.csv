@@ -1,0 +1,11 @@
+0,1,2,3
+Dutroux,NNS,B-NP,B-PER
+said,VBD,B-VP,O
+they,PRP,B-NP,O
+starved,VBD,B-VP,O
+to,TO,I-VP,O
+death,NN,I-VP,O
+nine,CD,B-NP,O
+months,NNS,I-NP,O
+later,RB,B-ADVP,O
+.,.,O,O

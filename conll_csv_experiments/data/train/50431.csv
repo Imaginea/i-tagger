@@ -1,0 +1,10 @@
+0,1,2,3
+Sea,NNP,B-NP,O
+lion,NN,I-NP,O
+paparazzi,NNS,I-NP,O
+to,TO,B-VP,O
+keep,VB,I-VP,O
+tabs,NNS,B-NP,O
+on,IN,B-PP,O
+whales,NNS,B-NP,O
+.,.,O,O

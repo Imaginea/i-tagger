@@ -1,0 +1,19 @@
+0,1,2,3
+ ,O,O,<UNK>
+Lebed,NN,B-NP,B-PER
+is,VBZ,B-VP,O
+now,RB,B-ADVP,O
+in,IN,B-PP,O
+Chechnya,NNP,B-NP,B-LOC
+solving,VBG,B-VP,O
+some,DT,B-NP,O
+problems,NNS,I-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+Interfax,NN,B-NP,B-ORG
+quoted,VBN,B-VP,O
+Chernomyrdin,NNP,B-NP,B-PER
+as,IN,B-PP,O
+saying,VBG,B-VP,O
+.,.,O,O
+ ,O,O,<UNK>

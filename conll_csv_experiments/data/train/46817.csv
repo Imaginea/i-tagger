@@ -1,0 +1,14 @@
+0,1,2,3
+",",",",O,O
+to,TO,B-VP,O
+make,VB,I-VP,O
+picture,NN,B-NP,O
+tubes,NNS,I-NP,O
+for,IN,B-PP,O
+32-,JJ,B-NP,O
+and,CC,I-NP,O
+35-inch,JJ,I-NP,O
+screen,NN,I-NP,O
+TV,NN,I-NP,O
+sets,NNS,I-NP,O
+.,.,O,O

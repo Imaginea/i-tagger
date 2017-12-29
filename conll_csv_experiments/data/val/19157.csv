@@ -1,0 +1,25 @@
+0,1,2,3
+ ,O,O,<UNK>
+It,PRP,B-NP,O
+focuses,VBZ,B-VP,O
+more,JJR,B-NP,O
+attention,NN,I-NP,O
+on,IN,B-PP,O
+Mercantile,NNP,B-NP,B-ORG
+",",",",I-NP,O
+Commerce,NNP,I-NP,B-ORG
+and,CC,I-NP,O
+Roosevelt,NNP,I-NP,B-ORG
+",",",",O,O
+ ,O,O,<UNK>
+said,VBD,B-VP,O
+James,NNP,B-NP,B-PER
+Weber,NNP,I-NP,I-PER
+",",",",O,O
+analyst,NN,B-NP,O
+at,IN,B-PP,O
+A.G.,NNP,B-NP,B-ORG
+Edwards,NNP,I-NP,I-ORG
+&,CC,I-NP,I-ORG
+Sons,NNP,I-NP,I-ORG
+.,.,O,O

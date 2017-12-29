@@ -1,0 +1,11 @@
+0,1,2,3
+Mike,NNP,B-NP,B-PER
+Oquist,NNP,I-NP,I-PER
+allowed,VBD,B-VP,O
+one,CD,B-NP,O
+Montreal,NNP,I-NP,B-LOC
+hit,VBD,B-VP,O
+in,IN,B-PP,O
+the,DT,B-NP,O
+ninth,JJ,I-NP,O
+.,.,O,O

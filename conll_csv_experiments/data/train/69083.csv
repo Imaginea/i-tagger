@@ -1,0 +1,11 @@
+0,1,2,3
+$,$,B-NP,O
+"450,000",CD,I-NP,O
+Toshiba,NNP,I-NP,B-MISC
+Classic,NNP,I-NP,I-MISC
+tennis,NN,I-NP,O
+tournament,NN,I-NP,O
+on,IN,B-PP,O
+Sunday,NNP,B-NP,O
+(,(,O,O
+prefix,NN,B-NP,O

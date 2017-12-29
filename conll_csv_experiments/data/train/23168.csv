@@ -1,0 +1,11 @@
+0,1,2,3
+Estimates,NNS,B-NP,O
+(,(,O,O
+Dfl,NNP,B-NP,B-MISC
+),),O,O
+:,:,O,O
+EPS,NNP,B-NP,O
+P,NN,I-NP,O
+/,SYM,O,O
+E,NNP,B-NP,O
+Dividend,NN,I-NP,O

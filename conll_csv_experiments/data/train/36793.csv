@@ -1,0 +1,9 @@
+0,1,2,3
+7.,CD,B-NP,O
+Hana,NNP,I-NP,B-PER
+Benesova,NNP,I-NP,I-PER
+(,(,O,O
+Czech,NNP,B-NP,B-LOC
+Republic,NNP,I-NP,I-LOC
+),),O,O
+51.71,CD,B-NP,O

@@ -1,0 +1,11 @@
+0,1,2,3
+For,IN,B-PP,O
+the,DT,B-NP,O
+week,NN,I-NP,O
+",",",",O,O
+it,PRP,B-NP,O
+was,VBD,B-VP,O
+down,RB,B-ADVP,O
+1.55,CD,B-NP,O
+points,NNS,I-NP,O
+.,.,O,O

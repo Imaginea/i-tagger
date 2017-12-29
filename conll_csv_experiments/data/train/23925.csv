@@ -1,0 +1,12 @@
+0,1,2,3
+The,DT,B-NP,O
+text,NN,I-NP,O
+has,VBZ,B-VP,O
+already,RB,I-VP,O
+been,VBN,I-VP,O
+blocked,VBN,I-VP,O
+",",",",O,O
+ ,O,O,<UNK>
+he,PRP,B-NP,O
+said,VBD,B-VP,O
+.,.,O,O

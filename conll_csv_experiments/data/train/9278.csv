@@ -1,0 +1,16 @@
+0,1,2,3
+9/16,CD,B-NP,O
+-,:,I-NP,O
+Hermawan,NNP,I-NP,B-PER
+Susanto,NNP,I-NP,I-PER
+(,(,O,O
+Indonesia,NNP,O,B-LOC
+),),O,O
+beat,VB,B-VP,O
+1,CD,B-NP,O
+-,:,I-NP,O
+Fung,NNP,I-NP,B-PER
+Permadi,NNP,I-NP,I-PER
+(,(,O,O
+Taiwan,NNP,B-NP,B-LOC
+),),O,O

@@ -1,0 +1,11 @@
+0,1,2,3
+Mexican,JJ,B-NP,B-MISC
+daily,JJ,I-NP,O
+port,NN,I-NP,O
+",",",",O,O
+shipping,VBG,B-VP,O
+update,NN,B-NP,O
+for,IN,B-PP,O
+Dec,NNP,B-NP,O
+6,CD,I-NP,O
+.,.,O,O

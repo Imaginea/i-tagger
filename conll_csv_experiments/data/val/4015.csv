@@ -1,0 +1,14 @@
+0,1,2,3
+I,PRP,B-NP,O
+play,VBP,B-VP,O
+an,DT,B-NP,O
+American,JJ,I-NP,B-MISC
+so,RB,B-SBAR,O
+that,IN,I-SBAR,O
+'s,IN,I-SBAR,O
+why,WRB,B-ADVP,O
+I,PRP,B-NP,O
+play,VBP,B-VP,O
+at,IN,B-PP,O
+night,NN,B-NP,O
+.,.,O,O

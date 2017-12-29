@@ -1,0 +1,13 @@
+0,1,2,3
+-,:,O,O
+Prime,NNP,B-NP,O
+Minister,NNP,I-NP,O
+Hariri,NNP,I-NP,B-PER
+:,:,O,O
+Israeli,JJ,B-NP,B-MISC
+threats,NNS,I-NP,O
+do,VBP,B-VP,O
+no,DT,B-NP,O
+serve,JJ,I-NP,O
+peace,NN,I-NP,O
+.,.,O,O

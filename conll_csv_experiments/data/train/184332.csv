@@ -1,0 +1,7 @@
+0,1,2,3
+July,NNP,B-NP,O
+96,CD,I-NP,O
+June,NNP,B-NP,O
+96,CD,I-NP,O
+July,NNP,I-NP,O
+95,CD,I-NP,O

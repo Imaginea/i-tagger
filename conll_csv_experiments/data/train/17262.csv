@@ -1,0 +1,7 @@
+0,1,2,3
+Rottweiler,JJR,B-NP,B-MISC
+kills,VBZ,B-VP,O
+South,NNP,B-NP,B-MISC
+African,NNP,I-NP,I-MISC
+toddler,NN,I-NP,O
+.,.,O,O

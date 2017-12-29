@@ -1,0 +1,7 @@
+0,1,2,3
+Amsterdam-Rotterdam-Antwerp,NNP,B-NP,B-LOC
+oil,NN,I-NP,O
+stock,NN,I-NP,O
+levels,NNS,I-NP,O
+fall,VBP,B-VP,O
+.,.,O,O

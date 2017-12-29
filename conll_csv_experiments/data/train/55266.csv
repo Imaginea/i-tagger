@@ -1,0 +1,17 @@
+0,1,2,3
+Captain,NNP,B-NP,O
+Paul,NNP,I-NP,B-PER
+Prichard,NNP,I-NP,I-PER
+plundered,VBD,B-VP,O
+88,CD,B-NP,O
+from,IN,B-PP,O
+73,CD,B-NP,O
+deliveries,NNS,I-NP,O
+",",",",O,O
+hitting,VBG,B-VP,O
+15,CD,B-NP,O
+fours,NNS,I-NP,O
+and,CC,O,O
+one,CD,B-NP,O
+six,CD,I-NP,O
+.,.,O,O

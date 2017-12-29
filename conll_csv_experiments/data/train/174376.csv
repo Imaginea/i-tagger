@@ -1,0 +1,9 @@
+0,1,2,3
+--,:,B-NP,O
+Zurich,NNP,I-NP,B-ORG
+Editorial,NNP,I-NP,I-ORG
+",",",",O,O
++41,CD,B-NP,O
+1,CD,I-NP,O
+631,CD,I-NP,O
+7340,CD,I-NP,O

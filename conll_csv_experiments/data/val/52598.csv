@@ -1,0 +1,16 @@
+0,1,2,3
+Most,JJS,B-NP,O
+of,IN,B-PP,O
+the,DT,B-NP,O
+Marines,NNPS,I-NP,B-MISC
+are,VBP,B-VP,O
+on,IN,B-PP,O
+three,CD,B-NP,O
+ships,NNS,I-NP,O
+in,IN,B-PP,O
+the,DT,B-NP,O
+Tarawa,NNP,I-NP,B-ORG
+Amphibious,NNP,I-NP,I-ORG
+Readiness,NN,I-NP,I-ORG
+Group,NNP,I-NP,I-ORG
+.,.,O,O

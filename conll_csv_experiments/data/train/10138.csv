@@ -1,0 +1,14 @@
+0,1,2,3
+------------------------,SYM,O,O
+15,CD,B-NP,O
+-,:,I-NP,O
+Marc,NNP,I-NP,B-PER
+Rosset,NNP,I-NP,I-PER
+(,(,O,O
+Switzerland,NNP,B-NP,B-LOC
+vs.,IN,B-PP,O
+Jared,NNP,B-NP,B-PER
+Palmer,NNP,I-NP,I-PER
+(,(,O,O
+U.S.,NNP,B-NP,B-LOC
+),),O,O

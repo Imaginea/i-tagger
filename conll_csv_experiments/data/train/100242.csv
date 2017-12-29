@@ -1,0 +1,13 @@
+0,1,2,3
+Also,RB,B-ADVP,O
+",",",",O,O
+I,PRP,B-NP,O
+was,VBD,B-VP,O
+able,JJ,B-ADJP,O
+to,TO,B-VP,O
+keep,VB,I-VP,O
+my,PRP$,B-NP,O
+changeup,NN,I-NP,O
+down,RP,B-PRT,O
+.,.,O,O
+ ,O,O,<UNK>

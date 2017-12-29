@@ -1,0 +1,8 @@
+0,1,2,3
+20.,CD,B-NP,O
+Spela,NNP,I-NP,B-PER
+Bracun,NNP,I-NP,I-PER
+(,(,O,O
+Slovenia,NNP,B-NP,B-LOC
+),),O,O
+1:19.07,CD,B-NP,O

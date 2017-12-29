@@ -1,0 +1,9 @@
+0,1,2,3
+teams,NNS,B-NP,O
+that,WDT,B-NP,O
+took,VBD,B-VP,O
+place,NN,B-NP,O
+today,NN,B-NP,O
+in,IN,B-PP,O
+Geneva,NNP,B-NP,B-LOC
+:,:,O,O

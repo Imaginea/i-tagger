@@ -1,0 +1,10 @@
+0,1,2,3
+China,NNP,B-NP,B-LOC
+said,VBD,B-VP,O
+to,TO,I-VP,O
+fear,VB,I-VP,O
+dissidents,NNS,B-NP,O
+more,JJR,B-NP,O
+than,IN,B-PP,O
+criminals,NNS,B-NP,O
+.,.,O,O

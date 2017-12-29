@@ -1,0 +1,13 @@
+0,1,2,3
+The,DT,B-NP,O
+KDP,NNP,I-NP,B-ORG
+said,VBD,B-VP,O
+29,CD,B-NP,O
+PUK,NNP,I-NP,B-ORG
+fighters,NNS,I-NP,O
+were,VBD,B-VP,O
+killed,VBN,I-VP,O
+in,IN,B-PP,O
+the,DT,B-NP,O
+attack,NN,I-NP,O
+.,.,O,O

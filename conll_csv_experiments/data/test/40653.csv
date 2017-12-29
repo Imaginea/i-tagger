@@ -1,0 +1,6 @@
+0,1,2,3
+Nation,NNP,B-NP,B-MISC
+'s,POS,B-NP,I-MISC
+Cup,NNP,I-NP,I-MISC
+standings,VBZ,B-VP,O
+:,:,O,O

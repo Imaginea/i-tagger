@@ -1,0 +1,9 @@
+0,1,2,3
+New,NNP,B-NP,B-ORG
+Jersey,NNP,I-NP,I-ORG
+110,CD,I-NP,O
+BOSTON,NN,I-NP,B-ORG
+108,CD,I-NP,O
+(,(,O,O
+OT,NNP,O,O
+),),O,O

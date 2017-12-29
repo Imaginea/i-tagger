@@ -1,0 +1,8 @@
+0,1,2,3
+Thais,NNS,B-NP,O
+hunt,VBP,B-VP,O
+for,IN,B-PP,O
+Australian,JJ,B-NP,B-MISC
+jail,NN,I-NP,O
+breaker,NN,I-NP,O
+.,.,O,O

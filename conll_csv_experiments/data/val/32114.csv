@@ -1,0 +1,5 @@
+0,1,2,3
+English,NNP,B-NP,B-MISC
+National,NNP,I-NP,I-MISC
+League,NNP,I-NP,I-MISC
+one,CD,B-NP,O

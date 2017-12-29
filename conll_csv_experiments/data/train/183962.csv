@@ -1,0 +1,18 @@
+0,1,2,3
+ ,O,O,<UNK>
+Somebody,NN,B-NP,O
+threw,VBD,B-VP,O
+a,DT,B-NP,O
+molotov,JJ,I-NP,O
+cocktail,NN,I-NP,O
+over,IN,B-PP,O
+the,DT,B-NP,O
+fence,NN,I-NP,O
+and,CC,O,O
+it,PRP,B-NP,O
+went,VBD,B-VP,O
+into,IN,B-PP,O
+the,DT,B-NP,O
+parking,NN,I-NP,O
+lot,NN,I-NP,O
+.,.,O,O

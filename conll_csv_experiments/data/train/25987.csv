@@ -1,0 +1,22 @@
+0,1,2,3
+In,IN,B-PP,O
+1994,CD,B-NP,O
+a,DT,B-NP,O
+British,JJ,I-NP,B-MISC
+television,NN,I-NP,O
+documentary,NN,I-NP,O
+called,VBD,B-VP,O
+the,DT,B-NP,O
+myth,NN,I-NP,O
+around,IN,B-PP,O
+Mother,NNP,B-NP,B-PER
+Teresa,NNP,I-NP,I-PER
+a,DT,B-NP,O
+mixture,NN,I-NP,O
+of,IN,B-PP,O
+ ,O,O,<UNK>
+hyperbole,NN,B-NP,O
+and,CC,I-NP,O
+credulity,NN,I-NP,O
+ ,O,O,<UNK>
+.,.,O,O

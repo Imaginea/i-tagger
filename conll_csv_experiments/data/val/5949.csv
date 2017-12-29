@@ -1,0 +1,11 @@
+0,1,2,3
+1.,CD,B-NP,O
+Gabriela,NNP,I-NP,B-PER
+Szabo,NNP,I-NP,I-PER
+(,(,O,O
+Romania,NNP,B-NP,B-LOC
+),),O,O
+15,CD,B-NP,O
+minutes,NNS,I-NP,O
+04.95,CD,I-NP,O
+seconds,NNS,I-NP,O

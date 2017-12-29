@@ -1,0 +1,13 @@
+0,1,2,3
+65,CD,B-NP,O
+Billy,NNP,B-NP,B-PER
+Andrade,NNP,I-NP,I-PER
+",",",",O,O
+Duffy,NNP,B-NP,B-PER
+Waldorf,NNP,I-NP,I-PER
+",",",",O,O
+Jesper,NNP,B-NP,B-PER
+Parnevik,NNP,I-NP,I-PER
+(,(,O,O
+Sweden,NNP,B-NP,B-LOC
+),),O,O

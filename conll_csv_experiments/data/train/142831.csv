@@ -1,0 +1,6 @@
+0,1,2,3
+--,:,B-NP,O
+London,NNP,I-NP,B-ORG
+Newsroom,NNP,I-NP,I-ORG
++,SYM,O,O
+00--44-171-542-7947,CD,B-ADVP,O

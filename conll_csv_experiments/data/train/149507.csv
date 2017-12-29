@@ -1,0 +1,13 @@
+0,1,2,3
+(,(,O,O
+Australia,NNP,B-NP,B-LOC
+),),O,O
+",",",",O,O
+Mark,NNP,B-NP,B-PER
+Roe,NNP,I-NP,I-PER
+",",",",O,O
+Emanuele,NNP,B-NP,B-PER
+Canonica,NNP,I-NP,I-PER
+(,(,O,O
+Italy,NNP,B-NP,B-LOC
+),),O,O

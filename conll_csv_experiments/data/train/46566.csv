@@ -1,0 +1,12 @@
+0,1,2,3
+A,DT,B-NP,O
+consortium,NN,I-NP,O
+of,IN,B-PP,O
+telephone,NN,B-NP,O
+companies,NNS,I-NP,O
+and,CC,O,O
+The,DT,B-NP,B-ORG
+Walt,NNP,I-NP,I-ORG
+Disney,NNP,I-NP,I-ORG
+Co,NNP,I-NP,I-ORG
+.,.,O,O

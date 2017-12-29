@@ -1,0 +1,14 @@
+0,1,2,3
+The,DT,B-NP,O
+Serbian,JJ,I-NP,B-MISC
+authorities,NNS,I-NP,O
+blame,VBP,B-VP,O
+Albanian,JJ,B-NP,B-MISC
+dissidents,NNS,I-NP,O
+for,IN,B-PP,O
+the,DT,B-NP,O
+recent,JJ,I-NP,O
+spate,NN,I-NP,O
+of,IN,B-PP,O
+attacks,NNS,B-NP,O
+.,.,O,O

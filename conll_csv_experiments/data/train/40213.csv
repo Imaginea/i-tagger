@@ -1,0 +1,28 @@
+0,1,2,3
+Chants,NNS,B-NP,O
+from,IN,B-PP,O
+the,DT,B-NP,O
+crowd,NN,I-NP,O
+of,IN,B-PP,O
+ ,O,O,<UNK>
+Death,NNP,B-NP,O
+to,TO,B-PP,O
+the,DT,B-NP,O
+Arabs,NNPS,I-NP,B-MISC
+ ,O,O,<UNK>
+",",",",O,O
+and,CC,O,O
+bottle-throwing,JJ,B-NP,O
+during,IN,B-PP,O
+the,DT,B-NP,O
+game,NN,I-NP,O
+marred,VBN,B-VP,O
+the,DT,B-NP,O
+match,NN,I-NP,O
+which,WDT,B-NP,O
+ended,VBD,B-VP,O
+in,IN,B-PP,O
+a,DT,B-NP,O
+goalless,JJ,I-NP,O
+draw,NN,I-NP,O
+.,.,O,O

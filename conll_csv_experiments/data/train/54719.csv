@@ -1,0 +1,6 @@
+0,1,2,3
++3,CD,B-NP,O
+Craig,NNP,I-NP,B-PER
+Stadler,NNP,I-NP,I-PER
+through,IN,B-PP,O
+14,CD,B-NP,O

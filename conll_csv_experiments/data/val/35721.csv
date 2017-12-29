@@ -1,0 +1,8 @@
+0,1,2,3
+Obilic,JJ,B-NP,B-ORG
+2,CD,I-NP,O
+Zeleznik,NNP,I-NP,B-ORG
+(,(,O,I-ORG
+B,NNP,B-NP,I-ORG
+),),O,I-ORG
+0,CD,B-NP,O

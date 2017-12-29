@@ -1,0 +1,13 @@
+0,1,2,3
+--,:,B-NP,O
+R,NN,I-NP,B-PER
+Leong,NNP,I-NP,I-PER
+",",",",O,O
+New,NNP,B-NP,B-ORG
+York,NNP,I-NP,I-ORG
+Power,NNP,I-NP,I-ORG
+Desk,NNP,I-NP,I-ORG
++1,CD,I-NP,O
+212,CD,I-NP,O
+859,CD,I-NP,O
+1622,CD,I-NP,O

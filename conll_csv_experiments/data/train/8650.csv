@@ -1,0 +1,16 @@
+0,1,2,3
+Rishon,NN,B-NP,B-ORG
+-,:,O,O
+Moshe,NNP,B-NP,B-PER
+Sabag,NNP,I-NP,I-PER
+(,(,O,O
+10th,JJ,B-NP,O
+minute,NN,I-NP,O
+),),O,O
+",",",",O,O
+Nissan,NNP,B-NP,B-PER
+Kapeta,NNP,I-NP,I-PER
+(,(,O,O
+26th,JJ,B-NP,O
+),),O,O
+",",",",O,O

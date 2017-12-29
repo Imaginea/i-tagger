@@ -1,0 +1,21 @@
+0,1,2,3
+ ,O,O,<UNK>
+We,PRP,B-NP,O
+are,VBP,B-VP,O
+united,VBN,B-NP,O
+and,CC,I-NP,O
+we,PRP,I-NP,O
+are,VBP,B-VP,O
+waiting,VBG,I-VP,O
+for,IN,B-PP,O
+the,DT,B-NP,O
+government,NN,I-NP,O
+to,TO,B-VP,O
+decide,VB,I-VP,O
+what,WP,B-NP,O
+to,TO,B-VP,O
+do,VB,I-VP,O
+with,IN,B-PP,O
+us,PRP,B-NP,O
+.,.,O,O
+ ,O,O,<UNK>

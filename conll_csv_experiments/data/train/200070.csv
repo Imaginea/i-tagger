@@ -1,0 +1,11 @@
+0,1,2,3
+20,CD,B-NP,O
+Year,NNP,I-NP,O
+A-rated,NNP,I-NP,O
+Gen'l,NNP,I-NP,O
+Obligation,NNP,I-NP,O
+5.55,CD,I-NP,O
+%,NN,I-NP,O
+5.50,CD,B-NP,O
+%,NN,I-NP,O
++0.05,CD,I-NP,O

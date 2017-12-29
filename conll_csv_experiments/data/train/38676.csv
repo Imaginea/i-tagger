@@ -1,0 +1,7 @@
+0,1,2,3
+Nigerian,JJ,B-NP,B-MISC
+terms,NNS,I-NP,O
+jeopardize,VBP,B-VP,O
+Commonwealth,NNP,B-NP,B-ORG
+trip-Canada,NN,I-NP,B-MISC
+.,.,O,O

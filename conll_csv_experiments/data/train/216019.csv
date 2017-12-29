@@ -1,0 +1,12 @@
+0,1,2,3
+-,:,O,O
+Government,NNP,B-NP,O
+and,CC,I-NP,O
+Catalan,NNP,I-NP,B-MISC
+nationalists,NNS,I-NP,O
+set,VBN,B-VP,O
+the,DT,B-NP,O
+scene,NN,I-NP,O
+for,IN,B-PP,O
+budget,NN,B-NP,O
+negotiations,NNS,I-NP,O

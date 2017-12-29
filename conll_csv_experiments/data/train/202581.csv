@@ -1,0 +1,11 @@
+0,1,2,3
+It,PRP,B-NP,O
+was,VBD,B-VP,O
+a,DT,B-NP,O
+bush,NN,I-NP,O
+that,WDT,B-NP,O
+bagged,VBD,B-VP,O
+the,DT,B-NP,O
+bad,JJ,I-NP,O
+guys,NNS,I-NP,O
+.,.,O,O

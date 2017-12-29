@@ -1,0 +1,13 @@
+0,1,2,3
+Maslova,NNP,B-NP,B-PER
+said,VBD,B-VP,O
+the,DT,B-NP,O
+wound,NN,I-NP,O
+had,VBD,B-VP,O
+affected,VBN,I-VP,O
+a,DT,B-NP,O
+lung,NN,I-NP,O
+and,CC,O,O
+a,DT,B-NP,O
+kidney,NN,I-NP,O
+.,.,O,O

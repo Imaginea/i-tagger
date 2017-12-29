@@ -1,0 +1,12 @@
+0,1,2,3
+She,PRP,B-NP,O
+later,RB,B-ADVP,O
+suffered,VBD,B-VP,O
+heart,NN,B-NP,O
+failure,NN,I-NP,O
+and,CC,O,O
+was,VBD,B-VP,O
+diagnosed,VBN,I-VP,O
+with,IN,B-PP,O
+malaria,NN,B-NP,O
+.,.,O,O

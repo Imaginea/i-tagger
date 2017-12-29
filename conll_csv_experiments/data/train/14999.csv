@@ -1,0 +1,11 @@
+0,1,2,3
+Tennis,NNS,B-NP,O
+-,:,O,O
+Philippoussis,JJ,B-NP,B-PER
+looms,VBZ,B-VP,O
+for,IN,B-SBAR,O
+Sampras,NNP,B-NP,B-PER
+in,IN,B-PP,O
+U.S.,NNP,B-NP,B-MISC
+Open,NNP,I-NP,I-MISC
+.,.,O,O

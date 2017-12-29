@@ -1,0 +1,27 @@
+0,1,2,3
+We,PRP,B-NP,O
+have,VBP,B-VP,O
+a,DT,B-NP,O
+record,NN,I-NP,O
+of,IN,B-PP,O
+going,VBG,B-VP,O
+beyond,IN,B-PP,O
+regulatory,JJ,B-NP,O
+requirements,NNS,I-NP,O
+...,:,O,O
+and,CC,O,O
+we,PRP,B-NP,O
+consistently,RB,B-ADVP,O
+share,VBP,B-VP,O
+the,DT,B-NP,O
+most,RBS,I-NP,O
+current,JJ,I-NP,O
+information,NN,I-NP,O
+available,JJ,B-ADJP,O
+...,:,O,O
+with,IN,B-PP,O
+customers,NNS,B-NP,O
+and,CC,I-NP,O
+employees,NNS,I-NP,O
+.,.,O,O
+ ,O,O,<UNK>

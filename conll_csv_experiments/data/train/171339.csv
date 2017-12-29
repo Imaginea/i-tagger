@@ -1,0 +1,22 @@
+0,1,2,3
+Dole,NNP,B-NP,B-PER
+said,VBD,B-VP,O
+former,JJ,B-NP,O
+first,JJ,I-NP,O
+lady,NN,I-NP,O
+Nancy,NNP,I-NP,B-PER
+Reagan,NNP,I-NP,I-PER
+was,VBD,B-VP,O
+laughed,VBN,I-VP,O
+at,IN,B-PP,O
+with,IN,B-PP,O
+her,PRP$,B-NP,O
+ ,O,O,<UNK>
+just,RB,B-ADVP,O
+say,VBP,B-VP,O
+no,DT,B-NP,O
+ ,O,O,<UNK>
+anti-drug,JJ,B-NP,O
+message,NN,I-NP,O
+.,.,O,O
+ ,O,O,<UNK>

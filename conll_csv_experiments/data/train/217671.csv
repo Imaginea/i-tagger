@@ -1,0 +1,11 @@
+0,1,2,3
+Women,NNS,B-NP,O
+'s,POS,B-NP,O
+sprint,JJ,I-NP,O
+semifinals,NNS,I-NP,O
+(,(,O,O
+best,JJS,B-NP,O
+of,IN,B-PP,O
+three,CD,B-NP,O
+),),O,O
+:,:,O,O

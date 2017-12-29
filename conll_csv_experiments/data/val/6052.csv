@@ -1,0 +1,8 @@
+0,1,2,3
+5.,CD,B-NP,O
+Sven,NNP,I-NP,B-PER
+Nylander,NNP,I-NP,I-PER
+(,(,O,O
+Sweden,NNP,B-NP,B-LOC
+),),O,O
+49.22,CD,B-NP,O

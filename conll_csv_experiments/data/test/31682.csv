@@ -1,0 +1,17 @@
+0,1,2,3
+Officials,NNS,B-NP,O
+say,VBP,B-VP,O
+the,DT,B-NP,O
+minefields,NNS,I-NP,O
+present,VBP,B-VP,O
+an,DT,B-NP,O
+obstacle,NN,I-NP,O
+to,TO,B-PP,O
+the,DT,B-NP,O
+security,NN,I-NP,O
+forces,NNS,I-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+it,PRP,B-NP,O
+said,VBD,B-VP,O
+.,.,O,O

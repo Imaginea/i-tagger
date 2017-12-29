@@ -1,0 +1,9 @@
+0,1,2,3
+When,WRB,B-ADVP,O
+we,PRP,B-NP,O
+bought,VBD,B-VP,O
+the,DT,B-NP,O
+shares,NNS,I-NP,O
+we,PRP,B-NP,O
+bought,VBD,B-VP,O
+...,:,O,O

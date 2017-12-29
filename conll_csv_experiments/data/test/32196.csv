@@ -1,0 +1,13 @@
+0,1,2,3
+Sales,NNS,B-NP,O
+confirmed,VBD,B-VP,O
+on,RP,B-PRT,O
+500,CD,B-NP,O
+slaughter,NN,I-NP,O
+steers,VBZ,B-VP,O
+and,CC,I-VP,O
+100,CD,B-NP,O
+slaughter,NN,I-NP,O
+heifers,VBZ,B-VP,O
+Thursday,NNP,B-NP,O
+.,.,O,O

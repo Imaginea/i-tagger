@@ -1,0 +1,24 @@
+0,1,2,3
+But,CC,O,O
+communications,NNS,B-NP,O
+at,IN,B-PP,O
+this,DT,B-NP,O
+time,NN,I-NP,O
+of,IN,B-PP,O
+year,NN,B-NP,O
+are,VBP,B-VP,O
+very,RB,B-ADJP,O
+difficult,JJ,I-ADJP,O
+because,IN,B-PP,O
+of,IN,I-PP,O
+rains,NNS,B-NP,O
+and,CC,O,O
+a,DT,B-NP,O
+lack,NN,I-NP,O
+of,IN,B-PP,O
+power,NN,B-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+he,PRP,B-NP,O
+added,VBD,B-VP,O
+.,.,O,O

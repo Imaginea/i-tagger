@@ -1,0 +1,30 @@
+0,1,2,3
+ ,O,O,<UNK>
+Saskatchewan,NNP,B-NP,B-LOC
+is,VBZ,B-VP,O
+well,RB,B-ADJP,O
+positioned,VBN,I-ADJP,O
+to,TO,B-VP,O
+take,VB,I-VP,O
+advantage,NN,B-NP,O
+of,IN,B-PP,O
+growing,VBG,B-NP,O
+world,NN,I-NP,O
+markets,NNS,I-NP,O
+for,IN,B-PP,O
+pork,NN,B-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+Saskatchewan,NNP,B-NP,B-ORG
+Wheat,NNP,I-NP,I-ORG
+Pool,NNP,I-NP,I-ORG
+chief,JJ,I-NP,O
+executive,NN,I-NP,O
+Don,NNP,I-NP,B-PER
+Loewen,NNP,I-NP,I-PER
+said,VBD,B-VP,O
+in,IN,B-PP,O
+a,DT,B-NP,O
+company,NN,I-NP,O
+statement,NN,I-NP,O
+.,.,O,O

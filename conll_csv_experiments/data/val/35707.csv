@@ -1,0 +1,9 @@
+0,1,2,3
+Buducnost,JJS,B-NP,B-ORG
+(,(,O,I-ORG
+V,NNP,O,I-ORG
+),),O,I-ORG
+0,CD,B-NP,O
+OFK,NNP,B-NP,B-ORG
+Beograd,NNP,I-NP,I-ORG
+1,CD,I-NP,O

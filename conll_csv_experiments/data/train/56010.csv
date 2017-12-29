@@ -1,0 +1,16 @@
+0,1,2,3
+R.,NNP,B-NP,B-PER
+Blakey,NNP,I-NP,I-PER
+109,CD,I-NP,O
+not,RB,B-VP,O
+out,RP,B-PRT,O
+",",",",O,O
+M.,NNP,B-NP,B-PER
+Moxon,NNP,I-NP,I-PER
+66,CD,I-NP,O
+",",",",O,O
+M.,NNP,B-NP,B-PER
+Vaughan,NNP,I-NP,I-PER
+57,CD,I-NP,O
+),),O,O
+.,.,O,O

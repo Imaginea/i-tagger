@@ -1,0 +1,11 @@
+0,1,2,3
+-,:,O,O
+domestic,JJ,B-NP,O
+price,NN,I-NP,O
+expectations,NNS,I-NP,O
+*,SYM,O,O
+0,CD,B-NP,O
+-,:,I-NP,O
+1,CD,I-NP,O
++6,CD,I-NP,O
++4,CD,I-NP,O

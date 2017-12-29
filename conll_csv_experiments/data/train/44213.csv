@@ -1,0 +1,11 @@
+0,1,2,3
+Staff,NN,B-NP,O
+costs,NNS,I-NP,O
+(,(,O,O
+Dm,NNP,B-NP,B-MISC
+million,CD,I-NP,O
+),),O,O
+116,CD,B-NP,O
+up,RB,B-ADVP,O
+8,CD,B-NP,O
+pct,NN,I-NP,O

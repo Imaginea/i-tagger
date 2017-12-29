@@ -1,0 +1,5 @@
+0,1,2,3
+Tromso,VB,B-VP,B-ORG
+2,CD,B-NP,O
+Kongsvinger,NNP,I-NP,B-ORG
+1,CD,I-NP,O

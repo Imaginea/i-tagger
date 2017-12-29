@@ -1,0 +1,17 @@
+0,1,2,3
+But,CC,O,O
+a,DT,B-NP,O
+NATO,NNP,I-NP,B-ORG
+official,NN,I-NP,O
+told,VBD,B-VP,O
+Reuters,NNP,B-NP,B-ORG
+:,:,O,O
+ ,O,O,<UNK>
+We,PRP,B-NP,O
+are,VBP,B-VP,O
+watching,VBG,I-VP,O
+the,DT,B-NP,O
+situation,NN,I-NP,O
+closely,RB,B-ADVP,O
+.,.,O,O
+ ,O,O,<UNK>

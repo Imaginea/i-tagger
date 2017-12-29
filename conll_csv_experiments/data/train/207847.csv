@@ -1,0 +1,4 @@
+0,1,2,3
+S.,NNP,B-NP,B-LOC
+Korea,NNP,I-NP,I-LOC
+"149,100-A",NNP,I-NP,O

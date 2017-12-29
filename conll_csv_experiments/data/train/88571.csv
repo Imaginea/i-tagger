@@ -1,0 +1,26 @@
+0,1,2,3
+ ,O,O,<UNK>
+They,PRP,B-NP,O
+did,VBD,B-VP,O
+a,DT,B-NP,O
+good,JJ,I-NP,O
+job,NN,I-NP,O
+this,DT,B-NP,O
+year,NN,I-NP,O
+",",",",O,O
+but,CC,O,O
+they,PRP,B-NP,O
+need,VBP,B-VP,O
+good,JJ,B-NP,O
+diesel,NN,I-NP,O
+and,CC,O,O
+good,JJ,B-NP,O
+engine,NN,I-NP,O
+oil,NN,I-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+said,VBD,B-VP,O
+Ivan,NNP,B-NP,B-PER
+Odnosum,NNP,I-NP,I-PER
+.,.,I-NP,O
+ ,O,O,<UNK>

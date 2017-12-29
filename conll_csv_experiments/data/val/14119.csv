@@ -1,0 +1,23 @@
+0,1,2,3
+Obviously,RB,B-ADVP,O
+",",",",O,O
+we,PRP,B-NP,O
+cannot,MD,B-VP,O
+make,VB,I-VP,O
+up,RP,B-PRT,O
+the,DT,B-NP,O
+unexpected,JJ,I-NP,O
+decrease,NN,I-NP,O
+that,WDT,B-NP,O
+has,VBZ,B-VP,O
+been,VBN,I-VP,O
+experienced,VBD,I-VP,O
+in,IN,B-PP,O
+the,DT,B-NP,O
+first,JJ,I-NP,O
+half,NN,I-NP,O
+of,IN,B-PP,O
+the,DT,B-NP,O
+year,NN,I-NP,O
+.,.,O,O
+ ,O,O,<UNK>

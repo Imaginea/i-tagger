@@ -1,0 +1,11 @@
+0,1,2,3
+2.,CD,B-NP,O
+Frode,NNP,I-NP,B-PER
+Andresen,NNP,I-NP,I-PER
+(,(,O,O
+Norway,NNP,B-NP,B-LOC
+),),O,O
+26:17.8,CD,B-NP,O
+(,(,O,O
+2,CD,B-NP,O
+),),O,O

@@ -1,0 +1,11 @@
+0,1,2,3
+The,DT,B-NP,O
+key,JJ,I-NP,O
+three-month,JJ,I-NP,O
+rate,NN,I-NP,O
+was,VBD,B-VP,O
+steady,JJ,B-ADJP,O
+at,IN,B-PP,O
+3.40,CD,B-NP,O
+percent,NN,I-NP,O
+.,.,O,O

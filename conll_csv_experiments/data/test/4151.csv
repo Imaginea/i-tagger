@@ -1,0 +1,15 @@
+0,1,2,3
+Benjamin,NNP,B-NP,B-PER
+9.4-0-43-1,NNP,I-NP,O
+(,(,O,O
+1nb,CD,B-NP,O
+1w,CD,I-NP,O
+),),O,O
+",",",",O,O
+Hooper,NNP,B-NP,B-PER
+10-0-27-2,CD,I-NP,O
+(,(,O,O
+1nb,CD,B-NP,O
+),),O,O
+",",",",O,O
+McLean,NNP,B-NP,B-PER

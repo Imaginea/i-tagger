@@ -1,0 +1,8 @@
+0,1,2,3
+9,CD,B-NP,O
+.Robbie,NN,I-NP,B-PER
+McEwen,NNP,O,I-PER
+(,(,O,O
+Australia,NNP,B-NP,B-LOC
+),),O,O
+Rabobank,NNP,B-NP,B-ORG

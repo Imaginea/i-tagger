@@ -1,0 +1,15 @@
+0,1,2,3
+Stich,NN,B-NP,B-PER
+said,VBD,B-VP,O
+he,PRP,B-NP,O
+felt,VBD,B-VP,O
+the,DT,B-NP,O
+players,NNS,I-NP,O
+ought,MD,B-VP,O
+to,TO,I-VP,O
+have,VB,I-VP,O
+organised,VBD,I-VP,O
+an,DT,B-NP,O
+active,JJ,I-NP,O
+protest,NN,I-NP,O
+.,.,O,O

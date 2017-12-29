@@ -1,0 +1,12 @@
+0,1,2,3
+and,CC,O,O
+East,JJ,B-NP,B-LOC
+coast,NN,I-NP,I-LOC
+",",",",O,O
+delivered,VBN,B-VP,O
+to,TO,B-PP,O
+consumer,NN,B-NP,O
+65-66,CD,I-NP,O
+cents,NNS,I-NP,O
+/,SYM,O,O
+pound,NN,B-NP,O

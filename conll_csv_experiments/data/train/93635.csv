@@ -1,0 +1,11 @@
+0,1,2,3
+Costa,NNP,B-NP,B-LOC
+Rica,NNP,I-NP,I-LOC
+-,:,O,O
+Ronaldo,NNP,B-NP,B-PER
+Gonzalez,NNP,I-NP,I-PER
+(,(,O,O
+10th,JJ,B-NP,O
+minute,NN,I-NP,O
+",",",",O,O
+penalty,NN,B-NP,O

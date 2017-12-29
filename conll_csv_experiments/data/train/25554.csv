@@ -1,0 +1,13 @@
+0,1,2,3
+They,PRP,B-NP,O
+could,MD,B-VP,O
+not,RB,I-VP,O
+agree,VB,I-VP,O
+",",",",O,O
+so,RB,B-NP,O
+asked,VBN,I-NP,O
+her,PRP$,I-NP,O
+to,TO,B-VP,O
+stay,VB,I-VP,O
+on,IN,B-PP,O
+.,.,O,O

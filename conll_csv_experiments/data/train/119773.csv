@@ -1,0 +1,5 @@
+0,1,2,3
+English,JJ,B-NP,B-MISC
+league,NN,I-NP,O
+soccer,NN,I-NP,O
+standings,NNS,I-NP,O

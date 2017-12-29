@@ -1,0 +1,17 @@
+0,1,2,3
+Bernardin,NN,B-NP,B-PER
+steadfastly,RB,B-ADVP,O
+denied,VBD,B-VP,O
+the,DT,B-NP,O
+charges,NNS,I-NP,O
+and,CC,O,O
+the,DT,B-NP,O
+former,JJ,I-NP,O
+student,NN,I-NP,O
+later,RB,B-ADVP,O
+recanted,VBD,B-VP,O
+his,PRP$,B-NP,O
+tale,NN,I-NP,O
+of,IN,B-PP,O
+abuse,NN,B-NP,O
+.,.,O,O

@@ -1,0 +1,16 @@
+0,1,2,3
+China,NNP,B-NP,B-LOC
+will,MD,B-VP,O
+resume,VB,I-VP,O
+sovereignty,NN,B-NP,O
+over,IN,B-PP,O
+Hong,NNP,B-NP,B-LOC
+Kong,NNP,I-NP,I-LOC
+",",",",O,O
+a,DT,B-NP,O
+British,JJ,I-NP,B-MISC
+colony,NN,I-NP,O
+",",",",O,O
+in,IN,B-PP,O
+mid-1997,NN,B-NP,O
+.,.,O,O

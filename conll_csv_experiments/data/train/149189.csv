@@ -1,0 +1,8 @@
+0,1,2,3
+2.,NNP,B-NP,O
+Andrea,NNP,I-NP,B-PER
+Muller,NNP,I-NP,I-PER
+(,(,O,O
+Germany,NNP,B-NP,B-LOC
+),),O,O
+3.75,CD,B-NP,O

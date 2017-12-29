@@ -1,0 +1,34 @@
+0,1,2,3
+ ,O,O,<UNK>
+Singapore,NNP,B-NP,B-LOC
+stands,VBZ,B-VP,O
+to,TO,I-VP,O
+benefit,VB,I-VP,O
+more,JJR,B-NP,O
+than,IN,I-NP,O
+most,RBS,I-NP,O
+from,IN,B-PP,O
+continued,JJ,B-NP,O
+global,JJ,I-NP,O
+trade,NN,I-NP,O
+liberalisation,NN,I-NP,O
+as,IN,B-PP,O
+trade,NN,B-NP,O
+is,VBZ,B-VP,O
+the,DT,B-NP,O
+engine,NN,I-NP,O
+of,IN,B-PP,O
+its,PRP$,B-NP,O
+growth,NN,I-NP,O
+",",",",O,O
+accounting,VBG,B-VP,O
+for,IN,B-PP,O
+nearly,RB,B-NP,O
+three,CD,I-NP,O
+times,NNS,I-NP,O
+its,PRP$,I-NP,O
+gross,JJ,I-NP,O
+domestic,JJ,I-NP,O
+product,NN,I-NP,O
+.,.,O,O
+ ,O,O,<UNK>

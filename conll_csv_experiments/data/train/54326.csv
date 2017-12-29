@@ -1,0 +1,13 @@
+0,1,2,3
+Adrian,NNP,B-NP,B-PER
+Voinea,NNP,I-NP,I-PER
+(,(,O,O
+Romania,NNP,B-NP,B-LOC
+),),O,O
+beat,VB,B-VP,O
+Thomas,NNP,B-NP,B-PER
+Johansson,NNP,I-NP,I-PER
+(,(,O,O
+Sweden,NNP,B-NP,B-LOC
+),),O,O
+7-6,CD,B-ADVP,O

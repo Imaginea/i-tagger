@@ -1,0 +1,19 @@
+0,1,2,3
+In,IN,B-PP,O
+that,DT,B-NP,O
+sense,NN,I-NP,O
+",",",",O,O
+the,DT,B-NP,O
+comments,NNS,I-NP,O
+are,VBP,B-VP,O
+not,RB,I-VP,O
+pointing,VBG,I-VP,O
+to,TO,B-PP,O
+a,DT,B-NP,O
+certain,JJ,I-NP,O
+direction,NN,I-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+he,PRP,B-NP,O
+said,VBD,B-VP,O
+.,.,O,O

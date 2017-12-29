@@ -1,0 +1,7 @@
+0,1,2,3
+ ,O,O,<UNK>
+We,PRP,B-NP,O
+condemn,VBP,B-VP,O
+Iraqi,JJ,B-NP,B-MISC
+involvement,NN,I-NP,O
+.,.,O,O

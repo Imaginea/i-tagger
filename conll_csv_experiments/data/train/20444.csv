@@ -1,0 +1,7 @@
+0,1,2,3
+ ,O,O,<UNK>
+Its,PRP$,B-NP,O
+not,RB,I-NP,O
+an,DT,B-NP,O
+accident,NN,I-NP,O
+.,.,O,O

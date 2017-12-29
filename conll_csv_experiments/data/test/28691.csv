@@ -1,0 +1,11 @@
+0,1,2,3
+Thursday,NNP,B-NP,O
+200,CD,I-NP,O
+Last,JJ,I-NP,O
+Week,NNP,I-NP,O
+Holiday,NNP,I-NP,O
+Last,JJ,I-NP,O
+Year,NNP,I-NP,O
+N,NNP,I-NP,O
+/,SYM,O,O
+A,DT,B-NP,O

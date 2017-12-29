@@ -1,0 +1,17 @@
+0,1,2,3
+Bucharest,NN,B-NP,B-LOC
+and,CC,O,O
+Budapest,NNP,B-NP,B-LOC
+say,VBP,B-VP,O
+the,DT,B-NP,O
+treaty,NN,I-NP,O
+should,MD,B-VP,O
+be,VB,I-VP,O
+signed,VBN,I-VP,O
+in,IN,B-PP,O
+the,DT,B-NP,O
+first,JJ,I-NP,O
+half,NN,I-NP,O
+of,IN,B-PP,O
+September,NNP,B-NP,O
+.,.,O,O

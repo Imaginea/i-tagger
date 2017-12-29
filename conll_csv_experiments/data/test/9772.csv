@@ -1,0 +1,7 @@
+0,1,2,3
+Can,MD,O,O
+Milan,NNP,B-NP,B-ORG
+sink,NN,I-NP,O
+any,RB,B-ADVP,O
+further,RB,I-ADVP,O
+?,.,O,O

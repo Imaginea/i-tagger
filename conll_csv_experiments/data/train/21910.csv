@@ -1,0 +1,6 @@
+0,1,2,3
+Expected,VBN,B-VP,O
+Sale,NNP,B-NP,O
+Date,NNP,I-NP,O
+:,:,O,O
+08/27/96,CD,B-NP,O

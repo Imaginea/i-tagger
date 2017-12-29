@@ -1,0 +1,7 @@
+0,1,2,3
+He,PRP,B-NP,O
+leaves,VBZ,B-VP,O
+Rome,NNP,B-NP,B-LOC
+on,IN,B-PP,O
+Monday,NNP,B-NP,O
+.,.,O,O

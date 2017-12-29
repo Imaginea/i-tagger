@@ -1,0 +1,12 @@
+0,1,2,3
+Winner,NNP,B-NP,O
+owned,VBN,B-VP,O
+by,IN,B-PP,O
+the,DT,B-NP,O
+Cheveley,NNP,I-NP,B-ORG
+Park,NNP,I-NP,I-ORG
+Stud,NNP,I-NP,I-ORG
+and,CC,O,O
+trained,VBN,B-NP,O
+by,IN,B-PP,O
+Sir,NNP,B-NP,O

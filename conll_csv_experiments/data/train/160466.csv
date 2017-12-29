@@ -1,0 +1,10 @@
+0,1,2,3
+10-0-59-1,NNP,B-NP,O
+Muralitharan,NNP,I-NP,B-PER
+10-0-42-0,CD,I-NP,O
+",",",",O,O
+Jayasuriya,NNP,B-NP,B-PER
+10-1-39-1,CD,I-NP,O
+",",",",O,O
+de,FW,B-ADVP,B-PER
+Silva,NN,B-NP,I-PER

@@ -1,0 +1,8 @@
+0,1,2,3
+Nottinghamshire,NNP,B-NP,B-ORG
+8,CD,I-NP,O
+points,NNS,I-NP,O
+",",",",O,O
+Surrey,NNP,B-NP,B-ORG
+7,CD,I-NP,O
+.,.,O,O

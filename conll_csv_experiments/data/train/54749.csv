@@ -1,0 +1,9 @@
+0,1,2,3
++3,CD,B-NP,O
+Alexander,NNP,I-NP,B-PER
+Cejka,NNP,I-NP,I-PER
+(,(,O,O
+Germany,NNP,B-NP,B-LOC
+),),O,O
+through,IN,B-PP,O
+10,CD,B-NP,O

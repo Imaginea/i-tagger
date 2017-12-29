@@ -1,0 +1,17 @@
+0,1,2,3
+285,CD,B-NP,O
+Loren,NNP,I-NP,B-PER
+Roberts,NNP,I-NP,I-PER
+72,CD,I-NP,O
+73,CD,I-NP,O
+71,CD,I-NP,O
+69,CD,I-NP,O
+",",",",O,O
+Hal,NNP,B-NP,B-PER
+Sutton,NNP,I-NP,I-PER
+72,CD,I-NP,O
+69,CD,I-NP,O
+74,CD,B-NP,O
+70,CD,I-NP,O
+",",",",O,O
+Fred,NNP,B-NP,B-PER

@@ -1,0 +1,15 @@
+0,1,2,3
+Herman,NNP,B-NP,B-PER
+Gumy,NNP,I-NP,I-PER
+(,(,O,O
+Argentina,NNP,B-NP,B-LOC
+),),O,O
+beat,VB,B-VP,O
+Martin,NNP,B-NP,B-PER
+Damm,NNP,I-NP,I-PER
+(,(,O,O
+Czech,NNP,B-NP,B-LOC
+Republic,NNP,I-NP,I-LOC
+),),O,O
+7-5,CD,B-NP,O
+6,CD,I-NP,O

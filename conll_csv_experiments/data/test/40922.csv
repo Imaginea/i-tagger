@@ -1,0 +1,8 @@
+0,1,2,3
+24.,CD,B-NP,O
+Catherine,NNP,I-NP,B-PER
+Borghi,NNP,I-NP,I-PER
+(,(,O,O
+Switzerland,NNP,B-NP,B-LOC
+),),O,O
+1:50.72,CD,B-NP,O

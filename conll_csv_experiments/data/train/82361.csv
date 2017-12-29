@@ -1,0 +1,7 @@
+0,1,2,3
+Rugby,JJ,B-NP,O
+league-Australian,JJ,I-NP,B-MISC
+rugby,JJ,I-NP,O
+league,NN,I-NP,O
+results,NNS,I-NP,O
+.,.,O,O

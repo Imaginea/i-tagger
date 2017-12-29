@@ -1,0 +1,10 @@
+0,1,2,3
+Venantius,JJ,B-NP,B-ORG
+sets,NNS,I-NP,O
+$,$,B-NP,O
+300,CD,I-NP,O
+million,CD,I-NP,O
+January,NNP,I-NP,O
+1999,CD,I-NP,O
+FRN,NNP,I-NP,O
+.,.,O,O

@@ -1,0 +1,10 @@
+0,1,2,3
+Grunde,NNP,B-NP,B-PER
+Njos,NNP,I-NP,I-PER
+(,(,O,O
+Norway,NNP,B-NP,B-LOC
+),),O,O
+37.49,CD,B-NP,O
+;,:,O,O
+4,LS,B-LST,O
+.,.,O,O

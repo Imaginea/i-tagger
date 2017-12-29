@@ -1,0 +1,22 @@
+0,1,2,3
+ ,O,O,<UNK>
+The,DT,B-NP,O
+deal,NN,I-NP,O
+really,RB,B-ADVP,O
+levels,VBZ,B-VP,O
+the,DT,B-NP,O
+seating,NN,I-NP,O
+field,NN,I-NP,O
+somewhat,RB,B-ADVP,O
+",",",",O,O
+ ,O,O,<UNK>
+said,VBD,B-VP,O
+John,NNP,B-NP,B-PER
+Casesa,NNP,I-NP,I-PER
+of,IN,B-PP,O
+Schroder,NNP,B-NP,B-ORG
+Wertheim,NNP,I-NP,I-ORG
+&,CC,I-NP,I-ORG
+Co,NNP,I-NP,I-ORG
+.,.,I-NP,O
+ ,O,O,<UNK>

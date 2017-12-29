@@ -1,0 +1,6 @@
+0,1,2,3
+Underwriters,NNS,B-NP,O
+over-allotment,NN,I-NP,O
+N,NNP,I-NP,O
+/,SYM,O,O
+A,DT,B-NP,O

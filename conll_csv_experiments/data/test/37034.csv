@@ -1,0 +1,6 @@
+0,1,2,3
+But,CC,O,B-MISC
+2,CD,B-NP,O
+27/11/96,CD,I-NP,O
+"5,000",CD,I-NP,O
+Burma,NNP,I-NP,B-LOC

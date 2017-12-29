@@ -1,0 +1,13 @@
+0,1,2,3
+Texas,NNP,B-NP,B-ORG
+'s,POS,B-NP,O
+lead,NN,I-NP,O
+over,IN,B-PP,O
+Seattle,NNP,B-NP,B-ORG
+in,IN,B-PP,O
+the,DT,B-NP,O
+West,JJ,I-NP,B-LOC
+increased,VBN,I-NP,O
+to,TO,B-PP,O
+six,CD,B-NP,O
+.,.,O,O

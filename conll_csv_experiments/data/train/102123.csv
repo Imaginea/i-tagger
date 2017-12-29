@@ -1,0 +1,9 @@
+0,1,2,3
+C.,NNP,B-NP,B-PER
+Evans,NNP,I-NP,I-PER
+c,SYM,O,O
+Healy,NNP,B-NP,B-PER
+b,SYM,O,O
+S.,NNP,B-NP,B-PER
+Waugh,NNP,I-NP,I-PER
+15,CD,I-NP,O

@@ -1,0 +1,9 @@
+0,1,2,3
+RESEARCH,NNP,B-NP,O
+ALERT,NNP,I-NP,O
+-,:,O,O
+Career,NNP,B-NP,B-ORG
+Horizons,NNP,I-NP,I-ORG
+said,VBD,B-VP,O
+cut,VBN,I-VP,O
+.,.,O,O

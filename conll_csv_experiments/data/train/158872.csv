@@ -1,0 +1,6 @@
+0,1,2,3
+Karlsruhe,NNP,B-NP,B-ORG
+4,CD,I-NP,O
+St,NNP,I-NP,B-ORG
+Pauli,NNP,I-NP,I-ORG
+0,CD,I-NP,O

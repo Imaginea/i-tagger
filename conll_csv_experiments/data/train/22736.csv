@@ -1,0 +1,10 @@
+0,1,2,3
+His,PRP$,B-NP,O
+deputy,NN,I-NP,O
+earlier,RB,B-ADVP,O
+speculated,VBD,B-VP,O
+at,IN,B-NP,O
+least,JJS,I-NP,O
+10,CD,I-NP,O
+days,NNS,I-NP,O
+.,.,O,O

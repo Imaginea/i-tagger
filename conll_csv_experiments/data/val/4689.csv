@@ -1,0 +1,17 @@
+0,1,2,3
+ ,O,O,<UNK>
+We,PRP,B-NP,O
+finally,RB,B-ADVP,O
+got,VBD,B-VP,O
+things,NNS,B-NP,O
+going,VBG,B-VP,O
+in,IN,B-PP,O
+the,DT,B-NP,O
+right,JJ,I-NP,O
+direction,NN,I-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+he,PRP,B-NP,O
+said,VBD,B-VP,O
+.,.,O,O
+ ,O,O,<UNK>

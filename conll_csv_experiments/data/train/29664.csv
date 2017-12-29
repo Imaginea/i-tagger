@@ -1,0 +1,21 @@
+0,1,2,3
+However,RB,B-ADVP,O
+",",",",O,O
+he,PRP,B-NP,O
+singled,VBD,B-VP,O
+out,RP,B-PRT,O
+ ,O,O,<UNK>
+Mission,NNP,B-NP,B-MISC
+:,:,O,I-MISC
+Impossible,JJ,B-ADJP,I-MISC
+ ,O,O,<UNK>
+as,IN,B-PP,O
+an,DT,B-NP,O
+especially,RB,I-NP,O
+entertaining,JJ,B-ADJP,O
+movie,NN,B-NP,O
+",",",",O,O
+Daily,NNP,B-NP,B-ORG
+Variety,NNP,I-NP,I-ORG
+said,VBD,B-VP,O
+.,.,O,O

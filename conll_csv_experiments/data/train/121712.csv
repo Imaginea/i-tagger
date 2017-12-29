@@ -1,0 +1,14 @@
+0,1,2,3
+Mir,NNP,B-NP,B-PER
+Zaman,NNP,I-NP,I-PER
+Gul,NNP,I-NP,I-PER
+(,(,O,O
+Pakistan,NNP,B-NP,B-LOC
+),),O,O
+beat,VB,B-VP,O
+Stephen,NNP,B-NP,B-PER
+Meads,NNP,I-NP,I-PER
+(,(,O,O
+England,NNP,B-NP,B-LOC
+),),O,O
+10-15,CD,B-NP,O

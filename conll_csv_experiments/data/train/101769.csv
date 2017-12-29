@@ -1,0 +1,10 @@
+0,1,2,3
+Sturm,NN,B-NP,B-ORG
+Graz,NNP,I-NP,I-ORG
+6,CD,I-NP,O
+2,CD,I-NP,O
+3,CD,I-NP,O
+1,CD,I-NP,O
+8,CD,I-NP,O
+5,CD,I-NP,O
+9,CD,I-NP,O

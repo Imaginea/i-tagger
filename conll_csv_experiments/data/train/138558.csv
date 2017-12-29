@@ -1,0 +1,15 @@
+0,1,2,3
+The,DT,B-NP,O
+French,JJ,I-NP,B-MISC
+team,NN,I-NP,O
+won,VBD,B-VP,O
+95,CD,B-NP,O
+medals,NNS,I-NP,O
+in,IN,B-PP,O
+Atlanta,NNP,B-NP,B-LOC
+",",",",O,O
+35,CD,B-NP,O
+of,IN,B-PP,O
+them,PRP,B-NP,O
+gold,JJ,B-NP,O
+.,.,O,O

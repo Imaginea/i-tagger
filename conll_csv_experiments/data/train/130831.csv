@@ -1,0 +1,16 @@
+0,1,2,3
+The,DT,B-NP,O
+PUNR,NN,I-NP,B-ORG
+holds,VBZ,B-VP,O
+four,CD,B-NP,O
+key,JJ,I-NP,O
+ministries,NNS,I-NP,O
+--,:,O,O
+justice,NN,B-NP,O
+",",",",O,O
+transport,NN,B-NP,O
+",",",",O,O
+agriculture,NN,B-NP,O
+and,CC,I-NP,O
+communications,NNS,I-NP,O
+.,.,O,O

@@ -1,0 +1,28 @@
+0,1,2,3
+ ,O,O,<UNK>
+The,DT,B-NP,O
+year,NN,I-NP,O
+just,RB,B-ADVP,O
+gone,VBN,B-VP,O
+was,VBD,B-VP,O
+disappointing,JJ,B-ADJP,O
+",",",",O,O
+but,CC,O,O
+the,DT,B-NP,O
+outlook,NN,I-NP,O
+for,IN,B-PP,O
+the,DT,B-NP,O
+current,JJ,I-NP,O
+year,NN,I-NP,O
+looks,VBZ,B-VP,O
+good,JJ,B-ADJP,O
+",",",",O,O
+ ,O,O,<UNK>
+First,NNP,B-NP,B-ORG
+Pacific,NNP,I-NP,I-ORG
+media,NNS,I-NP,O
+analyst,NN,I-NP,O
+Lachlan,NNP,B-NP,B-PER
+Drummond,NNP,I-NP,I-PER
+said,VBD,B-VP,O
+.,.,O,O

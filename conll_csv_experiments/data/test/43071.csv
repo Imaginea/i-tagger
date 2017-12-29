@@ -1,0 +1,8 @@
+0,1,2,3
+1.,CD,B-NP,O
+Franziska,NNP,I-NP,B-PER
+Schenk,NNP,I-NP,I-PER
+(,(,O,O
+Germany,NNP,B-NP,B-LOC
+),),O,O
+1:23.17,CD,B-NP,O

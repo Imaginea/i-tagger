@@ -1,0 +1,10 @@
+0,1,2,3
+Five,CD,B-NP,O
+die,VBP,B-VP,O
+as,IN,B-SBAR,O
+SAfrican,JJ,B-NP,B-MISC
+crop,NN,I-NP,O
+plane,NN,I-NP,O
+hits,NNS,I-NP,O
+pickup,NN,I-NP,O
+.,.,O,O

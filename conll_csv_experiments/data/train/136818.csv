@@ -1,0 +1,5 @@
+0,1,2,3
+96,CD,B-NP,O
+State,NN,B-NP,O
+:,:,O,O
+AL,NNS,B-NP,B-LOC

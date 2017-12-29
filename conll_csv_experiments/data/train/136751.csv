@@ -1,0 +1,6 @@
+0,1,2,3
+(,(,O,O
+Chicago,NNP,B-NP,B-LOC
+bureau,NN,I-NP,O
+312-408-8720,CD,I-NP,O
+),),O,O

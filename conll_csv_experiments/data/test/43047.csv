@@ -1,0 +1,8 @@
+0,1,2,3
+9.,CD,B-NP,O
+Jeremy,NNP,B-NP,B-PER
+Wotherspoon,NNP,I-NP,I-PER
+(,(,O,O
+Canada,NNP,B-NP,B-LOC
+),),O,O
+1:16.75,CD,B-NP,O

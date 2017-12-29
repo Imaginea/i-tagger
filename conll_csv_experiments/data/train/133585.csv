@@ -1,0 +1,35 @@
+0,1,2,3
+ ,O,O,<UNK>
+We,PRP,B-NP,O
+oppose,VBP,B-VP,O
+the,DT,B-NP,O
+way,NN,I-NP,O
+the,DT,B-NP,O
+government,NN,I-NP,O
+is,VBZ,B-VP,O
+proceeding,VBG,I-VP,O
+with,IN,B-PP,O
+the,DT,B-NP,O
+sale,NN,I-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+Ramon,NNP,B-NP,B-PER
+Machuca,NNP,I-NP,I-PER
+",",",",O,O
+Sidor,NNP,B-NP,B-ORG
+trade,NN,I-NP,O
+union,NN,I-NP,O
+Secretary,NNP,I-NP,O
+General,NNP,I-NP,O
+and,CC,O,O
+member,NN,B-NP,O
+of,IN,B-PP,O
+union-based,JJ,B-NP,O
+opposition,NN,I-NP,O
+party,NN,I-NP,O
+Radical,NNP,I-NP,B-ORG
+Cause,NNP,I-NP,I-ORG
+",",",",O,O
+told,VBD,B-VP,O
+reporters,NNS,B-NP,O
+.,.,O,O

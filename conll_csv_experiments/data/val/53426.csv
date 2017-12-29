@@ -1,0 +1,9 @@
+0,1,2,3
+Italy,NNP,B-NP,B-LOC
+'s,POS,B-NP,O
+Dini,NNP,I-NP,B-PER
+meets,VBZ,B-VP,O
+Burundi,NNP,B-NP,B-LOC
+negotiator,NN,I-NP,O
+Nyerere,NNS,I-NP,B-PER
+.,.,O,O

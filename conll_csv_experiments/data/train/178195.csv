@@ -1,0 +1,10 @@
+0,1,2,3
+FSA,NNP,B-NP,B-ORG
+qualifies,VBZ,B-VP,O
+five,CD,B-NP,O
+muni,NNS,I-NP,O
+bond,NN,B-NP,O
+issues,NNS,I-NP,O
+for,IN,B-PP,O
+insurance,NN,B-NP,O
+.,.,O,O

@@ -1,0 +1,10 @@
+0,1,2,3
+J.,NNP,B-NP,B-PER
+Crawley,NNP,I-NP,I-PER
+c,SYM,O,O
+Aamir,NNP,B-NP,B-PER
+Sohail,NNP,I-NP,I-PER
+b,SYM,O,O
+Wasim,NNP,B-NP,B-PER
+Akram,NNP,I-NP,I-PER
+19,CD,I-NP,O

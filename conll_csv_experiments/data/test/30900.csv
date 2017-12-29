@@ -1,0 +1,10 @@
+0,1,2,3
+He,PRP,B-NP,O
+is,VBZ,B-VP,O
+getting,VBG,I-VP,O
+on,RP,B-PRT,O
+with,IN,B-PP,O
+the,DT,B-NP,O
+job,NN,I-NP,O
+.,.,O,O
+ ,O,O,<UNK>

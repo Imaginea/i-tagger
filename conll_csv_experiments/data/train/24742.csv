@@ -1,0 +1,16 @@
+0,1,2,3
+Over,IN,B-PP,O
+a,DT,B-NP,O
+dozen,NN,I-NP,O
+militant,JJ,I-NP,O
+groups,NNS,I-NP,O
+are,VBP,B-VP,O
+fighting,VBG,I-VP,O
+New,NNP,B-NP,B-LOC
+Delhi,NNP,I-NP,I-LOC
+'s,POS,B-NP,O
+rule,NN,I-NP,O
+in,IN,B-PP,O
+the,DT,B-NP,O
+state,NN,I-NP,O
+.,.,O,O

@@ -1,0 +1,10 @@
+0,1,2,3
+6.,NNP,B-NP,O
+Scott,NNP,I-NP,B-PER
+Russell,NNP,I-NP,I-PER
+(,(,O,O
+United,NNP,B-NP,B-LOC
+States,NNP,I-NP,I-LOC
+),),O,O
+Suzuki,NNP,B-NP,B-ORG
+1:51.287,CD,I-NP,O

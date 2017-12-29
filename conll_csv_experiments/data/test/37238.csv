@@ -1,0 +1,37 @@
+0,1,2,3
+ ,O,O,<UNK>
+A,DT,B-NP,O
+sale,NN,I-NP,O
+of,IN,B-PP,O
+about,IN,B-NP,O
+$,$,I-NP,O
+60,CD,I-NP,O
+million,CD,I-NP,O
+by,IN,B-PP,O
+Hyundai,NNP,B-NP,B-ORG
+Heavy,NNP,I-NP,I-ORG
+pushed,VBD,B-VP,O
+the,DT,B-NP,O
+dollar,NN,I-NP,O
+down,RP,B-PRT,O
+earlier,RBR,B-ADVP,O
+in,IN,B-PP,O
+the,DT,B-NP,O
+day,NN,I-NP,O
+",",",",O,O
+but,CC,O,O
+Monday,NNP,B-NP,O
+'s,POS,B-NP,O
+import,NN,I-NP,O
+needs,NNS,I-NP,O
+helped,VBD,B-VP,O
+it,PRP,B-NP,O
+recover,VB,B-VP,O
+",",",",O,O
+ ,O,O,<UNK>
+said,VBD,B-VP,O
+a,DT,B-NP,O
+Koram,NNP,I-NP,B-ORG
+Bank,NNP,I-NP,I-ORG
+dealer,NN,I-NP,O
+.,.,O,O

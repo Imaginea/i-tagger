@@ -1,0 +1,51 @@
+0,1,2,3
+The,DT,B-NP,O
+dreaded,VBN,I-NP,O
+ ,O,O,<UNK>
+chupabolos,VBZ,B-VP,O
+ ,O,O,<UNK>
+--,:,O,O
+ ,O,O,<UNK>
+drunksucker,VB,B-VP,O
+ ,O,O,<UNK>
+--,:,O,O
+preys,NNS,B-NP,O
+on,IN,B-PP,O
+men,NNS,B-NP,O
+who,WP,B-NP,O
+have,VBP,B-VP,O
+passed,VBN,I-VP,O
+out,RP,B-PRT,O
+in,IN,B-PP,O
+the,DT,B-NP,O
+streets,NNS,I-NP,O
+of,IN,B-PP,O
+Matagalpa,NNP,B-NP,B-LOC
+",",",",O,O
+80,CD,B-NP,O
+miles,NNS,I-NP,O
+(,(,O,O
+130,CD,B-NP,O
+kms,NNS,I-NP,O
+),),O,O
+north,RB,B-ADVP,O
+of,IN,B-PP,O
+Managua,NNP,B-NP,B-LOC
+",",",",O,O
+placing,VBG,B-VP,O
+hickey-like,JJ,B-NP,O
+ ,O,O,<UNK>
+lovebites,NNS,B-NP,O
+ ,O,O,<UNK>
+on,IN,B-PP,O
+various,JJ,B-NP,O
+parts,NNS,I-NP,O
+of,IN,B-PP,O
+their,PRP$,B-NP,O
+bodies,NNS,I-NP,O
+",",",",O,O
+El,NNP,B-NP,B-ORG
+Nuevo,NNP,I-NP,I-ORG
+Diario,NNP,I-NP,I-ORG
+reported,VBD,B-VP,O
+.,.,O,O

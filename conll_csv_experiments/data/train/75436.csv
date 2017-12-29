@@ -1,0 +1,12 @@
+0,1,2,3
+Sydney,NNP,B-NP,B-ORG
+Bulldogs,NNP,I-NP,I-ORG
+17,CD,I-NP,O
+South,NNP,I-NP,B-ORG
+Queensland,NNP,I-NP,I-ORG
+16,CD,I-NP,O
+Brisbane,NNP,I-NP,B-ORG
+38,CD,I-NP,O
+Gold,NNP,I-NP,B-ORG
+Coast,NNP,I-NP,I-ORG
+10,CD,I-NP,O

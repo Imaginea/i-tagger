@@ -1,0 +1,5 @@
+0,1,2,3
+37.,NNP,B-NP,O
+Northern,NNP,I-NP,B-LOC
+Ireland,NNP,I-NP,I-LOC
+7.89,CD,I-NP,O

@@ -1,0 +1,6 @@
+0,1,2,3
+0,CD,B-NP,O
+Davis,NNP,I-NP,B-PER
+Love,NNP,I-NP,I-PER
+through,IN,B-PP,O
+5,CD,B-NP,O

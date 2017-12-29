@@ -1,0 +1,19 @@
+0,1,2,3
+ ,O,O,<UNK>
+Extradition,NN,B-NP,O
+is,VBZ,B-VP,O
+not,RB,O,O
+on,IN,B-PP,O
+the,DT,B-NP,O
+government,NN,I-NP,O
+'s,POS,B-NP,O
+legislative,JJ,I-NP,O
+agenda,NN,I-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+he,PRP,B-NP,O
+told,VBD,B-VP,O
+reporters,NNS,B-NP,O
+on,IN,B-PP,O
+Tuesday,NNP,B-NP,O
+.,.,O,O

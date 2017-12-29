@@ -1,0 +1,10 @@
+0,1,2,3
+10.,CD,B-NP,O
+Angelo,NNP,B-NP,B-PER
+Medeghini,NNP,I-NP,I-PER
+(,(,O,O
+Italy,NNP,O,B-LOC
+),),O,O
+Subaru,NNP,B-NP,B-MISC
+Impreza,NNP,I-NP,I-MISC
+18:28,CD,I-NP,O

@@ -1,0 +1,8 @@
+0,1,2,3
+Plastic,NN,B-NP,O
+surgery,NN,I-NP,O
+gets,VBZ,B-VP,O
+boost,NN,B-NP,O
+in,IN,B-PP,O
+Brazil,NNP,B-NP,B-LOC
+.,.,O,O

@@ -1,0 +1,14 @@
+0,1,2,3
+Final,JJ,B-NP,O
+standings,NNS,I-NP,O
+(,(,O,O
+tabulated,VBN,B-VP,O
+under,IN,B-PP,O
+played,JJ,B-NP,O
+",",",",O,O
+won,VBD,B-VP,O
+",",",",B-VP,O
+drawn,VBN,I-VP,O
+",",",",O,O
+lost,VBD,B-VP,O
+",",",",O,O

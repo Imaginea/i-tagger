@@ -1,0 +1,11 @@
+0,1,2,3
+We,PRP,B-NP,O
+'ve,VBP,B-VP,O
+got,VBD,I-VP,O
+to,TO,I-VP,O
+make,VB,I-VP,O
+up,RP,B-PRT,O
+some,DT,B-NP,O
+ground,NN,I-NP,O
+.,.,O,O
+ ,O,O,<UNK>

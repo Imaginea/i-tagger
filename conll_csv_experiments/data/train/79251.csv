@@ -1,0 +1,11 @@
+0,1,2,3
+Swiss,NNP,B-NP,B-MISC
+Grand,NNP,I-NP,B-MISC
+Prix,NNP,I-NP,I-MISC
+World,NNP,I-NP,B-MISC
+Cup,NNP,I-NP,I-MISC
+cycling,NN,I-NP,O
+race,NN,I-NP,O
+on,IN,B-PP,O
+Sunday,NNP,B-NP,O
+:,:,O,O

@@ -1,0 +1,9 @@
+0,1,2,3
+Port,NN,B-NP,O
+conditions,NNS,I-NP,O
+from,IN,B-PP,O
+Lloyds,NNP,B-NP,B-ORG
+Shipping,NNP,I-NP,I-ORG
+Intelligence,NNP,I-NP,I-ORG
+Service,NNP,I-NP,I-ORG
+--,:,O,O

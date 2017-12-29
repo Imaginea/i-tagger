@@ -1,0 +1,16 @@
+0,1,2,3
+Anthony,NNP,B-NP,B-PER
+Hill,NNP,I-NP,I-PER
+(,(,O,O
+Australia,NNP,B-NP,B-LOC
+),),O,O
+beat,VB,B-VP,O
+Dan,NNP,B-NP,B-PER
+Jenson,NNP,I-NP,I-PER
+(,(,O,O
+Australia,NNP,B-NP,B-LOC
+),),O,O
+15-9,CD,B-NP,O
+15-8,CD,I-NP,O
+15-17,NN,B-ADVP,O
+17-15,CD,B-NP,O

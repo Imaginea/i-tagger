@@ -1,0 +1,8 @@
+0,1,2,3
+David,NNP,B-NP,B-PER
+Prinosil,NNP,I-NP,I-PER
+(,(,O,O
+Germany,NNP,B-NP,B-LOC
+),),O,O
+vs.,IN,B-PP,O
+qualifier,NN,B-NP,O

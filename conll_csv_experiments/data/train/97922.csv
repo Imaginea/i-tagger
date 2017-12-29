@@ -1,0 +1,15 @@
+0,1,2,3
+I,PRP,B-NP,O
+was,VBD,B-VP,O
+really,RB,I-VP,O
+concentrating,VBG,I-VP,O
+on,IN,B-PP,O
+keeping,VBG,B-VP,O
+my,PRP$,B-NP,O
+own,JJ,I-NP,O
+momentum,NN,I-NP,O
+and,CC,O,O
+my,PRP$,B-NP,O
+own,JJ,I-NP,O
+rhythm,NN,I-NP,O
+.,.,O,O

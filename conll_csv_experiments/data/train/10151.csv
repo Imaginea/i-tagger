@@ -1,0 +1,13 @@
+0,1,2,3
+Martin,NNP,B-NP,B-PER
+Damm,NNP,I-NP,I-PER
+(,(,O,O
+Czech,NNP,B-NP,B-LOC
+Republic,NNP,I-NP,I-LOC
+),),O,O
+vs.,IN,B-PP,O
+Hernan,NNP,B-NP,B-PER
+Gumy,NNP,I-NP,I-PER
+(,(,O,O
+Argentina,NNP,B-NP,B-LOC
+),),O,O

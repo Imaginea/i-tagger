@@ -1,0 +1,19 @@
+0,1,2,3
+ ,O,O,<UNK>
+The,DT,B-NP,O
+more,RBR,I-NP,O
+important,JJ,I-NP,O
+thing,NN,I-NP,O
+for,IN,B-PP,O
+me,PRP,B-NP,O
+was,VBD,B-VP,O
+to,TO,I-VP,O
+get,VB,I-VP,O
+them,PRP,B-NP,O
+down,RB,B-PP,O
+here,RB,B-ADVP,O
+and,CC,O,O
+have,VB,B-VP,O
+a,DT,B-NP,O
+chat,NN,I-NP,O
+.,.,O,O

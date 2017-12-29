@@ -1,0 +1,9 @@
+0,1,2,3
+Canadian,NNP,B-NP,B-MISC
+West,NNP,I-NP,O
+Coast,NNP,I-NP,O
+Vessel,NNP,I-NP,O
+Loadings,NNP,I-NP,O
+-,:,O,O
+CWB,NNP,B-NP,O
+.,.,O,O

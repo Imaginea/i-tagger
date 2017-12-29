@@ -1,0 +1,6 @@
+0,1,2,3
+first,JJ,B-NP,O
+division,NN,I-NP,O
+soccer,NN,I-NP,O
+matches,NNS,I-NP,O
+:,:,O,O

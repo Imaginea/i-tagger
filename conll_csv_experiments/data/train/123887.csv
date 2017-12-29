@@ -1,0 +1,17 @@
+0,1,2,3
+The,DT,B-NP,O
+Cardinals,NNPS,I-NP,B-ORG
+moved,VBD,B-VP,O
+within,IN,B-PP,O
+one-half,JJ,B-NP,O
+game,NN,I-NP,O
+of,IN,B-PP,O
+first-place,NNP,B-NP,O
+Houston,NNP,I-NP,B-ORG
+in,IN,B-PP,O
+the,DT,B-NP,O
+National,NNP,I-NP,B-MISC
+League,NNP,I-NP,I-MISC
+Central,NNP,I-NP,I-MISC
+Division,NNP,I-NP,I-MISC
+.,.,O,O

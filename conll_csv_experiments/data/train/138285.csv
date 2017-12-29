@@ -1,0 +1,17 @@
+0,1,2,3
+Pudvah,NNP,B-NP,B-PER
+said,VBD,B-VP,O
+he,PRP,B-NP,O
+understood,VBN,B-VP,O
+other,JJ,B-NP,O
+people,NNS,I-NP,O
+with,IN,B-PP,O
+minor,JJ,B-NP,O
+injuries,NNS,I-NP,O
+were,VBD,B-VP,O
+being,VBG,I-VP,O
+treated,VBN,I-VP,O
+at,IN,B-PP,O
+the,DT,B-NP,O
+scene,NN,I-NP,O
+.,.,O,O

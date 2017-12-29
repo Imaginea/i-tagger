@@ -1,0 +1,16 @@
+0,1,2,3
+*,SYM,O,O
+Boeing,NNP,B-NP,B-ORG
+Co,NNP,I-NP,I-ORG
+secures,VBZ,B-VP,O
+$,$,B-NP,O
+5.5,CD,I-NP,O
+billion,CD,I-NP,O
+in,IN,B-PP,O
+orders,NNS,B-NP,O
+for,IN,B-PP,O
+new,JJ,B-NP,O
+",",",",I-NP,O
+larger,JJR,I-NP,O
+747s,NNS,I-NP,O
+.,.,O,O

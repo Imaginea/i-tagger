@@ -1,0 +1,10 @@
+0,1,2,3
+Bre-X,NNP,B-NP,B-ORG
+",",",",O,O
+Barrick,NNP,B-NP,B-ORG
+said,VBD,B-VP,O
+to,TO,I-VP,O
+continue,VB,I-VP,O
+Busang,NNP,B-NP,B-LOC
+talks,NNS,I-NP,O
+.,.,O,O

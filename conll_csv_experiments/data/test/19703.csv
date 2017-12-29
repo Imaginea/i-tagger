@@ -1,0 +1,8 @@
+0,1,2,3
+--,:,B-NP,O
+Moscow,NNP,I-NP,B-ORG
+Newsroom,NNP,I-NP,I-ORG
+",",",",O,O
++7095,CD,B-NP,O
+941,CD,I-NP,O
+8520,CD,I-NP,O

@@ -1,0 +1,15 @@
+0,1,2,3
+Wijaya,NNP,B-NP,B-PER
+(,(,O,O
+Indonesia,NNP,O,B-LOC
+),),O,O
+;,:,O,O
+Sun,NNP,B-NP,B-PER
+Jun,NNP,I-NP,I-PER
+(,(,O,O
+China,NNP,B-NP,B-LOC
+),),O,O
+v,JJ,B-NP,O
+Allan,NNP,I-NP,B-PER
+Budi,NNP,I-NP,I-PER
+Kusuma,NNP,I-NP,I-PER

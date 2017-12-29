@@ -1,0 +1,10 @@
+0,1,2,3
+She,PRP,B-NP,O
+was,VBD,B-VP,O
+allowed,VBN,I-VP,O
+to,TO,I-VP,O
+move,VB,I-VP,O
+freely,RB,B-ADVP,O
+on,IN,B-PP,O
+Thursday,NNP,B-NP,O
+.,.,O,O

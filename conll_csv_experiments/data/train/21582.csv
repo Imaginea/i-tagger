@@ -1,0 +1,19 @@
+0,1,2,3
+We,PRP,B-NP,O
+have,VBP,B-VP,O
+n't,RB,I-VP,O
+talked,VBN,I-VP,O
+about,IN,B-PP,O
+it,PRP,B-NP,O
+because,IN,B-SBAR,O
+it,PRP,B-NP,O
+has,VBZ,B-VP,O
+n't,RB,I-VP,O
+been,VBN,I-VP,O
+an,DT,B-NP,O
+issue,NN,I-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+he,PRP,B-NP,O
+said,VBD,B-VP,O
+.,.,O,O

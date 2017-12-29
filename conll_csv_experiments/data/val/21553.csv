@@ -1,0 +1,8 @@
+0,1,2,3
+Aluminium,NNP,B-NP,O
+was,VBD,B-VP,O
+quiet,JJ,B-ADJP,O
+at,IN,B-PP,O
+"7,450",CD,B-NP,O
+rupees,NNS,I-NP,O
+.,.,O,O

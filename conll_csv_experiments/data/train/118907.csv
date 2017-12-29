@@ -1,0 +1,8 @@
+0,1,2,3
+Indonesia,NNP,B-NP,B-LOC
+newspaper,NN,I-NP,O
+reports,VBZ,B-VP,O
+central,JJ,B-NP,O
+bank,NN,I-NP,O
+scandal,NN,I-NP,O
+.,.,O,O

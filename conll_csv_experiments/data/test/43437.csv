@@ -1,0 +1,12 @@
+0,1,2,3
+5,CD,B-NP,O
+-,:,I-NP,O
+Peter,NNP,I-NP,B-PER
+van,NNP,I-NP,I-PER
+Vossen,NNP,I-NP,I-PER
+(,(,O,O
+Rangers,NNPS,B-NP,B-ORG
+),),O,O
+",",",",O,O
+Gerry,NNP,B-NP,B-PER
+Britton,NNP,I-NP,I-PER

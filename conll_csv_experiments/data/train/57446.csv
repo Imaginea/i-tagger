@@ -1,0 +1,8 @@
+0,1,2,3
+Spartak,VB,B-VP,B-ORG
+1,CD,B-NP,O
+Buducnost,NNP,I-NP,B-ORG
+(,(,O,I-ORG
+V,NNP,O,I-ORG
+),),O,I-ORG
+2,CD,B-NP,O

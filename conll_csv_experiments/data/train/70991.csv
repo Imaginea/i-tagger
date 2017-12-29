@@ -1,0 +1,13 @@
+0,1,2,3
+1.,CD,B-NP,O
+Juha,NNP,I-NP,B-PER
+Kankkunen,NNP,I-NP,I-PER
+(,(,O,O
+Finland,NNP,B-NP,B-LOC
+),),O,O
+Toyota,NNP,B-NP,B-MISC
+Celica,NNP,I-NP,I-MISC
+2,CD,I-NP,O
+hours,NNS,I-NP,O
+30,CD,B-NP,O
+minutes,NNS,I-NP,O

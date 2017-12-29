@@ -1,0 +1,14 @@
+0,1,2,3
+ ,O,O,<UNK>
+Sometimes,RB,B-ADVP,O
+you,PRP,B-NP,O
+do,VBP,B-VP,O
+n't,RB,I-VP,O
+have,VB,I-VP,O
+it,PRP,B-NP,O
+in,IN,B-PP,O
+your,PRP$,B-NP,O
+head,NN,I-NP,O
+to,TO,B-VP,O
+play,VB,I-VP,O
+.,.,O,O

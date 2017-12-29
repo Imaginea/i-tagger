@@ -1,0 +1,14 @@
+0,1,2,3
+In,IN,B-PP,O
+four,CD,B-NP,O
+days,NNS,I-NP,O
+",",",",O,O
+the,DT,B-NP,O
+fire,NN,I-NP,O
+destroyed,VBD,B-VP,O
+"20,000",CD,B-NP,O
+acres,NNS,I-NP,O
+of,IN,B-PP,O
+forest,NN,B-NP,O
+land,NN,I-NP,O
+.,.,O,O

@@ -1,0 +1,12 @@
+0,1,2,3
+Jim,NNP,B-NP,B-PER
+Brady,NNP,I-NP,I-PER
+then,RB,B-ADVP,O
+gave,VBD,B-VP,O
+a,DT,B-NP,O
+big,JJ,I-NP,O
+thumbs,NNS,I-NP,O
+to,TO,B-PP,O
+the,DT,B-NP,O
+audience,NN,I-NP,O
+.,.,O,O

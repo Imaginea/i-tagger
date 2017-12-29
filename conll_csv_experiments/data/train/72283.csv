@@ -1,0 +1,10 @@
+0,1,2,3
+and,CC,O,O
+final,JJ,B-NP,O
+test,NN,I-NP,O
+at,IN,B-PP,O
+The,DT,B-NP,B-LOC
+Oval,JJ,I-NP,I-LOC
+on,IN,B-PP,O
+Sunday,NNP,B-NP,O
+.,.,O,O

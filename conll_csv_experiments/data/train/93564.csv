@@ -1,0 +1,7 @@
+0,1,2,3
+Queen,NNP,B-NP,B-ORG
+'s,POS,B-NP,I-ORG
+Park,NNP,I-NP,I-ORG
+v,FW,I-NP,O
+Forfar,NNP,I-NP,B-ORG
+.,.,O,O

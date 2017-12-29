@@ -1,0 +1,10 @@
+0,1,2,3
+Net,JJ,B-NP,O
+per,IN,B-PP,O
+shr,NN,B-NP,O
+(,(,O,O
+guilders,NNS,B-NP,O
+),),O,O
+4.38,CD,B-NP,O
+vs,NNP,O,O
+3.70,CD,B-NP,O

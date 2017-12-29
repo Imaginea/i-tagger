@@ -1,0 +1,9 @@
+0,1,2,3
+minute,NN,B-NP,O
+45.91,CD,B-NP,O
+seconds,NNS,I-NP,O
+(,(,O,O
+52.90,CD,B-NP,O
+/,SYM,O,O
+53.01,CD,B-NP,O
+),),O,O

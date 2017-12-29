@@ -1,0 +1,11 @@
+0,1,2,3
+SVCD,NNP,B-NP,B-ORG
+Bulgaria,NNP,I-NP,I-ORG
+air,NN,I-NP,O
+traffic,NN,I-NP,O
+controllers,NNS,I-NP,O
+to,TO,B-VP,O
+strike,VB,I-VP,O
+September,NNP,B-NP,O
+3,CD,I-NP,O
+.,.,O,O

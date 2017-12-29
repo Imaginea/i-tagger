@@ -1,0 +1,6 @@
+0,1,2,3
+Gross,NNP,B-NP,O
+foreign,JJ,I-NP,O
+debt,NN,I-NP,O
+"27,535.5",CD,I-NP,O
+"27,246.5",CD,I-NP,O

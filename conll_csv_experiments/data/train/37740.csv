@@ -1,0 +1,14 @@
+0,1,2,3
+draws,VBZ,B-VP,O
+for,IN,B-PP,O
+the,DT,B-NP,O
+UEFA,NNP,I-NP,B-ORG
+cup,NN,I-NP,O
+and,CC,O,O
+the,DT,B-NP,O
+cup,NN,I-NP,O
+'s,POS,B-NP,O
+winners,NNS,I-NP,O
+cup,NN,I-NP,O
+involving,VBG,B-VP,O
+Greek,NNP,B-NP,B-MISC

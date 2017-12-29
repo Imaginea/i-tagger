@@ -1,0 +1,8 @@
+0,1,2,3
+Total,JJ,B-NP,O
+shares,NNS,I-NP,O
+to,TO,B-VP,O
+be,VB,I-VP,O
+offered,VBN,I-VP,O
+2.5,CD,B-NP,O
+million,CD,I-NP,O

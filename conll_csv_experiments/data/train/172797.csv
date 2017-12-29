@@ -1,0 +1,16 @@
+0,1,2,3
+Data,NNP,B-NP,O
+on,IN,B-PP,O
+topsoil,NN,B-NP,O
+moisture,NN,I-NP,O
+ratings,NNS,I-NP,O
+were,VBD,B-VP,O
+not,RB,I-VP,O
+released,VBN,I-VP,O
+by,IN,B-PP,O
+the,DT,B-NP,O
+Texas,NNP,I-NP,B-ORG
+Agricultural,NNP,I-NP,I-ORG
+Statistics,NNPS,I-NP,I-ORG
+Service,NNP,I-NP,I-ORG
+.,.,O,O

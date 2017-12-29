@@ -1,0 +1,6 @@
+0,1,2,3
+Result,NN,B-NP,O
+of,IN,B-PP,O
+a,DT,B-NP,O
+Dutch,JJ,I-NP,B-MISC
+first,JJ,I-NP,O

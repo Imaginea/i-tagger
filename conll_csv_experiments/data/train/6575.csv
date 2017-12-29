@@ -1,0 +1,16 @@
+0,1,2,3
+Karol,NNP,B-NP,B-PER
+Kucera,NNP,I-NP,I-PER
+(,(,O,O
+Slovakia,NNP,B-NP,B-LOC
+),),O,O
+beat,VB,B-VP,O
+Hicham,NNP,B-NP,B-PER
+Arazi,NNP,I-NP,I-PER
+(,(,O,O
+Morocco,NNP,B-NP,B-LOC
+),),O,O
+7-6,CD,B-ADVP,O
+(,(,O,O
+7-4,CD,B-NP,O
+),),O,O

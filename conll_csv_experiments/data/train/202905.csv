@@ -1,0 +1,10 @@
+0,1,2,3
+Dealers,NNS,B-NP,O
+noted,VBD,B-VP,O
+a,DT,B-NP,O
+seasonal,JJ,I-NP,O
+pickup,NN,I-NP,O
+in,IN,B-PP,O
+meal,NN,B-NP,O
+demand,NN,I-NP,O
+.,.,O,O

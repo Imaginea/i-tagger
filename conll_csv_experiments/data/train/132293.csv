@@ -1,0 +1,25 @@
+0,1,2,3
+ ,O,O,<UNK>
+The,DT,B-NP,O
+girls,NNS,I-NP,O
+said,VBD,B-VP,O
+they,PRP,B-NP,O
+went,VBD,B-VP,O
+to,TO,B-PP,O
+Belgium,NNP,B-NP,B-LOC
+voluntarily,RB,B-VP,O
+and,CC,I-VP,O
+the,DT,B-NP,O
+police,NN,I-NP,O
+suspect,NN,I-NP,O
+that,IN,B-SBAR,O
+they,PRP,B-NP,O
+were,VBD,B-VP,O
+used,VBN,I-VP,O
+to,TO,I-VP,O
+act,VB,I-VP,O
+in,IN,B-PP,O
+pornographic,JJ,B-NP,O
+films,NNS,I-NP,O
+.,.,O,O
+ ,O,O,<UNK>

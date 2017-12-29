@@ -1,0 +1,16 @@
+0,1,2,3
+Volkswagen,NNP,B-NP,B-ORG
+AG,NNP,I-NP,I-ORG
+won,VBD,B-VP,O
+"77,719",CD,B-NP,O
+registrations,NNS,I-NP,O
+",",",",O,O
+slightly,RB,B-NP,O
+more,RBR,I-NP,O
+than,IN,I-NP,O
+a,DT,I-NP,O
+quarter,NN,I-NP,O
+of,IN,B-PP,O
+the,DT,B-NP,O
+total,NN,I-NP,O
+.,.,O,O

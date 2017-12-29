@@ -1,0 +1,9 @@
+0,1,2,3
+OPEC,NNP,B-NP,B-ORG
+basket,NN,I-NP,O
+price,NN,I-NP,O
+$,$,I-NP,O
+24.20,CD,I-NP,O
+on,IN,B-PP,O
+Thursday,NNP,B-NP,O
+.,.,O,O

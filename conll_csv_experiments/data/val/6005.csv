@@ -1,0 +1,8 @@
+0,1,2,3
+8.,CD,B-NP,O
+Sally,NNP,I-NP,B-PER
+Barsosio,NNP,I-NP,I-PER
+(,(,O,O
+Kenya,NNP,B-NP,B-LOC
+),),O,O
+15:14.34,CD,B-NP,O

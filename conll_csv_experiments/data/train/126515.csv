@@ -1,0 +1,19 @@
+0,1,2,3
+The,DT,B-NP,O
+referee,NN,I-NP,O
+could,MD,B-VP,O
+not,RB,I-VP,O
+have,VB,I-VP,O
+seen,VBN,I-VP,O
+it,PRP,B-NP,O
+or,CC,O,O
+he,PRP,B-NP,O
+would,MD,B-VP,O
+have,VB,I-VP,O
+punished,VBN,I-VP,O
+him,PRP,B-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+Gress,NNP,B-NP,B-PER
+said,VBD,B-VP,O
+.,.,O,O

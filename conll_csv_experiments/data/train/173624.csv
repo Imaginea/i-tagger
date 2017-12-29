@@ -1,0 +1,32 @@
+0,1,2,3
+Terence,NN,B-NP,B-PER
+",",",",O,O
+a,DT,B-NP,O
+Tutsi,NNP,I-NP,B-MISC
+",",",",O,O
+said,VBD,B-VP,O
+any,DT,B-NP,O
+arms,NNS,I-NP,O
+embargo,NN,I-NP,O
+would,MD,B-VP,O
+leave,VB,I-VP,O
+the,DT,B-NP,O
+army,NN,I-NP,O
+unable,JJ,B-ADJP,O
+to,TO,B-VP,O
+defend,VB,I-VP,O
+itself,PRP,B-NP,O
+against,IN,B-PP,O
+Hutu,NNP,B-NP,B-MISC
+guerrillas,NNS,I-NP,O
+and,CC,O,O
+leave,VB,B-VP,O
+the,DT,B-NP,O
+population,NN,I-NP,O
+exposed,VBN,B-VP,O
+to,TO,I-VP,O
+ ,O,O,<UNK>
+armed,JJ,B-NP,O
+terroritsts,NNS,I-NP,O
+.,.,O,O
+ ,O,O,<UNK>

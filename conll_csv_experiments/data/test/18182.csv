@@ -1,0 +1,10 @@
+0,1,2,3
+The,DT,B-NP,O
+mutiny,NN,I-NP,O
+forced,VBN,B-VP,O
+Patasse,NNP,B-NP,B-PER
+to,TO,B-VP,O
+miss,VB,I-VP,O
+the,DT,B-NP,O
+summit,NN,I-NP,O
+.,.,O,O

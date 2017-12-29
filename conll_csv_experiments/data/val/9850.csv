@@ -1,0 +1,10 @@
+0,1,2,3
+Iraqi,JJ,B-NP,B-MISC
+captors,NNS,I-NP,O
+of,IN,B-PP,O
+Sudanese,NNP,B-NP,B-MISC
+jet,NN,I-NP,O
+charged,VBN,B-VP,O
+with,IN,B-PP,O
+hijack,NN,B-NP,O
+.,.,O,O

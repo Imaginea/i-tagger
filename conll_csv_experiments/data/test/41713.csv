@@ -1,0 +1,12 @@
+0,1,2,3
+2.,NNP,B-NP,O
+Italy,NNP,I-NP,B-ORG
+I,PRP,B-NP,I-ORG
+(,(,O,O
+Guenther,NN,B-NP,B-PER
+Huber,NNP,I-NP,I-PER
+",",",",O,O
+Antonio,NNP,B-NP,B-PER
+Tartaglia,NNP,I-NP,I-PER
+),),O,O
+1:45.93,CD,B-NP,O

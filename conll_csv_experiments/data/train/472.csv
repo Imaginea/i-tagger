@@ -1,0 +1,16 @@
+0,1,2,3
+Germany,NNP,B-NP,B-LOC
+imported,VBD,B-VP,O
+"47,600",CD,B-NP,O
+sheep,NN,I-NP,O
+from,IN,B-PP,O
+Britain,NNP,B-NP,B-LOC
+last,JJ,B-NP,O
+year,NN,I-NP,O
+",",",",O,O
+nearly,RB,B-NP,O
+half,NN,I-NP,O
+of,IN,B-PP,O
+total,JJ,B-NP,O
+imports,NNS,I-NP,O
+.,.,O,O

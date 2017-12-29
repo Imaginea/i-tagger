@@ -1,0 +1,9 @@
+0,1,2,3
+A.,NNP,B-NP,B-PER
+Parore,NNP,I-NP,I-PER
+c,SYM,O,O
+Ijaz,NNP,B-NP,B-PER
+Ahmad,NNP,I-NP,I-PER
+b,SYM,O,O
+Saqlain,NNP,B-NP,B-PER
+37,CD,I-NP,O

@@ -1,0 +1,12 @@
+0,1,2,3
+Messages,NNS,B-NP,O
+of,IN,B-PP,O
+goodwill,NN,B-NP,O
+continued,VBD,B-VP,O
+to,TO,I-VP,O
+roll,VB,I-VP,O
+into,IN,B-PP,O
+the,DT,B-NP,O
+team,NN,I-NP,O
+hotel,NN,I-NP,O
+.,.,O,O

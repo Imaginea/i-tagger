@@ -1,0 +1,16 @@
+0,1,2,3
+Australia,NNP,B-NP,B-LOC
+face,VB,B-VP,O
+Croatia,NNP,B-NP,B-LOC
+in,IN,B-PP,O
+the,DT,B-NP,O
+world,NN,I-NP,O
+group,NN,I-NP,O
+qualifying,VBG,B-VP,O
+tie,NN,B-NP,O
+on,IN,B-PP,O
+clay,NN,B-NP,O
+from,IN,B-PP,O
+September,NNP,B-NP,O
+20-22,CD,I-NP,O
+.,.,O,O

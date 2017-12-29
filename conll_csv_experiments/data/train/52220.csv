@@ -1,0 +1,30 @@
+0,1,2,3
+As,IN,B-PP,O
+with,IN,B-PP,O
+many,JJ,B-NP,O
+commodities,NNS,I-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+there,EX,B-NP,O
+is,VBZ,B-VP,O
+a,DT,B-NP,O
+desire,NN,I-NP,O
+(,(,O,O
+by,IN,B-PP,O
+the,DT,B-NP,O
+Chinese,JJ,I-NP,B-MISC
+government,NN,I-NP,O
+),),O,O
+to,TO,B-VP,O
+keep,VB,I-VP,O
+a,DT,B-NP,O
+stockpile,NN,I-NP,O
+of,IN,B-PP,O
+the,DT,B-NP,O
+metal,NN,I-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+he,PRP,B-NP,O
+said,VBD,B-VP,O
+.,.,O,O
+ ,O,O,<UNK>

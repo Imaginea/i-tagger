@@ -1,0 +1,13 @@
+0,1,2,3
+Botes,NNS,B-NP,B-PER
+72,CD,I-NP,O
+68,CD,I-NP,O
+",",",",O,O
+Greg,NNP,B-NP,B-PER
+Reid,NNP,I-NP,I-PER
+72,CD,I-NP,O
+68,CD,I-NP,O
+",",",",O,O
+Clinton,NNP,B-NP,B-PER
+Whitelaw,NNP,I-NP,I-PER
+70,CD,I-NP,O

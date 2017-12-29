@@ -1,0 +1,10 @@
+0,1,2,3
+5.,CD,B-NP,O
+Darryll,NNP,I-NP,B-PER
+King,NNP,I-NP,I-PER
+(,(,O,O
+New,NNP,B-NP,B-LOC
+Zealand,NNP,I-NP,I-LOC
+),),O,O
+Honda,NNP,B-NP,B-ORG
+178,CD,I-NP,O

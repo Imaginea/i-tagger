@@ -1,0 +1,8 @@
+0,1,2,3
+12.,CD,B-NP,O
+Deborah,NNP,I-NP,B-PER
+Compagnoni,NNP,I-NP,I-PER
+(,(,O,O
+Italy,NNP,B-NP,B-LOC
+),),O,O
+120,CD,B-NP,O

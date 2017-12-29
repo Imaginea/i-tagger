@@ -1,0 +1,9 @@
+0,1,2,3
+Shanghai,NNP,B-NP,B-ORG
+Ek,NN,I-NP,I-ORG
+Chor,NNP,I-NP,I-ORG
+opens,VBZ,B-VP,O
+new,JJ,B-NP,O
+motorcyle,JJ,I-NP,O
+plant,NN,I-NP,O
+.,.,O,O

@@ -1,0 +1,16 @@
+0,1,2,3
+The,DT,B-NP,O
+area,NN,I-NP,O
+is,VBZ,B-VP,O
+filled,VBN,I-VP,O
+with,IN,B-PP,O
+treacherous,JJ,B-NP,O
+mountain,NN,I-NP,O
+peaks,NNS,I-NP,O
+",",",",O,O
+ice,NN,B-NP,O
+fields,NNS,I-NP,O
+and,CC,O,O
+frigid,JJ,B-NP,O
+waters,NNS,I-NP,O
+.,.,O,O

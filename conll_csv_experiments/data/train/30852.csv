@@ -1,0 +1,14 @@
+0,1,2,3
+Akram,NNP,B-NP,B-PER
+",",",",O,O
+Moin,NNP,B-NP,B-PER
+Khan,NNP,I-NP,I-PER
+",",",",O,O
+Mushtaq,NNP,B-NP,B-PER
+Ahmed,NNP,I-NP,I-PER
+",",",",O,O
+Waqar,NNP,B-NP,B-PER
+Younis,NNP,I-NP,I-PER
+",",",",O,O
+Mohammad,NNP,B-NP,B-PER
+Akam,NNP,I-NP,I-PER

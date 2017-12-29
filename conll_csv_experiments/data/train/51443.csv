@@ -1,0 +1,9 @@
+0,1,2,3
+Operating,NN,B-NP,O
+loss,NN,I-NP,O
+286,CD,B-NP,O
+million,CD,I-NP,O
+vs,NNP,O,O
+loss,NN,O,O
+48,CD,B-NP,O
+million,CD,I-NP,O

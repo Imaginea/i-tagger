@@ -1,0 +1,10 @@
+0,1,2,3
+--,:,O,O
+H,NNP,B-NP,B-PER
+McCulloch,NNP,I-NP,I-PER
+",",",",O,O
+New,NNP,B-NP,B-ORG
+York,NNP,I-NP,I-ORG
+Power,NNP,I-NP,I-ORG
+Desk,NNP,I-NP,I-ORG
++212-859-1628,CD,I-NP,O

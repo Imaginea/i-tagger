@@ -1,0 +1,7 @@
+0,1,2,3
+Dividend,NN,B-NP,O
+(,(,O,O
+H.K.,NNP,B-NP,B-LOC
+cents,NNS,I-NP,O
+),),O,O
+nil,JJ,B-NP,O

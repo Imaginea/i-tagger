@@ -1,0 +1,10 @@
+0,1,2,3
+Efes,NNP,B-NP,B-ORG
+Pilsen,NNP,I-NP,I-ORG
+(,(,O,O
+Turkey,NNP,B-NP,B-LOC
+),),O,O
+9,CD,B-NP,O
+7,CD,I-NP,O
+2,CD,I-NP,O
+16,CD,I-NP,O

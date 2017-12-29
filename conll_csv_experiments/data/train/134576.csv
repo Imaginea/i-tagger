@@ -1,0 +1,15 @@
+0,1,2,3
+Lanusse,NNP,B-NP,B-PER
+took,VBD,B-VP,O
+over,IN,B-PP,O
+the,DT,B-NP,O
+leadership,NN,I-NP,O
+of,IN,B-PP,O
+the,DT,B-NP,O
+country,NN,I-NP,O
+after,IN,B-PP,O
+five,CD,B-NP,O
+years,NNS,I-NP,O
+of,IN,B-PP,O
+dictatorship,NN,B-NP,O
+.,.,O,O

@@ -1,0 +1,14 @@
+0,1,2,3
+In,IN,B-PP,O
+the,DT,B-NP,O
+third,JJ,I-NP,O
+vote,NN,I-NP,O
+Meri,NNP,I-NP,B-PER
+won,VBD,B-VP,O
+52,CD,B-NP,O
+and,CC,O,O
+Ruutel,NNP,B-NP,B-PER
+won,VBD,B-VP,O
+32,CD,B-NP,O
+votes,NNS,I-NP,O
+.,.,O,O

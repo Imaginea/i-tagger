@@ -1,0 +1,9 @@
+0,1,2,3
+Slaughter,NNP,B-NP,O
+steers,VBZ,B-VP,O
+and,CC,I-VP,O
+heifers,VBZ,I-VP,O
+not,RB,I-VP,O
+well,RB,I-VP,O
+tested,VBN,I-VP,O
+.,.,O,O

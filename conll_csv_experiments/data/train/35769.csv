@@ -1,0 +1,9 @@
+0,1,2,3
+1.,CD,B-NP,O
+Ilke,NNP,I-NP,B-PER
+Wyludda,NNP,I-NP,I-PER
+(,(,O,O
+Germany,NNP,B-NP,B-LOC
+),),O,O
+66.60,CD,B-NP,O
+metres,NNS,I-NP,O

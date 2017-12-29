@@ -1,0 +1,10 @@
+0,1,2,3
+British,JJ,B-NP,B-MISC
+ ,O,O,<UNK>
+Euro-sceptic,NNP,B-NP,B-MISC
+ ,O,O,<UNK>
+says,VBZ,B-VP,O
+Clarke,NNP,B-NP,B-PER
+should,MD,B-VP,O
+resign,VB,I-VP,O
+.,.,O,O

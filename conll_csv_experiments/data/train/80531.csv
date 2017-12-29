@@ -1,0 +1,13 @@
+0,1,2,3
+Graafschap,NNP,B-NP,B-ORG
+Doetinchem,NNP,I-NP,I-ORG
+3,CD,I-NP,O
+(,(,O,O
+Ibrahim,NNP,B-NP,B-PER
+20th,JJ,I-NP,O
+63rd,CD,I-NP,O
+",",",",O,O
+Godee,NNP,B-NP,B-PER
+54th,CD,I-NP,O
+),),O,O
+RKC,NNP,B-NP,B-ORG

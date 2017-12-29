@@ -1,0 +1,14 @@
+0,1,2,3
+ ,O,O,<UNK>
+It,PRP,B-NP,O
+had,VBD,B-VP,O
+the,DT,B-NP,O
+potential,NN,I-NP,O
+to,TO,B-VP,O
+be,VB,I-VP,O
+quite,RB,B-NP,O
+a,DT,I-NP,O
+nasty,JJ,I-NP,O
+accident,NN,I-NP,O
+.,.,O,O
+ ,O,O,<UNK>

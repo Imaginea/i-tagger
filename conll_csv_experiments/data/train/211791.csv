@@ -1,0 +1,10 @@
+0,1,2,3
+Repsol,JJ,B-NP,B-ORG
+shares,NNS,I-NP,O
+up,RB,B-ADVP,O
+65,CD,B-NP,O
+pesetas,NNS,I-NP,O
+on,IN,B-PP,O
+H1,NN,B-NP,O
+results,NNS,I-NP,O
+.,.,O,O

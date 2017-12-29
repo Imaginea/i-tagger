@@ -1,0 +1,14 @@
+0,1,2,3
+-,:,O,O
+Offers,NNS,B-NP,O
+from,IN,B-PP,O
+Arab,NNP,B-NP,B-MISC
+and,CC,O,O
+foreign,JJ,B-NP,O
+companies,NNS,I-NP,O
+to,TO,B-VP,O
+supply,VB,I-VP,O
+Iraq,NNP,B-NP,B-LOC
+with,IN,B-PP,O
+goods,NNS,B-NP,O
+.,.,O,O

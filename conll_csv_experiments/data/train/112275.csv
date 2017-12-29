@@ -1,0 +1,9 @@
+0,1,2,3
+Pakistani,JJ,B-NP,B-MISC
+bourse,NN,I-NP,O
+to,TO,B-VP,O
+use,VB,I-VP,O
+new,JJ,B-NP,O
+recomposed,JJ,I-NP,O
+index,NN,I-NP,O
+.,.,O,O

@@ -1,0 +1,13 @@
+0,1,2,3
+The,DT,B-NP,O
+area,NN,I-NP,O
+is,VBZ,B-VP,O
+patrolled,VBN,I-VP,O
+by,IN,B-PP,O
+U.S.,NNP,B-NP,B-LOC
+",",",",O,O
+French,NNP,B-NP,B-MISC
+and,CC,O,O
+British,JJ,B-NP,B-MISC
+planes,NNS,I-NP,O
+.,.,O,O

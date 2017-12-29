@@ -1,0 +1,14 @@
+0,1,2,3
+Kimberly,NNP,B-NP,B-PER
+Po,NNP,I-NP,I-PER
+(,(,O,O
+U.S.,NNP,B-NP,B-LOC
+),),O,O
+beat,VB,B-VP,O
+Kristina,NNP,B-NP,B-PER
+Brandi,NNP,I-NP,I-PER
+(,(,O,O
+U.S.,NNP,B-NP,B-LOC
+),),O,O
+6-1,JJ,B-ADVP,O
+6-4,CD,B-NP,O

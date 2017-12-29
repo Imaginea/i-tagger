@@ -1,0 +1,26 @@
+0,1,2,3
+We,PRP,B-NP,O
+have,VBP,B-VP,O
+in,IN,B-PP,O
+no,DT,B-NP,O
+way,NN,I-NP,O
+seen,VBN,B-VP,O
+any,DT,B-NP,O
+Iraqi,JJ,I-NP,B-MISC
+troops,NNS,I-NP,O
+in,IN,B-PP,O
+the,DT,B-NP,O
+city,NN,I-NP,O
+or,CC,O,O
+in,IN,B-PP,O
+its,PRP$,B-NP,O
+approaches,NNS,I-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+a,DT,B-NP,O
+U.N.,NNP,I-NP,B-ORG
+relief,NN,I-NP,O
+official,NN,I-NP,O
+told,VBN,B-VP,O
+Reuters,NNP,B-NP,B-ORG
+.,.,O,O

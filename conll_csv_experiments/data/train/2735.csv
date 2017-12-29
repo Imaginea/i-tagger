@@ -1,0 +1,14 @@
+0,1,2,3
+The,DT,B-NP,O
+spot,NN,I-NP,O
+riyal,NN,I-NP,O
+was,VBD,B-VP,O
+put,VBN,I-VP,O
+at,IN,B-PP,O
+3.7504,CD,B-NP,O
+/,SYM,O,O
+06,CD,B-NP,O
+to,TO,B-PP,O
+the,DT,B-NP,O
+dollar,NN,I-NP,O
+.,.,O,O

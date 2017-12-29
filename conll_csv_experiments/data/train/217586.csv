@@ -1,0 +1,23 @@
+0,1,2,3
+I,PRP,B-NP,O
+went,VBD,B-VP,O
+so,RB,B-ADVP,O
+close,RB,I-ADVP,O
+this,DT,B-NP,O
+time,NN,I-NP,O
+",",",",O,O
+but,CC,O,O
+having,VBG,B-VP,O
+two,CD,B-NP,O
+riders,NNS,I-NP,O
+certainly,RB,B-ADVP,O
+gave,VBD,B-VP,O
+the,DT,B-NP,O
+Russians,NNPS,I-NP,B-MISC
+an,DT,B-NP,O
+advantage,NN,I-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+she,PRP,B-NP,O
+said,VBD,B-VP,O
+.,.,O,O

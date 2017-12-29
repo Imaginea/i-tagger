@@ -1,0 +1,23 @@
+0,1,2,3
+ ,O,O,<UNK>
+We,PRP,B-NP,O
+will,MD,B-VP,O
+then,RB,I-VP,O
+proceed,VB,I-VP,O
+with,IN,B-PP,O
+the,DT,B-NP,O
+annexation,NN,I-NP,O
+of,IN,B-PP,O
+Sardinia,NNP,B-NP,B-LOC
+",",",",I-NP,O
+Corsica,NNP,I-NP,B-LOC
+and,CC,I-NP,O
+Cyprus,NNP,I-NP,B-LOC
+",",",",O,O
+ ,O,O,<UNK>
+Cimicchi,NNP,B-NP,B-PER
+told,VBD,B-VP,O
+reporters,NNS,B-NP,O
+on,IN,B-PP,O
+Saturday,NNP,B-NP,O
+.,.,O,O

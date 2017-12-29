@@ -1,0 +1,16 @@
+0,1,2,3
+S-1,NNP,B-NP,B-MISC
+in,IN,B-PP,O
+the,DT,B-NP,O
+former,JJ,I-NP,O
+South,NNP,I-NP,B-LOC
+Yemen,NNPS,I-NP,I-LOC
+",",",",O,O
+which,WDT,B-NP,O
+united,VBN,I-NP,O
+with,IN,B-PP,O
+North,NNP,B-NP,B-LOC
+Yemen,NNP,I-NP,I-LOC
+in,IN,B-PP,O
+1990,CD,B-NP,O
+.,.,O,O

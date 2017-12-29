@@ -1,0 +1,8 @@
+0,1,2,3
+M.,NNP,B-NP,B-PER
+Waugh,NNP,I-NP,I-PER
+c,SYM,O,O
+Murray,NNP,B-NP,B-PER
+b,SYM,O,O
+Benjamin,NNP,B-NP,B-PER
+27,CD,I-NP,O

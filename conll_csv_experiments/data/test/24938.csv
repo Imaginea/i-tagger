@@ -1,0 +1,22 @@
+0,1,2,3
+Dealers,NNS,B-NP,O
+have,VBP,B-VP,O
+come,VBN,I-VP,O
+to,TO,I-VP,O
+refer,VB,I-VP,O
+to,TO,B-PP,O
+115,CD,B-NP,O
+yen,NNS,I-NP,O
+as,IN,B-PP,O
+the,DT,B-NP,O
+ ,O,O,<UNK>
+Sakakibara,NNP,B-NP,B-PER
+ceiling,NN,I-NP,O
+ ,O,O,<UNK>
+for,IN,B-PP,O
+the,DT,B-NP,O
+dollar,NN,I-NP,O
+following,VBG,B-PP,O
+the,DT,B-NP,O
+remark,NN,I-NP,O
+.,.,O,O

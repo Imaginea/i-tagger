@@ -1,0 +1,6 @@
+0,1,2,3
+The,DT,B-NP,O
+National,NNP,I-NP,B-ORG
+Bank,NNP,I-NP,I-ORG
+of,IN,B-PP,I-ORG
+Poland,NNP,B-NP,I-ORG

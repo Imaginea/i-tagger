@@ -1,0 +1,8 @@
+0,1,2,3
+10.,CD,B-NP,O
+Xue,NNP,I-NP,B-PER
+Rulhong,NNP,I-NP,I-PER
+(,(,O,O
+China,NNP,B-NP,B-LOC
+),),O,O
+1:25.89,CD,B-NP,O

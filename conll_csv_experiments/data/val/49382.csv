@@ -1,0 +1,7 @@
+0,1,2,3
+Chinese,JJ,B-NP,B-MISC
+police,NN,I-NP,O
+hold,NN,I-NP,O
+veteran,NN,I-NP,O
+dissident,NN,I-NP,O
+.,.,O,O

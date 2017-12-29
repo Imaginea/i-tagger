@@ -1,0 +1,13 @@
+0,1,2,3
+The,DT,B-NP,O
+later,JJ,I-NP,O
+stages,NNS,I-NP,O
+of,IN,B-PP,O
+the,DT,B-NP,O
+cup,NN,I-NP,O
+are,VBP,B-VP,O
+played,VBN,I-VP,O
+over,IN,B-PP,O
+two,CD,B-NP,O
+legs,NNS,I-NP,O
+.,.,O,O

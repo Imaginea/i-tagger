@@ -1,0 +1,7 @@
+0,1,2,3
+Crystal,NNP,B-NP,B-ORG
+Palace,NNP,I-NP,I-ORG
+0,CD,I-NP,O
+West,NNP,I-NP,B-ORG
+Bromwich,NNP,I-NP,I-ORG
+0,CD,I-NP,O

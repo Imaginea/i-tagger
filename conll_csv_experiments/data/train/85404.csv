@@ -1,0 +1,11 @@
+0,1,2,3
+-,:,O,O
+King,NNP,B-NP,O
+:,:,O,O
+Jordan,NNP,B-NP,B-LOC
+is,VBZ,B-VP,O
+entering,VBG,I-VP,O
+a,DT,B-NP,O
+new,JJ,I-NP,O
+era,NN,I-NP,O
+.,.,O,O

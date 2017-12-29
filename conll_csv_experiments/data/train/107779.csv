@@ -1,0 +1,9 @@
+0,1,2,3
+Metro,NN,B-NP,B-ORG
+slides,VBZ,B-VP,O
+3.3,CD,B-NP,O
+pct,JJ,I-NP,O
+after,IN,B-PP,O
+market,NN,B-NP,O
+opens,VBZ,B-VP,O
+.,.,O,O

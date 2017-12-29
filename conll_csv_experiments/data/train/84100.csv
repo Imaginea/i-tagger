@@ -1,0 +1,12 @@
+0,1,2,3
+He,PRP,B-NP,O
+said,VBD,B-VP,O
+later,RBR,B-ADVP,O
+that,IN,B-SBAR,O
+the,DT,B-NP,O
+rebels,NNS,I-NP,O
+had,VBD,B-VP,O
+handed,VBN,I-VP,O
+them,PRP,B-NP,O
+over,IN,B-PRT,O
+.,.,O,O

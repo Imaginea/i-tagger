@@ -1,0 +1,4 @@
+0,1,2,3
+Aberdeen,NNP,B-NP,B-ORG
+v,FW,I-NP,O
+Hearts,NNPS,I-NP,B-ORG

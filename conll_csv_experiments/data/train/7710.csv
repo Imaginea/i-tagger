@@ -1,0 +1,15 @@
+0,1,2,3
+Petr,IN,B-PP,B-PER
+Korda,NNP,B-NP,I-PER
+(,(,O,O
+Czech,NNP,B-NP,B-LOC
+Republic,NNP,I-NP,I-LOC
+),),O,O
+beat,VB,B-VP,O
+12,CD,B-NP,O
+-,:,I-NP,O
+Francisco,NNP,I-NP,B-PER
+Clavet,NNP,I-NP,I-PER
+(,(,O,O
+Spain,NNP,B-NP,B-LOC
+),),O,O

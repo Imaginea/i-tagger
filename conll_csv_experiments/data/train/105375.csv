@@ -1,0 +1,13 @@
+0,1,2,3
+Mrs,NNP,B-NP,O
+Yeltsin,NNP,I-NP,B-PER
+would,MD,B-VP,O
+be,VB,I-VP,O
+released,VBN,I-VP,O
+from,IN,B-PP,O
+hospital,NN,B-NP,O
+in,IN,B-PP,O
+a,DT,B-NP,O
+few,JJ,I-NP,O
+days,NNS,I-NP,O
+.,.,O,O

@@ -1,0 +1,9 @@
+0,1,2,3
+Senegal,JJ,B-NP,B-LOC
+bans,NNS,I-NP,O
+guns,NNS,I-NP,O
+ahead,RB,B-ADVP,O
+of,IN,B-PP,O
+local,JJ,B-NP,O
+elections,NNS,I-NP,O
+.,.,O,O

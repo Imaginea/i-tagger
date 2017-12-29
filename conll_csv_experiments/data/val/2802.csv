@@ -1,0 +1,14 @@
+0,1,2,3
+2,CD,B-NP,O
+-,:,I-NP,O
+Monica,NNP,I-NP,B-PER
+Seles,NNPS,I-NP,I-PER
+(,(,O,O
+U.S.,NNP,B-NP,B-LOC
+),),O,O
+beat,VB,B-VP,O
+Dally,NNP,B-NP,B-PER
+Randriantefy,NNP,I-NP,I-PER
+(,(,O,O
+Madagascar,NNP,B-NP,B-LOC
+),),O,O

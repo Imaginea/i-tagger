@@ -1,0 +1,10 @@
+0,1,2,3
+The,DT,B-NP,O
+53-year-old,JJ,I-NP,O
+Johnson,NNP,I-NP,B-PER
+was,VBD,B-VP,O
+hospitalized,VBN,I-VP,O
+after,IN,B-PP,O
+experiencing,VBG,B-VP,O
+dizziness,NN,B-NP,O
+.,.,O,O

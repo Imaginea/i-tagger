@@ -1,0 +1,23 @@
+0,1,2,3
+Richard,NNP,B-NP,B-PER
+Andrews,NNP,I-NP,I-PER
+said,VBD,B-VP,O
+police,NN,B-NP,O
+were,VBD,B-VP,O
+seeking,VBG,I-VP,O
+a,DT,B-NP,O
+man,NN,I-NP,O
+shown,VBN,B-VP,O
+on,IN,B-PP,O
+a,DT,B-NP,O
+hotel,NN,I-NP,O
+videotape,NN,I-NP,O
+carrying,VBG,B-VP,O
+a,DT,B-NP,O
+suitcase,NN,I-NP,O
+resembling,VBG,B-VP,O
+the,DT,B-NP,O
+victim,NN,I-NP,O
+'s,POS,I-NP,O
+.,.,O,O
+ ,O,O,<UNK>

@@ -1,0 +1,7 @@
+0,1,2,3
+Yeltsin,JJ,B-NP,B-PER
+shown,VBN,B-VP,O
+on,IN,B-PP,O
+Russian,JJ,B-NP,B-MISC
+television,NN,I-NP,O
+.,.,O,O

@@ -1,0 +1,12 @@
+0,1,2,3
+The,DT,B-NP,O
+French,JJ,I-NP,B-MISC
+group,NN,I-NP,O
+entered,VBD,B-VP,O
+the,DT,B-NP,O
+German,JJ,I-NP,B-MISC
+market,NN,I-NP,O
+in,IN,B-PP,O
+1990,CD,B-NP,O
+",",",",O,O
+buying,VBG,B-VP,O

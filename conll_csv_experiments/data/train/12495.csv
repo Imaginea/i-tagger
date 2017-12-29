@@ -1,0 +1,13 @@
+0,1,2,3
+66,CD,B-NP,O
+Stephen,NNP,B-NP,B-PER
+Field,NNP,I-NP,I-PER
+",",",",O,O
+Paul,NNP,B-NP,B-PER
+Lawrie,NNP,I-NP,I-PER
+",",",",O,O
+Ian,NNP,B-NP,B-PER
+Pyman,NNP,I-NP,I-PER
+",",",",O,O
+Max,NNP,B-NP,B-PER
+Anglert,JJ,B-ADVP,I-PER

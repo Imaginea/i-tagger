@@ -1,0 +1,11 @@
+0,1,2,3
+U.S.,NNP,B-NP,B-MISC
+Open,NNP,I-NP,I-MISC
+tennis,NN,I-NP,O
+championships,NNS,I-NP,O
+beginning,VBG,B-VP,O
+Monday,NNP,B-NP,O
+at,IN,B-PP,O
+the,DT,B-NP,O
+U.S,NNP,I-NP,B-LOC
+.,.,O,O

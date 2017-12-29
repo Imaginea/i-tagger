@@ -1,0 +1,9 @@
+0,1,2,3
+Chechens,NNS,B-NP,B-MISC
+exuberant,JJ,B-ADJP,O
+but,CC,I-ADJP,O
+cautious,JJ,I-ADJP,O
+on,IN,B-PP,O
+peace,NN,B-NP,O
+deal,NN,I-NP,O
+.,.,O,O

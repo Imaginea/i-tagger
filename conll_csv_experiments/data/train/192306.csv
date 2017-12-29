@@ -1,0 +1,17 @@
+0,1,2,3
+NAC,NNP,B-NP,B-ORG
+Breda,NNP,I-NP,I-ORG
+1,CD,I-NP,O
+(,(,O,O
+Abdellaoui,NNP,B-NP,B-PER
+20th,JJ,I-NP,O
+penalty,NN,I-NP,O
+),),O,O
+NEC,NNP,B-NP,B-ORG
+Nijmegen,NNP,I-NP,I-ORG
+1,CD,I-NP,O
+(,(,O,O
+Graef,NNP,B-NP,B-PER
+36th,NNP,I-NP,O
+),),O,O
+.,.,O,O

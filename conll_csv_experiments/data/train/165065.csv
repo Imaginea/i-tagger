@@ -1,0 +1,11 @@
+0,1,2,3
+They,PRP,B-NP,O
+included,VBD,B-VP,O
+one,CD,B-NP,O
+of,IN,B-PP,O
+the,DT,B-NP,O
+three,CD,I-NP,O
+La,NNP,I-NP,B-ORG
+Voie,NNP,I-NP,I-ORG
+journalists,NNS,I-NP,O
+.,.,O,O

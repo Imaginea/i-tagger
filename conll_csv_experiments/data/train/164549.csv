@@ -1,0 +1,8 @@
+0,1,2,3
+Canada,NNP,B-NP,B-LOC
+fast-tracks,NNS,I-NP,O
+Chinese,JJ,I-NP,B-MISC
+asylum-seekers,NNS,I-NP,O
+-,:,O,O
+report,VB,B-VP,O
+.,.,O,O

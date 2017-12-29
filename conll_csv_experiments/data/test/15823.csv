@@ -1,0 +1,17 @@
+0,1,2,3
+Newmont,NNP,B-NP,B-ORG
+said,VBD,B-VP,O
+the,DT,B-NP,O
+companies,NNS,I-NP,O
+have,VBP,B-VP,O
+had,VBD,I-VP,O
+previous,JJ,B-NP,O
+contact,NN,I-NP,O
+",",",",O,O
+though,IN,B-SBAR,O
+declined,VBN,B-VP,O
+to,TO,B-PP,O
+detail,NN,B-NP,O
+the,DT,B-NP,O
+encounters,NNS,I-NP,O
+.,.,O,O

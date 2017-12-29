@@ -1,0 +1,11 @@
+0,1,2,3
+131,CD,B-NP,O
+Carl,NNP,I-NP,B-PER
+Suneson,NNP,I-NP,I-PER
+65,CD,I-NP,O
+66,CD,I-NP,O
+",",",",O,O
+Stephen,NNP,B-NP,B-PER
+Field,NNP,I-NP,I-PER
+66,CD,I-NP,O
+65,CD,I-NP,O

@@ -1,0 +1,10 @@
+0,1,2,3
+KANSAS,NNP,B-NP,B-ORG
+CITY,NNP,I-NP,I-ORG
+4,CD,I-NP,O
+Texas,NNP,I-NP,B-ORG
+3,CD,I-NP,O
+(,(,O,O
+12,CD,B-NP,O
+innings,NN,I-NP,O
+),),O,O

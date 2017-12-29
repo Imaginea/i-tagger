@@ -1,0 +1,6 @@
+0,1,2,3
+Partick,NNP,B-NP,B-ORG
+1,CD,I-NP,O
+St,NNP,I-NP,B-ORG
+Mirren,NNP,I-NP,I-ORG
+1,CD,I-NP,O

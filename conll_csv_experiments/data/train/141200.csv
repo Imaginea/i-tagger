@@ -1,0 +1,15 @@
+0,1,2,3
+Rapeseed,JJ,B-NP,O
+extraction,NN,I-NP,O
+was,VBD,B-VP,O
+"3,850",CD,B-NP,O
+rupees,NNS,I-NP,O
+FOR,IN,B-PP,O
+Bedibunder,NNP,B-NP,B-ORG
+and,CC,O,O
+was,VBD,B-VP,O
+"3,800-3,825",CD,B-ADVP,O
+rupees,NNS,B-NP,O
+FOR,IN,B-PP,O
+Bhavnagar,NNP,B-NP,B-ORG
+.,.,O,O

@@ -1,0 +1,10 @@
+0,1,2,3
+AMTRAK,VBG,B-VP,B-ORG
+train,NN,B-NP,O
+hits,NNS,I-NP,O
+truck,NN,I-NP,O
+",",",",O,O
+derails,NNS,B-NP,O
+in,IN,B-PP,O
+Vermont,NNP,B-NP,B-LOC
+.,.,O,O

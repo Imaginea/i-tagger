@@ -1,0 +1,13 @@
+0,1,2,3
+The,DT,B-NP,O
+Ukrainian,JJ,I-NP,B-MISC
+finally,RB,B-ADVP,O
+hit,VBD,B-VP,O
+a,DT,B-NP,O
+low,JJ,I-NP,O
+of,IN,B-PP,O
+44th,JJ,B-NP,O
+two,CD,I-NP,O
+months,NNS,I-NP,O
+ago,RB,B-ADVP,O
+.,.,O,O

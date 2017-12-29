@@ -1,0 +1,13 @@
+0,1,2,3
+Scorers,NNS,B-NP,O
+:,:,O,O
+Joakim,NNP,B-NP,B-PER
+Persson,NNP,I-NP,I-PER
+81st,JJ,I-NP,O
+minute,NN,I-NP,O
+",",",",O,O
+Daniel,NNP,B-NP,B-PER
+Andersson,NNP,I-NP,I-PER
+(,(,O,O
+89th,CD,B-NP,O
+),),O,O

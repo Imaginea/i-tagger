@@ -1,0 +1,23 @@
+0,1,2,3
+And,CC,O,O
+I,PRP,B-NP,O
+did,VBD,B-VP,O
+n't,RB,I-VP,O
+have,VB,I-VP,O
+a,DT,B-NP,O
+good,JJ,I-NP,O
+feeling,NN,I-NP,O
+as,RB,B-ADVP,O
+soon,RB,I-ADVP,O
+as,IN,B-SBAR,O
+I,PRP,B-NP,O
+lost,VBD,B-VP,O
+in,IN,B-PP,O
+my,PRP$,B-NP,O
+doubles,NNS,I-NP,O
+(,(,O,O
+on,IN,B-PP,O
+Tuesday,NNP,B-NP,O
+),),O,O
+.,.,O,O
+ ,O,O,<UNK>

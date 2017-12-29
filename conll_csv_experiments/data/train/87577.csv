@@ -1,0 +1,13 @@
+0,1,2,3
+The,DT,B-NP,O
+budget,NN,I-NP,O
+had,VBD,B-VP,O
+been,VBN,I-VP,O
+widely,RB,I-VP,O
+expected,VBN,I-VP,O
+a,DT,B-NP,O
+week,NN,I-NP,O
+or,CC,I-NP,O
+so,RB,I-NP,O
+later,RB,B-ADVP,O
+.,.,O,O

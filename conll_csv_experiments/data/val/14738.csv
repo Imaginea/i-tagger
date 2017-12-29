@@ -1,0 +1,17 @@
+0,1,2,3
+But,CC,O,O
+he,PRP,B-NP,O
+said,VBD,B-VP,O
+the,DT,B-NP,O
+eight,CD,I-NP,O
+mines,NNS,I-NP,O
+seized,VBN,B-VP,O
+by,IN,B-PP,O
+police,NN,B-NP,O
+had,VBD,B-VP,O
+been,VBN,I-VP,O
+ ,O,O,<UNK>
+specially,RB,B-NP,O
+adapted,VBN,B-VP,O
+.,.,O,O
+ ,O,O,<UNK>

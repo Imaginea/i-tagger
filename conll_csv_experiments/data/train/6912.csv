@@ -1,0 +1,13 @@
+0,1,2,3
+At,IN,B-PP,O
+Leicester,NNP,B-NP,B-LOC
+:,:,O,O
+Leicestershire,VB,B-VP,B-ORG
+343-8,CD,B-NP,O
+(,(,O,O
+P.,NNP,B-NP,B-PER
+Simmons,NNP,I-NP,I-PER
+108,CD,I-NP,O
+",",",",O,O
+P.,NNP,B-NP,B-PER
+Nixon,NNP,I-NP,I-PER

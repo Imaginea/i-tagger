@@ -1,0 +1,8 @@
+0,1,2,3
+F.C.,NNP,B-NP,B-ORG
+Farul,NNP,I-NP,I-ORG
+Constanta,NNP,I-NP,I-ORG
+3,CD,I-NP,O
+Chindia,NNP,I-NP,B-ORG
+Tirgoviste,NNP,I-NP,I-ORG
+1,CD,I-NP,O

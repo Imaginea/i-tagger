@@ -1,0 +1,17 @@
+0,1,2,3
+Scorers,NNS,B-NP,O
+:,:,O,O
+Petr,NNP,B-NP,B-PER
+Gunda,NNP,I-NP,I-PER
+(,(,O,O
+1st,CD,B-NP,O
+and,CC,O,O
+26th,JJ,B-NP,O
+),),O,O
+",",",",O,O
+Lumir,NNP,B-NP,B-PER
+Mistr,NNP,I-NP,I-PER
+(,(,O,O
+19th,JJ,B-NP,O
+),),O,O
+",",",",O,O

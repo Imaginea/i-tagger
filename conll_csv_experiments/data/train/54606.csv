@@ -1,0 +1,7 @@
+0,1,2,3
+-,:,O,O
+2,CD,B-NP,O
+Mark,NNP,I-NP,B-PER
+Brooks,NNP,I-NP,I-PER
+through,IN,B-PP,O
+3,CD,B-NP,O

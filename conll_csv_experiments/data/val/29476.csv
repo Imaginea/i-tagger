@@ -1,0 +1,11 @@
+0,1,2,3
+Faroe,NNP,B-NP,B-LOC
+Islands,NNP,I-NP,I-LOC
+-,:,O,O
+Jan,NNP,B-NP,B-PER
+Allan,NNP,I-NP,I-PER
+Mueller,NNP,I-NP,I-PER
+(,(,O,O
+60th,JJ,B-NP,O
+minute,NN,I-NP,O
+),),O,O

@@ -1,0 +1,8 @@
+0,1,2,3
+Karin,NNP,B-NP,B-PER
+Kschwendt,NNP,I-NP,I-PER
+(,(,O,O
+Austria,NNP,B-NP,B-LOC
+),),O,O
+beat,VB,B-VP,O
+Sandra,NNP,B-NP,B-PER

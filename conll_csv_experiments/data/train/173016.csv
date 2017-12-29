@@ -1,0 +1,10 @@
+0,1,2,3
+Amoco,NNP,B-NP,B-ORG
+says,VBZ,B-VP,O
+in,IN,B-PP,O
+talks,NNS,B-NP,O
+over,IN,B-PP,O
+Yemen,NNP,B-NP,B-LOC
+oil,NN,I-NP,O
+acreage,NN,I-NP,O
+.,.,O,O

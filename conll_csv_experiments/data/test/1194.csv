@@ -1,0 +1,8 @@
+0,1,2,3
+5.,CD,B-NP,O
+Korneilus,NNP,I-NP,B-PER
+Hole,NNP,I-NP,I-PER
+(,(,O,O
+Norway,NNP,B-NP,B-LOC
+),),O,O
+23.92,CD,B-NP,O

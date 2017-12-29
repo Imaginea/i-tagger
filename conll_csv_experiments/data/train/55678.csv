@@ -1,0 +1,13 @@
+0,1,2,3
+Bowling,NNP,B-NP,O
+(,(,O,O
+to,TO,B-VP,O
+date,VB,I-VP,O
+),),O,O
+:,:,O,O
+Lewis,NNP,B-NP,B-PER
+12-1-76-0,CD,I-NP,O
+",",",",O,O
+Mullally,NNP,B-NP,B-PER
+22-6-56-2,CD,I-NP,O
+",",",",O,O

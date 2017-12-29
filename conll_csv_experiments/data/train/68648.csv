@@ -1,0 +1,16 @@
+0,1,2,3
+280,CD,B-NP,O
+Alexander,NNP,I-NP,B-PER
+Cejka,NNP,I-NP,I-PER
+(,(,O,O
+Germany,NNP,B-NP,B-LOC
+),),O,O
+72,CD,B-NP,O
+71,CD,I-NP,O
+71,CD,I-NP,O
+66,CD,I-NP,O
+",",",",O,O
+Davis,NNP,B-NP,B-PER
+Love,NNP,I-NP,I-PER
+70,CD,I-NP,O
+74,CD,B-NP,O

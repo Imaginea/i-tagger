@@ -1,0 +1,16 @@
+0,1,2,3
+But,CC,O,O
+some,DT,B-NP,O
+analysts,NNS,I-NP,O
+cautioned,VBD,B-VP,O
+that,IN,B-SBAR,O
+other,JJ,B-NP,O
+targets,NNS,I-NP,O
+should,MD,B-VP,O
+not,RB,I-VP,O
+expect,VB,I-VP,O
+as,IN,B-PP,O
+large,JJ,B-NP,O
+a,DT,I-NP,O
+premium,NN,I-NP,O
+.,.,O,O

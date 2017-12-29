@@ -1,0 +1,19 @@
+0,1,2,3
+The,DT,B-NP,O
+revisions,NNS,I-NP,O
+to,TO,B-PP,O
+GDP,NNP,B-NP,O
+",",",",O,O
+for,IN,B-PP,O
+example,NN,B-NP,O
+",",",",O,O
+may,MD,B-VP,O
+not,RB,I-VP,O
+have,VB,I-VP,O
+attracted,VBN,I-VP,O
+a,DT,B-NP,O
+lot,NN,I-NP,O
+of,IN,B-PP,O
+attention,NN,B-NP,O
+.,.,O,O
+ ,O,O,<UNK>

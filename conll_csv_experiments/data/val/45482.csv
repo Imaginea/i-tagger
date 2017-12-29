@@ -1,0 +1,36 @@
+0,1,2,3
+ ,O,O,<UNK>
+The,DT,B-NP,O
+RDR,NNP,I-NP,B-ORG
+appeals,NNS,I-NP,O
+to,TO,B-PP,O
+all,DT,B-NP,O
+refugees,NNS,I-NP,O
+to,TO,B-VP,O
+prepare,VB,I-VP,O
+themselves,PRP,B-NP,O
+calmly,RB,B-ADVP,O
+for,IN,B-PP,O
+the,DT,B-NP,O
+demands,NNS,I-NP,O
+of,IN,B-PP,O
+the,DT,B-NP,O
+census,NN,I-NP,O
+agents,NNS,I-NP,O
+because,IN,B-SBAR,O
+it,PRP,B-NP,O
+will,MD,B-VP,O
+be,VB,I-VP,O
+in,IN,B-PP,O
+their,PRP$,B-NP,O
+ultimate,JJ,I-NP,O
+interest,NN,I-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+the,DT,B-NP,O
+group,NN,I-NP,O
+said,VBD,B-VP,O
+in,IN,B-PP,O
+a,DT,B-NP,O
+statement,NN,I-NP,O
+.,.,O,O

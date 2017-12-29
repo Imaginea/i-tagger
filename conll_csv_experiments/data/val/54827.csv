@@ -1,0 +1,5 @@
+0,1,2,3
+--,:,O,O
+Dhaka,NNP,B-NP,B-ORG
+Newsroom,NNP,I-NP,I-ORG
+880-2-506363,CD,I-NP,O

@@ -1,0 +1,9 @@
+0,1,2,3
+Belmondo,NNP,B-NP,B-PER
+(,(,O,O
+France,NNP,B-NP,B-LOC
+),),O,O
+Ennea,NNP,B-NP,B-MISC
+Ferrari,NNP,I-NP,I-MISC
+F40,NNP,B-NP,I-MISC
+167,CD,I-NP,O

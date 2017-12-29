@@ -1,0 +1,10 @@
+0,1,2,3
+Nigerian,JJ,B-NP,B-MISC
+thieves,NNS,I-NP,O
+hire,VBP,B-VP,O
+police,NN,B-NP,O
+truck,NN,I-NP,O
+to,TO,B-VP,O
+carry,VB,I-VP,O
+loot,NN,B-NP,O
+.,.,O,O

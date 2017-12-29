@@ -1,0 +1,6 @@
+0,1,2,3
+She,PRP,B-NP,O
+died,VBD,B-VP,O
+in,IN,B-PP,O
+hospital,NN,B-NP,O
+.,.,O,O

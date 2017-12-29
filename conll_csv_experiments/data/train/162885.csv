@@ -1,0 +1,17 @@
+0,1,2,3
+Following,VBG,B-VP,O
+are,VBP,B-VP,O
+some,DT,B-NP,O
+of,IN,B-PP,O
+the,DT,B-NP,O
+major,JJ,I-NP,O
+events,NNS,I-NP,O
+to,TO,B-VP,O
+have,VB,I-VP,O
+occurred,VBN,I-VP,O
+on,IN,B-PP,O
+September,NNP,B-NP,O
+4,CD,I-NP,O
+in,IN,B-PP,O
+history,NN,B-NP,O
+.,.,O,O

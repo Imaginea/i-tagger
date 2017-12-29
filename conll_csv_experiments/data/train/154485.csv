@@ -1,0 +1,18 @@
+0,1,2,3
+ ,O,O,<UNK>
+At,IN,B-PP,O
+the,DT,B-NP,O
+beginning,NN,I-NP,O
+of,IN,B-PP,O
+the,DT,B-NP,O
+year,NN,I-NP,O
+we,PRP,B-NP,O
+started,VBD,B-VP,O
+from,IN,B-PP,O
+zero,CD,B-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+said,VBD,B-VP,O
+Medvedev,NNP,B-NP,B-PER
+.,.,I-NP,O
+ ,O,O,<UNK>

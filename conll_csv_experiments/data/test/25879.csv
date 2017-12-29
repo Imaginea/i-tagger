@@ -1,0 +1,9 @@
+0,1,2,3
+Friday,NNP,B-NP,O
+12/06/96,NNP,I-NP,O
+(,(,O,O
+est,FW,O,O
+),),O,O
+"132,000",CD,B-NP,O
+"7,000",CD,I-NP,O
+"359,000",CD,I-NP,O

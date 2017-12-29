@@ -1,0 +1,9 @@
+0,1,2,3
+2:29.34,CD,B-NP,O
+Maria,NNP,B-NP,B-PER
+Mutola,NNP,I-NP,I-PER
+(,(,O,O
+Mozambique,NNP,B-NP,B-LOC
+),),O,O
+Brussels,NNP,B-NP,B-LOC
+25.8.95,CD,I-NP,O

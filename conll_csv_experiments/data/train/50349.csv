@@ -1,0 +1,8 @@
+0,1,2,3
+The,DT,B-NP,O
+company,NN,I-NP,O
+is,VBZ,B-VP,O
+earmarked,VBN,I-VP,O
+for,IN,B-PP,O
+eventual,JJ,B-NP,O
+privatisatio,JJ,I-NP,O

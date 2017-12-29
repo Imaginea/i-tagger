@@ -1,0 +1,8 @@
+0,1,2,3
+2.,CD,B-NP,O
+Gete,NNP,I-NP,B-PER
+Wami,NNP,I-NP,I-PER
+(,(,O,O
+Ethiopia,NNP,B-NP,B-LOC
+),),O,O
+15:05.21,CD,B-NP,O

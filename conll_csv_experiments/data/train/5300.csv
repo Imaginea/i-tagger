@@ -1,0 +1,20 @@
+0,1,2,3
+There,EX,B-NP,O
+are,VBP,B-VP,O
+too,RB,B-NP,O
+many,JJ,I-NP,O
+holes,NNS,I-NP,O
+in,IN,B-PP,O
+what,WP,B-NP,O
+we,PRP,B-NP,O
+know,VBP,B-VP,O
+",",",",O,O
+and,CC,O,O
+these,DT,B-NP,O
+must,MD,B-VP,O
+be,VB,I-VP,O
+filled,VBN,I-VP,O
+very,RB,B-ADVP,O
+quickly,RB,I-ADVP,O
+.,.,O,O
+ ,O,O,<UNK>

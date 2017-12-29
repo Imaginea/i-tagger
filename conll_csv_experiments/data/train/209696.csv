@@ -1,0 +1,10 @@
+0,1,2,3
+New,JJ,B-NP,O
+bomb,NN,I-NP,O
+attacks,NNS,I-NP,O
+on,IN,B-PP,O
+Corsica,NNP,B-NP,B-LOC
+despite,IN,B-PP,O
+crackdown,NN,B-NP,O
+vow,NN,I-NP,O
+.,.,O,O

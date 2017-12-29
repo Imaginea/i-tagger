@@ -1,0 +1,29 @@
+0,1,2,3
+ ,O,O,<UNK>
+We,PRP,B-NP,O
+are,VBP,B-VP,O
+stubborn,JJ,B-NP,O
+",",",",I-NP,O
+have,VBP,B-VP,O
+strength,NN,B-NP,O
+and,CC,I-NP,O
+time,NN,I-NP,O
+to,TO,B-VP,O
+persist,VB,I-VP,O
+until,IN,B-SBAR,O
+our,PRP$,B-NP,O
+demands,NNS,I-NP,O
+are,VBP,B-VP,O
+met,VBN,I-VP,O
+",",",",O,O
+ ,O,O,<UNK>
+said,VBD,B-VP,O
+the,DT,B-NP,O
+factory,NN,I-NP,O
+'s,POS,B-NP,O
+trade,NN,I-NP,O
+union,NN,I-NP,O
+secretary,NN,I-NP,O
+Dragutin,NNP,I-NP,B-PER
+Stanojlovic,NNP,I-NP,I-PER
+.,.,O,O

@@ -1,0 +1,9 @@
+0,1,2,3
+Daily,NNP,B-NP,O
+Argentine,JJ,I-NP,B-MISC
+grain,NN,I-NP,O
+fixings,NNS,I-NP,O
+-,:,O,O
+Camaras,NNS,B-NP,O
+Arbitrales,NNP,I-NP,O
+.,.,O,O

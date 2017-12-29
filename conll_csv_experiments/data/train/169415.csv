@@ -1,0 +1,9 @@
+0,1,2,3
+Gov't,NN,B-NP,O
+dodging,VBG,B-VP,O
+extradition,NN,B-NP,O
+",",",",O,O
+Colombian,JJ,B-NP,B-MISC
+official,NN,I-NP,O
+says,VBZ,B-VP,O
+.,.,O,O

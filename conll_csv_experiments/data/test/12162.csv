@@ -1,0 +1,8 @@
+0,1,2,3
+It,PRP,B-NP,O
+has,VBZ,B-VP,O
+produced,VBN,I-VP,O
+1.5,CD,B-NP,O
+million,CD,I-NP,O
+hectolitres,NNS,I-NP,O
+.,.,O,O

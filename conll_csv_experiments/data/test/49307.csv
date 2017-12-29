@@ -1,0 +1,17 @@
+0,1,2,3
+The,DT,B-NP,O
+result,NN,I-NP,O
+leaves,VBZ,B-VP,O
+Real,JJ,B-NP,B-ORG
+on,IN,B-PP,O
+38,CD,B-NP,O
+points,NNS,I-NP,O
+after,IN,B-PP,O
+16,CD,B-NP,O
+games,NNS,I-NP,O
+",",",",O,O
+four,CD,B-NP,O
+ahead,RB,B-ADVP,O
+of,IN,B-PP,O
+Barcelona,NNP,B-NP,B-ORG
+.,.,O,O

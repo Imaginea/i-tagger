@@ -1,0 +1,13 @@
+0,1,2,3
+Only,RB,B-NP,O
+some,DT,I-NP,O
+take,JJ,I-NP,O
+money,NN,I-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+Sri,NNP,B-NP,B-MISC
+Lankan,NNP,I-NP,I-MISC
+boatman,NN,I-NP,O
+Chinnathambi,NNP,I-NP,B-PER
+said,VBD,B-VP,O
+.,.,O,O

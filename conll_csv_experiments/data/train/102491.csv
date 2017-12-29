@@ -1,0 +1,7 @@
+0,1,2,3
+Lamonts,NN,B-NP,B-ORG
+Apparel,NNP,I-NP,I-ORG
+files,VBZ,B-VP,O
+reorganization,NN,B-NP,O
+plan,NN,I-NP,O
+.,.,O,O

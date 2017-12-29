@@ -1,0 +1,34 @@
+0,1,2,3
+--,:,B-INTJ,O
+ ,O,O,<UNK>
+Based,VBN,B-PP,O
+on,IN,B-PP,O
+our,PRP$,B-NP,O
+simulated,JJ,I-NP,O
+production,NN,I-NP,O
+",",",",I-NP,O
+income,NN,I-NP,O
+and,CC,I-NP,O
+cash,NN,I-NP,O
+flow,NN,I-NP,O
+models,NNS,I-NP,O
+",",",",O,O
+common,JJ,B-NP,O
+shares,NNS,I-NP,O
+of,IN,B-PP,O
+Royal,NNP,B-NP,B-ORG
+Oak,NNP,I-NP,I-ORG
+are,VBP,B-VP,O
+at,IN,B-PP,O
+a,DT,B-NP,O
+significant,JJ,I-NP,O
+discount,NN,I-NP,O
+to,TO,B-PP,O
+the,DT,B-NP,O
+industry,NN,I-NP,O
+averages,NNS,I-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+EVEREN,NNP,B-NP,B-ORG
+said,VBD,B-VP,O
+.,.,O,O

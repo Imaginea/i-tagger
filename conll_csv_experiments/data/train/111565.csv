@@ -1,0 +1,12 @@
+0,1,2,3
+That,DT,B-NP,O
+allowed,VB,B-VP,O
+him,PRP,B-NP,O
+to,TO,B-VP,O
+be,VB,I-VP,O
+moved,VBN,I-VP,O
+to,TO,B-PP,O
+a,DT,B-NP,O
+semi-upright,JJ,I-NP,O
+position,NN,I-NP,O
+.,.,O,O

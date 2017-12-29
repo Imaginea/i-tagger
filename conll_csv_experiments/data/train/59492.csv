@@ -1,0 +1,16 @@
+0,1,2,3
+Bochum,NNP,B-NP,B-ORG
+1,CD,I-NP,O
+(,(,O,O
+Jack,NNP,B-NP,B-PER
+66th,JJ,I-NP,O
+minute,NN,I-NP,O
+),),O,O
+Arminia,NNP,B-NP,B-ORG
+Bielefeld,NNP,I-NP,I-ORG
+1,CD,I-NP,O
+(,(,O,O
+Molata,NNP,B-NP,B-PER
+59th,JJ,I-NP,O
+),),O,O
+.,.,O,O
