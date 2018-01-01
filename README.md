@@ -80,16 +80,17 @@ make use of the aviable features to train the data
 
 Each experiment starts based on a dataset.
 
-We use CoNLL data set, since it is provided as part this repo
-- conll_experiments
+Let use CoNLL data set, since it is provided as part this repo
+- [conll_csv_experiments](conll_csv_experiments/)
     - data
         - train.txt
         - test.txt
         - val.txt
     - tf_data
-    - model_v0
-        - config1
-        - config2
+    - data_iterator_1
+        - model_v0
+            - config_1
+            - config_2
 
 
 # Available Models:

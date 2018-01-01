@@ -9,7 +9,7 @@ def naive_vocab_creater(lines, out_file_name, use_nlp):
     nlp = spacy.load('en_core_web_md')
     final_vocab = [PAD_WORD, UNKNOWN_WORD]
     if use_nlp:
-        vocab = [word.text for line in tqdm(lines) for word in nlp(line) if word.text in nlp.vocab]
+        vocab = [word.text for line in tqdm(lines) for word in nlp(str(line)) if word.text in nlp.vocab]
     else:
         print(lines)
         vocab = [word for line in tqdm(lines) for word in line.split(" ")]
@@ -19,7 +19,7 @@ def naive_vocab_creater(lines, out_file_name, use_nlp):
     try:
         vocab.remove(UNKNOWN_WORD)
     except:
-        print("No {} token found".format(UNKNOWN_WORD))
+        print_info("No {} token found".format(UNKNOWN_WORD))
 
     vocab = list(vocab)
     final_vocab.extend(vocab)

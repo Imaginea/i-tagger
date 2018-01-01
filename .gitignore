@@ -1,5 +1,5 @@
 **/experiments/*
 **/.ipynb_checkpoints/*
+*.idea/*
 *.pyc
 *.swp
-*.csv

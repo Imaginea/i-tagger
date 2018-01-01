@@ -1,6 +1,7 @@
 import os
 import configparser
 from configparser import ExtendedInterpolation
+from helpers.print_helper import *
 
 class ConfigManager(object):
     def __init__(self, config_path: str):
@@ -33,6 +34,8 @@ class ConfigManager(object):
                                option=option)
 
     def save_config(self):
+
+        print_info(os.getcwd())
         # Writing our configuration file to 'config'
         with open(self.config_path, 'w') as configfile:
             self.config.write(configfile)

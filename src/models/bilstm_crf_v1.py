@@ -213,7 +213,7 @@ class BiLSTMCRFV1(tf.estimator.Estimator, IPostionalFeature):
             tf.logging.info('table info: {}'.format(word_table))
 
             # [BATCH_SIZE, 1]
-            words = tf.string_split(text_features, delimiter=SEPRATOR)
+            words = tf.string_split(text_features, delimiter=SEPERATOR)
 
             # [BATCH_SIZE, ?] i.e [BATCH_SIZE, VARIABLE_SEQ_LENGTH]
             densewords = tf.sparse_tensor_to_dense(words,
@@ -236,7 +236,7 @@ class BiLSTMCRFV1(tf.estimator.Estimator, IPostionalFeature):
                 tf.logging.info('ner_table info: {}'.format(ner_table))
 
                 # [BATCH_SIZE, 1]
-                labels_splitted = tf.string_split(labels, delimiter=SEPRATOR)
+                labels_splitted = tf.string_split(labels, delimiter=SEPERATOR)
                 # [BATCH_SIZE, ?] i.e [BATCH_SIZE, VARIABLE_SEQ_LENGTH]
                 labels_splitted_dense = tf.sparse_tensor_to_dense(labels_splitted,
                                                                   default_value="O")

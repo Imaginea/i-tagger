@@ -11,9 +11,9 @@ class PreprocessedDataInfo():
                  text_col,
                  entity_col,
                  entity_iob_col,
-                 train_data_file,
-                 val_data_file,
-                 test_data_file,
+                 train_files_path,
+                 val_files_path,
+                 test_path_files,
                  words_vocab_file,
                  chars_vocab_file,
                  entity_vocab_file,
@@ -28,33 +28,38 @@ class PreprocessedDataInfo():
         self.ENTITY_COL = entity_col
         self.ENTITY_IOB_COL = entity_iob_col
 
-        self.TRAIN_DATA_FILE = os.path.abspath(train_data_file)
-        self.VAL_DATA_FILE = os.path.abspath(val_data_file)
-        self.TEST_DATA_FILE = os.path.abspath(test_data_file)
+        self.TRAIN_FILES_PATH = os.path.abspath(train_files_path)
+        self.VAL_FILES_PATH = os.path.abspath(val_files_path)
+        self.TEST_FILES_PATH = os.path.abspath(test_path_files)
 
         self.WORDS_VOCAB_FILE = os.path.abspath(words_vocab_file)
         self.CHARS_VOCAB_FILE = os.path.abspath(chars_vocab_file)
-        self.ENTITY_VOCAB_FILE = os.path.abspath(entity_vocab_file)
+        self.ENTITY_VOCAB_FILE = os.path.abspath(entity_vocab_file) #TODO make this as in memory data
 
     @staticmethod
-    def is_file_exists(data_dir):
-         return os.path.exists(data_dir + "/processed_data_info.pickle")
+    def is_file_exists(experiment_data_dir):
+         return os.path.exists(experiment_data_dir + "config/processed_data_info.pickle")
 
     @staticmethod
-    def save(info, data_dir):
+    def save(info, experiment_data_dir):
         print_info("Storing the PreprocessedDataInfo for further use... \n{}\n ".format(info))
 
-        if not os.path.exists(data_dir + "/processed_data_info.pickle"):
-            with open(data_dir + "/processed_data_info.pickle", "wb") as file:
+        if not os.path.exists(experiment_data_dir + "/config/processed_data_info.pickle"):
+            with open(experiment_data_dir + "/config/processed_data_info.pickle", "wb") as file:
                 pickle.dump(info, file=file)
 
     @staticmethod
-    def load(data_dir):
+    def load(experiment_data_dir):
         info = None
         try:
-            with open(data_dir + "/processed_data_info.pickle", "rb") as file:
+            print_info("Loading {}".format(experiment_data_dir + "/config/processed_data_info.pickle"))
+            with open(experiment_data_dir + "/config/processed_data_info.pickle", "rb") as file:
                 info = pickle.load(file)
             print_info("Restoring the PreprocessedDataInfo for further use... \n{}\n ".format(info))
         except:
             info = None
+            print_info("{} is missing!!!".format(experiment_data_dir + "/config/processed_data_info.pickle"))
+
+            raise EnvironmentError
+
         return info

@@ -359,7 +359,7 @@ class PatentDataPreprocessor(IPreprocessorInterface):
             print_info("Preparing the vocab for the text col: {}".format(self.TEXT_COL))
 
             # Read the text file as DataFrame and extract vocab for text column and entity column
-            train_df = pd.read_csv(self.TRAIN_DATA_FILE, sep=SEPRATOR, quotechar=QUOTECHAR).fillna(UNKNOWN_WORD)
+            train_df = pd.read_csv(self.TRAIN_DATA_FILE, sep=SEPERATOR, quotechar=QUOTECHAR).fillna(UNKNOWN_WORD)
 
             print_info(train_df.head())
 
@@ -380,7 +380,7 @@ class PatentDataPreprocessor(IPreprocessorInterface):
             print_info("Preparing the vocab for the entity col: {}".format(self.ENTITY_COL))
 
             # Reopen the file without filling UNKNOWN_WORD in blank lines
-            train_df = pd.read_csv(self.TRAIN_DATA_FILE, sep=SEPRATOR, quotechar=QUOTECHAR)
+            train_df = pd.read_csv(self.TRAIN_DATA_FILE, sep=SEPERATOR, quotechar=QUOTECHAR)
 
             print_info(train_df.head())
 

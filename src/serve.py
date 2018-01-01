@@ -1,21 +1,70 @@
-from taggers.conll_tagger import CoNLLTagger
+from config.global_constants import UNKNOWN_WORD
+from data_iterators.data_iterators_factory import DataIteratorsFactory
 from helpers.print_helper import *
+from to_delete.taggers.conll_tagger import CoNLLTagger
+from commands.tagger import load_estimator
 
-def get_model_api(model_dir,abs_fpath):
+import pandas as pd
+
+def get_model_api(model_dir, abs_fpath):
     """Returns dataframe"""
 
     # 1. initialize model
-    tagger = CoNLLTagger(model_dir=model_dir)
-    a = tagger.predict_on_test_files(abs_fpath)
+    decoded_path = model_dir.split("/")
+    model_name = decoded_path[-2]
+    data_iterator_name = decoded_path[-3]
+    experiment_name = decoded_path[-4]
+
+    estimator = load_estimator(experiment_name=experiment_name,
+                               data_iterator_name=data_iterator_name,
+                               model_name=model_name,
+                               model_dir=model_dir)
+
+
+    # Use the factory loader to load the appropriate data-iterator,
+    # which depends/reads the config from experiment_folder/config/*.pickle
+    # stored previously by preprocessor
+    data_iterator = DataIteratorsFactory.get(data_iterator_name)
+    # Initialize the data iterator with experiment folder path and batch size
+    # all other needed config/info are read from the *.pickle file
+    df = None
+    if abs_fpath.endswith(".csv"):
+        df = pd.read_csv(abs_fpath).fillna(UNKNOWN_WORD)
+    elif abs_fpath.endswith(".json"):
+        df = pd.read_json(abs_fpath).filla(UNKNOWN_WORD)
+
+    a = data_iterator.predict_on_test_file(estimator=estimator, df=df)
     return a
 
-def get_model_api1(model_dir,sentence):
+def get_model_api1(model_dir, sentence):
     """Returns dataframe"""
 
     # 1. initialize model
     print_info(model_dir)
-    tagger = CoNLLTagger(model_dir=model_dir)
-    preds = tagger.predict_on_test_text(sentence)
+
+    decoded_path = model_dir.split("/")
+    model_name = decoded_path[-2]
+    data_iterator_name = decoded_path[-3]
+    experiment_name = decoded_path[-4]
+
+    print_info(model_name)
+    print_info(data_iterator_name)
+    print_info(experiment_name)
+    estimator = load_estimator(experiment_name=experiment_name,
+                               data_iterator_name=data_iterator_name,
+                               model_name=model_name,
+                               model_dir=model_dir)
+
+
+    # Use the factory loader to load the appropriate data-iterator,
+    # which depends/reads the config from experiment_folder/config/*.pickle
+    # stored previously by preprocessor
+    data_iterator = DataIteratorsFactory.get(data_iterator_name)
+    # Initialize the data iterator with experiment folder path and batch size
+    # all other needed config/info are read from the *.pickle file
+    data_iterator = data_iterator(experiment_name, -1)
+
+    preds = data_iterator.predict_on_text(estimator, sentence)
     # 2. process input
     punc = [",", "?", ".", ":", ";", "!", "(", ")", "[", "]"]
     s = "".join(c for c in sentence if c not in punc)

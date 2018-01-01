@@ -75,9 +75,9 @@ class BiLSTMCRFConfigV0(IModelConfig):
         self.NUM_LSTM_LAYERS = num_lstm_layers
 
     @staticmethod
-    def with_user_hyperparamaters(experiment_root_dir, data_dir):
+    def with_user_hyperparamaters(experiment_root_dir, data_iterator_name):
 
-        preprocessed_data_info = PreprocessedDataInfo.load(data_dir)
+        preprocessed_data_info = PreprocessedDataInfo.load(experiment_root_dir)
 
         use_crf = "y"  # TODO
         use_char_embedding = False
@@ -89,7 +89,7 @@ class BiLSTMCRFConfigV0(IModelConfig):
         else:
             use_crf = False
 
-        use_char_embedding_option = input("use_char_embedding (y/n)") or "y"
+        use_char_embedding_option = input("use_char_embedding (y/n): ") or "y"
         learning_rate = input("learning_rate (0.001): ") or 0.001
         learning_rate = float(learning_rate)
         num_lstm_layers = input("num_word_lstm_layers (2): ") or 2
@@ -112,7 +112,13 @@ class BiLSTMCRFConfigV0(IModelConfig):
         out_keep_propability = float(out_keep_propability)
 
         # Does this sound logical? review please
-        model_dir = experiment_root_dir + "/bilstm_crf_v0/" + \
+        '''
+        experiment_root_dir/
+            - data_iterator/
+                - model_name/
+                    - user_hyper_params/
+        '''
+        model_dir = experiment_root_dir + "/" + data_iterator_name + "/bilstm_crf_v0/" + \
                     "charembd_{}_lr_{}_lstmsize_{}-{}-{}_wemb_{}_cemb_{}_outprob_{}".format(
                         str(use_char_embedding),
                         learning_rate,
@@ -210,7 +216,7 @@ class BiLSTMCRFV0(tf.estimator.Estimator, ITextFeature):
             tf.logging.info('table info: {}'.format(word_table))
 
             # [BATCH_SIZE, 1]
-            words = tf.string_split(text_features, delimiter=SEPRATOR)
+            words = tf.string_split(text_features, delimiter=SEPERATOR)
 
             # [BATCH_SIZE, ?] i.e [BATCH_SIZE, VARIABLE_SEQ_LENGTH]
             densewords = tf.sparse_tensor_to_dense(words,
@@ -229,7 +235,7 @@ class BiLSTMCRFV0(tf.estimator.Estimator, ITextFeature):
                 tf.logging.info('ner_table info: {}'.format(ner_table))
 
                 # [BATCH_SIZE, 1]
-                labels_splitted = tf.string_split(labels, delimiter=SEPRATOR)
+                labels_splitted = tf.string_split(labels, delimiter=SEPERATOR)
                 # [BATCH_SIZE, ?] i.e [BATCH_SIZE, VARIABLE_SEQ_LENGTH]
                 labels_splitted_dense = tf.sparse_tensor_to_dense(labels_splitted,
                                                                   default_value="O")
@@ -461,7 +467,7 @@ class BiLSTMCRFV0(tf.estimator.Estimator, ITextFeature):
 
             tf.logging.info("viterbi_seq: {}".format(viterbi_seq))
 
-            predictions = {
+            predictions = { #TODO features class
                 "classes": tf.cast(tf.argmax(logits, axis=-1),
                                    tf.int32),
                 # [BATCH_SIZE, SEQ_LEN]

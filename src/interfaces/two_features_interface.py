@@ -20,6 +20,10 @@ class ITextFeature(TwoFeatures):
         self.FEATURE_1_NAME = "text"
         self.FEATURE_2_NAME = "char_ids"
 
+        self.OUT_TAGS = "classes"
+        self.OUT_CONFIDENCE = "confidence"
+
+
 class IPostionalFeature():
     def __init__(self):
         self.FEATURE_NAME = "text+char_ids+positional_info"
