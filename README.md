@@ -99,7 +99,10 @@ Let use CoNLL data set, since it is provided as part this repo
 
 
 # Validation
- - CoNLL dataset results (not tuned)
+ The whole pacakage is tested on CoNLL data set for software integrity, and results are not tuned yet!
+
+[Check here for more details on how to rest it on CoNLL data set.](conll_csv_experiments/README.md)
+
 
 ![](docs/images/conll_tensorboard_results.png)
 

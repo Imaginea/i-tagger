@@ -8,10 +8,10 @@ from helpers.print_helper import *
 from models.model_factory import TFEstimatorFactory
 
 from preprocessor.preprocessor_factory import PreprocessorFactory
-from helpers.post_processing.naive_metrics import get_naive_metrics
+from post_processor.naive_metrics import get_naive_metrics
 from tqdm import tqdm
 
-def load_estimator(experiment_name, data_iterator_name, model_name, model_dir):
+def load_estimator(experiment_name, data_iterator, model_name, model_dir):
     # Use the factory loader to load the appropriate model
     estimator_config, estimator = TFEstimatorFactory.get(model_name)
 
@@ -20,14 +20,14 @@ def load_estimator(experiment_name, data_iterator_name, model_name, model_dir):
     if model_dir:
         config = estimator_config.load(model_dir)
         if config is None:  # Fail safe
-            estimator_config = estimator_config.with_user_hyperparamaters(experiment_name, data_iterator_name)
+            estimator_config = estimator_config.with_user_hyperparamaters(experiment_name, data_iterator)
         else:
             estimator_config = config
     else:
         # Each estimator is expected to take user inputs for model hyper parameters
         # and create a directory like experiment_folder/model_name/hyper_parameters/
         # Also it stores the model config file as a pickle in experiment_folder/model_name/hyper_parameters/
-        estimator_config = estimator_config.with_user_hyperparamaters(experiment_name, data_iterator_name)
+        estimator_config = estimator_config.with_user_hyperparamaters(experiment_name, data_iterator)
 
     estimator = estimator(estimator_config)
 
@@ -89,7 +89,7 @@ def run(opt):
     # data_iterator.prepare()
 
     # Load the estimator
-    estimator = load_estimator(opt.experiment_name, opt.data_iterator_name, opt.model_name, opt.model_dir)
+    estimator = load_estimator(opt.experiment_name, data_iterator, opt.model_name, opt.model_dir)
 
     if opt.mode == "train":
         train(estimator, data_iterator, opt.batch_size, opt.num_epochs)

@@ -1,12 +1,12 @@
 import sys
 sys.path.append("../")
-import tensorflow as tf
 from config.preprocessed_data_info import PreprocessedDataInfo
 from helpers.print_helper import *
-
+from config.config_helper import ConfigManager
+from helpers.os_helper import check_n_makedirs
 
 class IDataIterator():
-    def __init__(self, experiment_dir, batch_size):
+    def __init__(self, name, experiment_dir, batch_size):
         '''
         Data Iterators with different features type are expected to 
         implement this interface, exposing the input functions and their hooks
@@ -15,9 +15,32 @@ class IDataIterator():
         
         '''
 
-        self.preprocessed_data_info = PreprocessedDataInfo.load(experiment_dir)
+        self.NAME = name
+        self.EXPERIMENT_ROOT_DIR = experiment_dir
+        self.OUT_DIR = self.EXPERIMENT_ROOT_DIR + "/" + self.NAME + "/"
+
+        # This rule is assumed to be correct if the previous stage is of IPreprocessorInterface
+        self.DATA_OUT_DIR = self.EXPERIMENT_ROOT_DIR + "/" + "preprocessed_data/"
+        self.TRAIN_FILES_IN_PATH = self.DATA_OUT_DIR + "/train/"
+        self.VAL_FILES_IN_PATH = self.DATA_OUT_DIR + "/val/"
+        self.TEST_FILES_IN_PATH = self.DATA_OUT_DIR + "/test/"
+
+        self._load_ini()
+        # self.preprocessed_data_info = PreprocessedDataInfo.load(experiment_dir)
+
+        self.TEXT_COL = self.config.get_item("Schema", "text_column")
+        self.ENTITY_COL = self.config.get_item("Schema", "entity_column")
+        self.WORDS_VOCAB_FILE = self.OUT_DIR + "/" + self.TEXT_COL + "_" + "vocab.tsv"
+        self.CHARS_VOCAB_FILE = self.OUT_DIR + "/" + self.TEXT_COL + "_" + "chars_vocab.tsv"
+        self.ENTITY_VOCAB_FILE = self.OUT_DIR + "/" + self.ENTITY_COL + "_vocab.tsv"
+
+        check_n_makedirs(self.OUT_DIR)
 
         self.BATCH_SIZE = batch_size
+        self.NUM_TAGS = None
+        self.VOCAB_SIZE = None
+        self.CHAR_VOCAB_SIZE = None
+
         self._train_data_input_fn = None
         self._train_data_init_hook = None
 
@@ -26,6 +49,14 @@ class IDataIterator():
 
         self._test_data_input_fn= None
         self._test_data_init_hook = None
+
+    def _load_ini(self):
+        '''
+        Assuming each dataset will have its own configuration, a `experiment_folder/config/*.ini`
+        is used to store and read data specific configuration
+        :return: 
+        '''
+        self.config = ConfigManager(self.EXPERIMENT_ROOT_DIR + "/config/config.ini")
 
     def setup_train_input_graph(self):
         raise NotImplementedError
@@ -72,7 +103,30 @@ class IDataIterator():
             self.setup_test_input_graph()
         return self._test_data_init_hook
 
-    # def prepare(self):
-    #     self.setup_train_input_graph()
-    #     self.setup_val_input_graph()
-    #     self.setup_predict_input_graph()
+    def predict_on_test_file(self, estimator, df):
+        '''
+        Implement this function to predict on given data frame
+        based on configured input/text column
+        :param estimator: One of the models that support this data iterator
+        :param df: Pandas data frame of the test/user file
+        :return: New data frame with predicted columns
+        '''
+        raise NotImplementedError
+
+    def predict_on_test_files(self, estimator, df_files_path):
+        '''
+        Iterate through the files and use `predict_on_test_file`, for prediction
+        :param estimator: One of the models that support this data iterator
+        :param df_files_path: Files that can be opened by the pandas 
+        :return: Creates a folder estimator.model_dir/predictions/ and adds the predicted files
+        '''
+        raise NotImplementedError
+
+    def predict_on_text(self, estimator, sentence):
+        '''
+        Use this for user interaction on the fly
+        :param estimator: One of the models that support this data iterator
+        :param sentence: Text deliminated by space
+        :return: 
+        '''
+        raise NotImplementedError

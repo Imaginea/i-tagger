@@ -31,7 +31,7 @@ python src/commands/tagger.py \
 --num-epochs=5
 
 #above when run with default params will create following model
-export MODEL_PATH=conll_csv_experiments/csv_data_iterator/bilstm_crf_v0/charembd_True_lr_0.001_lstmsize_2-48-32_wemb_48_cemb_32_outprob_0.5/
+export MODEL_PATH=conll_csv_experiments/csv_data_iterator/bilstm_crf_v0/charembd_True_lr_0.001_lstmsize_2-64-48_wemb_64_cemb_48_outprob_0.5/
 
 python src/commands/tagger.py \
 --experiment-name=conll_csv_experiments \
@@ -57,7 +57,7 @@ python src/commands/tagger.py \
 --data-iterator-name=csv_data_iterator \
 --model-name=bilstm_crf_v0 \
 --model-dir=$MODEL_PATH \
---predict-dir=conll_csv_experiments/processed_data/test/
+--predict-dir=conll_csv_experiments/preprocessed_data/test/
 ```
 
 
@@ -68,7 +68,7 @@ tensorboard --logdir=$MODEL_PATH
 
 **Demo on web interface**
 
-A pretrained model on CoNLL data set is available on `path/to/i-tagger/conll_experiments/bilstm_crf_v0/charembd_True_lr_0.001_lstmsize_2-48-32_wemb_48_cemb_32_outprob_0.5`
+A pretrained model on CoNLL data set is available on `path/to/i-tagger/conll_csv_experiments/csv_data_iterator/bilstm_crf_v0/charembd_True_lr_0.001_lstmsize_2-64-48_wemb_64_cemb_48_outprob_0.5/`
 
 Fire up the web app and test it ;)
 

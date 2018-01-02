@@ -10,9 +10,6 @@ from helpers.print_helper import *
 from config.global_constants import *
 from helpers.os_helper import copytree
 
-from nlp.spacy_helper import naive_vocab_creater, get_char_vocab, vocab_to_tsv
-from config.preprocessed_data_info import PreprocessedDataInfo
-
 class CoNLLDataPreprocessor(IPreprocessorInterface):
     def __init__(self,
                  experiment_root_directory,
@@ -50,97 +47,63 @@ class CoNLLDataPreprocessor(IPreprocessorInterface):
         else:
             self.OVER_WRITE = self.config.get_item("Options", "over_write")
 
-            self.TRAIN_DF_PATH = self.config.get_item("InputDirectories", "train_csvs_path")
-            self.VAL_DF_PATH = self.config.get_item("InputDirectories", "val_csvs_path")
-            self.TEST_DF_PATH = self.config.get_item("InputDirectories", "test_csvs_path")
+            self.TRAIN_DF_PATH = self.config.get_item("InputDirectories", "train_txt_path")
+            self.VAL_DF_PATH = self.config.get_item("InputDirectories", "val_txt_path")
+            self.TEST_DF_PATH = self.config.get_item("InputDirectories", "test_txt_path")
 
-            self.TEXT_COL = self.config.get_item("Schema", "text_column")
-            self.ENTITY_COL = self.config.get_item("Schema", "entity_column")
-
-        self.TRAIN_OUT_PATH = self.OUT_DIR + "/train/"
-        self.VAL_OUT_PATH = self.OUT_DIR + "/val/"
-        self.TEST_OUT_PATH = self.OUT_DIR + "/test/"
-
-        self.WORDS_VOCAB_FILE = self.OUT_DIR + "/" + self.TEXT_COL + "_" + "vocab.tsv"
-        self.CHARS_VOCAB_FILE = self.OUT_DIR + "/" + self.TEXT_COL + "_" + "chars_vocab.tsv"
-        self.ENTITY_VOCAB_FILE = self.OUT_DIR + "/" + self.ENTITY_COL + "_vocab.tsv"
-
-    def create_target_directories(self):
-        if os.path.exists(self.OUT_DIR):
+    def _create_target_directories(self):
+        if os.path.exists(self.DATA_OUT_DIR):
             if self.OVER_WRITE == "yes":
-                print_info("Deletingls data folder: {}".format(self.OUT_DIR))
-                shutil.rmtree(self.OUT_DIR)
-                print_info("Recreating data folder: {}".format(self.OUT_DIR))
-                os.makedirs(self.OUT_DIR)
+                print_info("Deletingls data folder: {}".format(self.DATA_OUT_DIR))
+                shutil.rmtree(self.DATA_OUT_DIR)
+                print_info("Recreating data folder: {}".format(self.DATA_OUT_DIR))
+                os.makedirs(self.DATA_OUT_DIR)
             else:
-                print_info("Skipping preprocessing step, since the data is already available")
-                return "skip"
+                print_info("Skipping preprocessing step, since the data might already be available")
+                exit(0)
         else:
-            print_info("Creating data folder: {}".format(self.OUT_DIR))
-            os.makedirs(self.OUT_DIR)
+            print_info("Creating data folder: {}".format(self.DATA_OUT_DIR))
+            os.makedirs(self.DATA_OUT_DIR)
 
+    def _conll_to_csv(self, txt_file_path, out_dir):
+        '''
+        Function to convert CoNLL 2003 data set text files into CSV file for each 
+        example/statement.
+        :param txt_file_path: Input text file path
+        :param out_dir: Output directory to store CSV files
+        :return: 
+        '''
+        if not os.path.exists(out_dir):
+            os.makedirs(out_dir)
 
-    def prepare_data(self):
-        print_info("No preprocessing, just copying the train data...")
-        copytree(src=self.TRAIN_DF_PATH, dst=self.TRAIN_OUT_PATH)
+        # Read the text file
+        df = pd.read_csv(txt_file_path,
+                         sep=" ",
+                         skip_blank_lines=False,
+                         header=None).fillna(UNKNOWN_WORD)
 
-        print_info("No preprocessing, just copying the test data...")
-        copytree(src=self.TEST_DF_PATH, dst=self.TEST_OUT_PATH)
+        # Filter out the DOCSTART lines
+        df = df[~df[0].str.contains("DOCSTART")]
 
-        print_info("No preprocessing, just copying the validation data...")
-        copytree(src=self.VAL_DF_PATH, dst=self.VAL_OUT_PATH)
+        current_file = []
 
+        for i in tqdm(range(len(df))):
+            row = df.values[i]
+            if row[0] != UNKNOWN_WORD:
+                current_file.append(row)
+            else:
+                # Consider dumping files with size 2
+                if len(current_file) > 2:
+                    current_file = pd.DataFrame(current_file)
+                    current_file.to_csv(out_dir + "/{}.csv".format(i), index=False)
+                    current_file = []
 
-    def extract_vocab(self):
-        if not os.path.exists(self.WORDS_VOCAB_FILE) or not os.path.exists(self.ENTITY_VOCAB_FILE):
-            print_info("Preparing the vocab for the text col: {}".format(self.TEXT_COL))
+    def _prepare_data(self):
+        print_info("Preprocessing the train data...")
+        self._conll_to_csv(self.TRAIN_DF_PATH, self.TRAIN_OUT_PATH)
 
-            lines = set()
-            entities = set()
+        print_info("Preprocessing the test data...")
+        self._conll_to_csv(self.TEST_DF_PATH, self.TEST_OUT_PATH)
 
-            for df_file in tqdm(os.listdir(self.TRAIN_DF_PATH)):
-                df_file = os.path.join(self.TRAIN_DF_PATH, df_file)
-                if df_file.endswith(".csv"):
-                    df = pd.read_csv(df_file).fillna(UNKNOWN_WORD)
-                elif df_file.endswith(".json"):
-                    df = pd.read_json(df_file).filla(UNKNOWN_WORD)
-                lines.update(set(df[self.TEXT_COL].values.tolist()))
-                entities.update(set(df[self.ENTITY_COL].values.tolist()))
-
-            # VOCAB_SIZE, words_vocab = tf_vocab_processor(lines, WORDS_VOCAB_FILE)
-            self.VOCAB_SIZE, words_vocab = naive_vocab_creater(lines, self.WORDS_VOCAB_FILE, use_nlp=True)
-
-            # Get char level vocab
-            words_chars_vocab = [PAD_CHAR, UNKNOWN_CHAR]
-            _vocab = get_char_vocab(words_vocab)
-            words_chars_vocab.extend(_vocab)
-
-            # Create char2id map
-            vocab_to_tsv(words_chars_vocab, self.CHARS_VOCAB_FILE)
-            self.char_2_id_map = {c: i for i, c in enumerate(words_chars_vocab)}
-
-            print_info("Preparing the vocab for the entity col: {}".format(self.ENTITY_COL))
-
-            # NUM_TAGS, tags_vocab = tf_vocab_processor(lines, ENTITY_VOCAB_FILE)
-            self.NUM_TAGS, tags_vocab = naive_vocab_creater(entities, self.ENTITY_VOCAB_FILE, use_nlp=False)
-        else:
-            print_info("Reusing the vocab")
-
-
-    def save_preprocessed_data_info(self):
-        if not PreprocessedDataInfo.is_file_exists(self.OUT_DIR):
-            # Create data level configs that is shared between model training and prediction
-            info = PreprocessedDataInfo(vocab_size=self.VOCAB_SIZE,
-                                        num_tags=self.NUM_TAGS,
-                                        text_col=self.TEXT_COL,
-                                        entity_col=self.ENTITY_COL,
-                                        entity_iob_col=self.ENTITY_COL, #same in this case
-                                        train_files_path=self.TRAIN_OUT_PATH,
-                                        val_files_path=self.VAL_OUT_PATH,
-                                        test_path_files=self.TEST_OUT_PATH,
-                                        words_vocab_file=self.WORDS_VOCAB_FILE,
-                                        chars_vocab_file=self.CHARS_VOCAB_FILE,
-                                        entity_vocab_file=self.ENTITY_VOCAB_FILE,
-                                        char_2_id_map=self.char_2_id_map)
-
-            PreprocessedDataInfo.save(info, self.EXPERIMENT_ROOT_DIR)
+        print_info("Preprocessing the validation data...")
+        self._conll_to_csv(self.VAL_DF_PATH, self.VAL_OUT_PATH)

@@ -75,9 +75,9 @@ class BiLSTMCRFConfigV0(IModelConfig):
         self.NUM_LSTM_LAYERS = num_lstm_layers
 
     @staticmethod
-    def with_user_hyperparamaters(experiment_root_dir, data_iterator_name):
+    def with_user_hyperparamaters(experiment_root_dir, data_iterator):
 
-        preprocessed_data_info = PreprocessedDataInfo.load(experiment_root_dir)
+        # preprocessed_data_info = PreprocessedDataInfo.load(experiment_root_dir)
 
         use_crf = "y"  # TODO
         use_char_embedding = False
@@ -97,16 +97,16 @@ class BiLSTMCRFConfigV0(IModelConfig):
 
         if use_char_embedding_option == 'y':
             use_char_embedding = True
-            char_level_lstm_hidden_size = input("char_level_lstm_hidden_size (32): ") or 32
+            char_level_lstm_hidden_size = input("char_level_lstm_hidden_size (48): ") or 48
             char_level_lstm_hidden_size = int(char_level_lstm_hidden_size)
-            char_emd_size = input("char_emd_size (32): ") or 32
+            char_emd_size = input("char_emd_size (48): ") or 48
             char_emd_size = int(char_emd_size)
         else:
             use_char_embedding = False
 
-        word_level_lstm_hidden_size = input("word_level_lstm_hidden_size (48): ") or 48
+        word_level_lstm_hidden_size = input("word_level_lstm_hidden_size (64): ") or 64
         word_level_lstm_hidden_size = int(word_level_lstm_hidden_size)
-        word_emd_size = input("word_emd_size (48): ") or 48
+        word_emd_size = input("word_emd_size (64): ") or 64
         word_emd_size = int(word_emd_size)
         out_keep_propability = input("out_keep_propability(0.5) : ") or 0.5
         out_keep_propability = float(out_keep_propability)
@@ -118,7 +118,7 @@ class BiLSTMCRFConfigV0(IModelConfig):
                 - model_name/
                     - user_hyper_params/
         '''
-        model_dir = experiment_root_dir + "/" + data_iterator_name + "/bilstm_crf_v0/" + \
+        model_dir = experiment_root_dir + "/" + data_iterator.NAME + "/bilstm_crf_v0/" + \
                     "charembd_{}_lr_{}_lstmsize_{}-{}-{}_wemb_{}_cemb_{}_outprob_{}".format(
                         str(use_char_embedding),
                         learning_rate,
@@ -130,14 +130,14 @@ class BiLSTMCRFConfigV0(IModelConfig):
                         out_keep_propability)
 
         model_config = BiLSTMCRFConfigV0(model_dir=model_dir,
-                                         vocab_size=preprocessed_data_info.VOCAB_SIZE,
-                                         char_vocab_size=preprocessed_data_info.CHAR_VOCAB_SIZE,
-                                         number_tags=preprocessed_data_info.NUM_TAGS,
+                                         vocab_size=data_iterator.VOCAB_SIZE,
+                                         char_vocab_size=data_iterator.CHAR_VOCAB_SIZE,
+                                         number_tags=data_iterator.NUM_TAGS,
                                          unknown_word=UNKNOWN_WORD,
                                          pad_word=PAD_WORD,
-                                         tags_vocab_file=preprocessed_data_info.ENTITY_VOCAB_FILE,
-                                         words_vocab_file=preprocessed_data_info.WORDS_VOCAB_FILE,
-                                         chars_vocab_file=preprocessed_data_info.WORDS_VOCAB_FILE,
+                                         tags_vocab_file=data_iterator.ENTITY_VOCAB_FILE,
+                                         words_vocab_file=data_iterator.WORDS_VOCAB_FILE,
+                                         chars_vocab_file=data_iterator.CHAR_VOCAB_SIZE,
                                          # hyper parameters
                                          use_char_embedding=use_char_embedding,
                                          learning_rate=learning_rate,

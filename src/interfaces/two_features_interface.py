@@ -20,6 +20,7 @@ class ITextFeature(TwoFeatures):
         self.FEATURE_1_NAME = "text"
         self.FEATURE_2_NAME = "char_ids"
 
+        #TODO replace out put in data iterators and models
         self.OUT_TAGS = "classes"
         self.OUT_CONFIDENCE = "confidence"
 

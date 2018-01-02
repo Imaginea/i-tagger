@@ -16,7 +16,7 @@ def get_model_api(model_dir, abs_fpath):
     experiment_name = decoded_path[-4]
 
     estimator = load_estimator(experiment_name=experiment_name,
-                               data_iterator_name=data_iterator_name,
+                               data_iterator=data_iterator_name,
                                model_name=model_name,
                                model_dir=model_dir)
 
@@ -51,7 +51,7 @@ def get_model_api1(model_dir, sentence):
     print_info(data_iterator_name)
     print_info(experiment_name)
     estimator = load_estimator(experiment_name=experiment_name,
-                               data_iterator_name=data_iterator_name,
+                               data_iterator=data_iterator_name,
                                model_name=model_name,
                                model_dir=model_dir)
 

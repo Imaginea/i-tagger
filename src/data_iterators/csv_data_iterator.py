@@ -8,7 +8,6 @@ import numpy as np
 import os
 import pandas as pd
 from tqdm import tqdm
-import pickle
 import ntpath
 import traceback
 import tensorflow as tf
@@ -17,13 +16,61 @@ from helpers.tf_hooks.data_initializers import DataIteratorInitializerHook
 from overrides import overrides
 from helpers.print_helper import *
 from config.global_constants import *
-from tensorflow.python.platform import gfile
 from interfaces.two_features_interface import ITextFeature
+from nlp.spacy_helper import naive_vocab_creater, get_char_vocab, vocab_to_tsv
 
 class CsvDataIterator(IDataIterator, ITextFeature):
     def __init__(self, experiment_dir, batch_size):
-        IDataIterator.__init__(self, experiment_dir, batch_size)
+        IDataIterator.__init__(self, "csv_data_iterator", experiment_dir, batch_size)
         ITextFeature.__init__(self)
+
+        self.extract_vocab()
+
+    def extract_vocab(self):
+        if not os.path.exists(self.WORDS_VOCAB_FILE) \
+                or not os.path.exists(self.ENTITY_VOCAB_FILE) \
+                or not os.path.exists(self.CHARS_VOCAB_FILE):
+            print_info("Preparing the vocab for the text col: {}".format(self.TEXT_COL))
+
+            lines = set()
+            entities = set()
+
+            for df_file in tqdm(os.listdir(self.TRAIN_FILES_IN_PATH), desc="mergining lines"):
+                df_file = os.path.join(self.TRAIN_FILES_IN_PATH, df_file)
+                if df_file.endswith(".csv"):
+                    df = pd.read_csv(df_file).fillna(UNKNOWN_WORD)
+                elif df_file.endswith(".json"):
+                    df = pd.read_json(df_file).filla(UNKNOWN_WORD)
+                lines.update(set(df[self.TEXT_COL].values.tolist()))
+                entities.update(set(df[self.ENTITY_COL].values.tolist()))
+
+            self.VOCAB_SIZE, words_vocab = naive_vocab_creater(lines=lines, out_file_name=self.WORDS_VOCAB_FILE, use_nlp=True)
+
+            print_info("Preparing the character vocab for the text col: {}".format(self.TEXT_COL))
+
+            # Get char level vocab
+            char_vocab = [PAD_CHAR, UNKNOWN_CHAR]
+            _vocab = get_char_vocab(words_vocab)
+            char_vocab.extend(_vocab)
+
+            # Create char2id map
+            self.char_2_id_map = vocab_to_tsv(vocab_list=char_vocab, out_file_name=self.CHARS_VOCAB_FILE)
+            self.CHAR_VOCAB_SIZE = len(self.char_2_id_map)
+
+            print_info("Preparing the vocab for the entity col: {}".format(self.ENTITY_COL))
+
+            # NUM_TAGS, tags_vocab = tf_vocab_processor(lines, ENTITY_VOCAB_FILE)
+            self.NUM_TAGS, tags_vocab = naive_vocab_creater(lines=entities, out_file_name=self.ENTITY_VOCAB_FILE, use_nlp=False)
+        else:
+            print_info("Reusing the vocab")
+            self.VOCAB_SIZE, words_vocab = naive_vocab_creater(lines=None, out_file_name=self.WORDS_VOCAB_FILE,
+                                                               use_nlp=None)
+            self.char_2_id_map = vocab_to_tsv(out_file_name=self.CHARS_VOCAB_FILE, vocab_list=None)
+            self.CHAR_VOCAB_SIZE = len(self.char_2_id_map)
+
+            self.NUM_TAGS, tags_vocab = naive_vocab_creater(lines=None, out_file_name=self.ENTITY_VOCAB_FILE,
+                                                            use_nlp=False)
+            self.TAGS_2_ID =  {id_num: tag for id_num, tag in enumerate(tags_vocab)}
 
     def __pad_sequences(self, sequences, pad_tok, max_length):
         """
@@ -100,9 +147,6 @@ class CsvDataIterator(IDataIterator, ITextFeature):
         :return:
         '''
 
-        self.TEXT_COL = self.preprocessed_data_info.TEXT_COL
-        self.ENTITY_IOB_COL = self.preprocessed_data_info.ENTITY_IOB_COL
-
         list_text = []
         list_char_ids = []
         list_tag = []
@@ -128,7 +172,7 @@ class CsvDataIterator(IDataIterator, ITextFeature):
 
             list_text = df[self.TEXT_COL].astype(str).values.tolist()
             list_char_ids = [[char_2_id_map.get(c, 0) for c in str(word)] for word in list_text]
-            list_tag = df[self.ENTITY_IOB_COL].astype(str).values.tolist()
+            list_tag = df[self.ENTITY_COL].astype(str).values.tolist()
 
             sentence_feature1.append("{}".format(SEPERATOR).join(list_text))
             char_ids_feature2.append(list_char_ids)
@@ -235,7 +279,33 @@ class CsvDataIterator(IDataIterator, ITextFeature):
         # Return function and hook
         return inputs, iterator_initializer_hook
 
-    def predict_inputs(self, features, char_ids, batch_size=1, scope='test-data'):
+    @overrides
+    def setup_train_input_graph(self):
+        train_sentences, train_char_ids, train_ner_tags = \
+            self._make_seq_pair(df_files_path=self.TRAIN_FILES_IN_PATH,
+                                char_2_id_map=self.char_2_id_map,
+                                use_char_embd=True) #TODO
+
+        self.NUM_TRAINING_SAMPLES = train_sentences.shape[0] #TODO
+
+        self._train_data_input_fn, self._train_data_init_hook = self._setup_input_graph2(text_features=train_sentences,
+                                                                                     char_ids=train_char_ids,
+                                                                                     labels=train_ner_tags,
+                                                                                     batch_size=self.BATCH_SIZE,
+                                                                                     use_char_embd=True) #TODO
+    @overrides
+    def setup_val_input_graph(self):
+        val_sentences, val_char_ids, val_ner_tags = \
+            self._make_seq_pair(df_files_path=self.VAL_FILES_IN_PATH,
+                                char_2_id_map=self.char_2_id_map,
+                                use_char_embd=True) #TODO
+        self._val_data_input_fn, self._val_data_init_hook = self._setup_input_graph2(text_features=val_sentences,
+                                                                                     char_ids=val_char_ids,
+                                                                                     labels=val_ner_tags,
+                                                                                     batch_size=self.BATCH_SIZE,
+                                                                                     use_char_embd=True,
+                                                                                     is_eval=True) #TODO
+    def setup_predict_graph(self, features, char_ids, batch_size=1, scope='test-data'):
         """Returns test set as Operations.
         Returns:
             (features, ) Operations that iterate over the test set.
@@ -255,42 +325,10 @@ class CsvDataIterator(IDataIterator, ITextFeature):
 
         return inputs
 
-
-    @overrides
-    def setup_train_input_graph(self):
-        train_sentences, train_char_ids, train_ner_tags = \
-            self._make_seq_pair(df_files_path=self.preprocessed_data_info.TRAIN_FILES_PATH,
-                                char_2_id_map=self.preprocessed_data_info.char_2_id_map,
-                                use_char_embd=True) #TODO
-
-        self.NUM_TRAINING_SAMPLES = train_sentences.shape[0] #TODO
-
-        self._train_data_input_fn, self._train_data_init_hook = self._setup_input_graph2(text_features=train_sentences,
-                                                                                     char_ids=train_char_ids,
-                                                                                     labels=train_ner_tags,
-                                                                                     batch_size=self.BATCH_SIZE,
-                                                                                     use_char_embd=True) #TODO
-    @overrides
-    def setup_val_input_graph(self):
-        val_sentences, val_char_ids, val_ner_tags = \
-            self._make_seq_pair(df_files_path=self.preprocessed_data_info.VAL_FILES_PATH,
-                                char_2_id_map=self.preprocessed_data_info.char_2_id_map,
-                                use_char_embd=True) #TODO
-        self._val_data_input_fn, self._val_data_init_hook = self._setup_input_graph2(text_features=val_sentences,
-                                                                                     char_ids=val_char_ids,
-                                                                                     labels=val_ner_tags,
-                                                                                     batch_size=self.BATCH_SIZE,
-                                                                                     use_char_embd=True,
-                                                                                     is_eval=True) #TODO
-
-    def get_tags(self, estimator, sentence, char_ids, tag_vocab_tsv):
-
-        with gfile.Open(tag_vocab_tsv, 'r') as file:
-            ner_vocab = list(map(lambda x: x.strip(), file.readlines()))
-            tags_vocab = {id_num: tag for id_num, tag in enumerate(ner_vocab)}
+    def get_tags(self, estimator, sentence, char_ids):
 
         predictions = []
-        test_input_fn = self.predict_inputs(sentence, char_ids)
+        test_input_fn = self.setup_predict_graph(sentence, char_ids)
         predict_fn = estimator.predict(input_fn=test_input_fn)
 
 
@@ -304,34 +342,36 @@ class CsvDataIterator(IDataIterator, ITextFeature):
             for tag_score in each_prediction["confidence"]:
                 confidence.append(tag_score)
             for tag_id in each_prediction["viterbi_seq"]:
-                predicted_id.append(tags_vocab[tag_id])
+                predicted_id.append(self.TAGS_2_ID[tag_id])
             top_3_predicted_indices = each_prediction["top_3_indices"]
             top_3_predicted_confidence = each_prediction["top_3_confidence"]
 
             # print(top_3_predicted_indices)
 
             pred_1 = top_3_predicted_indices[:, 0:1].flatten()
-            pred_1 = list(map(lambda x: tags_vocab[x], pred_1))
-            # print(pred_1)
-            # print(predicted_id)
+            pred_1 = list(map(lambda x: self.TAGS_2_ID[x], pred_1))
 
             pred_2 = top_3_predicted_indices[:, 1:2].flatten()
-            pred_2 = list(map(lambda x: tags_vocab[x], pred_2))
+            pred_2 = list(map(lambda x: self.TAGS_2_ID[x], pred_2))
+
             pred_3 = top_3_predicted_indices[:, 2:].flatten()
-            pred_3 = list(map(lambda x: tags_vocab[x], pred_3))
+            pred_3 = list(map(lambda x: self.TAGS_2_ID[x], pred_3))
 
             pred_1_confidence = top_3_predicted_confidence[:, 0:1]
             pred_2_confidence = top_3_predicted_confidence[:, 1:2]
             pred_3_confidence = top_3_predicted_confidence[:, 2:]
 
-        return predicted_id, confidence, pred_1, pred_1_confidence, pred_2, pred_2_confidence, \
+        return predicted_id, confidence, \
+               pred_1, pred_1_confidence, \
+               pred_2, pred_2_confidence, \
                pred_3, pred_3_confidence
 
+    @overrides
     def predict_on_test_file(self, estimator, df):
         sentence = ("{}".format(SEPERATOR).
-                    join(df[self.preprocessed_data_info.TEXT_COL].astype(str).values))
+                    join(df[self.TEXT_COL].astype(str).values))
 
-        char_ids = [[self.preprocessed_data_info.char_2_id_map.get(c, 0)
+        char_ids = [[self.char_2_id_map.get(c, 0)
                      for c in word] for word in sentence.split(SEPERATOR)]
 
         char_ids, char_ids_length = self._pad_sequences([char_ids], pad_tok=int(PAD_CHAR_ID), nlevels=2)
@@ -341,8 +381,7 @@ class CsvDataIterator(IDataIterator, ITextFeature):
         pred_2, pred_2_confidence, \
         pred_3, pred_3_confidence = self.get_tags(estimator,
                                                   sentence,
-                                                  char_ids,
-                                                  self.preprocessed_data_info.ENTITY_VOCAB_FILE)
+                                                  char_ids)
 
         df["predictions"] = predicted_tags
         df["confidence"] = confidence
@@ -355,33 +394,34 @@ class CsvDataIterator(IDataIterator, ITextFeature):
 
         return df
 
+    @overrides
     def predict_on_test_files(self, estimator, csv_files_path):
 
         failed_csvs = []
 
-        for csv_file in tqdm(os.listdir(csv_files_path)):
+        for csv_file in tqdm(os.listdir(csv_files_path), desc="predicting"):
             csv_file = os.path.join(csv_files_path, csv_file)
             if csv_file.endswith(".csv"):
                 sentence = ""
-                try:
-                    print_info("processing ====> {}".format(csv_file))
-                    df = pd.read_csv(csv_file).fillna(UNKNOWN_WORD)
+                # try:
+                print_info("processing ====> {}".format(csv_file))
+                df = pd.read_csv(csv_file).fillna(UNKNOWN_WORD)
 
-                    df = self.predict_on_test_file(df)
+                df = self.predict_on_test_file(estimator, df)
 
-                    out_dir = estimator.model_dir +"/predictions/"
-                    check_n_makedirs(out_dir)
-                    df.to_csv(out_dir + ntpath.basename(csv_file), index=False)
-                except Exception as e:
-                    print_error(traceback.print_exc())
-                    failed_csvs.append(csv_file)
-                    print_warn("Failed processing ====> {}".format(csv_file))
-                    pdb.set_trace()
+                out_dir = estimator.model_dir +"/predictions/"
+                check_n_makedirs(out_dir)
+                df.to_csv(out_dir + ntpath.basename(csv_file), index=False)
+                # except Exception as e:
+                #     print_error(traceback.print_exc())
+                #     failed_csvs.append(csv_file)
+                #     print_warn("Failed processing ====> {}".format(csv_file))
+                #     pdb.set_trace()
 
-        print_error(failed_csvs)
+        # print_error(failed_csvs)
         return out_dir
 
-
+    @overrides
     def predict_on_text(self, estimator, sentence):
 
         # Convert space delimited text to a sentence delimited  by `SEPERATOR`
@@ -389,11 +429,11 @@ class CsvDataIterator(IDataIterator, ITextFeature):
         sentence = "{}".format(SEPERATOR).join(sentence)
 
         # Trailing by 213, Somerset got a solid start to their second innings before Simmons stepped in to bundle them out for 174.
-        char_ids = [[self.preprocessed_data_info.char_2_id_map.get(c, 0) for c in word] for word in sentence.split(SEPERATOR)]
+        char_ids = [[self.char_2_id_map.get(c, 0) for c in word] for word in sentence.split(SEPERATOR)]
         char_ids, char_ids_length = self._pad_sequences([char_ids], pad_tok=0, nlevels=2)
 
         predicted_tags, confidence, pred_1, pred_1_confidence, pred_2, pred_2_confidence, \
-        pred_3, pred_3_confidence = self.get_tags(estimator, sentence, char_ids, self.preprocessed_data_info.ENTITY_VOCAB_FILE)
+        pred_3, pred_3_confidence = self.get_tags(estimator, sentence, char_ids)
 
         print_info(predicted_tags)
         return predicted_tags
