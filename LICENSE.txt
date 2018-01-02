@@ -1,4 +1,4 @@
-Copyright 2018 Imaginea<Pramati Technologies>
+Copyright 2018 Imaginea Technologies Inc., a subsidiary of Pramati Technologies Pte. Ltd.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated
 documentation files (the "Software"), to deal in the Software without restriction, including without limitation
