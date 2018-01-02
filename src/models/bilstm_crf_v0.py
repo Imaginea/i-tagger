@@ -97,16 +97,16 @@ class BiLSTMCRFConfigV0(IModelConfig):
 
         if use_char_embedding_option == 'y':
             use_char_embedding = True
-            char_level_lstm_hidden_size = input("char_level_lstm_hidden_size (48): ") or 48
+            char_level_lstm_hidden_size = input("char_level_lstm_hidden_size (48): ") or 32
             char_level_lstm_hidden_size = int(char_level_lstm_hidden_size)
-            char_emd_size = input("char_emd_size (48): ") or 48
+            char_emd_size = input("char_emd_size (32): ") or 32
             char_emd_size = int(char_emd_size)
         else:
             use_char_embedding = False
 
-        word_level_lstm_hidden_size = input("word_level_lstm_hidden_size (64): ") or 64
+        word_level_lstm_hidden_size = input("word_level_lstm_hidden_size (48): ") or 48
         word_level_lstm_hidden_size = int(word_level_lstm_hidden_size)
-        word_emd_size = input("word_emd_size (64): ") or 64
+        word_emd_size = input("word_emd_size (48): ") or 48
         word_emd_size = int(word_emd_size)
         out_keep_propability = input("out_keep_propability(0.5) : ") or 0.5
         out_keep_propability = float(out_keep_propability)

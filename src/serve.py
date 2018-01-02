@@ -1,7 +1,6 @@
 from config.global_constants import UNKNOWN_WORD
 from data_iterators.data_iterators_factory import DataIteratorsFactory
 from helpers.print_helper import *
-from to_delete.taggers.conll_tagger import CoNLLTagger
 from commands.tagger import load_estimator
 
 import pandas as pd

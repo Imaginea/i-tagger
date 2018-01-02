@@ -33,7 +33,7 @@ def get_naive_metrics(predicted_csvs_path, ner_tag_vocab_file, entity_col_name, 
     for csv_file in tqdm(os.listdir(predicted_csvs_path)):
         csv_file = os.path.join(predicted_csvs_path, csv_file)
         if csv_file.endswith(".csv"):
-            df = pd.read_csv(csv_file).fillna("<UNK>")
+            df = pd.read_csv(csv_file)
             df = df[[entity_col_name, prediction_col_name]]
             df["similarity"] = df[entity_col_name] == df[prediction_col_name]
             df["similarity"] = df["similarity"].astype(int)
