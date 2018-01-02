@@ -40,7 +40,7 @@ python src/commands/tagger.py \
 --num-epochs=5
 
 #above when run with default params will create following model
-export MODEL_PATH=conll_csv_experiments/csv_data_iterator/bilstm_crf_v0/charembd_True_lr_0.001_lstmsize_2-64-48_wemb_64_cemb_48_outprob_0.5/
+export MODEL_PATH=conll_csv_experiments/csv_data_iterator/bilstm_crf_v0/charembd_True_lr_0.001_lstmsize_2-48-32_wemb_48_cemb_32_outprob_0.5/
 
 python src/commands/tagger.py \
 --experiment-name=conll_csv_experiments \
