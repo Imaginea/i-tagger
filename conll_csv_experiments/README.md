@@ -15,12 +15,21 @@ We are using the CoNLL 2003 dataset for testing.
 ```bash
 cd /path/to/i-tagger/
 
-python python src/commands/conll_to_csv.py
+
+# Below code only transforms the data
 
 python src/commands/tagger.py \
 --experiment-name=conll_csv_experiments \
 --mode=preprocess \
 --preprocessor-name=conll_data_preprocessor
+
+# 1. Data iterator is were main core logic of data preparation for the models
+# happens, which should implement IDataIterator and inherit an Feature type
+# 2. Model takes in the data iterator while configuring and reads
+# required information from it along with user params and initializes the
+# model
+# 3. Tensorflow estimator is used then to train with above
+# model and data iterators
 
 python src/commands/tagger.py \
 --experiment-name=conll_csv_experiments \
@@ -32,15 +41,6 @@ python src/commands/tagger.py \
 
 #above when run with default params will create following model
 export MODEL_PATH=conll_csv_experiments/csv_data_iterator/bilstm_crf_v0/charembd_True_lr_0.001_lstmsize_2-64-48_wemb_64_cemb_48_outprob_0.5/
-
-python src/commands/tagger.py \
---experiment-name=conll_csv_experiments \
---mode=retrain \
---data-iterator-name=csv_data_iterator \
---model-name=bilstm_crf_v0 \
---batch-size=32 \
---num-epochs=6 \
---model-dir=$MODEL_PATH
 
 python src/commands/tagger.py \
 --experiment-name=conll_csv_experiments \

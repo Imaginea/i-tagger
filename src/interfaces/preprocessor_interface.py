@@ -25,6 +25,8 @@ class IPreprocessorInterface():
 
         self.EXPERIMENT_ROOT_DIR = experiment_root_directory
 
+        self._load_ini()
+
         # If this rule changes, make relevant changes in `IDataIterator` also!
         self.DATA_OUT_DIR = self.EXPERIMENT_ROOT_DIR + "/" + "preprocessed_data/"
 
@@ -32,7 +34,6 @@ class IPreprocessorInterface():
         self.VAL_OUT_PATH = self.DATA_OUT_DIR + "/val/"
         self.TEST_OUT_PATH = self.DATA_OUT_DIR + "/test/"
 
-        self._load_ini()
 
     def _load_ini(self):
         '''

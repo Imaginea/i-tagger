@@ -1,6 +1,6 @@
 import sys
 sys.path.append("../")
-from config.preprocessed_data_info import PreprocessedDataInfo
+# from config.preprocessed_data_info import PreprocessedDataInfo
 from helpers.print_helper import *
 from config.config_helper import ConfigManager
 from helpers.os_helper import check_n_makedirs

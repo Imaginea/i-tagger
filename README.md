@@ -82,11 +82,16 @@ Each experiment starts based on a dataset.
 
 Let use CoNLL data set, since it is provided as part this repo
 - [conll_csv_experiments](conll_csv_experiments/)
+    - config
+        - config.ini # all one time config goes here
     - data
         - train.txt
         - test.txt
         - val.txt
-    - tf_data
+    - preprocessed_data
+        - train/
+        - val/
+        - test/
     - data_iterator_1
         - model_v0
             - config_1

@@ -14,7 +14,7 @@ from tensorflow.contrib import lookup
 from tensorflow.contrib.learn import ModeKeys
 
 from config.global_constants import *
-from config.preprocessed_data_info import PreprocessedDataInfo
+# from config.preprocessed_data_info import PreprocessedDataInfo
 from helpers.os_helper import check_n_makedirs
 from helpers.print_helper import *
 from helpers.tf_data_helper import *
