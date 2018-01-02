@@ -181,19 +181,11 @@ export LD_LIBRARY_PATH=/home/rpx/softwares/cudnn6/cuda/lib64:$LD_LIBRARY_PATH
 
 
 
+### Learning Materials
+- [Walk Through of Tensorflow APIs](notebooks/walk_through_of_tf_apis.ipynb)
+
 
 ## !!!!!! WORK IN PROGRESS !!!!!!
-
-
-#### CoNLL CSV data
- ```bash
-
-python src/commands/csv_dataset.py --mode=preprocess
-python src/commands/csv_dataset.py --mode=train
-python src/commands/csv_dataset.py --mode=retrain --model-dir=PATH TO Model
-python src/commands/csv_dataset.py --mode=predict --model-dir=PATH TO Model --predict-dir=PATH to Prediction files
-
-```
 
 #### Imaginea Patent Tagging
 ```bash
@@ -204,12 +196,6 @@ python src/commands/patent_dataset.py --mode=retrain --model-dir=PATH TO Model
 python src/commands/patent_dataset.py --mode=predict --model-dir=PATH TO Model --predict-dir=PATH to Prediction files
 
 ``` 
-
-
-### Learning Materials
-- [Walk Through of Tensorflow APIs](notebooks/walk_through_of_tf_apis.ipynb)
-
-
 
 TODOs:
 - Remove all default params
