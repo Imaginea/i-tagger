@@ -19,6 +19,8 @@ def is_prediction_matching(x, y):
 
 def get_naive_metrics(predicted_csvs_path, ner_tag_vocab_file, entity_col_name, prediction_col_name, out_dir):
 
+    out_dir = out_dir + "/metrics/"
+
     if not os.path.exists(out_dir):
         os.makedirs(out_dir)
 

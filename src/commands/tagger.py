@@ -98,14 +98,14 @@ def run(opt):
     elif opt.mode == "predict":
         # Each data iterator has it own way of handling features,
         # hence pass the estimator and the files to be tagged
-        out_dir = data_iterator.predict_on_test_files(estimator, csv_files_path=opt.predict_dir)
+        # out_dir = data_iterator.predict_on_test_files(estimator, csv_files_path=opt.predict_dir)
 
         print_info("Calculating some naive metrics...")
         get_naive_metrics(predicted_csvs_path=estimator.model_dir + "/predictions/",
-                          ner_tag_vocab_file=data_iterator.preprocessed_data_info.ENTITY_VOCAB_FILE,
-                          entity_col_name=data_iterator.preprocessed_data_info.ENTITY_IOB_COL,
+                          ner_tag_vocab_file=data_iterator.ENTITY_VOCAB_FILE,
+                          entity_col_name=data_iterator.ENTITY_COL,
                           prediction_col_name="predictions",
-                          out_dir=out_dir)
+                          out_dir="/opt/0.imaginea/git/i-tagger/conll_csv_experiments/csv_data_iterator/bilstm_crf_v0/charembd_True_lr_0.001_lstmsize_2-64-48_wemb_64_cemb_48_outprob_0.5/")
 
 if __name__ == "__main__":
     optparse = argparse.ArgumentParser("Sequence modeling with Tensorflow ...")
