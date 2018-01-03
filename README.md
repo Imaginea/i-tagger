@@ -93,10 +93,11 @@ Lets consider CoNLL data set, since it is provided as part this repo
         - train/
         - val/
         - test/
-    - csv_data_iterator
-        - bilstm_crf_v0
-            - charembd_True_lr_0.001_lstmsize_2-48-32_wemb_48_cemb_32_outprob_0.5
-            - config_2
+    - csv_data_iterator/
+        - bilstm_crf_v0/
+            - charembd_True_lr_0.001_lstmsize_2-48-32_wemb_48_cemb_32_outprob_0.5/
+                - predictions/
+                    - metrics/
 
 
 #### Available Models:
@@ -201,11 +202,3 @@ python -m unittest discover src/
 - Mageswaran Dhandapani <mageswaran.dhandapani@imaginea.com>
 - Gaurish Thakkar <gaurish.thakkar@imaginea.com>
 - Anil Kumar Reddy <anilkumar.reddy@imaginea.com>
-
-
-TODOs:
-- Remove all default params
-- Tune the model for CoNLL dataset
-- Test code and Documentation
-- Cleaning of the code
-- More on LSTM basics/tutorials
