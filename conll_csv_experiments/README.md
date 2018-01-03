@@ -82,15 +82,21 @@ python src/app.py
 - Open browser and navigate to : http://localhost:8080
   Here user can select an option either to get the tags by entering the text or using file upload.
 
+- Open browser and navigate to : http://localhost:8080/predict
+  Here user can upload a file and get the tags for the uploaded file.
+
 - Open browser and navigate to : http://localhost:8080/predictText
   Here user can enter any text to get the tags for the entered text.
 
     **How to run?**:
+
     Sentence: He was well backed by England hopeful Mark Butcher who made 70 as Surrey closed on 429 for seven, a lead of 234.
-    Model Dir: /path/to/i-tagger/conll_csv_experiments/csv_data_iterator/bilstm_crf_v0/   
+
+    Model Dir: /path/to/i-tagger/conll_csv_experiments/csv_data_iterator/bilstm_crf_v0/
 
 
-- Open browser and navigate to : http://localhost:8080/predict
-  Here user can upload a file and get the tags for the uploaded file.
+
+
+
 
 ![](../docs/images/web_app.png)
