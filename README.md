@@ -207,5 +207,5 @@ TODOs:
 - Remove all default params
 - Tune the model for CoNLL dataset
 - Test code and Documentation
-- Cleaning of the code
+- Clean the code
 - More on LSTM basics/tutorials
