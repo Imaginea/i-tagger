@@ -1,8 +1,0 @@
-0,1,2,3
-3.,NNP,B-NP,O
-Michele,NNP,I-NP,B-PER
-Buiatti,NNP,I-NP,I-PER
-(,(,O,O
-Italy,NNP,B-NP,B-LOC
-),),O,O
-2.15,CD,B-NP,O

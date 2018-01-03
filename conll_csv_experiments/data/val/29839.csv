@@ -1,8 +1,0 @@
-0,1,2,3
-M.,NNP,B-NP,B-PER
-Atherton,NNP,I-NP,I-PER
-lbw,NN,I-NP,O
-b,SYM,O,O
-Mushtaq,NNP,B-NP,B-PER
-Ahmed,NNP,I-NP,I-PER
-1,CD,I-NP,O

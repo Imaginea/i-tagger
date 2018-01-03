@@ -1,9 +1,0 @@
-0,1,2,3
-France,NN,B-NP,B-LOC
-hands,NNS,I-NP,O
-suspected,VBD,B-VP,O
-ETA,NNP,B-NP,B-ORG
-member,NN,I-NP,O
-to,TO,B-PP,O
-Spain,NNP,B-NP,B-LOC
-.,.,O,O

@@ -1,8 +1,0 @@
-0,1,2,3
-8.,CD,B-NP,O
-Fita,NNP,I-NP,B-PER
-Bayissa,NNP,I-NP,I-PER
-(,(,O,O
-Ethiopia,NNP,B-NP,B-LOC
-),),O,O
-13:21.35,CD,O,O

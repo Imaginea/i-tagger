@@ -1,7 +1,0 @@
-0,1,2,3
-Results,NNS,B-NP,O
-of,IN,B-PP,O
-Italian,NNP,B-NP,B-MISC
-Cup,NNP,I-NP,I-MISC
-second,JJ,I-NP,O
-round,NN,I-NP,O

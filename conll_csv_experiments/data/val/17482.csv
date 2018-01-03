@@ -1,7 +1,0 @@
-0,1,2,3
-24,CD,B-NP,O
-to,TO,B-VP,O
-plot,VB,I-VP,O
-interest-rate,JJ,B-NP,O
-strategy,NN,I-NP,O
-.,.,O,O

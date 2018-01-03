@@ -1,9 +1,0 @@
-0,1,2,3
-Aw,NNP,B-NP,O
-Computer,NNP,I-NP,B-ORG
-Systems,NNP,I-NP,I-ORG
-Inc,NNP,I-NP,I-ORG
-Q2,NNP,I-NP,O
-loss,NN,I-NP,O
-widens,VBZ,B-VP,O
-.,.,O,O

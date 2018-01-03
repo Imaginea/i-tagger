@@ -1,8 +1,0 @@
-0,1,2,3
-2.,CD,B-NP,O
-Eveningperformance,NN,I-NP,B-PER
-16-1,NNP,I-NP,O
-(,(,O,O
-Chris,NNP,B-NP,B-PER
-Rutter,NNP,I-NP,I-PER
-),),O,O

@@ -1,8 +1,0 @@
-0,1,2,3
---,:,O,O
-Amsterdam,NN,B-NP,B-LOC
-newsroom,NN,I-NP,O
-+31,CD,B-NP,O
-20,CD,I-NP,O
-504,CD,I-NP,O
-5000,CD,I-NP,O

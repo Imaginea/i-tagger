@@ -1,9 +1,0 @@
-0,1,2,3
-Newell,NNP,B-NP,B-ORG
-'s,POS,B-NP,I-ORG
-Old,NNP,I-NP,I-ORG
-Boys,NNPS,I-NP,I-ORG
-0,CD,I-NP,O
-Velez,NNP,I-NP,B-ORG
-Sarsfield,NNP,I-NP,I-ORG
-2,CD,I-NP,O

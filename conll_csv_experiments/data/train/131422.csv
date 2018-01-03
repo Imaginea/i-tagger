@@ -1,9 +1,0 @@
-0,1,2,3
-Estonia,NNP,B-NP,B-LOC
-assembly,NN,I-NP,O
-fails,VBZ,B-VP,O
-to,TO,I-VP,O
-elect,VB,I-VP,O
-state,NN,B-NP,O
-president,NN,I-NP,O
-.,.,O,O

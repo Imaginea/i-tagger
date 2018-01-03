@@ -1,8 +1,0 @@
-0,1,2,3
-10.,CD,B-NP,O
-Graham,NNP,I-NP,B-PER
-Sharman,NNP,I-NP,I-PER
-(,(,O,O
-Australia,NNP,B-NP,B-LOC
-),),O,O
-1:05.406,CD,B-NP,O

@@ -1,8 +1,0 @@
-0,1,2,3
-8.,NNP,B-NP,O
-Jack,NNP,I-NP,B-PER
-Pierce,NNP,I-NP,I-PER
-(,(,O,O
-U.S.,NNP,B-NP,B-LOC
-),),O,O
-13.60,CD,B-NP,O

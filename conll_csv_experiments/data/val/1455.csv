@@ -1,8 +1,0 @@
-0,1,2,3
-Lithuania,NNP,B-NP,B-LOC
--,:,O,O
-Danius,NNP,B-NP,B-PER
-Gleveckas,NNP,I-NP,I-PER
-(,(,O,O
-13rd,CD,B-NP,O
-),),O,O

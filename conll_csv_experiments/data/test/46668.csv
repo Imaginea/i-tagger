@@ -1,9 +1,0 @@
-0,1,2,3
-Andrew,NNP,B-NP,B-PER
-Pitts,NNP,I-NP,I-PER
-(,(,O,O
-U.S.,NNP,B-NP,B-LOC
-),),O,O
-69,CD,B-NP,O
-67,CD,I-NP,O
-76,CD,I-NP,O

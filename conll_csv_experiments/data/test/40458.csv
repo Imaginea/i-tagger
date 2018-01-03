@@ -1,8 +1,0 @@
-0,1,2,3
-16=,NNP,B-NP,O
-Sabina,NNP,I-NP,B-PER
-Panzanini,NNP,I-NP,I-PER
-(,(,O,O
-Italy,NNP,B-NP,B-LOC
-),),O,O
-100,CD,B-NP,O

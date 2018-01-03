@@ -1,9 +1,0 @@
-0,1,2,3
-The,DT,B-NP,O
-motion,NN,I-NP,O
-was,VBD,B-VP,O
-put,VBN,I-VP,O
-forward,RB,B-ADVP,O
-by,IN,B-PP,O
-Sen,NNP,B-NP,B-LOC
-.,.,O,O

@@ -1,9 +1,0 @@
-0,1,2,3
-INDICATORS,NNS,B-NP,O
--,:,O,O
-Spain,NNP,B-NP,B-LOC
--,:,O,O
-updated,VBN,B-NP,O
-August,NNP,I-NP,O
-29,CD,I-NP,O
-.,.,O,O

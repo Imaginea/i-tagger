@@ -1,8 +1,0 @@
-0,1,2,3
-8.,CD,B-NP,O
-Galina,NNP,I-NP,B-PER
-Malchugina,NNP,I-NP,I-PER
-(,(,O,O
-Russia,NNP,B-NP,B-LOC
-),),O,O
-23.25,CD,B-NP,O

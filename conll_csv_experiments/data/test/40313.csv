@@ -1,9 +1,0 @@
-0,1,2,3
-Overall,JJ,B-NP,O
-women,NNS,I-NP,O
-'s,POS,B-NP,O
-World,NNP,I-NP,B-MISC
-Cup,NNP,I-NP,I-MISC
-standings,NNS,I-NP,O
-leaders,NNS,I-NP,O
-after,IN,B-PP,O

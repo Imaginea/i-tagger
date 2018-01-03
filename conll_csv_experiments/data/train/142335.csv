@@ -1,7 +1,0 @@
-0,1,2,3
-Sales,NNS,B-NP,O
-Op,IN,B-PP,O
-profit,JJ,B-NP,O
-Sales,NNS,I-NP,O
-Op,IN,B-PP,O
-profit,NN,B-NP,O

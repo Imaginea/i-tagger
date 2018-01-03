@@ -1,8 +1,0 @@
-0,1,2,3
-2.,CD,B-NP,O
-Annett,NNP,I-NP,B-PER
-Neumann,NNP,I-NP,I-PER
-(,(,O,O
-Germany,NNP,B-NP,B-LOC
-),),O,O
-35.202,CD,B-NP,O

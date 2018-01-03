@@ -1,6 +1,0 @@
-0,1,2,3
-+9,NNP,B-NP,O
-Tom,NNP,I-NP,B-PER
-Watson,NNP,I-NP,I-PER
-79,CD,I-NP,O
-70,CD,I-NP,O

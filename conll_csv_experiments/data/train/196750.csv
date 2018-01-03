@@ -1,9 +1,0 @@
-0,1,2,3
-Venezuela,NNP,B-NP,B-LOC
-FinMin,NNP,I-NP,O
-to,TO,B-VP,O
-make,VB,I-VP,O
-statement,NN,B-NP,O
-midday,NN,I-NP,O
-Thursday,NNP,B-NP,O
-.,.,O,O

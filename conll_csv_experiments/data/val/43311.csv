@@ -1,8 +1,0 @@
-0,1,2,3
-Napoleon,NNP,B-NP,B-PER
-entered,VBD,B-VP,O
-Moscow,NNP,B-NP,B-LOC
-a,DT,B-NP,O
-week,NN,I-NP,O
-later,RB,B-ADVP,O
-.,.,O,O

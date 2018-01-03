@@ -1,8 +1,0 @@
-0,1,2,3
-Ironi,NNP,B-NP,B-ORG
-Rishon,NNP,I-NP,I-ORG
-Lezion,NNP,I-NP,I-ORG
-1,CD,I-NP,O
-Maccabi,NNP,I-NP,B-ORG
-Herzliya,NNP,I-NP,I-ORG
-0,CD,I-NP,O

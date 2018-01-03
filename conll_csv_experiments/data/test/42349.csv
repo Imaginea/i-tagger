@@ -1,8 +1,0 @@
-0,1,2,3
-6.,NNP,B-NP,O
-Marie,NNP,I-NP,B-PER
-Lindgren,NNP,I-NP,I-PER
-(,(,O,O
-Sweden,NNP,B-NP,B-LOC
-),),O,O
-154.82,CD,B-NP,O

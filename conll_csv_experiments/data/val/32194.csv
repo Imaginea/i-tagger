@@ -1,7 +1,0 @@
-0,1,2,3
-Currie,NNP,B-NP,B-ORG
-45,CD,I-NP,O
-Heriot,NN,I-NP,B-ORG
-'s,POS,B-NP,I-ORG
-F.P.,NNP,I-NP,I-ORG
-5,CD,I-NP,O

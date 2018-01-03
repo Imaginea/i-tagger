@@ -1,8 +1,0 @@
-0,1,2,3
-5.,CD,B-NP,O
-Heinz-Harald,JJ,I-NP,B-PER
-Frentzen,NNP,I-NP,I-PER
-(,(,O,O
-Germany,NNP,B-NP,B-LOC
-),),O,O
-1:54.984,CD,B-NP,O

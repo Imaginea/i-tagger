@@ -1,8 +1,0 @@
-0,1,2,3
-Turkey,NNP,B-NP,B-LOC
--,:,O,O
-Sergen,NNP,B-NP,B-PER
-Yalcin,NNP,I-NP,I-PER
-(,(,O,O
-61st,CD,B-NP,O
-),),O,O

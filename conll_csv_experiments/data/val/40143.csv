@@ -1,8 +1,0 @@
-0,1,2,3
-I,PRP,B-NP,O
-had,VBD,B-VP,O
-to,TO,I-VP,O
-fight,VB,I-VP,O
-hard,RB,B-ADVP,O
-.,.,O,O
- ,O,O,<UNK>

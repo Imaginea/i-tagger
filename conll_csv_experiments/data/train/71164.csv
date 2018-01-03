@@ -1,9 +1,0 @@
-0,1,2,3
-9.,CD,B-NP,O
-Akira,NNP,I-NP,B-PER
-Ryo,NNP,I-NP,I-PER
-(,(,O,O
-Japan,NNP,O,B-LOC
-),),O,O
-Kawasaki,NNP,B-NP,B-ORG
-38:50.269,NNP,I-NP,O

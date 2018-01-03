@@ -1,9 +1,0 @@
-0,1,2,3
-BNZ,JJR,B-NP,B-ORG
-cuts,NNS,I-NP,O
-NZ,NNP,I-NP,B-LOC
-fixed,VBD,B-VP,O
-home,NN,B-ADVP,O
-lending,NN,B-NP,O
-rates,NNS,I-NP,O
-.,.,O,O

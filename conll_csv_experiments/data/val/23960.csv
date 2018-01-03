@@ -1,7 +1,0 @@
-0,1,2,3
-FTSE,JJ,B-NP,B-MISC
-close,NN,I-NP,O
-$,$,I-NP,O
-21.25,CD,I-NP,O
-$,$,I-NP,O
-1000.0,CD,I-NP,O

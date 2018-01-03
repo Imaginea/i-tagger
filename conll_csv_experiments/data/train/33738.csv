@@ -1,9 +1,0 @@
-0,1,2,3
-Fernandez,NNP,B-NP,B-PER
-(,(,O,O
-12-8,CD,B-NP,O
-),),O,O
-scattered,VBN,B-VP,O
-six,CD,B-NP,O
-hits,NNS,I-NP,O
-.,.,O,O

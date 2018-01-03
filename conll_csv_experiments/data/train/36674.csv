@@ -1,9 +1,0 @@
-0,1,2,3
-1.,CD,B-NP,O
-Mary,NNP,B-NP,B-PER
-Onyali,NNP,I-NP,I-PER
-(,(,O,O
-Nigeria,NNP,B-NP,B-LOC
-),),O,O
-22.42,CD,B-NP,O
-seconds,NNS,I-NP,O

@@ -1,8 +1,0 @@
-0,1,2,3
-5.,NNP,B-NP,O
-Thomas,NNP,I-NP,B-PER
-Nyariki,NNP,I-NP,I-PER
-(,(,O,O
-Kenya,NNP,B-NP,B-LOC
-),),O,O
-7:35.56,CD,B-NP,O

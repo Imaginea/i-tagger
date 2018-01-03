@@ -1,6 +1,0 @@
-0,1,2,3
-Stoke,VB,B-VP,B-ORG
-2,CD,B-NP,O
-Manchester,NNP,I-NP,B-ORG
-City,NNP,I-NP,I-ORG
-1,CD,I-NP,O

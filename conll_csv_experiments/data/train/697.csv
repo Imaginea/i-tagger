@@ -1,9 +1,0 @@
-0,1,2,3
-China,NNP,B-NP,B-LOC
-says,VBZ,B-VP,O
-Taiwan,NNP,B-NP,B-LOC
-spoils,VBZ,B-VP,O
-atmosphere,NN,B-NP,O
-for,IN,B-PP,O
-talks,NNS,B-NP,O
-.,.,O,O

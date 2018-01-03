@@ -1,9 +1,0 @@
-0,1,2,3
-OPTIONS,CD,B-NP,O
---,:,O,O
-EOE,NNP,B-NP,B-ORG
-options,NNS,I-NP,O
-volumes,NNS,I-NP,O
--,:,O,O
-close,VB,B-VP,O
-.,.,O,O

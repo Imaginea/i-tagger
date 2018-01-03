@@ -1,8 +1,0 @@
-0,1,2,3
-Hong,NNP,B-NP,B-LOC
-Kong,NNP,I-NP,I-LOC
-jails,NNS,I-NP,O
-88-year-old,JJ,I-NP,O
-drug,NN,I-NP,O
-trafficker,NN,I-NP,O
-.,.,O,O

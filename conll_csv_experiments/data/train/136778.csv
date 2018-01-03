@@ -1,6 +1,0 @@
-0,1,2,3
-Moody,NNP,B-NP,B-ORG
-'s,POS,B-NP,I-ORG
-Investors,NNP,I-NP,I-ORG
-Service,NNP,I-NP,I-ORG
--,:,O,O

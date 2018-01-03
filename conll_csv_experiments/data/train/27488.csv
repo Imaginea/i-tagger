@@ -1,9 +1,0 @@
-0,1,2,3
-Malaysia,NNP,B-NP,B-LOC
-bans,VBZ,B-VP,O
-nitrofuran,NN,B-NP,O
-usage,NN,I-NP,O
-in,IN,B-PP,O
-chicken,NN,B-NP,O
-feed,NN,I-NP,O
-.,.,O,O

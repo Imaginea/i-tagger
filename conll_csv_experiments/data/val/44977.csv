@@ -1,8 +1,0 @@
-0,1,2,3
-Baseball-Results,NNS,B-NP,O
-of,IN,B-PP,O
-S.,NNP,B-NP,B-MISC
-Korean,NNP,I-NP,I-MISC
-pro-baseball,NN,I-NP,O
-games,NNS,I-NP,O
-.,.,O,O

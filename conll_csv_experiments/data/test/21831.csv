@@ -1,7 +1,0 @@
-0,1,2,3
---,:,O,O
-Buenos,NNPS,B-NP,B-ORG
-Aires,NNP,I-NP,I-ORG
-Newsroom,NNP,I-NP,I-ORG
-+541,CD,I-NP,O
-318-0655,JJ,I-NP,O

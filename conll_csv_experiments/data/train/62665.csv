@@ -1,8 +1,0 @@
-0,1,2,3
-Albanian,NNP,B-NP,B-MISC
-Socialists,NNPS,I-NP,O
-start,VBP,B-VP,O
-landmark,NN,B-NP,O
-reform,NN,I-NP,O
-congress,NN,I-NP,O
-.,.,O,O

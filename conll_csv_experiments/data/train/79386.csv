@@ -1,8 +1,0 @@
-0,1,2,3
-7.,CD,B-NP,O
-Alexandre,NNP,I-NP,B-PER
-Gontchenkov,NNP,I-NP,I-PER
-(,(,O,O
-Ukraine,NNP,B-NP,B-LOC
-),),O,O
-67,CD,B-NP,O

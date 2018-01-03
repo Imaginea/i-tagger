@@ -1,9 +1,0 @@
-0,1,2,3
-So,CC,O,O
-Ballybunion,NNP,B-NP,B-ORG
-is,VBZ,B-VP,O
-going,VBG,I-VP,O
-to,TO,B-PP,O
-America,NNP,B-NP,B-LOC
-instead,RB,B-ADVP,O
-.,.,O,O

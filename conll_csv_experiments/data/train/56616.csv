@@ -1,7 +1,0 @@
-0,1,2,3
-Bristol,NNP,B-NP,B-ORG
-City,NNP,I-NP,I-ORG
-v,FW,I-NP,O
-Blackpool,NNP,I-NP,B-ORG
-late,JJ,B-NP,O
-kickoff,NN,I-NP,O

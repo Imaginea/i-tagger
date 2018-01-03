@@ -1,8 +1,0 @@
-0,1,2,3
-8.,CD,B-NP,O
-Charles-Michael,NNP,I-NP,B-PER
-Friedek,NNP,I-NP,I-PER
-(,(,O,O
-Germany,NNP,B-NP,B-LOC
-),),O,O
-16.12,CD,B-NP,O

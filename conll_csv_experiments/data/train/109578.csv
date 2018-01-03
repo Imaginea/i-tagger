@@ -1,9 +1,0 @@
-0,1,2,3
-No1,NNP,B-NP,O
-Burnt,NNP,I-NP,O
-87,CD,I-NP,O
-to,TO,I-NP,O
-90,CD,I-NP,O
-cents,NNS,I-NP,O
-/,SYM,O,O
-pound,NN,B-NP,O

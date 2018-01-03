@@ -1,9 +1,0 @@
-0,1,2,3
-Actor,NNP,B-NP,O
-Reeve,NNP,I-NP,B-PER
-highlights,VBZ,B-VP,O
-Democrats,NNPS,B-NP,B-MISC
-',POS,B-NP,O
-first,JJ,I-NP,O
-night,NN,I-NP,O
-.,.,O,O

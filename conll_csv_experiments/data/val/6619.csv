@@ -1,8 +1,0 @@
-0,1,2,3
-7.,CD,B-NP,O
-Natalya,NNP,I-NP,B-PER
-Shikolen,NNP,I-NP,I-PER
-(,(,O,O
-Belarus,NNP,B-NP,B-LOC
-),),O,O
-60.74,CD,B-NP,O

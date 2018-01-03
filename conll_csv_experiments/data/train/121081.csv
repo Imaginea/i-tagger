@@ -1,9 +1,0 @@
-0,1,2,3
-Mohammad,NNP,B-NP,B-PER
-Akram,NNP,I-NP,I-PER
-1,CD,I-NP,O
-0,CD,I-NP,O
-0,CD,I-NP,O
-0,CD,I-NP,O
-0,CD,I-NP,O
--,:,I-NP,O

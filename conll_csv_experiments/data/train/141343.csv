@@ -1,6 +1,0 @@
-0,1,2,3
-Soyoil,NN,B-NP,O
-refined,VBN,B-VP,O
-market,NN,B-NP,O
-delivery,NN,I-NP,O
-"32,900-33,000",CD,I-NP,O

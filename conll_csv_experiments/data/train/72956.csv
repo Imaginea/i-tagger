@@ -1,8 +1,0 @@
-0,1,2,3
-Mushtaq,NNP,B-NP,B-PER
-Ahmed,NNP,I-NP,I-PER
-c,SYM,O,O
-Crawley,NNP,B-NP,B-PER
-b,SYM,O,O
-Mullally,RB,B-NP,B-PER
-2,CD,I-NP,O

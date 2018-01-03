@@ -1,8 +1,0 @@
-0,1,2,3
-More,JJR,B-NP,O
-drilling,NN,I-NP,O
-results,NNS,I-NP,O
-are,VBP,B-VP,O
-expected,VBN,I-VP,O
-soon,RB,B-ADVP,O
-.,.,O,O

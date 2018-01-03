@@ -1,7 +1,0 @@
-0,1,2,3
-I,PRP,B-NP,O
-was,VBD,B-VP,O
-talking,VBG,I-VP,O
-about,IN,B-PP,O
-drugs,NNS,B-NP,O
-.,.,O,O

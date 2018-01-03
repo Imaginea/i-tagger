@@ -1,9 +1,0 @@
-0,1,2,3
-Germany,NNP,B-NP,B-LOC
-",",",",O,O
-Poland,NNP,B-NP,B-LOC
-tighten,VBP,B-VP,O
-cooperation,NN,B-NP,O
-against,IN,B-PP,O
-crime,NN,B-NP,O
-.,.,O,O

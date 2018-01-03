@@ -1,9 +1,0 @@
-0,1,2,3
-The,DT,B-NP,O
-Portuguese,JJ,I-NP,B-MISC
-host,NN,I-NP,O
-Germany,NNP,I-NP,B-LOC
-on,IN,B-PP,O
-December,NNP,B-NP,O
-14,CD,I-NP,O
-.,.,O,O

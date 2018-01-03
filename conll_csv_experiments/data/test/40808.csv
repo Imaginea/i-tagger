@@ -1,8 +1,0 @@
-0,1,2,3
-10.,CD,B-NP,O
-Regina,NNP,I-NP,B-PER
-Haeusl,NNP,I-NP,I-PER
-(,(,O,O
-Germany,NNP,B-NP,B-LOC
-),),O,O
-1:49.53,CD,B-NP,O

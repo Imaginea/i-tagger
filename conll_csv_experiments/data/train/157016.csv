@@ -1,6 +1,0 @@
-0,1,2,3
-Atletico,NNP,B-NP,B-ORG
-Madrid,NNP,B-NP,I-ORG
-3,CD,I-NP,O
-Barcelona,NNP,I-NP,B-ORG
-1,CD,I-NP,O

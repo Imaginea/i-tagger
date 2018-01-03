@@ -1,8 +1,0 @@
-0,1,2,3
-NY,DT,B-NP,B-MISC
-Dow,NNP,I-NP,I-MISC
-close,NN,I-NP,O
-London,NNP,I-NP,B-LOC
-opening,NN,I-NP,O
-LME,NNP,I-NP,B-ORG
-close,NN,I-NP,O

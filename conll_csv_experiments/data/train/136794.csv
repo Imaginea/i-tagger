@@ -1,9 +1,0 @@
-0,1,2,3
-Issuer,NN,B-NP,O
-:,:,O,O
-Birmingham,NNP,B-NP,B-LOC
-Public,NNP,I-NP,I-LOC
-Park,NNP,I-NP,I-LOC
-&,CC,I-NP,I-LOC
-Rec,NNP,I-NP,I-LOC
-.,.,O,O

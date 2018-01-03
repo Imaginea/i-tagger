@@ -1,9 +1,0 @@
-0,1,2,3
-Mexico,NNP,B-NP,B-LOC
-same-day,JJ,I-NP,O
-Cetes,NNS,I-NP,B-MISC
-rates,NNS,I-NP,O
-rise,NN,I-NP,O
-on,IN,B-PP,O
-nervousness,NN,B-NP,O
-.,.,O,O

@@ -1,9 +1,0 @@
-0,1,2,3
---,:,B-NP,O
-Reuters,NNP,I-NP,B-ORG
-Ottawa,NNP,I-NP,I-ORG
-Burea,NNPS,I-NP,I-ORG
-(,(,O,O
-613,CD,B-NP,O
-),),O,O
-235-6745,CD,B-ADVP,O

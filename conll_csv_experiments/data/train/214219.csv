@@ -1,6 +1,0 @@
-0,1,2,3
-FISCAL,NNP,B-NP,O
-AGENT,JJ,I-NP,O
--,:,I-NP,O
-Tokyo-Mitsubishi,NNP,I-NP,B-ORG
-Bank,NNP,I-NP,I-ORG

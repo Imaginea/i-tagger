@@ -1,8 +1,0 @@
-0,1,2,3
-(,(,O,O
-players,NNS,B-NP,O
-U.S.,NNP,B-NP,B-LOC
-unless,IN,B-SBAR,O
-stated,JJ,B-NP,O
-),),O,O
-:,:,O,O

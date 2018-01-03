@@ -1,8 +1,0 @@
-0,1,2,3
-Mexican,JJ,B-NP,B-MISC
-avocados,NNS,I-NP,O
-not,RB,B-VP,O
-expected,VBN,I-VP,O
-in,IN,B-PP,O
-U.S,NNP,B-NP,B-LOC
-.,.,O,O

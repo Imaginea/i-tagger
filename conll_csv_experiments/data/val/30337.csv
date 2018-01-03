@@ -1,8 +1,0 @@
-0,1,2,3
-5.,NNP,B-NP,O
-Olga,NNP,I-NP,B-PER
-Slioussareva,NNP,I-NP,I-PER
-(,(,O,O
-Russia,NNP,B-NP,B-LOC
-),),O,O
-36.170,CD,B-NP,O

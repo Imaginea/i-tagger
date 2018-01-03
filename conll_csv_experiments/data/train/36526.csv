@@ -1,8 +1,0 @@
-0,1,2,3
-2.,CD,B-NP,O
-Ato,NNP,I-NP,B-PER
-Boldon,NNP,I-NP,I-PER
-(,(,O,O
-Trinidad,NNP,B-NP,B-LOC
-),),O,O
-19.99,CD,B-NP,O

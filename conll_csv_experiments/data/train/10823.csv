@@ -1,9 +1,0 @@
-0,1,2,3
-Texas,NNP,B-NP,B-ORG
-10,CD,I-NP,O
-CLEVELAND,NNP,I-NP,B-ORG
-8,CD,I-NP,O
-(,(,O,O
-in,IN,B-PP,O
-10,CD,B-NP,O
-),),O,O

@@ -1,9 +1,0 @@
-0,1,2,3
-12.,CD,B-NP,O
-Johnny,NNP,I-NP,B-PER
-Herbert,NNP,I-NP,I-PER
-(,(,O,O
-Britain,NNP,B-NP,B-LOC
-),),O,O
-Sauber,NNP,B-NP,B-ORG
-1:53.993,NNP,I-NP,O

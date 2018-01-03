@@ -1,9 +1,0 @@
-0,1,2,3
-Former,NNP,B-NP,O
-Argentine,JJ,I-NP,B-MISC
-benevolent,JJ,I-NP,O
-dictator,NN,I-NP,O
-Alejandro,NNP,B-NP,B-PER
-Lanusse,NNP,I-NP,I-PER
-dies,VBZ,B-VP,O
-.,.,O,O

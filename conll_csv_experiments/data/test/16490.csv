@@ -1,6 +1,0 @@
-0,1,2,3
-Zimbabwe,NNP,B-NP,B-LOC
-executes,VBZ,B-VP,O
-convicted,VBN,I-VP,O
-murderer,NN,B-NP,O
-.,.,O,O

@@ -1,7 +1,0 @@
-0,1,2,3
-NEC,NNP,B-NP,B-ORG
-Nijmegen,NNP,I-NP,I-ORG
-0,CD,I-NP,O
-AZ,NNP,I-NP,B-ORG
-Alkmaar,NNP,I-NP,I-ORG
-0,CD,I-NP,O

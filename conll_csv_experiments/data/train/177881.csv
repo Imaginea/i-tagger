@@ -1,8 +1,0 @@
-0,1,2,3
-Italian,JJ,B-NP,B-MISC
-prime,JJ,I-NP,O
-minister,NN,I-NP,O
-to,TO,B-VP,O
-visit,VB,I-VP,O
-Turkey,NNP,B-NP,B-LOC
-.,.,O,O

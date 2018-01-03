@@ -1,7 +1,0 @@
-0,1,2,3
-Ord,NNP,B-NP,O
-div,NN,I-NP,O
-10.00,CD,I-NP,O
-yen,NNS,I-NP,O
-8.00,CD,B-NP,O
-yen,NNS,I-NP,O

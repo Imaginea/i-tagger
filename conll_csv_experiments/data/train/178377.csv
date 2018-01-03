@@ -1,7 +1,0 @@
-0,1,2,3
-Rating,NNP,B-NP,O
-:,:,O,O
-Aa2,JJ,B-ADJP,O
-/,SYM,O,O
-VMIG,NNP,B-NP,O
-1,CD,I-NP,O

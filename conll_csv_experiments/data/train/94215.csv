@@ -1,7 +1,0 @@
-0,1,2,3
-Dynamo,NNP,B-NP,B-ORG
-Kiev,NNP,I-NP,I-ORG
-5,CD,I-NP,O
-Kremin,NNP,I-NP,B-ORG
-Kremenchuk,NNP,I-NP,I-ORG
-0,CD,I-NP,O

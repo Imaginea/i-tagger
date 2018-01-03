@@ -1,8 +1,0 @@
-0,1,2,3
-8.,NNP,B-NP,O
-Gabriele,NNP,I-NP,B-PER
-Colombo,NNP,I-NP,I-PER
-(,(,O,O
-Italy,NNP,B-NP,B-LOC
-),),O,O
-58,CD,B-NP,O

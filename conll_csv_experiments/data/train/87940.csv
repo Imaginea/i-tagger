@@ -1,9 +1,0 @@
-0,1,2,3
-Students,NNS,B-NP,O
-burn,VBP,B-VP,O
-Hasina,NNP,B-NP,B-PER
-effigy,RB,B-ADVP,O
-",",",",O,O
-battle,NN,B-NP,O
-police,NN,I-NP,O
-.,.,O,O

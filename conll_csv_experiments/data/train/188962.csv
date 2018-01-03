@@ -1,8 +1,0 @@
-0,1,2,3
-Tunbridge,NNP,B-NP,B-LOC
-Wells,NNP,I-NP,I-LOC
-:,:,O,O
-Nottinghamshire,NNP,B-NP,B-ORG
-40-3,CD,I-NP,O
-v,SYM,B-VP,O
-Kent,NNP,B-NP,B-ORG

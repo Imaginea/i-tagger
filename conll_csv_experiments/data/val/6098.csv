@@ -1,8 +1,0 @@
-0,1,2,3
-2.,CD,B-NP,O
-Jearl,NNP,I-NP,B-PER
-Miles,NNP,I-NP,I-PER
-(,(,O,O
-U.S.,NNP,B-NP,B-LOC
-),),O,O
-50.42,CD,B-NP,O

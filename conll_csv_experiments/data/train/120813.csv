@@ -1,9 +1,0 @@
-0,1,2,3
-Robert,NNP,B-NP,B-PER
-Croft,JJ,B-ADVP,I-PER
-1,CD,B-NP,O
-2,CD,I-NP,O
-1,CD,I-NP,O
-11,CD,I-NP,O
-6,CD,I-NP,O
-11.00,CD,I-NP,O

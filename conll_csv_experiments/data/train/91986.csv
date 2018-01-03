@@ -1,9 +1,0 @@
-0,1,2,3
-Imran,NNP,B-NP,B-PER
-Khan,NNP,I-NP,I-PER
-(,(,O,O
-Pakistan,NNP,B-NP,B-LOC
-),),O,O
-362,CD,B-NP,O
-",",",",I-NP,O
-88,CD,I-NP,O

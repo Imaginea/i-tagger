@@ -1,9 +1,0 @@
-0,1,2,3
-",",",",O,O
-Aa3,NN,B-NP,O
-/,SYM,O,O
-VMIG-1,NN,B-NP,O
--,:,O,O
-Moody,NNP,B-NP,B-ORG
-'s,POS,I-NP,I-ORG
-.,.,O,O

@@ -1,9 +1,0 @@
-0,1,2,3
-Passengers,NNS,B-NP,O
-rescued,VBD,B-VP,O
-from,IN,B-PP,O
-blazing,VBG,B-VP,O
-ferry,NN,B-NP,O
-off,IN,B-PP,O
-France,NNP,B-NP,B-LOC
-.,.,O,O

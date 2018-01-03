@@ -1,8 +1,0 @@
-0,1,2,3
-9.,CD,B-NP,O
-Rubens,NNP,I-NP,B-PER
-Barrichello,NNP,I-NP,I-PER
-(,(,O,O
-Brazil,NNP,B-NP,B-LOC
-),),O,O
-12,CD,B-NP,O

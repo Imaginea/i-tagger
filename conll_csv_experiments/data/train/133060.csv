@@ -1,8 +1,0 @@
-0,1,2,3
-Brazil,NNP,B-NP,B-LOC
-'s,POS,B-NP,O
-Eletropaulo,NNP,I-NP,B-ORG
-names,NNS,I-NP,O
-new,JJ,B-ADJP,O
-president,NN,B-NP,O
-.,.,O,O

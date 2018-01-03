@@ -1,6 +1,0 @@
-0,1,2,3
-Results,NNS,B-NP,O
-of,IN,B-PP,O
-the,DT,B-NP,O
-World,NNP,I-NP,B-MISC
-Cup,NNP,I-NP,I-MISC

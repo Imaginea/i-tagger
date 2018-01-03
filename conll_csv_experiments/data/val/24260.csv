@@ -1,9 +1,0 @@
-0,1,2,3
-There,EX,B-NP,O
-are,VBP,B-VP,O
-more,JJR,B-NP,O
-worries,NNS,I-NP,O
-in,IN,B-PP,O
-bond,NN,B-NP,O
-land,NN,I-NP,O
-.,.,O,O

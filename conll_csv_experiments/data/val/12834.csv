@@ -1,8 +1,0 @@
-0,1,2,3
-Tajik,NN,B-NP,B-MISC
-troops,NNS,I-NP,O
-now,RB,B-ADVP,O
-control,VBP,B-VP,O
-devastated,VBN,I-VP,O
-town,NN,B-NP,O
-.,.,O,O

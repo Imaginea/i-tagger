@@ -1,7 +1,0 @@
-0,1,2,3
-note,NN,B-NP,O
-:,:,O,O
-nc=acomparison,NN,B-NP,O
-",",",",O,O
-na=not,NN,B-NP,O
-available,JJ,B-ADJP,O

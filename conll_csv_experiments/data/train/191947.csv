@@ -1,9 +1,0 @@
-0,1,2,3
-That,DT,B-NP,O
-'s,VBZ,B-VP,O
-where,WRB,B-ADVP,O
-the,DT,B-NP,O
-real,JJ,I-NP,O
-champion,NN,I-NP,O
-wins,NNS,I-NP,O
-.,.,O,O

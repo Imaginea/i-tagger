@@ -1,8 +1,0 @@
-0,1,2,3
-The,DT,B-NP,O
-auctions,NNS,I-NP,O
-were,VBD,B-VP,O
-offered,VBN,I-VP,O
-as,IN,B-PP,O
-follows,NNS,B-NP,O
-:,:,O,O

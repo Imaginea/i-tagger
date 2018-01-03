@@ -1,8 +1,0 @@
-0,1,2,3
-matches,NNS,B-NP,O
-in,IN,B-PP,O
-the,DT,B-NP,O
-Brazilian,JJ,I-NP,B-MISC
-soccer,NN,I-NP,O
-championship,NN,I-NP,O
-.,.,O,O

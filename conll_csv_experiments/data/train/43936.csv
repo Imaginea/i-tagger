@@ -1,8 +1,0 @@
-0,1,2,3
-The,DT,B-NP,O
-12-year-old,JJ,I-NP,O
-daughter,NN,I-NP,O
-of,IN,B-PP,O
-Republican,NNP,B-NP,B-MISC
-Gov,NNP,I-NP,O
-.,.,O,O

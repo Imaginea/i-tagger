@@ -1,9 +1,0 @@
-0,1,2,3
-8.,NNP,B-NP,O
-Bart,NNP,I-NP,B-PER
-Voskamp,NNP,I-NP,I-PER
-(,(,I-NP,O
-Netherlands,NNP,I-NP,B-LOC
-),),O,O
-TVM,NN|SYM,B-NP,B-ORG
-53,CD,I-NP,O

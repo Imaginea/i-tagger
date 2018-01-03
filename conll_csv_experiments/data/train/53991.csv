@@ -1,9 +1,0 @@
-0,1,2,3
-18.,CD,B-NP,O
-Ricardo,NNP,I-NP,B-PER
-Rosset,NNP,I-NP,I-PER
-(,(,O,O
-Brazil,NNP,B-NP,B-LOC
-),),O,O
-Arrows,NNS,B-NP,B-ORG
-1:56.286,CD,I-NP,O

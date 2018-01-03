@@ -1,8 +1,0 @@
-0,1,2,3
-Nigeria,NNP,B-NP,B-LOC
-police,NN,I-NP,O
-kill,VB,B-VP,O
-six,CD,B-NP,O
-robbery,NN,I-NP,O
-suspects,NNS,I-NP,O
-.,.,O,O

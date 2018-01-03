@@ -1,9 +1,0 @@
-0,1,2,3
-Martin,NNP,B-NP,B-PER
-Gates,NNP,I-NP,I-PER
-",",",",O,O
-Anders,NNP,B-NP,B-PER
-Haglund,NNP,I-NP,I-PER
-(,(,O,O
-Sweden,NNP,B-NP,B-LOC
-),),O,O

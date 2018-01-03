@@ -1,8 +1,0 @@
-0,1,2,3
-5.,CD,B-NP,O
-Gennadi,NNP,I-NP,B-PER
-Markov,NNP,I-NP,I-PER
-(,(,O,O
-Russia,NNP,B-NP,B-LOC
-),),O,O
-16.66,CD,B-NP,O

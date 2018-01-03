@@ -1,9 +1,0 @@
-0,1,2,3
-The,DT,B-NP,O
-pair,NN,I-NP,O
-hammered,VBD,B-VP,O
-36,CD,B-NP,O
-boundaries,NNS,I-NP,O
-between,IN,B-PP,O
-them,PRP,B-NP,O
-.,.,O,O

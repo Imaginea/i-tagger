@@ -1,6 +1,0 @@
-0,1,2,3
-Asif,NNP,B-NP,B-PER
-Mujtaba,NNP,I-NP,I-PER
-run,VBP,B-VP,O
-out,RP,B-PRT,O
-13,CD,B-NP,O

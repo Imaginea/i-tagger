@@ -1,8 +1,0 @@
-0,1,2,3
-4.,CD,B-NP,O
-William,NNP,I-NP,B-PER
-Kiptum,NNP,I-NP,I-PER
-(,(,O,O
-Kenya,NNP,B-NP,B-LOC
-),),O,O
-27:18.84,CD,B-NP,O

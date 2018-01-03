@@ -1,8 +1,0 @@
-0,1,2,3
-Nicaraguan,JJ,B-NP,B-MISC
-president,NN,I-NP,O
-has,VBZ,B-VP,O
-operation,NN,B-NP,O
-in,IN,B-PP,O
-U.S,NNP,B-NP,B-LOC
-.,.,O,O

@@ -1,8 +1,0 @@
-0,1,2,3
-2.,NNP,B-NP,O
-Peter,NNP,I-NP,B-PER
-Johansson,NNP,I-NP,I-PER
-(,(,O,O
-Sweden,NNP,B-NP,B-LOC
-),),O,O
-Husqvarna,NNP,B-NP,B-ORG

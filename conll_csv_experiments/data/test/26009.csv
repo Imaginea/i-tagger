@@ -1,7 +1,0 @@
-0,1,2,3
-BALANCE,NNP,B-NP,O
--,:,O,O
-Hartford,NNP,B-NP,B-LOC
-",",",",O,O
-Conn,NNP,B-NP,B-LOC
-.,.,O,O

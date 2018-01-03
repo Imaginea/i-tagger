@@ -1,8 +1,0 @@
-0,1,2,3
-4.,CD,B-NP,O
-Brigita,NNP,I-NP,B-PER
-Bokovec,NNP,I-NP,I-PER
-(,(,O,O
-Slovenia,NNP,B-NP,B-LOC
-),),O,O
-12.92,CD,B-NP,O

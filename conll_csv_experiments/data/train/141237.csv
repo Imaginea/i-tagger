@@ -1,6 +1,0 @@
-0,1,2,3
-Mandsaur,NNP,B-NP,B-LOC
-10,CD,I-NP,O
-Yellow,NNP,I-NP,O
-"12,600-12,750",CD,I-NP,O
-"12,700-12,850",CD,I-NP,O

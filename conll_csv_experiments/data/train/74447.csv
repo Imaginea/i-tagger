@@ -1,7 +1,0 @@
-0,1,2,3
-Amica,NNP,B-NP,B-ORG
-Wronki,NNP,I-NP,I-ORG
-3,CD,I-NP,O
-Hutnik,NNP,I-NP,B-ORG
-Krakow,NNP,I-NP,I-ORG
-0,CD,I-NP,O

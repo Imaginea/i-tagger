@@ -1,9 +1,0 @@
-0,1,2,3
-CBOT,NNP,B-NP,B-ORG
-grain,NN,I-NP,O
-/,SYM,O,O
-oilseed,VBN,B-NP,O
-receipts,NNS,I-NP,O
-and,CC,I-NP,O
-shipments,NNS,I-NP,O
-.,.,O,O

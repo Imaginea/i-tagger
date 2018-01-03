@@ -1,8 +1,0 @@
-0,1,2,3
-Shelbourne,JJ,B-NP,B-ORG
--,:,I-NP,O
-Mark,NNP,I-NP,B-PER
-Rutherford,NNP,I-NP,I-PER
-(,(,O,O
-5th,JJ,B-NP,O
-),),O,O

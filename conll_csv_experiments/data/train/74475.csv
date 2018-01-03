@@ -1,7 +1,0 @@
-0,1,2,3
-Slask,NNP,B-NP,B-ORG
-Wroclaw,NNP,I-NP,I-ORG
-3,CD,I-NP,O
-Odra,NNP,I-NP,B-ORG
-Wodzislaw,NNP,I-NP,I-ORG
-1,CD,I-NP,O

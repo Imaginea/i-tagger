@@ -1,9 +1,0 @@
-0,1,2,3
-Red,NNP,B-NP,B-ORG
-Star,NNP,I-NP,I-ORG
-win,VBP,B-VP,O
-on,IN,B-PP,O
-away,RB,B-ADVP,O
-goals,NNS,B-NP,O
-rule,VBP,B-VP,O
-.,.,O,O

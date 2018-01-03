@@ -1,9 +1,0 @@
-0,1,2,3
-It,PRP,B-NP,O
-was,VBD,B-VP,O
-tough,JJ,B-ADJP,O
-to,TO,B-VP,O
-play,VB,I-VP,O
-at,IN,B-PP,O
-night,NN,B-NP,O
-.,.,O,O

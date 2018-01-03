@@ -1,8 +1,0 @@
-0,1,2,3
-4.,CD,B-NP,O
-Warwara,NNP,I-NP,B-PER
-Zelenskaja,NNP,I-NP,I-PER
-(,(,O,O
-Russia,NNP,B-NP,B-LOC
-),),O,O
-100,CD,B-NP,O

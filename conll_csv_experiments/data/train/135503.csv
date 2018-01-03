@@ -1,9 +1,0 @@
-0,1,2,3
-New,NNP,B-NP,O
-U.N.,NNP,I-NP,B-ORG
-relief,NN,I-NP,O
-coordinator,NN,I-NP,O
-arrives,VBZ,B-VP,O
-in,IN,B-PP,O
-Iraq,NNP,B-NP,B-LOC
-.,.,O,O

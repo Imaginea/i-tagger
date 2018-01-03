@@ -1,8 +1,0 @@
-0,1,2,3
--,:,O,O
-New,NNP,B-NP,O
-orders,NNS,I-NP,O
-received,VBD,B-VP,O
-876,CD,B-NP,O
-vs,NNP,O,O
-933,CD,O,O

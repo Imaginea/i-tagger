@@ -1,8 +1,0 @@
-0,1,2,3
-3.,NNP,B-NP,O
-Silke,NNP,I-NP,B-PER
-Renk,NNP,I-NP,I-PER
-(,(,O,O
-Germany,NNP,B-NP,B-LOC
-),),O,O
-56.70,CD,B-NP,O

@@ -1,9 +1,0 @@
-0,1,2,3
-Result,NN,B-NP,O
-:,:,O,O
-Pakistan,NNP,B-NP,B-LOC
-won,VBD,B-VP,O
-by,IN,B-PP,O
-46,CD,B-NP,O
-runs,NNS,I-NP,O
-.,.,O,O

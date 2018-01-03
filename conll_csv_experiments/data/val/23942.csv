@@ -1,7 +1,0 @@
-0,1,2,3
-Nikkei,NNP,B-NP,B-MISC
-latest,JJS,I-NP,O
-CRUDE,NNP,I-NP,O
-OIL,NNP,I-NP,O
-$,$,B-NP,O
-1987.0,CD,I-NP,O

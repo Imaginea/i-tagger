@@ -1,8 +1,0 @@
-0,1,2,3
-Koeln,NNP,B-NP,B-LOC
-(,(,O,O
-Cologne,NNP,B-NP,B-LOC
-),),O,O
-"182,887",CD,B-NP,O
-up,RB,B-ADVP,O
-11.8,CD,B-NP,O

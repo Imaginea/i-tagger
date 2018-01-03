@@ -1,6 +1,0 @@
-0,1,2,3
-2.,NNP,B-NP,O
-Eichmann,NNP,I-NP,B-PER
-",",",",O,O
-Ruch,NNP,B-NP,B-PER
-116,CD,I-NP,O

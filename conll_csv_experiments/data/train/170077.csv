@@ -1,8 +1,0 @@
-0,1,2,3
-Shr,NN,B-NP,O
-(,(,O,O
-cents,NNS,B-NP,O
-),),O,O
-8.63,CD,B-NP,O
-vs,NNP,O,O
-7.23,CD,B-NP,O

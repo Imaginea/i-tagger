@@ -1,8 +1,0 @@
-0,1,2,3
-Stallone,NNP,B-NP,B-PER
-",",",",O,O
-fiancee,NN,B-NP,O
-have,VBP,B-VP,O
-baby,NN,B-NP,O
-girl,NN,I-NP,O
-.,.,O,O

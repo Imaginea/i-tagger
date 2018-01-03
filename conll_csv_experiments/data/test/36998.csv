@@ -1,6 +1,0 @@
-0,1,2,3
-Algoa,NNP,B-NP,B-MISC
-Day,NNP,I-NP,I-MISC
-21/11/96,CD,I-NP,O
-"6,000",CD,I-NP,O
-Africa,NNP,I-NP,B-LOC

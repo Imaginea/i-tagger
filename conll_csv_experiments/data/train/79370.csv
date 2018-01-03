@@ -1,8 +1,0 @@
-0,1,2,3
-4.,CD,B-NP,O
-Stefano,NNP,I-NP,B-PER
-Zanini,NNP,I-NP,I-PER
-(,(,O,O
-Italy,NNP,B-NP,B-LOC
-),),O,O
-88,CD,B-NP,O

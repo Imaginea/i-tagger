@@ -1,6 +1,0 @@
-0,1,2,3
-Reuters,NNP,B-NP,B-ORG
-Chicago,NNP,I-NP,I-ORG
-Newsdesk,NNP,I-NP,I-ORG
--,:,O,O
-312-408-8787,CD,B-NP,O

@@ -1,8 +1,0 @@
-0,1,2,3
-Mladost,FW,B-NP,B-ORG
-(,(,O,I-ORG
-L,NNP,B-NP,I-ORG
-),),O,I-ORG
-0,CD,B-NP,O
-Zemun,NNP,I-NP,B-ORG
-0,CD,I-NP,O

@@ -1,7 +1,0 @@
-0,1,2,3
-He,PRP,B-NP,O
-was,VBD,B-VP,O
-substituted,VBN,I-VP,O
-by,IN,B-PP,O
-Paulao,NNP,B-NP,B-PER
-.,.,O,O

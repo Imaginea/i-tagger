@@ -1,9 +1,0 @@
-0,1,2,3
-Scorer,NNP,B-NP,O
-:,:,O,O
-Sergei,NNP,B-NP,B-PER
-Rebrov,NNP,I-NP,I-PER
-(,(,O,O
-79th,JJ,B-NP,O
-minute,NN,I-NP,O
-),),O,O

@@ -1,8 +1,0 @@
-0,1,2,3
-Siam,NNP,B-NP,B-ORG
-Commercial,NNP,I-NP,I-ORG
-wins,VBZ,B-VP,O
-agency,NN,B-NP,O
-bond,NN,I-NP,O
-auctions,NNS,I-NP,O
-.,.,O,O

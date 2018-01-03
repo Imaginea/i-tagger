@@ -1,8 +1,0 @@
-0,1,2,3
-5.,CD,B-NP,O
-Julia,NNP,B-NP,B-PER
-Vaquero,NNP,O,I-PER
-(,(,O,O
-Spain,NNP,B-NP,B-LOC
-),),O,O
-15:04.94,CD,B-NP,O

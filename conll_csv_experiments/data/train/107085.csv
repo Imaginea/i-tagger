@@ -1,7 +1,0 @@
-0,1,2,3
--,:,O,O
-Mexico,NNP,B-NP,B-LOC
-City,NNP,I-NP,I-LOC
-newsroom,NN,I-NP,O
-525,CD,I-NP,O
-728-9559,CD,I-NP,O

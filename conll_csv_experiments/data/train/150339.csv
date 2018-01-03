@@ -1,8 +1,0 @@
-0,1,2,3
-2.,NNP,B-NP,O
-Soren,NNP,I-NP,B-PER
-Lausberg,NNP,I-NP,I-PER
-(,(,O,O
-Germany,NNP,B-NP,B-LOC
-),),O,O
-1:02.795,CD,B-NP,O

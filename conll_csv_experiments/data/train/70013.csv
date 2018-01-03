@@ -1,8 +1,0 @@
-0,1,2,3
-3.,NNP,B-NP,O
-Rodica,NNP,I-NP,B-PER
-Matescu,NNP,I-NP,I-PER
-(,(,O,O
-Romania,NNP,B-NP,B-LOC
-),),O,O
-14.18,CD,B-NP,O

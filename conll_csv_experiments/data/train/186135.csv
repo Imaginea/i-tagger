@@ -1,6 +1,0 @@
-0,1,2,3
-roughly,RB,B-NP,O
-3,CD,I-NP,O
-percent,NN,I-NP,O
-.,.,O,O
- ,O,O,<UNK>

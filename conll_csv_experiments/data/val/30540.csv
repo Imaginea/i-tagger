@@ -1,6 +1,0 @@
-0,1,2,3
-Quigley,NNP,B-NP,B-PER
-(,(,O,O
-USA,NNP,B-NP,B-LOC
-),),O,O
-3:42.852,CD,B-NP,O

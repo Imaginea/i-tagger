@@ -1,8 +1,0 @@
-0,1,2,3
-Dressed,VBD,B-VP,O
-Basis,NNP,B-NP,O
-Delivered,NNP,I-NP,O
-not,RB,B-ADVP,O
-well,RB,I-ADVP,O
-tested,VBN,B-VP,O
-.,.,O,O

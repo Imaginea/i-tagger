@@ -1,8 +1,0 @@
-0,1,2,3
-There,EX,B-NP,O
-'s,VBZ,B-VP,O
-no,DT,B-NP,O
-need,NN,I-NP,O
-to,TO,B-VP,O
-worry,VB,I-VP,O
-.,.,O,O

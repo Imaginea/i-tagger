@@ -1,7 +1,0 @@
-0,1,2,3
-Chernomorets,NNS,B-NP,B-ORG
-Novorossiisk,NN,I-NP,I-ORG
-2,CD,I-NP,O
-Rostselmash,NNP,I-NP,B-ORG
-Rostov,NNP,I-NP,I-ORG
-1,CD,I-NP,O

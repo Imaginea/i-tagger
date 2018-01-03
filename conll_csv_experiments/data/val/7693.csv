@@ -1,9 +1,0 @@
-0,1,2,3
-Man,NN,B-NP,O
-of,IN,B-PP,O
-the,DT,B-NP,O
-Match,NNP,I-NP,O
-:,:,O,O
-Aravinda,NNP,B-NP,B-PER
-de,NNP,I-NP,I-PER
-Silva,NNP,I-NP,I-PER

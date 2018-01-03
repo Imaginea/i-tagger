@@ -1,9 +1,0 @@
-0,1,2,3
-AEI,NNP,B-NP,B-ORG
-'s,POS,B-NP,O
-Spanish,JJ,I-NP,B-MISC
-operation,NN,I-NP,O
-wins,VBZ,B-VP,O
-ISO,NNP,B-NP,B-MISC
-9002,CD,I-NP,I-MISC
-.,.,O,O

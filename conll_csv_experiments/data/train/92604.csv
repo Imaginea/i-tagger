@@ -1,8 +1,0 @@
-0,1,2,3
-Yorkshire,NNP,B-NP,B-ORG
-11,CD,I-NP,O
-points,NNS,I-NP,O
-",",",",O,O
-Lancashire,NN,B-NP,B-ORG
-8,CD,I-NP,O
-.,.,O,O

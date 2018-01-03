@@ -1,6 +1,0 @@
-0,1,2,3
-Company,NNP,B-NP,O
-Name,NNP,I-NP,O
-Transkaryotic,NNP,I-NP,B-ORG
-Therapies,NNPS,I-NP,I-ORG
-Inc,NNP,I-NP,I-ORG

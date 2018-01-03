@@ -1,7 +1,0 @@
-0,1,2,3
-Shanghai,NNP,B-NP,B-LOC
-novelist,NN,I-NP,O
-murdered,VBN,B-VP,O
-at,IN,B-PP,O
-home,NN,B-NP,O
-.,.,O,O

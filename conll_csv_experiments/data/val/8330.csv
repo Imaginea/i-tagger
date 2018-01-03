@@ -1,8 +1,0 @@
-0,1,2,3
-Net,JJ,B-NP,O
-foreign,JJ,I-NP,O
-currency,NN,I-NP,O
--,:,O,O
-12.63,CD,B-NP,O
--,:,O,O
-12.08,CD,B-NP,O

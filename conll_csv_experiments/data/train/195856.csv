@@ -1,9 +1,0 @@
-0,1,2,3
-Gazprom,NN,B-NP,B-ORG
-rises,VBZ,B-VP,O
-to,TO,B-PP,O
-"2,901.48",CD,B-NP,O
-rbls,NNS,I-NP,O
-at,IN,B-PP,O
-auction,NN,B-NP,O
-.,.,O,O

@@ -1,8 +1,0 @@
-0,1,2,3
-5.,NNP,B-NP,O
-Armen,NNP,I-NP,B-PER
-Martirosyan,NNP,I-NP,I-PER
-(,(,O,O
-Armenia,NNP,B-NP,B-LOC
-),),O,O
-16.57,CD,B-NP,O

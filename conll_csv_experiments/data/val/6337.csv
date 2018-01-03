@@ -1,8 +1,0 @@
-0,1,2,3
-7.,CD,B-NP,O
-Pyotr,NNP,I-NP,B-PER
-Bochkary,NNP,I-NP,I-PER
-(,(,O,O
-Russia,NNP,B-NP,B-LOC
-),),O,O
-5.65,CD,B-NP,O

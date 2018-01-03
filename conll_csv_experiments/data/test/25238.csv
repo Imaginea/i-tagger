@@ -1,8 +1,0 @@
-0,1,2,3
-Lebanon,NNP,B-NP,B-LOC
-sentences,NNS,I-NP,O
-pro-Israeli,VB,B-VP,B-MISC
-warlord,VB,I-VP,O
-to,TO,B-PP,O
-death,NN,B-NP,O
-.,.,O,O

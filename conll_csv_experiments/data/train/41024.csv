@@ -1,9 +1,0 @@
-0,1,2,3
-Rwandan,JJ,B-NP,B-MISC
-group,NN,I-NP,O
-says,VBZ,B-VP,O
-expulsion,NN,B-NP,O
-could,MD,B-VP,O
-be,VB,I-VP,O
-imminent,JJ,B-ADJP,O
-.,.,O,O

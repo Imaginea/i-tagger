@@ -1,5 +1,0 @@
-0,1,2,3
-Company-------------Price---Broker----------------,NNP,B-NP,O
-Aegon,NNP,B-NP,B-ORG
-83.40,CD,I-NP,O
-Paribas,NNP,I-NP,B-ORG

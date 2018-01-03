@@ -1,8 +1,0 @@
-0,1,2,3
-5.,NNP,B-NP,O
-Jamie,NNP,I-NP,B-PER
-Baulch,NNP,I-NP,I-PER
-(,(,O,O
-Britain,NNP,B-NP,B-LOC
-),),O,O
-45.08,CD,B-NP,O

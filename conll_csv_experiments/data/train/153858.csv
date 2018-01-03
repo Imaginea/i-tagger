@@ -1,9 +1,0 @@
-0,1,2,3
-Hapoel,NNP,B-NP,B-ORG
-Ironi,NNP,I-NP,I-ORG
-Rishon,NNP,I-NP,I-ORG
-Lezion,NNP,I-NP,O
-3,CD,I-NP,O
-Hapoel,NNP,I-NP,B-ORG
-Taibe,NNP,I-NP,I-ORG
-1,CD,I-NP,O

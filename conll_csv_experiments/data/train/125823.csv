@@ -1,7 +1,0 @@
-0,1,2,3
-Werder,NNP,B-NP,B-ORG
-Bremen,NNP,I-NP,I-ORG
-1,CD,I-NP,O
-Borussia,NNP,I-NP,B-ORG
-Moenchengladbach,NNP,I-NP,I-ORG
-0,CD,I-NP,O

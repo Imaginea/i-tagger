@@ -1,9 +1,0 @@
-0,1,2,3
-14.,CD,B-NP,O
-Olivier,NNP,I-NP,B-PER
-Panis,NNP,I-NP,I-PER
-(,(,O,O
-France,NNP,B-NP,B-LOC
-),),O,O
-Ligier,NNP,B-NP,B-ORG
-1:54.220,CD,I-NP,O

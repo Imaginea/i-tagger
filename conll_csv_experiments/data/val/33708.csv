@@ -1,7 +1,0 @@
-0,1,2,3
-Queen,NNP,B-NP,B-ORG
-'s,POS,B-NP,I-ORG
-Park,NNP,I-NP,I-ORG
-1,CD,I-NP,O
-Forfar,NNP,I-NP,B-ORG
-4,CD,I-NP,O

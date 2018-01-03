@@ -1,9 +1,0 @@
-0,1,2,3
-Galeforce,JJ,B-NP,O
-winds,NNS,I-NP,O
-and,CC,O,O
-heavy,JJ,B-NP,O
-rains,NNS,I-NP,O
-batter,NN,I-NP,O
-Belgium,NNP,I-NP,B-LOC
-.,.,O,O

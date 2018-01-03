@@ -1,9 +1,0 @@
-0,1,2,3
-Portland,NNP,B-NP,B-LOC
-OR,NNP,O,B-LOC
-5.60,CD,B-NP,O
-up,RB,B-ADVP,O
-.02,CD,B-NP,O
-5.1700,CD,I-NP,O
-dn,NN,I-NP,O
-.01,CD,I-NP,O

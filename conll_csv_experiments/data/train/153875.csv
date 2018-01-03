@@ -1,8 +1,0 @@
-0,1,2,3
-Maccabi,NNP,B-NP,B-ORG
-Petah,NNP,I-NP,I-ORG
-Tikva,NNP,I-NP,I-ORG
-0,CD,I-NP,O
-Betar,NNP,I-NP,B-ORG
-Jerusalem,NNP,I-NP,I-ORG
-3,CD,I-NP,O

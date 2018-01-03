@@ -1,9 +1,0 @@
-0,1,2,3
-Orthodox,JJ,B-NP,O
-church,NN,I-NP,O
-blown,VBN,B-VP,O
-up,RP,B-PRT,O
-in,IN,B-PP,O
-southern,JJ,B-NP,O
-Croatia,NNP,I-NP,B-LOC
-.,.,O,O

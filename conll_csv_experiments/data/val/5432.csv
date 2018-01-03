@@ -1,8 +1,0 @@
-0,1,2,3
-3.,NNP,B-NP,O
-Aliuska,NNP,I-NP,B-PER
-Lopez,NNP,I-NP,I-PER
-(,(,O,O
-Cuba,NNP,B-NP,B-LOC
-),),O,O
-12.92,CD,B-NP,O

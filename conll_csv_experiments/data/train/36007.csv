@@ -1,8 +1,0 @@
-0,1,2,3
-2.,CD,B-NP,O
-Fernanda,NNP,I-NP,B-PER
-Ribeiro,NNP,I-NP,I-PER
-(,(,O,O
-Portugal,NNP,B-NP,B-LOC
-),),O,O
-14:49.81,CD,B-NP,O

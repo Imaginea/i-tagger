@@ -1,8 +1,0 @@
-0,1,2,3
-11.,CD,B-NP,O
-Florence,NNP,I-NP,B-LOC
-Masnada,NNP,I-NP,B-PER
-(,(,O,O
-France,NNP,B-NP,B-LOC
-),),O,O
-133,CD,B-NP,O

@@ -1,8 +1,0 @@
-0,1,2,3
-2.,CD,B-NP,O
-Marco,NNP,I-NP,B-PER
-Vaccari,NNP,I-NP,I-PER
-(,(,O,O
-Italy,NNP,B-NP,B-LOC
-),),O,O
-46.16,CD,B-NP,O

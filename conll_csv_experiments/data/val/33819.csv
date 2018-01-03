@@ -1,6 +1,0 @@
-0,1,2,3
-Bury,VB,B-VP,B-ORG
-4,CD,B-NP,O
-Bristol,NNP,I-NP,B-ORG
-City,NNP,I-NP,I-ORG
-0,CD,I-NP,O

@@ -1,8 +1,0 @@
-0,1,2,3
-British,JJ,B-NP,B-MISC
-hostage,NN,I-NP,O
-in,IN,B-PP,O
-Chechnya,NNP,B-NP,B-LOC
-describes,VBZ,B-VP,O
-ordeal,RB,B-NP,O
-.,.,O,O

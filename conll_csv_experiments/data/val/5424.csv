@@ -1,8 +1,0 @@
-0,1,2,3
-2.,CD,B-NP,O
-Ludmila,NNP,I-NP,B-PER
-Engquist,NNP,I-NP,I-PER
-(,(,O,O
-Sweden,NNP,B-NP,B-LOC
-),),O,O
-12.74,CD,B-NP,O

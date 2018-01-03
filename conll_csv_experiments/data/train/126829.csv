@@ -1,8 +1,0 @@
-0,1,2,3
-9.,CD,B-NP,O
-Jeroen,NNP,I-NP,B-PER
-Blijlevens,NNP,I-NP,I-PER
-(,(,O,O
-Neths,NNPS,B-NP,B-LOC
-),),O,O
-TVM,NNP,B-NP,B-ORG

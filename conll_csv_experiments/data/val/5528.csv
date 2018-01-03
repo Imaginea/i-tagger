@@ -1,8 +1,0 @@
-0,1,2,3
-7.,CD,B-NP,O
-Margarita,NNP,I-NP,B-PER
-Maruseva,NNP,I-NP,I-PER
-(,(,O,O
-Russia,NNP,B-NP,B-LOC
-),),O,O
-4:10.87,CD,B-NP,O

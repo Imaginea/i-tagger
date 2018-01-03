@@ -1,9 +1,0 @@
-0,1,2,3
- ,O,O,<UNK>
-Cofinec,NNP,B-NP,B-ORG
-'s,POS,B-NP,O
-first-half,JJ,I-NP,O
-figures,NNS,I-NP,O
-will,MD,B-VP,O
-be,VB,I-VP,O
-...,:,O,O

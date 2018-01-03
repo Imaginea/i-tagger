@@ -1,9 +1,0 @@
-0,1,2,3
-1.,CD,B-NP,O
-Takuma,NNP,I-NP,B-PER
-Aoki,NNP,I-NP,I-PER
-(,(,O,O
-Japan,NNP,O,B-LOC
-),),O,O
-Honda,NNP,B-NP,B-ORG
-38:18.759,CD,I-NP,O

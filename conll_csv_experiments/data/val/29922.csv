@@ -1,8 +1,0 @@
-0,1,2,3
-Did,VBD,O,O
-Not,RB,O,O
-Bat,NN,B-NP,O
-:,:,O,O
-A.,NNP,B-NP,B-PER
-Mullally,NNP,I-NP,I-PER
-.,.,O,O

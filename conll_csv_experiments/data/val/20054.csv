@@ -1,6 +1,0 @@
-0,1,2,3
-Former,NNP,B-NP,O
-South,NNP,I-NP,B-LOC
-Carolina,NNP,I-NP,I-LOC
-Gov,NNP,I-NP,O
-.,.,O,O

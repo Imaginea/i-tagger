@@ -1,9 +1,0 @@
-0,1,2,3
-Asif,NNP,B-NP,B-PER
-Mujtaba,NNP,I-NP,I-PER
-2,CD,I-NP,O
-3,CD,I-NP,O
-0,CD,I-NP,O
-90,CD,B-NP,O
-51,CD,I-NP,O
-30.00,CD,I-NP,O

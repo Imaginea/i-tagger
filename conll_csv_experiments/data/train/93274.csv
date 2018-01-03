@@ -1,9 +1,0 @@
-0,1,2,3
-fixtures,NNS,B-NP,O
-for,IN,B-PP,O
-August,NNP,B-NP,O
-30,CD,I-NP,O
-to,TO,B-PP,O
-September,NNP,B-NP,O
-1,CD,I-NP,O
-:,:,O,O

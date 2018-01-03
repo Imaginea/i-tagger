@@ -1,8 +1,0 @@
-0,1,2,3
-8.,NNP,B-NP,O
-Pauline,NNP,I-NP,B-PER
-Konga,NNP,I-NP,I-PER
-(,(,O,O
-Kenya,NNP,B-NP,B-LOC
-),),O,O
-15:11.40,CD,B-NP,O

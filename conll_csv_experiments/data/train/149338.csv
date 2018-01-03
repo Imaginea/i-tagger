@@ -1,9 +1,0 @@
-0,1,2,3
-1.,CD,B-NP,O
-Virna,NNP,I-NP,B-PER
-De,NNP,I-NP,I-PER
-Angeli,NNP,I-NP,I-PER
-(,(,O,O
-Italy,NNP,B-NP,B-LOC
-),),O,O
-55.66,CD,B-NP,O

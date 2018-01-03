@@ -1,9 +1,0 @@
-0,1,2,3
-6.,CD,B-NP,O
-Larbi,NNP,I-NP,B-PER
-El,NNP,I-NP,I-PER
-Khattabi,NNP,I-NP,I-PER
-(,(,O,O
-Morocco,NNP,B-NP,B-LOC
-),),O,O
-8:17.29,CD,B-NP,O

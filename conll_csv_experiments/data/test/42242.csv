@@ -1,8 +1,0 @@
-0,1,2,3
-3.,NNP,B-NP,O
-Jeff,NNP,I-NP,B-PER
-Bean,NNP,I-NP,I-PER
-(,(,O,O
-Canada,NNP,B-NP,B-LOC
-),),O,O
-209.96,CD,B-NP,O

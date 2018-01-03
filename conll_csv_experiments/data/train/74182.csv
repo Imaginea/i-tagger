@@ -1,8 +1,0 @@
-0,1,2,3
-F.C.,NNP,B-NP,B-ORG
-Brasov,NNP,I-NP,I-ORG
-1,CD,I-NP,O
-F.C.,NNP,I-NP,B-ORG
-National,NNP,I-NP,I-ORG
-Bucharest,NNP,I-NP,I-ORG
-1,CD,I-NP,O

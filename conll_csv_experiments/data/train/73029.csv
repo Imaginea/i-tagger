@@ -1,6 +1,0 @@
-0,1,2,3
-M.,NNP,B-NP,B-PER
-Atherton,NNP,I-NP,I-PER
-not,RB,O,O
-out,IN,B-PP,O
-26,CD,B-NP,O

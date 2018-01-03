@@ -1,9 +1,0 @@
-0,1,2,3
-Court,NNP,B-NP,O
-ejects,VBZ,B-VP,O
-head,NN,B-NP,O
-of,IN,B-PP,O
-Australian,JJ,B-NP,B-MISC
-child-sex,NN,I-NP,O
-inquiry,NN,I-NP,O
-.,.,O,O

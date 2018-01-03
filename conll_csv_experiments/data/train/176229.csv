@@ -1,9 +1,0 @@
-0,1,2,3
-Dow,NNP,B-NP,B-MISC
-pushes,VBZ,B-VP,O
-London,NNP,B-NP,B-LOC
-stocks,NNS,I-NP,O
-to,TO,B-PP,O
-new,JJ,B-NP,O
-record,NN,I-NP,O
-.,.,O,O

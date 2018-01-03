@@ -1,6 +1,0 @@
-0,1,2,3
-Sangthai,NNP,B-NP,B-MISC
-Glory,NN,I-NP,I-MISC
-22/11/96,CD,I-NP,O
-"3,000",CD,I-NP,O
-Singapore,NNP,I-NP,B-LOC

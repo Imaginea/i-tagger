@@ -1,8 +1,0 @@
-0,1,2,3
-Egypt,NNP,B-NP,B-LOC
-police,NN,I-NP,O
-catch,NN,I-NP,O
-ancient,JJ,I-NP,O
-manuscript,NN,I-NP,O
-thieves,NNS,I-NP,O
-.,.,O,O

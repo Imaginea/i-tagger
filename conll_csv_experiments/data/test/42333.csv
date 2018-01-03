@@ -1,8 +1,0 @@
-0,1,2,3
-4.,CD,B-NP,O
-Caroline,NNP,I-NP,B-PER
-Olivier,NNP,I-NP,I-PER
-(,(,O,O
-Canada,NNP,B-NP,B-LOC
-),),O,O
-157.10,CD,B-NP,O

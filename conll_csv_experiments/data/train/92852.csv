@@ -1,7 +1,0 @@
-0,1,2,3
-D.,NNP,B-NP,B-PER
-Cork,NNP,I-NP,I-PER
-b,SYM,O,O
-Mushtaq,NNP,B-NP,B-PER
-Ahmed,NNP,I-NP,I-PER
-26,CD,I-NP,O

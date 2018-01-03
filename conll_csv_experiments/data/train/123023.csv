@@ -1,8 +1,0 @@
-0,1,2,3
-0,CD,B-NP,O
-1-0,CD,I-NP,O
-Retired,NNP,I-NP,O
-(,(,O,O
-ankle,NN,B-NP,O
-injury,NN,I-NP,O
-),),O,O

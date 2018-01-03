@@ -1,6 +1,0 @@
-0,1,2,3
---,:,B-NP,O
-Karen,NNP,I-NP,B-PER
-Pierog,NNP,I-NP,I-PER
-",",",",O,O
-312-408-8647,CD,B-NP,O

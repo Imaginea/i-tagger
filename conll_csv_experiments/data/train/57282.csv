@@ -1,8 +1,0 @@
-0,1,2,3
-Rad,NN,B-NP,B-ORG
-1,CD,I-NP,O
-Buducnost,NNP,I-NP,B-ORG
-(,(,O,I-ORG
-P,NN,B-NP,I-ORG
-),),O,I-ORG
-0,CD,B-NP,O

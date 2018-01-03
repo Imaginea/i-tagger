@@ -1,8 +1,0 @@
-0,1,2,3
-7.,NNP,B-NP,O
-Carlos,NNP,I-NP,B-PER
-Calado,NNP,I-NP,I-PER
-(,(,O,O
-Portugal,NNP,B-NP,B-LOC
-),),O,O
-16.31,CD,B-NP,O

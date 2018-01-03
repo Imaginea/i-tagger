@@ -1,8 +1,0 @@
-0,1,2,3
-Kleinova,NNP,B-NP,B-PER
-(,(,O,O
-Czech,NNP,B-NP,B-LOC
-Republic,NNP,I-NP,I-LOC
-),),O,O
-6-3,CD,B-NP,O
-6-4,CD,I-NP,O

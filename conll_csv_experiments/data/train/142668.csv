@@ -1,9 +1,0 @@
-0,1,2,3
-All,DT,B-NP,O
-passengers,NNS,I-NP,O
-freed,VBD,B-VP,O
-from,IN,B-PP,O
-Sudanese,NNP,B-NP,B-MISC
-hijack,NN,I-NP,O
-plane,NN,I-NP,O
-.,.,O,O

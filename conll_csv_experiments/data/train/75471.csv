@@ -1,6 +1,0 @@
-0,1,2,3
-Parramatta,NNS,B-NP,B-ORG
-14,CD,B-NP,O
-Sydney,NNP,I-NP,B-ORG
-Tigers,NNP,I-NP,I-ORG
-26,CD,I-NP,O

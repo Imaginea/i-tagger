@@ -1,9 +1,0 @@
-0,1,2,3
-Pakistan,NNP,B-NP,B-LOC
-Saeed,NNP,B-NP,B-PER
-Anwar,NNP,I-NP,I-PER
-c,SYM,O,O
-Mullally,RB,B-NP,B-PER
-b,SYM,O,O
-Irani,NNP,B-NP,B-PER
-57,CD,I-NP,O

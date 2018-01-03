@@ -1,9 +1,0 @@
-0,1,2,3
-The,DT,B-NP,O
-new,JJ,I-NP,O
-pact,NN,I-NP,O
-expires,VBZ,B-VP,O
-on,IN,B-PP,O
-September,NNP,B-NP,O
-3,CD,I-NP,O
-.,.,O,O

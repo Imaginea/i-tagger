@@ -1,9 +1,0 @@
-0,1,2,3
-Conversions,NNS,B-NP,O
-:,:,O,O
-Andrew,NNP,B-NP,B-PER
-Mehrtens,NNP,I-NP,I-PER
-(,(,O,O
-2,CD,B-NP,O
-),),O,O
-.,.,O,O

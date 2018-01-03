@@ -1,9 +1,0 @@
-0,1,2,3
-Tentative,JJ,B-NP,O
-dates,NNS,I-NP,O
-for,IN,B-PP,O
-the,DT,B-NP,O
-debates,NNS,I-NP,O
-are,VBP,B-VP,O
-Sept,NNP,B-NP,O
-.,.,O,O

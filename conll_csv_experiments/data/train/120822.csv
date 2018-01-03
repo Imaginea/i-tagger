@@ -1,9 +1,0 @@
-0,1,2,3
-Simon,NNP,B-NP,B-PER
-Brown,NNP,I-NP,I-PER
-1,CD,I-NP,O
-2,CD,I-NP,O
-1,CD,I-NP,O
-11,CD,I-NP,O
-10no,CD,I-NP,O
-11.00,CD,I-NP,O

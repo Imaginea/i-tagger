@@ -1,9 +1,0 @@
-0,1,2,3
- ,O,O,<UNK>
-We,PRP,B-NP,O
-have,VBP,B-VP,O
-over,IN,B-PP,O
-a,DT,B-NP,O
-month,NN,I-NP,O
-left,VBD,B-VP,O
-.,.,O,O

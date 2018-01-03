@@ -1,9 +1,0 @@
-0,1,2,3
-Pohang,VBG,B-VP,B-ORG
-3,CD,B-NP,O
-Ulsan,JJ,I-NP,B-ORG
-2,CD,I-NP,O
-(,(,I-NP,O
-halftime,NN,I-NP,O
-1-0,CD,I-NP,O
-),),O,O

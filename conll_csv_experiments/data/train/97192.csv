@@ -1,6 +1,0 @@
-0,1,2,3
-Raja,NNP,B-NP,B-ORG
-Casablanca,NNP,I-NP,I-ORG
-4,CD,I-NP,O
-Tetouan,JJ,I-NP,B-ORG
-0,CD,I-NP,O

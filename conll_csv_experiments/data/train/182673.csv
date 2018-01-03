@@ -1,8 +1,0 @@
-0,1,2,3
-Two,CD,B-NP,O
-dead,JJ,I-NP,O
-in,IN,B-PP,O
-Cambodia,NNP,B-NP,B-LOC
-helicopter,NN,I-NP,O
-crash,NN,I-NP,O
-.,.,O,O

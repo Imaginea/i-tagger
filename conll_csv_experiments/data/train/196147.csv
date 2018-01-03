@@ -1,9 +1,0 @@
-0,1,2,3
-Serbian,JJ,B-NP,B-MISC
-policeman,NN,I-NP,O
-shot,VBD,B-VP,O
-dead,JJ,B-ADJP,O
-in,IN,B-PP,O
-Kosovo,NNP,B-NP,B-LOC
-province,NN,I-NP,O
-.,.,O,O

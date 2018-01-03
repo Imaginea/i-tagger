@@ -1,5 +1,0 @@
-0,1,2,3
-Lotte,NNP,B-NP,B-PER
-1,CD,I-NP,O
-OB,IN,B-PP,B-ORG
-0*,CD,B-NP,O

@@ -1,7 +1,0 @@
-0,1,2,3
-That,DT,B-NP,O
-would,MD,B-VP,O
-have,VB,I-VP,O
-meant,VBD,I-VP,O
-Geneva,NNP,B-NP,B-LOC
-.,.,O,O

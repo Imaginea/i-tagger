@@ -1,7 +1,0 @@
-0,1,2,3
-Year,NN,B-NP,O
-to,TO,B-PP,O
-December,NNP,B-NP,O
-31,CD,I-NP,O
-",",",",I-NP,O
-1996,CD,I-NP,O

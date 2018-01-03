@@ -1,9 +1,0 @@
-0,1,2,3
--,:,O,O
-output,NN,B-NP,O
-expectations,NNS,I-NP,O
-*,SYM,O,O
-+22,CD,B-NP,O
-+22,CD,I-NP,O
-+12,CD,I-NP,O
-+16,CD,I-NP,O

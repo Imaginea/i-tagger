@@ -1,9 +1,0 @@
-0,1,2,3
-Controversial,NNP,B-NP,O
-IRA,NNP,I-NP,B-ORG
-film,NN,I-NP,O
-screened,VBD,B-VP,O
-at,IN,B-PP,O
-Venice,NNP,B-NP,B-LOC
-festival,NN,I-NP,O
-.,.,O,O

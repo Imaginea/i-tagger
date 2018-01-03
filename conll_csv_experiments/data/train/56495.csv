@@ -1,6 +1,0 @@
-0,1,2,3
-Nottingham,NNP,B-NP,B-ORG
-Forest,NNP,I-NP,I-ORG
-1,CD,I-NP,O
-Middlesbrough,NNP,I-NP,B-ORG
-1,CD,I-NP,O

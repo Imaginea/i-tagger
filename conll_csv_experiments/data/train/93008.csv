@@ -1,7 +1,0 @@
-0,1,2,3
-Second,JJ,B-NP,O
-test,NN,I-NP,O
-:,:,O,O
-Headingley,NNP,B-NP,B-LOC
--,:,O,O
-Drawn,NNP,B-NP,O

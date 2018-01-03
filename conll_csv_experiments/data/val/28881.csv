@@ -1,6 +1,0 @@
-0,1,2,3
-Wigan,NN,B-NP,B-ORG
-42,CD,I-NP,O
-Bradford,NNP,I-NP,B-ORG
-Bulls,NNPS,I-NP,I-ORG
-36,CD,I-NP,O

@@ -1,8 +1,0 @@
-0,1,2,3
-U.N.,NNP,B-NP,B-ORG
-Ambassador,NNP,I-NP,O
-Albright,NNP,I-NP,B-PER
-arrives,VBZ,B-VP,O
-in,IN,B-PP,O
-Chile,NNP,B-NP,B-LOC
-.,.,O,O

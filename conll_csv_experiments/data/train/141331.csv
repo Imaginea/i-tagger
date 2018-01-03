@@ -1,6 +1,0 @@
-0,1,2,3
-Soyoil,NN,B-NP,O
-solvent,JJ,B-ADJP,O
-market,NN,B-NP,O
-delivery,NN,I-NP,O
-"30,700-30,800",CD,I-NP,O

@@ -1,8 +1,0 @@
-0,1,2,3
-Feedlots,NNS,B-NP,O
-reporting,VBG,B-VP,O
-light,JJ,B-NP,O
-inquiry,NN,I-NP,O
-from,IN,B-PP,O
-buyers,NNS,B-NP,O
-.,.,O,O

@@ -1,8 +1,0 @@
-0,1,2,3
-4.,CD,B-NP,O
-Yekaterina,NNP,I-NP,B-PER
-Podkopayeva,NNP,I-NP,I-PER
-(,(,O,O
-Russia,NNP,B-NP,B-LOC
-),),O,O
-4:04.78,CD,B-NP,O

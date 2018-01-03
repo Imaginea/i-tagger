@@ -1,8 +1,0 @@
-0,1,2,3
-3.,NNP,B-NP,O
-Fiona,NNP,I-NP,B-PER
-May,NNP,I-NP,I-PER
-(,(,O,O
-Italy,NNP,B-NP,B-LOC
-),),O,O
-6.64,CD,B-NP,O

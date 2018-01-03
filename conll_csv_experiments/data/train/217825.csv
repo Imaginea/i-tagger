@@ -1,8 +1,0 @@
-0,1,2,3
-7.,CD,B-NP,O
-Ingrid,NNP,I-NP,B-PER
-Haringa,NNP,I-NP,I-PER
-(,(,I-NP,O
-Netherlands,NNP,I-NP,B-LOC
-),),O,O
-20,CD,B-NP,O

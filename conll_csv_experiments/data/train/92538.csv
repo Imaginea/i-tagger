@@ -1,7 +1,0 @@
-0,1,2,3
-At,IN,B-PP,O
-Headingley,NNP,B-NP,B-LOC
-:,:,O,O
-Match,NNP,B-NP,O
-drawn,VBN,B-VP,O
-.,.,O,O

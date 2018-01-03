@@ -1,8 +1,0 @@
-0,1,2,3
-Companion,NNP,B-NP,B-ORG
-Marble,NNP,I-NP,I-ORG
-posts,NNS,I-NP,O
-1st,CD,B-NP,O
-final,JJ,I-NP,O
-result,NN,I-NP,O
-.,.,O,O

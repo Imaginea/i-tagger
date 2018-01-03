@@ -1,8 +1,0 @@
-0,1,2,3
-7.,CD,B-NP,O
-Tanya,NNP,I-NP,B-PER
-Dubnicoff,NNP,I-NP,I-PER
-(,(,O,O
-Canada,NNP,B-NP,B-LOC
-),),O,O
-36.307,CD,B-NP,O

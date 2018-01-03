@@ -1,7 +1,0 @@
-0,1,2,3
-Avg,NNP,B-NP,O
-December,NNP,I-NP,O
-5,CD,I-NP,O
-price,NN,I-NP,O
-fix,NN,I-NP,O
-:,:,O,O

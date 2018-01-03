@@ -1,9 +1,0 @@
-0,1,2,3
-Ecuador,NN,B-NP,B-LOC
-president,NN,I-NP,O
-to,TO,B-PP,O
-lunch,NN,B-NP,O
-with,IN,B-PP,O
-ethnic,JJ,B-NP,O
-Indians,NNPS,I-NP,B-MISC
-.,.,O,O

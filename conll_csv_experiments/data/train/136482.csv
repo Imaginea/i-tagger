@@ -1,9 +1,0 @@
-0,1,2,3
-Bids,NNS,B-NP,O
-there,RB,B-ADVP,O
-dropped,VBD,B-VP,O
-10,CD,B-NP,O
-cents,NNS,I-NP,O
-per,IN,B-PP,O
-bushel,NN,B-NP,O
-.,.,O,O

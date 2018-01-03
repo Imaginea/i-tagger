@@ -1,8 +1,0 @@
-0,1,2,3
-Palestinians,NNPS,B-NP,B-MISC
-accuse,VB,B-VP,O
-PA,NNP,B-NP,B-ORG
-of,IN,B-PP,O
-banning,VBG,B-VP,O
-books,NNS,B-NP,O
-.,.,O,O

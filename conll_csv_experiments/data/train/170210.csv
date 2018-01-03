@@ -1,9 +1,0 @@
-0,1,2,3
-Williams,NNP,B-NP,B-PER
-',POS,B-NP,O
-hometown,NN,I-NP,O
-was,VBD,B-VP,O
-not,RB,I-VP,O
-immediately,RB,I-VP,O
-available,JJ,B-ADJP,O
-.,.,O,O

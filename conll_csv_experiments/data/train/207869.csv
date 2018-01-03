@@ -1,9 +1,0 @@
-0,1,2,3
-A-,NNP,B-NP,O
-includes,VBZ,B-VP,O
-"54,600",CD,B-NP,O
-tonnes,VBZ,B-VP,O
-changed,VBN,I-VP,O
-from,IN,B-PP,O
-unknown,JJ,B-ADJP,O
-.,.,O,O

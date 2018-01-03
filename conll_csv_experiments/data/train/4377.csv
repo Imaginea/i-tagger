@@ -1,8 +1,0 @@
-0,1,2,3
-Gateway,NNP,B-NP,B-ORG
-Data,NNPS,I-NP,I-ORG
-Sciences,NNPS,I-NP,I-ORG
-Q2,NNP,I-NP,O
-net,JJ,I-NP,O
-rises,NNS,I-NP,O
-.,.,O,O

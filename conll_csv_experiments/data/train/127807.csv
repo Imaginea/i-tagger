@@ -1,9 +1,0 @@
-0,1,2,3
-CBOE,NNP,B-NP,B-ORG
-in,IN,B-PP,O
-routine,JJ,B-NP,O
-review,NN,I-NP,O
-of,IN,B-PP,O
-MFS,NNP,B-NP,B-ORG
-options,NNS,I-NP,O
-.,.,O,O

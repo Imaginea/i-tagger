@@ -1,6 +1,0 @@
-0,1,2,3
-Cruz,NNP,B-NP,B-ORG
-Azul,NNP,I-NP,I-ORG
-2,CD,I-NP,O
-Leon,NNP,I-NP,B-ORG
-2,CD,I-NP,O

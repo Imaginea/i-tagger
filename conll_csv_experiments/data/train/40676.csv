@@ -1,7 +1,0 @@
-0,1,2,3
-No,DT,B-NP,O
-replacements,NNS,I-NP,O
-had,VBD,B-VP,O
-been,VBN,I-VP,O
-named,VBN,I-VP,O
-.,.,O,O

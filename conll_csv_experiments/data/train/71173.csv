@@ -1,9 +1,0 @@
-0,1,2,3
-10.,CD,B-NP,O
-Shiya,NNP,I-NP,B-PER
-Takeishi,NNP,I-NP,I-PER
-(,(,O,O
-Japan,NNP,O,B-LOC
-),),O,O
-Kawasaki,NNP,B-NP,B-ORG
-38:52.271,NNP,I-NP,O

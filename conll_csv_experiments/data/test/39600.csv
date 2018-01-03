@@ -1,8 +1,0 @@
-0,1,2,3
-7.,CD,B-NP,O
-Madlen,NNP,I-NP,B-PER
-Brigger-Summermatter,NNP,I-NP,I-PER
-(,(,O,O
-Switzerland,NNP,B-NP,B-LOC
-),),O,O
-1:18.23,CD,B-NP,O

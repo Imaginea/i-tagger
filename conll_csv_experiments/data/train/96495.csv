@@ -1,7 +1,0 @@
-0,1,2,3
-Bragantino,VBG,B-VP,B-ORG
-1,CD,B-NP,O
-Vasco,NNP,I-NP,B-ORG
-da,NNP,I-NP,I-ORG
-Gama,NNP,I-NP,I-ORG
-2,CD,I-NP,O

@@ -1,8 +1,0 @@
-0,1,2,3
-Colombia,NNP,B-NP,B-LOC
-",",",",O,O
-U.S.,NNP,B-NP,B-LOC
-reach,NN,I-NP,O
-aviation,NN,I-NP,O
-agreement,NN,I-NP,O
-.,.,O,O

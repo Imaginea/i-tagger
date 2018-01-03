@@ -1,9 +1,0 @@
-0,1,2,3
-Maize,NN,B-NP,O
-(,(,O,O
-Flint,NNP,B-NP,O
-),),O,O
-113,CD,B-NP,O
-114,CD,I-NP,O
-113.7,CD,I-NP,O
-112,CD,I-NP,O

@@ -1,8 +1,0 @@
-0,1,2,3
-Delivery,NNP,B-NP,O
-Date,NNP,I-NP,O
-:,:,O,O
-09/05/1996,CD,B-NP,O
-(,(,O,O
-FIRM,NN,B-NP,O
-),),O,O

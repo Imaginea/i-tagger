@@ -1,9 +1,0 @@
-0,1,2,3
-goals,NNS,B-NP,O
-for,IN,B-PP,O
-",",",",O,O
-against,RB,B-ADVP,O
-",",",",O,O
-points,VBZ,B-VP,O
-),),O,O
-:,:,O,O

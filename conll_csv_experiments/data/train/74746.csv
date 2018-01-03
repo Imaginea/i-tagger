@@ -1,8 +1,0 @@
-0,1,2,3
-Baltika,NNP,B-NP,B-ORG
-Kaliningrad,NNP,I-NP,I-ORG
-2,CD,I-NP,O
-Zenit,NNP,I-NP,B-ORG
-St,NNP,I-NP,I-ORG
-Petersburg,NNP,I-NP,I-ORG
-0,CD,I-NP,O

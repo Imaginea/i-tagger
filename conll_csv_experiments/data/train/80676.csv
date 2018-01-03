@@ -1,6 +1,0 @@
-0,1,2,3
-PSV,NNP,B-NP,B-ORG
-Eindhoven,NNP,I-NP,I-ORG
-4,CD,I-NP,O
-Groningen,NNP,I-NP,B-ORG
-1,CD,I-NP,O

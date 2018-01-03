@@ -1,9 +1,0 @@
-0,1,2,3
-penalty,NN,B-NP,O
-),),O,O
-",",",",O,O
-Jiri,NNP,B-NP,B-PER
-Dopita,NNP,I-NP,I-PER
-(,(,O,O
-57th,NNP,B-NP,O
-),),O,O

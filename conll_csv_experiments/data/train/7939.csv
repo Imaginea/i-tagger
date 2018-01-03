@@ -1,7 +1,0 @@
-0,1,2,3
-Chemlon,NNP,B-NP,B-ORG
-Humenne,NNP,I-NP,I-ORG
-win,VBP,B-VP,O
-3-0,CD,B-NP,O
-on,IN,B-PP,O
-aggregate,JJ,B-NP,O

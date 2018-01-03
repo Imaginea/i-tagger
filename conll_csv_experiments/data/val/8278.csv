@@ -1,7 +1,0 @@
-0,1,2,3
-Notes,NNS,B-NP,O
-in,IN,B-PP,O
-circulation,NN,B-NP,O
-27.35,CD,B-NP,O
-+0.435,CD,I-NP,O
-+0.237,CD,I-NP,O

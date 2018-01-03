@@ -1,9 +1,0 @@
-0,1,2,3
-Britain,NNP,B-NP,B-LOC
-sets,VBZ,B-VP,O
-conditions,NNS,B-NP,O
-to,TO,B-VP,O
-clear,VB,I-VP,O
-American,JJ,B-NP,B-MISC
-alliance,NN,I-NP,O
-.,.,O,O

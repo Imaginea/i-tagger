@@ -1,9 +1,0 @@
-0,1,2,3
-premium,NN,B-NP,O
-over,IN,B-PP,O
-LME,NNP,B-NP,B-ORG
-cash,NN,I-NP,O
-7.5,CD,B-NP,O
-cents,NNS,I-NP,O
-/,SYM,O,O
-pound,NN,B-NP,O

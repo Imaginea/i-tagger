@@ -1,7 +1,0 @@
-0,1,2,3
-Men,NN,B-NP,O
-'s,POS,B-NP,O
-400,CD,I-NP,O
-metres,NNS,I-NP,O
-hurdles,NNS,I-NP,O
-:,:,O,O

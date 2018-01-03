@@ -1,9 +1,0 @@
-0,1,2,3
-World,NNP,B-NP,O
-Markets,NNP,I-NP,O
-Overnight,NNP,I-NP,O
-Summary,NNP,I-NP,O
--,:,O,O
-Aug,NNP,B-NP,O
-30,CD,I-NP,O
-.,.,O,O

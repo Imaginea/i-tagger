@@ -1,7 +1,0 @@
-0,1,2,3
-Nele,NNP,B-NP,B-PER
-Zilinskiene,NNP,I-NP,I-PER
-(,(,O,O
-Lithuania,NNP,B-NP,B-LOC
-),),O,O
-1.85,CD,B-NP,O

@@ -1,7 +1,0 @@
-0,1,2,3
-Gluten,JJ,B-NP,O
-feed,NN,I-NP,O
-pellets,NNS,I-NP,O
-Spot,NN,I-NP,O
--,:,O,O
-unq,JJ,B-ADJP,O

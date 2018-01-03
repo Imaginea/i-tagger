@@ -1,8 +1,0 @@
-0,1,2,3
-F.C.,NNP,B-NP,B-ORG
-Petrolul,NNP,I-NP,I-ORG
-Ploiesti,NNP,I-NP,I-ORG
-4,CD,I-NP,O
-Politehnica,NNP,I-NP,B-ORG
-Timisoara,NNP,I-NP,I-ORG
-5,CD,I-NP,O

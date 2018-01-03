@@ -1,8 +1,0 @@
-0,1,2,3
---,:,B-NP,O
-Bangkok,NNP,I-NP,B-MISC
-newsroom,NN,I-NP,O
-(,(,O,O
-662,CD,B-NP,O
-),),O,O
-652-0642,CD,B-NP,O

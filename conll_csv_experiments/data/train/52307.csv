@@ -1,9 +1,0 @@
-0,1,2,3
-Company,NN,B-NP,O
-name,NN,I-NP,O
-Companion,NNP,I-NP,B-ORG
-Marble,NNP,I-NP,I-ORG
-(,(,I-NP,O
-Holdings,NNP,I-NP,B-ORG
-),),O,O
-Ltd,NNP,B-NP,B-ORG

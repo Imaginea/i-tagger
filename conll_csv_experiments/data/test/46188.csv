@@ -1,6 +1,0 @@
-0,1,2,3
-Cambridge,NNP,B-NP,B-ORG
-United,NNP,I-NP,I-ORG
-0,CD,I-NP,O
-Woking,VBG,B-VP,B-ORG
-2,CD,B-NP,O

@@ -1,7 +1,0 @@
-0,1,2,3
---,:,B-NP,O
-Singapore,NNP,I-NP,B-ORG
-Newsroom,NNP,I-NP,I-ORG
-(,(,O,O
-65-8703305,CD,B-NP,O
-),),O,O

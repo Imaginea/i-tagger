@@ -1,8 +1,0 @@
-0,1,2,3
-4.,CD,B-NP,O
-Fabrizio,NNP,I-NP,B-PER
-Mori,NNP,I-NP,I-PER
-(,(,O,O
-Italy,NNP,B-NP,B-LOC
-),),O,O
-49.21,CD,B-NP,O

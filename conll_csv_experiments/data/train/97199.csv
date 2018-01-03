@@ -1,7 +1,0 @@
-0,1,2,3
-Jeunesse,NNP,B-NP,B-ORG
-Massira,NNP,I-NP,I-ORG
-0,CD,I-NP,O
-Widad,NNP,I-NP,B-ORG
-Casablanca,NNP,I-NP,I-ORG
-2,CD,I-NP,O

@@ -1,9 +1,0 @@
-0,1,2,3
-China,NN,B-NP,B-LOC
-cities,NNS,I-NP,O
-to,TO,B-VP,O
-ban,VB,I-VP,O
-disposable,JJ,B-NP,O
-plastic,NN,I-NP,O
-containers,NNS,I-NP,O
-.,.,O,O

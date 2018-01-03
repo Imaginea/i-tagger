@@ -1,8 +1,0 @@
-0,1,2,3
-World,NNP,B-NP,O
-"4,000",CD,I-NP,O
-metres,NNS,I-NP,O
-team,NN,I-NP,O
-pursuit,NN,I-NP,O
-semifinals,NNS,I-NP,O
-:,:,O,O

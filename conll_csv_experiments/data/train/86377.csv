@@ -1,9 +1,0 @@
-0,1,2,3
-Corporate,NNP,B-NP,O
-America,NNP,I-NP,B-LOC
-taking,VBG,B-VP,O
-new,JJ,B-NP,O
-view,NN,I-NP,O
-on,IN,B-PP,O
-compensation,NN,B-NP,O
-.,.,O,O

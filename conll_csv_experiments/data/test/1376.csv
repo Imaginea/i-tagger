@@ -1,6 +1,0 @@
-0,1,2,3
-Syria,NNP,B-NP,B-LOC
--,:,O,O
-Nader,NNP,B-NP,B-PER
-Jokhadar,NNP,I-NP,I-PER
-7,CD,I-NP,O

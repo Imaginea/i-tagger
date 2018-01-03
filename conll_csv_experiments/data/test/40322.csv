@@ -1,9 +1,0 @@
-0,1,2,3
-Saturday,NNP,B-NP,O
-'s,POS,I-NP,O
-downhill,RB,B-ADVP,O
-and,CC,O,O
-super,JJ,B-NP,O
-G,NNP,I-NP,O
-races,NNS,I-NP,O
-:,:,O,O

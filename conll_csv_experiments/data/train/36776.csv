@@ -1,8 +1,0 @@
-0,1,2,3
-5.,CD,B-NP,O
-Fatima,NNP,I-NP,B-PER
-Yussuf,NNP,I-NP,I-PER
-(,(,O,O
-Nigeria,NNP,B-NP,B-LOC
-),),O,O
-50.14,CD,B-NP,O

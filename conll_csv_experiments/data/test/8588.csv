@@ -1,8 +1,0 @@
-0,1,2,3
-JosepGuardiola,NN,B-NP,B-PER
-20-1,CD,B-NP,O
-Fernando,NNP,I-NP,B-PER
-Hierro,NNP,I-NP,I-PER
-20-1,NNP,I-NP,O
-Ivan,NNP,I-NP,B-PER
-de,NNP,I-NP,I-PER

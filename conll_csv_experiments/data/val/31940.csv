@@ -1,8 +1,0 @@
-0,1,2,3
-Saturday,NNP,B-NP,O
-(,(,O,O
-British,JJ,B-NP,B-MISC
-unless,IN,B-SBAR,O
-stated,JJ,B-NP,O
-),),O,O
-:,:,O,O

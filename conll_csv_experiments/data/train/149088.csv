@@ -1,9 +1,0 @@
-0,1,2,3
-1.,CD,B-NP,O
-Sergey,NNP,I-NP,B-PER
-Makarov,NNP,I-NP,I-PER
-(,(,O,O
-Russia,NNP,B-NP,B-LOC
-),),O,O
-85.26,CD,B-NP,O
-metres,NNS,I-NP,O

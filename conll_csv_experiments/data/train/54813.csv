@@ -1,6 +1,0 @@
-0,1,2,3
-+5,NNP,B-NP,O
-Loren,NNP,I-NP,B-PER
-Roberts,NNP,I-NP,I-PER
-through,IN,B-PP,O
-9,CD,B-NP,O

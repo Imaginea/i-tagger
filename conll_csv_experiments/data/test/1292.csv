@@ -1,8 +1,0 @@
-0,1,2,3
-7.,NNP,B-NP,O
-Liz,NNP,I-NP,B-PER
-McIntyre,NNP,I-NP,I-PER
-(,(,O,O
-U.S.,NNP,B-NP,B-LOC
-),),O,O
-22.00,CD,B-NP,O

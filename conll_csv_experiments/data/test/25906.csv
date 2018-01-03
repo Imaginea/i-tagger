@@ -1,9 +1,0 @@
-0,1,2,3
-Saturday,NNP,B-NP,O
-12/07/96,NNP,I-NP,O
-(,(,O,O
-est,FW,O,O
-),),O,O
-"38,000",CD,B-NP,O
-0,CD,I-NP,O
-"18,000",CD,I-NP,O

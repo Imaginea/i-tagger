@@ -1,9 +1,0 @@
-0,1,2,3
-8.,CD,B-NP,O
-Eleuterio,NNP,I-NP,B-PER
-Anguita,NNPS,I-NP,I-PER
-(,(,O,O
-Spain,NNP,B-NP,B-LOC
-),),O,O
-MX,NNP,B-NP,B-ORG
-Onda,NNP,I-NP,I-ORG

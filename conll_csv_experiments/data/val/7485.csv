@@ -1,8 +1,0 @@
-0,1,2,3
-J.,NNP,B-NP,B-PER
-Gillespie,NNP,I-NP,I-PER
-st,NN,I-NP,O
-Kaluwitharana,NNP,I-NP,B-PER
-b,SYM,O,O
-Chandana,NNP,B-NP,B-PER
-6,CD,I-NP,O

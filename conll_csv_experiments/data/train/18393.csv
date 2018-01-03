@@ -1,9 +1,0 @@
-0,1,2,3
-PRESS,NNS,B-NP,O
-DIGEST,VB,B-VP,O
--,:,O,O
-Bosnia,NNP,B-NP,B-LOC
--,:,O,O
-Aug,NNP,B-NP,O
-22,CD,I-NP,O
-.,.,O,O

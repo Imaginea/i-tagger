@@ -1,7 +1,0 @@
-0,1,2,3
-Robert,NNP,B-NP,B-ORG
-W.,NNP,I-NP,I-ORG
-Baird,NNP,I-NP,I-ORG
-&,CC,I-NP,I-ORG
-Co,NNP,I-NP,I-ORG
-.,.,O,I-ORG

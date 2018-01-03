@@ -1,8 +1,0 @@
-0,1,2,3
-Sidi,NNP,B-NP,B-ORG
-Kacem,NNP,I-NP,I-ORG
-0,CD,I-NP,O
-Royal,NNP,I-NP,B-ORG
-Armed,NNP,I-NP,I-ORG
-Forces,NNPS,I-NP,I-ORG
-0,CD,I-NP,O

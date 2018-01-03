@@ -1,8 +1,0 @@
-0,1,2,3
-OSCE,RB,O,B-ORG
-delays,NNS,B-NP,O
-decision,NN,I-NP,O
-on,IN,B-PP,O
-refugee,NN,B-NP,O
-voting,NN,I-NP,O
-.,.,O,O

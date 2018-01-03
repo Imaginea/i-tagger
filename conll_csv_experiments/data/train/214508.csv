@@ -1,8 +1,0 @@
-0,1,2,3
-Indonesia,NNP,B-NP,B-LOC
-plays,VBZ,B-VP,O
-down,RB,B-ADVP,O
-U.S.,NNP,B-NP,B-LOC
-consulate,JJ,I-NP,O
-attack,NN,I-NP,O
-.,.,O,O

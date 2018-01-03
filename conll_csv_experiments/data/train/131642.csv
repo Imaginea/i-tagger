@@ -1,9 +1,0 @@
-0,1,2,3
-Albania,NNP,B-NP,B-LOC
-charges,VBZ,B-VP,O
-Briton,NNP,B-NP,B-MISC
-with,IN,B-PP,O
-child,NN,B-NP,O
-sex,NN,I-NP,O
-abuse,NN,I-NP,O
-.,.,O,O

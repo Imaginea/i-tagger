@@ -1,9 +1,0 @@
-0,1,2,3
-No,DT,B-NP,O
-new,JJ,I-NP,O
-fixtures,NNS,I-NP,O
-reported,VBD,B-VP,O
-from,IN,B-PP,O
-New,NNP,B-NP,B-LOC
-York,NNP,I-NP,I-LOC
-.,.,O,O

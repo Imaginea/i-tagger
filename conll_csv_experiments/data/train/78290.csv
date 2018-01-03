@@ -1,9 +1,0 @@
-0,1,2,3
-The,DT,B-NP,O
-league,NN,I-NP,O
-season,NN,I-NP,O
-starts,VBZ,B-VP,O
-on,IN,B-PP,O
-September,NNP,B-NP,O
-8,CD,I-NP,O
-.,.,O,O

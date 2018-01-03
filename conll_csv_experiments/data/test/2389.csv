@@ -1,9 +1,0 @@
-0,1,2,3
-Panathinaikos,NNP,B-NP,B-ORG
-(,(,O,O
-Greece,NNP,B-NP,B-LOC
-),),O,O
-9,CD,B-NP,O
-7,CD,I-NP,O
-2,CD,I-NP,O
-16,CD,I-NP,O

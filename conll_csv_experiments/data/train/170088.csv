@@ -1,5 +1,0 @@
-0,1,2,3
-Pay,NN,B-NP,O
-date,NN,I-NP,O
-Nov,NNP,B-NP,O
-25,CD,I-NP,O

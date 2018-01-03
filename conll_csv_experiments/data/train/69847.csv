@@ -1,9 +1,0 @@
-0,1,2,3
-(,(,O,O
-Germany,NNP,B-NP,B-LOC
-),),O,O
-GT2,NN,B-NP,B-MISC
-Roock,NNP,I-NP,I-MISC
-Porsche,NNP,I-NP,I-MISC
-911,CD,I-NP,I-MISC
-164,CD,I-NP,O

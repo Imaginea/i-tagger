@@ -1,8 +1,0 @@
-0,1,2,3
-8.,NNP,B-NP,O
-Dominick,NNP,I-NP,B-PER
-Gauthier,NNP,I-NP,I-PER
-(,(,O,O
-Canada,NNP,B-NP,B-LOC
-),),O,O
-22.73,CD,B-NP,O

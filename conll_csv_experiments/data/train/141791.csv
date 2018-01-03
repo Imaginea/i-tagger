@@ -1,5 +1,0 @@
-0,1,2,3
-Helibor,NNP,B-NP,B-MISC
-market,NN,I-NP,O
-interest,NN,I-NP,O
-rates,NNS,I-NP,O

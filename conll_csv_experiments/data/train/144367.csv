@@ -1,9 +1,0 @@
-0,1,2,3
-Emnid,NNP,B-NP,B-ORG
-April,NNP,I-NP,O
-28,CD,I-NP,O
-40.0,CD,I-NP,O
-32.0,CD,O,O
-5.0,CD,B-NP,O
-11.0,CD,I-NP,O
-5.0,CD,I-NP,O

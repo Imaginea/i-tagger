@@ -1,8 +1,0 @@
-0,1,2,3
-7.,NNP,B-NP,O
-Dan,NNP,I-NP,B-PER
-Cuo,NNP,I-NP,I-PER
-(,(,O,O
-China,NNP,B-NP,B-LOC
-),),O,O
-154.61,CD,B-NP,O

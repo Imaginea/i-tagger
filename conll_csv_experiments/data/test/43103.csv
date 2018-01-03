@@ -1,8 +1,0 @@
-0,1,2,3
-5.,CD,B-NP,O
-Becky,NNP,I-NP,B-PER
-Sundstrom,NNP,I-NP,I-PER
-(,(,O,O
-U.S.,NNP,B-NP,B-LOC
-),),O,O
-1:25.39,CD,B-NP,O

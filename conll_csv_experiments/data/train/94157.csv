@@ -1,5 +1,0 @@
-0,1,2,3
-Togo,NNP,B-NP,B-LOC
-1,CD,I-NP,O
-Congo,NNP,I-NP,B-LOC
-0,CD,I-NP,O

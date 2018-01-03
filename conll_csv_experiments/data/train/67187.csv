@@ -1,9 +1,0 @@
-0,1,2,3
-Czech,JJ,B-NP,B-MISC
-coach,NN,I-NP,O
-in,IN,B-PP,O
-fatal,JJ,B-NP,O
-crash,NN,I-NP,O
-in,IN,B-PP,O
-Austria,NNP,B-NP,B-LOC
-.,.,O,O

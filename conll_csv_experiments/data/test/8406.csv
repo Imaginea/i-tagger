@@ -1,8 +1,0 @@
-0,1,2,3
-Real,JJ,B-NP,B-ORG
-Madrid,NNP,I-NP,I-ORG
-to,TO,B-VP,O
-win,VB,I-VP,O
-Barcelona,NNP,B-NP,B-ORG
-to,TO,B-VP,O
-win,VB,I-VP,O

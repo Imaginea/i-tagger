@@ -1,9 +1,0 @@
-0,1,2,3
-3.,NNP,B-NP,O
-Wataru,NNP,I-NP,B-PER
-Yoshikawa,NNP,I-NP,I-PER
-(,(,O,O
-Japan,NNP,B-NP,B-LOC
-),),O,O
-Yamaha,NNP,B-NP,B-ORG
-38:32.353,CD,I-NP,O

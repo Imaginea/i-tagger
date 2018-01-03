@@ -1,9 +1,0 @@
-0,1,2,3
-Ten,CD,B-NP,O
-missing,JJ,I-NP,O
-in,IN,B-PP,O
-north,JJ,B-NP,O
-China,NNP,I-NP,B-LOC
-ship,NN,I-NP,O
-collision,NN,I-NP,O
-.,.,O,O

@@ -1,8 +1,0 @@
-0,1,2,3
-5.,NNP,B-NP,O
-Marina,NNP,I-NP,B-PER
-Trandenkova,NNP,I-NP,I-PER
-(,(,O,O
-Russia,NNP,B-NP,B-LOC
-),),O,O
-22.84,CD,B-NP,O

@@ -1,8 +1,0 @@
-0,1,2,3
-ABC,NNP,B-NP,B-ORG
--,:,O,O
-Worldwide,NNP,B-NP,O
-alarm,NN,I-NP,O
-over,IN,B-PP,O
-child,NN,B-NP,O
-prostitution,NN,I-NP,O

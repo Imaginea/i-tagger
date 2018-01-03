@@ -1,7 +1,0 @@
-0,1,2,3
-MSV,NNP,B-NP,B-ORG
-Duisberg,NNP,I-NP,I-ORG
-0,CD,I-NP,O
-Bayern,NNP,I-NP,B-ORG
-Munich,NNP,I-NP,I-ORG
-4,CD,I-NP,O

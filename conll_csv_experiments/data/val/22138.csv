@@ -1,7 +1,0 @@
-0,1,2,3
-Estimated,VBN,B-NP,O
-price,NN,I-NP,O
-range,NN,I-NP,O
-N,NNP,I-NP,O
-/,SYM,O,O
-A,DT,B-NP,O

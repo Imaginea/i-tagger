@@ -1,8 +1,0 @@
-0,1,2,3
-S.,NNP,B-NP,B-PER
-Waugh,NNP,I-NP,I-PER
-c,SYM,O,O
-Campbell,NNP,B-NP,B-PER
-b,SYM,O,O
-Whittall,NNP,B-NP,B-PER
-82,CD,I-NP,O

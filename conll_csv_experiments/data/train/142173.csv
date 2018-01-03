@@ -1,7 +1,0 @@
-0,1,2,3
-Penn,NNP,B-NP,B-ORG
-Treaty,NNP,I-NP,I-ORG
-terminates,VBZ,B-VP,O
-acquisition,NN,B-NP,O
-pact,NN,I-NP,O
-.,.,O,O

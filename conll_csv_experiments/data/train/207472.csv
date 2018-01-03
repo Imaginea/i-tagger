@@ -1,9 +1,0 @@
-0,1,2,3
-New,NNP,B-NP,O
-U.S.,NNP,I-NP,B-LOC
-ambassador,NN,I-NP,O
-arrives,VBZ,B-VP,O
-in,IN,B-PP,O
-Saudi,NNP,B-NP,B-LOC
-Arabia,NNP,I-NP,I-LOC
-.,.,O,O

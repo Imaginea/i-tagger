@@ -1,9 +1,0 @@
-0,1,2,3
-The,DT,B-NP,O
-soybeans,NNS,I-NP,O
-were,VBD,B-VP,O
-for,IN,B-PP,O
-Oct,NNP,B-NP,O
-15-30,CD,I-NP,O
-shipment,NN,I-NP,O
-.,.,O,O

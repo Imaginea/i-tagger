@@ -1,7 +1,0 @@
-0,1,2,3
-Thompson,NNP,B-NP,B-PER
-has,VBZ,B-VP,O
-denied,VBN,I-VP,O
-the,DT,B-NP,O
-charges,NNS,I-NP,O
-.,.,O,O

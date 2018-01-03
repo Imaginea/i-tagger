@@ -1,8 +1,0 @@
-0,1,2,3
-3.,NNP,B-NP,O
-Alina,NNP,I-NP,B-PER
-Astafei,NNP,I-NP,I-PER
-(,(,O,O
-Germany,NNP,B-NP,B-LOC
-),),O,O
-1.97,CD,B-NP,O

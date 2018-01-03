@@ -1,6 +1,0 @@
-0,1,2,3
-Police,NNS,B-NP,O
-capture,VBP,B-VP,O
-Auckland,NNP,B-NP,B-LOC
-gunman,NN,I-NP,O
-.,.,O,O

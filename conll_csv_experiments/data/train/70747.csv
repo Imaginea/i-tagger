@@ -1,8 +1,0 @@
-0,1,2,3
-Austria,NNP,B-NP,B-LOC
-sixth,JJ,I-NP,O
-in,IN,B-PP,O
-the,DT,B-NP,O
-other,JJ,I-NP,O
-Benetton,NNP,I-NP,B-ORG
-.,.,O,O

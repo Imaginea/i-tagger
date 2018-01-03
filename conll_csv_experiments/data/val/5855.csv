@@ -1,8 +1,0 @@
-0,1,2,3
-7.,NNP,B-NP,O
-Andreas,NNP,I-NP,B-PER
-Seelig,NNP,I-NP,I-PER
-(,(,O,O
-Germany,NNP,B-NP,B-LOC
-),),O,O
-62.00,CD,B-NP,O

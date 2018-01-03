@@ -1,8 +1,0 @@
-0,1,2,3
-3.,NNP,B-NP,O
-Sammy,NNP,I-NP,B-PER
-Langat,NNP,I-NP,I-PER
-(,(,O,O
-Kenya,NNP,B-NP,B-LOC
-),),O,O
-1:44.96,CD,B-NP,O

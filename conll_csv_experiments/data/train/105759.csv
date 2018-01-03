@@ -1,9 +1,0 @@
-0,1,2,3
-The,DT,B-NP,O
-price,NN,I-NP,O
-will,MD,B-VP,O
-be,VB,I-VP,O
-determined,VBN,I-VP,O
-through,IN,B-PP,O
-book-building,NN,B-NP,O
-.,.,O,O

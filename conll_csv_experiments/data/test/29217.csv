@@ -1,8 +1,0 @@
-0,1,2,3
-Mussolini,NNP,B-NP,B-PER
-'s,POS,B-NP,O
-granddaughter,NN,I-NP,O
-rejoins,NNS,I-NP,O
-far-right,JJ,I-NP,O
-party,NN,I-NP,O
-.,.,O,O

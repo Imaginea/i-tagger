@@ -1,9 +1,0 @@
-0,1,2,3
-Kurd,NN,B-NP,B-MISC
-rebels,NNS,I-NP,O
-to,TO,B-PP,O
-free,JJ,B-NP,O
-Turkish,JJ,I-NP,B-MISC
-soldier,NN,I-NP,O
-prisoners,NNS,I-NP,O
-.,.,O,O

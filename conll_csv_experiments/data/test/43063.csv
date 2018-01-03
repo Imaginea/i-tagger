@@ -1,8 +1,0 @@
-0,1,2,3
-Women,NNS,B-NP,O
-'s,POS,B-NP,O
-"1,000",CD,I-NP,O
-metres,NNS,I-NP,O
-first,RB,B-ADVP,O
-round,NN,B-NP,O
-:,:,O,O

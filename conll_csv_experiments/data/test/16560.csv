@@ -1,9 +1,0 @@
-0,1,2,3
-Multinational,JJ,B-NP,O
-commander,NN,I-NP,O
-going,VBG,B-VP,O
-back,RB,B-ADVP,O
-to,TO,B-VP,O
-east,JJ,B-NP,O
-Zaire,NNP,I-NP,B-LOC
-.,.,O,O

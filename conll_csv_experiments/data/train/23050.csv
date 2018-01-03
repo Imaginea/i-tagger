@@ -1,7 +1,0 @@
-0,1,2,3
-Muenster,NN,B-NP,B-LOC
-/,SYM,O,O
-Osnabrueck,NNP,B-NP,B-LOC
-382,CD,B-ADVP,O
-up,RP,B-PRT,O
-28.2,CD,B-NP,O

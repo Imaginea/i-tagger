@@ -1,7 +1,0 @@
-0,1,2,3
-Cambodian,JJ,B-NP,B-MISC
-opposition,NN,I-NP,O
-newspaper,NN,I-NP,O
-editor,NN,I-NP,O
-pardoned,VBD,B-VP,O
-.,.,O,O

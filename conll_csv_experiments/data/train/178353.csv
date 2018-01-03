@@ -1,5 +1,0 @@
-0,1,2,3
-National,NNP,B-NP,B-ORG
-Benevolent,NNP,B-NP,B-ORG
-Assoc,NNP,I-NP,I-ORG
-.,.,O,I-ORG

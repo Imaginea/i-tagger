@@ -1,9 +1,0 @@
-0,1,2,3
-Main,NNP,B-NP,O
-Tunisian,NNP,I-NP,B-MISC
-opposition,NN,I-NP,O
-party,NN,I-NP,O
-ousted,VBD,B-VP,O
-from,IN,B-PP,O
-HQ,NNP,B-NP,O
-.,.,O,O

@@ -1,9 +1,0 @@
-0,1,2,3
-Greek,JJ,B-NP,B-MISC
-president,NN,I-NP,O
-dissolves,VBZ,B-VP,O
-parliament,NN,B-NP,O
-for,IN,B-PP,O
-snap,NN,B-NP,O
-vote,NN,I-NP,O
-.,.,O,O

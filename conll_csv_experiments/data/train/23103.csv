@@ -1,7 +1,0 @@
-0,1,2,3
-Summary,NNS,B-NP,O
-of,IN,B-PP,O
-Aug,NNP,B-NP,O
-22,CD,I-NP,O
-research,NN,I-NP,O
-.,.,O,O

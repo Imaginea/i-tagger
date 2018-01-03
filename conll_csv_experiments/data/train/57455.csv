@@ -1,9 +1,0 @@
-0,1,2,3
-OFK,NN,B-NP,B-ORG
-Beograd,NNP,I-NP,I-ORG
-2,CD,I-NP,O
-Mladost,NNP,I-NP,B-ORG
-(,(,O,I-ORG
-BJ,NNP,B-NP,I-ORG
-),),O,I-ORG
-2,CD,B-NP,O

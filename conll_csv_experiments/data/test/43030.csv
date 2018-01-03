@@ -1,9 +1,0 @@
-0,1,2,3
-7.,NNP,B-NP,O
-Gerard,NNP,I-NP,B-PER
-Van,NNP,I-NP,I-PER
-Velde,NNP,I-NP,I-PER
-(,(,I-NP,O
-Netherlands,NNP,I-NP,B-LOC
-),),O,O
-1:16.63,CD,B-NP,O

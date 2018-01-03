@@ -1,8 +1,0 @@
-0,1,2,3
-Shr,NN,B-NP,O
-loss,NN,I-NP,O
-$,$,I-NP,O
-0.42,CD,I-NP,O
-loss,NN,I-NP,O
-$,$,I-NP,O
-0.21,CD,I-NP,O

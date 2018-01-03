@@ -1,9 +1,0 @@
-0,1,2,3
-South,NNP,B-NP,B-LOC
-Korea,NNP,I-NP,I-LOC
-4,CD,I-NP,O
-Indonesia,NNP,I-NP,B-LOC
-2,CD,I-NP,O
-(,(,O,O
-3-0,CD,B-NP,O
-),),O,O

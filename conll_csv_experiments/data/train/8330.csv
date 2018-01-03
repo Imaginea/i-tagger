@@ -1,7 +1,0 @@
-0,1,2,3
-Vaduz,NNP,B-NP,B-LOC
-won,VBD,B-VP,O
-4-2,CD,B-NP,O
-on,IN,B-PP,O
-penalties,NNS,B-NP,O
-.,.,O,O

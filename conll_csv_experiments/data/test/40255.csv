@@ -1,8 +1,0 @@
-0,1,2,3
-15.,CD,B-NP,O
-Miriam,NNP,B-NP,B-PER
-Vogt,NNP,I-NP,I-PER
-(,(,O,O
-Germany,NNP,B-NP,B-LOC
-),),O,O
-47,CD,B-NP,O

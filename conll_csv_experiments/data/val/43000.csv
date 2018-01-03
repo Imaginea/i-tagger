@@ -1,9 +1,0 @@
-0,1,2,3
-Orr,NNP,B-NP,B-PER
-said,VBD,B-VP,O
-she,PRP,B-NP,O
-never,RB,B-ADVP,O
-had,VBD,B-VP,O
-to,TO,I-VP,O
-telephone,VB,I-VP,O
-.,.,O,O

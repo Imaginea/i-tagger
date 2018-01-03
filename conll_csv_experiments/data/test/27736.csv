@@ -1,9 +1,0 @@
-0,1,2,3
-No,DT,B-NP,O
-barges,NNS,I-NP,O
-traded,VBD,B-VP,O
-versus,IN,B-PP,O
-no,DT,B-NP,O
-trades,VBZ,B-VP,O
-Thursday,NNP,B-NP,O
-.,.,O,O

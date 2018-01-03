@@ -1,8 +1,0 @@
-0,1,2,3
-2.,NNP,B-NP,O
-Rolf,NNP,I-NP,B-PER
-Sorensen,NNP,I-NP,I-PER
-(,(,O,O
-Denmark,NNP,B-NP,B-LOC
-),),O,O
-Rabobank,NNP,B-NP,B-ORG

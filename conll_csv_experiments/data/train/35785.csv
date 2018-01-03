@@ -1,8 +1,0 @@
-0,1,2,3
-3.,NNP,B-NP,O
-Franka,NNP,I-NP,B-PER
-Dietzsch,NNP,I-NP,I-PER
-(,(,O,O
-Germany,NNP,B-NP,B-LOC
-),),O,O
-61.74,CD,B-NP,O

@@ -1,6 +1,0 @@
-0,1,2,3
-Dividend,NN,B-NP,O
-payable,JJ,B-ADJP,O
-N,NN,B-NP,O
-/,SYM,O,O
-A,DT,B-NP,O

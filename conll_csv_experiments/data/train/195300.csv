@@ -1,9 +1,0 @@
-0,1,2,3
-Storm,NN,B-NP,O
-kills,VBZ,B-VP,O
-11,CD,B-NP,O
-at,IN,B-PP,O
-Macedonian,NNP,B-NP,B-MISC
-religious,JJ,I-NP,O
-festival,NN,I-NP,O
-.,.,O,O

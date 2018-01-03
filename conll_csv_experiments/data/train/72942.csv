@@ -1,8 +1,0 @@
-0,1,2,3
-Wasim,NNP,B-NP,B-PER
-Akram,NNP,I-NP,I-PER
-st,NN,I-NP,O
-Stewart,NNP,I-NP,B-PER
-b,SYM,O,O
-Croft,NNP,B-NP,B-PER
-40,CD,I-NP,O

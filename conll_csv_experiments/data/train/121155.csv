@@ -1,8 +1,0 @@
-0,1,2,3
-Shadab,NN,B-NP,B-PER
-Kabir,NN,I-NP,I-PER
-1,CD,I-NP,O
-0,CD,I-NP,O
-9,CD,I-NP,O
-0,CD,I-NP,O
--,:,I-NP,O

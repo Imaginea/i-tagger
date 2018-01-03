@@ -1,6 +1,0 @@
-0,1,2,3
-Company,NNP,B-NP,O
-Name,NNP,I-NP,B-MISC
-Homegate,NNP,I-NP,B-ORG
-Hospitality,NNP,I-NP,I-ORG
-Inc,NNP,I-NP,I-ORG

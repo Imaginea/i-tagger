@@ -1,9 +1,0 @@
-0,1,2,3
-Jeans,NNP,B-NP,B-ORG
-Mate,NNP,I-NP,I-ORG
-Corp,NNP,I-NP,I-ORG
--,:,O,O
-6mth,JJ,B-NP,O
-parent,NN,I-NP,O
-forecast,NN,I-NP,O
-.,.,O,O

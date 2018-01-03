@@ -1,7 +1,0 @@
-0,1,2,3
-Manila,NNP,B-NP,B-LOC
-international,JJ,I-NP,O
-coconut,NN,I-NP,O
-oil,NN,I-NP,O
-prices,NNS,I-NP,O
-.,.,O,O

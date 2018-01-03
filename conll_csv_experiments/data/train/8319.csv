@@ -1,9 +1,0 @@
-0,1,2,3
-RAF,NNP,B-NP,B-ORG
-Riga,NNP,I-NP,I-ORG
--,:,O,O
-Agrins,NNP,B-NP,B-PER
-Zarins,NNS,I-NP,I-PER
-(,(,O,O
-47th,CD,B-NP,O
-),),O,O

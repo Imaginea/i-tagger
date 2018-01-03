@@ -1,8 +1,0 @@
-0,1,2,3
-I,PRP,B-NP,O
-made,VBD,B-VP,O
-some,DT,B-NP,O
-really,RB,I-NP,O
-good,JJ,I-NP,O
-pars,NNS,I-NP,O
-.,.,O,O

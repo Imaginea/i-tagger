@@ -1,9 +1,0 @@
-0,1,2,3
-Guinea,NNP,B-NP,B-LOC
-launches,NNS,I-NP,O
-war,NN,I-NP,O
-on,IN,B-PP,O
-fictitious,JJ,B-NP,O
-civil,JJ,I-NP,O
-servants,NNS,I-NP,O
-.,.,O,O

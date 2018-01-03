@@ -1,9 +1,0 @@
-0,1,2,3
-Playing,VBG,B-VP,O
-Sunday,NNP,B-NP,O
-:,:,O,O
-Queens,NNP,B-NP,B-ORG
-Park,NNP,I-NP,I-ORG
-Rangers,NNPS,I-NP,I-ORG
-v,FW,I-NP,O
-Bolton,NNP,I-NP,B-ORG

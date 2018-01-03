@@ -1,8 +1,0 @@
-0,1,2,3
-2.,CD,B-NP,O
-Sebastien,NNP,I-NP,B-PER
-Foucras,NNP,I-NP,I-PER
-(,(,O,O
-France,NNP,B-NP,B-LOC
-),),O,O
-223.60,CD,B-NP,O

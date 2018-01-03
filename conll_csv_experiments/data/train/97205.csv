@@ -1,6 +1,0 @@
-0,1,2,3
-Sporting,NNP,B-NP,B-ORG
-Sale,NN,I-NP,I-ORG
-0,CD,I-NP,O
-Meknes,NNS,I-NP,B-ORG
-1,CD,B-NP,O

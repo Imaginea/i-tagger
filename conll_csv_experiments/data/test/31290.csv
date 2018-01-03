@@ -1,9 +1,0 @@
-0,1,2,3
-Arafat,NNP,B-NP,B-PER
-'s,POS,B-NP,O
-adviser,NN,I-NP,O
-Nabil,NNP,I-NP,B-PER
-Abu,NNP,I-NP,I-PER
-Rdainah,NNP,I-NP,I-PER
-said,VBD,B-VP,O
-:,:,O,O

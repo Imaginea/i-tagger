@@ -1,8 +1,0 @@
-0,1,2,3
-1.,CD,B-NP,O
-Isel,NNP,I-NP,B-PER
-Lopez,NNP,I-NP,I-PER
-(,(,O,O
-Cuba,NNP,B-NP,B-LOC
-),),O,O
-61.36,CD,B-NP,O

@@ -1,8 +1,0 @@
-0,1,2,3
-1.,CD,B-NP,O
-Roger,NNP,I-NP,B-PER
-Black,NNP,I-NP,I-PER
-(,(,O,O
-Britain,NNP,B-NP,B-LOC
-),),O,O
-45.05,CD,B-NP,O

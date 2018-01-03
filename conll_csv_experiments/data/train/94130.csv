@@ -1,8 +1,0 @@
-0,1,2,3
-Benin,NN,B-NP,B-LOC
-lead,NN,I-NP,O
-4-1,CD,I-NP,O
-from,IN,B-PP,O
-the,DT,B-NP,O
-first,JJ,I-NP,O
-leg,NN,I-NP,O

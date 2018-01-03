@@ -1,8 +1,0 @@
-0,1,2,3
-1.,CD,B-NP,O
-Jeff,NNP,I-NP,B-PER
-Williams,NNP,I-NP,I-PER
-(,(,O,O
-U.S.,NNP,B-NP,B-LOC
-),),O,O
-20.45,CD,B-NP,O

@@ -1,9 +1,0 @@
-0,1,2,3
-Algeria,NN,B-NP,B-LOC
-restaurant,NN,I-NP,O
-bomb,NN,I-NP,O
-kills,VBZ,B-VP,O
-seven,CD,B-NP,O
--,:,I-NP,O
-newSpaper,RBR,B-ADVP,O
-.,.,O,O

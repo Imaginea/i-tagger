@@ -1,9 +1,0 @@
-0,1,2,3
---,:,B-NP,O
-Steve,NNP,I-NP,B-PER
-Weizman,NNP,I-NP,I-PER
-",",",",O,O
-Copenhagen,NNP,B-NP,B-LOC
-newsroom,NN,I-NP,O
-+45,CD,I-NP,O
-33969650,CD,I-NP,O

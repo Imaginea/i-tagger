@@ -1,8 +1,0 @@
-0,1,2,3
-4.,CD,B-NP,O
-Magali,NNP,I-NP,B-PER
-Faure,NNP,I-NP,I-PER
-(,(,O,O
-France,NNP,B-NP,B-LOC
-),),O,O
-35.888,CD,B-NP,O

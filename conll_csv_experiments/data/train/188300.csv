@@ -1,8 +1,0 @@
-0,1,2,3
-Pakistan,NNP,B-NP,B-LOC
-at,IN,B-PP,O
-Old,NNP,B-NP,B-LOC
-Trafford,NNP,I-NP,I-LOC
-on,IN,B-PP,O
-Thursday,NNP,B-NP,O
-:,:,O,O

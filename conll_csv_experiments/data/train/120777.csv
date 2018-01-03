@@ -1,9 +1,0 @@
-0,1,2,3
-Jack,NNP,B-NP,B-PER
-Russell,NNP,I-NP,I-PER
-2,CD,I-NP,O
-3,CD,I-NP,O
-1,CD,I-NP,O
-51,CD,I-NP,O
-41no,CD,I-NP,O
-25.50,CD,I-NP,O

@@ -1,7 +1,0 @@
-0,1,2,3
-Week,NN,B-NP,O
-to,TO,B-PP,O
-Date,NNP,B-NP,O
--,:,O,O
-None,NN,B-NP,O
-.,.,O,O

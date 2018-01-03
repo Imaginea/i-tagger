@@ -1,6 +1,0 @@
-0,1,2,3
-Ujjain,NN,B-NP,B-LOC
-8,CD,I-NP,O
-Yellow,NNP,I-NP,O
-"12,750-12,900",CD,I-NP,O
-"12,850-13,050",CD,I-NP,O

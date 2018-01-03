@@ -1,8 +1,0 @@
-0,1,2,3
-2.,NNP,B-NP,O
-Steve,NNP,I-NP,B-PER
-Backley,NNP,I-NP,I-PER
-(,(,O,O
-Britain,NNP,B-NP,B-LOC
-),),O,O
-82.20,CD,B-NP,O

@@ -1,9 +1,0 @@
-0,1,2,3
-7,CD,B-NP,O
--,:,I-NP,O
-Bogdan,NNP,I-NP,B-PER
-Prusek,NNP,I-NP,I-PER
-(,(,O,O
-Sokol,NNP,B-NP,B-ORG
-Tychy,NNP,I-NP,I-ORG
-),),O,O

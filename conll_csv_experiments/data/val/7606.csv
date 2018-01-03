@@ -1,6 +1,0 @@
-0,1,2,3
-R.,NNP,B-NP,B-PER
-Mahanama,NNP,I-NP,I-PER
-b,SYM,O,O
-McGrath,NNP,B-NP,B-PER
-50,CD,I-NP,O

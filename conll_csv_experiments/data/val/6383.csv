@@ -1,8 +1,0 @@
-0,1,2,3
-4.,CD,B-NP,O
-Tatyana,NNP,I-NP,B-PER
-Motkova,NNP,I-NP,I-PER
-(,(,O,O
-Russia,NNP,B-NP,B-LOC
-),),O,O
-1.97,CD,B-NP,O

@@ -1,8 +1,0 @@
-0,1,2,3
-Sierra,NNP,B-NP,B-ORG
-Semiconductor,NNP,I-NP,I-ORG
-jumps,VBZ,B-VP,O
-on,IN,B-PP,O
-exit,NN,B-NP,O
-plan,NN,I-NP,O
-.,.,O,O

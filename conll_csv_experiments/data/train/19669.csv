@@ -1,8 +1,0 @@
-0,1,2,3
-Australia,NNP,B-NP,B-LOC
-foreign,JJ,I-NP,O
-minister,NN,I-NP,O
-arrives,VBZ,B-VP,O
-in,IN,B-PP,O
-China,NNP,B-NP,B-LOC
-.,.,O,O

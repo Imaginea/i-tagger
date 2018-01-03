@@ -1,8 +1,0 @@
-0,1,2,3
-10=,CD,B-NP,O
-Stefanie,NNP,I-NP,B-PER
-Schuster,NNP,I-NP,I-PER
-(,(,O,O
-Austria,NNP,B-NP,B-LOC
-),),O,O
-1:18.48,CD,B-NP,O

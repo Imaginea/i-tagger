@@ -1,9 +1,0 @@
-0,1,2,3
-4.,CD,B-NP,O
-El,NNP,I-NP,B-PER
-Hassane,NNP,I-NP,I-PER
-Lahssini,NNP,I-NP,I-PER
-(,(,O,O
-Morocco,NNP,B-NP,B-LOC
-),),O,O
-7:32.44,CD,B-NP,O

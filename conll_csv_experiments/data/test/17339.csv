@@ -1,7 +1,0 @@
-0,1,2,3
-Mauritius,NN,B-NP,B-LOC
-put,VBN,B-VP,O
-on,IN,B-PP,O
-cyclone,NN,B-NP,O
-alert,JJ,I-NP,O
-.,.,O,O

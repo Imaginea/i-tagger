@@ -1,7 +1,0 @@
-0,1,2,3
---,:,O,O
-New,NNP,B-NP,B-LOC
-Delhi,NNP,I-NP,I-LOC
-newsroom,NN,I-NP,O
-",",",",O,O
-+91-11-3012024,CD,B-NP,O

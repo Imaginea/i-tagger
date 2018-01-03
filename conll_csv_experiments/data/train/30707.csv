@@ -1,9 +1,0 @@
-0,1,2,3
-I.,NNP,B-NP,B-PER
-Salisbury,NNP,I-NP,I-PER
-c,SYM,O,O
-Inzamam-ul-Haq,NNP,B-NP,B-PER
-b,SYM,O,O
-Wasim,NNP,B-NP,B-PER
-Akram,NNP,I-NP,I-PER
-5,CD,I-NP,O

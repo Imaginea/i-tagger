@@ -1,7 +1,0 @@
-0,1,2,3
-India,NNP,B-NP,B-LOC
-A.,NNP,B-NP,B-PER
-Jadeja,NNP,I-NP,I-PER
-run,VBP,B-VP,O
-out,RP,B-PRT,O
-0,CD,B-NP,O

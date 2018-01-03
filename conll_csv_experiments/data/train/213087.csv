@@ -1,8 +1,0 @@
-0,1,2,3
-Earthquake,NN,B-NP,O
-jolts,NNS,I-NP,O
-New,NNP,I-NP,B-MISC
-Zealands,NNP,I-NP,I-MISC
-South,NNP,I-NP,B-LOC
-Island,NNP,I-NP,I-LOC
-.,.,O,O

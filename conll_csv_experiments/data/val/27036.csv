@@ -1,6 +1,0 @@
-0,1,2,3
---,:,B-NP,O
-Stockholm,NNP,I-NP,B-LOC
-newsroom,NN,I-NP,O
-+46-8-700,CD,I-NP,O
-1017,CD,I-NP,O

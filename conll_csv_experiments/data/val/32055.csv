@@ -1,9 +1,0 @@
-0,1,2,3
-16.,NNP,B-NP,O
-Miguel,NNP,I-NP,B-PER
-Angel,NNP,I-NP,I-PER
-Jimenez,NNP,I-NP,I-PER
-(,(,O,O
-Spain,NNP,B-NP,B-LOC
-),),O,O
-"184,180",CD,B-NP,O

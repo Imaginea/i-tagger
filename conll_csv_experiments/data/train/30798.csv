@@ -1,8 +1,0 @@
-0,1,2,3
-Aamir,NNP,B-NP,B-PER
-Sohail,NNP,I-NP,I-PER
-c,SYM,O,O
-Cork,NNP,B-NP,B-PER
-b,SYM,O,O
-Croft,NNP,B-NP,B-PER
-46,CD,I-NP,O

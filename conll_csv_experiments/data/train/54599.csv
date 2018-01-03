@@ -1,7 +1,0 @@
-0,1,2,3
--,:,O,O
-2,CD,B-NP,O
-Phil,NNP,I-NP,B-PER
-Mickelson,NNP,I-NP,I-PER
-through,IN,B-PP,O
-7,CD,B-NP,O

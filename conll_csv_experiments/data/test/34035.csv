@@ -1,9 +1,0 @@
-0,1,2,3
-Third,JJ,B-NP,O
-Paris,NNP,I-NP,B-LOC
-blast,NN,I-NP,O
-victim,NN,I-NP,O
-was,VBD,B-VP,O
-Moroccan,NNP,B-NP,B-MISC
-student,NN,I-NP,O
-.,.,O,O

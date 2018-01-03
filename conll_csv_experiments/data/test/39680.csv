@@ -1,8 +1,0 @@
-0,1,2,3
-17.,CD,B-NP,O
-Renate,NNP,I-NP,B-PER
-Goetschl,NNP,I-NP,I-PER
-(,(,O,O
-Austria,NNP,B-NP,B-LOC
-),),O,O
-1:18.98,CD,B-NP,O

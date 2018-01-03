@@ -1,7 +1,0 @@
-0,1,2,3
-Rakow,NNP,B-NP,B-ORG
-Czestochowa,NNP,I-NP,I-ORG
-1,CD,I-NP,O
-Stomil,NNP,I-NP,B-ORG
-Olsztyn,NNP,I-NP,I-ORG
-4,CD,I-NP,O

@@ -1,9 +1,0 @@
-0,1,2,3
--,:,O,O
-Revenue,NN,B-NP,O
-N,NNP,I-NP,O
-/,SYM,O,O
-A,DT,B-NP,O
-N,NNP,I-NP,O
-/,SYM,O,O
-A,DT,B-NP,O

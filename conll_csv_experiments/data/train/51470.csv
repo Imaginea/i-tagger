@@ -1,9 +1,0 @@
-0,1,2,3
-EPS,NNP,B-NP,O
-loss,NN,I-NP,O
-48.61,CD,I-NP,O
-yen,NNS,I-NP,O
-vs,NNP,O,O
-loss,NN,O,O
-38.11,CD,B-NP,O
-yen,NNS,I-NP,O

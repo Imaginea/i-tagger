@@ -1,7 +1,0 @@
-0,1,2,3
-Mostostal,NNP,B-NP,B-ORG
-Z,NNP,I-NP,I-ORG
-shareholders,NNS,I-NP,O
-approve,VBP,B-VP,O
-bonds,NNS,B-NP,O
-.,.,O,O

@@ -1,9 +1,0 @@
-0,1,2,3
-She,PRP,B-NP,O
-will,MD,B-VP,O
-appear,VB,I-VP,O
-in,IN,B-PP,O
-court,NN,B-NP,O
-on,IN,B-PP,O
-Saturday,NNP,B-NP,O
-.,.,O,O

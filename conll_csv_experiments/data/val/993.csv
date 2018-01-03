@@ -1,9 +1,0 @@
-0,1,2,3
-June,NNP,B-NP,O
-28-30,CD,I-NP,O
-v,SYM,B-VP,O
-Hampshire,NNP,B-NP,B-ORG
-(,(,O,O
-three,CD,B-NP,O
-days,NNS,I-NP,O
-),),O,O

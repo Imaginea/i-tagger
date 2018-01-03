@@ -1,9 +1,0 @@
-0,1,2,3
-7.,NNP,B-NP,O
-Michel,NNP,I-NP,B-PER
-Zanoli,NNP,I-NP,I-PER
-(,(,I-NP,O
-Netherlands,NNP,I-NP,B-LOC
-),),O,O
-MX,NNP,B-NP,B-ORG
-Onda,NNP,I-NP,I-ORG

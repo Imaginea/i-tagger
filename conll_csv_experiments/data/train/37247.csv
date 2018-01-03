@@ -1,8 +1,0 @@
-0,1,2,3
-8.,CD,B-NP,O
-Kamiel,NNP,I-NP,B-PER
-Maase,NNP,I-NP,I-PER
-(,(,I-NP,O
-Netherlands,NNP,I-NP,B-LOC
-),),O,O
-28.29.42,CD,B-NP,O

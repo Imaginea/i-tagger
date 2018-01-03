@@ -1,8 +1,0 @@
-0,1,2,3
-Shrs,NNS,B-NP,O
-offered,VBN,B-VP,O
-by,IN,B-PP,O
-company,NN,B-NP,O
-N,NNP,I-NP,O
-/,SYM,O,O
-A,DT,B-NP,O

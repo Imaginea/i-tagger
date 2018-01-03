@@ -1,7 +1,0 @@
-0,1,2,3
-Birmingham,NNP,B-NP,B-LOC
-Public,NNP,I-NP,I-LOC
-Park,NNP,I-NP,I-LOC
-",",",",O,O
-Ala,NNP,B-NP,B-LOC
-.,.,O,O

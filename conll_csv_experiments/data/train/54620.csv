@@ -1,7 +1,0 @@
-0,1,2,3
--,:,O,O
-1,CD,B-NP,O
-John,NNP,I-NP,B-PER
-Cook,NNP,I-NP,I-PER
-through,IN,B-PP,O
-5,CD,B-NP,O

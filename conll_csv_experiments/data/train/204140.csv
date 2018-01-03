@@ -1,9 +1,0 @@
-0,1,2,3
-Elephant,VBP,B-VP,O
-tramples,NN,B-NP,O
-woman,NN,I-NP,O
-to,TO,B-VP,O
-death,VB,I-VP,O
-in,IN,B-PP,O
-Nepal,NN,B-NP,B-LOC
-.,.,O,O

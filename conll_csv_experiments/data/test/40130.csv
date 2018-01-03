@@ -1,8 +1,0 @@
-0,1,2,3
-standings,NNS,B-NP,O
-after,IN,B-PP,O
-Saturday,NNP,B-NP,O
-'s,POS,I-NP,O
-downhill,RB,B-ADVP,O
-race,NN,B-NP,O
-:,:,O,O

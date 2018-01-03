@@ -1,8 +1,0 @@
-0,1,2,3
-Wasim,NNP,B-NP,B-PER
-Akram,NNP,I-NP,I-PER
-c,SYM,O,O
-Knight,NNP,B-NP,B-PER
-b,SYM,O,O
-Hollioake,NNP,B-NP,B-PER
-21,CD,I-NP,O

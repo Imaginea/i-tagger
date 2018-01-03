@@ -1,9 +1,0 @@
-0,1,2,3
-NZ,JJ,B-NP,B-LOC
-bills,NNS,I-NP,O
-gain,NN,I-NP,O
-ground,NN,I-NP,O
-after,IN,B-PP,O
-see-saw,JJ,B-NP,O
-session,NN,I-NP,O
-.,.,O,O

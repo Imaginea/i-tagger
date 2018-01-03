@@ -1,8 +1,0 @@
-0,1,2,3
-China,NNP,B-NP,B-LOC
-police,NN,I-NP,O
-detains,NNS,I-NP,O
-dissident,NN,I-NP,O
-Wang,NNP,I-NP,B-PER
-Donghai,NNP,I-NP,I-PER
-.,.,O,O

@@ -1,9 +1,0 @@
-0,1,2,3
-Bench,NN,B-NP,O
-coach,NN,I-NP,O
-Andy,NNP,I-NP,B-PER
-Etchebarren,NNP,I-NP,I-PER
-took,VBD,B-VP,O
-his,PRP$,B-NP,O
-place,NN,I-NP,O
-.,.,O,O

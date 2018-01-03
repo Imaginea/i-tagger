@@ -1,9 +1,0 @@
-0,1,2,3
-Talbott,VB,B-VP,B-PER
-to,TO,I-VP,O
-meet,VB,I-VP,O
-Russian,JJ,B-NP,B-MISC
-",",",",I-NP,O
-Canadian,JJ,I-NP,B-MISC
-counterparts,NNS,I-NP,O
-.,.,O,O

@@ -1,9 +1,0 @@
-0,1,2,3
-Pirelli,NNP,B-NP,B-ORG
-cables,NNS,I-NP,O
-look,VB,B-VP,O
-to,TO,I-VP,O
-tap,VB,I-VP,O
-Chinese,JJ,B-NP,B-MISC
-growth,NN,I-NP,O
-.,.,O,O

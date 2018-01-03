@@ -1,6 +1,0 @@
-0,1,2,3
-Stephane,NNP,B-NP,B-PER
-Guivarch,NNP,I-NP,I-PER
-(,(,O,O
-Rennes,NNPS,B-NP,B-ORG
-),),O,O

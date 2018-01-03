@@ -1,8 +1,0 @@
-0,1,2,3
-Major,NNP,B-NP,B-PER
-'s,POS,B-NP,O
-office-Conservatives,JJ,I-NP,B-MISC
-still,RB,B-ADVP,O
-have,VB,B-VP,O
-majority,NN,B-NP,O
-.,.,O,O

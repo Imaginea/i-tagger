@@ -1,7 +1,0 @@
-0,1,2,3
-(,(,O,O
-Spain,NNP,B-NP,B-LOC
-),),O,O
-",",",",O,O
-David,NNP,B-NP,B-PER
-Carter,NNP,I-NP,I-PER

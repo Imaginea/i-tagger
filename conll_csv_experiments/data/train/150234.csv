@@ -1,6 +1,0 @@
-0,1,2,3
-Men,NN,B-NP,O
-'s,POS,B-NP,O
-individual,JJ,I-NP,O
-pursuit,NN,I-NP,O
-:,:,O,O

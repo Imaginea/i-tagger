@@ -1,7 +1,0 @@
-0,1,2,3
-Bristol,NNP,B-NP,B-ORG
-City,NNP,I-NP,I-ORG
-9,CD,I-NP,O
-St,NNP,I-NP,B-ORG
-Albans,NNP,I-NP,I-ORG
-2,CD,I-NP,O

@@ -1,7 +1,0 @@
-0,1,2,3
-Previous,JJ,B-NP,O
-World,NNP,I-NP,B-MISC
-Cup,NNP,I-NP,I-MISC
-victories,NNS,I-NP,O
-:,:,O,O
-None,NN,B-NP,O

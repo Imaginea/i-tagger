@@ -1,8 +1,0 @@
-0,1,2,3
-10.,CD,B-NP,O
-Max,NNP,I-NP,B-PER
-Sciandri,NNPS,I-NP,I-PER
-(,(,O,O
-Britain,NNP,B-NP,B-LOC
-),),O,O
-55,CD,B-NP,O

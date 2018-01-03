@@ -1,9 +1,0 @@
-0,1,2,3
-one-day,JJ,B-NP,O
-cricket,NN,I-NP,O
-international,JJ,I-NP,O
-between,IN,B-PP,O
-Pakistan,NNP,B-NP,B-LOC
-and,CC,O,O
-New,NNP,B-NP,B-LOC
-Zealand,NNP,I-NP,I-LOC

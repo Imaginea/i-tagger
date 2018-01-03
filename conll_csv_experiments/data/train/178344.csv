@@ -1,7 +1,0 @@
-0,1,2,3
-Issuer,NN,B-NP,O
-:,:,O,O
-Colorado,NNP,B-NP,B-ORG
-Health,NNP,I-NP,I-ORG
-Fac,NNP,I-NP,I-ORG
-.,.,O,I-ORG

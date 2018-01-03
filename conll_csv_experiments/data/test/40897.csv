@@ -1,9 +1,0 @@
-0,1,2,3
-21.,CD,B-NP,O
-Kate,NNP,I-NP,B-PER
-Pace,NNP,I-NP,I-PER
-Lindsay,NNP,I-NP,I-PER
-(,(,O,O
-Canada,NNP,B-NP,B-LOC
-),),O,O
-1:50.54,CD,B-NP,O

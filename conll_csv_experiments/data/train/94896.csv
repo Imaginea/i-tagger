@@ -1,7 +1,0 @@
-0,1,2,3
-Lokomotiva,NNP,B-NP,B-ORG
-Kosice,NN,I-NP,I-ORG
-2,CD,I-NP,O
-Kerametal,NNP,I-NP,B-ORG
-Dubnica,NNP,I-NP,I-ORG
-0,CD,I-NP,O

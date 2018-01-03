@@ -1,9 +1,0 @@
-0,1,2,3
-Former,NNP,B-NP,O
-Surinam,NNP,I-NP,B-LOC
-rebel,NN,I-NP,O
-leader,NN,I-NP,O
-held,VBD,B-VP,O
-after,IN,B-PP,O
-shooting,NN,B-NP,O
-.,.,O,O

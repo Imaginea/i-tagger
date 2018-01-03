@@ -1,8 +1,0 @@
-0,1,2,3
-Company,NN,B-NP,O
-name,NN,I-NP,O
-Liu,NNP,I-NP,B-ORG
-Chong,NNP,I-NP,I-ORG
-Hing,NNP,I-NP,I-ORG
-Investment,NNP,I-NP,I-ORG
-Ltd,NNP,I-NP,I-ORG

@@ -1,9 +1,0 @@
-0,1,2,3
-Anyang,VBG,B-VP,B-ORG
-3,CD,B-NP,O
-Chonnam,NNP,I-NP,B-ORG
-3,CD,I-NP,O
-(,(,I-NP,O
-halftime,NN,I-NP,O
-2-0,CD,I-NP,O
-),),O,O

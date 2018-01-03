@@ -1,8 +1,0 @@
-0,1,2,3
-8.,NNP,B-NP,O
-Jonathan,NNP,I-NP,B-PER
-N'Senga,NNP,I-NP,I-PER
-(,(,O,O
-Belgium,NNP,B-NP,B-LOC
-),),O,O
-13.66,CD,B-NP,O

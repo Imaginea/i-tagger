@@ -1,6 +1,0 @@
-0,1,2,3
-Clinton,NNP,B-NP,B-PER
-wins,VBZ,B-VP,O
-Democratic,JJ,B-NP,B-MISC
-re-nomination,NN,I-NP,O
-.,.,O,O

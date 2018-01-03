@@ -1,8 +1,0 @@
-0,1,2,3
-Frederick,NNP,B-NP,B-PER
-is,VBZ,B-VP,O
-serving,VBG,I-VP,O
-a,DT,B-NP,O
-347-year,JJ,I-NP,O
-sentence,NN,I-NP,O
-.,.,O,O

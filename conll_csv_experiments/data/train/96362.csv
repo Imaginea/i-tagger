@@ -1,8 +1,0 @@
-0,1,2,3
-Playing,VBG,B-VP,O
-Monday,NNP,B-NP,O
-:,:,O,O
-Deportivo,NNP,B-VP,B-ORG
-Espanol,NNP,B-NP,I-ORG
-v,FW,I-NP,O
-Colon,NN,I-NP,B-ORG

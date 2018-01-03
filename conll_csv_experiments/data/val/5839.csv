@@ -1,8 +1,0 @@
-0,1,2,3
-5.,CD,B-NP,O
-Virgilijus,NNP,I-NP,B-PER
-Alekna,NNP,I-NP,I-PER
-(,(,O,O
-Lithuania,NNP,B-NP,B-LOC
-),),O,O
-65.00,CD,B-NP,O

@@ -1,9 +1,0 @@
-0,1,2,3
-RTRS,NNS,B-NP,B-ORG
--,:,O,O
-FOCUS-News,JJ,B-NP,O
-forecasts,NNS,I-NP,O
-alien-led,JJ,I-NP,O
-profit,NN,I-NP,O
-boost,NN,I-NP,O
-.,.,O,O

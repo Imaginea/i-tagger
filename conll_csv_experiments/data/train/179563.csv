@@ -1,8 +1,0 @@
-0,1,2,3
-German,JJ,B-NP,B-MISC
-prosecutors,NNS,I-NP,O
-file,VB,B-VP,O
-sex,NN,B-NP,O
-tourism,NN,I-NP,O
-charges,NNS,I-NP,O
-.,.,O,O

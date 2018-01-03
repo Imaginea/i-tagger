@@ -1,8 +1,0 @@
-0,1,2,3
-1.,CD,B-NP,O
-Fischer,NNP,I-NP,B-PER
-(,(,O,O
-Germany,NNP,B-NP,B-LOC
-),),O,O
-82,CD,B-NP,O
-points,NNS,I-NP,O

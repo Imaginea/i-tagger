@@ -1,9 +1,0 @@
-0,1,2,3
-Buddy,NNP,B-NP,B-PER
-Groom,NNP,I-NP,I-PER
-pitched,VBD,B-VP,O
-a,DT,B-NP,O
-perfect,JJ,I-NP,O
-ninth,JJ,I-NP,O
-inning,NN,I-NP,O
-.,.,O,O

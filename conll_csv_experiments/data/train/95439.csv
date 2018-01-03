@@ -1,7 +1,0 @@
-0,1,2,3
-Banik,NNP,B-NP,B-ORG
-Ostrava,NNP,I-NP,I-ORG
-3,CD,I-NP,O
-FK,NNP,I-NP,B-ORG
-Teplice,NNP,I-NP,I-ORG
-1,CD,I-NP,O

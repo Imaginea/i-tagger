@@ -1,8 +1,0 @@
-0,1,2,3
-Lakes,NNP,B-NP,B-MISC
-Rally,NNP,I-NP,I-MISC
-which,WDT,B-NP,O
-ended,VBD,B-VP,O
-on,IN,B-PP,O
-Monday,NNP,B-NP,O
-:,:,O,O

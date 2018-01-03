@@ -1,9 +1,0 @@
-0,1,2,3
-B.,NNP,B-NP,B-PER
-Young,NNP,I-NP,I-PER
-c,SYM,O,O
-Moin,NNP,B-NP,B-PER
-Khan,NNP,I-NP,I-PER
-b,SYM,O,O
-Waqar,NNP,B-NP,B-PER
-5,CD,I-NP,O

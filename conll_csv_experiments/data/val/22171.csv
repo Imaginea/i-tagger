@@ -1,8 +1,0 @@
-0,1,2,3
-Lead,JJ,B-NP,O
-Underwriter,NNP,I-NP,O
-Bear,NNP,I-NP,B-ORG
-Stearns,NNP,I-NP,I-ORG
-&,CC,I-NP,I-ORG
-Co,NNP,I-NP,I-ORG
-Inc,NNP,I-NP,I-ORG

@@ -1,9 +1,0 @@
-0,1,2,3
-Tourists,NNS,B-NP,O
-interviewed,VBD,B-VP,O
-in,IN,B-PP,O
-Malta,NNP,B-NP,B-LOC
-complain,VBP,B-VP,O
-about,IN,B-PP,O
-over-charging,VBG,B-NP,O
-.,.,O,O

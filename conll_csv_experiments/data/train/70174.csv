@@ -1,8 +1,0 @@
-0,1,2,3
-1.,CD,B-NP,O
-Trond,NNP,I-NP,B-PER
-Bathel,NNP,I-NP,I-PER
-(,(,O,O
-Norway,NNP,B-NP,B-LOC
-),),O,O
-5.60,CD,B-NP,O

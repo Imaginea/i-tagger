@@ -1,9 +1,0 @@
-0,1,2,3
-Hindu,NNP,B-NP,B-MISC
-party,NN,I-NP,O
-forces,VBZ,B-VP,O
-India,NNP,B-NP,B-LOC
-parliament,NN,I-NP,O
-to,TO,B-VP,O
-adjourn,VB,I-VP,O
-.,.,O,O

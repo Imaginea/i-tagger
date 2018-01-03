@@ -1,9 +1,0 @@
-0,1,2,3
-The,DT,B-NP,O
-landing,NN,I-NP,O
-took,VBD,B-VP,O
-place,NN,B-NP,O
-after,IN,B-PP,O
-a,DT,B-NP,O
-rainstorm,NN,I-NP,O
-.,.,O,O

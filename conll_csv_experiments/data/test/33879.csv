@@ -1,9 +1,0 @@
-0,1,2,3
-How,WRB,B-ADVP,O
-can,MD,O,O
-we,PRP,B-NP,O
-control,VBD,B-VP,O
-them,PRP,B-NP,O
-all,DT,B-NP,O
-?,.,O,O
- ,O,O,<UNK>

@@ -1,9 +1,0 @@
-0,1,2,3
-Hamas,VBZ,O,B-ORG
-cleric,JJ,B-NP,O
-jailed,VBN,B-VP,O
-in,IN,B-PP,O
-Israel,NNP,B-NP,B-LOC
-hospitalised,VBD,B-VP,O
-briefly,RB,B-ADVP,O
-.,.,O,O

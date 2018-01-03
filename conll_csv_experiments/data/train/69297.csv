@@ -1,8 +1,0 @@
-0,1,2,3
-5.,NNP,B-NP,O
-Peter,NNP,I-NP,B-PER
-Dirkx,NNP,I-NP,I-PER
-(,(,O,O
-Belgium,NNP,B-NP,B-LOC
-),),O,O
-KTM,NNP,B-NP,B-ORG

@@ -1,9 +1,0 @@
-0,1,2,3
-Gourvennec,NNP,B-NP,B-PER
-67,CD,I-NP,O
-",",",",O,O
-Christophe,NNP,B-NP,B-PER
-Pignol,NNP,I-NP,I-PER
-72,CD,I-NP,O
-),),O,O
-.,.,O,O

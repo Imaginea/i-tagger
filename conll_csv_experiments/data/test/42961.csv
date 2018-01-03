@@ -1,8 +1,0 @@
-0,1,2,3
-Anke,NNP,B-NP,B-PER
-Baler,NNP,I-NP,I-PER
-(,(,O,O
-Germany,NNP,B-NP,B-LOC
-),),O,O
-41.76,CD,B-NP,O
-.,.,O,O

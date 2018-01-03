@@ -1,9 +1,0 @@
-0,1,2,3
-Paper,NN,B-NP,O
-says,VBZ,B-VP,O
-Thatcher,NNP,B-NP,B-PER
-'s,POS,B-NP,O
-office,NN,I-NP,O
-consulted,VBD,B-VP,O
-astrologer,JJR,B-ADJP,O
-.,.,O,O

@@ -1,7 +1,0 @@
-0,1,2,3
-C.,NNP,B-NP,B-PER
-Harris,NNP,I-NP,I-PER
-lbw,NN,I-NP,O
-b,SYM,O,O
-Wasim,NNP,B-NP,B-PER
-22,CD,I-NP,O

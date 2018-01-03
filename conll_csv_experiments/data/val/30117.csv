@@ -1,9 +1,0 @@
-0,1,2,3
-Women,NNS,B-NP,O
-'s,POS,B-NP,O
-"3,000",CD,I-NP,O
-metres,NNS,I-NP,O
-individual,NN,I-NP,O
-pursuit,NN,I-NP,O
-qualifying,VBG,B-VP,O
-round,RB,B-ADVP,O

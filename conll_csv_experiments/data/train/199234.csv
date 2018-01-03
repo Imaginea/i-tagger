@@ -1,9 +1,0 @@
-0,1,2,3
-Scandal,NN,B-NP,O
-hits,VBZ,B-VP,O
-Clinton,NNP,B-NP,B-PER
-campaign,NN,I-NP,O
-at,IN,B-PP,O
-vital,JJ,B-NP,O
-moment,NN,I-NP,O
-.,.,O,O

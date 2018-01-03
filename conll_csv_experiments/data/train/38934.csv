@@ -1,7 +1,0 @@
-0,1,2,3
-Exploration,NN,B-NP,O
-results,NNS,I-NP,O
-are,VBP,B-VP,O
-expected,VBN,I-VP,O
-soon,RB,B-ADVP,O
-.,.,O,O

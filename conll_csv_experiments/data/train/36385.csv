@@ -1,8 +1,0 @@
-0,1,2,3
-3.,NNP,B-NP,O
-Moses,NNP,I-NP,B-PER
-Kiptanui,NNP,I-NP,I-PER
-(,(,O,O
-Kenya,NNP,B-NP,B-LOC
-),),O,O
-8:12.65,CD,B-NP,O

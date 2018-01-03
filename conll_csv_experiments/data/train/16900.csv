@@ -1,8 +1,0 @@
-0,1,2,3
-Guinea,NNP,B-NP,B-LOC
-calls,VBZ,B-VP,O
-two,CD,B-NP,O
-days,NNS,I-NP,O
-of,IN,B-PP,O
-prayer,NN,B-NP,O
-.,.,O,O

@@ -1,8 +1,0 @@
-0,1,2,3
-8-519,CD,B-NP,O
-Did,VBD,O,O
-not,RB,O,O
-bat,VB,B-VP,O
-:,:,O,O
-Mohammad,NNP,B-NP,B-PER
-Akam,NNP,I-NP,I-PER

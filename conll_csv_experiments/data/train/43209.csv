@@ -1,8 +1,0 @@
-0,1,2,3
-U.S.,NNP,B-NP,B-LOC
-says,VBZ,B-VP,O
-Iraqi,JJ,B-NP,B-MISC
-Kurds,NNPS,I-NP,I-MISC
-agree,VBP,B-VP,O
-ceasefire,NN,B-NP,O
-.,.,O,O

@@ -1,8 +1,0 @@
-0,1,2,3
-Five,CD,B-NP,O
-people,NNS,I-NP,O
-died,VBN,B-VP,O
-later,RB,B-ADVP,O
-in,IN,B-PP,O
-hospital,NN,B-NP,O
-.,.,O,O

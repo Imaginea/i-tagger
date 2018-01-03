@@ -1,8 +1,0 @@
-0,1,2,3
-5.,NNP,B-NP,O
-Francis,NNP,I-NP,B-PER
-Moreau,NNP,I-NP,I-PER
-(,(,O,O
-France,NNP,B-NP,B-LOC
-),),O,O
-4:21.454,CD,B-NP,O

@@ -1,9 +1,0 @@
-0,1,2,3
-English,JJ,B-NP,B-MISC
-division,NN,I-NP,O
-three,CD,B-NP,O
--,:,O,O
-Swansea,NNP,B-NP,B-ORG
-v,FW,I-NP,O
-Lincoln,NNP,I-NP,B-ORG
-.,.,O,O

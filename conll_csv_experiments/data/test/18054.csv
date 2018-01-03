@@ -1,8 +1,0 @@
-0,1,2,3
-A,DT,B-NP,O
-French-owned,JJ,I-NP,B-MISC
-hotel,NN,I-NP,O
-was,VBD,B-VP,O
-slightly,RB,B-ADVP,O
-damaged,JJ,B-NP,O
-.,.,O,O

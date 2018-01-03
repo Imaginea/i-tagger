@@ -1,9 +1,0 @@
-0,1,2,3
-15.125,CD,B-NP,O
-seconds,NNS,I-NP,O
-(,(,O,O
-average,JJ,B-NP,O
-speed,NN,I-NP,O
-208.442,CD,I-NP,O
-kph,NN,I-NP,O
-),),O,O

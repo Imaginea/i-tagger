@@ -1,6 +1,0 @@
-0,1,2,3
-Source,NN,B-NP,O
-:,:,O,O
-Weather,NNP,B-NP,B-ORG
-Services,NNPS,I-NP,I-ORG
-Corporation,NNP,I-NP,I-ORG

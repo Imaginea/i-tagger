@@ -1,7 +1,0 @@
-0,1,2,3
-Damascus,NNP,B-NP,B-LOC
-denies,VBZ,B-VP,O
-aiding,VBG,I-VP,O
-the,DT,B-NP,O
-rebels,NNS,I-NP,O
-.,.,O,O

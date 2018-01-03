@@ -1,7 +1,0 @@
-0,1,2,3
-Belgian,NNP,B-NP,B-MISC
-Grand,NNP,I-NP,B-MISC
-Prix,NNP,I-NP,I-MISC
-motor,NN,I-NP,O
-race,NN,I-NP,O
-:,:,O,O

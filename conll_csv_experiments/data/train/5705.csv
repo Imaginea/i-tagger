@@ -1,8 +1,0 @@
-0,1,2,3
-Mickelson,NN,B-NP,B-PER
-",",",",O,O
-Greg,NNP,B-NP,B-PER
-Norman,NNP,I-NP,I-PER
-(,(,O,O
-Australia,NNP,B-NP,B-LOC
-),),O,O

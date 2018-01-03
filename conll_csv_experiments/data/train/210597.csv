@@ -1,6 +1,0 @@
-0,1,2,3
-Fuel,NN,B-NP,O
-oil,NN,I-NP,O
-325,CD,I-NP,O
-325-350,CD,I-NP,O
-425,CD,I-NP,O

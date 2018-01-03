@@ -1,8 +1,0 @@
-0,1,2,3
-3.,NNP,B-NP,O
-Mariano,NNP,I-NP,B-PER
-Friedick,NNP,I-NP,I-PER
-(,(,O,O
-U.S.,NNP,B-NP,B-LOC
-),),O,O
-4:19.808,CD,B-NP,O

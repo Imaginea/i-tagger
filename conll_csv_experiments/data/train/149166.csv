@@ -1,8 +1,0 @@
-0,1,2,3
-3.,NNP,B-NP,O
-Kennedy,NNP,I-NP,B-PER
-Ochieng,NNP,I-NP,I-PER
-(,(,O,O
-Kenya,NNP,B-NP,B-LOC
-),),O,O
-46.21,CD,B-NP,O

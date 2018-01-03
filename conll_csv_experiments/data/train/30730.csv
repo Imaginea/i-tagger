@@ -1,7 +1,0 @@
-0,1,2,3
-A.,NNP,B-NP,B-PER
-Mullally,NNP,I-NP,I-PER
-b,SYM,O,O
-Wasim,NNP,B-NP,B-PER
-Akram,NNP,I-NP,I-PER
-24,CD,I-NP,O

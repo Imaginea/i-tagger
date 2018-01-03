@@ -1,8 +1,0 @@
-0,1,2,3
-5.,CD,B-NP,O
-Margret,NNP,I-NP,B-PER
-Crowley,NNP,I-NP,I-PER
-(,(,O,O
-Australia,NNP,B-NP,B-LOC
-),),O,O
-4:05.00,CD,B-NP,O

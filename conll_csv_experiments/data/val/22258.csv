@@ -1,7 +1,0 @@
-0,1,2,3
-Syria,NNP,B-NP,B-LOC
-slams,NNS,I-NP,O
-Israel,NNP,B-NP,B-LOC
-on,IN,B-PP,O
-settlements,NNS,B-NP,O
-.,.,O,O

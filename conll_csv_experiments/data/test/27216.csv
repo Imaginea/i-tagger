@@ -1,8 +1,0 @@
-0,1,2,3
-Year,NNP,B-NP,O
-Ago,NNP,I-NP,O
-"47,000",CD,I-NP,O
-"24,300",CD,I-NP,O
-"8,700",CD,I-NP,O
-"8,200",CD,I-NP,O
-"12,200",CD,I-NP,O

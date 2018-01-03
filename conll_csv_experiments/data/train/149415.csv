@@ -1,8 +1,0 @@
-0,1,2,3
-3.,NNP,B-NP,O
-Richard,NNP,I-NP,B-PER
-Kosgei,NNP,I-NP,I-PER
-(,(,O,O
-Kenya,NNP,B-NP,B-LOC
-),),O,O
-7:48.38,CD,B-NP,O

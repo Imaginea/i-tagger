@@ -1,8 +1,0 @@
-0,1,2,3
-17.,CD,B-NP,O
-Hilde,NNP,I-NP,B-PER
-Gerg,NNP,I-NP,I-PER
-(,(,O,O
-Germany,NNP,B-NP,B-LOC
-),),O,O
-42,CD,B-NP,O

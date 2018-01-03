@@ -1,8 +1,0 @@
-0,1,2,3
-3.,NNP,B-NP,O
-Andrea,NNP,I-NP,B-PER
-Giaconi,NNP,I-NP,I-PER
-(,(,O,O
-Italy,NNP,B-NP,B-LOC
-),),O,O
-13.80,CD,B-NP,O

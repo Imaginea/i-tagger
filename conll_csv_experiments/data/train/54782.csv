@@ -1,9 +1,0 @@
-0,1,2,3
-+4,NNP,B-NP,O
-Stewart,NNP,I-NP,B-PER
-Ginn,NNP,I-NP,I-PER
-(,(,O,O
-Australia,NNP,B-NP,B-LOC
-),),O,O
-through,IN,B-PP,O
-13,CD,B-NP,O

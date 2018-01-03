@@ -1,8 +1,0 @@
-0,1,2,3
-U.N.,NNP,B-NP,B-ORG
-official,NN,I-NP,O
-Ekeus,JJ,I-NP,B-PER
-heads,NNS,I-NP,O
-for,IN,B-PP,O
-Baghdad,NNP,B-NP,B-LOC
-.,.,O,O

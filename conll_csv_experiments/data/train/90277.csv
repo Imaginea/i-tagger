@@ -1,9 +1,0 @@
-0,1,2,3
-It,PRP,B-NP,O
-has,VBZ,B-VP,O
-sales,NNS,B-NP,O
-in,IN,B-PP,O
-38,CD,B-NP,O
-foreign,JJ,I-NP,O
-countries,NNS,I-NP,O
-.,.,O,O

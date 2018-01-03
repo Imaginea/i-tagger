@@ -1,8 +1,0 @@
-0,1,2,3
-8.,NNP,B-NP,O
-Michael,NNP,I-NP,B-PER
-Schumacher,NNP,I-NP,I-PER
-(,(,O,O
-Germany,NNP,B-NP,B-LOC
-),),O,O
-1:55.333,CD,B-NP,O

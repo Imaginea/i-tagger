@@ -1,6 +1,0 @@
-0,1,2,3
--,:,O,O
-Gulf,NNP,B-NP,B-LOC
-of,IN,B-PP,I-LOC
-Mexico,NNP,B-NP,I-LOC
-:,:,O,O

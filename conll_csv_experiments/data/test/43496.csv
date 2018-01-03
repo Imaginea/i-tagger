@@ -1,8 +1,0 @@
-0,1,2,3
-13,CD,B-NP,O
--,:,I-NP,O
-Ian,NNP,I-NP,B-PER
-Wright,NNP,I-NP,I-PER
-(,(,O,O
-Arsenal,NNP,B-NP,B-ORG
-),),O,O

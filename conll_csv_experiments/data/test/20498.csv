@@ -1,9 +1,0 @@
-0,1,2,3
-Bomb,VB,B-VP,O
-explodes,VBZ,B-VP,O
-at,IN,B-PP,O
-mosque,NN,B-NP,O
-in,IN,B-PP,O
-central,JJ,B-NP,O
-Bulgaria,NNP,I-NP,B-LOC
-.,.,O,O

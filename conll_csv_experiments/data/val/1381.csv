@@ -1,6 +1,0 @@
-0,1,2,3
-basketball,NN,B-NP,O
-tournament,NN,I-NP,O
-on,IN,B-PP,O
-Friday,NNP,B-NP,O
-:,:,O,O

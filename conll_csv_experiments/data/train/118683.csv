@@ -1,8 +1,0 @@
-0,1,2,3
-London,NNP,B-NP,B-MISC
-Carnival,NNP,I-NP,I-MISC
-ends,VBZ,B-VP,O
-in,IN,B-PP,O
-high,JJ,B-NP,O
-spirits,NNS,I-NP,O
-.,.,O,O

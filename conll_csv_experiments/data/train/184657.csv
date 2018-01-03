@@ -1,7 +1,0 @@
-0,1,2,3
-Palestinian,NNP,B-NP,B-ORG
-Authority,NNP,I-NP,I-ORG
-frees,VBZ,B-VP,O
-rights,NNS,B-NP,O
-activist,NN,I-NP,O
-.,.,O,O

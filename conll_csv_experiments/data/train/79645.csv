@@ -1,9 +1,0 @@
-0,1,2,3
-round,NN,B-NP,O
-was,VBD,B-VP,O
-abandoned,VBN,I-VP,O
-because,RB,B-PP,O
-of,IN,I-PP,O
-torrential,JJ,B-NP,O
-rain,NN,I-NP,O
-.,.,O,O

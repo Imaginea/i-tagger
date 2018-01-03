@@ -1,8 +1,0 @@
-0,1,2,3
-R.,NNP,B-NP,B-PER
-Ponting,NNP,I-NP,I-PER
-c,SYM,O,O
-and,CC,O,O
-b,SYM,O,O
-Whittall,NNP,B-NP,B-PER
-53,CD,I-NP,O

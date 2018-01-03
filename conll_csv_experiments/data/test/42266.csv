@@ -1,8 +1,0 @@
-0,1,2,3
-6.,CD,B-NP,O
-Alexandre,NNP,I-NP,B-PER
-Mikhailov,NNP,I-NP,I-PER
-(,(,O,O
-Russia,NNP,B-NP,B-LOC
-),),O,O
-202.59,CD,B-NP,O

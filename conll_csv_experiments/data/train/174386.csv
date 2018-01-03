@@ -1,9 +1,0 @@
-0,1,2,3
-Anti-Bhutto,NN,B-NP,B-MISC
-rally,NN,I-NP,O
-draws,VBZ,B-VP,O
-about,RB,B-NP,O
-"8,000",CD,I-NP,O
-in,IN,B-PP,O
-Karachi,NNP,B-NP,B-LOC
-.,.,O,O

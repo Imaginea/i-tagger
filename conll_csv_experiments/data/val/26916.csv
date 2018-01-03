@@ -1,9 +1,0 @@
-0,1,2,3
-Only,RB,B-NP,O
-Russia,NNP,I-NP,B-LOC
-has,VBZ,B-VP,O
-chosen,VBN,I-VP,O
-to,TO,I-VP,O
-do,VB,I-VP,O
-so,RB,B-ADVP,O
-.,.,O,O

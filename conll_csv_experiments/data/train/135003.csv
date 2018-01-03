@@ -1,9 +1,0 @@
-0,1,2,3
-S.,NNP,B-NP,B-LOC
-Korea,NNP,I-NP,I-LOC
-asked,VBD,B-VP,O
-to,TO,I-VP,O
-stop,VB,I-VP,O
-China-bound,JJ,B-NP,B-MISC
-missionaries,NNS,I-NP,O
-.,.,O,O

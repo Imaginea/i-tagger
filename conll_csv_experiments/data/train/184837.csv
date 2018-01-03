@@ -1,7 +1,0 @@
-0,1,2,3
-Headlines,NNS,B-NP,O
-from,IN,B-PP,O
-major,JJ,B-NP,O
-national,JJ,I-NP,O
-newspapers,NNS,I-NP,O
-.,.,O,O

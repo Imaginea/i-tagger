@@ -1,9 +1,0 @@
-0,1,2,3
---,:,B-NP,O
-George,NNP,I-NP,B-PER
-Georgiopoulos,NNP,I-NP,I-PER
-",",",",O,O
-Athens,NNP,B-NP,B-ORG
-Newsroom,NNP,I-NP,I-ORG
-+301,NNP,I-NP,O
-3311812-4,CD,I-NP,O

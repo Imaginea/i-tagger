@@ -1,8 +1,0 @@
-0,1,2,3
--,:,O,O
-King,NNP,B-NP,O
-to,TO,B-VP,O
-visit,VB,I-VP,O
-Bahrain,NN,B-NP,B-LOC
-soon,RB,B-ADVP,O
-.,.,O,O

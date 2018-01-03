@@ -1,8 +1,0 @@
-0,1,2,3
-I,PRP,B-NP,O
-knew,VBD,B-VP,O
-where,WRB,B-ADVP,O
-I,PRP,B-NP,O
-belonged,VBD,B-VP,O
-.,.,O,O
- ,O,O,<UNK>

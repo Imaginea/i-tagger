@@ -1,6 +1,0 @@
-0,1,2,3
-Brann,NNP,B-NP,B-ORG
-win,VBP,B-VP,O
-5-2,JJ,B-ADJP,O
-on,IN,B-PP,O
-aggregate,JJ,B-NP,O

@@ -1,6 +1,0 @@
-0,1,2,3
-Italian,NNP,B-NP,B-MISC
-Cup,NNP,I-NP,B-MISC
-winners,NNS,I-NP,O
-Fiorentina,NNP,I-NP,B-ORG
-beat,VBD,B-VP,O

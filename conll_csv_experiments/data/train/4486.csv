@@ -1,5 +1,0 @@
-0,1,2,3
-Balance,NNP,B-NP,O
-Sheet,NNP,I-NP,O
-Data,NNPS,I-NP,O
-:,:,O,O

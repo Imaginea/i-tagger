@@ -1,8 +1,0 @@
-0,1,2,3
-Pakistan,NNP,B-NP,B-LOC
-first,RB,B-ADVP,O
-innings,NN,B-NP,O
-(,(,O,O
-overnight,JJ,B-NP,O
-339-4,RB,B-ADVP,O
-),),O,O

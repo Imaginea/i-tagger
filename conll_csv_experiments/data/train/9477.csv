@@ -1,9 +1,0 @@
-0,1,2,3
-Jiri,NNP,B-NP,B-PER
-Novak,NNP,I-NP,I-PER
-(,(,O,O
-Czech,NNP,B-NP,B-LOC
-Republic,NNP,I-NP,I-LOC
-),),O,O
-vs.,IN,B-PP,O
-qualifier,NN,B-NP,O

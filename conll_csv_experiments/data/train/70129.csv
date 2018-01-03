@@ -1,8 +1,0 @@
-0,1,2,3
-3.,NNP,B-NP,O
-Gillian,NNP,I-NP,B-PER
-Russell,NNP,I-NP,I-PER
-(,(,O,O
-Jamaica,NNP,B-NP,B-LOC
-),),O,O
-12.95,CD,B-NP,O

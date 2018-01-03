@@ -1,9 +1,0 @@
-0,1,2,3
-Yeltsin,NN,B-NP,B-PER
-on,IN,B-PP,O
-holiday,NN,B-NP,O
-from,IN,B-PP,O
-Monday,NNP,B-NP,O
--,:,O,O
-Interfax,NNP,B-NP,B-ORG
-.,.,O,O

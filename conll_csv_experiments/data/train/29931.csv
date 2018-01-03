@@ -1,9 +1,0 @@
-0,1,2,3
-4.,CD,B-NP,O
-Mika,NNP,I-NP,B-PER
-Hakkinen,NNP,I-NP,I-PER
-(,(,O,O
-Finland,NNP,B-NP,B-LOC
-),),O,O
-McLaren,NNP,B-NP,B-ORG
-1:54.754,CD,B-NP,O

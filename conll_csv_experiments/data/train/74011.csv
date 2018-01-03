@@ -1,9 +1,0 @@
-0,1,2,3
-5,CD,B-NP,O
--,:,I-NP,O
-Slawomir,NNP,I-NP,B-PER
-Wojciechowski,NNP,I-NP,I-PER
-(,(,O,O
-GKS,NNP,B-NP,B-ORG
-Katowice,NNP,I-NP,I-ORG
-),),O,O

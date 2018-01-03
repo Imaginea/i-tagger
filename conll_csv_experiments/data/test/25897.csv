@@ -1,9 +1,0 @@
-0,1,2,3
-Year,NN,B-NP,O
-ago,RB,B-ADVP,O
-(,(,O,O
-act,NN,B-NP,O
-),),O,O
-"132,000",CD,B-NP,O
-"6,000",CD,I-NP,O
-"336,000",CD,I-NP,O

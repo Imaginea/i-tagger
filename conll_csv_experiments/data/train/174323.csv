@@ -1,6 +1,0 @@
-0,1,2,3
-Closing,NN,B-NP,O
-prices,NNS,I-NP,O
-as,IN,B-PP,O
-follows,NNS,B-NP,O
-:,:,O,O

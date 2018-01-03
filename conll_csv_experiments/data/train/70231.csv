@@ -1,8 +1,0 @@
-0,1,2,3
-1.,CD,B-NP,O
-Marcel,NNP,I-NP,B-PER
-Malone,NNP,I-NP,I-PER
-(,(,O,O
-U.S.,NNP,B-NP,B-LOC
-),),O,O
-51.50,CD,B-NP,O

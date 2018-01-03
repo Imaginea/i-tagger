@@ -1,9 +1,0 @@
-0,1,2,3
-Russia,NNP,B-NP,B-LOC
-ready,JJ,B-ADJP,O
-for,IN,B-PP,O
-constructive,JJ,B-NP,O
-work,NN,I-NP,O
-with,IN,B-PP,O
-Albright,NNP,B-NP,B-PER
-.,.,O,O

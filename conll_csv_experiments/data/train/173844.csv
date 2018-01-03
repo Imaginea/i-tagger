@@ -1,8 +1,0 @@
-0,1,2,3
-Swiss,JJ,B-NP,B-MISC
-arrest,NN,I-NP,O
-Rwandan,NNP,I-NP,B-MISC
-on,IN,B-PP,O
-genocide,NN,B-NP,O
-suspicion,NN,I-NP,O
-.,.,O,O

@@ -1,7 +1,0 @@
-0,1,2,3
-Singapore,NNP,B-NP,B-LOC
-hangs,VBZ,B-VP,O
-Thai,NNP,B-NP,B-MISC
-drug,NN,I-NP,O
-trafficker,NN,I-NP,O
-.,.,O,O

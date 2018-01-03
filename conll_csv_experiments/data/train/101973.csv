@@ -1,8 +1,0 @@
-0,1,2,3
-M.,NNP,B-NP,B-PER
-Bevan,NNP,I-NP,I-PER
-c,SYM,O,O
-Campbell,NNP,B-NP,B-PER
-b,SYM,O,O
-Brandes,NNPS,B-NP,B-PER
-9,CD,I-NP,O

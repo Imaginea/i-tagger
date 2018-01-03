@@ -1,9 +1,0 @@
-0,1,2,3
---,:,B-NP,O
-Reuter,NNP,I-NP,B-ORG
-London,NNP,I-NP,I-ORG
-Newsroom,NNP,I-NP,I-ORG
-+44,CD,I-NP,O
-171,CD,I-NP,O
-542,CD,I-NP,O
-7658,CD,I-NP,O

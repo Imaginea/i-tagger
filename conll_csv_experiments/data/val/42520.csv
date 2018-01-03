@@ -1,9 +1,0 @@
-0,1,2,3
-2.,CD,B-NP,O
-Paddy,NNP,I-NP,B-PER
-Lad,NNP,I-NP,I-PER
-16-1,NNP,I-NP,O
-(,(,O,O
-Peter,NNP,B-NP,B-PER
-Bloomfield,NNP,I-NP,I-PER
-),),O,O

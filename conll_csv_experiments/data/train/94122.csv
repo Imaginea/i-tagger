@@ -1,7 +1,0 @@
-0,1,2,3
-Mauritania,NNP,B-NP,B-LOC
-v,FW,I-NP,O
-Benin,NNP,B-NP,B-LOC
-postponed,VBD,B-VP,O
-to,TO,B-PP,O
-Friday,NNP,B-NP,O

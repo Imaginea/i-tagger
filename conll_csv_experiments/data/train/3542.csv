@@ -1,9 +1,0 @@
-0,1,2,3
-Iraq,NNP,B-NP,B-LOC
-'s,POS,B-NP,O
-Saddam,NNP,I-NP,B-PER
-meets,VBZ,B-VP,O
-Russia,NNP,B-NP,B-LOC
-'s,POS,B-NP,O
-Zhirinovsky,NNP,I-NP,B-PER
-.,.,O,O

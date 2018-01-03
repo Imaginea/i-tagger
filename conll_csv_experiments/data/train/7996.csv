@@ -1,8 +1,0 @@
-0,1,2,3
-Gloria,NNP,B-NP,B-ORG
-Bistrita,NNP,I-NP,I-ORG
-win,VBP,B-VP,O
-4-2,JJ,B-ADJP,O
-on,IN,B-PP,O
-aggregate,NN,B-NP,O
-.,.,O,O

@@ -1,9 +1,0 @@
-0,1,2,3
-Leading,JJ,B-NP,O
-stories,NNS,I-NP,O
-in,IN,B-PP,O
-the,DT,B-NP,O
-Greek,NNP,I-NP,B-MISC
-financial,JJ,I-NP,O
-press,NN,I-NP,O
-:,:,O,O

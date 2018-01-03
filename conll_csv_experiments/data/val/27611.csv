@@ -1,8 +1,0 @@
-0,1,2,3
-Six,CD,B-NP,O
-months,NNS,I-NP,O
-to,TO,B-PP,O
-August,NNP,B-NP,O
-20,CD,I-NP,O
-",",",",I-NP,O
-1996,CD,I-NP,O

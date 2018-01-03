@@ -1,8 +1,0 @@
-0,1,2,3
-Tripoli,NNP,B-NP,B-LOC
-decks,NNS,I-NP,O
-out,IN,B-PP,O
-for,IN,B-PP,O
-coup,NN,B-NP,O
-celebrations,NNS,I-NP,O
-.,.,O,O

@@ -1,7 +1,0 @@
-0,1,2,3
-Clinton,NNP,B-NP,B-PER
-adviser,NN,I-NP,O
-Morris,NNP,I-NP,B-PER
-announces,VBZ,B-VP,O
-resignation,RB,B-NP,O
-.,.,O,O

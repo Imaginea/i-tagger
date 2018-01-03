@@ -1,8 +1,0 @@
-0,1,2,3
-3.,NNP,B-NP,O
-Vladimir,NNP,I-NP,B-PER
-Dubrovshchik,NNP,I-NP,I-PER
-(,(,O,O
-Belarus,NNP,B-NP,B-LOC
-),),O,O
-64.02,CD,B-NP,O

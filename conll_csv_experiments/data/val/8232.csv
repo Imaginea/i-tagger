@@ -1,9 +1,0 @@
-0,1,2,3
-Canada,NNP,B-NP,B-LOC
-government,NN,I-NP,O
-cash,NN,I-NP,O
-balances,NNS,I-NP,O
-fall,VBP,B-VP,O
-in,IN,B-PP,O
-week,NN,B-NP,O
-.,.,O,O

@@ -1,6 +1,0 @@
-0,1,2,3
-FC,NNP,B-NP,B-ORG
-Porto,NNP,I-NP,I-ORG
-2,CD,I-NP,O
-Setubal,NNP,I-NP,B-ORG
-2,CD,I-NP,O

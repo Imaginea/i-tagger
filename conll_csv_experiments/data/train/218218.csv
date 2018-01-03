@@ -1,9 +1,0 @@
-0,1,2,3
-3.,NNP,B-NP,O
-Norifumi,NNP,I-NP,B-PER
-Abe,NNP,I-NP,I-PER
-(,(,O,O
-Japan,NNP,B-NP,B-LOC
-),),O,O
-Yamaha,NNP,B-NP,B-ORG
-1:50.858,CD,I-NP,O

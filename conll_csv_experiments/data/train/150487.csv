@@ -1,7 +1,0 @@
-0,1,2,3
-3.,NNP,B-NP,O
-Frederic,NNP,I-NP,B-PER
-Magne,NNP,I-NP,I-PER
-(,(,O,O
-France,NNP,B-NP,B-LOC
-),),O,O

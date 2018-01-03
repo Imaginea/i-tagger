@@ -1,9 +1,0 @@
-0,1,2,3
-Nepal,JJ,B-NP,B-LOC
-offers,NNS,I-NP,O
-to,TO,B-VP,O
-talk,VB,I-VP,O
-to,TO,B-PP,O
-Maoist,JJ,B-NP,B-MISC
-insurgents,NNS,I-NP,O
-.,.,O,O

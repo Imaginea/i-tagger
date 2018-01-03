@@ -1,9 +1,0 @@
-0,1,2,3
-Italian,JJ,B-NP,B-MISC
-farmer,NN,I-NP,O
-says,VBZ,B-VP,O
-he,PRP,B-NP,O
-mutilated,VBN,B-VP,O
-four,CD,B-NP,O
-women,NNS,I-NP,O
-.,.,O,O

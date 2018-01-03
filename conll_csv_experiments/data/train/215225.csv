@@ -1,8 +1,0 @@
-0,1,2,3
-An,DT,B-NP,O
-earlier,JJR,I-NP,O
-problem,NN,I-NP,O
-with,IN,B-PP,O
-CDU,NNP,B-NP,B-ORG
-No,DT,I-NP,I-ORG
-.,.,O,I-ORG

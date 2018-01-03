@@ -1,8 +1,0 @@
-0,1,2,3
-6.,NNP,B-NP,O
-Donna,NNP,I-NP,B-PER
-Weinbrecht,NNP,I-NP,I-PER
-(,(,O,O
-U.S.,NNP,B-NP,B-LOC
-),),O,O
-22.48,CD,B-NP,O

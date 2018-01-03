@@ -1,9 +1,0 @@
-0,1,2,3
-0,CD,B-NP,O
-Nick,NNP,I-NP,B-PER
-Faldo,NNP,I-NP,I-PER
-(,(,O,O
-Britain,NNP,B-NP,B-LOC
-),),O,O
-through,IN,B-PP,O
-5,CD,B-NP,O

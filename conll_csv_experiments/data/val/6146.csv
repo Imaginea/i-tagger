@@ -1,8 +1,0 @@
-0,1,2,3
-8.,NNP,B-NP,O
-Karin,NNP,I-NP,B-PER
-Janke,NNP,I-NP,I-PER
-(,(,O,O
-Germany,NNP,B-NP,B-LOC
-),),O,O
-53.13,CD,B-NP,O

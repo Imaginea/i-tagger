@@ -1,8 +1,0 @@
-0,1,2,3
-Qualifier,NN,B-NP,O
-vs.,FW,B-PP,O
-Andrei,NNP,B-NP,B-PER
-Olhovskiy,NNP,I-NP,I-PER
-(,(,O,O
-Russia,NNP,B-NP,B-LOC
-),),O,O

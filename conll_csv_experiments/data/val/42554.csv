@@ -1,6 +1,0 @@
-0,1,2,3
-Britain,NNP,B-NP,B-LOC
-by,IN,B-PP,O
-Richard,NNP,B-NP,B-PER
-Hannon,NNP,I-NP,I-PER
-.,.,O,O

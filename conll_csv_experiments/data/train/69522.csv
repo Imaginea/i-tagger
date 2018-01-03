@@ -1,8 +1,0 @@
-0,1,2,3
-3.,NNP,B-NP,O
-Alex,NNP,I-NP,B-PER
-Belometti,NNP,I-NP,I-PER
-(,(,O,O
-Italy,NNP,O,B-LOC
-),),O,O
-Honda,NNP,B-NP,B-ORG

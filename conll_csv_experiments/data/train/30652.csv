@@ -1,7 +1,0 @@
-0,1,2,3
-M.,NNP,B-NP,B-PER
-Atherton,NNP,I-NP,I-PER
-b,SYM,O,O
-Waqar,NNP,B-NP,B-PER
-Younis,NNP,I-NP,I-PER
-31,CD,I-NP,O

@@ -1,8 +1,0 @@
-0,1,2,3
-Chile,NNP,B-NP,B-LOC
--,:,O,O
-Marcelo,NNP,B-NP,B-PER
-Salas,NNPS,I-NP,I-PER
-(,(,O,O
-80th,CD,B-NP,O
-),),O,O

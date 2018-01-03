@@ -1,9 +1,0 @@
-0,1,2,3
-7.,CD,B-NP,O
-Ales,NNPS,I-NP,B-PER
-Valenta,NNP,O,I-PER
-(,(,O,O
-Czech,NNP,B-NP,B-LOC
-Republic,NNP,I-NP,I-LOC
-),),O,O
-194.02,CD,B-NP,O

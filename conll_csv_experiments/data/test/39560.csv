@@ -1,8 +1,0 @@
-0,1,2,3
-2.,CD,B-NP,O
-Pernila,NNP,I-NP,B-PER
-Wiberg,NNP,I-NP,I-PER
-(,(,O,O
-Sweden,NNP,B-NP,B-LOC
-),),O,O
-1:17.97,CD,B-NP,O

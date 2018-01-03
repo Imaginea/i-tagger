@@ -1,9 +1,0 @@
-0,1,2,3
-Sudanese,NNP,B-NP,B-MISC
-rebels,NNS,I-NP,O
-say,VBP,B-VP,O
-missionaries,NNS,B-NP,O
-should,MD,B-VP,O
-be,VB,I-VP,O
-freed,VBN,I-VP,O
-.,.,O,O

@@ -1,9 +1,0 @@
-0,1,2,3
-Freed,VBN,B-VP,O
-American,JJ,B-NP,B-MISC
-slaves,NNS,I-NP,O
-founded,VBD,B-VP,O
-Liberia,NNPS,B-NP,B-LOC
-in,IN,B-PP,O
-1847,CD,B-NP,O
-.,.,O,O

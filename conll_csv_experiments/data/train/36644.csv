@@ -1,8 +1,0 @@
-0,1,2,3
-6.,CD,B-NP,O
-Eleonora,NNP,I-NP,B-PER
-Berlanda,NNP,I-NP,I-PER
-(,(,O,O
-Italy,NNP,B-NP,B-LOC
-),),O,O
-2:43.44,CD,B-NP,O

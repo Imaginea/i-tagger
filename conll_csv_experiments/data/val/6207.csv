@@ -1,8 +1,0 @@
-0,1,2,3
-7.,CD,B-NP,O
-Marc,NNP,B-NP,B-PER
-Blume,NNP,O,I-PER
-(,(,O,O
-Germany,NNP,B-NP,B-LOC
-),),O,O
-10.48,CD,B-NP,O

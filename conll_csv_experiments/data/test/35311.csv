@@ -1,7 +1,0 @@
-0,1,2,3
-Frankfurt,NNP,B-NP,B-LOC
-dollar,NN,I-NP,O
-fix,VBP,B-VP,O
-1.5338,CD,B-NP,O
-marks,NNS,I-NP,O
-.,.,O,O

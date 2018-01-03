@@ -1,8 +1,0 @@
-0,1,2,3
-4.,CD,B-NP,O
-Anka,NNP,I-NP,B-PER
-Baier,NNP,I-NP,I-PER
-(,(,O,O
-Germany,NNP,B-NP,B-LOC
-),),O,O
-1:25.16,CD,B-NP,O

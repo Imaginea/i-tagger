@@ -1,8 +1,0 @@
-0,1,2,3
-Qualifier,NN,B-NP,O
-vs.,FW,B-PP,O
-Christian,JJ,B-NP,B-PER
-Rudd,NNP,I-NP,I-PER
-(,(,O,O
-Norway,NNP,B-NP,B-LOC
-),),O,O

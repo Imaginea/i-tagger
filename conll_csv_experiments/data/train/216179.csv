@@ -1,8 +1,0 @@
-0,1,2,3
-Algeria,NNP,B-NP,B-LOC
-faults,NNS,I-NP,O
-Britain,NNP,I-NP,B-LOC
-over,IN,B-PP,O
-Islamists,NNPS,B-NP,B-MISC
-gathering,NN,I-NP,O
-.,.,O,O

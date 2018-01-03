@@ -1,8 +1,0 @@
-0,1,2,3
-Leading,JJ,B-NP,O
-overall,JJ,I-NP,O
-standings,NNS,I-NP,O
-after,IN,B-PP,O
-second,JJ,B-NP,O
-stage,NN,I-NP,O
-.,.,O,O

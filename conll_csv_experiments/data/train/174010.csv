@@ -1,8 +1,0 @@
-0,1,2,3
-French,JJ,B-NP,B-MISC
-tax,NN,I-NP,O
-office,NN,I-NP,O
-sucks,VBZ,B-VP,O
-in,IN,B-PP,O
-money,NN,B-NP,O
-.,.,O,O

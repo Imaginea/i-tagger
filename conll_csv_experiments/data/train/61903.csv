@@ -1,9 +1,0 @@
-0,1,2,3
-Rwanda,NNP,B-NP,B-LOC
-says,VBZ,B-VP,O
-Zaire,NNP,B-NP,B-LOC
-expels,NNS,I-NP,O
-28,CD,B-NP,O
-Rwandan,JJ,I-NP,B-MISC
-refugees,NNS,I-NP,O
-.,.,O,O

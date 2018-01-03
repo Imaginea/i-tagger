@@ -1,8 +1,0 @@
-0,1,2,3
-6.,CD,B-NP,O
-Adem,NNP,I-NP,B-PER
-Hacini,NNP,I-NP,I-PER
-(,(,O,O
-Algeria,NNP,B-NP,B-LOC
-),),O,O
-1:45.64,CD,B-NP,O

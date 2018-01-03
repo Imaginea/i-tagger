@@ -1,9 +1,0 @@
-0,1,2,3
-+3,CD,B-NP,O
-Anders,NNPS,I-NP,B-PER
-Forsbrand,NNP,I-NP,I-PER
-(,(,O,O
-Sweden,NNP,B-NP,B-LOC
-),),O,O
-through,IN,B-PP,O
-5,CD,B-NP,O

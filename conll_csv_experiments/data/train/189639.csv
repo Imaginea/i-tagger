@@ -1,6 +1,0 @@
-0,1,2,3
-Final,NNP,B-NP,O
-Partizan,NNP,I-NP,B-ORG
-v,FW,I-NP,O
-Olympiakos,NNP,I-NP,B-ORG
-.,.,O,O

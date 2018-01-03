@@ -1,8 +1,0 @@
-0,1,2,3
-Bonn,NNP,B-NP,B-LOC
-appeals,NNS,I-NP,O
-for,IN,B-PP,O
-Middle,NNP,B-NP,B-LOC
-East,NNP,I-NP,I-LOC
-peace,NN,I-NP,O
-.,.,O,O

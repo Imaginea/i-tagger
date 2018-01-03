@@ -1,9 +1,0 @@
-0,1,2,3
-BayerVB,NN,B-NP,B-ORG
-sets,VBZ,B-VP,O
-C$,$,B-NP,B-MISC
-100,CD,I-NP,O
-million,CD,I-NP,O
-six-year,JJ,I-NP,O
-bond,NN,I-NP,O
-.,.,O,O

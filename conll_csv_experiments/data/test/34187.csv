@@ -1,9 +1,0 @@
-0,1,2,3
-Italian,NNP,B-NP,B-MISC
-President,NNP,I-NP,O
-urges,VBZ,B-VP,O
-separatists,NNS,B-NP,O
-to,TO,B-VP,O
-turn,VB,I-VP,O
-back,RB,B-ADVP,O
-.,.,O,O

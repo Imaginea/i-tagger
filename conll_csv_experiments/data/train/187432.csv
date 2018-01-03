@@ -1,9 +1,0 @@
-0,1,2,3
-5.,CD,B-NP,O
-Giunluca,NNP,I-NP,B-PER
-Gorini,NNP,I-NP,I-PER
-(,(,O,O
-Italy,NNP,B-NP,B-LOC
-),),O,O
-Aki,NNP,B-NP,B-ORG
-45,CD,I-NP,O

@@ -1,8 +1,0 @@
-0,1,2,3
-He,PRP,B-NP,O
-'s,VBZ,B-VP,O
-excited,VBN,I-VP,O
-about,IN,B-PP,O
-the,DT,B-NP,O
-campaign,NN,I-NP,O
-.,.,O,O

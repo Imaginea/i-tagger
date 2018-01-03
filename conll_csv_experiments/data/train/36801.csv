@@ -1,8 +1,0 @@
-0,1,2,3
-8.,NNP,B-NP,O
-Ann,NNP,I-NP,B-PER
-Mercken,NNP,I-NP,I-PER
-(,(,O,O
-Belgium,NNP,B-NP,B-LOC
-),),O,O
-53.55,CD,B-NP,O

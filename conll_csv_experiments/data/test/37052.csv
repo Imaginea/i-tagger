@@ -1,9 +1,0 @@
-0,1,2,3
-Chinese,JJ,B-NP,B-MISC
-girl,NN,I-NP,O
-nearly,RB,B-ADVP,O
-dies,VBZ,B-VP,O
-from,IN,B-PP,O
-cigarette,NN,B-NP,O
-smoke,NN,I-NP,O
-.,.,O,O

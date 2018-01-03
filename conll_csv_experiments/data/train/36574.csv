@@ -1,8 +1,0 @@
-0,1,2,3
-8.,NNP,B-NP,O
-Eric,NNP,I-NP,B-PER
-Wymeersch,NNP,I-NP,I-PER
-(,(,O,O
-Belgium,NNP,B-NP,B-LOC
-),),O,O
-20.84,CD,B-NP,O

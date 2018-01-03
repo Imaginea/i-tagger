@@ -1,8 +1,0 @@
-0,1,2,3
-4.,CD,B-NP,O
-Anja,NNP,I-NP,B-PER
-Smolders,NNPS,I-NP,I-PER
-(,(,O,O
-Belgium,NNP,B-NP,B-LOC
-),),O,O
-2:43.06,CD,B-NP,O

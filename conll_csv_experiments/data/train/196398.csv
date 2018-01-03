@@ -1,9 +1,0 @@
-0,1,2,3
-Viral,JJ,B-NP,O
-meningitis,NNS,I-NP,O
-epidemic,NN,I-NP,O
-kills,VBZ,B-VP,O
-10,CD,B-NP,O
-in,IN,B-PP,O
-Romania,NNP,B-NP,B-LOC
-.,.,O,O

@@ -1,7 +1,0 @@
-0,1,2,3
---,:,O,O
-New,NNP,B-NP,B-ORG
-York,NNP,I-NP,I-ORG
-Energy,NNP,I-NP,I-ORG
-Desk,NNP,I-NP,I-ORG
-212-859-1620,CD,I-NP,O

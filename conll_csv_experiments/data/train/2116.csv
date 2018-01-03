@@ -1,9 +1,0 @@
-0,1,2,3
-It,PRP,B-NP,O
-gave,VBD,B-VP,O
-no,DT,B-NP,O
-source,NN,I-NP,O
-for,IN,B-PP,O
-the,DT,B-NP,O
-report,NN,I-NP,O
-.,.,O,O

@@ -1,9 +1,0 @@
-0,1,2,3
-3.,NNP,B-NP,O
-Jan,NNP,I-NP,B-PER
-Van,NNP,I-NP,I-PER
-Eiden,NNP,I-NP,I-PER
-(,(,O,O
-Germany,NNP,B-NP,B-LOC
-),),O,O
-1:04.541,CD,B-NP,O

@@ -1,8 +1,0 @@
-0,1,2,3
-4.,CD,B-NP,O
-Anja,NNP,I-NP,B-PER
-Ruecker,NNP,I-NP,I-PER
-(,(,O,O
-Germany,NNP,B-NP,B-LOC
-),),O,O
-51.61,CD,B-NP,O

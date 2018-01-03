@@ -1,8 +1,0 @@
-0,1,2,3
-6.,NNP,B-NP,O
-Danny,NNP,I-NP,B-PER
-Theybers,NNP,I-NP,I-PER
-(,(,O,O
-Belgium,NNP,B-NP,B-LOC
-),),O,O
-Honda,NNP,B-NP,B-ORG

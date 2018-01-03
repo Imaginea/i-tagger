@@ -1,9 +1,0 @@
-0,1,2,3
-Pacific,NNP,B-NP,B-ORG
-Stock,NNP,I-NP,I-ORG
-Exchange,NNP,I-NP,I-ORG
-officials,NNS,I-NP,O
-were,VBD,B-VP,O
-not,RB,O,O
-available,JJ,B-ADJP,O
-.,.,O,O

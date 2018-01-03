@@ -1,9 +1,0 @@
-0,1,2,3
-Ten,CD,B-NP,O
-people,NNS,I-NP,O
-gunned,VBN,B-VP,O
-down,RP,B-PRT,O
-in,IN,B-PP,O
-northwest,RB,B-ADVP,O
-Colombia,NNP,B-NP,B-LOC
-.,.,O,O

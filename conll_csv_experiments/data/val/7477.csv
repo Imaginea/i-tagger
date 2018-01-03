@@ -1,8 +1,0 @@
-0,1,2,3
-I.,NNP,B-NP,B-PER
-Healy,NNP,I-NP,I-PER
-c,SYM,O,O
-Ranatunga,NNP,B-NP,B-PER
-b,SYM,O,O
-Muralitharan,NN,B-NP,B-PER
-8,CD,I-NP,O

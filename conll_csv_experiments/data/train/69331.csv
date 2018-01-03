@@ -1,8 +1,0 @@
-0,1,2,3
-4.,CD,B-NP,O
-Johan,NNP,I-NP,B-PER
-Boonen,NNP,I-NP,I-PER
-(,(,O,O
-Belgium,NNP,B-NP,B-LOC
-),),O,O
-Husqvarna,NNP,B-NP,B-ORG

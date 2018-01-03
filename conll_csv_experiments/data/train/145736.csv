@@ -1,7 +1,0 @@
-0,1,2,3
-Cut-off-rate,NN,B-NP,O
-(,(,O,O
-percent,NN,B-NP,O
-),),O,O
-15.75,CD,B-NP,O
-16.00,CD,I-NP,O

@@ -1,7 +1,0 @@
-0,1,2,3
-Madison,NNP,B-NP,B-LOC
-final,JJ,I-NP,O
-(,(,O,O
-50,CD,B-NP,O
-kms,NNS,I-NP,O
-),),O,O

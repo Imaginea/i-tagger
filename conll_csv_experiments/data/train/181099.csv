@@ -1,9 +1,0 @@
-0,1,2,3
-Stagecoach,NNP,B-NP,B-ORG
-sees,VBZ,B-VP,O
-Swebus,NNP,B-NP,B-ORG
-deal,NN,I-NP,O
-agreed,VBD,B-VP,O
-next,JJ,B-NP,O
-week,NN,I-NP,O
-.,.,O,O

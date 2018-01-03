@@ -1,6 +1,0 @@
-0,1,2,3
-I.,NNP,B-NP,B-PER
-Healy,NNP,I-NP,I-PER
-b,SYM,O,O
-Brandes,NNPS,B-NP,B-PER
-5,CD,I-NP,O

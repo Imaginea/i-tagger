@@ -1,9 +1,0 @@
-0,1,2,3
-Russia,NN,B-NP,B-LOC
-to,TO,B-VP,O
-clamp,VB,I-VP,O
-down,RP,B-PRT,O
-on,IN,B-PP,O
-barter,JJR,B-NP,O
-deals,NNS,I-NP,O
-.,.,O,O

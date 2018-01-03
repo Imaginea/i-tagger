@@ -1,8 +1,0 @@
-0,1,2,3
-Tan,NNP,B-NP,B-PER
-Fook,NNP,I-NP,I-PER
-(,(,O,O
-Malaysia,NNP,B-NP,B-LOC
-),),O,O
-15-5,CD,B-NP,O
-15-3,CD,I-NP,O

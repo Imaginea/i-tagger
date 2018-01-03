@@ -1,8 +1,0 @@
-0,1,2,3
-6.,NNP,B-NP,O
-Erik,NNP,I-NP,B-PER
-Camerlengo,NNP,I-NP,I-PER
-(,(,O,O
-Italy,NNP,B-NP,B-LOC
-),),O,O
-Yamaha,NNP,B-NP,B-ORG

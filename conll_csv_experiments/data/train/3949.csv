@@ -1,7 +1,0 @@
-0,1,2,3
--,:,O,O
-Parliamentary,JJ,B-NP,O
-battle,NN,I-NP,O
-in,IN,B-PP,O
-Beirut,NNP,B-NP,B-LOC
-..,NNS,I-NP,O

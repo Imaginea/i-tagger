@@ -1,9 +1,0 @@
-0,1,2,3
-+3,CD,B-NP,O
-Sven,NNP,I-NP,B-PER
-Struver,NNP,I-NP,I-PER
-(,(,O,O
-Germany,NNP,B-NP,B-LOC
-),),O,O
-through,IN,B-PP,O
-10,CD,B-NP,O

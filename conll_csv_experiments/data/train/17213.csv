@@ -1,8 +1,0 @@
-0,1,2,3
-It,PRP,B-NP,O
-will,MD,B-VP,O
-be,VB,I-VP,O
-sent,VBN,I-VP,O
-for,IN,B-PP,O
-free,NN,B-NP,O
-.,.,O,O

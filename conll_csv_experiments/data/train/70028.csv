@@ -1,9 +1,0 @@
-0,1,2,3
-1.,CD,B-NP,O
-Deon,NNP,I-NP,B-PER
-Hemmings,NNP,I-NP,I-PER
-(,(,O,O
-Jamaica,NNP,B-NP,B-LOC
-),),O,O
-55.13,CD,B-NP,O
-seconds,NNS,I-NP,O

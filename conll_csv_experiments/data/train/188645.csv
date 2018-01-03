@@ -1,8 +1,0 @@
-0,1,2,3
-3.,NNP,B-NP,O
-Lance,NNP,I-NP,B-PER
-Armstrong,NNP,I-NP,I-PER
-(,(,O,O
-U.S.,NNP,B-NP,B-LOC
-),),O,O
-Motorola,NNP,B-NP,B-ORG

@@ -1,9 +1,0 @@
-0,1,2,3
-Britain,NNP,B-NP,B-LOC
-condemns,VBZ,B-VP,O
-Iraq,NNP,B-NP,B-LOC
-involvement,NN,I-NP,O
-in,IN,B-PP,O
-Arbil,NNP,B-NP,B-LOC
-attack,NN,B-NP,O
-.,.,O,O

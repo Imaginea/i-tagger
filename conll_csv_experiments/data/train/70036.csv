@@ -1,8 +1,0 @@
-0,1,2,3
-2.,NNP,B-NP,O
-Anne,NNP,I-NP,B-PER
-Marken,NNP,I-NP,I-PER
-(,(,O,O
-Belgium,NNP,B-NP,B-LOC
-),),O,O
-55.90,CD,B-NP,O

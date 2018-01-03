@@ -1,7 +1,0 @@
-0,1,2,3
-Widzew,NNP,B-NP,B-ORG
-Lodz,NNP,I-NP,I-ORG
-3,CD,I-NP,O
-Ruch,NNP,I-NP,B-ORG
-Chorzow,NNP,I-NP,I-ORG
-0,CD,I-NP,O

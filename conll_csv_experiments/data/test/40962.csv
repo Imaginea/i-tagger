@@ -1,8 +1,0 @@
-0,1,2,3
-29.,CD,B-NP,O
-Patrizia,NNP,I-NP,B-PER
-Bassis,NNP,I-NP,I-PER
-(,(,O,O
-Italy,NNP,B-NP,B-LOC
-),),O,O
-1:51.13,CD,B-NP,O

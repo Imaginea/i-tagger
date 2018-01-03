@@ -1,8 +1,0 @@
-0,1,2,3
-Russian,JJ,B-NP,B-MISC
-shares,NNS,I-NP,O
-slip,VBP,B-VP,O
-in,IN,B-PP,O
-thin,JJ,B-NP,O
-volume,NN,I-NP,O
-.,.,O,O

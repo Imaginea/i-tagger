@@ -1,7 +1,0 @@
-0,1,2,3
-Werder,NNP,B-NP,B-ORG
-Bremen,NNP,I-NP,I-ORG
-1,CD,I-NP,O
-1860,CD,I-NP,B-ORG
-Munich,NNP,I-NP,I-ORG
-1,CD,I-NP,O

@@ -1,8 +1,0 @@
-0,1,2,3
---,:,O,O
-Abidjan,JJ,B-NP,B-LOC
-newsroom,NN,I-NP,O
-+225,CD,B-NP,O
-21,CD,I-NP,O
-90,CD,B-NP,O
-90,CD,I-NP,O

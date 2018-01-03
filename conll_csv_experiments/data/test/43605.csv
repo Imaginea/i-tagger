@@ -1,9 +1,0 @@
-0,1,2,3
-4,CD,B-NP,O
--,:,I-NP,O
-Peter,NNP,I-NP,B-PER
-Beardsley,NNP,I-NP,I-PER
-(,(,O,O
-Newcastle,NNP,B-NP,B-ORG
-),),O,O
-.,.,O,O

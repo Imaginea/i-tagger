@@ -1,9 +1,0 @@
-0,1,2,3
-15.,CD,B-NP,O
-Retief,NNP,I-NP,B-PER
-Goosen,NNP,I-NP,I-PER
-(,(,O,O
-South,NNP,B-NP,B-LOC
-Africa,NNP,I-NP,I-LOC
-),),O,O
-"195,283",CD,B-NP,O

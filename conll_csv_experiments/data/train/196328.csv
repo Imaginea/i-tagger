@@ -1,9 +1,0 @@
-0,1,2,3
-None,NN,B-NP,O
-of,IN,B-PP,O
-the,DT,B-NP,O
-attackers,NNS,I-NP,O
-has,VBZ,B-VP,O
-been,VBN,I-VP,O
-caught,VBN,I-VP,O
-.,.,O,O

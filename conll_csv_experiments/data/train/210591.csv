@@ -1,6 +1,0 @@
-0,1,2,3
-Gas,NNP,B-NP,O
-oil,NN,I-NP,O
-"1,600",CD,I-NP,O
-"1,650",CD,I-NP,O
-"1,850-1,900",CD,I-NP,O

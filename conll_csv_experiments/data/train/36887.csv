@@ -1,9 +1,0 @@
-0,1,2,3
-1.,CD,B-NP,O
-Lars,NNP,I-NP,B-PER
-Riedel,NNP,I-NP,I-PER
-(,(,O,O
-Germany,NNP,B-NP,B-LOC
-),),O,O
-66.74,CD,B-NP,O
-metres,NNS,I-NP,O

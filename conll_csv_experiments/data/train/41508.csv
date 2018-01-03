@@ -1,9 +1,0 @@
-0,1,2,3
-Russians,NNPS,B-NP,B-MISC
-",",",",O,O
-Chechens,NNPS,B-NP,B-MISC
-say,VBP,B-VP,O
-observing,VBG,I-VP,O
-Grozny,NNP,B-NP,B-LOC
-ceasefire,NN,I-NP,O
-.,.,O,O

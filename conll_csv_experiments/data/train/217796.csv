@@ -1,8 +1,0 @@
-0,1,2,3
-4.,CD,B-NP,O
-Tatiana,NNP,I-NP,B-PER
-Stiajkina,NNP,I-NP,I-PER
-(,(,O,O
-Ukraine,NNP,B-NP,B-LOC
-),),O,O
-11,CD,B-NP,O

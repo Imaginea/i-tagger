@@ -1,8 +1,0 @@
-0,1,2,3
-S.,NNP,B-NP,B-PER
-Campbell,NNP,I-NP,I-PER
-c,SYM,O,O
-Healy,NNP,B-NP,B-PER
-b,SYM,O,O
-Gillespie,NNP,B-NP,B-PER
-31,CD,I-NP,O

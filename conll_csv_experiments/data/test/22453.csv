@@ -1,9 +1,0 @@
-0,1,2,3
---,:,B-NP,O
-Roger,NNP,I-NP,B-PER
-Atwood,NNP,I-NP,I-PER
-",",",",O,O
-Santiago,NN,B-NP,B-LOC
-newsroom,NN,I-NP,O
-+56-2-699-5595,NN,I-NP,O
-x211,CD,I-NP,O

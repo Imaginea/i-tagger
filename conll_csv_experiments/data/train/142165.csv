@@ -1,7 +1,0 @@
-0,1,2,3
---,:,B-NP,O
-Reuters,NNP,I-NP,B-ORG
-Toronto,NNP,I-NP,I-ORG
-Bureau,NNP,I-NP,I-ORG
-416,CD,I-NP,O
-941-8100,CD,I-NP,O

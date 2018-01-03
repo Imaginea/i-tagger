@@ -1,7 +1,0 @@
-0,1,2,3
-AEK,NNP,B-NP,B-ORG
-Larnaca,NNP,I-NP,I-ORG
-win,VBP,B-VP,O
-5-1,CD,B-NP,O
-on,IN,B-PP,O
-aggregate,JJ,B-NP,O

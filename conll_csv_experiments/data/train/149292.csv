@@ -1,8 +1,0 @@
-0,1,2,3
-3.,NNP,B-NP,O
-Philip,NNP,I-NP,B-PER
-Kibitok,NNP,I-NP,I-PER
-(,(,O,O
-Kenya,NNP,B-NP,B-LOC
-),),O,O
-1:46.09,CD,B-NP,O

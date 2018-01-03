@@ -1,9 +1,0 @@
-0,1,2,3
-Indian,JJ,B-NP,B-MISC
-cotton,NN,I-NP,O
-trade,NN,I-NP,O
-shut,VBD,B-VP,O
-for,IN,B-PP,O
-local,JJ,B-NP,O
-festival,NN,I-NP,O
-.,.,O,O

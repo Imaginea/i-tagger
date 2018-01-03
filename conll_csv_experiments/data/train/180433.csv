@@ -1,8 +1,0 @@
-0,1,2,3
-The,DT,B-NP,O
-Commission,NNP,I-NP,B-ORG
-released,VBD,B-VP,O
-the,DT,B-NP,O
-following,JJ,I-NP,O
-documents,NNS,I-NP,O
-:,:,O,O

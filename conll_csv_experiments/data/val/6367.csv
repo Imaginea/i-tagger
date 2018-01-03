@@ -1,9 +1,0 @@
-0,1,2,3
-2.,CD,B-NP,O
-Inga,NNP,I-NP,B-PER
-Babakova,NNP,I-NP,I-PER
-(,(,O,O
-Ukraine,NNP,B-NP,B-LOC
-),),O,O
-2.00,CD,B-NP,O
-metres,NNS,I-NP,O

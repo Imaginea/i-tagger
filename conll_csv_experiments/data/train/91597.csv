@@ -1,6 +1,0 @@
-0,1,2,3
-premier,NN,B-NP,O
-league,NN,I-NP,O
-soccer,NN,I-NP,O
-match,NN,I-NP,O
-:,:,O,O

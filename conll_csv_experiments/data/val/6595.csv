@@ -1,8 +1,0 @@
-0,1,2,3
-4.,CD,B-NP,O
-Heli,NNP,I-NP,B-PER
-Rantanen,NNP,I-NP,I-PER
-(,(,O,O
-Finland,NNP,B-NP,B-LOC
-),),O,O
-62.78,CD,B-NP,O

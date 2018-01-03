@@ -1,8 +1,0 @@
-0,1,2,3
-Add,VB,B-VP,O
-Women,NNP,B-NP,O
-'s,POS,B-NP,O
-singles,NN,I-NP,O
-",",",",O,O
-second,JJ,B-NP,O
-round,NN,I-NP,O

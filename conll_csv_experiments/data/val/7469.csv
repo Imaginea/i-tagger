@@ -1,8 +1,0 @@
-0,1,2,3
-D.,NNP,B-NP,B-PER
-Lehmann,NNP,I-NP,I-PER
-st,NN,I-NP,O
-Kaluwitharana,NNP,I-NP,B-PER
-b,SYM,O,O
-Chandana,NNP,B-NP,B-PER
-2,CD,I-NP,O

@@ -1,9 +1,0 @@
-0,1,2,3
-Egypt,NNP,B-NP,B-LOC
-blames,VBZ,B-VP,O
-Istanbul,NNP,B-NP,B-LOC
-control,NN,I-NP,O
-tower,NN,I-NP,O
-for,IN,B-PP,O
-accident,NN,B-NP,O
-.,.,O,O

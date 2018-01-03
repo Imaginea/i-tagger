@@ -1,8 +1,0 @@
-0,1,2,3
-Aid,NN,B-NP,O
-agency,NN,I-NP,O
-says,VBZ,B-VP,O
-Sudan,NNP,B-NP,B-LOC
-missionaries,NNS,I-NP,O
-released,VBN,B-VP,O
-.,.,O,O

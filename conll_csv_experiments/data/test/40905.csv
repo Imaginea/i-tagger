@@ -1,8 +1,0 @@
-0,1,2,3
-22.,CD,B-NP,O
-Bibiana,NNP,I-NP,B-PER
-Perez,NNP,I-NP,I-PER
-(,(,O,O
-Italy,NNP,B-NP,B-LOC
-),),O,O
-1:50.65,CD,B-NP,O

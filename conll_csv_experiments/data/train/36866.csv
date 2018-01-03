@@ -1,8 +1,0 @@
-0,1,2,3
-7.,CD,B-NP,O
-Fita,NNP,I-NP,B-PER
-Bayesa,NNP,I-NP,I-PER
-(,(,O,O
-Ethiopia,NNP,B-NP,B-LOC
-),),O,O
-7:38.09,CD,B-NP,O

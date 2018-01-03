@@ -1,9 +1,0 @@
-0,1,2,3
-Woman,NN,B-NP,O
-charged,VBN,B-VP,O
-over,IN,B-PP,O
-N.,NNP,B-NP,B-LOC
-Ireland,NNP,I-NP,I-LOC
-arms,NNS,I-NP,O
-find,VBP,B-VP,O
-.,.,O,O

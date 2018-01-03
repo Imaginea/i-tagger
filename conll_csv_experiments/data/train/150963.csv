@@ -1,8 +1,0 @@
-0,1,2,3
-8.,NNP,B-NP,O
-Edouard,NNP,I-NP,B-PER
-Gritsoun,NNP,I-NP,I-PER
-(,(,O,O
-Russia,NNP,B-NP,B-LOC
-),),O,O
-4:26.467,CD,B-NP,O

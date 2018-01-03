@@ -1,9 +1,0 @@
-0,1,2,3
-The,DT,B-NP,O
-woman,NN,I-NP,O
-was,VBD,B-VP,O
-later,RB,I-VP,O
-arrested,VBN,I-VP,O
-in,IN,B-PP,O
-Belgium,NNP,B-NP,B-LOC
-.,.,O,O

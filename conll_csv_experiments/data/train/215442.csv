@@ -1,8 +1,0 @@
-0,1,2,3
-Core,NNP,B-NP,O
-Inflation,NN,I-NP,O
-+0.1,CD,I-NP,O
-"+0,2",CD,I-NP,O
-"+0,2",CD,I-NP,O
--,:,I-NP,O
--,:,O,O

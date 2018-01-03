@@ -1,8 +1,0 @@
-0,1,2,3
-Nigeria,NNP,B-NP,B-LOC
-would,MD,B-VP,O
-not,RB,I-VP,O
-refuse,VB,I-VP,O
-Commonwealth,NNP,B-NP,B-ORG
-officials,NNS,I-NP,O
-.,.,O,O

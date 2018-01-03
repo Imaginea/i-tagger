@@ -1,8 +1,0 @@
-0,1,2,3
-4.,CD,B-NP,O
-Herve,NNP,I-NP,B-PER
-Thuet,NNP,I-NP,I-PER
-(,(,O,O
-France,NNP,B-NP,B-LOC
-),),O,O
-1:04.732,CD,B-NP,O

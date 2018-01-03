@@ -1,8 +1,0 @@
-0,1,2,3
-Middlesex,NNP,B-NP,B-ORG
-20,CD,I-NP,O
-points,NNS,I-NP,O
-",",",",O,O
-Hampshire,NNP,B-NP,B-ORG
-5,CD,I-NP,O
-.,.,O,O

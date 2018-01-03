@@ -1,8 +1,0 @@
-0,1,2,3
-Qualifiers,NNS,B-NP,O
-for,IN,B-PP,O
-Wednesday,NNP,B-NP,O
-evening,NN,I-NP,O
-'s,POS,B-NP,O
-quarter-finals,NN,I-NP,O
-:,:,O,O

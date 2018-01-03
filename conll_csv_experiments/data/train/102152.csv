@@ -1,9 +1,0 @@
-0,1,2,3
-E.,NNP,B-NP,B-PER
-Brandes,NNP,I-NP,I-PER
-c,SYM,O,O
-Hogg,NNP,B-NP,B-PER
-b,SYM,O,O
-M.,NNP,B-NP,B-PER
-Waugh,NNP,I-NP,I-PER
-17,CD,I-NP,O

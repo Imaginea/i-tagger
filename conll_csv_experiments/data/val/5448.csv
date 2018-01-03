@@ -1,8 +1,0 @@
-0,1,2,3
-5.,NNP,B-NP,O
-Dionne,NNP,I-NP,B-PER
-Rose,NNP,I-NP,I-PER
-(,(,O,O
-Jamaica,NNP,B-NP,B-LOC
-),),O,O
-12.92,CD,B-NP,O

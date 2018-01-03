@@ -1,6 +1,0 @@
-0,1,2,3
-M.,NNP,B-NP,B-PER
-Slater,NNP,I-NP,I-PER
-run,VBP,B-VP,O
-out,RP,B-PRT,O
-9,CD,B-NP,O

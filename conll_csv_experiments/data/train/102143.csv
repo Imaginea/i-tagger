@@ -1,7 +1,0 @@
-0,1,2,3
-H.,NNP,B-NP,B-PER
-Streak,NNP,I-NP,I-PER
-b,SYM,O,O
-M.,NNP,B-NP,B-PER
-Waugh,NNP,I-NP,I-PER
-0,CD,I-NP,O

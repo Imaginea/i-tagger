@@ -1,9 +1,0 @@
-0,1,2,3
-Croft,NNP,B-NP,B-PER
-29-6-64-1,CD,I-NP,O
-",",",",O,O
-Cork,NNP,B-NP,B-PER
-14.3-4-45-1,CD,I-NP,O
-",",",",O,O
-Salisbury,NNP,B-NP,B-PER
-17-0-91-0,NNP,I-NP,O

@@ -1,8 +1,0 @@
-0,1,2,3
-Telephone,NN,B-NP,O
-:,:,O,O
-(,(,O,O
-6221,CD,B-NP,O
-),),O,O
-384-6364,RB,B-ADVP,O
-.,.,O,O

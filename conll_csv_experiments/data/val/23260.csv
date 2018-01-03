@@ -1,8 +1,0 @@
-0,1,2,3
-DELIVERY,NNPS,B-NP,O
-:,:,O,O
-45,CD,B-NP,O
-days,NNS,I-NP,O
-approx,VBP,B-VP,O
-ORDERS,NNS,B-NP,O
-:,:,O,O

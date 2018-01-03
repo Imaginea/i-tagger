@@ -1,8 +1,0 @@
-0,1,2,3
-66,CD,B-NP,O
-Gavin,NNP,I-NP,B-PER
-Levenson,NNP,I-NP,I-PER
-(,(,O,O
-South,NNP,B-NP,B-LOC
-Africa,NNP,I-NP,I-LOC
-),),O,O

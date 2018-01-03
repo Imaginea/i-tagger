@@ -1,6 +1,0 @@
-0,1,2,3
-+4,NNP,B-NP,O
-Willie,NNP,I-NP,B-PER
-Wood,NNP,I-NP,I-PER
-through,IN,B-PP,O
-17,CD,B-NP,O

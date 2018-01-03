@@ -1,7 +1,0 @@
-0,1,2,3
--,:,O,O
-1,CD,B-NP,O
-Justin,NNP,I-NP,B-PER
-Leonard,NNP,I-NP,I-PER
-through,IN,B-PP,O
-3,CD,B-NP,O

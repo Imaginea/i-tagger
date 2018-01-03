@@ -1,8 +1,0 @@
-0,1,2,3
-4.,CD,B-NP,O
-Annemari,NNP,I-NP,B-PER
-Sandell,NNP,I-NP,I-PER
-(,(,O,O
-Finland,NNP,B-NP,B-LOC
-),),O,O
-15:06.33,CD,B-NP,O

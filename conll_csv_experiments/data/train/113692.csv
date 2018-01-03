@@ -1,8 +1,0 @@
-0,1,2,3
-A.G.,NNP,B-NP,B-ORG
-Edwards,NNP,I-NP,I-ORG
-&,CC,I-NP,I-ORG
-Sons,NNPS,I-NP,I-ORG
-",",",",O,I-ORG
-Inc,NNP,B-NP,I-ORG
-.,.,O,O

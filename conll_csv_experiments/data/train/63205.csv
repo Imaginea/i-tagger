@@ -1,9 +1,0 @@
-0,1,2,3
-Iran,NNP,B-NP,B-LOC
-hangs,VBZ,B-VP,O
-two,CD,B-NP,O
-men,NNS,I-NP,O
-for,IN,B-PP,O
-drug,NN,B-NP,O
-trafficking,NN,I-NP,O
-.,.,O,O

@@ -1,7 +1,0 @@
-0,1,2,3
-laPena,SYM,O,B-PER
-20-1,CD,B-NP,O
-Luis,NNP,B-NP,B-PER
-Milla,NNP,I-NP,I-PER
-25-1,NNP,I-NP,O
-Luis,NNP,I-NP,B-PER

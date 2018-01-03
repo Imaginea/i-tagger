@@ -1,9 +1,0 @@
-0,1,2,3
-Revenue,NN,B-NP,O
-from,IN,B-PP,O
-freight,NN,B-NP,O
-traffic,NN,I-NP,O
-"3,200",CD,I-NP,O
-down,IN,B-PP,O
-5.1,CD,B-NP,O
-pct,NNS,I-NP,O

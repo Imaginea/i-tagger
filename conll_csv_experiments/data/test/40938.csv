@@ -1,8 +1,0 @@
-0,1,2,3
-26.,CD,B-NP,O
-Brigitte,NNP,I-NP,B-PER
-Obermoser,NNP,I-NP,I-PER
-(,(,O,O
-Austria,NNP,B-NP,B-LOC
-),),O,O
-1:50.99,CD,B-NP,O

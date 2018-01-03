@@ -1,9 +1,0 @@
-0,1,2,3
-8.,NNP,B-NP,O
-Kim,NNP,I-NP,B-PER
-Yoon-man,NNP,I-NP,I-PER
-(,(,O,O
-South,NNP,B-NP,B-LOC
-Korea,NNP,I-NP,I-LOC
-),),O,O
-1:16.75,CD,B-NP,O

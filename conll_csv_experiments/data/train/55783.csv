@@ -1,9 +1,0 @@
-0,1,2,3
-At,IN,B-PP,O
-Colchester,NNP,B-NP,B-LOC
-:,:,O,O
-Gloucestershire,VB,B-VP,B-ORG
-280,CD,B-NP,O
-and,CC,I-NP,O
-27-4,NNS,I-NP,O
-.,.,O,O

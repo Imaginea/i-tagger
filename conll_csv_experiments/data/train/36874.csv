@@ -1,8 +1,0 @@
-0,1,2,3
-8.,NNP,B-NP,O
-Martin,NNP,I-NP,B-PER
-Keino,NNP,I-NP,I-PER
-(,(,O,O
-Kenya,NNP,B-NP,B-LOC
-),),O,O
-7:38.88,CD,B-NP,O

@@ -1,7 +1,0 @@
-0,1,2,3
-Death,NN,B-NP,O
-strikes,NNS,I-NP,O
-in,IN,B-PP,O
-early,JJ,B-NP,O
-adulthood,NN,I-NP,O
-.,.,O,O

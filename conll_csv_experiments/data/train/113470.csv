@@ -1,9 +1,0 @@
-0,1,2,3
-PAYING,VBG,B-VP,O
-AGENT,NNP,B-NP,O
-:,:,O,O
-WesBanco,NNP,B-NP,B-ORG
-Bank,NNP,I-NP,I-ORG
-Fairmont,NNP,B-NP,B-LOC
-",",",",O,O
-Fairmont,NNP,B-NP,B-LOC

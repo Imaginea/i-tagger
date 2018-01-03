@@ -1,8 +1,0 @@
-0,1,2,3
-Mid-tier,NN,B-NP,O
-golds,NNS,I-NP,O
-up,IN,B-PP,O
-in,IN,B-PP,O
-heavy,JJ,B-NP,O
-trading,NN,I-NP,O
-.,.,O,O

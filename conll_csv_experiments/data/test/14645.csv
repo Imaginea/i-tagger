@@ -1,8 +1,0 @@
-0,1,2,3
-Electronic,NNP,B-NP,B-ORG
-Data,NNP,I-NP,I-ORG
-bags,NNS,I-NP,O
-flight,NN,I-NP,O
-data,NNS,I-NP,O
-contract,NN,I-NP,O
-.,.,O,O

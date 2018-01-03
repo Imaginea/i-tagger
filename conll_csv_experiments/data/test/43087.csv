@@ -1,8 +1,0 @@
-0,1,2,3
-3.,NNP,B-NP,O
-Marianne,NNP,I-NP,B-PER
-Timmer,NNP,I-NP,I-PER
-(,(,I-NP,O
-Netherlands,NNP,I-NP,B-LOC
-),),O,O
-1:24.86,CD,B-NP,O

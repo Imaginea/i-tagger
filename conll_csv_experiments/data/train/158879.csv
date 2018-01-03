@@ -1,7 +1,0 @@
-0,1,2,3
-Bayern,NNP,B-NP,B-ORG
-Munich,NNP,I-NP,I-ORG
-4,CD,I-NP,O
-Bayer,NNP,I-NP,B-ORG
-Leverkusen,NNP,I-NP,I-ORG
-2,CD,I-NP,O

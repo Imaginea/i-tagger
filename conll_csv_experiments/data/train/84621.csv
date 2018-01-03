@@ -1,8 +1,0 @@
-0,1,2,3
-Port,NNP,O,O
-of,IN,B-PP,O
-Tauranaga,NNP,B-NP,B-LOC
-year,NN,I-NP,O
-profit,NN,I-NP,O
-climbs,NNS,I-NP,O
-.,.,O,O

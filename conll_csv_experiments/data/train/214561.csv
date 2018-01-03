@@ -1,9 +1,0 @@
-0,1,2,3
-The,DT,B-NP,O
-police,NNS,I-NP,O
-are,VBP,B-VP,O
-still,RB,I-VP,O
-investigating,VBG,I-VP,O
-the,DT,B-NP,O
-incident,NN,I-NP,O
-.,.,O,O

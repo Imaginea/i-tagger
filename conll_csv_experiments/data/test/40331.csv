@@ -1,9 +1,0 @@
-0,1,2,3
-1.,CD,B-NP,O
-Katja,NNP,I-NP,B-PER
-Seizinger,NNP,I-NP,I-PER
-(,(,O,O
-Germany,NNP,B-NP,B-LOC
-),),O,O
-414,CD,B-NP,O
-points,NNS,I-NP,O

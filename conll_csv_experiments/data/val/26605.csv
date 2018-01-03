@@ -1,9 +1,0 @@
-0,1,2,3
-Teenage,NN,B-NP,O
-shop,NN,I-NP,O
-assistant,NN,I-NP,O
-Heidi,NNP,I-NP,B-PER
-Groenstein,NNP,I-NP,I-PER
-was,VBD,B-VP,O
-blunter,NN,I-VP,O
-.,.,O,O

@@ -1,8 +1,0 @@
-0,1,2,3
-4.,CD,B-NP,O
-Torrance,NNP,I-NP,B-PER
-Zellner,NNP,I-NP,I-PER
-(,(,O,O
-U.S.,NNP,B-NP,B-LOC
-),),O,O
-49.06,CD,B-NP,O

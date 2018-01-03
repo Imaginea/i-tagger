@@ -1,8 +1,0 @@
-0,1,2,3
-Seoul,NNP,B-NP,B-LOC
-embassies,NNS,I-NP,O
-warned,VBD,B-VP,O
-of,IN,B-PP,O
-terrorist,JJ,B-NP,O
-attacks,NNS,I-NP,O
-.,.,O,O

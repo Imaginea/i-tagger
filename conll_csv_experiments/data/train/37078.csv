@@ -1,8 +1,0 @@
-0,1,2,3
-7.,NNP,B-NP,O
-Laban,NNP,I-NP,B-PER
-Rotich,NNP,I-NP,I-PER
-(,(,O,O
-Kenya,NNP,B-NP,B-LOC
-),),O,O
-3:34.12,CD,B-NP,O

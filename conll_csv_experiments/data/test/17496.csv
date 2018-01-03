@@ -1,9 +1,0 @@
-0,1,2,3
-U.N.,NNP,B-NP,B-ORG
-evacuates,VBZ,B-VP,O
-staff,NN,B-NP,O
-from,IN,B-PP,O
-Central,JJ,B-NP,B-LOC
-African,JJ,I-NP,I-LOC
-Republic,NNP,I-NP,I-LOC
-.,.,O,O

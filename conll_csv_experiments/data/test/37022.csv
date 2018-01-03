@@ -1,6 +1,0 @@
-0,1,2,3
-King,NNP,B-NP,B-MISC
-Ace,NN,I-NP,I-MISC
-22/11/96,CD,I-NP,O
-"5,000",CD,I-NP,O
-Japan,NNP,I-NP,B-LOC

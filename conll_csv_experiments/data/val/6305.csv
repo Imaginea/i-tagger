@@ -1,8 +1,0 @@
-0,1,2,3
-3.,NNP,B-NP,O
-Maksim,NNP,I-NP,B-PER
-Tarasov,NNP,I-NP,I-PER
-(,(,O,O
-Russia,NNP,B-NP,B-LOC
-),),O,O
-5.86,CD,B-NP,O

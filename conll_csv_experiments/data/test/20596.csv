@@ -1,8 +1,0 @@
-0,1,2,3
-The,DT,B-NP,O
-majority,NN,I-NP,O
-in,IN,B-PP,O
-Bulgaria,NNP,B-NP,B-LOC
-are,VBP,B-VP,O
-Christians,NNPS,B-NP,B-MISC
-.,.,O,O

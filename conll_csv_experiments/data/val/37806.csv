@@ -1,8 +1,0 @@
-0,1,2,3
-That,DT,B-NP,O
-is,VBZ,B-VP,O
-our,PRP$,B-NP,O
-sole,JJ,I-NP,O
-goal,NN,I-NP,O
-.,.,O,O
- ,O,O,<UNK>

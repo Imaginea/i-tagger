@@ -1,8 +1,0 @@
-0,1,2,3
-1.,CD,B-NP,O
-Robert,NNP,I-NP,B-PER
-Kibet,NNP,I-NP,I-PER
-(,(,O,O
-Kenya,NNP,B-NP,B-LOC
-),),O,O
-1:45.24,CD,B-NP,O

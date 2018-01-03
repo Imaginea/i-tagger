@@ -1,8 +1,0 @@
-0,1,2,3
-2.,NNP,B-NP,O
-Norberto,NNP,I-NP,B-PER
-Tellez,NNP,I-NP,I-PER
-(,(,O,O
-Cuba,NNP,B-NP,B-LOC
-),),O,O
-1:44.58,CD,B-NP,O

@@ -1,8 +1,0 @@
-0,1,2,3
-3.,NNP,B-NP,O
-Anthuan,NNP,I-NP,B-PER
-Maybank,NNP,I-NP,I-PER
-(,(,O,O
-U.S.,NNP,B-NP,B-LOC
-),),O,O
-44.92,CD,B-NP,O

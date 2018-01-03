@@ -1,7 +1,0 @@
-0,1,2,3
-3.,NNP,B-NP,O
-Johan,NNP,I-NP,B-PER
-Museeuw,NNP,I-NP,I-PER
-(,(,O,O
-Belgium,NNP,B-NP,B-LOC
-),),O,O

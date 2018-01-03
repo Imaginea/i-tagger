@@ -1,8 +1,0 @@
-0,1,2,3
-3.,NNP,B-NP,O
-Robert,NNP,I-NP,B-PER
-Allenby,NNP,I-NP,I-PER
-(,(,O,O
-Australia,NNP,B-NP,B-LOC
-),),O,O
-"407,748",CD,B-NP,O

@@ -1,8 +1,0 @@
-0,1,2,3
-RESEARCH,NNP,B-NP,O
-ALERT,NNP,I-NP,O
--,:,O,O
-Unitog,NNP,B-NP,B-ORG
-Co,NNP,I-NP,I-ORG
-upgraded,VBD,B-VP,O
-.,.,O,O

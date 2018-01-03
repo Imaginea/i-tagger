@@ -1,8 +1,0 @@
-0,1,2,3
-3.,NNP,B-NP,O
-Patrik,NNP,I-NP,B-PER
-Sjoberg,NNP,I-NP,I-PER
-(,(,O,O
-Sweden,NNP,B-NP,B-LOC
-),),O,O
-2.25,CD,B-NP,O

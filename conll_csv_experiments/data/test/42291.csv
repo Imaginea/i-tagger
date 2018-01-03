@@ -1,8 +1,0 @@
-0,1,2,3
-9.,CD,B-NP,O
-Trace,NNP,I-NP,B-PER
-Worthington,NNP,I-NP,I-PER
-(,(,O,O
-U.S.,NNP,B-NP,B-LOC
-),),O,O
-192.36,CD,B-NP,O

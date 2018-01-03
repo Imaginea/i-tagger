@@ -1,8 +1,0 @@
-0,1,2,3
-13.,CD,B-NP,O
-Paul,NNP,I-NP,B-PER
-McGinley,NNP,I-NP,I-PER
-(,(,O,O
-Ireland,NNP,B-NP,B-LOC
-),),O,O
-"208,978",CD,B-NP,O

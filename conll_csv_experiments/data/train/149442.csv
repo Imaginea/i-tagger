@@ -1,9 +1,0 @@
-0,1,2,3
-first-round,JJ,B-NP,O
-scores,NNS,I-NP,O
-in,IN,B-PP,O
-the,DT,B-NP,O
-rain-affected,JJ,I-NP,O
-British,NNP,I-NP,B-MISC
-Masters,NNP,I-NP,I-MISC
-golf,NN,I-NP,O

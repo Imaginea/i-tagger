@@ -1,8 +1,0 @@
-0,1,2,3
- ,O,O,<UNK>
-Weather,NNP,B-NP,O
-forecasts,VBZ,B-VP,O
-have,VB,I-VP,O
-been,VBN,I-VP,O
-sketchy,JJ,B-ADJP,O
-.,.,O,O

@@ -1,9 +1,0 @@
-0,1,2,3
-An,DT,B-NP,O
-announcement,NN,I-NP,O
-was,VBD,B-VP,O
-planned,VBN,I-VP,O
-in,IN,B-PP,O
-Chicago,NNP,B-NP,B-LOC
-Wednesday,NNP,I-NP,O
-.,.,O,O

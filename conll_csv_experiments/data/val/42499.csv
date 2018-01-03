@@ -1,9 +1,0 @@
-0,1,2,3
-metres,NNS,B-NP,O
-),),O,O
-at,IN,B-PP,O
-The,DT,B-NP,B-LOC
-Curragh,NNP,I-NP,I-LOC
-on,IN,B-PP,O
-Saturday,NNP,B-NP,O
-:,:,O,O

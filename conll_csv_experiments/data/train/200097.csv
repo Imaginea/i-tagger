@@ -1,8 +1,0 @@
-0,1,2,3
-Researchers,NNS,B-NP,O
-report,VB,B-VP,O
-progress,NN,B-NP,O
-in,IN,B-PP,O
-muscular,JJ,B-NP,O
-dystrophy,NN,I-NP,O
-.,.,O,O

@@ -1,8 +1,0 @@
-0,1,2,3
-3.,NNP,B-NP,O
-Carla,NNP,I-NP,B-PER
-Sacramento,NNP,I-NP,I-PER
-(,(,O,O
-Portugal,NNP,B-NP,B-LOC
-),),O,O
-4:08.96,CD,B-NP,O

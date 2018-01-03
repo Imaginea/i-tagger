@@ -1,8 +1,0 @@
-0,1,2,3
-Goldman,NNP,B-NP,B-ORG
-Sachs,NNP,I-NP,I-ORG
-sets,VBZ,B-VP,O
-warrants,NNS,B-NP,O
-on,IN,B-PP,O
-Continental,NNP,B-NP,B-ORG
-.,.,O,O

@@ -1,6 +1,0 @@
-0,1,2,3
-number,NN,B-NP,O
-of,IN,B-PP,O
-games,NNS,B-NP,O
-won,VBD,B-VP,O
-.,.,O,O

@@ -1,8 +1,0 @@
-0,1,2,3
-Hapoel,NNP,B-NP,B-ORG
-Jerusalem,NNP,I-NP,I-ORG
-0,CD,I-NP,O
-Maccabi,NNP,I-NP,B-ORG
-Tel,NNP,I-NP,I-ORG
-Aviv,NNP,I-NP,I-ORG
-4,CD,I-NP,O

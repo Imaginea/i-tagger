@@ -1,7 +1,0 @@
-0,1,2,3
-Tomas,NNP,B-NP,B-PER
-Cibola,NNP,I-NP,I-PER
-(,(,O,O
-58th,CD,B-NP,O
-),),O,O
-.,.,O,O

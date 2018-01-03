@@ -1,9 +1,0 @@
-0,1,2,3
-My,PRP$,B-NP,O
-biggest,JJS,I-NP,O
-problem,NN,I-NP,O
-against,IN,B-PP,O
-Jansher,NNP,B-NP,B-PER
-is,VBZ,B-VP,O
-concentration,NN,B-NP,O
-.,.,O,O

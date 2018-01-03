@@ -1,8 +1,0 @@
-0,1,2,3
-Boat,NNP,B-NP,O
-passengers,NNS,I-NP,O
-rescued,VBD,B-VP,O
-off,RP,B-PRT,O
-Colombian,JJ,B-NP,B-MISC
-coast,NN,I-NP,O
-.,.,O,O

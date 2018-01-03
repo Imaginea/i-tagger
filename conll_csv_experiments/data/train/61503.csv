@@ -1,7 +1,0 @@
-0,1,2,3
-Zimbabwe,NNP,B-NP,B-LOC
-fires,VBZ,B-VP,O
-striking,JJ,B-NP,O
-civil,JJ,I-NP,O
-servants,NNS,I-NP,O
-.,.,O,O

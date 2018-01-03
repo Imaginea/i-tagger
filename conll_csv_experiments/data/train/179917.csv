@@ -1,8 +1,0 @@
-0,1,2,3
-Stork,NNP,B-NP,B-ORG
-H1,NNP,I-NP,O
-results,NNS,I-NP,O
-breakdown,NN,I-NP,O
-per,IN,B-PP,O
-sector,NN,B-NP,O
-.,.,O,O

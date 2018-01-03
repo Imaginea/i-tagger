@@ -1,8 +1,0 @@
-0,1,2,3
-Fuel,NN,B-NP,O
-oil,NN,I-NP,O
-markets,NNS,I-NP,O
-were,VBD,B-VP,O
-also,RB,B-ADVP,O
-listless,JJ,B-ADJP,O
-.,.,O,O

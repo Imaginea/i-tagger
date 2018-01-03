@@ -1,9 +1,0 @@
-0,1,2,3
-Todd,NNP,B-NP,B-PER
-Woodbridge,NNP,I-NP,I-PER
-(,(,O,O
-Australia,NNP,B-NP,B-LOC
-),),O,O
-beat,VB,B-VP,O
-Mark,NNP,B-NP,B-PER
-Philippoussis,NNP,I-NP,I-PER

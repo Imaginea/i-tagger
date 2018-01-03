@@ -1,8 +1,0 @@
-0,1,2,3
-Oppenheimer,NNP,B-NP,B-ORG
-Capital,NNP,I-NP,I-ORG
-to,TO,B-VP,O
-review,VB,I-VP,O
-Oct.,NNP,B-NP,O
-div,NN,I-NP,O
-.,.,O,O

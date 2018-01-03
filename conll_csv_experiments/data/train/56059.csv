@@ -1,6 +1,0 @@
-0,1,2,3
-Results,NNS,B-NP,O
-of,IN,B-PP,O
-Scottish,JJ,B-NP,B-MISC
-league,NN,I-NP,O
-soccer,NN,I-NP,O

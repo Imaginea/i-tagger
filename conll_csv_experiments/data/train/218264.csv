@@ -1,9 +1,0 @@
-0,1,2,3
-8.,NNP,B-NP,O
-Carlos,NNP,I-NP,B-PER
-Checa,NNP,I-NP,I-PER
-(,(,O,O
-Spain,NNP,O,B-LOC
-),),O,O
-Honda,NNP,B-NP,B-ORG
-1:51.588,CD,I-NP,O

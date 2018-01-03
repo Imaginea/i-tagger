@@ -1,7 +1,0 @@
-0,1,2,3
-Inquiry,NNP,B-NP,O
-good,NN,I-NP,O
-",",",",O,O
-demand,NN,B-NP,O
-light,NN,I-NP,O
-.,.,O,O

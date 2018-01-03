@@ -1,8 +1,0 @@
-0,1,2,3
-Shareholders,NNS,B-NP,O
-',POS,B-NP,O
-Equity,NNP,I-NP,O
-"5,951",CD,I-NP,O
-(,(,O,O
-"1,461",CD,B-NP,O
-),),O,O

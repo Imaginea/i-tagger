@@ -1,6 +1,0 @@
-0,1,2,3
-Results,NNS,B-NP,O
-of,IN,B-PP,O
-British,JJ,B-NP,B-MISC
-rugby,JJ,I-NP,O
-union,NN,I-NP,O

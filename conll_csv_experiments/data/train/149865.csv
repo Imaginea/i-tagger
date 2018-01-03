@@ -1,9 +1,0 @@
-0,1,2,3
-3.,NNP,B-NP,O
-Sven,NNP,I-NP,B-PER
-Teutenberg,NNP,I-NP,I-PER
-(,(,O,O
-Germany,NNP,O,B-LOC
-),),O,O
-U.S.,NNP,B-NP,B-ORG
-Postal,NNP,I-NP,I-ORG

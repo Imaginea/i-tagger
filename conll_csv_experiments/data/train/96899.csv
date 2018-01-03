@@ -1,9 +1,0 @@
-0,1,2,3
-Puchon,NN,B-NP,B-ORG
-3,CD,I-NP,O
-Chonan,JJ,I-NP,B-ORG
-0,CD,I-NP,O
-(,(,I-NP,O
-halftime,NN,I-NP,O
-1-0,CD,I-NP,O
-),),O,O

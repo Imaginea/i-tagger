@@ -1,6 +1,0 @@
-0,1,2,3
-Borussia,NNP,B-NP,B-ORG
-Moenchengladbach,NNP,I-NP,I-ORG
-1,CD,I-NP,O
-Karlsruhe,NNP,I-NP,B-ORG
-3,CD,I-NP,O

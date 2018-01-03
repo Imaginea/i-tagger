@@ -1,9 +1,0 @@
-0,1,2,3
-5.,CD,B-NP,O
-Collin,NNP,I-NP,B-PER
-Dugmore,NNP,I-NP,I-PER
-(,(,O,O
-South,NNP,B-NP,B-LOC
-Africa,NNP,I-NP,I-LOC
-),),O,O
-Honda,NNP,B-NP,B-ORG

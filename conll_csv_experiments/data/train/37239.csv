@@ -1,8 +1,0 @@
-0,1,2,3
-7.,NNP,B-NP,O
-Abel,NNP,I-NP,B-PER
-Anton,NNP,I-NP,I-PER
-(,(,O,O
-Spain,NNP,B-NP,B-LOC
-),),O,O
-28:18.44,CD,B-NP,O

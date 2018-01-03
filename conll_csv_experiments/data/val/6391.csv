@@ -1,8 +1,0 @@
-0,1,2,3
-5.,CD,B-NP,O
-Hanne,NNP,I-NP,B-PER
-Haugland,NNP,I-NP,I-PER
-(,(,O,O
-Norway,NNP,B-NP,B-LOC
-),),O,O
-1.91,CD,B-NP,O

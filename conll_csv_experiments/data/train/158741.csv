@@ -1,8 +1,0 @@
-0,1,2,3
-Doetinchem,NNP,B-NP,B-ORG
-1,CD,I-NP,O
-(,(,O,O
-Schultz,NNP,B-NP,B-PER
-4th,JJ,I-NP,O
-),),O,O
-.,.,O,O

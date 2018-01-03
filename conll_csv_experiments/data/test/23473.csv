@@ -1,7 +1,0 @@
-0,1,2,3
-Thousands,NNS,B-NP,O
-were,VBD,B-VP,O
-killed,VBN,I-VP,O
-or,CC,I-VP,O
-imprisoned,VBN,I-VP,O
-.,.,O,O

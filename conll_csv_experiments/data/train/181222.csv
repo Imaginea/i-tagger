@@ -1,8 +1,0 @@
-0,1,2,3
---,:,B-NP,O
-London,NNP,I-NP,B-ORG
-Newsroom,NNP,I-NP,I-ORG
-+44,CD,I-NP,O
-171,CD,I-NP,O
-542,CD,I-NP,O
-7717,CD,I-NP,O

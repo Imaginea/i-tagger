@@ -1,8 +1,0 @@
-0,1,2,3
-7.,NNP,B-NP,O
-Johan,NNP,I-NP,B-PER
-Capiot,NNP,I-NP,I-PER
-(,(,O,O
-Belgium,NNP,B-NP,B-LOC
-),),O,O
-Collstrop,NNP,B-NP,B-ORG

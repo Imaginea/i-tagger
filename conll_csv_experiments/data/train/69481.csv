@@ -1,8 +1,0 @@
-0,1,2,3
-3.,NNP,B-NP,O
-Luigi,NNP,I-NP,B-PER
-Seguy,NNP,I-NP,I-PER
-(,(,O,O
-France,NNP,B-NP,B-LOC
-),),O,O
-TM,NNP,B-NP,B-ORG

@@ -1,9 +1,0 @@
-0,1,2,3
-Women,NNS,B-NP,O
-1.,CD,B-NP,O
-Tatjana,NNP,I-NP,B-PER
-Mittermayer,NNP,I-NP,I-PER
-(,(,O,O
-Germany,NNP,B-NP,B-LOC
-),),O,O
-24.32,CD,B-NP,O

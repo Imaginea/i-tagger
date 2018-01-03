@@ -1,9 +1,0 @@
-0,1,2,3
-Paribas,NNP,B-NP,B-ORG
-repeats,VBZ,B-VP,O
-buy,VB,I-VP,O
-on,IN,B-PP,O
-Aegon,NNP,B-NP,B-ORG
-after,IN,B-SBAR,O
-results,NNS,B-NP,O
-.,.,O,O

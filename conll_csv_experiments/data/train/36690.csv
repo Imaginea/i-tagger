@@ -1,8 +1,0 @@
-0,1,2,3
-3.,NNP,B-NP,O
-Irina,NNP,I-NP,B-PER
-Privalova,NNP,I-NP,I-PER
-(,(,O,O
-Russia,NNP,B-NP,B-LOC
-),),O,O
-22.68,CD,B-NP,O

@@ -1,9 +1,0 @@
-0,1,2,3
-Russians,NNPS,B-NP,B-MISC
-",",",",O,O
-rebels,NNS,B-NP,O
-sign,VB,B-VP,O
-deal,NN,B-NP,O
-in,IN,B-PP,O
-Chechnya,NNP,B-NP,B-LOC
-.,.,O,O

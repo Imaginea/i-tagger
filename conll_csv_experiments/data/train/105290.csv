@@ -1,9 +1,0 @@
-0,1,2,3
---,:,O,O
-Liliana,NNP,B-NP,B-PER
-Semerdjieva,NNP,I-NP,I-PER
-",",",",O,O
-Sofia,NNP,B-NP,B-ORG
-Newsroom,NNP,I-NP,I-ORG
-",",",",O,O
-359-2-84561,CD,B-NP,O

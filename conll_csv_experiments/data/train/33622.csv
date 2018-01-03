@@ -1,9 +1,0 @@
-0,1,2,3
-Hill,NNP,B-NP,B-PER
-(,(,O,O
-14-7,CD,B-NP,O
-),),O,O
-allowed,VBD,B-VP,O
-10,CD,B-NP,O
-hits,NNS,I-NP,O
-.,.,O,O

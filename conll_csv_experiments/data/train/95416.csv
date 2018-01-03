@@ -1,7 +1,0 @@
-0,1,2,3
-Petra,NNP,B-NP,B-ORG
-Drnovice,NN,I-NP,I-ORG
-1,CD,I-NP,O
-Slovan,NNP,I-NP,B-ORG
-Liberec,NNP,I-NP,I-ORG
-3,CD,I-NP,O

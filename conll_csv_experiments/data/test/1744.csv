@@ -1,9 +1,0 @@
-0,1,2,3
-J.,NNP,B-NP,B-PER
-Vaughan,NNP,I-NP,I-PER
-c,SYM,O,O
-Moin,NNP,B-NP,B-PER
-Khan,NNP,I-NP,I-PER
-b,SYM,O,O
-Wasim,NN,B-NP,B-PER
-13,CD,I-NP,O

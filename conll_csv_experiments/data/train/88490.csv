@@ -1,7 +1,0 @@
-0,1,2,3
-Two,NN,B-NP,O
-died,VBD,B-VP,O
-later,RB,B-ADVP,O
-in,IN,B-PP,O
-hospital,NN,B-NP,O
-.,.,O,O

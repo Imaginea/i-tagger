@@ -1,7 +1,0 @@
-0,1,2,3
-x-Olympiakos,NNS,B-NP,B-ORG
-v,IN,I-NP,O
-Ferencvaros,NNP,I-NP,B-ORG
-(,(,O,O
-Hungary,NNP,B-NP,B-LOC
-),),O,O

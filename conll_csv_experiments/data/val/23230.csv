@@ -1,8 +1,0 @@
-0,1,2,3
-DTD,NNP,B-NP,O
-:,:,O,O
-09/01/96,CD,B-NP,O
-SURE,NNP,I-NP,O
-BID,NNP,I-NP,O
-:,:,O,O
-Y,NNP,B-NP,O

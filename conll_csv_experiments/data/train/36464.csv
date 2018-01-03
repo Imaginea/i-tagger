@@ -1,8 +1,0 @@
-0,1,2,3
-4.,CD,B-NP,O
-Davis,NNP,I-NP,B-PER
-Kamoga,NNP,I-NP,I-PER
-(,(,O,O
-Uganda,NNP,B-NP,B-LOC
-),),O,O
-44.96,CD,B-NP,O

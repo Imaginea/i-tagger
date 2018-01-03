@@ -1,9 +1,0 @@
-0,1,2,3
-Jordanian,NNP,B-NP,B-MISC
-PM,NNP,I-NP,O
-Kabariti,NNP,I-NP,B-PER
-leaves,VBZ,B-VP,O
-for,IN,B-SBAR,O
-West,NNP,B-NP,B-LOC
-Bank,NNP,I-NP,I-LOC
-.,.,O,O

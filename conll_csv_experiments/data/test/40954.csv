@@ -1,8 +1,0 @@
-0,1,2,3
-28.,CD,B-NP,O
-Grete,NNP,I-NP,B-PER
-Stroem,NNP,I-NP,I-PER
-(,(,O,O
-Norway,NNP,B-NP,B-LOC
-),),O,O
-1:51.07,CD,B-NP,O

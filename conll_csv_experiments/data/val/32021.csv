@@ -1,9 +1,0 @@
-0,1,2,3
-12.,CD,B-NP,O
-Frank,NNP,I-NP,B-PER
-Nobilo,NNP,I-NP,I-PER
-(,(,O,O
-New,NNP,B-NP,B-LOC
-Zealand,NNP,I-NP,I-LOC
-),),O,O
-"209,412",CD,B-NP,O

@@ -1,8 +1,0 @@
-0,1,2,3
-7.,CD,B-NP,O
-Anneke,NNP,I-NP,B-PER
-Matthijs,NNP,I-NP,I-PER
-(,(,O,O
-Belgium,NNP,B-NP,B-LOC
-),),O,O
-2:43.82,CD,B-NP,O

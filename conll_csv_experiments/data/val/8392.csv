@@ -1,6 +1,0 @@
-0,1,2,3
-Jones,NNP,B-NP,B-ORG
-Medical,NNP,I-NP,I-ORG
-completes,VBZ,B-VP,O
-acquisition,RB,B-NP,O
-.,.,O,O

@@ -1,7 +1,0 @@
-0,1,2,3
-Pakistan,NNP,B-NP,B-LOC
-lead,NN,I-NP,O
-the,DT,B-NP,O
-series,NN,I-NP,O
-1-0,CD,I-NP,O
-.,.,O,O

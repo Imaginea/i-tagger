@@ -1,6 +1,0 @@
-0,1,2,3
-mph,NN,B-NP,O
-/,SYM,O,O
-182.778,CD,B-NP,O
-kph,NN,I-NP,O
-),),O,O

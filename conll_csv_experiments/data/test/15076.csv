@@ -1,6 +1,0 @@
-0,1,2,3
-Source,NN,B-NP,O
-:,:,O,O
-Manitoba,NNP,B-NP,B-ORG
-Pork,NNP,I-NP,I-ORG
-.,.,O,O

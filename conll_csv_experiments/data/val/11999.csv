@@ -1,8 +1,0 @@
-0,1,2,3
-Ruling,NNP,B-NP,O
-Moslem,NNP,I-NP,B-MISC
-party,NN,I-NP,O
-ends,VBZ,B-VP,O
-vote,NN,B-NP,O
-boycott,NN,I-NP,O
-.,.,O,O

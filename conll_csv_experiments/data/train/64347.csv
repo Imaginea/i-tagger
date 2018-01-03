@@ -1,9 +1,0 @@
-0,1,2,3
-Clinton,NNP,B-NP,B-PER
-campaign,NN,I-NP,O
-busy,JJ,B-ADJP,O
-making,VBG,B-VP,O
- ,O,O,<UNK>
-news,NN,B-NP,O
- ,O,O,<UNK>
-.,.,O,O

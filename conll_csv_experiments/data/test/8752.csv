@@ -1,9 +1,0 @@
-0,1,2,3
-division,NN,B-NP,O
-ahead,RB,B-ADVP,O
-of,IN,B-PP,O
-this,DT,B-NP,O
-weekend,NN,I-NP,O
-'s,POS,B-NP,O
-games,NNS,I-NP,O
-.,.,O,O

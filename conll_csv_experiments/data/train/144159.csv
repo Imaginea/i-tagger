@@ -1,9 +1,0 @@
-0,1,2,3
-Latest,JJS,B-NP,O
-opinion,NN,I-NP,O
-polls,NNS,I-NP,O
-on,IN,B-PP,O
-German,JJ,B-NP,B-MISC
-political,JJ,I-NP,O
-parties,NNS,I-NP,O
-.,.,O,O

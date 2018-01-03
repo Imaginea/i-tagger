@@ -1,6 +1,0 @@
-0,1,2,3
-Results,NNS,B-NP,O
-of,IN,B-PP,O
-European,NNP,B-NP,B-MISC
-Super,NNP,I-NP,I-MISC
-League,NNP,I-NP,I-MISC

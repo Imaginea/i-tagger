@@ -1,7 +1,0 @@
-0,1,2,3
-Russian,JJ,B-NP,B-MISC
-serial,JJ,I-NP,O
-killer,NN,I-NP,O
-strikes,VBZ,B-VP,O
-again,RB,B-ADVP,O
-.,.,O,O

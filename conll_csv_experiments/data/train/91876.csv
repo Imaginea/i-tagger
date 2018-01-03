@@ -1,6 +1,0 @@
-0,1,2,3
-Wasim,NNP,B-NP,B-PER
-Akram,NNP,I-NP,I-PER
-'s,POS,B-NP,O
-three-wicket,NN,I-NP,O
-haul,NN,I-NP,O

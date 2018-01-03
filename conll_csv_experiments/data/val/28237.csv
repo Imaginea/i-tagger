@@ -1,8 +1,0 @@
-0,1,2,3
-U.N.,NNP,B-NP,B-ORG
-Council,NNP,I-NP,I-ORG
-concerned,VBN,B-ADJP,O
-about,IN,B-PP,O
-Israeli,JJ,B-NP,B-MISC
-bulldozers,NNS,I-NP,O
-.,.,O,O

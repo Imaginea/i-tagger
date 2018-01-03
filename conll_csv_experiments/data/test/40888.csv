@@ -1,8 +1,0 @@
-0,1,2,3
-20.,CD,B-NP,O
-Regine,NNP,I-NP,B-PER
-Cavagnoud,NNP,I-NP,I-PER
-(,(,O,O
-France,NNP,B-NP,B-LOC
-),),O,O
-1:50.51,CD,B-NP,O

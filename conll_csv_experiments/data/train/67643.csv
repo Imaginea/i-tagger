@@ -1,9 +1,0 @@
-0,1,2,3
-Internet,NNP,B-NP,B-ORG
-Startup,NNP,I-NP,I-ORG
-funded,VBN,B-VP,O
-to,TO,I-VP,O
-develop,VB,I-VP,O
-Java,NNP,B-NP,B-MISC
-software,NN,I-NP,O
-.,.,O,O

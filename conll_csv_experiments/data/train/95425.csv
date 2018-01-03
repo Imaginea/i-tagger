@@ -1,9 +1,0 @@
-0,1,2,3
-SK,NNP,B-NP,B-ORG
-Slavia,NNP,I-NP,I-ORG
-Praha,NNP,I-NP,I-ORG
-3,CD,I-NP,O
-SK,NNP,I-NP,B-ORG
-Ceske,NNP,I-NP,I-ORG
-Budejovice,NNP,I-NP,I-ORG
-0,CD,I-NP,O

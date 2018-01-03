@@ -1,8 +1,0 @@
-0,1,2,3
-Boxing-Bruno,NN,B-NP,B-MISC
-quits,VBZ,B-VP,O
-on,IN,B-PP,O
-doctor,NN,B-NP,O
-'s,POS,B-NP,O
-advice,NN,I-NP,O
-.,.,O,O

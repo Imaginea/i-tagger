@@ -1,9 +1,0 @@
-0,1,2,3
-He,PRP,B-NP,O
-declined,VBD,B-VP,O
-to,TO,I-VP,O
-give,VB,I-VP,O
-any,DT,B-NP,O
-further,JJ,I-NP,O
-information,NN,I-NP,O
-.,.,O,O

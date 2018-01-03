@@ -1,5 +1,0 @@
-0,1,2,3
-Nasdaq,NNP,B-NP,B-MISC
-Stock,NNP,I-NP,O
-symbol,NN,I-NP,O
-HMGT,VBD,B-VP,O

@@ -1,8 +1,0 @@
-0,1,2,3
-Dutch,JJ,B-NP,B-MISC
-couple,NN,I-NP,O
-kidnapped,VBN,B-VP,O
-in,IN,B-PP,O
-Costa,NNP,B-NP,B-LOC
-Rica,NNP,I-NP,I-LOC
-.,.,O,O

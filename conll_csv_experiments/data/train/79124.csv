@@ -1,8 +1,0 @@
-0,1,2,3
-5.,NNP,B-NP,O
-Mark,NNP,I-NP,B-PER
-McNulty,NNP,I-NP,I-PER
-(,(,O,O
-Zimbabwe,NNP,B-NP,B-LOC
-),),O,O
-"254,247",CD,B-NP,O

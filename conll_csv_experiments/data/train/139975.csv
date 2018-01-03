@@ -1,9 +1,0 @@
-0,1,2,3
-Islamists,NNS,B-NP,B-MISC
-can,MD,B-VP,O
-meet,VB,I-VP,O
-in,IN,B-PP,O
-London,NNP,B-NP,B-LOC
-",",",",I-NP,O
-minister,NN,I-NP,O
-.,.,O,O

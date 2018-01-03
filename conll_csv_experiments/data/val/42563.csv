@@ -1,9 +1,0 @@
-0,1,2,3
-Value,NN,B-NP,O
-to,TO,B-PP,O
-the,DT,B-NP,O
-winning,VBG,I-NP,O
-owner,NN,I-NP,O
-:,:,O,O
-$,$,B-NP,O
-"233,600",CD,I-NP,O

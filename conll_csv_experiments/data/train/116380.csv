@@ -1,8 +1,0 @@
-0,1,2,3
-AN-NAHAR,NNP,B-NP,B-ORG
--,:,O,O
-The,DT,B-NP,O
-north,NN,I-NP,O
-Lebanon,NNP,I-NP,B-LOC
-elections,NNS,I-NP,O
-...,:,O,O

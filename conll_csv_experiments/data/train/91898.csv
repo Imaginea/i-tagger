@@ -1,9 +1,0 @@
-0,1,2,3
-gave,VBD,B-VP,O
-him,PRP,B-NP,O
-his,PRP$,B-NP,O
-300th,JJ,I-NP,O
-test,NN,I-NP,O
-match,NN,I-NP,O
-wicket,NN,I-NP,O
-.,.,O,O

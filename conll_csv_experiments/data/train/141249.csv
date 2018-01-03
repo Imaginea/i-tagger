@@ -1,6 +1,0 @@
-0,1,2,3
-Mhow,NN,B-NP,B-LOC
-2,CD,I-NP,O
-Yellow,NNP,I-NP,O
-"12,700-12,800",CD,I-NP,O
-"12,750-12,850",CD,I-NP,O

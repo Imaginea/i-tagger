@@ -1,7 +1,0 @@
-0,1,2,3
-Treasury,NN,B-NP,B-ORG
-bills,NNS,I-NP,O
-152.80,CD,B-NP,O
-+0.300,CD,I-NP,O
--,:,I-NP,O
-11.900,CD,I-NP,O

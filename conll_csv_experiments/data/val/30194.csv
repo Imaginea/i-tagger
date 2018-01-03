@@ -1,8 +1,0 @@
-0,1,2,3
-8.,CD,B-NP,O
-Rasa,NNP,I-NP,B-PER
-Mazeikyte,NNP,I-NP,I-PER
-(,(,O,O
-Lithuania,NNP,B-NP,B-LOC
-),),O,O
-3:46.834,CD,B-NP,O

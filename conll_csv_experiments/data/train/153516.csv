@@ -1,6 +1,0 @@
-0,1,2,3
-Russia,NNP,B-NP,B-LOC
-and,CC,I-NP,O
-Brazil,NNP,I-NP,B-LOC
-drew,VBD,B-VP,O
-2-2,RB,B-ADVP,O

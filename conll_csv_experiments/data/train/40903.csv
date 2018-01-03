@@ -1,9 +1,0 @@
-0,1,2,3
-Juventus,NNS,B-NP,B-ORG
-have,VBP,B-VP,O
-won,VBN,I-VP,O
-the,DT,B-NP,O
-European,NNP,I-NP,B-MISC
-Cup,NNP,I-NP,I-MISC
-twice,RB,B-ADVP,O
-.,.,O,O

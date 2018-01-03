@@ -1,8 +1,0 @@
-0,1,2,3
-Queen,NNP,B-NP,B-ORG
-of,IN,B-PP,I-ORG
-the,DT,B-NP,I-ORG
-South,NNP,I-NP,I-ORG
-2,CD,I-NP,O
-Dumbarton,NNP,I-NP,B-ORG
-1,CD,I-NP,O

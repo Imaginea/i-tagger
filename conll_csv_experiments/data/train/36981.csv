@@ -1,8 +1,0 @@
-0,1,2,3
-4.,CD,B-NP,O
-Kenny,NNP,I-NP,B-PER
-Harrison,NNP,I-NP,I-PER
-(,(,O,O
-U.S.,NNP,B-NP,B-LOC
-),),O,O
-16.97,CD,B-NP,O

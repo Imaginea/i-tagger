@@ -1,9 +1,0 @@
-0,1,2,3
-10.,CD,B-NP,O
-Hilde,NNP,I-NP,B-PER
-Synnove,NNP,I-NP,I-PER
-Lid,NNP,I-NP,I-PER
-(,(,O,O
-Norway,NNP,B-NP,B-LOC
-),),O,O
-148.20,CD,B-NP,O

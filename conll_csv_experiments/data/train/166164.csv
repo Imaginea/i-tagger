@@ -1,9 +1,0 @@
-0,1,2,3
-Dutroux,JJ,B-NP,B-PER
-suspected,VBN,I-NP,O
-in,IN,B-PP,O
-murder,NN,B-NP,O
-of,IN,B-PP,O
-Slovak,JJ,B-NP,B-MISC
-woman,NN,I-NP,O
-.,.,O,O

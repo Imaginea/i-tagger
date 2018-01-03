@@ -1,8 +1,0 @@
-0,1,2,3
-4.,CD,B-NP,O
-Sven,NNP,I-NP,B-PER
-Pieters,NNP,I-NP,I-PER
-(,(,O,O
-Belgium,NNP,B-NP,B-LOC
-),),O,O
-13.37,CD,B-NP,O

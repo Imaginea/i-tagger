@@ -1,9 +1,0 @@
-0,1,2,3
-F.A.,NNP,B-NP,O
-:,:,O,O
-First,RB,B-ADVP,B-ORG
-of,IN,B-PP,I-ORG
-Michigan,NNP,B-NP,I-ORG
-Corp.,NNP,I-NP,I-ORG
-",",",",O,O
-Detroit,NNP,B-NP,B-LOC

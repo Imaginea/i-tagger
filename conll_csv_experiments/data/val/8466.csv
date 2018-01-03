@@ -1,7 +1,0 @@
-0,1,2,3
---,:,B-NP,O
-Chicago,NNP,I-NP,B-LOC
-newsdesk,UH,B-INTJ,O
-",",",",O,O
-312,CD,B-NP,O
-408-8787,CD,I-NP,O

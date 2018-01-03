@@ -1,7 +1,0 @@
-0,1,2,3
-July,NNP,B-NP,O
-9,CD,I-NP,O
-v,SYM,B-VP,O
-Minor,NNP,B-NP,B-ORG
-Counties,NNPS,I-NP,I-ORG
-XI,NNP,I-NP,I-ORG

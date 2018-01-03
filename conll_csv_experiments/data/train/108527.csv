@@ -1,9 +1,0 @@
-0,1,2,3
-Hijacked,JJ,B-NP,O
-Sudanese,NNP,I-NP,B-MISC
-plane,NN,I-NP,O
-leaves,VBZ,B-VP,O
-Cyprus,NNP,B-NP,B-LOC
-for,IN,B-PP,O
-Britain,NNP,B-NP,B-LOC
-.,.,O,O

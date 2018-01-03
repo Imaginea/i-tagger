@@ -1,9 +1,0 @@
-0,1,2,3
-9.,CD,B-NP,O
-Donna,NNP,I-NP,B-PER
-Wynd,NNP,I-NP,I-PER
-(,(,O,O
-New,NNP,B-NP,B-LOC
-Zealand,NNP,I-NP,I-LOC
-),),O,O
-36.831,CD,B-NP,O

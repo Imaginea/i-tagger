@@ -1,8 +1,0 @@
-0,1,2,3
-5.,CD,B-NP,O
-Natalia,NNP,I-NP,B-PER
-Karimova,NNP,I-NP,I-PER
-(,(,O,O
-Russia,NNP,B-NP,B-LOC
-),),O,O
-3:45.061,CD,B-NP,O

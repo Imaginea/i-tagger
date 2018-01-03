@@ -1,9 +1,0 @@
-0,1,2,3
-Slovak,JJ,B-NP,B-MISC
-women,NNS,I-NP,O
-visited,VBD,B-VP,O
-Dutroux,NNP,B-NP,B-PER
-",",",",I-NP,O
-police,NN,I-NP,O
-say,VBP,B-VP,O
-.,.,O,O

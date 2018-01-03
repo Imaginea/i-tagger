@@ -1,7 +1,0 @@
-0,1,2,3
-2.,NNP,B-NP,O
-Van,NNP,I-NP,B-PER
-Heeswijk,NNP,I-NP,I-PER
-1,CD,I-NP,O
-second,JJ,I-NP,O
-behind,IN,B-PP,O

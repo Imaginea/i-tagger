@@ -1,8 +1,0 @@
-0,1,2,3
-Government,NN,B-NP,O
-officials,NNS,I-NP,O
-had,VBD,B-VP,O
-no,DT,B-NP,O
-immediate,JJ,I-NP,O
-comment,NN,I-NP,O
-.,.,O,O

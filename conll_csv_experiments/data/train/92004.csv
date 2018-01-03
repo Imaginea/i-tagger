@@ -1,9 +1,0 @@
-0,1,2,3
-Bob,NNP,B-NP,B-PER
-Willis,NNP,I-NP,I-PER
-(,(,O,O
-England,NNP,B-NP,B-LOC
-),),O,O
-325,CD,B-NP,O
-",",",",I-NP,O
-90,CD,I-NP,O

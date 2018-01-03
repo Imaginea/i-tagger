@@ -1,8 +1,0 @@
-0,1,2,3
-4.,CD,B-NP,O
-Gounon,NNP,I-NP,B-PER
-",",",",O,O
-Bernard,NNP,B-NP,B-PER
-",",",",O,O
-Belmondo,NNP,B-NP,B-PER
-98,CD,I-NP,O

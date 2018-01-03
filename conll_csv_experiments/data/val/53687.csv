@@ -1,9 +1,0 @@
-0,1,2,3
-Nato,NNP,B-NP,O
-declines,VBZ,B-VP,O
-comment,NN,B-NP,O
-on,IN,B-PP,O
-fighting,VBG,B-VP,O
-in,IN,B-PP,O
-Iraq,NNP,B-NP,B-LOC
-.,.,O,O

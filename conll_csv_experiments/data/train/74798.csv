@@ -1,8 +1,0 @@
-0,1,2,3
-Lokomotiv,NNP,B-NP,B-ORG
-Nizhny,NNP,I-NP,I-ORG
-Novgorod,NNP,I-NP,I-ORG
-2,CD,I-NP,O
-Uralmash,NNP,I-NP,B-ORG
-Yekaterinburg,NNP,I-NP,I-ORG
-2,CD,I-NP,O

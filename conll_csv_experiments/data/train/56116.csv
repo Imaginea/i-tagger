@@ -1,6 +1,0 @@
-0,1,2,3
-Dundee,NNP,B-NP,B-ORG
-2,CD,I-NP,O
-Greenock,NNP,I-NP,B-ORG
-Morton,NNP,I-NP,I-ORG
-1,CD,I-NP,O

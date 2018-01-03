@@ -1,8 +1,0 @@
-0,1,2,3
-2.,CD,B-NP,O
-Trine,NNP,I-NP,B-PER
-Hattesta,NNP,I-NP,I-PER
-(,(,O,O
-Norway,NNP,B-NP,B-LOC
-),),O,O
-65.12,CD,B-NP,O

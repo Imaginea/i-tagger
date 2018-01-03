@@ -1,8 +1,0 @@
-0,1,2,3
-8.,NNP,B-NP,O
-Laurent,NNP,I-NP,B-PER
-Ottoz,NNP,I-NP,I-PER
-(,(,O,O
-Italy,NNP,B-NP,B-LOC
-),),O,O
-49.61,CD,B-NP,O

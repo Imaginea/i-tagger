@@ -1,8 +1,0 @@
-0,1,2,3
-BORROWER,NN,B-NP,O
--,:,O,O
-Mitsubishi,NNP,B-NP,B-ORG
-Gas,NNP,I-NP,I-ORG
-Chemical,NNP,I-NP,I-ORG
-Co,NNP,I-NP,I-ORG
-Ltd,NNP,I-NP,I-ORG

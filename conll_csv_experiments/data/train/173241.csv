@@ -1,9 +1,0 @@
-0,1,2,3
-Burundi,NNP,B-NP,B-LOC
-defends,VBZ,B-VP,O
-military,JJ,B-NP,O
-regime,NN,I-NP,O
-to,TO,B-PP,O
-hostile,JJ,B-NP,O
-UN,NNS,I-NP,B-ORG
-.,.,O,O

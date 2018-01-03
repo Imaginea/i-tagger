@@ -1,8 +1,0 @@
-0,1,2,3
-1995,CD,B-NP,O
-Year,NN,I-NP,O
-to,TO,B-VP,O
-date*,VB,I-VP,O
-"32,970,000",CD,B-NP,O
-"1,305,000",CD,I-NP,O
-"88,800,000",CD,I-NP,O

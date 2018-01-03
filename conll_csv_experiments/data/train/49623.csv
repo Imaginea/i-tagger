@@ -1,7 +1,0 @@
-0,1,2,3
-Analysts,NNS,B-NP,O
-hold,VBP,B-VP,O
-Dutch,JJ,B-NP,B-ORG
-PTT,NNP,I-NP,I-ORG
-estimates,NNS,I-NP,O
-.,.,O,O

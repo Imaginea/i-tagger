@@ -1,9 +1,0 @@
-0,1,2,3
-INTEREST,NN,B-NP,O
-RATES,NNS,I-NP,O
-Latest,JJS,I-NP,O
-rate,NN,I-NP,O
-Pvs,VBZ,B-VP,O
-rate,NN,B-NP,O
-Date,NNP,I-NP,O
-changed,VBD,B-VP,O

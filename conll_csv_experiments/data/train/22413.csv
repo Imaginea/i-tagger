@@ -1,7 +1,0 @@
-0,1,2,3
-That,DT,B-NP,O
-'s,VBZ,B-VP,O
-the,DT,B-NP,O
-truth,NN,I-NP,O
-.,.,O,O
- ,O,O,<UNK>
