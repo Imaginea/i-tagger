@@ -1,0 +1,8 @@
+0,1,2,3
+2.,CD,B-NP,O
+Natalya,NNP,I-NP,B-PER
+Voronova,NNP,I-NP,I-PER
+(,(,O,O
+Russia,NNP,B-NP,B-LOC
+),),O,O
+11.53,CD,B-NP,O

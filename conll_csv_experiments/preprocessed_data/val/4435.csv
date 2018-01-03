@@ -1,0 +1,12 @@
+0,1,2,3
+67,CD,B-NP,O
+Mark,NNP,I-NP,B-PER
+Calcavecchia,NNP,I-NP,I-PER
+",",",",O,O
+Payne,NNP,B-NP,B-PER
+Stewart,NNP,I-NP,I-PER
+",",",",O,O
+Billy,NNP,B-NP,B-PER
+Mayfair,NNP,I-NP,I-PER
+",",",",O,O
+Ken,NNP,B-NP,B-PER

@@ -1,0 +1,15 @@
+0,1,2,3
+The,DT,B-NP,O
+hijack,NN,I-NP,O
+started,VBD,B-VP,O
+when,WRB,B-ADVP,O
+the,DT,B-NP,O
+flight,NN,I-NP,O
+left,VBD,B-VP,O
+Khartoum,NNP,B-NP,B-LOC
+for,IN,B-PP,O
+Amman,NNP,B-NP,B-LOC
+on,IN,B-PP,O
+Monday,NNP,B-NP,O
+night,NN,I-NP,O
+.,.,O,O

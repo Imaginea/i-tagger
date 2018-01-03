@@ -1,0 +1,16 @@
+0,1,2,3
+*,SYM,O,O
+Sierra,NNP,B-NP,B-ORG
+Semiconductor,NNP,I-NP,I-ORG
+Corp,NNP,I-NP,I-ORG
+puts,VBZ,B-VP,O
+modem,NN,B-NP,O
+chipset,NN,I-NP,O
+line,NN,I-NP,O
+up,RP,B-PRT,O
+for,IN,B-PP,O
+sale,NN,B-NP,O
+and,CC,O,O
+sets,VBZ,B-VP,O
+layoffs,NNS,B-NP,O
+.,.,O,O

@@ -1,0 +1,15 @@
+0,1,2,3
+Soldiers,NNS,B-NP,O
+killed,VBD,B-VP,O
+nine,CD,B-NP,O
+more,JJR,I-NP,O
+PKK,NNP,I-NP,B-ORG
+guerrillas,NNS,I-NP,O
+in,IN,B-PP,O
+Sirnak,JJ,B-NP,B-LOC
+province,NN,I-NP,O
+and,CC,O,O
+six,CD,B-NP,O
+in,IN,B-PP,O
+Hakkari,NNP,B-NP,B-LOC
+.,.,O,O

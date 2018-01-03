@@ -1,0 +1,23 @@
+0,1,2,3
+ ,O,O,<UNK>
+I,PRP,B-NP,O
+do,VBP,B-VP,O
+n't,RB,I-VP,O
+see,VB,I-VP,O
+that,DT,B-NP,O
+possibility,NN,I-NP,O
+because,IN,B-SBAR,O
+India,NNP,B-NP,B-LOC
+is,VBZ,B-VP,O
+not,RB,I-VP,O
+entering,VBG,I-VP,O
+into,IN,B-PP,O
+any,DT,B-NP,O
+arms,NNS,I-NP,O
+race,NN,I-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+he,PRP,B-NP,O
+said,VBD,B-VP,O
+.,.,O,O
+ ,O,O,<UNK>

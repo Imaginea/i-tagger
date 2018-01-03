@@ -1,0 +1,9 @@
+0,1,2,3
+Penalties,NNS,B-NP,O
+:,:,O,O
+Joel,NNP,B-NP,B-PER
+Stranksy,NNP,I-NP,I-PER
+(,(,O,O
+3,CD,B-NP,O
+),),O,O
+.,.,O,O

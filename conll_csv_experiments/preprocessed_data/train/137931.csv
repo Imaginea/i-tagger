@@ -1,0 +1,8 @@
+0,1,2,3
+revs,NNS,B-NP,O
+won,VBN,B-VP,O
+by,IN,B-PP,O
+Robert,NNP,B-NP,B-ORG
+W.,NNP,I-NP,I-ORG
+Baird,NNP,I-NP,I-ORG
+.,.,O,O

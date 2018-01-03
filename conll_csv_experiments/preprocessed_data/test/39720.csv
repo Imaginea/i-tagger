@@ -1,0 +1,8 @@
+0,1,2,3
+22=,CD,B-NP,O
+Regine,NNP,I-NP,B-PER
+Cavagnoud,NNP,I-NP,I-PER
+(,(,O,O
+France,NNP,B-NP,B-LOC
+),),O,O
+1:19.21,CD,B-NP,O

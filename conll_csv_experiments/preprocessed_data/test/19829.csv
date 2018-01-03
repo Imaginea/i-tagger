@@ -1,0 +1,8 @@
+0,1,2,3
+--,:,O,O
+Riga,NNP,B-NP,B-ORG
+Newsroom,NNP,I-NP,I-ORG
+",",",",O,O
++371,CD,B-NP,O
+721,CD,I-NP,O
+5240,CD,I-NP,O

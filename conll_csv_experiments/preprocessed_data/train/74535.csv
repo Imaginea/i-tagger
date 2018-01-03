@@ -1,0 +1,10 @@
+0,1,2,3
+Amica,NNP,B-NP,B-ORG
+Wronki,NNP,I-NP,I-ORG
+7,CD,I-NP,O
+5,CD,I-NP,O
+1,CD,I-NP,O
+1,CD,I-NP,O
+13,CD,I-NP,O
+8,CD,I-NP,O
+16,CD,I-NP,O

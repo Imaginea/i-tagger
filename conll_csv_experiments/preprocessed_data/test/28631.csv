@@ -1,0 +1,7 @@
+0,1,2,3
+Reported,VBN,B-NP,O
+sales,NNS,I-NP,O
+for,IN,B-PP,O
+Fri-,NNP,B-NP,O
+None,NN,I-NP,O
+.,.,O,O

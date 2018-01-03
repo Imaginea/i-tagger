@@ -1,0 +1,10 @@
+0,1,2,3
+Bowling,NNP,B-NP,O
+:,:,O,O
+Kumble,NNP,B-NP,B-PER
+10-1-40-0,CD,I-NP,O
+",",",",O,O
+Prasad,NNP,B-NP,B-PER
+6-0-47-0,CD,I-NP,O
+",",",",O,O
+Srinath,NNP,B-NP,B-PER

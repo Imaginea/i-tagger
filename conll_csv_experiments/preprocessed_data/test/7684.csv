@@ -1,0 +1,10 @@
+0,1,2,3
+Paris,NNP,B-NP,B-ORG
+Saint-Germain,NNP,I-NP,I-ORG
+21,CD,I-NP,O
+12,CD,I-NP,O
+6,CD,I-NP,O
+3,CD,I-NP,O
+34,CD,I-NP,O
+15,CD,I-NP,O
+42,CD,I-NP,O

@@ -1,0 +1,16 @@
+0,1,2,3
+MFS,NNP,B-NP,B-ORG
+options,NNS,I-NP,O
+also,RB,B-ADVP,O
+trade,VB,B-VP,O
+on,IN,B-PP,O
+the,DT,B-NP,O
+American,NNP,I-NP,B-ORG
+Stock,NNP,I-NP,I-ORG
+Exchange,NNP,I-NP,I-ORG
+and,CC,O,O
+the,DT,B-NP,O
+Pacific,NNP,I-NP,B-ORG
+Stock,NNP,I-NP,I-ORG
+Exchange,NNP,I-NP,I-ORG
+.,.,O,O

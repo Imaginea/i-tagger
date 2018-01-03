@@ -1,0 +1,28 @@
+0,1,2,3
+ ,O,O,<UNK>
+Uneximbank,NN,B-NP,B-ORG
+has,VBZ,B-VP,O
+inherited,VBN,I-VP,O
+a,DT,B-NP,O
+mountain,NN,I-NP,O
+and,CC,O,O
+whether,IN,B-SBAR,O
+or,CC,O,O
+not,RB,O,O
+they,PRP,B-NP,O
+climb,VB,B-VP,O
+out,RB,B-ADVP,O
+and,CC,I-ADVP,O
+over,RB,I-ADVP,O
+it,PRP,B-NP,O
+remains,VBZ,B-VP,O
+to,TO,I-VP,O
+be,VB,I-VP,O
+seen,VBN,I-VP,O
+",",",",O,O
+ ,O,O,<UNK>
+said,VBD,B-VP,O
+one,CD,B-NP,O
+metals,NNS,I-NP,O
+source,NN,I-NP,O
+.,.,O,O

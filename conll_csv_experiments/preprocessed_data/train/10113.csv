@@ -1,0 +1,12 @@
+0,1,2,3
+Jeff,NNP,B-NP,B-PER
+Tarango,NNP,I-NP,I-PER
+(,(,O,O
+U.S.,NNP,B-NP,B-LOC
+),),O,O
+vs.,IN,B-PP,O
+Alex,NNP,B-NP,B-PER
+Radulescu,NNP,I-NP,I-PER
+(,(,O,O
+Germany,NNP,B-NP,B-LOC
+),),O,O

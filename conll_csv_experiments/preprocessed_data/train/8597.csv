@@ -1,0 +1,7 @@
+0,1,2,3
+Mypa-47,NNP,B-NP,B-ORG
+win,VBP,B-VP,O
+2-1,CD,B-NP,O
+on,IN,B-PP,O
+aggregate,NN,B-NP,O
+.,.,O,O

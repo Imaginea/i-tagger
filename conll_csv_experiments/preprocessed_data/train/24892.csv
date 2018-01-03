@@ -1,0 +1,11 @@
+0,1,2,3
+India,NNP,B-NP,B-LOC
+RBI,NNP,I-NP,B-ORG
+chief,JJ,I-NP,O
+sees,VBZ,B-VP,O
+cut,VBN,I-VP,O
+in,IN,B-PP,O
+cash,NN,B-NP,O
+reserve,NN,I-NP,O
+ratio,NN,I-NP,O
+.,.,O,O

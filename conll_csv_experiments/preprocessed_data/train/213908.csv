@@ -1,0 +1,9 @@
+0,1,2,3
+SIMEX,NNP,B-NP,B-MISC
+Nikkei,NNP,I-NP,I-MISC
+ends,VBZ,B-VP,O
+down,RB,B-ADVP,O
+but,CC,O,O
+off,IN,B-PP,O
+lows,NNS,B-NP,O
+.,.,O,O

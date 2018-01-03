@@ -1,0 +1,6 @@
+0,1,2,3
+Preston,NNP,B-NP,B-ORG
+0,CD,I-NP,O
+Bristol,NNP,I-NP,B-ORG
+Rovers,NNP,I-NP,I-ORG
+0,CD,I-NP,O

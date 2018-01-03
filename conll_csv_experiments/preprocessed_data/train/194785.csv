@@ -1,0 +1,11 @@
+0,1,2,3
+Deby,RB,B-VP,B-PER
+took,VBD,I-VP,O
+power,NN,B-NP,O
+in,IN,B-PP,O
+an,DT,B-NP,O
+armed,JJ,I-NP,O
+uprising,NN,I-NP,O
+in,IN,B-PP,O
+1990,CD,B-NP,O
+.,.,O,O

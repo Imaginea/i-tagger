@@ -1,0 +1,16 @@
+0,1,2,3
+Werder,NNP,B-NP,B-ORG
+Bremen,NNP,I-NP,I-ORG
+1,CD,I-NP,O
+(,(,O,O
+Bode,NNP,B-NP,B-PER
+85th,CD,I-NP,O
+),),O,O
+1860,CD,B-NP,B-ORG
+Munich,NNP,I-NP,I-ORG
+1,CD,I-NP,O
+(,(,O,O
+Bormirow,JJ,B-NP,B-PER
+8th,JJ,I-NP,O
+),),O,O
+.,.,O,O

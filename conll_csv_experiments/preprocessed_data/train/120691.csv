@@ -1,0 +1,10 @@
+0,1,2,3
+after,IN,B-PP,O
+their,PRP$,B-NP,O
+three-match,JJ,I-NP,O
+series,NN,I-NP,O
+which,WDT,B-NP,O
+ended,VBD,B-VP,O
+on,IN,B-PP,O
+Monday,NNP,B-NP,O
+:,:,O,O

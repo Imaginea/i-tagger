@@ -1,0 +1,36 @@
+0,1,2,3
+said,VBD,B-VP,O
+Bertram,NNP,B-NP,B-PER
+",",",",O,O
+who,WP,B-NP,O
+also,RB,B-ADVP,O
+read,VBD,B-VP,O
+out,RP,B-PRT,O
+extracts,VBZ,B-VP,O
+from,IN,B-PP,O
+Lauck,NNP,B-NP,B-PER
+'s,POS,B-NP,O
+material,NN,I-NP,O
+praising,VBG,B-VP,O
+Hitler,NNP,B-NP,B-PER
+as,IN,B-PP,O
+ ,O,O,<UNK>
+the,DT,B-NP,O
+greatest,JJS,I-NP,O
+of,IN,B-PP,O
+all,DT,B-NP,O
+leaders,NNS,I-NP,O
+ ,O,O,<UNK>
+and,CC,O,O
+describing,VBG,B-VP,O
+the,DT,B-NP,O
+Nazi,NNP,I-NP,B-MISC
+slaughter,NN,I-NP,O
+of,IN,B-PP,O
+millions,NNS,B-NP,O
+of,IN,B-PP,O
+Jews,NNPS,B-NP,B-MISC
+as,IN,B-PP,O
+a,DT,B-NP,O
+myth,NN,I-NP,O
+.,.,O,O

@@ -1,0 +1,9 @@
+0,1,2,3
+Lebed,VBN,B-NP,B-PER
+aide,NN,I-NP,O
+says,VBZ,B-VP,O
+Russian-Chechen,NNP,B-NP,B-MISC
+talks,NNS,I-NP,O
+going,VBG,B-VP,O
+well,RB,B-ADVP,O
+.,.,O,O

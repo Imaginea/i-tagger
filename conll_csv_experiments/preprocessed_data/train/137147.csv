@@ -1,0 +1,44 @@
+0,1,2,3
+He,PRP,B-NP,O
+said,VBD,B-VP,O
+Stallone,NNP,B-NP,B-PER
+",",",",O,O
+best,RB,B-VP,O
+known,VBN,I-VP,O
+for,IN,B-PP,O
+the,DT,B-NP,O
+ ,O,O,<UNK>
+Rocky,NNP,B-NP,B-MISC
+ ,O,O,<UNK>
+and,CC,O,O
+ ,O,O,<UNK>
+Rambo,NNP,B-NP,B-MISC
+ ,O,O,<UNK>
+movies,NNS,B-NP,O
+",",",",O,O
+left,VBD,B-VP,O
+the,DT,B-NP,O
+set,NN,I-NP,O
+of,IN,B-PP,O
+ ,O,O,<UNK>
+Copland,NNP,B-NP,B-MISC
+",",",",O,O
+ ,O,O,<UNK>
+which,WDT,B-NP,O
+is,VBZ,B-VP,O
+filming,VBG,I-VP,O
+in,IN,B-PP,O
+New,NNP,B-NP,B-LOC
+York,NNP,I-NP,I-LOC
+and,CC,O,O
+New,NNP,B-NP,B-LOC
+Jersey,NNP,I-NP,I-LOC
+",",",",O,O
+to,TO,B-VP,O
+be,VB,I-VP,O
+with,IN,B-PP,O
+Flavin,NNP,B-NP,B-PER
+for,IN,B-PP,O
+the,DT,B-NP,O
+birth,NN,I-NP,O
+.,.,O,O

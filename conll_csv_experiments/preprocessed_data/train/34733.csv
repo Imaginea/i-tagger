@@ -1,0 +1,9 @@
+0,1,2,3
+2:28.98,CD,B-NP,O
+Svetlana,NNP,I-NP,B-PER
+Masterkova,NNP,I-NP,I-PER
+(,(,O,O
+Russia,NNP,O,B-LOC
+),),O,O
+Brussels,NNP,B-NP,B-LOC
+23.8.96,CD,I-NP,O

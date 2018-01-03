@@ -1,0 +1,12 @@
+0,1,2,3
+In,IN,B-PP,O
+Chicago,NNP,B-NP,B-LOC
+",",",",O,O
+the,DT,B-NP,O
+Braves,NNPS,I-NP,B-ORG
+and,CC,I-NP,O
+Cubs,NNP,I-NP,B-ORG
+split,VBD,B-VP,O
+a,DT,B-NP,O
+doubleheader,NN,I-NP,O
+.,.,O,O

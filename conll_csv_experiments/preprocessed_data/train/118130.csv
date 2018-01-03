@@ -1,0 +1,22 @@
+0,1,2,3
+But,CC,O,O
+it,PRP,B-NP,O
+'s,VBZ,B-VP,O
+when,WRB,B-ADVP,O
+it,PRP,B-NP,O
+gets,VBZ,B-VP,O
+to,TO,B-PP,O
+the,DT,B-NP,O
+(,(,O,O
+employee,NN,O,O
+),),O,O
+families,NNS,B-NP,O
+--,:,O,O
+that,IN,B-SBAR,O
+it,PRP,B-NP,O
+goes,VBZ,B-VP,O
+across,IN,B-PP,O
+the,DT,B-NP,O
+line,NN,I-NP,O
+.,.,O,O
+ ,O,O,<UNK>

@@ -1,0 +1,6 @@
+0,1,2,3
+--,:,B-NP,O
+Jakarta,NNP,I-NP,B-LOC
+newsroom,NN,I-NP,O
++6221,CD,I-NP,O
+384-6364,CD,I-NP,O

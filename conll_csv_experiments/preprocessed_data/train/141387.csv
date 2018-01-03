@@ -1,0 +1,9 @@
+0,1,2,3
+Bangladesh,NNP,B-NP,B-LOC
+Speaker,NNP,I-NP,O
+says,VBZ,B-VP,O
+he,PRP,B-NP,O
+received,VBD,B-VP,O
+death,NN,B-NP,O
+threats,NNS,I-NP,O
+.,.,O,O

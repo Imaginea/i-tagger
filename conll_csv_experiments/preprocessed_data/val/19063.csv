@@ -1,0 +1,21 @@
+0,1,2,3
+Whoever,WP,B-NP,O
+wants,VBZ,B-VP,O
+a,DT,B-NP,O
+big,JJ,I-NP,O
+market,NN,I-NP,O
+position,NN,I-NP,O
+in,IN,B-PP,O
+the,DT,B-NP,O
+Midwest,NNP,I-NP,B-LOC
+has,VBZ,B-VP,O
+to,TO,I-VP,O
+come,VB,I-VP,O
+in,IN,B-ADVP,O
+and,CC,O,O
+grab,VB,B-VP,O
+Mercantile,NNP,B-NP,B-ORG
+or,CC,I-NP,O
+Commerce,NNP,I-NP,B-ORG
+.,.,I-NP,O
+ ,O,O,<UNK>

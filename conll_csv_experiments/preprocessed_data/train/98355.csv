@@ -1,0 +1,17 @@
+0,1,2,3
+ ,O,O,<UNK>
+In,IN,B-PP,O
+terms,NNS,B-NP,O
+of,IN,B-PP,O
+tennis,NN,B-NP,O
+",",",",O,O
+I,PRP,B-NP,O
+think,VBP,B-VP,O
+the,DT,B-NP,O
+junior,JJ,I-NP,O
+players,NNS,I-NP,O
+are,VBP,B-VP,O
+really,RB,B-ADJP,O
+good,JJ,I-ADJP,O
+now,RB,B-ADVP,O
+.,.,O,O

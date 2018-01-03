@@ -1,0 +1,10 @@
+0,1,2,3
+ISSUE,NNP,B-NP,O
+:,:,O,O
+Public,NNP,B-NP,O
+School,NNP,I-NP,O
+",",",",O,O
+Series,NNP,B-NP,O
+1996,CD,I-NP,O
+TAX,NN,I-NP,O
+STAT:Exempt-ULT,NN,I-NP,O

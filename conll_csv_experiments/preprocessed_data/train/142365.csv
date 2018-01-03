@@ -1,0 +1,8 @@
+0,1,2,3
+Business,NN,B-NP,O
+info,NN,I-NP,O
+Europe,NNP,B-NP,B-LOC
+231,CD,I-NP,O
+24,CD,I-NP,O
+178,CD,I-NP,O
+18,CD,I-NP,O

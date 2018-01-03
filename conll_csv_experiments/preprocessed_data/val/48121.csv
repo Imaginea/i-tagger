@@ -1,0 +1,11 @@
+0,1,2,3
+Manila,NNP,B-NP,B-LOC
+hails,VBZ,B-VP,O
+Indonesia,NNP,B-NP,B-LOC
+",",",",O,O
+OIC,NNP,B-NP,B-ORG
+for,IN,B-PP,O
+peace,NN,B-NP,O
+deal,NN,I-NP,O
+support,NN,I-NP,O
+.,.,O,O

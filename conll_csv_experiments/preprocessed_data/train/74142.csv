@@ -1,0 +1,8 @@
+0,1,2,3
+A.S.,NNP,B-NP,B-ORG
+Bacau,NNP,I-NP,I-ORG
+1,CD,I-NP,O
+Ceahlaul,NNP,I-NP,B-ORG
+Piatra,NNP,I-NP,I-ORG
+Neamt,NNP,I-NP,I-ORG
+1,CD,I-NP,O

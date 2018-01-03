@@ -1,0 +1,6 @@
+0,1,2,3
+Mark,NNP,B-NP,B-PER
+Prescott,NNP,I-NP,I-PER
+at,IN,B-PP,O
+Newmarket,NNP,B-NP,B-LOC
+.,.,O,O

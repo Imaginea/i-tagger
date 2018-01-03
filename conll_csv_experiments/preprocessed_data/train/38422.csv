@@ -1,0 +1,7 @@
+0,1,2,3
+JOHANNESBURG,NN,B-NP,B-LOC
+1996-08-23,CD,I-NP,O
+Analysts,NNS,B-NP,O
+estimates,NNS,I-NP,O
+of,IN,B-PP,O
+major,JJ,B-NP,O

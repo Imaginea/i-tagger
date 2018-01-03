@@ -1,0 +1,5 @@
+0,1,2,3
+Tuesday,NNP,B-NP,O
+.,.,O,O
+Scorers,NNS,B-NP,O
+:,:,O,O

@@ -1,0 +1,9 @@
+0,1,2,3
+OSCE,RB,O,B-ORG
+defends,VBZ,B-VP,O
+record,NN,B-NP,O
+over,IN,B-PP,O
+Chechnya,NNP,B-NP,B-LOC
+peace,NN,I-NP,O
+mission,NN,I-NP,O
+.,.,O,O

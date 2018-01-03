@@ -1,0 +1,21 @@
+0,1,2,3
+ ,O,O,<UNK>
+You,PRP,B-NP,O
+know,VBP,B-VP,O
+",",",",O,O
+we,PRP,B-NP,O
+went,VBD,B-VP,O
+through,IN,B-PP,O
+a,DT,B-NP,O
+little,JJ,I-NP,O
+climb,NN,I-NP,O
+and,CC,O,O
+a,DT,B-NP,O
+little,JJ,I-NP,O
+trough,NN,I-NP,O
+over,IN,B-PP,O
+the,DT,B-NP,O
+last,JJ,I-NP,O
+few,JJ,I-NP,O
+years,NNS,I-NP,O
+.,.,O,O

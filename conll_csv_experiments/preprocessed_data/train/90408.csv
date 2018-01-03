@@ -1,0 +1,26 @@
+0,1,2,3
+ ,O,O,<UNK>
+The,DT,B-NP,O
+addition,NN,I-NP,O
+of,IN,B-PP,O
+IVAC,NNP,B-NP,B-ORG
+is,VBZ,B-VP,O
+expected,VBN,I-VP,O
+to,TO,I-VP,O
+contribute,VB,I-VP,O
+to,TO,B-PP,O
+financial,JJ,B-NP,O
+results,NNS,I-NP,O
+in,IN,B-PP,O
+the,DT,B-NP,O
+full,JJ,I-NP,O
+second,JJ,I-NP,O
+quarter,NN,I-NP,O
+of,IN,B-PP,O
+1997,CD,B-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+the,DT,B-NP,O
+companies,NNS,I-NP,O
+said,VBD,B-VP,O
+.,.,O,O

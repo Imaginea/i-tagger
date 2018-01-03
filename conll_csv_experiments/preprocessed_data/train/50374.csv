@@ -1,0 +1,9 @@
+0,1,2,3
+Revenue,NN,B-NP,O
+from,IN,B-PP,O
+commuter,NN,B-NP,O
+traffic,NN,I-NP,O
+"5,400",CD,I-NP,O
+up,RB,B-ADVP,O
+4.6,CD,B-NP,O
+pct,NN,I-NP,O

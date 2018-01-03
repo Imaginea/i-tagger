@@ -1,0 +1,9 @@
+0,1,2,3
+N.,NNP,B-NP,B-PER
+Knight,NNP,I-NP,I-PER
+c,SYM,O,O
+and,CC,O,O
+b,SYM,O,O
+Mushtaq,NNP,B-NP,B-PER
+Ahmed,NNP,I-NP,I-PER
+8,CD,I-NP,O

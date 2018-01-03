@@ -1,0 +1,11 @@
+0,1,2,3
+German,JJ,B-NP,B-MISC
+farm,NN,I-NP,O
+ministry,NN,I-NP,O
+tells,VBZ,B-VP,O
+consumers,NNS,B-NP,O
+to,TO,B-VP,O
+avoid,VB,I-VP,O
+British,JJ,B-NP,B-MISC
+mutton,NN,I-NP,O
+.,.,O,O

@@ -1,0 +1,11 @@
+0,1,2,3
+Lanner,NNP,B-NP,B-PER
+(,(,O,O
+Sweden,NNP,B-NP,B-LOC
+),),O,O
+",",",",O,O
+Wayne,NNP,B-NP,B-PER
+Riley,NNP,I-NP,I-PER
+(,(,O,O
+Australia,NNP,B-NP,B-LOC
+),),O,O

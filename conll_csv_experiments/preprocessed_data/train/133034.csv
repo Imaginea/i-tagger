@@ -1,0 +1,36 @@
+0,1,2,3
+Argentina,NNP,B-NP,B-LOC
+'s,POS,B-NP,O
+top,CD,I-NP,O
+Roman,NNP,I-NP,B-MISC
+Catholic,NNP,I-NP,I-MISC
+cleric,JJ,I-NP,O
+said,VBD,B-VP,O
+the,DT,B-NP,O
+Biblical,JJ,I-NP,B-MISC
+commandment,NN,I-NP,O
+ ,O,O,<UNK>
+Thou,PRP,B-NP,O
+shalt,MD,B-VP,O
+not,RB,I-VP,O
+steal,VB,I-VP,O
+ ,O,O,<UNK>
+would,MD,B-VP,O
+get,VB,I-VP,O
+special,JJ,B-NP,O
+emphasis,NN,I-NP,O
+ ,O,O,<UNK>
+because,IN,B-SBAR,O
+it,PRP,B-NP,O
+has,VBZ,B-VP,O
+to,TO,I-VP,O
+be,VB,I-VP,O
+about,IN,B-PP,O
+the,DT,B-NP,O
+most,RBS,I-NP,O
+common,JJ,I-NP,O
+thing,NN,I-NP,O
+these,DT,B-NP,O
+days,NNS,I-NP,O
+.,.,O,O
+ ,O,O,<UNK>

@@ -1,0 +1,13 @@
+0,1,2,3
+Swiss,JJ,B-NP,B-MISC
+money,NN,I-NP,O
+market,NN,I-NP,O
+rates,NNS,I-NP,O
+remained,VBD,B-VP,O
+lower,JJR,B-ADJP,O
+at,IN,B-PP,O
+around,IN,B-NP,O
+1.75,CD,I-NP,O
+percent,NN,I-NP,O
+offered,VBD,B-VP,O
+.,.,O,O

@@ -1,0 +1,11 @@
+0,1,2,3
+3-12,CD,B-NP,O
+),),O,O
+and,CC,O,O
+164-4,CD,B-NP,O
+(,(,O,O
+P.,NNP,B-NP,B-PER
+Weston,NNP,I-NP,I-PER
+52,CD,I-NP,O
+),),O,O
+.,.,O,O

@@ -1,0 +1,10 @@
+0,1,2,3
+Amtrak,NN,B-NP,B-ORG
+train,NN,I-NP,O
+derails,NNS,I-NP,O
+",",",",O,O
+three,CD,B-NP,O
+injured,JJ,I-NP,O
+-,:,I-NP,O
+officials,NNS,I-NP,O
+.,.,O,O

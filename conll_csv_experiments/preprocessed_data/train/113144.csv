@@ -1,0 +1,13 @@
+0,1,2,3
+The,DT,B-NP,O
+customer,NN,I-NP,O
+employee,NN,I-NP,O
+suits,NNS,I-NP,O
+were,VBD,B-VP,O
+filed,VBN,I-VP,O
+in,IN,B-PP,O
+1990-95,CD,B-NP,O
+",",",",O,O
+he,PRP,B-NP,O
+said,VBD,B-VP,O
+.,.,O,O

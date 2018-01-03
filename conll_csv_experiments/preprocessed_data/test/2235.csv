@@ -1,0 +1,9 @@
+0,1,2,3
+LONDON,NNP,B-NP,B-LOC
+1996-12-06,CD,I-NP,O
+Standings,NNS,B-NP,O
+in,IN,B-PP,O
+the,DT,B-NP,O
+men,NNS,I-NP,O
+'s,POS,B-NP,O
+EuroLeague,NN,I-NP,B-MISC

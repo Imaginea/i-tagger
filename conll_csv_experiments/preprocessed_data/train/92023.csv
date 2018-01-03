@@ -1,0 +1,9 @@
+0,1,2,3
+Fred,NNP,B-NP,B-PER
+Trueman,NNP,I-NP,I-PER
+(,(,O,O
+England,NNP,B-NP,B-LOC
+),),O,O
+307,CD,B-NP,O
+",",",",I-NP,O
+67,CD,I-NP,O

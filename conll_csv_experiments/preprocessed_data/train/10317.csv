@@ -1,0 +1,16 @@
+0,1,2,3
+Orioles,NNP,B-NP,B-ORG
+',POS,B-NP,O
+bench,NN,I-NP,O
+coach,NN,I-NP,O
+Andy,NNP,I-NP,B-PER
+Etchebarren,NNP,I-NP,I-PER
+will,MD,B-VP,O
+manage,VB,I-VP,O
+the,DT,B-NP,O
+club,NN,I-NP,O
+in,IN,B-PP,O
+Johnson,NNP,B-NP,B-PER
+'s,POS,B-NP,O
+absence,NN,I-NP,O
+.,.,O,O

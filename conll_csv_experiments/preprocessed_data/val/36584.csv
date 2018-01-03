@@ -1,0 +1,29 @@
+0,1,2,3
+When,WRB,B-ADVP,O
+the,DT,B-NP,O
+referee,NN,I-NP,O
+called,VBD,B-VP,O
+Jansher,NNP,B-NP,B-PER
+'s,POS,B-NP,O
+return,NN,I-NP,O
+good,JJ,B-ADJP,O
+and,CC,O,O
+the,DT,B-NP,O
+decision,NN,I-NP,O
+was,VBD,B-VP,O
+accepted,VBN,I-VP,O
+by,IN,B-PP,O
+the,DT,B-NP,O
+player,NN,I-NP,O
+",",",",O,O
+Hill,NNP,B-NP,B-PER
+shrieked,VBD,B-VP,O
+at,IN,B-PP,O
+the,DT,B-NP,O
+Pakistani,JJ,I-NP,B-MISC
+:,:,O,O
+ ,O,O,<UNK>
+You,PRP,B-NP,O
+cheat,VB,B-VP,O
+.,.,O,O
+ ,O,O,<UNK>

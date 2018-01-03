@@ -1,0 +1,12 @@
+0,1,2,3
+Poland,NNP,B-NP,B-LOC
+-,:,O,O
+Krzysztof,NNP,B-NP,B-PER
+Warzycha,NNP,I-NP,I-PER
+(,(,O,O
+46th,JJ,B-NP,O
+minute,NN,I-NP,O
+),),O,O
+",",",",O,O
+Marcin,NNP,B-NP,B-PER
+Mieciel,NNPS,I-NP,I-PER

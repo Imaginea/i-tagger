@@ -1,0 +1,15 @@
+0,1,2,3
+ ,O,O,<UNK>
+I,PRP,B-NP,O
+support,VB,B-VP,O
+their,PRP$,B-NP,O
+enthusiasm,NN,I-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+Tarango,NNP,B-NP,B-PER
+said,VBD,B-VP,O
+about,IN,B-PP,O
+the,DT,B-NP,O
+fans,NNS,I-NP,O
+.,.,O,O
+ ,O,O,<UNK>

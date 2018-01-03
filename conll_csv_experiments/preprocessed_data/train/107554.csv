@@ -1,0 +1,14 @@
+0,1,2,3
+A,DT,B-NP,O
+shot,NN,I-NP,O
+was,VBD,B-VP,O
+fired,VBN,I-VP,O
+",",",",O,O
+but,CC,O,O
+onlookers,NNS,B-NP,O
+managed,VBD,B-VP,O
+to,TO,I-VP,O
+disarm,VB,I-VP,O
+the,DT,B-NP,O
+man,NN,I-NP,O
+.,.,O,O

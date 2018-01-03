@@ -1,0 +1,14 @@
+0,1,2,3
+He,PRP,B-NP,O
+declined,VBD,B-VP,O
+to,TO,I-VP,O
+say,VB,I-VP,O
+how,WRB,B-ADVP,O
+many,JJ,B-NP,O
+people,NNS,I-NP,O
+were,VBD,B-VP,O
+being,VBG,I-VP,O
+considered,VBN,I-VP,O
+for,IN,B-PP,O
+asylum,NN,B-NP,O
+.,.,O,O

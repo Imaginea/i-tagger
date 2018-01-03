@@ -1,0 +1,6 @@
+0,1,2,3
+PRETORIA,NNP,B-NP,B-LOC
+",",",",O,O
+South,NNP,B-NP,B-LOC
+Africa,NNP,I-NP,I-LOC
+1996-08-24,CD,I-NP,O

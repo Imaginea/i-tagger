@@ -1,0 +1,7 @@
+0,1,2,3
+Contractors,NNS,B-NP,O
+won,VBD,B-VP,O
+4-0,JJ,B-NP,O
+on,IN,B-PP,O
+aggregate,NN,B-NP,O
+.,.,O,O

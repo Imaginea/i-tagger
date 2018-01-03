@@ -1,0 +1,15 @@
+0,1,2,3
+Zeng,VBG,B-VP,B-PER
+Yaqiong,NNP,B-NP,I-PER
+(,(,O,O
+China,NNP,B-NP,B-LOC
+),),O,O
+beat,VB,B-VP,O
+Li,NNP,B-NP,B-PER
+Feng,NNP,I-NP,I-PER
+(,(,O,O
+New,NNP,B-NP,B-LOC
+Zealand,NNP,I-NP,I-LOC
+),),O,O
+11-9,CD,B-NP,O
+11-6,CD,I-NP,O

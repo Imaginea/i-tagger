@@ -1,0 +1,10 @@
+0,1,2,3
+US,NNP,B-NP,B-LOC
+investors,NNS,I-NP,O
+mull,VBP,B-VP,O
+appeal,NN,B-NP,O
+of,IN,B-PP,O
+Lloyd,NNP,B-NP,B-ORG
+'s,POS,B-NP,I-ORG
+decision,NN,I-NP,O
+.,.,O,O

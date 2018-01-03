@@ -1,0 +1,7 @@
+0,1,2,3
+Jos,NNP,B-NP,B-PER
+Verstappen,NNP,I-NP,I-PER
+(,(,I-NP,O
+Netherlands,NNP,I-NP,B-LOC
+),),O,O
+1,CD,B-NP,O

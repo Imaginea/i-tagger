@@ -1,0 +1,9 @@
+0,1,2,3
+China,NNP,B-NP,B-LOC
+says,VBZ,B-VP,O
+time,NN,B-NP,O
+right,RB,B-ADVP,O
+for,IN,B-PP,O
+Taiwan,NNP,B-NP,B-LOC
+talks,NNS,I-NP,O
+.,.,O,O

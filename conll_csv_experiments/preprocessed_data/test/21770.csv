@@ -1,0 +1,7 @@
+0,1,2,3
+Buenos,NNP,B-NP,B-LOC
+Aires,VBZ,B-VP,I-LOC
+Quequen,VBN,I-VP,B-LOC
+Rosario,NNP,B-NP,B-LOC
+Bahia,NNP,I-NP,B-LOC
+Blanca,NNP,I-NP,I-LOC

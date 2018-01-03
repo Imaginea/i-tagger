@@ -1,0 +1,8 @@
+0,1,2,3
+Yeltsin,NNP,B-NP,B-PER
+'s,POS,B-NP,O
+wife,NN,I-NP,O
+has,VBZ,B-VP,O
+kidney,NN,B-NP,O
+operation,NN,I-NP,O
+.,.,O,O

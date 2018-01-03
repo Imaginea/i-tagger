@@ -1,0 +1,8 @@
+0,1,2,3
+WASHINGTON,NNP,B-NP,B-LOC
+1996-08-27,CD,I-NP,O
+Company,NNP,B-NP,O
+Name,NNP,I-NP,O
+Transkaryotic,NNP,I-NP,B-ORG
+Therapies,NNPS,I-NP,I-ORG
+Inc,NNP,I-NP,I-ORG

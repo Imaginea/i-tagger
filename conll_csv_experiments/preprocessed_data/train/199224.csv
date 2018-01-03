@@ -1,0 +1,13 @@
+0,1,2,3
+Peres,NNP,B-NP,B-PER
+is,VBZ,B-VP,O
+expected,VBN,I-VP,O
+to,TO,I-VP,O
+fly,VB,I-VP,O
+home,NN,B-ADVP,O
+on,IN,B-PP,O
+Friday,NNP,B-NP,O
+",",",",O,O
+officials,NNS,B-NP,O
+said,VBD,B-VP,O
+.,.,O,O

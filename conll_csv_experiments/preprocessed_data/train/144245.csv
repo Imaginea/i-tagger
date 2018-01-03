@@ -1,0 +1,9 @@
+0,1,2,3
+Emnid,NNP,B-NP,B-ORG
+July,NNP,I-NP,O
+7,CD,I-NP,O
+39.0,CD,I-NP,O
+32.0,CD,O,O
+7.0,CD,B-NP,O
+11.0,CD,I-NP,O
+5.0,CD,I-NP,O

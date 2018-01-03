@@ -1,0 +1,15 @@
+0,1,2,3
+Scorers,NNS,B-NP,O
+:,:,O,O
+Nicolas,NNP,B-NP,B-PER
+Ouedec,NNP,I-NP,I-PER
+(,(,O,O
+49th,JJ,B-NP,O
+minute,NN,I-NP,O
+),),O,O
+",",",",O,O
+Youri,NNP,B-NP,B-PER
+Djorkaeff,NNP,I-NP,I-PER
+(,(,O,O
+53rd,CD,B-NP,O
+),),O,O

@@ -1,0 +1,15 @@
+0,1,2,3
+Anne-Gaelle,NNP,B-NP,B-PER
+Sidot,NNP,I-NP,I-PER
+(,(,O,O
+France,NNP,B-NP,B-LOC
+),),O,O
+beat,VB,B-VP,O
+Wang,NNP,B-NP,B-PER
+Shi-Ting,NNP,I-NP,I-PER
+(,(,O,O
+Taiwan,NNP,B-NP,B-LOC
+),),O,O
+6-4,CD,B-NP,O
+3-6,CD,I-NP,O
+6-3,CD,I-NP,O

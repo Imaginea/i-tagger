@@ -1,0 +1,14 @@
+0,1,2,3
+But,CC,O,O
+overall,JJ,B-NP,O
+",",",",O,O
+it,PRP,B-NP,O
+was,VBD,B-VP,O
+France,NNP,B-NP,B-LOC
+and,CC,I-NP,O
+Canada,NNP,I-NP,B-LOC
+who,WP,B-NP,O
+dominated,VBD,B-VP,O
+the,DT,B-NP,O
+day,NN,I-NP,O
+.,.,O,O

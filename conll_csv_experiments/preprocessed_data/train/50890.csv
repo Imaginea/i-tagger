@@ -1,0 +1,11 @@
+0,1,2,3
+RTRS,NNS,B-NP,B-ORG
+-,:,O,O
+Toyota,NNP,B-NP,B-ORG
+Australia,NNP,I-NP,I-ORG
+workers,NNS,I-NP,O
+to,TO,B-VP,O
+return,VB,I-VP,O
+to,TO,B-PP,O
+work,VB,B-NP,O
+.,.,O,O

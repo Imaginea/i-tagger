@@ -1,0 +1,14 @@
+0,1,2,3
+Fastest,JJS,B-NP,O
+lap,NN,I-NP,O
+:,:,O,O
+Gounon,NNP,B-NP,B-PER
+",",",",O,O
+2,CD,B-NP,O
+minutes,NNS,I-NP,O
+03.684,CD,I-NP,O
+seconds,NNS,I-NP,O
+(,(,O,O
+170.680,CD,B-NP,O
+kph,NN,I-NP,O
+),),O,O

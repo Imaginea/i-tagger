@@ -1,0 +1,7 @@
+0,1,2,3
+Top,JJ,B-NP,O
+Belarus,NNP,I-NP,B-LOC
+politician,NN,I-NP,O
+blasts,NNS,I-NP,O
+president,NN,I-NP,O
+.,.,O,O

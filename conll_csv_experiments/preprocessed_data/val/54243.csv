@@ -1,0 +1,10 @@
+0,1,2,3
+How,WRB,B-ADVP,O
+often,RB,I-ADVP,O
+has,VBZ,B-VP,O
+independence,NN,B-NP,O
+been,VBN,B-VP,O
+achieved,VBN,I-VP,O
+without,IN,B-PP,O
+bloodshed,NN,B-NP,O
+?,.,O,O

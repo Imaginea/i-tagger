@@ -1,0 +1,14 @@
+0,1,2,3
+Slovakia,NNP,B-NP,B-LOC
+-,:,O,O
+Lubomir,NNP,B-NP,B-PER
+Moravcik,NNP,I-NP,I-PER
+(,(,O,O
+13th,JJ,B-NP,O
+),),O,O
+",",",",O,O
+Peter,NNP,B-NP,B-PER
+Dubovsky,NNP,I-NP,I-PER
+(,(,O,O
+88th,CD,B-NP,O
+),),O,O

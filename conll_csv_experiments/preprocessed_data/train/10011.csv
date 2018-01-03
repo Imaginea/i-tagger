@@ -1,0 +1,8 @@
+0,1,2,3
+Qualifier,NN,B-NP,O
+vs.,FW,B-PP,O
+Chuck,NNP,B-NP,B-PER
+Adams,NNP,I-NP,I-PER
+(,(,O,O
+U.S.,NNP,B-NP,B-LOC
+),),O,O

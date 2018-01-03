@@ -1,0 +1,37 @@
+0,1,2,3
+ ,O,O,<UNK>
+We,PRP,B-NP,O
+are,VBP,B-VP,O
+still,RB,B-ADVP,O
+eager,JJ,B-ADJP,O
+that,IN,B-SBAR,O
+nothing,NN,B-NP,O
+should,MD,B-VP,O
+affect,VB,I-VP,O
+the,DT,B-NP,O
+Sudanese,NNP,I-NP,B-MISC
+people,NNS,I-NP,O
+but,CC,O,O
+we,PRP,B-NP,O
+will,MD,B-VP,O
+not,RB,I-VP,O
+deal,VB,I-VP,O
+with,IN,B-PP,O
+the,DT,B-NP,O
+current,JJ,I-NP,O
+regime,NN,I-NP,O
+or,CC,O,O
+the,DT,B-NP,O
+Turabi,NNP,I-NP,B-PER
+front,NN,I-NP,O
+or,CC,O,O
+whatever,WDT,B-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+Mubarak,NNP,B-NP,B-PER
+told,VBD,B-VP,O
+a,DT,B-NP,O
+group,NN,I-NP,O
+of,IN,B-PP,O
+academics,NNS,B-NP,O
+.,.,O,O

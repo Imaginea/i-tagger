@@ -1,0 +1,8 @@
+0,1,2,3
+Gothenburg,VBG,B-NP,B-LOC
+go,VBP,B-VP,O
+through,IN,B-NP,O
+4-1,CD,I-NP,O
+on,IN,B-PP,O
+aggregate,NN,B-NP,O
+.,.,O,O

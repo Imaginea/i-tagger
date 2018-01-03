@@ -1,0 +1,4 @@
+0,1,2,3
+Exceptional,JJ,B-NP,O
+items,NNS,I-NP,O
+nil,VBP,B-VP,O

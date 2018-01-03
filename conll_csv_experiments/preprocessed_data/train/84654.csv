@@ -1,0 +1,10 @@
+0,1,2,3
+Two,CD,B-NP,O
+Thai,NNP,I-NP,B-MISC
+border,NN,I-NP,O
+police,NN,I-NP,O
+wounded,VBN,B-VP,O
+by,IN,B-PP,O
+Burma,NNP,B-NP,B-LOC
+gunmen,NNS,I-NP,O
+.,.,O,O

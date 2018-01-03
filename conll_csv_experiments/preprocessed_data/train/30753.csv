@@ -1,0 +1,14 @@
+0,1,2,3
+Total,JJ,B-NP,O
+326,CD,I-NP,O
+Fall,NN,B-NP,O
+of,IN,B-PP,O
+wickets,NN,B-NP,O
+:,:,O,O
+1-64,CD,B-NP,O
+2-85,CD,I-NP,O
+3-116,CD,I-NP,O
+4-205,CD,I-NP,O
+5-248,CD,I-NP,O
+6-273,CD,B-ADVP,O
+7-283,CD,B-NP,O

@@ -1,0 +1,8 @@
+0,1,2,3
+6.,CD,B-NP,O
+Xiomara,NNP,I-NP,B-PER
+Rivero,NNP,I-NP,I-PER
+(,(,O,O
+Cuba,NNP,B-NP,B-LOC
+),),O,O
+61.94,CD,B-NP,O

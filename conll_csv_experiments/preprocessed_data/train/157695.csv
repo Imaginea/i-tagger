@@ -1,0 +1,10 @@
+0,1,2,3
+Markus,NNP,B-NP,B-PER
+Feldhoff,NNP,I-NP,I-PER
+hit,VBD,B-VP,O
+a,DT,B-NP,O
+consolation,NN,I-NP,O
+goal,NN,I-NP,O
+for,IN,B-PP,O
+Leverkusen,NNP,B-NP,B-ORG
+.,.,O,O

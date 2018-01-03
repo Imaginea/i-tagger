@@ -1,0 +1,12 @@
+0,1,2,3
+It,PRP,B-NP,O
+'s,VBZ,B-VP,O
+too,RB,B-ADJP,O
+early,JJ,I-ADJP,O
+to,TO,B-VP,O
+tell,VB,I-VP,O
+",",",",O,O
+ ,O,O,<UNK>
+she,PRP,B-NP,O
+said,VBD,B-VP,O
+.,.,O,O

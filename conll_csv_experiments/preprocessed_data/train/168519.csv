@@ -1,0 +1,11 @@
+0,1,2,3
+Lebed,JJ,B-NP,B-PER
+likely,JJ,I-NP,O
+to,TO,B-VP,O
+fail,VB,I-VP,O
+on,IN,B-PP,O
+Chechnya,NNP,B-NP,B-LOC
+-,:,O,O
+Polish,JJ,B-NP,B-MISC
+minister,NN,I-NP,O
+.,.,O,O

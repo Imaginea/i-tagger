@@ -1,0 +1,6 @@
+0,1,2,3
+--,:,B-NP,O
+Chicago,NNP,I-NP,B-LOC
+newsdesk,UH,B-INTJ,O
+",",",",O,O
+312-408-8787,CD,B-NP,O

@@ -1,0 +1,11 @@
+0,1,2,3
+TOMORROW,NNP,B-NP,O
+...,:,O,O
+Little,JJ,B-NP,B-PER
+change,NN,I-NP,O
+from,IN,B-PP,O
+today,NN,B-NP,O
+'s,POS,B-NP,O
+weather,NN,I-NP,O
+expected,VBN,B-VP,O
+.,.,O,O

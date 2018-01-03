@@ -1,0 +1,16 @@
+0,1,2,3
+70,CD,B-NP,O
+66,CD,I-NP,O
+67,CD,I-NP,O
+",",",",O,O
+Des,NNP,B-NP,B-PER
+Smyth,NNP,I-NP,I-PER
+(,(,O,O
+Ireland,NNP,B-NP,B-LOC
+),),O,O
+66,CD,B-NP,O
+69,CD,I-NP,O
+68,CD,I-NP,O
+",",",",O,O
+Paul,NNP,B-NP,B-PER
+Lawrie,NNP,I-NP,I-PER

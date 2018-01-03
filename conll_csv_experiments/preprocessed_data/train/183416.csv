@@ -1,0 +1,16 @@
+0,1,2,3
+They,PRP,B-NP,O
+said,VBD,B-VP,O
+the,DT,B-NP,O
+date,NN,I-NP,O
+of,IN,B-PP,O
+Takemura,NNP,B-NP,B-PER
+'s,POS,B-NP,O
+resignation,NN,I-NP,O
+would,MD,B-VP,O
+be,VB,I-VP,O
+determined,VBN,I-VP,O
+by,IN,B-PP,O
+party,NN,B-NP,O
+officials,NNS,I-NP,O
+.,.,O,O

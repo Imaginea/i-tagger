@@ -1,0 +1,5 @@
+0,1,2,3
+Super,NNP,B-NP,B-MISC
+G,NNP,I-NP,I-MISC
+standings,VBZ,B-VP,O
+:,:,O,O

@@ -1,0 +1,11 @@
+0,1,2,3
+Squad,VB,B-VP,O
+:,:,O,O
+Goalkeepers,NNS,B-NP,O
+-,:,O,O
+Bogdan,NNP,B-NP,B-PER
+Stelea,NNP,I-NP,I-PER
+",",",",O,O
+Florin,NNP,B-NP,B-PER
+Prunea,NNP,I-NP,I-PER
+.,.,O,O

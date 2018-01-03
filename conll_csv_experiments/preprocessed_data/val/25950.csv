@@ -1,0 +1,10 @@
+0,1,2,3
+Armenians,NNPS,B-NP,B-MISC
+",",",",O,O
+Azeris,NNP,B-NP,B-MISC
+hold,VBP,B-VP,O
+peace,NN,B-NP,O
+talks,NNS,I-NP,O
+in,IN,B-PP,O
+Germany,NNP,B-NP,B-LOC
+.,.,O,O

@@ -1,0 +1,8 @@
+0,1,2,3
+Slough,NN,B-NP,B-ORG
+Estates,NNP,I-NP,I-ORG
+helps,VBZ,B-VP,O
+lift,NN,B-NP,O
+property,NN,I-NP,O
+sector,NN,I-NP,O
+.,.,O,O

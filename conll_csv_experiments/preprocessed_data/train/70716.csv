@@ -1,0 +1,12 @@
+0,1,2,3
+and,CC,O,O
+Mika,NNP,B-NP,B-PER
+Hakkinen,NNP,I-NP,I-PER
+of,IN,B-PP,O
+Finland,NNP,B-NP,B-LOC
+was,VBD,B-VP,O
+third,JJ,B-NP,O
+in,IN,B-PP,O
+a,DT,B-NP,O
+McLaren,NNP,I-NP,B-ORG
+.,.,O,O

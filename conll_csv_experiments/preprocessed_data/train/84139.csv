@@ -1,0 +1,10 @@
+0,1,2,3
+Leftist,JJ,B-NP,O
+Mexican,JJ,I-NP,B-MISC
+armed,JJ,I-NP,O
+group,NN,I-NP,O
+says,VBZ,B-VP,O
+troops,NNS,B-NP,O
+in,IN,B-PP,O
+capital,NN,B-NP,O
+.,.,O,O

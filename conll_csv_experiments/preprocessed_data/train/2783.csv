@@ -1,0 +1,10 @@
+0,1,2,3
+Israel,NNP,B-NP,B-LOC
+approves,VBZ,B-VP,O
+Arafat,NNP,B-NP,B-PER
+'s,POS,B-NP,O
+flight,NN,I-NP,O
+to,TO,B-PP,O
+West,NNP,B-NP,B-LOC
+Bank,NNP,I-NP,I-LOC
+.,.,O,O

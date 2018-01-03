@@ -1,0 +1,6 @@
+0,1,2,3
+Indonesia,NNP,B-NP,B-LOC
+"55,000-B",NNS,I-NP,O
+Unknown,JJ,B-ADJP,O
+-,:,O,O
+"161,600",CD,B-NP,O

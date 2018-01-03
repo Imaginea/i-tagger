@@ -1,0 +1,8 @@
+0,1,2,3
+2.,NNP,B-NP,O
+Brian,NNP,I-NP,B-PER
+Bronson,NNP,I-NP,I-PER
+(,(,O,O
+U.S.,NNP,B-NP,B-LOC
+),),O,O
+49.67,CD,B-NP,O

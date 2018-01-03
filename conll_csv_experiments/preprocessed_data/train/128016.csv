@@ -1,0 +1,11 @@
+0,1,2,3
+-,:,O,O
+Derivatives,JJ,B-NP,O
+desk,NN,I-NP,O
+",",",",O,O
+312,CD,B-NP,O
+408-8750,CD,I-NP,O
+/,SYM,O,O
+E-mail,NN,B-NP,O
+:,:,O,O
+derivatives@reuters.com,NN,B-NP,O

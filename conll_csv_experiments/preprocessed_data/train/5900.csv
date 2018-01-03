@@ -1,0 +1,17 @@
+0,1,2,3
+Scorers,NNS,B-NP,O
+:,:,O,O
+Gloria,NNP,B-NP,B-ORG
+Bistrita,NNP,I-NP,I-ORG
+-,:,O,O
+Ilie,NNP,B-NP,B-PER
+Lazar,NNP,I-NP,I-PER
+(,(,O,O
+32nd,CD,B-NP,O
+),),O,O
+",",",",O,O
+Eugen,NNP,B-NP,B-PER
+Voica,NNP,I-NP,I-PER
+(,(,O,O
+84th,CD,B-NP,O
+),),O,O

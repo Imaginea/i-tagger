@@ -1,0 +1,11 @@
+0,1,2,3
+Czech,NNP,B-NP,B-LOC
+Republic,NNP,I-NP,I-LOC
+'s,POS,B-NP,O
+Havel,NNP,I-NP,B-PER
+to,TO,B-VP,O
+tour,VB,I-VP,O
+Brazil,NNP,B-NP,B-LOC
+in,IN,B-PP,O
+September,NNP,B-NP,O
+.,.,O,O

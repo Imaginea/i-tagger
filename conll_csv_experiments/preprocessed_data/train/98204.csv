@@ -1,0 +1,29 @@
+0,1,2,3
+ ,O,O,<UNK>
+I,PRP,B-NP,O
+hope,VBP,B-VP,O
+I,PRP,B-NP,O
+can,MD,B-VP,O
+get,VB,I-VP,O
+into,IN,B-PP,O
+the,DT,B-NP,O
+last,JJ,I-NP,O
+16,CD,I-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+said,VBD,B-VP,O
+Hingis,NNP,B-NP,B-PER
+",",",",O,O
+seeded,VBN,B-VP,O
+to,TO,I-VP,O
+face,VB,I-VP,O
+third,JJ,B-NP,O
+seed,NN,I-NP,O
+Arantxa,NNP,I-NP,B-PER
+Sanchez,NNP,I-NP,I-PER
+Vicario,NNP,I-NP,I-PER
+in,IN,B-PP,O
+the,DT,B-NP,O
+fourth,JJ,I-NP,O
+round,NN,I-NP,O
+.,.,O,O

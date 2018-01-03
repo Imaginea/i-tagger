@@ -1,0 +1,16 @@
+0,1,2,3
+But,CC,O,O
+Rdainah,NNP,B-NP,B-PER
+said,VBD,B-VP,O
+Arafat,NNP,B-NP,B-PER
+would,MD,B-VP,O
+go,VB,I-VP,O
+to,TO,B-PP,O
+Cairo,NNP,B-NP,B-LOC
+on,IN,B-PP,O
+Saturday,NNP,B-NP,O
+for,IN,B-PP,O
+talks,NNS,B-NP,O
+with,IN,B-PP,O
+Mubarak,NNP,B-NP,B-PER
+.,.,O,O

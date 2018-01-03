@@ -1,0 +1,10 @@
+0,1,2,3
+201,CD,B-NP,O
+Mark,NNP,I-NP,B-PER
+McNulty,NNP,I-NP,I-PER
+(,(,O,O
+Zimbabwe,NNP,B-NP,B-LOC
+),),O,O
+72,CD,B-NP,O
+61,CD,I-NP,O
+68,CD,I-NP,O

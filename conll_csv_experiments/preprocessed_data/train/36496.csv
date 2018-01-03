@@ -1,0 +1,8 @@
+0,1,2,3
+8.,NNP,B-NP,O
+Mark,NNP,I-NP,B-PER
+Richardson,NNP,I-NP,I-PER
+(,(,O,O
+Britain,NNP,B-NP,B-LOC
+),),O,O
+45.67,CD,B-NP,O

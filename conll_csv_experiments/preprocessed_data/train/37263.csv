@@ -1,0 +1,8 @@
+0,1,2,3
+10.,CD,B-NP,O
+Robert,NNP,I-NP,B-PER
+Stefko,NNP,I-NP,I-PER
+(,(,O,O
+Slovakia,NNP,B-NP,B-LOC
+),),O,O
+28:42.26,CD,B-NP,O

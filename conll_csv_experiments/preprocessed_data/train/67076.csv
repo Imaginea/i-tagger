@@ -1,0 +1,9 @@
+0,1,2,3
+Malta,NNP,B-NP,B-LOC
+police,NN,I-NP,O
+seize,VB,B-VP,O
+cannabis,NNS,B-NP,O
+among,IN,B-PP,O
+chilli,JJ,B-NP,O
+sauce,NN,I-NP,O
+.,.,O,O

@@ -1,0 +1,17 @@
+0,1,2,3
+ ,O,O,<UNK>
+We,PRP,B-NP,O
+do,VBP,B-VP,O
+n't,RB,I-VP,O
+believe,VB,I-VP,O
+the,DT,B-NP,O
+government,NN,I-NP,O
+will,MD,B-VP,O
+make,VB,I-VP,O
+its,PRP$,B-NP,O
+timetable,NN,I-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+he,PRP,B-NP,O
+added,VBD,B-VP,O
+.,.,O,O

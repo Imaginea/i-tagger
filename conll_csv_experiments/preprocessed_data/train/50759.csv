@@ -1,0 +1,36 @@
+0,1,2,3
+ ,O,O,<UNK>
+Every,DT,B-NP,O
+time,NN,I-NP,O
+the,DT,B-NP,O
+Senate,NNP,I-NP,B-ORG
+hacks,NNS,I-NP,O
+away,RB,B-ADVP,O
+at,IN,B-PP,O
+the,DT,B-NP,O
+budget,NN,I-NP,O
+",",",",O,O
+they,PRP,B-NP,O
+hack,VB,B-VP,O
+away,RP,B-PRT,O
+at,IN,B-PP,O
+the,DT,B-NP,O
+lower,JJR,I-NP,O
+interest,NN,I-NP,O
+rate,NN,I-NP,O
+environment,NN,I-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+Howard,NNP,B-NP,B-PER
+told,VBD,B-VP,O
+reporters,NNS,B-NP,O
+on,IN,B-PP,O
+Thursday,NNP,B-NP,O
+night,NN,I-NP,O
+after,IN,B-PP,O
+attending,VBG,B-VP,O
+a,DT,B-NP,O
+Liberal,NNP,I-NP,B-ORG
+Party,NNP,I-NP,I-ORG
+function,NN,I-NP,O
+.,.,O,O

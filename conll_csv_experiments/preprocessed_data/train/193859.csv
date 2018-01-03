@@ -1,0 +1,17 @@
+0,1,2,3
+LONDON,NNP,B-NP,B-LOC
+1996-08-29,CD,I-NP,O
+London,NNP,B-NP,B-ORG
+International,NNP,I-NP,I-ORG
+Financial,NNP,I-NP,I-ORG
+Futures,NNPS,I-NP,I-ORG
+Exchange,NNP,I-NP,I-ORG
+automated,VBN,I-NP,O
+pit,NN,I-NP,O
+trading,NN,I-NP,O
+(,(,O,O
+APT,NNP,O,O
+),),O,O
+tabular,JJ,B-NP,O
+details,NNS,I-NP,O
+:,:,O,O

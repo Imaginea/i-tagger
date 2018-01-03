@@ -1,0 +1,8 @@
+0,1,2,3
+10.,CD,B-NP,O
+Nathalie,NNP,I-NP,B-PER
+Lancien,NNP,I-NP,I-PER
+(,(,O,O
+France,NNP,B-NP,B-LOC
+),),O,O
+8,CD,B-NP,O

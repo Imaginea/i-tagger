@@ -1,0 +1,10 @@
+0,1,2,3
+Gluten,JJ,B-NP,O
+meal,NN,I-NP,O
+60,CD,B-NP,O
+pct,JJ,I-NP,O
+bulk,NN,I-NP,O
+Spot,NN,I-NP,O
+-,:,O,O
+310.00,CD,B-NP,O
+unc,NNS,I-NP,O

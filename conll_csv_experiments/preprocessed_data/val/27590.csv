@@ -1,0 +1,17 @@
+0,1,2,3
+Megawati,NNP,B-NP,B-PER
+has,VBZ,B-VP,O
+sued,VBN,I-VP,O
+the,DT,B-NP,O
+defendants,NNS,I-NP,O
+over,IN,B-PP,O
+a,DT,B-NP,O
+government-backed,JJ,I-NP,O
+rebel,NN,I-NP,O
+congress,NN,I-NP,O
+which,WDT,B-NP,O
+ousted,VBD,B-VP,O
+her,PRP$,B-NP,O
+last,JJ,I-NP,O
+June,NNP,I-NP,O
+.,.,O,O

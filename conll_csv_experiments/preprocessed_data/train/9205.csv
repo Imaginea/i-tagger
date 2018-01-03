@@ -1,0 +1,15 @@
+0,1,2,3
+15-7,CD,B-NP,O
+Jason,NNP,B-NP,B-PER
+Wong,NNP,I-NP,I-PER
+(,(,O,O
+Malaysia,NNP,B-NP,B-LOC
+),),O,O
+beat,VB,B-VP,O
+Abdul,NNP,B-NP,B-PER
+Samad,NNP,I-NP,I-PER
+Ismail,NNP,I-NP,I-PER
+(,(,O,O
+Malaysia,NNP,B-NP,B-LOC
+),),O,O
+16-18,CD,B-NP,O

@@ -1,0 +1,12 @@
+0,1,2,3
+ ,O,O,<UNK>
+During,IN,B-PP,O
+the,DT,B-NP,O
+scuffle,NN,I-NP,O
+",",",",O,O
+Moura,NNP,B-NP,B-PER
+threw,VBD,B-VP,O
+the,DT,B-NP,O
+first,JJ,I-NP,O
+punch,NN,I-NP,O
+.,.,O,O

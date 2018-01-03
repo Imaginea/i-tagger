@@ -1,0 +1,8 @@
+0,1,2,3
+12=,CD,B-NP,O
+Madlen,NNP,I-NP,B-PER
+Brigger-Summermatter,NNP,I-NP,I-PER
+(,(,O,O
+Switzerland,NNP,B-NP,B-LOC
+),),O,O
+42,CD,B-NP,O

@@ -1,0 +1,32 @@
+0,1,2,3
+ ,O,O,<UNK>
+America,NNP,B-NP,B-LOC
+can,MD,B-VP,O
+look,VB,I-VP,O
+back,RP,B-PRT,O
+on,IN,B-PP,O
+a,DT,B-NP,O
+week,NN,I-NP,O
+of,IN,B-PP,O
+remarkable,JJ,B-NP,O
+achievement,NN,I-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+Clinton,NNP,B-NP,B-PER
+said,VBD,B-VP,O
+",",",",O,O
+without,IN,B-PP,O
+even,RB,B-NP,O
+a,DT,I-NP,O
+passing,VBG,I-NP,O
+reference,NN,I-NP,O
+to,TO,B-PP,O
+the,DT,B-NP,O
+Republican,NNP,I-NP,B-MISC
+majority,NN,I-NP,O
+in,IN,B-PP,O
+the,DT,B-NP,O
+House,NNP,I-NP,B-ORG
+and,CC,I-NP,O
+Senate,NNP,I-NP,B-ORG
+.,.,O,O

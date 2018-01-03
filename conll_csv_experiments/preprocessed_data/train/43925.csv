@@ -1,0 +1,10 @@
+0,1,2,3
+Mass,NNP,B-NP,B-LOC
+.,.,O,O
+governor,NN,B-NP,O
+has,VBZ,B-VP,O
+trouble,NN,B-NP,O
+winning,VBG,B-VP,O
+home,NN,B-ADVP,O
+support,NN,B-NP,O
+.,.,O,O

@@ -1,0 +1,36 @@
+0,1,2,3
+ ,O,O,<UNK>
+The,DT,B-NP,O
+wheat,NN,I-NP,O
+will,MD,B-VP,O
+not,RB,I-VP,O
+be,VB,I-VP,O
+of,IN,B-PP,O
+a,DT,B-NP,O
+good,JJ,I-NP,O
+quality,NN,I-NP,O
+this,DT,B-NP,O
+year,NN,I-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+said,VBD,B-VP,O
+Hryhory,NNP,B-NP,B-PER
+Borsuk,NNP,I-NP,I-PER
+",",",",O,O
+a,DT,B-NP,O
+scientist,NN,I-NP,O
+at,IN,B-PP,O
+the,DT,B-NP,O
+Mironivka,NNP,I-NP,B-ORG
+Wheat,NNP,I-NP,I-ORG
+Institute,NNP,I-NP,I-ORG
+",",",",O,O
+run,VBN,B-VP,O
+by,IN,B-PP,O
+the,DT,B-NP,O
+Ukrainian,NNP,I-NP,B-ORG
+Academy,NNP,I-NP,I-ORG
+of,IN,B-PP,I-ORG
+Agrarian,NNP,B-NP,I-ORG
+Sciences,NNP,I-NP,I-ORG
+.,.,O,O

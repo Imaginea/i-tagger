@@ -1,0 +1,16 @@
+0,1,2,3
+I,PRP,B-NP,O
+did,VBD,B-VP,O
+n't,RB,I-VP,O
+miss,VB,I-VP,O
+that,IN,B-SBAR,O
+many,JJ,B-NP,O
+shots,NNS,I-NP,O
+and,CC,O,O
+he,PRP,B-NP,O
+was,VBD,B-VP,O
+making,VBG,I-VP,O
+the,DT,B-NP,O
+mistakes,NNS,I-NP,O
+.,.,O,O
+ ,O,O,<UNK>

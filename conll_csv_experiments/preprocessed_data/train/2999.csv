@@ -1,0 +1,11 @@
+0,1,2,3
+Arafat,NN,B-NP,B-PER
+to,TO,B-VP,O
+meet,VB,I-VP,O
+Peres,NNP,B-NP,B-PER
+in,IN,B-PP,O
+Gaza,NNP,B-NP,B-LOC
+after,IN,B-PP,O
+flight,NN,B-NP,O
+ban,NN,I-NP,O
+.,.,O,O

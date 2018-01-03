@@ -1,0 +1,22 @@
+0,1,2,3
+ ,O,O,<UNK>
+An,DT,B-NP,O
+improvement,NN,I-NP,O
+is,VBZ,B-VP,O
+expected,VBN,I-VP,O
+in,IN,B-PP,O
+capacity,NN,B-NP,O
+utilisation,NN,I-NP,O
+",",",",O,O
+turnover,NN,B-NP,O
+and,CC,O,O
+profits,NNS,B-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+the,DT,B-NP,O
+company,NN,I-NP,O
+said,VBD,B-VP,O
+in,IN,B-PP,O
+a,DT,B-NP,O
+statement,NN,I-NP,O
+.,.,O,O

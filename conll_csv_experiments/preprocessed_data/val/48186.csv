@@ -1,0 +1,28 @@
+0,1,2,3
+ ,O,O,<UNK>
+I,PRP,B-NP,O
+extend,VBP,B-VP,O
+the,DT,B-NP,O
+deepest,JJS,I-NP,O
+gratitude,NN,I-NP,O
+...,:,O,O
+to,TO,B-VP,O
+your,PRP$,B-NP,O
+excellency,NN,I-NP,O
+for,IN,B-PP,O
+your,PRP$,B-NP,O
+untiring,VBG,I-NP,O
+and,CC,I-NP,O
+invaluable,JJ,I-NP,O
+friendship,NN,I-NP,O
+and,CC,I-NP,O
+support,NN,I-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+Ramos,NNP,B-NP,B-PER
+told,VBD,B-VP,O
+Suharto,NNP,B-NP,B-PER
+in,IN,B-PP,O
+a,DT,B-NP,O
+letter,NN,I-NP,O
+.,.,O,O

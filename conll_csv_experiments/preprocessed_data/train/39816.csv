@@ -1,0 +1,28 @@
+0,1,2,3
+ ,O,O,<UNK>
+Butch,NNP,B-NP,B-PER
+and,CC,O,O
+I,PRP,B-NP,O
+are,VBP,B-VP,O
+finished,VBN,I-VP,O
+",",",",O,O
+ ,O,O,<UNK>
+Norman,NNP,B-NP,B-PER
+told,VBD,B-VP,O
+reporters,NNS,B-NP,O
+on,IN,B-PP,O
+Thursday,NNP,B-NP,O
+before,IN,B-PP,O
+the,DT,B-NP,O
+start,NN,I-NP,O
+of,IN,B-PP,O
+the,DT,B-NP,O
+World,NNP,I-NP,B-MISC
+Series,NNP,I-NP,I-MISC
+of,IN,B-PP,I-MISC
+Golf,NNP,B-NP,I-MISC
+in,IN,B-PP,O
+Akron,NNP,B-NP,B-LOC
+",",",",O,O
+Ohio,NNP,B-NP,B-LOC
+.,.,O,O

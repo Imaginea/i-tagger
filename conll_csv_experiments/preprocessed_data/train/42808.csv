@@ -1,0 +1,33 @@
+0,1,2,3
+ ,O,O,<UNK>
+Disperse,NNP,B-NP,O
+",",",",O,O
+abstain,NN,B-NP,O
+from,IN,B-PP,O
+forming,VBG,B-VP,O
+groups,NNS,B-NP,O
+and,CC,O,O
+help,VB,B-VP,O
+maintain,VB,I-VP,O
+order,NN,B-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+army,NN,B-NP,O
+officers,NNS,I-NP,O
+",",",",O,O
+who,WP,B-NP,O
+has,VBZ,B-VP,O
+enforced,VBN,I-VP,O
+a,DT,B-NP,O
+loose,JJ,I-NP,O
+curfew,NN,I-NP,O
+since,IN,B-PP,O
+the,DT,B-NP,O
+riots,NNS,I-NP,O
+",",",",O,O
+told,VBD,B-VP,O
+the,DT,B-NP,O
+crowd,NN,I-NP,O
+through,IN,B-PP,O
+loudspeakers,NNS,B-NP,O
+.,.,O,O

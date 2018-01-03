@@ -1,0 +1,8 @@
+0,1,2,3
+10.,CD,B-NP,O
+Stephen,NNP,I-NP,B-PER
+Ames,NNP,I-NP,I-PER
+(,(,O,O
+Trinidad,NNP,B-NP,B-LOC
+),),O,O
+"211,175",CD,B-NP,O

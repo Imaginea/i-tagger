@@ -1,0 +1,8 @@
+0,1,2,3
+Ijaz,NNP,B-NP,B-PER
+Ahmad,NNP,I-NP,I-PER
+c,SYM,O,O
+Spearman,NNP,B-NP,B-PER
+b,SYM,O,O
+Vaughan,NNP,B-NP,B-PER
+59,CD,I-NP,O

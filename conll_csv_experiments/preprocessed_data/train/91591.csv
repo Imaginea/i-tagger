@@ -1,0 +1,8 @@
+0,1,2,3
+LONDON,NNP,B-NP,B-LOC
+1996-08-26,CD,I-NP,O
+Summary,NNS,B-NP,O
+of,IN,B-PP,O
+Monday,NNP,B-NP,O
+'s,POS,B-NP,O
+English,NNP,I-NP,B-MISC

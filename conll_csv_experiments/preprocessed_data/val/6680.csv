@@ -1,0 +1,16 @@
+0,1,2,3
+2.,NNP,B-NP,O
+Michael,NNP,I-NP,B-PER
+Green,NNP,I-NP,I-PER
+(,(,O,O
+Jamaica,NNP,B-NP,B-LOC
+),),O,O
+",",",",O,O
+Osmond,VB,B-VP,B-PER
+Ezinwa,NNP,B-NP,I-PER
+(,(,O,O
+Nigeria,NNP,B-NP,B-LOC
+),),O,O
+",",",",O,O
+Oeji,NNP,B-NP,B-PER
+Aliu,NNP,I-NP,I-PER

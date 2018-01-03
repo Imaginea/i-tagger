@@ -1,0 +1,12 @@
+0,1,2,3
+Post-mortem,JJ,B-NP,O
+examinations,NNS,I-NP,O
+showed,VBD,B-VP,O
+they,PRP,B-NP,O
+were,VBD,B-VP,O
+all,DT,O,O
+caused,VBN,B-VP,O
+by,IN,B-PP,O
+methanol,NN,B-NP,O
+poisoning,NN,I-NP,O
+.,.,O,O

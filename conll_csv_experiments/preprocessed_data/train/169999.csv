@@ -1,0 +1,11 @@
+0,1,2,3
+RTRS,NNS,B-NP,B-ORG
+-,:,O,O
+Arthur,NNP,B-NP,B-ORG
+Yates,NNP,I-NP,I-ORG
+year,NN,I-NP,O
+net,NN,I-NP,O
+A$,$,B-NP,B-MISC
+6.1,CD,I-NP,O
+mln,NNS,I-NP,O
+.,.,O,O

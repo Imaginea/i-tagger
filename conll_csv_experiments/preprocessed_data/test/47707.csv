@@ -1,0 +1,7 @@
+0,1,2,3
+Maccabi,NNP,B-NP,B-ORG
+Haifa,NNP,I-NP,I-ORG
+1,CD,I-NP,O
+Hapoel,NNP,I-NP,B-ORG
+Taibe,NNP,I-NP,I-ORG
+1,CD,I-NP,O

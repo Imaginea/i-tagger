@@ -1,0 +1,14 @@
+0,1,2,3
+Standings,NNS,B-NP,O
+(,(,O,O
+tabulate,NN,B-NP,O
+under,IN,B-PP,O
+games,NNS,B-NP,O
+played,VBD,B-VP,O
+",",",",I-VP,O
+won,VBD,I-VP,O
+",",",",B-VP,O
+drawn,VBN,I-VP,O
+",",",",O,O
+lost,VBD,B-VP,O
+",",",",O,O

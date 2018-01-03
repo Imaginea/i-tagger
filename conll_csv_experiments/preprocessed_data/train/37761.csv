@@ -1,0 +1,12 @@
+0,1,2,3
+x-AEK,IN,B-NP,B-ORG
+Athens,NNP,I-NP,I-ORG
+(,(,O,O
+Greece,NNP,B-NP,B-LOC
+),),O,O
+v,JJ,B-NP,O
+Chemlon,NNP,I-NP,B-ORG
+Humenne,NNP,I-NP,I-ORG
+(,(,O,O
+Slovakia,NNP,B-NP,B-LOC
+),),O,O

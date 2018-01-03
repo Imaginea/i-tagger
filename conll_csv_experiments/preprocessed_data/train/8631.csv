@@ -1,0 +1,7 @@
+0,1,2,3
+Add,VB,B-VP,B-ORG
+Hapoel,NNP,B-NP,I-ORG
+Ironi,NNP,I-NP,I-ORG
+v,FW,I-NP,O
+Constructorul,NNP,I-NP,B-ORG
+Chisinau,NNP,I-NP,I-ORG

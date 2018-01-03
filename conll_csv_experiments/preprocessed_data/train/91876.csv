@@ -1,0 +1,8 @@
+0,1,2,3
+LONDON,NNP,B-NP,B-LOC
+1996-08-26,CD,I-NP,O
+Wasim,NNP,B-NP,B-PER
+Akram,NNP,I-NP,I-PER
+'s,POS,B-NP,O
+three-wicket,NN,I-NP,O
+haul,NN,I-NP,O

@@ -1,0 +1,8 @@
+0,1,2,3
+Two,CD,B-NP,O
+missing,JJ,I-NP,O
+Belgian,JJ,I-NP,B-MISC
+teenagers,NNS,I-NP,O
+found,VBD,B-VP,O
+unharmed,JJ,B-ADJP,O
+.,.,O,O

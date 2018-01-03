@@ -1,0 +1,15 @@
+0,1,2,3
+9,CD,B-NP,O
+-,:,I-NP,O
+Cedric,NNP,I-NP,B-PER
+Pioline,NNP,I-NP,I-PER
+(,(,O,O
+France,NNP,B-NP,B-LOC
+),),O,O
+beat,VB,B-VP,O
+Gregory,NNP,B-NP,B-PER
+Carraz,NNP,I-NP,I-PER
+(,(,O,O
+France,NNP,B-NP,B-LOC
+),),O,O
+7-6,CD,B-ADVP,O

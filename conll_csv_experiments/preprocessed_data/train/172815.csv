@@ -1,0 +1,10 @@
+0,1,2,3
+First,NNP,B-NP,B-ORG
+Union,NNP,I-NP,I-ORG
+National,NNP,I-NP,I-ORG
+Bank,NNP,I-NP,I-ORG
+of,IN,B-PP,I-ORG
+Fla.,NNP,B-NP,I-ORG
+settles,VBZ,B-VP,O
+suit,RB,B-NP,O
+.,.,O,O

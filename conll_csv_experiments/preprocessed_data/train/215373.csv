@@ -1,0 +1,9 @@
+0,1,2,3
+NOTES,NNS,B-NP,O
+:,:,O,O
+Second,NNP,B-NP,O
+quarter,NN,I-NP,O
+figures,NNS,I-NP,O
+not,RB,B-VP,O
+available,JJ,B-ADJP,O
+.,.,O,O

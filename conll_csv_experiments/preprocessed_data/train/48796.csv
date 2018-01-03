@@ -1,0 +1,21 @@
+0,1,2,3
+Sgt,UH,B-INTJ,O
+.,.,O,O
+Dan,NNP,B-NP,B-PER
+Jewell,NNP,I-NP,I-PER
+of,IN,B-PP,O
+the,DT,B-NP,O
+Whittier,NNP,I-NP,B-LOC
+",",",",O,O
+Alaska,NNP,B-NP,B-LOC
+police,NN,I-NP,O
+department,NN,I-NP,O
+described,VBN,B-VP,O
+Phan,JJ,B-NP,B-PER
+as,IN,I-NP,O
+ ,O,O,<UNK>
+extremely,RB,B-ADJP,O
+cooperative,JJ,I-ADJP,O
+ ,O,O,<UNK>
+.,.,O,O
+ ,O,O,<UNK>

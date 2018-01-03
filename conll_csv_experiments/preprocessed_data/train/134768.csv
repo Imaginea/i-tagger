@@ -1,0 +1,9 @@
+0,1,2,3
+He,PRP,B-NP,O
+entered,VBD,B-VP,O
+the,DT,B-NP,O
+Military,NNP,I-NP,B-ORG
+College,NNP,I-NP,I-ORG
+in,IN,B-PP,O
+1935,CD,B-NP,O
+.,.,O,O

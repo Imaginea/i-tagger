@@ -1,0 +1,8 @@
+0,1,2,3
+Financial,NNP,B-NP,O
+Data,NNP,I-NP,O
+in,IN,B-PP,O
+000s,CD,B-NP,O
+:,:,O,O
+1995,CD,B-NP,O
+1994,CD,I-NP,O

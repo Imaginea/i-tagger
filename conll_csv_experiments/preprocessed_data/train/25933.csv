@@ -1,0 +1,33 @@
+0,1,2,3
+Named,VBN,B-VP,O
+ ,O,O,<UNK>
+Nirmal,NNP,B-NP,B-LOC
+Hriday,NNP,I-NP,I-LOC
+ ,O,O,<UNK>
+(,(,O,O
+Tender,NNP,B-NP,B-LOC
+Heart,NNP,I-NP,I-LOC
+),),O,O
+",",",",O,O
+it,PRP,B-NP,O
+was,VBD,B-VP,O
+the,DT,B-NP,O
+first,JJ,I-NP,O
+of,IN,B-PP,O
+a,DT,B-NP,O
+chain,NN,I-NP,O
+of,IN,B-PP,O
+150,CD,B-NP,O
+homes,NNS,I-NP,O
+for,IN,B-PP,O
+dying,VBG,B-NP,O
+",",",",I-NP,O
+destitute,JJ,I-NP,O
+people,NNS,I-NP,O
+",",",",O,O
+admitting,VBG,B-VP,O
+nearly,RB,B-NP,O
+"18,000",CD,I-NP,O
+a,DT,B-NP,O
+year,NN,I-NP,O
+.,.,O,O

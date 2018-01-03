@@ -1,0 +1,18 @@
+0,1,2,3
+ ,O,O,<UNK>
+On,IN,B-PP,O
+August,NNP,B-NP,O
+17,CD,I-NP,O
+the,DT,B-NP,O
+mission,NN,I-NP,O
+was,VBD,B-VP,O
+surrounded,VBN,I-VP,O
+(,(,O,O
+by,IN,B-PP,O
+the,DT,B-NP,O
+SPLA,NNP,I-NP,B-ORG
+),),O,O
+and,CC,O,O
+sealed,VBN,B-VP,O
+off,RP,B-PRT,O
+.,.,O,O

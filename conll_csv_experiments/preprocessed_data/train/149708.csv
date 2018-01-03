@@ -1,0 +1,12 @@
+0,1,2,3
+Note,NN,B-VP,O
+:,:,O,O
+77,CD,B-NP,O
+players,NNS,I-NP,O
+to,TO,B-VP,O
+complete,VB,I-VP,O
+their,PRP$,B-NP,O
+first,JJ,I-NP,O
+rounds,NNS,I-NP,O
+on,IN,B-PP,O
+Thursday,NNP,B-NP,O

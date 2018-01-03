@@ -1,0 +1,7 @@
+0,1,2,3
+Rating,NNP,B-NP,O
+Announcement,NN,I-NP,O
+As,IN,B-SBAR,O
+of,IN,B-PP,O
+08/23/96,CD,B-NP,O
+.,.,O,O

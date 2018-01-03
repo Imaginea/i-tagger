@@ -1,0 +1,14 @@
+0,1,2,3
+Its,PRP$,B-NP,O
+service,NN,I-NP,O
+is,VBZ,B-VP,O
+being,VBG,I-VP,O
+introduced,VBN,I-VP,O
+in,IN,B-PP,O
+selected,VBN,B-NP,O
+markets,NNS,I-NP,O
+across,IN,B-PP,O
+the,DT,B-NP,O
+United,NNP,I-NP,B-LOC
+States,NNP,I-NP,I-LOC
+.,.,O,O

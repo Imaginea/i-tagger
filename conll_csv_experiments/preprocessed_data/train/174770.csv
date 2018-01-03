@@ -1,0 +1,13 @@
+0,1,2,3
+It,PRP,B-NP,O
+is,VBZ,B-VP,O
+a,DT,B-NP,O
+holy,JJ,I-NP,O
+war,NN,I-NP,O
+for,IN,B-PP,O
+us,PRP,B-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+he,PRP,B-NP,O
+said,VBD,B-VP,O
+.,.,O,O

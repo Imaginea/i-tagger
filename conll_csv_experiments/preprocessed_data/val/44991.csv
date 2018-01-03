@@ -1,0 +1,13 @@
+0,1,2,3
+SEOUL,VB,B-VP,B-LOC
+1996-08-31,NNP,B-NP,O
+Results,NNS,B-NP,O
+of,IN,B-PP,O
+South,JJ,B-NP,B-MISC
+Korean,JJ,I-NP,I-MISC
+pro-baseball,JJ,I-NP,O
+games,NNS,I-NP,O
+played,VBN,B-VP,O
+on,IN,B-PP,O
+Friday,NNP,B-NP,O
+.,.,O,O

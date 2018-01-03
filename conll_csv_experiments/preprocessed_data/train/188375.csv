@@ -1,0 +1,9 @@
+0,1,2,3
+Fall,NN,B-NP,O
+:,:,O,O
+1-82,CD,B-NP,O
+2-141,JJ,I-NP,O
+3-160,JJ,I-NP,O
+4-174,CD,I-NP,O
+5-203,CD,I-NP,O
+.,.,O,O

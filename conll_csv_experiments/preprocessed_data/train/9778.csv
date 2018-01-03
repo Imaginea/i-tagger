@@ -1,0 +1,8 @@
+0,1,2,3
+Doug,NNP,B-NP,B-PER
+Flach,NNP,I-NP,I-PER
+(,(,O,O
+U.S.,NNP,B-NP,B-LOC
+),),O,O
+vs.,IN,B-PP,O
+qualifier,NN,B-NP,O

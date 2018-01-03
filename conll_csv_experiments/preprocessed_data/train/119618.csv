@@ -1,0 +1,6 @@
+0,1,2,3
+Conversion,NNP,B-NP,O
+:,:,O,O
+Jon,NNP,B-NP,B-PER
+Preston,NNP,I-NP,I-PER
+.,.,O,O

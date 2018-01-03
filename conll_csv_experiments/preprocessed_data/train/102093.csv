@@ -1,0 +1,7 @@
+0,1,2,3
+A.,NNP,B-NP,B-PER
+Flower,NNP,I-NP,I-PER
+lbw,NN,I-NP,O
+b,SYM,O,O
+Flemming,NNP,B-NP,B-PER
+0,CD,I-NP,O

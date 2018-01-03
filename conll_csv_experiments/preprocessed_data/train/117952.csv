@@ -1,0 +1,28 @@
+0,1,2,3
+ ,O,O,<UNK>
+You,PRP,B-NP,O
+only,RB,B-ADVP,O
+have,VBP,B-VP,O
+to,TO,I-VP,O
+see,VB,I-VP,O
+them,PRP,B-NP,O
+in,IN,B-PP,O
+action,NN,B-NP,O
+at,IN,B-PP,O
+protests,NNS,B-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+said,VBD,B-VP,O
+David,NNP,B-NP,B-PER
+Harding,NNP,I-NP,I-PER
+",",",",O,O
+spokesman,NN,B-NP,O
+at,IN,B-PP,O
+ARC,NNP,B-NP,B-ORG
+",",",",O,O
+Hanson,NNP,B-NP,B-ORG
+'s,POS,B-NP,O
+aggregates,NNS,I-NP,O
+company,NN,I-NP,O
+.,.,O,O
+ ,O,O,<UNK>

@@ -1,0 +1,13 @@
+0,1,2,3
+It,PRP,B-NP,O
+did,VBD,B-VP,O
+n't,RB,I-VP,O
+hit,VB,I-VP,O
+anybody,NN,B-NP,O
+or,CC,I-NP,O
+anything,NN,I-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+Stromme,NNP,B-NP,B-PER
+said,VBD,B-VP,O
+.,.,O,O

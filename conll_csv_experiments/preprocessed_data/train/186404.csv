@@ -1,0 +1,10 @@
+0,1,2,3
+EU,NNP,B-NP,B-ORG
+Commission,NNP,I-NP,I-ORG
+cool,JJ,I-NP,O
+on,IN,B-PP,O
+changing,VBG,B-VP,O
+beef,NN,B-NP,O
+cull,NN,I-NP,O
+plan,NN,I-NP,O
+.,.,O,O

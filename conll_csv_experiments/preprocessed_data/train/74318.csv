@@ -1,0 +1,11 @@
+0,1,2,3
+F.C.,NNP,B-NP,B-ORG
+Chindia,NNP,I-NP,I-ORG
+Tirgoviste,NNP,I-NP,I-ORG
+4,CD,I-NP,O
+2,CD,I-NP,O
+0,CD,I-NP,O
+2,CD,I-NP,O
+3,CD,I-NP,O
+4,CD,I-NP,O
+6,CD,I-NP,O

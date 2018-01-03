@@ -1,0 +1,8 @@
+0,1,2,3
+9.,CD,B-NP,O
+Marc,NNP,B-NP,B-PER
+Dollendorf,NNP,I-NP,I-PER
+(,(,O,O
+Belgium,NNP,B-NP,B-LOC
+),),O,O
+50.36,CD,B-NP,O

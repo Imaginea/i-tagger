@@ -1,0 +1,10 @@
+0,1,2,3
+Nobody,NN,B-NP,O
+is,VBZ,B-VP,O
+free,JJ,B-ADJP,O
+from,IN,B-PP,O
+arrest,NN,B-NP,O
+in,IN,B-PP,O
+Burma,NNP,B-NP,B-LOC
+.,.,I-NP,O
+ ,O,O,<UNK>

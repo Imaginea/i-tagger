@@ -1,0 +1,9 @@
+0,1,2,3
+PRAGUE,NNP,B-NP,B-LOC
+1996-08-27,CD,I-NP,O
+The,DT,B-NP,O
+following,JJ,I-NP,O
+is,VBZ,B-VP,O
+a,DT,B-NP,O
+list,NN,I-NP,O
+of,IN,B-PP,O

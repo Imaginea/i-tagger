@@ -1,0 +1,8 @@
+0,1,2,3
+Polish,JJ,B-NP,B-MISC
+ex-communist,JJ,I-NP,O
+president,NN,I-NP,O
+to,TO,B-VP,O
+visit,VB,I-VP,O
+Pope,NNP,B-NP,O
+.,.,O,O

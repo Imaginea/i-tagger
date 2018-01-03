@@ -1,0 +1,9 @@
+0,1,2,3
+Canada,NNP,B-NP,B-LOC
+'s,POS,B-NP,O
+international,JJ,I-NP,O
+travel,NN,I-NP,O
+account,NN,I-NP,O
+gap,NN,I-NP,O
+shrinks,VBZ,B-VP,O
+.,.,O,O

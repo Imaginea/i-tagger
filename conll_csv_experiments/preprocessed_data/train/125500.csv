@@ -1,0 +1,15 @@
+0,1,2,3
+Unbeaten,NNS,B-NP,O
+in,IN,B-PP,O
+four,CD,B-NP,O
+matches,NNS,I-NP,O
+",",",",O,O
+they,PRP,B-NP,O
+still,RB,B-ADVP,O
+trail,VBP,B-VP,O
+leaders,NNS,B-NP,O
+Lens,NNP,I-NP,B-ORG
+by,IN,B-PP,O
+one,CD,B-NP,O
+point,NN,I-NP,O
+.,.,O,O

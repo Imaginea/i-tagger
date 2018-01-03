@@ -1,0 +1,4 @@
+0,1,2,3
+5.,NNP,B-NP,O
+France,NNP,I-NP,B-LOC
+853,CD,I-NP,O

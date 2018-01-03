@@ -1,0 +1,7 @@
+0,1,2,3
+soccer,NN,B-NP,O
+match,NN,I-NP,O
+played,VBD,B-VP,O
+on,IN,B-PP,O
+Sunday,NNP,B-NP,O
+:,:,O,O

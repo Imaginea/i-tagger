@@ -1,0 +1,14 @@
+0,1,2,3
+ ,O,O,<UNK>
+The,DT,B-NP,O
+entire,JJ,I-NP,O
+post,NN,I-NP,O
+was,VBD,B-VP,O
+overrun,VBN,I-VP,O
+",",",",O,O
+ ,O,O,<UNK>
+said,VBD,B-VP,O
+a,DT,B-NP,O
+defence,NN,I-NP,O
+official,NN,I-NP,O
+.,.,O,O

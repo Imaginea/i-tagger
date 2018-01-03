@@ -1,0 +1,16 @@
+0,1,2,3
+6-3,CD,B-NP,O
+6-4,CD,I-NP,O
+Patrick,NNP,B-NP,B-PER
+Rafter,NNP,I-NP,I-PER
+(,(,O,O
+Australia,NNP,B-NP,B-LOC
+),),O,O
+beat,VB,B-VP,O
+6,CD,B-NP,O
+-,:,I-NP,O
+MaliVai,NNP,I-NP,B-PER
+Washington,NNP,I-NP,I-PER
+(,(,O,O
+U.S.,NNP,B-NP,B-LOC
+),),O,O

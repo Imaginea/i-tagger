@@ -1,0 +1,14 @@
+0,1,2,3
+Jansher,NNP,B-NP,B-PER
+said,VBD,B-VP,O
+that,IN,B-SBAR,O
+he,PRP,B-NP,O
+was,VBD,B-VP,O
+disturbed,VBN,I-VP,O
+to,TO,B-VP,O
+be,VB,I-VP,O
+called,VBN,I-VP,O
+a,DT,B-NP,O
+cheat,VB,B-VP,O
+.,.,O,O
+ ,O,O,<UNK>

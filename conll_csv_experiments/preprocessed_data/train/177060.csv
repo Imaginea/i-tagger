@@ -1,0 +1,9 @@
+0,1,2,3
+Arafat,NNP,B-NP,B-PER
+says,VBZ,B-VP,O
+Israel,NNP,B-NP,B-LOC
+declares,VBZ,B-VP,O
+war,NN,B-NP,O
+on,IN,B-PP,O
+Palestinians,NNPS,B-NP,B-MISC
+.,.,O,O

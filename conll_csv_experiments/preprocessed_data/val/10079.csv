@@ -1,0 +1,6 @@
+0,1,2,3
+Late,JJ,B-NP,O
+bond,NN,I-NP,O
+market,NN,I-NP,O
+prices,NNS,I-NP,O
+.,.,O,O

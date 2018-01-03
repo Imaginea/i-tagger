@@ -1,0 +1,7 @@
+0,1,2,3
+Premier,NNP,B-NP,B-MISC
+league,NN,I-NP,I-MISC
+Arsenal,JJ,B-NP,B-ORG
+2,CD,I-NP,O
+Derby,NNP,I-NP,B-ORG
+2,CD,I-NP,O

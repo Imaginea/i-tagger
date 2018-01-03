@@ -1,0 +1,15 @@
+0,1,2,3
+Thomas,NNP,B-NP,B-PER
+Johansson,NNP,I-NP,I-PER
+(,(,O,O
+Sweden,NNP,B-NP,B-LOC
+),),O,O
+beat,VB,B-VP,O
+Renzo,NNP,B-NP,B-PER
+Furlan,NNP,I-NP,I-PER
+(,(,O,O
+Italy,NNP,B-NP,B-LOC
+),),O,O
+4-6,RB,B-VP,O
+2-6,CD,B-NP,O
+7-5,CD,I-NP,O

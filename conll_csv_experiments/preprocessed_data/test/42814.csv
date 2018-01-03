@@ -1,0 +1,10 @@
+0,1,2,3
+Yamakage,NN,B-NP,B-PER
+Hiroaki,NNP,I-NP,I-PER
+(,(,O,O
+Japan,NNP,B-NP,B-LOC
+),),O,O
+37.93,CD,B-NP,O
+;,:,O,O
+7,LS,B-LST,O
+.,.,O,O

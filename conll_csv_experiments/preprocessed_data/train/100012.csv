@@ -1,0 +1,15 @@
+0,1,2,3
+Alexandra,NNP,B-NP,B-PER
+Fusai,NNP,I-NP,I-PER
+(,(,O,O
+France,NNP,B-NP,B-LOC
+),),O,O
+beat,VB,B-VP,O
+Jill,NNP,B-NP,B-PER
+Craybas,NNP,I-NP,I-PER
+(,(,O,O
+U.S.,NNP,B-NP,B-LOC
+),),O,O
+6-1,CD,B-NP,O
+2-6,CD,I-NP,O
+7-5,CD,I-NP,O

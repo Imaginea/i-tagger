@@ -1,0 +1,8 @@
+0,1,2,3
+5.,CD,B-NP,O
+Dietmar,NNP,I-NP,B-PER
+Lalcher,NNP,I-NP,I-PER
+(,(,O,O
+Germany,NNP,O,B-LOC
+),),O,O
+Honda,NNP,B-NP,B-ORG

@@ -1,0 +1,9 @@
+0,1,2,3
+4.,CD,B-NP,O
+Luca,NNP,I-NP,B-PER
+Cadalora,NNP,I-NP,I-PER
+(,(,O,O
+Italy,NNP,O,B-LOC
+),),O,O
+Honda,NNP,B-NP,B-ORG
+1:51.006,CD,B-NP,O

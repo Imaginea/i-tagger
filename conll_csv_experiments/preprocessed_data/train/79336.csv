@@ -1,0 +1,10 @@
+0,1,2,3
+10.,CD,B-NP,O
+Laurent,NNP,I-NP,B-PER
+Jalabert,NNP,I-NP,I-PER
+(,(,O,O
+France,NNP,B-NP,B-LOC
+),),O,O
+both,DT,B-NP,O
+same,JJ,I-NP,O
+time,NN,I-NP,O

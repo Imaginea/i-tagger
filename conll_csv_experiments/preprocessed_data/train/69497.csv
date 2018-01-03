@@ -1,0 +1,8 @@
+0,1,2,3
+5.,CD,B-NP,O
+Nicolas,NNP,B-NP,B-PER
+Charlier,NNP,I-NP,I-PER
+(,(,O,O
+France,NNP,O,B-LOC
+),),O,O
+Kawasaki,NNP,B-NP,B-ORG

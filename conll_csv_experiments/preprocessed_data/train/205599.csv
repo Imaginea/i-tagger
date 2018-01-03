@@ -1,0 +1,7 @@
+0,1,2,3
+Total,JJ,B-NP,O
+expense,NN,I-NP,O
+"7,718,000",CD,B-NP,O
+"6,828,000",CD,I-NP,O
+"14,668,000",CD,I-NP,O
+"13,091,000",CD,I-NP,O

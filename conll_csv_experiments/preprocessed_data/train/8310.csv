@@ -1,0 +1,10 @@
+0,1,2,3
+Scorers,NNS,B-NP,O
+:,:,O,O
+Vaduz,JJ,B-NP,B-LOC
+-,:,I-NP,O
+Daniele,NNP,I-NP,B-PER
+Polverino,NNP,I-NP,I-PER
+(,(,O,O
+90th,CD,B-NP,O
+),),O,O

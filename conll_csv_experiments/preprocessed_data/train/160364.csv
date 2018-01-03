@@ -1,0 +1,6 @@
+0,1,2,3
+S.,NNP,B-NP,B-PER
+Tendulkar,NNP,I-NP,I-PER
+run,VBP,B-VP,O
+out,RP,B-PRT,O
+110,CD,B-NP,O

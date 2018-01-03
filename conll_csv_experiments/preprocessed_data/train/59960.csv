@@ -1,0 +1,8 @@
+0,1,2,3
+Linzer,NNP,B-NP,B-ORG
+ASK,NNP,I-NP,I-ORG
+1,CD,I-NP,O
+FC,NNP,I-NP,B-ORG
+Tirol,NNP,I-NP,I-ORG
+Innsbruck,NNP,I-NP,I-ORG
+3,CD,I-NP,O

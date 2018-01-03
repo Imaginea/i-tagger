@@ -1,0 +1,15 @@
+0,1,2,3
+which,WDT,B-NP,O
+we,PRP,B-NP,O
+expect,VBP,B-VP,O
+at,IN,B-PP,O
+the,DT,B-NP,O
+beginning,NN,I-NP,O
+of,IN,B-PP,O
+next,JJ,B-NP,O
+year,NN,I-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+Grabowksi,NNP,B-NP,B-PER
+said,VBD,B-VP,O
+.,.,O,O

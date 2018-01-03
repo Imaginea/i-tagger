@@ -1,0 +1,7 @@
+0,1,2,3
+Drop,VB,B-VP,O
+goal,NN,B-NP,O
+:,:,O,O
+Zinzan,NNP,B-NP,B-PER
+Brooke,NNP,I-NP,I-PER
+.,.,O,O

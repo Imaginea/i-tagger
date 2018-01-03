@@ -1,0 +1,14 @@
+0,1,2,3
+Stewart,NNP,B-NP,B-PER
+Ginn,NNP,I-NP,I-PER
+(,(,O,O
+Australia,NNP,B-NP,B-LOC
+),),O,O
+",",",",O,O
+Corey,NNP,B-NP,B-PER
+Pavin,NNP,I-NP,I-PER
+",",",",O,O
+Craig,NNP,B-NP,B-PER
+Stadler,NNP,I-NP,I-PER
+",",",",O,O
+Mark,NNP,B-NP,B-PER

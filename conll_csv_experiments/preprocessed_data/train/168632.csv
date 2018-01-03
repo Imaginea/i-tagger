@@ -1,0 +1,9 @@
+0,1,2,3
+Yeltsin,NNP,B-NP,B-PER
+sent,VBD,B-VP,O
+him,PRP,B-NP,O
+there,RB,B-ADVP,O
+to,TO,B-VP,O
+compromise,VB,I-VP,O
+him,PRP,B-NP,O
+.,.,O,O

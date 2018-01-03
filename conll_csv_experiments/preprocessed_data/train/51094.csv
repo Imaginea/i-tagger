@@ -1,0 +1,10 @@
+0,1,2,3
+South,NNP,B-NP,B-MISC
+Korean,NNP,I-NP,I-MISC
+students,NNS,I-NP,O
+throw,VBP,B-VP,O
+ ,O,O,<UNK>
+irreplaceable,JJ,B-NP,O
+ ,O,O,<UNK>
+rocks,NNS,B-NP,O
+.,.,O,O

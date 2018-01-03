@@ -1,0 +1,15 @@
+0,1,2,3
+They,PRP,B-NP,O
+lost,VBD,B-VP,O
+2.21,CD,B-NP,O
+percent,NN,I-NP,O
+",",",",O,O
+depressed,VBN,B-NP,O
+by,IN,B-PP,O
+a,DT,B-NP,O
+wave,NN,I-NP,O
+of,IN,B-PP,O
+new,JJ,B-NP,O
+Canadian,JJ,I-NP,B-MISC
+supply,NN,I-NP,O
+.,.,O,O

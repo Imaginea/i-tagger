@@ -1,0 +1,8 @@
+0,1,2,3
+Dukla,NNP,B-NP,B-ORG
+Banska,NNP,I-NP,I-ORG
+Bystrica,NNP,I-NP,I-ORG
+3,CD,I-NP,O
+FC,NNP,I-NP,B-ORG
+Nitra,NNP,I-NP,I-ORG
+0,CD,I-NP,O

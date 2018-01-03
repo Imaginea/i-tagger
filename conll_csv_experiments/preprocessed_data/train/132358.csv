@@ -1,0 +1,17 @@
+0,1,2,3
+Dutroux,NNP,B-NP,B-PER
+'s,POS,B-NP,O
+last,JJ,I-NP,O
+visit,NN,I-NP,O
+to,TO,B-PP,O
+Slovakia,NNP,B-NP,B-LOC
+was,VBD,B-VP,O
+reported,VBN,I-VP,O
+to,TO,I-VP,O
+have,VB,I-VP,O
+been,VBN,I-VP,O
+as,IN,B-PP,O
+recent,JJ,O,O
+as,RB,B-CONJP,O
+July,NNP,B-NP,O
+.,.,O,O

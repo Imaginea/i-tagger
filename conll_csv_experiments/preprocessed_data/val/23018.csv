@@ -1,0 +1,34 @@
+0,1,2,3
+ ,O,O,<UNK>
+We,PRP,B-NP,O
+have,VBP,B-VP,O
+a,DT,B-NP,O
+peace,NN,I-NP,O
+treaty,NN,I-NP,O
+with,IN,B-PP,O
+them,PRP,B-NP,O
+and,CC,O,O
+we,PRP,B-NP,O
+let,VBP,B-VP,O
+them,PRP,B-NP,O
+go,VBP,B-VP,O
+wherever,WRB,B-ADVP,O
+they,PRP,B-NP,O
+want,VBP,B-VP,O
+when,WRB,B-ADVP,O
+they,PRP,B-NP,O
+come,VB,B-VP,O
+to,TO,B-PP,O
+Jordan,NNP,B-NP,B-LOC
+",",",",O,O
+ ,O,O,<UNK>
+said,VBD,B-VP,O
+the,DT,B-NP,O
+tourist,NN,I-NP,O
+",",",",O,O
+Khaled,NNP,B-NP,B-PER
+Hijazi,NNP,I-NP,I-PER
+",",",",O,O
+37,CD,B-NP,O
+.,.,O,O
+ ,O,O,<UNK>

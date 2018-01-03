@@ -1,0 +1,8 @@
+0,1,2,3
+Valletta,NNP,B-NP,B-LOC
+-,:,O,O
+Gilbert,NNP,B-NP,B-PER
+Agius,NNPS,I-NP,I-PER
+(,(,O,O
+24th,JJ,B-NP,O
+),),O,O

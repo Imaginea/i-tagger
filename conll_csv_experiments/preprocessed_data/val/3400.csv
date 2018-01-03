@@ -1,0 +1,12 @@
+0,1,2,3
+The,DT,B-NP,O
+temperamental,JJ,I-NP,O
+left-hander,JJ,I-NP,O
+defeated,VBD,B-VP,O
+the,DT,B-NP,O
+Chilean,JJ,I-NP,B-MISC
+6-4,CD,I-NP,O
+4-6,JJ,I-NP,O
+7-6,CD,B-ADVP,O
+6-2,NN,B-NP,O
+.,.,O,O

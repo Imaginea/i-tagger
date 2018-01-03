@@ -1,0 +1,8 @@
+0,1,2,3
+3.,NNP,B-NP,O
+Phylis,NNP,I-NP,B-PER
+Smith,NNP,I-NP,I-PER
+(,(,O,O
+Britain,NNP,B-NP,B-LOC
+),),O,O
+52.53,CD,B-NP,O

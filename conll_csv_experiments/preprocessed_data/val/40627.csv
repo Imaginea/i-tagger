@@ -1,0 +1,26 @@
+0,1,2,3
+We,PRP,B-NP,O
+'d,MD,B-VP,O
+hoped,VBD,I-VP,O
+not,RB,O,O
+to,TO,B-VP,O
+lose,VB,I-VP,O
+and,CC,O,O
+we,PRP,B-NP,O
+tried,VBD,B-VP,O
+not,RB,O,O
+to,TO,B-VP,O
+play,VB,I-VP,O
+for,IN,B-PP,O
+a,DT,B-NP,O
+draw,NN,I-NP,O
+but,CC,O,O
+the,DT,B-NP,O
+Austrian,JJ,I-NP,B-MISC
+defence,NN,I-NP,O
+was,VBD,B-VP,O
+simply,RB,B-ADVP,O
+too,RB,B-ADJP,O
+good,JJ,I-ADJP,O
+.,.,O,O
+ ,O,O,<UNK>

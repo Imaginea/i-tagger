@@ -1,0 +1,8 @@
+0,1,2,3
+13.,CD,B-NP,O
+Martina,NNP,I-NP,B-PER
+Ertl,NNP,I-NP,I-PER
+(,(,O,O
+Germany,NNP,B-NP,B-LOC
+),),O,O
+119,CD,B-NP,O

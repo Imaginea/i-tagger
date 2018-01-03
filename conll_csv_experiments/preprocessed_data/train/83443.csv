@@ -1,0 +1,34 @@
+0,1,2,3
+ ,O,O,<UNK>
+Only,RB,B-NP,O
+our,PRP$,I-NP,O
+physical,JJ,I-NP,O
+presence,NN,I-NP,O
+in,IN,B-PP,O
+Doboj,NNP,B-NP,B-LOC
+will,MD,B-VP,O
+mean,VB,I-VP,O
+that,IN,B-SBAR,O
+the,DT,B-NP,O
+Dayton,NNP,I-NP,B-LOC
+peace,NN,I-NP,O
+treaty,NN,I-NP,O
+has,VBZ,B-VP,O
+truly,RB,B-ADJP,O
+been,VBN,B-VP,O
+implemented,VBN,I-VP,O
+",",",",O,O
+ ,O,O,<UNK>
+Edhem,NNP,B-NP,B-PER
+Efendija,NNP,I-NP,I-PER
+Camdzic,NNP,I-NP,I-PER
+",",",",O,O
+Doboj,NNP,B-NP,B-LOC
+'s,POS,B-NP,O
+Islamic,JJ,I-NP,B-MISC
+imam-in-exile,NN,I-NP,O
+",",",",O,O
+told,VBD,B-VP,O
+the,DT,B-NP,O
+refugees,NNS,I-NP,O
+.,.,O,O

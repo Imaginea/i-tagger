@@ -1,0 +1,8 @@
+0,1,2,3
+Lenzing,VBG,B-VP,B-ORG
+expects,VBZ,I-VP,O
+negative,JJ,B-NP,O
+results,NNS,I-NP,O
+in,IN,B-PP,O
+H2,NN,B-NP,O
+.,.,O,O

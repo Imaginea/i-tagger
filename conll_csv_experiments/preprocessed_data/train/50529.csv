@@ -1,0 +1,24 @@
+0,1,2,3
+ ,O,O,<UNK>
+Any,DT,B-NP,O
+diver,NN,I-NP,O
+knows,VBZ,B-VP,O
+that,IN,B-SBAR,O
+when,WRB,B-ADVP,O
+a,DT,B-NP,O
+whale,NN,I-NP,O
+gets,VBZ,B-VP,O
+going,VBG,I-VP,O
+you,PRP,B-NP,O
+ca,MD,B-VP,O
+n't,RB,I-VP,O
+keep,VB,I-VP,O
+up,RP,B-PRT,O
+",",",",O,O
+ ,O,O,<UNK>
+Harvey,NNP,B-NP,B-PER
+told,VBD,B-VP,O
+the,DT,B-NP,O
+magazine,NN,I-NP,O
+.,.,O,O
+ ,O,O,<UNK>

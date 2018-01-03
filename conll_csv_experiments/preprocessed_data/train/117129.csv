@@ -1,0 +1,39 @@
+0,1,2,3
+ ,O,O,<UNK>
+Treasuries,NNP,B-NP,B-ORG
+remain,VBP,B-VP,O
+very,RB,B-ADJP,O
+sensitive,JJ,I-ADJP,O
+to,TO,B-PP,O
+any,DT,B-NP,O
+indication,NN,I-NP,O
+of,IN,B-PP,O
+a,DT,B-NP,O
+strong,JJ,I-NP,O
+economy,NN,I-NP,O
+and,CC,O,O
+we,PRP,B-NP,O
+'re,VBP,B-VP,O
+still,RB,B-ADVP,O
+in,IN,B-PP,O
+that,DT,B-NP,O
+summer,NN,I-NP,O
+doldrum,NN,I-NP,O
+period,NN,I-NP,O
+of,IN,B-PP,O
+light,JJ,B-NP,O
+trading,NN,I-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+said,VBD,B-VP,O
+Alan,NNP,B-NP,B-PER
+Ackerman,NNP,I-NP,I-PER
+",",",",O,O
+market,NN,B-NP,O
+strategist,NN,I-NP,O
+at,IN,B-PP,O
+Fahnestock,NNP,B-NP,B-ORG
+&,CC,I-NP,I-ORG
+Co,NNP,I-NP,I-ORG
+.,.,I-NP,O
+ ,O,O,<UNK>

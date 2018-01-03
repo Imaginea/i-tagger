@@ -1,0 +1,23 @@
+0,1,2,3
+ ,O,O,<UNK>
+The,DT,B-NP,O
+biggest,JJS,I-NP,O
+thing,NN,I-NP,O
+was,VBD,B-VP,O
+my,PRP$,B-NP,O
+fastball,NN,I-NP,O
+",",",",O,O
+I,PRP,B-NP,O
+was,VBD,B-VP,O
+able,JJ,B-ADJP,O
+to,TO,B-VP,O
+rotate,VB,I-VP,O
+it,PRP,B-NP,O
+pretty,RB,B-ADJP,O
+good,JJ,I-ADJP,O
+",",",",O,O
+ ,O,O,<UNK>
+Foster,NNP,B-NP,B-PER
+said,VBD,B-VP,O
+.,.,O,O
+ ,O,O,<UNK>

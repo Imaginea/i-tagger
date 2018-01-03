@@ -1,0 +1,9 @@
+0,1,2,3
+Higher,JJR,B-NP,O
+newsprint,NN,I-NP,O
+prices,NNS,I-NP,O
+hit,VBD,B-VP,O
+profits,NNS,B-NP,O
+hard,JJ,B-ADJP,O
+.,.,O,O
+ ,O,O,<UNK>

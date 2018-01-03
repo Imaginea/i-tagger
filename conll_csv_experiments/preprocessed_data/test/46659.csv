@@ -1,0 +1,15 @@
+0,1,2,3
+Merwe,RB,B-ADVP,B-PER
+(,(,O,O
+Namibia,NNP,B-NP,B-LOC
+),),O,O
+67,CD,B-NP,O
+73,CD,I-NP,O
+72,CD,I-NP,O
+",",",",O,O
+Hennie,NNP,B-NP,B-PER
+Swart,NNP,I-NP,I-PER
+75,CD,I-NP,O
+64,CD,I-NP,O
+73,CD,I-NP,O
+",",",",O,O

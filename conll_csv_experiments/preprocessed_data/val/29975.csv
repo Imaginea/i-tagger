@@ -1,0 +1,7 @@
+0,1,2,3
+Moin,NNP,B-NP,B-PER
+Khan,NNP,I-NP,I-PER
+lbw,NN,I-NP,O
+b,SYM,O,O
+Mullally,RB,B-NP,B-PER
+0,CD,I-NP,O

@@ -1,0 +1,17 @@
+0,1,2,3
+-,:,O,O
+Israel,NNP,B-NP,B-LOC
+bans,NNS,I-NP,O
+plane,NN,I-NP,O
+donated,VBN,B-VP,O
+by,IN,B-PP,O
+the,DT,B-NP,O
+Netherlands,NNP,I-NP,B-LOC
+to,TO,B-PP,O
+Arafat,NNP,B-NP,B-PER
+to,TO,B-VP,O
+land,VB,I-VP,O
+at,IN,B-PP,O
+Gaza,NNP,B-NP,B-LOC
+airport,NN,I-NP,O
+.,.,O,O

@@ -1,0 +1,16 @@
+0,1,2,3
+-,:,O,O
+Tunisia,NNP,B-NP,B-LOC
+'s,POS,B-NP,O
+exports,NNS,I-NP,O
+of,IN,B-PP,O
+spare,JJ,B-NP,O
+parts,NNS,I-NP,O
+amounted,VBD,B-VP,O
+to,TO,B-PP,O
+220,CD,B-NP,O
+million,CD,I-NP,O
+dinars,NNS,I-NP,O
+in,IN,B-PP,O
+1995,CD,B-NP,O
+.,.,O,O

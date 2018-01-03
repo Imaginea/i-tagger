@@ -1,0 +1,5 @@
+0,1,2,3
+One,CD,B-NP,O
+lap,NN,I-NP,O
+behind,IN,B-PP,O
+:,:,O,O

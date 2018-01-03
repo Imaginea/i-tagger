@@ -1,0 +1,11 @@
+0,1,2,3
+Tass,NNP,B-NP,B-ORG
+did,VBD,B-VP,O
+not,RB,I-VP,O
+say,VB,I-VP,O
+exactly,RB,B-NP,O
+when,WRB,B-ADVP,O
+it,PRP,B-NP,O
+took,VBD,B-VP,O
+place,NN,B-NP,O
+.,.,O,O

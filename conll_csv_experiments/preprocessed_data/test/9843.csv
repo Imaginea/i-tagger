@@ -1,0 +1,11 @@
+0,1,2,3
+Napoli,NNP,B-NP,B-ORG
+(,(,O,O
+5,CD,B-NP,O
+),),O,O
+v,JJ,B-NP,O
+Verona,NNP,I-NP,B-ORG
+(,(,O,O
+17,CD,B-NP,O
+),),O,O
+1330,CD,B-NP,O

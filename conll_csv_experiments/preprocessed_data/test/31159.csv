@@ -1,0 +1,11 @@
+0,1,2,3
+The,DT,B-NP,O
+cause,NN,I-NP,O
+of,IN,B-PP,O
+the,DT,B-NP,O
+crash,NN,I-NP,O
+was,VBD,B-VP,O
+not,RB,B-ADVP,O
+yet,RB,I-ADVP,O
+known,VBN,B-VP,O
+.,.,O,O

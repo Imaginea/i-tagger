@@ -1,0 +1,13 @@
+0,1,2,3
+As,IN,B-SBAR,O
+Liberal,NNP,B-NP,B-MISC
+prime,JJ,I-NP,O
+minister,NN,I-NP,O
+1905-1908,CD,I-NP,O
+he,PRP,B-NP,O
+granted,VBD,B-VP,O
+self-government,JJ,B-ADJP,O
+to,TO,B-PP,O
+the,DT,B-NP,O
+Transvaal,NNP,I-NP,B-LOC
+.,.,O,O

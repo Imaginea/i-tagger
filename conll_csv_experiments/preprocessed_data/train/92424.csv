@@ -1,0 +1,11 @@
+0,1,2,3
+At,IN,B-PP,O
+Northampton,NNP,B-NP,B-LOC
+:,:,O,O
+Northamptonshire,VB,B-VP,B-ORG
+beat,VB,I-VP,O
+Sussex,NNP,B-NP,B-ORG
+by,IN,B-PP,O
+6,CD,B-NP,O
+wickets,NNS,I-NP,O
+.,.,O,O

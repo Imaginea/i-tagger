@@ -1,0 +1,13 @@
+0,1,2,3
+They,PRP,B-NP,O
+were,VBD,B-VP,O
+quite,RB,B-ADJP,O
+surprised,VBN,I-ADJP,O
+",",",",O,O
+ ,O,O,<UNK>
+he,PRP,B-NP,O
+told,VBD,B-VP,O
+the,DT,B-NP,O
+Miami,NNP,I-NP,B-ORG
+Herald,NNP,I-NP,I-ORG
+.,.,O,O

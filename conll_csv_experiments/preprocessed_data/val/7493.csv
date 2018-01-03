@@ -1,0 +1,8 @@
+0,1,2,3
+D.,NNP,B-NP,B-PER
+Fleming,NNP,I-NP,I-PER
+c,SYM,O,O
+Chandana,NNP,B-NP,B-PER
+b,SYM,O,O
+Jayasuriya,NN,B-NP,B-PER
+3,CD,I-NP,O

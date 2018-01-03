@@ -1,0 +1,12 @@
+0,1,2,3
+Dutch,JJ,B-NP,B-MISC
+say,VBP,B-VP,O
+no,DT,B-NP,O
+reason,NN,I-NP,O
+to,TO,B-VP,O
+reopen,VB,I-VP,O
+El,NNP,B-NP,B-ORG
+Al,NNP,I-NP,I-ORG
+carqo,VBD,B-VP,O
+enquiry,RB,B-ADVP,O
+.,.,O,O

@@ -1,0 +1,29 @@
+0,1,2,3
+ ,O,O,<UNK>
+I,PRP,B-NP,O
+would,MD,B-VP,O
+love,VB,I-VP,O
+to,TO,I-VP,O
+speak,VB,I-VP,O
+about,IN,B-PP,O
+everything,NN,B-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+said,VBD,B-VP,O
+Simpson,NNP,B-NP,B-PER
+",",",",O,O
+who,WP,B-NP,O
+vowed,VBD,B-VP,O
+after,IN,B-PP,O
+his,PRP$,B-NP,O
+acquittal,NN,I-NP,O
+to,TO,B-VP,O
+find,VB,I-VP,O
+the,DT,B-NP,O
+killers,NNS,I-NP,O
+and,CC,O,O
+offered,VBD,B-VP,O
+a,DT,B-NP,O
+substantial,JJ,I-NP,O
+reward,NN,I-NP,O
+.,.,O,O

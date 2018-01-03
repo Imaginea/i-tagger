@@ -1,0 +1,30 @@
+0,1,2,3
+He,PRP,B-NP,O
+said,VBD,B-VP,O
+:,:,O,O
+ ,O,O,<UNK>
+We,PRP,B-NP,O
+cannot,MD,B-VP,O
+accept,VB,I-VP,O
+constraints,NNS,B-NP,O
+on,IN,B-PP,O
+our,PRP$,B-NP,O
+option,NN,I-NP,O
+as,RB,B-ADVP,O
+long,RB,I-ADVP,O
+as,IN,B-SBAR,O
+nuclear,JJ,B-NP,O
+weapon,NN,I-NP,O
+states,NNS,I-NP,O
+continue,VBP,B-VP,O
+to,TO,I-VP,O
+rely,VB,I-VP,O
+on,IN,B-PP,O
+their,PRP$,B-NP,O
+nuclear,JJ,I-NP,O
+arsenals,NNS,I-NP,O
+for,IN,B-PP,O
+their,PRP$,B-NP,O
+security,NN,I-NP,O
+ ,O,O,<UNK>
+.,.,O,O

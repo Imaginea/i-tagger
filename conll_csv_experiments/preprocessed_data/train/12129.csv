@@ -1,0 +1,17 @@
+0,1,2,3
+Squad,VB,B-VP,O
+:,:,O,O
+Goalkeepers,NNS,B-NP,O
+-,:,O,O
+Marco,NNP,B-NP,B-PER
+Pascolo,NNP,I-NP,I-PER
+(,(,O,O
+Cagliari,NNP,B-NP,B-ORG
+),),O,O
+",",",",O,O
+Pascal,NNP,B-NP,B-PER
+Zuberbuehler,NNP,I-NP,I-PER
+(,(,O,O
+Grasshoppers,NNPS,B-NP,B-ORG
+),),O,O
+.,.,O,O

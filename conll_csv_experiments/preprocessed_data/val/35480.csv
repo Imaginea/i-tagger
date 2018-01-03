@@ -1,0 +1,7 @@
+0,1,2,3
+Benin,NN,B-NP,B-LOC
+won,VBD,B-VP,O
+4-1,CD,B-NP,O
+on,IN,B-PP,O
+aggregate,NN,B-NP,O
+.,.,O,O

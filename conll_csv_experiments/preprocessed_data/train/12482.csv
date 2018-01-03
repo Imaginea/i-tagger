@@ -1,0 +1,13 @@
+0,1,2,3
+Mark,NNP,B-NP,B-PER
+Roe,NNP,I-NP,I-PER
+",",",",O,O
+Retief,NNP,B-NP,B-PER
+Goosen,NNP,I-NP,I-PER
+(,(,O,O
+South,NNP,B-NP,B-LOC
+Africa,NNP,I-NP,I-LOC
+),),O,O
+",",",",O,O
+Carl,NNP,B-NP,B-PER
+Suneson,NNP,I-NP,I-PER

@@ -1,0 +1,10 @@
+0,1,2,3
+Consumer,NN,B-NP,O
+spending,NN,I-NP,O
+",",",",O,O
+incomes,NNS,B-NP,O
+edge,NN,I-NP,O
+up,IN,B-PP,O
+in,IN,B-PP,O
+July,NNP,B-NP,O
+.,.,O,O

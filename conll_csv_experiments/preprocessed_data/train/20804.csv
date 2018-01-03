@@ -1,0 +1,14 @@
+0,1,2,3
+The,DT,B-NP,O
+IMKB-100,NN,I-NP,B-MISC
+lost,VBD,B-VP,O
+0.19,CD,B-NP,O
+percent,NN,I-NP,O
+or,CC,I-NP,O
+123.89,CD,I-NP,O
+points,NNS,I-NP,O
+to,TO,B-VP,O
+end,VB,I-VP,O
+at,IN,B-PP,O
+"64,178.78",CD,B-NP,O
+.,.,O,O

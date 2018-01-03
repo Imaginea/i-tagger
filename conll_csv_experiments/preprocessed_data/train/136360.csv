@@ -1,0 +1,4 @@
+0,1,2,3
+Georgia,NNP,B-NP,B-LOC
+Rep,NNP,I-NP,B-MISC
+.,.,O,O

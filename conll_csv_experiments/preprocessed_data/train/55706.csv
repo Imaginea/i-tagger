@@ -1,0 +1,9 @@
+0,1,2,3
+LONDON,NNP,B-NP,B-LOC
+1996-08-24,CD,I-NP,O
+Close,JJ,B-NP,O
+of,IN,B-PP,O
+play,NN,B-NP,O
+scores,NNS,I-NP,O
+in,IN,B-PP,O
+four-day,JJ,B-NP,O

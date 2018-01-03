@@ -1,0 +1,5 @@
+0,1,2,3
+Second,JJ,B-NP,O
+race,NN,I-NP,O
+1.,CD,B-NP,O
+Tortelli,NNP,I-NP,B-PER

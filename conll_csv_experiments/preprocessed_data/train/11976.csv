@@ -1,0 +1,10 @@
+0,1,2,3
+Nilis,NNP,B-NP,B-PER
+42nd,NNP,I-NP,O
+",",",",O,O
+Cocu,NNP,B-NP,B-PER
+54th,CD,I-NP,O
+",",",",I-NP,O
+67th,CD,I-NP,O
+),),O,O
+.,.,O,O

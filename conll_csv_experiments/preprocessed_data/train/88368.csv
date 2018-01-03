@@ -1,0 +1,29 @@
+0,1,2,3
+Hasina,NNP,B-NP,B-PER
+told,VBD,B-VP,O
+police,NN,B-NP,O
+the,DT,B-NP,O
+home,NN,I-NP,O
+ministry,NN,I-NP,O
+had,VBD,B-VP,O
+already,RB,I-VP,O
+given,VBN,I-VP,O
+a,DT,B-NP,O
+ ,O,O,<UNK>
+blanket,NN,B-NP,O
+order,NN,I-NP,O
+ ,O,O,<UNK>
+to,TO,B-VP,O
+arrest,VB,I-VP,O
+terrorists,NNS,B-NP,O
+and,CC,O,O
+possessors,NNS,B-NP,O
+of,IN,B-PP,O
+illegal,JJ,B-NP,O
+firearms,NNS,I-NP,O
+irrespective,RB,B-ADVP,O
+of,IN,B-PP,O
+their,PRP$,B-NP,O
+political,JJ,I-NP,O
+identities,NNS,I-NP,O
+.,.,O,O

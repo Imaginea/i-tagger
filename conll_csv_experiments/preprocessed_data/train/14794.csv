@@ -1,0 +1,9 @@
+0,1,2,3
+Britain,NNP,B-NP,B-LOC
+gives,VBZ,B-VP,O
+aid,NN,B-NP,O
+to,TO,B-VP,O
+volcano-hit,JJ,B-NP,O
+Caribbean,JJ,I-NP,B-LOC
+island,NN,I-NP,O
+.,.,O,O

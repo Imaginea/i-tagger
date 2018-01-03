@@ -1,0 +1,16 @@
+0,1,2,3
+Wednesday,NNP,B-NP,O
+:,:,O,O
+At,IN,B-PP,O
+Portsmouth,NNP,B-NP,B-LOC
+:,:,O,O
+Middlesex,NNP,B-NP,B-ORG
+199,CD,I-NP,O
+in,IN,B-PP,O
+60,CD,B-NP,O
+overs,NNS,I-NP,O
+(,(,O,O
+K.,NNP,B-NP,B-PER
+Brown,NNP,I-NP,I-PER
+57,CD,I-NP,O
+;,:,O,O

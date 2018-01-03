@@ -1,0 +1,17 @@
+0,1,2,3
+Did,VBD,O,O
+not,RB,O,O
+bat,VB,B-VP,O
+:,:,O,O
+R.,NNP,B-NP,B-PER
+Croft,NNP,I-NP,I-PER
+",",",",O,O
+D.,NNP,B-NP,B-PER
+Gough,NNP,I-NP,I-PER
+",",",",O,O
+D.,NNP,B-NP,B-PER
+Headley,NNP,I-NP,I-PER
+",",",",O,O
+A.,NNP,B-NP,B-PER
+Mullally,NNP,I-NP,I-PER
+.,.,O,O

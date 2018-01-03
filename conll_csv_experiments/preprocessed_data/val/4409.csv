@@ -1,0 +1,15 @@
+0,1,2,3
+66,CD,B-NP,O
+Neal,NNP,B-NP,B-PER
+Lancaster,NNP,I-NP,I-PER
+",",",",O,O
+Dave,NNP,B-NP,B-PER
+Barr,NNP,I-NP,I-PER
+(,(,O,O
+Canada,NNP,B-NP,B-LOC
+),),O,O
+",",",",O,O
+Mike,NNP,B-NP,B-PER
+Sullivan,NNP,I-NP,I-PER
+",",",",O,O
+Willie,NNP,B-NP,B-PER

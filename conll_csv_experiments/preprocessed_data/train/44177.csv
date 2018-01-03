@@ -1,0 +1,9 @@
+0,1,2,3
+Freight,NN,B-NP,O
+load,NN,I-NP,O
+factor,NN,I-NP,O
+67.0,CD,I-NP,O
+up,RB,B-ADVP,O
+1.7,CD,B-NP,O
+pct,JJ,I-NP,O
+pts,NNS,I-NP,O

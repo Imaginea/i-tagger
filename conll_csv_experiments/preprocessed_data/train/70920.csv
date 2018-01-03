@@ -1,0 +1,4 @@
+0,1,2,3
+5.,NNP,B-NP,O
+Jordan,NNP,I-NP,B-ORG
+15,CD,I-NP,O

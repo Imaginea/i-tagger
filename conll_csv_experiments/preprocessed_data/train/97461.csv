@@ -1,0 +1,34 @@
+0,1,2,3
+ ,O,O,<UNK>
+That,DT,B-NP,O
+baked,JJ,I-NP,O
+lasagna,NN,I-NP,O
+better,RBR,B-ADVP,O
+be,VB,B-VP,O
+good,JJ,B-ADJP,O
+for,IN,B-PP,O
+$,$,B-NP,O
+8.50,CD,I-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+said,VBD,B-VP,O
+New,NNP,B-NP,B-MISC
+Yorker,NNP,I-NP,I-MISC
+Rebecca,NNP,I-NP,B-PER
+Weinstein,NNP,I-NP,I-PER
+",",",",O,O
+a,DT,B-NP,O
+U.S.,NNP,I-NP,B-MISC
+Open,NNP,I-NP,I-MISC
+regular,JJ,I-NP,O
+who,WP,B-NP,O
+was,VBD,B-VP,O
+eating,VBG,I-VP,O
+a,DT,B-NP,O
+sandwich,NN,I-NP,O
+she,PRP,B-NP,O
+had,VBD,B-VP,O
+brought,VBN,I-VP,O
+from,IN,B-PP,O
+home,NN,B-NP,O
+.,.,O,O

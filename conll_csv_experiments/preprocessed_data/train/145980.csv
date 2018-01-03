@@ -1,0 +1,10 @@
+0,1,2,3
+Nuclear,JJ,B-NP,O
+pact,NN,I-NP,O
+will,MD,B-VP,O
+be,VB,I-VP,O
+a,DT,B-NP,O
+step,NN,I-NP,O
+to,TO,B-VP,O
+disarmament-China,NN,B-NP,B-MISC
+.,.,O,O

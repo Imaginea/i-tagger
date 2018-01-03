@@ -1,0 +1,7 @@
+0,1,2,3
+P1020,NNP,B-NP,O
+ingot,NN,I-NP,O
+75,CD,B-NP,O
+cents,NNS,I-NP,O
+/,SYM,O,O
+pound,NN,B-NP,O

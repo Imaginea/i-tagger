@@ -1,0 +1,13 @@
+0,1,2,3
+Interfax,JJ,B-NP,B-ORG
+news,NN,I-NP,O
+agency,NN,I-NP,O
+said,VBD,B-VP,O
+police,NN,B-NP,O
+had,VBD,B-VP,O
+detained,VBN,I-VP,O
+one,CD,B-NP,O
+of,IN,B-PP,O
+the,DT,B-NP,O
+attackers,NNS,I-NP,O
+.,.,O,O

@@ -1,0 +1,14 @@
+0,1,2,3
+my,PRP$,B-NP,O
+understanding,NN,I-NP,O
+of,IN,B-PP,O
+the,DT,B-NP,O
+marketplace,NN,I-NP,O
+is,VBZ,B-VP,O
+that,IN,B-SBAR,O
+they,PRP,B-NP,O
+'re,VBP,B-VP,O
+below,IN,B-PP,O
+expectations,NNS,B-NP,O
+.,.,O,O
+ ,O,O,<UNK>

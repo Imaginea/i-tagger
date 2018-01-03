@@ -1,0 +1,8 @@
+0,1,2,3
+Scottish,NNP,B-NP,B-ORG
+Labour,NNP,I-NP,I-ORG
+Party,NNP,I-NP,I-ORG
+narrowly,RB,B-VP,O
+backs,VBZ,I-VP,O
+referendum,NN,B-NP,O
+.,.,O,O

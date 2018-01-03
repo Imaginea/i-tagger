@@ -1,0 +1,7 @@
+0,1,2,3
+Tamils,NNS,B-NP,B-MISC
+demonstrate,VBP,B-VP,O
+outside,IN,B-PP,O
+U.N.,NNP,B-NP,B-ORG
+headquarters,NN,I-NP,O
+.,.,O,O

@@ -1,0 +1,15 @@
+0,1,2,3
+In,IN,B-PP,O
+Sofia,NNP,B-NP,B-LOC
+:,:,O,O
+Levski,NNP,B-NP,B-ORG
+Sofia,NNP,I-NP,I-ORG
+(,(,O,O
+Bulgaria,NNP,B-NP,B-LOC
+),),O,O
+1,CD,B-NP,O
+Olimpija,NNP,I-NP,B-ORG
+(,(,O,O
+Slovenia,NNP,B-NP,B-LOC
+),),O,O
+0,CD,B-NP,O

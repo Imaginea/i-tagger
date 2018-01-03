@@ -1,0 +1,16 @@
+0,1,2,3
+ ,O,O,<UNK>
+Let,VB,B-VP,O
+'s,PRP,B-NP,O
+not,RB,O,O
+let,VB,B-VP,O
+our,PRP$,B-NP,O
+kids,NNS,I-NP,O
+jump,NN,I-NP,O
+on,IN,B-PP,O
+them,PRP,B-NP,O
+or,CC,O,O
+crawl,NN,B-VP,O
+on,IN,B-PP,O
+them,PRP,B-NP,O
+.,.,O,O

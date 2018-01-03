@@ -1,0 +1,7 @@
+0,1,2,3
+Lows,NNP,B-NP,O
+68-76F,CD,I-NP,O
+(,(,O,O
+20-24C,CD,B-NP,O
+),),O,O
+.,.,O,O

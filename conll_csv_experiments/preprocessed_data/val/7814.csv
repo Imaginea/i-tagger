@@ -1,0 +1,13 @@
+0,1,2,3
+Australia,NNP,B-NP,B-LOC
+-,:,O,O
+Ian,NNP,B-NP,B-PER
+Healy,NNP,I-NP,I-PER
+(,(,O,O
+captain,NN,B-NP,O
+),),O,O
+",",",",O,O
+Michael,NNP,B-NP,B-PER
+Bevan,NNP,I-NP,I-PER
+",",",",O,O
+Damien,NNP,B-NP,B-PER

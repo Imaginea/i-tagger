@@ -1,0 +1,15 @@
+0,1,2,3
+A,DT,B-NP,O
+Seguin,NNP,I-NP,B-PER
+spokeswoman,NN,I-NP,O
+confirmed,VBD,B-VP,O
+that,IN,B-SBAR,O
+no,DT,B-NP,O
+letter,NN,I-NP,O
+or,CC,O,O
+call,VB,B-VP,O
+had,VBD,I-VP,O
+yet,RB,B-NP,O
+been,VBN,B-VP,O
+received,VBN,I-VP,O
+.,.,O,O

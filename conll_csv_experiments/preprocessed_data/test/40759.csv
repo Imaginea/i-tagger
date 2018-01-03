@@ -1,0 +1,8 @@
+0,1,2,3
+4.,CD,B-NP,O
+Alexandra,NNP,I-NP,B-PER
+Meissnitzer,NNP,I-NP,I-PER
+(,(,O,O
+Austria,NNP,B-NP,B-LOC
+),),O,O
+1:49.13,CD,B-NP,O

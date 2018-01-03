@@ -1,0 +1,22 @@
+0,1,2,3
+He,PRP,B-NP,O
+is,VBZ,B-VP,O
+in,IN,B-PP,O
+danger,NN,B-NP,O
+of,IN,B-PP,O
+getting,VBG,B-VP,O
+a,DT,B-NP,O
+retinal,JJ,I-NP,O
+detachment,NN,I-NP,O
+and,CC,O,O
+there,EX,B-NP,O
+is,VBZ,B-VP,O
+no,DT,B-NP,O
+point,NN,I-NP,O
+in,IN,B-PP,O
+exposing,VBG,B-VP,O
+himself,PRP,B-NP,O
+to,TO,B-PP,O
+that,DT,B-NP,O
+.,.,O,O
+ ,O,O,<UNK>

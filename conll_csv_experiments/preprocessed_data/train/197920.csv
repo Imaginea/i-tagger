@@ -1,0 +1,16 @@
+0,1,2,3
+Up,IN,B-PP,O
+for,IN,B-PP,O
+grabs,NNS,B-NP,O
+in,IN,B-PP,O
+the,DT,B-NP,O
+election,NN,I-NP,O
+are,VBP,B-VP,O
+the,DT,B-NP,O
+state,NN,I-NP,O
+legislature,NN,I-NP,O
+and,CC,O,O
+75,CD,B-NP,O
+town,NN,I-NP,O
+halls,NNS,I-NP,O
+.,.,O,O

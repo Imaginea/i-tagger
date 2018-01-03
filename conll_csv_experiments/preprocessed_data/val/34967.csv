@@ -1,0 +1,14 @@
+0,1,2,3
+When,WRB,B-ADVP,O
+the,DT,B-NP,O
+All,DT,I-NP,B-ORG
+Blacks,NNPS,I-NP,I-ORG
+did,VBD,B-VP,O
+break,VB,I-VP,O
+through,IN,B-PP,O
+",",",",O,O
+it,PRP,B-NP,O
+was,VBD,B-VP,O
+too,RB,B-ADJP,O
+late,JJ,I-ADJP,O
+.,.,O,O

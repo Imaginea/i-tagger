@@ -1,0 +1,32 @@
+0,1,2,3
+It,PRP,B-NP,O
+had,VBD,B-VP,O
+been,VBN,I-VP,O
+boosted,VBN,I-VP,O
+overnight,RB,B-ADVP,O
+by,IN,B-PP,O
+the,DT,B-NP,O
+Bank,NNP,I-NP,B-ORG
+of,IN,B-PP,I-ORG
+Japan,NNP,B-NP,I-ORG
+'s,POS,B-NP,O
+quarterly,JJ,I-NP,O
+corporate,JJ,I-NP,O
+survey,NN,I-NP,O
+",",",",O,O
+or,CC,O,O
+ ,O,O,<UNK>
+tankan,NN,B-NP,O
+ ,O,O,<UNK>
+",",",",O,O
+of,IN,B-PP,O
+major,JJ,B-NP,O
+manufacturers,NNS,I-NP,O
+--,:,O,O
+an,DT,B-NP,O
+important,JJ,I-NP,O
+gauge,NN,I-NP,O
+of,IN,B-PP,O
+business,NN,B-NP,O
+sentiment,NN,I-NP,O
+.,.,O,O

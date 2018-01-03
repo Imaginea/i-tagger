@@ -1,0 +1,12 @@
+0,1,2,3
+Lloyd,NNP,B-NP,B-PER
+did,VBD,B-VP,O
+not,RB,I-VP,O
+say,VB,I-VP,O
+what,WP,B-NP,O
+form,VBP,B-VP,O
+the,DT,B-NP,O
+discipline,NN,I-NP,O
+would,MD,B-VP,O
+take,VB,I-VP,O
+.,.,O,O

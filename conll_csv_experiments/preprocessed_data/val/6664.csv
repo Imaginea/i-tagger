@@ -1,0 +1,13 @@
+0,1,2,3
+Fredericks,NNS,B-NP,B-PER
+(,(,O,O
+Namibia,NNP,B-NP,B-LOC
+),),O,O
+",",",",O,O
+Linford,NNP,B-NP,B-PER
+Christie,NNP,I-NP,I-PER
+(,(,O,O
+Britain,NNP,B-NP,B-LOC
+),),O,O
+38.87,CD,B-NP,O
+seconds,NNS,I-NP,O

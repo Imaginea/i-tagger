@@ -1,0 +1,12 @@
+0,1,2,3
+(,(,O,O
+Red,NNP,B-NP,B-LOC
+River,NNP,I-NP,I-LOC
+),),O,O
+4.46,CD,B-NP,O
+dn,NN,I-NP,O
+.02,CD,I-NP,O
+5.00,CD,I-NP,O
+unc,NNS,I-NP,O
+--,:,O,O
+--,:,O,O

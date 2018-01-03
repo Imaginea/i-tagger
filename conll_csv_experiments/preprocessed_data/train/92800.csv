@@ -1,0 +1,10 @@
+0,1,2,3
+A.,NNP,B-NP,B-PER
+Stewart,NNP,I-NP,I-PER
+c,SYM,O,O
+Asif,NNP,B-NP,B-PER
+Mujtaba,NNP,I-NP,I-PER
+b,SYM,O,O
+Mushtaq,NNP,B-NP,B-PER
+Ahmed,NNP,I-NP,I-PER
+54,CD,I-NP,O

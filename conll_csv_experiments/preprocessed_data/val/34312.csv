@@ -1,0 +1,12 @@
+0,1,2,3
+3.,NNP,B-NP,O
+Bobby,NNP,I-NP,B-PER
+Rahal,NNP,I-NP,I-PER
+(,(,O,O
+U.S.,NNP,B-NP,B-LOC
+),),O,O
+",",",",O,O
+Reynard,VB,B-VP,B-ORG
+Mercedes-Benz,NNP,B-NP,I-ORG
+",",",",O,O
+54.507,CD,B-NP,O

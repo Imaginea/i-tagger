@@ -1,0 +1,5 @@
+0,1,2,3
+Hyundai,NNP,B-NP,B-ORG
+6,CD,I-NP,O
+Lotte,NNP,I-NP,B-ORG
+5,CD,I-NP,O

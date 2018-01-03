@@ -1,0 +1,16 @@
+0,1,2,3
+When,WRB,B-ADVP,O
+it,PRP,B-NP,O
+came,VBD,B-VP,O
+down,IN,B-PP,O
+to,TO,B-PP,O
+the,DT,B-NP,O
+important,JJ,I-NP,O
+points,NNS,I-NP,O
+",",",",O,O
+I,PRP,B-NP,O
+felt,VBD,B-VP,O
+more,RBR,B-ADJP,O
+confident,JJ,I-ADJP,O
+.,.,O,O
+ ,O,O,<UNK>

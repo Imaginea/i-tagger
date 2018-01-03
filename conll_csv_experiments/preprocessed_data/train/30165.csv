@@ -1,0 +1,8 @@
+0,1,2,3
+GLASGOW,NNP,B-NP,B-LOC
+1996-08-23,CD,I-NP,O
+Result,NN,B-NP,O
+of,IN,B-PP,O
+a,DT,B-NP,O
+Scottish,JJ,I-NP,B-MISC
+third,JJ,I-NP,O

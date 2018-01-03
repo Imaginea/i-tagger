@@ -1,0 +1,10 @@
+0,1,2,3
+ ,O,O,<UNK>
+The,DT,B-NP,O
+revolution,NN,I-NP,O
+has,VBZ,B-VP,O
+brought,VBN,I-VP,O
+us,PRP,B-NP,O
+great,JJ,B-NP,O
+achievements,NNS,I-NP,O
+...,:,O,O

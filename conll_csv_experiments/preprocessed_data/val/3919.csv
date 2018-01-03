@@ -1,0 +1,9 @@
+0,1,2,3
+Rios,NNS,B-NP,B-PER
+did,VBD,B-VP,O
+not,RB,I-VP,O
+appreciate,VB,I-VP,O
+Tarango,NNP,B-NP,B-PER
+'s,POS,B-NP,O
+antics,NNS,I-NP,O
+.,.,O,O

@@ -1,0 +1,11 @@
+0,1,2,3
+Hampshire,NNP,B-NP,B-ORG
+137,CD,I-NP,O
+(,(,O,O
+G.,NNP,B-NP,B-PER
+Parsons,NNP,I-NP,I-PER
+4-36,CD,I-NP,O
+),),O,O
+and,CC,O,O
+135-9,CD,B-NP,O
+.,.,O,O

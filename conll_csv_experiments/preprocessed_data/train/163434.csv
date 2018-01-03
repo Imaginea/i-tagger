@@ -1,0 +1,33 @@
+0,1,2,3
+Acclaimed,VBN,B-VP,O
+for,IN,B-PP,O
+his,PRP$,B-NP,O
+interpretations,NNS,I-NP,O
+of,IN,B-PP,O
+J.S.,NNP,B-NP,B-PER
+Bach,NNP,I-NP,I-PER
+'s,POS,B-NP,O
+works,NNS,I-NP,O
+",",",",O,O
+he,PRP,B-NP,O
+also,RB,B-ADVP,O
+won,VBD,B-VP,O
+the,DT,B-NP,O
+Nobel,NNP,I-NP,B-MISC
+Peace,NNP,I-NP,I-MISC
+Prize,NNP,I-NP,I-MISC
+for,IN,B-PP,O
+his,PRP$,B-NP,O
+efforts,NNS,I-NP,O
+on,IN,B-PP,O
+behalf,NN,B-NP,O
+of,IN,B-PP,O
+the,DT,B-NP,O
+ ,O,O,<UNK>
+Brotherhood,NNP,B-NP,B-ORG
+of,IN,B-PP,I-ORG
+Nations,NNPS,B-NP,I-ORG
+ ,O,O,<UNK>
+in,IN,B-PP,O
+1952,CD,B-NP,O
+.,.,O,O

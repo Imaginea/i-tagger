@@ -1,0 +1,7 @@
+0,1,2,3
+Harleysville,NNP,B-NP,B-ORG
+Group,NNP,I-NP,I-ORG
+ups,NNS,I-NP,O
+qrtly,RB,B-ADJP,O
+dividenD,JJ,I-ADJP,O
+.,.,O,O

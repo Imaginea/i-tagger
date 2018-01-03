@@ -1,0 +1,13 @@
+0,1,2,3
+At,IN,B-PP,O
+the,DT,B-NP,O
+same,JJ,I-NP,O
+time,NN,I-NP,O
+",",",",O,O
+they,PRP,B-NP,O
+'re,VBP,B-VP,O
+cheering,VBG,I-VP,O
+blatantly,RB,B-ADVP,O
+against,IN,B-PP,O
+me,PRP,B-NP,O
+.,.,O,O

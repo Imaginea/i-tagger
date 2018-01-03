@@ -1,0 +1,11 @@
+0,1,2,3
+Group,NNP,B-NP,O
+4,CD,I-NP,O
+Santos,NNS,B-NP,B-ORG
+3,CD,I-NP,O
+3,CD,I-NP,O
+0,CD,I-NP,O
+0,CD,I-NP,O
+4,CD,I-NP,O
+1,CD,I-NP,O
+9,CD,I-NP,O

@@ -1,0 +1,18 @@
+0,1,2,3
+ ,O,O,<UNK>
+Investors,NNS,B-NP,O
+unloaded,JJ,I-NP,O
+their,PRP$,I-NP,O
+shares,NNS,I-NP,O
+due,JJ,B-ADVP,O
+to,TO,B-PP,O
+the,DT,B-NP,O
+poor,JJ,I-NP,O
+earnings,NNS,I-NP,O
+outlook,NN,I-NP,O
+following,VBG,B-PP,O
+a,DT,B-NP,O
+sharp,JJ,I-NP,O
+profit,NN,I-NP,O
+decline,NN,I-NP,O
+.,.,O,O

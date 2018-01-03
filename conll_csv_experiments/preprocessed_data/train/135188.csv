@@ -1,0 +1,13 @@
+0,1,2,3
+ ,O,O,<UNK>
+The,DT,B-NP,O
+boy,NN,I-NP,O
+came,VBD,B-VP,O
+from,IN,B-PP,O
+China,NNP,B-NP,B-LOC
+'s,POS,B-NP,O
+eastern,JJ,I-NP,O
+province,NN,I-NP,O
+of,IN,B-PP,O
+Jiangsu,NNP,B-NP,B-LOC
+.,.,O,O

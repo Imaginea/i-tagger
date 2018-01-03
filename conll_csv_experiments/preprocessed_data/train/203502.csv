@@ -1,0 +1,15 @@
+0,1,2,3
+-,:,O,O
+Japan,NNP,B-NP,B-LOC
+is,VBZ,B-VP,O
+importing,VBG,I-VP,O
+80,CD,B-NP,O
+percent,NN,I-NP,O
+of,IN,B-PP,O
+cotton,NN,B-NP,O
+yarn,NN,I-NP,O
+from,IN,B-PP,O
+Pakistan,NNP,B-NP,B-LOC
+every,DT,B-NP,O
+year,NN,I-NP,O
+.,.,O,O

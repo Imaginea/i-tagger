@@ -1,0 +1,14 @@
+0,1,2,3
+ ,O,O,<UNK>
+On,IN,B-PP,O
+the,DT,B-NP,O
+jet,NN,I-NP,O
+kerosene,NN,I-NP,O
+side,NN,I-NP,O
+we,PRP,B-NP,O
+must,MD,B-VP,O
+be,VB,I-VP,O
+cautious,JJ,B-ADJP,O
+about,IN,B-PP,O
+quality,NN,B-NP,O
+.,.,O,O

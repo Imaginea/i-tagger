@@ -1,0 +1,9 @@
+0,1,2,3
+5.,CD,B-NP,O
+Veerle,NNP,I-NP,B-PER
+De,NNP,I-NP,I-PER
+Jaeghere,NNP,I-NP,I-PER
+(,(,O,O
+Belgium,NNP,B-NP,B-LOC
+),),O,O
+2:43.18,CD,B-NP,O

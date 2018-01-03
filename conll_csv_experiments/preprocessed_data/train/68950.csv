@@ -1,0 +1,16 @@
+0,1,2,3
+298,CD,B-NP,O
+Steve,NNP,I-NP,B-PER
+Schneiter,NNP,I-NP,I-PER
+77,CD,I-NP,O
+74,CD,B-NP,O
+76,CD,I-NP,O
+71,CD,I-NP,O
+",",",",O,O
+Paul,NNP,B-NP,B-PER
+Stankowski,NNP,I-NP,I-PER
+74,CD,I-NP,O
+75,CD,I-NP,O
+74,CD,B-NP,O
+75,CD,I-NP,O
+",",",",O,O

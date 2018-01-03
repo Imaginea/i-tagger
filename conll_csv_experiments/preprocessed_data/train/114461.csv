@@ -1,0 +1,23 @@
+0,1,2,3
+ ,O,O,<UNK>
+I,PRP,B-NP,O
+will,MD,B-VP,O
+no,RB,I-VP,O
+longer,RB,I-VP,O
+be,VB,I-VP,O
+deputy,NN,B-NP,O
+by,IN,B-PP,O
+the,DT,B-NP,O
+time,NN,I-NP,O
+the,DT,B-NP,O
+film,NN,I-NP,O
+opens,VBZ,B-VP,O
+",",",",O,O
+ ,O,O,<UNK>
+he,PRP,B-NP,O
+said,VBD,B-VP,O
+in,IN,B-PP,O
+a,DT,B-NP,O
+broadcast,NN,I-NP,O
+interview,NN,I-NP,O
+.,.,O,O

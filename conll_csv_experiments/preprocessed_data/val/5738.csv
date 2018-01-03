@@ -1,0 +1,11 @@
+0,1,2,3
+1.,CD,B-NP,O
+Noureddine,NNP,I-NP,B-PER
+Morceli,NNP,I-NP,I-PER
+(,(,O,O
+Algeria,NNP,B-NP,B-LOC
+),),O,O
+3,CD,B-NP,O
+minutes,NNS,I-NP,O
+49.09,CD,I-NP,O
+seconds,NNS,I-NP,O

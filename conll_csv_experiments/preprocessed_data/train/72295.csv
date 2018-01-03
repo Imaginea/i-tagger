@@ -1,0 +1,12 @@
+0,1,2,3
+Scores,NNS,B-NP,O
+:,:,O,O
+England,NNP,B-NP,B-LOC
+326,CD,I-NP,O
+and,CC,I-NP,O
+74-0,NNP,I-NP,O
+;,:,O,O
+Pakistan,NNP,B-NP,B-LOC
+521-8,CD,I-NP,O
+declared,VBN,B-VP,O
+.,.,O,O

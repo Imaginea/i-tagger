@@ -1,0 +1,9 @@
+0,1,2,3
+6.,CD,B-NP,O
+Jean,NNP,B-NP,B-PER
+Alesi,NNP,I-NP,I-PER
+(,(,O,O
+France,NNP,B-NP,B-LOC
+),),O,O
+Benetton,NNP,B-NP,B-ORG
+1:55.101,CD,I-NP,O

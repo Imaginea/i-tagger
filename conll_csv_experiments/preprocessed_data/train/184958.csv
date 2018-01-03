@@ -1,0 +1,9 @@
+0,1,2,3
+Iran,NNP,B-NP,B-LOC
+asks,VBZ,B-VP,O
+Bonn,NNP,B-NP,B-LOC
+to,TO,B-VP,O
+extradite,VB,I-VP,O
+ex-president,NN,B-NP,O
+Banisadr,NNP,I-NP,B-PER
+.,.,O,O

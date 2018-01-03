@@ -1,0 +1,6 @@
+0,1,2,3
+Portuguesa,NNP,B-NP,B-ORG
+3,CD,I-NP,O
+Atletico,NNP,I-NP,B-ORG
+Mineiro,NNP,I-NP,I-ORG
+1,CD,I-NP,O

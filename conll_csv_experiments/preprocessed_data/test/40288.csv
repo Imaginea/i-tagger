@@ -1,0 +1,9 @@
+0,1,2,3
+19=,CD,B-NP,O
+Kate,NNP,I-NP,B-PER
+Pace,NNP,I-NP,I-PER
+Lindsay,NNP,I-NP,I-PER
+(,(,O,O
+Canada,NNP,B-NP,B-LOC
+),),O,O
+23,CD,B-NP,O

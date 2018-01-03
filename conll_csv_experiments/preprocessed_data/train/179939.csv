@@ -1,0 +1,5 @@
+0,1,2,3
+Industrial,NNP,B-NP,O
+systems,NNS,I-NP,O
+and,CC,I-NP,O
+components,NNS,I-NP,O

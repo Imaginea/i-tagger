@@ -1,0 +1,35 @@
+0,1,2,3
+Ingram,NNP,B-NP,B-PER
+was,VBD,B-VP,O
+quoted,VBN,I-VP,O
+as,IN,B-PP,O
+telling,VBG,B-VP,O
+the,DT,B-NP,O
+newspaper,NN,I-NP,O
+he,PRP,B-NP,O
+thought,VBD,B-VP,O
+astrology,NN,B-NP,O
+was,VBD,B-VP,O
+ ,O,O,<UNK>
+a,DT,B-NP,O
+load,NN,I-NP,O
+of,IN,B-PP,O
+rubbish,NN,B-NP,O
+ ,O,O,<UNK>
+and,CC,O,O
+that,IN,B-SBAR,O
+he,PRP,B-NP,O
+could,MD,B-VP,O
+not,RB,I-VP,O
+recall,VB,I-VP,O
+asking,VBG,I-VP,O
+Orr,NNP,B-NP,B-PER
+to,TO,B-VP,O
+keep,VB,I-VP,O
+a,DT,B-NP,O
+watch,NN,I-NP,O
+on,IN,B-PP,O
+Thatcher,NNP,B-NP,B-PER
+'s,POS,B-NP,O
+stars,NNS,I-NP,O
+.,.,O,O

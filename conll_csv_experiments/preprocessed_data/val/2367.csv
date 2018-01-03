@@ -1,0 +1,15 @@
+0,1,2,3
+Sandrine,NNP,B-NP,B-PER
+Testud,NNP,I-NP,I-PER
+(,(,O,O
+France,NNP,B-NP,B-LOC
+),),O,O
+beat,VB,B-VP,O
+Ines,NNP,B-NP,B-PER
+Gorrochategui,NNP,I-NP,I-PER
+(,(,O,O
+Argentina,NNP,B-NP,B-LOC
+),),O,O
+4-6,RB,B-VP,O
+6-2,CD,B-NP,O
+6-1,JJ,B-ADVP,O

@@ -1,0 +1,15 @@
+0,1,2,3
+ ,O,O,<UNK>
+He,PRP,B-NP,O
+set,VBP,B-VP,O
+up,RP,B-PRT,O
+a,DT,B-NP,O
+propaganda,NN,I-NP,O
+cannon,NN,I-NP,O
+and,CC,O,O
+fired,VBD,B-VP,O
+it,PRP,B-NP,O
+at,IN,B-PP,O
+Germany,NNP,B-NP,B-LOC
+.,.,I-NP,O
+ ,O,O,<UNK>

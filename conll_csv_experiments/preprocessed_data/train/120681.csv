@@ -1,0 +1,8 @@
+0,1,2,3
+LONDON,NNP,B-NP,B-LOC
+1996-08-27,CD,I-NP,O
+England,NNP,B-NP,B-LOC
+and,CC,O,O
+Pakistan,NNP,B-NP,B-LOC
+Test,NNP,I-NP,O
+averages,VBZ,B-VP,O

@@ -1,0 +1,14 @@
+0,1,2,3
+Cyprus,NNP,B-NP,B-LOC
+-,:,O,O
+Klimis,NNP,B-NP,B-PER
+Alexandrou,NNP,I-NP,I-PER
+(,(,O,O
+75th,JJ,B-NP,O
+),),O,O
+",",",",O,O
+Kostas,NNP,B-NP,B-PER
+Malekos,NNP,I-NP,I-PER
+(,(,O,O
+80th,CD,B-NP,O
+),),O,O

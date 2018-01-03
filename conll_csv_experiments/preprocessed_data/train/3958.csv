@@ -1,0 +1,9 @@
+0,1,2,3
+The,DT,B-NP,O
+three,CD,I-NP,O
+main,JJ,I-NP,O
+lists,NNS,I-NP,O
+have,VBP,B-VP,O
+been,VBN,I-VP,O
+prepared,VBN,B-VP,O
+.,.,O,O

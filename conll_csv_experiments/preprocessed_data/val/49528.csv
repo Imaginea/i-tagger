@@ -1,0 +1,15 @@
+0,1,2,3
+Wang,NNP,B-NP,B-PER
+'s,POS,B-NP,O
+family,NN,I-NP,O
+and,CC,O,O
+Hangzhou,NNP,B-NP,B-LOC
+police,NN,I-NP,O
+could,MD,B-VP,O
+not,RB,I-VP,O
+be,VB,I-VP,O
+reached,VBN,I-VP,O
+for,IN,B-PP,O
+immediate,JJ,B-NP,O
+comment,NN,I-NP,O
+.,.,O,O

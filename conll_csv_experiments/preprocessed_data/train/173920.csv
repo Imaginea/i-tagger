@@ -1,0 +1,8 @@
+0,1,2,3
+It,PRP,B-NP,O
+did,VBD,B-VP,O
+not,RB,I-VP,O
+identify,VB,I-VP,O
+the,DT,B-NP,O
+man,NN,I-NP,O
+.,.,O,O

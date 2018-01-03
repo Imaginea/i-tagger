@@ -1,0 +1,10 @@
+0,1,2,3
+EU,NN,B-NP,B-ORG
+experts,NNS,I-NP,O
+postpone,VBP,B-VP,O
+talks,NNS,B-NP,O
+on,IN,B-PP,O
+rice,NN,B-NP,O
+area,NN,I-NP,O
+aid,NN,I-NP,O
+.,.,O,O

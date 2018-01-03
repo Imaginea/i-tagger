@@ -1,0 +1,11 @@
+0,1,2,3
+A,DT,B-NP,O
+post-mortem,JJ,I-NP,O
+report,NN,I-NP,O
+suggested,VBD,B-VP,O
+he,PRP,B-NP,O
+might,MD,B-VP,O
+have,VB,I-VP,O
+been,VBN,I-VP,O
+tortured,VBN,I-VP,O
+.,.,O,O

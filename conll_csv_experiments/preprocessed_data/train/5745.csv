@@ -1,0 +1,16 @@
+0,1,2,3
+(,(,O,O
+Germany,NNP,B-NP,B-LOC
+),),O,O
+",",",",O,O
+Alexander,NNP,B-NP,B-PER
+Cejka,NNP,I-NP,I-PER
+(,(,O,O
+Germany,NNP,B-NP,B-LOC
+),),O,O
+",",",",O,O
+Hal,NNP,B-NP,B-PER
+Sutton,NNP,I-NP,I-PER
+",",",",O,O
+Tom,NNP,B-NP,B-PER
+Lehman,NNP,I-NP,I-PER

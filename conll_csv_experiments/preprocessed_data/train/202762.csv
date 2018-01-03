@@ -1,0 +1,12 @@
+0,1,2,3
+U.S.,NNP,B-NP,B-ORG
+DLA,NNP,I-NP,I-ORG
+sets,NNS,I-NP,O
+tin,NN,I-NP,O
+price,NN,I-NP,O
+at,IN,B-PP,O
+$,$,B-NP,O
+2.7975,CD,I-NP,O
+per,IN,B-PP,O
+lb,NNS,B-NP,O
+.,.,O,O

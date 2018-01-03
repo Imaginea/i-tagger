@@ -1,0 +1,8 @@
+0,1,2,3
+Barrick,NNP,B-NP,B-ORG
+gets,VBZ,B-VP,O
+93,CD,B-NP,O
+pct,NNS,I-NP,O
+of,IN,B-PP,O
+Arequipa,NNP,B-NP,B-ORG
+.,.,O,O

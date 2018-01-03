@@ -1,0 +1,26 @@
+0,1,2,3
+What,WP,B-NP,O
+happens,VBZ,B-VP,O
+is,VBZ,B-VP,O
+the,DT,B-NP,O
+nose,NN,I-NP,O
+sometimes,RB,B-ADVP,O
+does,VBZ,B-VP,O
+n't,RB,I-VP,O
+match,VB,I-VP,O
+the,DT,B-NP,O
+mouth,NN,I-NP,O
+or,CC,O,O
+the,DT,B-NP,O
+buttocks,NNS,I-NP,O
+do,VBP,B-VP,O
+n't,RB,I-VP,O
+match,VB,I-VP,O
+with,IN,B-PP,O
+the,DT,B-NP,O
+legs,NNS,I-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+he,PRP,B-NP,O
+said,VBD,B-VP,O
+.,.,O,O

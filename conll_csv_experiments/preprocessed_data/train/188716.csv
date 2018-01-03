@@ -1,0 +1,9 @@
+0,1,2,3
+10.,CD,B-NP,O
+Jeroen,NNP,I-NP,B-PER
+Blijlevens,NNP,I-NP,I-PER
+(,(,I-NP,O
+Netherlands,NNP,I-NP,B-LOC
+),),O,O
+TVM,NN|SYM,B-NP,B-ORG
+31,CD,I-NP,O

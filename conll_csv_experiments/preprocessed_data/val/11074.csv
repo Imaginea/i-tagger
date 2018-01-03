@@ -1,0 +1,25 @@
+0,1,2,3
+ ,O,O,<UNK>
+Little,NNP,B-NP,O
+did,VBD,B-VP,O
+I,PRP,B-NP,O
+know,VBP,B-VP,O
+I,PRP,B-NP,O
+was,VBD,B-VP,O
+dealing,VBG,I-VP,O
+with,IN,B-PP,O
+robbers,NNS,B-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+the,DT,B-NP,O
+News,NNP,I-NP,B-ORG
+Agency,NNP,I-NP,I-ORG
+of,IN,B-PP,I-ORG
+Nigeria,NNP,B-NP,I-ORG
+quoted,VBD,B-VP,O
+the,DT,B-NP,O
+unnamed,JJ,I-NP,O
+corporal,NN,I-NP,O
+as,IN,B-PP,O
+saying,VBG,B-VP,O
+.,.,O,O

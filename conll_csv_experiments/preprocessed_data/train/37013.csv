@@ -1,0 +1,8 @@
+0,1,2,3
+8.,NNP,B-NP,O
+Sigurd,NNP,I-NP,B-PER
+Njerve,NNP,I-NP,I-PER
+(,(,O,O
+Norway,NNP,B-NP,B-LOC
+),),O,O
+16.35,CD,B-NP,O

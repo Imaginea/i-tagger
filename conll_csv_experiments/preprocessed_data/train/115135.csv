@@ -1,0 +1,11 @@
+0,1,2,3
+ ,O,O,<UNK>
+We,PRP,B-NP,O
+expect,VBP,B-VP,O
+reasonable,JJ,B-NP,O
+growth,NN,I-NP,O
+in,IN,B-PP,O
+the,DT,B-NP,O
+second,JJ,I-NP,O
+half,NN,I-NP,O
+.,.,O,O

@@ -1,0 +1,7 @@
+0,1,2,3
+69,CD,B-NP,O
+Justin,NNP,I-NP,B-PER
+Leonard,NNP,I-NP,I-PER
+",",",",O,O
+Mark,NNP,B-NP,B-PER
+Brooks,NNP,I-NP,I-PER

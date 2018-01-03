@@ -1,0 +1,16 @@
+0,1,2,3
+ ,O,O,<UNK>
+It,PRP,B-NP,O
+rallied,VBD,B-VP,O
+on,IN,B-PP,O
+ideas,NNS,B-NP,O
+the,DT,B-NP,O
+market,NN,I-NP,O
+was,VBD,B-VP,O
+oversold,VBN,I-VP,O
+",",",",O,O
+ ,O,O,<UNK>
+a,DT,B-NP,O
+trader,NN,I-NP,O
+said,VBD,B-VP,O
+.,.,O,O

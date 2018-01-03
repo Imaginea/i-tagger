@@ -1,0 +1,23 @@
+0,1,2,3
+ ,O,O,<UNK>
+The,DT,B-NP,O
+four,CD,I-NP,O
+Britons,NNPS,I-NP,B-MISC
+were,VBD,B-VP,O
+shot,VBN,I-VP,O
+at,IN,B-PP,O
+from,IN,B-PP,O
+a,DT,B-NP,O
+Mercedes,NNPS,I-NP,B-MISC
+car,NN,I-NP,O
+at,IN,B-PP,O
+around,IN,B-NP,O
+1,CD,I-NP,O
+a.m.,NN,I-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+a,DT,B-NP,O
+spokeswoman,NN,I-NP,O
+told,VBN,B-VP,O
+Reuters,NNP,B-NP,B-ORG
+.,.,O,O

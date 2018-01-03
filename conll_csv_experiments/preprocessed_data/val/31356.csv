@@ -1,0 +1,8 @@
+0,1,2,3
+Baines,NNS,B-NP,B-PER
+homered,VBD,B-VP,O
+and,CC,O,O
+scored,VBD,B-VP,O
+three,CD,B-NP,O
+runs,NNS,I-NP,O
+.,.,O,O

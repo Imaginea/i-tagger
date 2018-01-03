@@ -1,0 +1,10 @@
+0,1,2,3
+It,PRP,B-NP,O
+would,MD,B-VP,O
+be,VB,I-VP,O
+great,JJ,B-ADJP,O
+to,TO,B-VP,O
+have,VB,I-VP,O
+him,PRP,B-NP,O
+here,RB,B-ADVP,O
+.,.,O,O

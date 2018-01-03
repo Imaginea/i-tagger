@@ -1,0 +1,16 @@
+0,1,2,3
+Patasse,NNP,B-NP,B-PER
+",",",",O,O
+who,WP,B-NP,O
+won,VBD,B-VP,O
+Central,NNP,B-NP,B-LOC
+Africa,NNP,I-NP,I-LOC
+'s,POS,B-NP,O
+first,JJ,I-NP,O
+multi-party,NN,I-NP,O
+elections,NNS,I-NP,O
+",",",",O,O
+refuses,VBZ,B-VP,O
+to,TO,I-VP,O
+resign,VB,I-VP,O
+.,.,O,O

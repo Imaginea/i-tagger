@@ -1,0 +1,15 @@
+0,1,2,3
+TUNIS,NNS,B-NP,B-LOC
+1996-08-31,CD,I-NP,O
+These,DT,B-NP,O
+are,VBP,B-VP,O
+the,DT,B-NP,O
+leading,VBG,I-NP,O
+stories,NNS,I-NP,O
+in,IN,B-PP,O
+the,DT,B-NP,O
+Tunisian,JJ,I-NP,B-MISC
+press,NN,I-NP,O
+on,IN,B-PP,O
+Saturday,NNP,B-NP,O
+.,.,O,O

@@ -1,0 +1,10 @@
+0,1,2,3
+Yeltsin,JJ,B-NP,B-PER
+visits,NNS,I-NP,O
+wife,NN,I-NP,O
+Naina,NNP,B-NP,B-PER
+in,IN,B-PP,O
+hospital,NN,B-NP,O
+-,:,O,O
+Interfax,NNP,B-NP,B-ORG
+.,.,O,O

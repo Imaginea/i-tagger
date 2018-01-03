@@ -1,0 +1,11 @@
+0,1,2,3
+Rare,NNP,B-NP,O
+Hendrix,NNP,I-NP,B-PER
+song,NN,I-NP,O
+draft,NN,I-NP,O
+sells,VBZ,B-VP,O
+for,IN,B-PP,O
+almost,RB,B-NP,O
+$,$,I-NP,O
+"17,000",CD,I-NP,O
+.,.,O,O

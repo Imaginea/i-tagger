@@ -1,0 +1,6 @@
+0,1,2,3
+Chartered,NNP,B-NP,O
+bank,NN,I-NP,O
+assets,NNS,I-NP,O
+July,NNP,I-NP,O
+June,NNP,I-NP,O

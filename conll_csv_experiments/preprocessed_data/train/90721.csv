@@ -1,0 +1,10 @@
+0,1,2,3
+Other,JJ,B-NP,O
+shares,NNS,I-NP,O
+were,VBD,B-VP,O
+slightly,RB,B-ADJP,O
+lower,JJR,I-ADJP,O
+",",",",O,O
+mirroring,NN,B-NP,O
+bonds,NNS,I-NP,O
+.,.,O,O

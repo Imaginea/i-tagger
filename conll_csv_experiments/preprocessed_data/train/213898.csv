@@ -1,0 +1,7 @@
+0,1,2,3
+--,:,B-NP,O
+Joyce,NNP,I-NP,B-PER
+Liu,NNP,I-NP,I-PER
+(,(,O,O
+2-5080815,CD,B-NP,O
+),),O,O

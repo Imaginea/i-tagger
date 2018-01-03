@@ -1,0 +1,14 @@
+0,1,2,3
+I,PRP,B-NP,O
+'m,VBP,B-VP,O
+used,VBN,I-VP,O
+to,TO,B-PP,O
+it,PRP,B-NP,O
+and,CC,O,O
+I,PRP,B-NP,O
+like,VB,B-VP,O
+to,TO,I-VP,O
+drive,VB,I-VP,O
+fast,RB,B-ADVP,O
+.,.,O,O
+ ,O,O,<UNK>

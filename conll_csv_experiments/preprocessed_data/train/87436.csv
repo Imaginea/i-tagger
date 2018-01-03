@@ -1,0 +1,24 @@
+0,1,2,3
+ ,O,O,<UNK>
+Dutroux,NNP,B-NP,B-PER
+has,VBZ,B-VP,O
+admitted,VBN,I-VP,O
+killing,VBG,I-VP,O
+Weinstein,NNP,B-NP,B-PER
+after,IN,B-PP,O
+a,DT,B-NP,O
+disagreement,NN,I-NP,O
+between,IN,B-PP,O
+the,DT,B-NP,O
+accomplices,NNS,I-NP,O
+in,IN,B-PP,O
+an,DT,B-NP,O
+affair,NN,I-NP,O
+of,IN,B-PP,O
+truck,NN,B-NP,O
+theft,NN,I-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+Bourlet,NNP,B-NP,B-PER
+said,VBD,B-VP,O
+.,.,O,O

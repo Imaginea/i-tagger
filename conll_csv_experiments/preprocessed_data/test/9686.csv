@@ -1,0 +1,12 @@
+0,1,2,3
+Lazio,NNP,B-NP,B-ORG
+(,(,O,O
+12,CD,B-NP,O
+),),O,O
+v,JJ,B-NP,O
+AS,NNP,I-NP,B-ORG
+Roma,NNP,I-NP,I-ORG
+(,(,O,O
+7,CD,B-NP,O
+),),O,O
+1930,CD,B-NP,O

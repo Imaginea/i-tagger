@@ -1,0 +1,14 @@
+0,1,2,3
+SYDNEY,NNP,B-NP,B-LOC
+1996-08-25,CD,I-NP,O
+Results,NNS,B-NP,O
+of,IN,B-PP,O
+Australian,JJ,B-NP,B-MISC
+rugby,JJ,I-NP,O
+league,NN,I-NP,O
+matches,NNS,I-NP,O
+played,VBD,B-VP,O
+at,IN,B-PP,O
+the,DT,B-NP,O
+weekend,NN,I-NP,O
+.,.,O,O

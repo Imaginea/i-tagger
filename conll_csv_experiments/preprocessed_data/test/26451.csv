@@ -1,0 +1,15 @@
+0,1,2,3
+He,PRP,B-NP,O
+spent,VBD,B-VP,O
+Thursday,NNP,B-NP,O
+with,IN,B-PP,O
+family,NN,B-NP,O
+members,NNS,I-NP,O
+and,CC,O,O
+his,PRP$,B-NP,O
+spiritual,JJ,I-NP,O
+adviser,NN,I-NP,O
+",",",",O,O
+Morris,NNP,B-NP,B-PER
+said,VBD,B-VP,O
+.,.,O,O

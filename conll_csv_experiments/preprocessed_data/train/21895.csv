@@ -1,0 +1,4 @@
+0,1,2,3
+State,NN,B-NP,O
+:,:,O,O
+TX,NNS,B-NP,B-LOC

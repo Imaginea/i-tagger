@@ -1,0 +1,8 @@
+0,1,2,3
+professional,JJ,B-NP,O
+baseball,NN,I-NP,O
+games,NNS,I-NP,O
+played,VBN,B-VP,O
+on,IN,B-PP,O
+Thursday,NNP,B-NP,O
+.,.,O,O

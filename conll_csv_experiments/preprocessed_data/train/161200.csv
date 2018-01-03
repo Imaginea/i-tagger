@@ -1,0 +1,17 @@
+0,1,2,3
+Allen,NNP,B-NP,B-PER
+said,VBD,B-VP,O
+the,DT,B-NP,O
+commission,NN,I-NP,O
+could,MD,B-VP,O
+announce,VB,I-VP,O
+the,DT,B-NP,O
+names,NNS,I-NP,O
+of,IN,B-PP,O
+subpoenaed,JJ,B-NP,O
+persons,NNS,I-NP,O
+on,IN,B-PP,O
+Monday,NNP,B-NP,O
+next,JJ,B-NP,O
+week,NN,I-NP,O
+.,.,O,O

@@ -1,0 +1,13 @@
+0,1,2,3
+NOTE,NN,B-NP,O
+-,:,O,O
+Fontaine,NNP,B-NP,B-ORG
+Co,NNP,I-NP,I-ORG
+Ltd,NNP,I-NP,I-ORG
+sells,VBZ,B-VP,O
+women,NNS,B-NP,O
+ ,O,O,<UNK>
+s,VBZ,B-VP,O
+fashion,NN,B-NP,O
+wigs,NNS,I-NP,O
+.,.,O,O

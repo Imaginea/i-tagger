@@ -1,0 +1,11 @@
+0,1,2,3
+Flight-related,JJ,B-NP,O
+fees,NNS,I-NP,O
+(,(,O,O
+Dm,NNP,B-NP,B-MISC
+million,CD,I-NP,O
+),),O,O
+125,CD,B-NP,O
+up,RB,B-ADVP,O
+17,CD,B-NP,O
+pct,NN,I-NP,O

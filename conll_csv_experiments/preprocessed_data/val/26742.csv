@@ -1,0 +1,13 @@
+0,1,2,3
+Another,DT,B-NP,O
+plane,NN,I-NP,O
+had,VBD,B-VP,O
+been,VBN,I-VP,O
+sent,VBN,I-VP,O
+from,IN,B-PP,O
+Moscow,NNP,B-NP,B-LOC
+to,TO,B-VP,O
+pick,VB,I-VP,O
+them,PRP,B-NP,O
+up,RP,B-PRT,O
+.,.,O,O

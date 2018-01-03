@@ -1,0 +1,11 @@
+0,1,2,3
+285,CD,B-NP,O
+Costantino,NNP,I-NP,B-PER
+Rocca,NNP,I-NP,I-PER
+(,(,O,O
+Italy,NNP,B-NP,B-LOC
+),),O,O
+71,CD,B-NP,O
+73,CD,I-NP,O
+72,CD,I-NP,O
+69,CD,I-NP,O

@@ -1,0 +1,9 @@
+0,1,2,3
+Batumi,NNP,B-NP,B-ORG
+(,(,O,O
+Georgia,NNP,B-NP,B-LOC
+),),O,O
+3,CD,B-NP,O
+(,(,O,O
+0-2,CD,B-NP,O
+),),O,O

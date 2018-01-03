@@ -1,0 +1,11 @@
+0,1,2,3
+Israeli,JJ,B-NP,B-MISC
+officials,NNS,I-NP,O
+said,VBD,B-VP,O
+no,DT,B-NP,O
+meeting,NN,I-NP,O
+had,VBD,B-VP,O
+yet,RB,B-NP,O
+been,VBN,B-VP,O
+set,VBN,I-VP,O
+.,.,O,O

@@ -1,0 +1,12 @@
+0,1,2,3
+Old,NNP,B-NP,O
+Sheet,NNP,I-NP,O
+and,CC,I-NP,O
+Cast,VBN,B-VP,O
+metal,NN,B-NP,O
+42,CD,B-NP,O
+to,TO,I-NP,O
+44,CD,I-NP,O
+cents,NNS,I-NP,O
+/,SYM,O,O
+pound,NN,B-NP,O

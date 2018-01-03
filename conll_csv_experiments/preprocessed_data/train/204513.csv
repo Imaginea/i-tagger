@@ -1,0 +1,7 @@
+0,1,2,3
+Vicorp,NNP,B-NP,B-ORG
+Restaurants,NNP,I-NP,I-ORG
+names,NNS,I-NP,O
+Sabourin,NNP,I-NP,B-LOC
+CFO,NNP,I-NP,O
+.,.,O,O

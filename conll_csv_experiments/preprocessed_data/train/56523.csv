@@ -1,0 +1,4 @@
+0,1,2,3
+Leeds,NNS,B-NP,B-ORG
+v,FW,I-NP,O
+Wimbledon,NNP,I-NP,B-ORG

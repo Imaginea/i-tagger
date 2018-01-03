@@ -1,0 +1,12 @@
+0,1,2,3
+North,NNP,B-NP,B-ORG
+Melbourne,NNP,I-NP,I-ORG
+14.12,CD,I-NP,O
+(,(,O,O
+96,CD,B-NP,O
+),),O,O
+Geelong,NNS,B-NP,B-ORG
+16.13,CD,I-NP,O
+(,(,O,O
+109,CD,B-NP,O
+),),O,O

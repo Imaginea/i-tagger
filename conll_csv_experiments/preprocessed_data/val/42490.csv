@@ -1,0 +1,13 @@
+0,1,2,3
+Stakes,NNS,B-NP,B-MISC
+",",",",O,O
+a,DT,B-NP,O
+race,NN,I-NP,O
+for,IN,B-PP,O
+two-year-olds,JJ,B-NP,O
+run,NN,I-NP,O
+over,IN,B-PP,O
+six,CD,B-NP,O
+furlongs,NNS,I-NP,O
+(,(,O,O
+"1,200",CD,B-NP,O

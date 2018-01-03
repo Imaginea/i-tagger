@@ -1,0 +1,12 @@
+0,1,2,3
+More,RBR,B-ADVP,O
+saline,JJ,B-NP,O
+solution,NN,I-NP,O
+will,MD,B-VP,O
+be,VB,I-VP,O
+inserted,VBN,I-VP,O
+in,IN,B-PP,O
+16,CD,B-NP,O
+weekly,JJ,I-NP,O
+treatments,NNS,I-NP,O
+.,.,O,O

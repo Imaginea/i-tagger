@@ -1,0 +1,24 @@
+0,1,2,3
+Ambassador,NNP,B-NP,O
+Karl,NNP,I-NP,B-PER
+Inderfurth,NNP,I-NP,I-PER
+said,VBD,B-VP,O
+the,DT,B-NP,O
+new,JJ,I-NP,O
+government,NN,I-NP,O
+should,MD,B-VP,O
+have,VB,I-VP,O
+ ,O,O,<UNK>
+unconditional,JJ,B-NP,O
+ ,O,O,<UNK>
+negotiations,NNS,B-NP,O
+with,IN,B-PP,O
+all,DT,B-NP,O
+parties,NNS,I-NP,O
+inside,IN,B-PP,O
+and,CC,I-PP,O
+outside,IN,I-PP,O
+of,IN,I-PP,O
+the,DT,B-NP,O
+country,NN,I-NP,O
+.,.,O,O

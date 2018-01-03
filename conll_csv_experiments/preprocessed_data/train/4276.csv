@@ -1,0 +1,8 @@
+0,1,2,3
+RESEARCH,NNP,B-NP,O
+ALERT,NNP,I-NP,O
+-,:,O,O
+Lehman,NNP,B-NP,B-ORG
+starts,VBZ,B-VP,O
+SNET,NNP,B-NP,B-ORG
+.,.,O,O

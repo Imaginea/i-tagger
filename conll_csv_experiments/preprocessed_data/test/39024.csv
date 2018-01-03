@@ -1,0 +1,11 @@
+0,1,2,3
+Japan,NNP,B-NP,B-LOC
+NTT,NNP,I-NP,B-ORG
+says,VBZ,B-VP,O
+hopes,NNS,B-NP,O
+to,TO,B-VP,O
+start,VB,I-VP,O
+int'l,JJ,B-NP,O
+business,NN,I-NP,O
+soon,RB,B-ADVP,O
+.,.,O,O

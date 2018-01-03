@@ -1,0 +1,9 @@
+0,1,2,3
+Over,IN,B-PP,O
+a,DT,B-NP,O
+dozen,NN,I-NP,O
+peace,NN,I-NP,O
+deals,NNS,I-NP,O
+have,VBP,B-VP,O
+collapsed,VBD,I-VP,O
+.,.,O,O

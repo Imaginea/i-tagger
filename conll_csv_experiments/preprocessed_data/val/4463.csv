@@ -1,0 +1,13 @@
+0,1,2,3
+Mike,NNP,B-NP,B-PER
+Hulbert,NNP,I-NP,I-PER
+",",",",O,O
+Brian,NNP,B-NP,B-PER
+Henninger,NNP,I-NP,I-PER
+",",",",O,O
+Tiger,NNP,B-NP,B-PER
+Woods,NNP,I-NP,I-PER
+",",",",O,O
+Steve,NNP,B-NP,B-PER
+Jurgenson,NNP,I-NP,I-PER
+",",",",O,O

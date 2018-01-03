@@ -1,0 +1,9 @@
+0,1,2,3
+R.,NNP,B-NP,B-PER
+Samuels,NNP,I-NP,I-PER
+c,SYM,O,O
+M.,NNP,B-NP,B-PER
+Waugh,NNP,I-NP,I-PER
+b,SYM,O,O
+Gillespie,NNP,B-NP,B-PER
+7,CD,I-NP,O

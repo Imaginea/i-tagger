@@ -1,0 +1,17 @@
+0,1,2,3
+68,CD,B-NP,O
+67,CD,I-NP,O
+",",",",O,O
+Bernhard,NNP,B-NP,B-PER
+Langer,NNP,I-NP,I-PER
+(,(,O,O
+Germany,NNP,B-NP,B-LOC
+),),O,O
+64,CD,B-NP,O
+71,CD,I-NP,O
+",",",",O,O
+Gary,NNP,B-NP,B-PER
+Orr,NNP,I-NP,I-PER
+67,CD,I-NP,O
+68,CD,I-NP,O
+",",",",O,O

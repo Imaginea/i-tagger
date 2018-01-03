@@ -1,0 +1,23 @@
+0,1,2,3
+ ,O,O,<UNK>
+We,PRP,B-NP,O
+are,VBP,B-VP,O
+Israelis,NNPS,B-NP,B-MISC
+",",",",O,O
+there,EX,B-NP,O
+is,VBZ,B-VP,O
+no,DT,B-NP,O
+question,NN,I-NP,O
+about,IN,B-PP,O
+that,DT,B-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+said,VBD,B-VP,O
+Karem,NNP,B-NP,B-PER
+Haj,NNP,I-NP,I-PER
+Yihye,NNP,I-NP,I-PER
+",",",",O,O
+a,DT,B-NP,O
+hotel,NN,I-NP,O
+waiter,NN,I-NP,O
+.,.,O,O

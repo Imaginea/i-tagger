@@ -1,0 +1,8 @@
+0,1,2,3
+--,:,B-NP,O
+Paris,NNP,I-NP,B-ORG
+Newsroom,NNP,I-NP,I-ORG
++33,CD,I-NP,O
+1,CD,I-NP,O
+4221,CD,I-NP,O
+5452,CD,I-NP,O

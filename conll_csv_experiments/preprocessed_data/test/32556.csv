@@ -1,0 +1,8 @@
+0,1,2,3
+U.S.,NNP,B-NP,B-LOC
+blasts,NNS,I-NP,O
+release,NN,I-NP,O
+of,IN,B-PP,O
+convicted,VBN,B-NP,O
+bomber,NN,I-NP,O
+.,.,O,O

@@ -1,0 +1,5 @@
+0,1,2,3
+SUNDAY,NNP,B-NP,O
+",",",",O,O
+DECEMBER,NN,B-NP,O
+8,CD,I-NP,O

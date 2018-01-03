@@ -1,0 +1,11 @@
+0,1,2,3
+At,IN,B-PP,O
+Colchester,NNP,B-NP,B-LOC
+:,:,O,O
+Essex,NNP,B-NP,B-ORG
+beat,VBD,B-VP,O
+Gloucestershire,NNP,B-NP,B-ORG
+by,IN,B-PP,O
+an,DT,B-NP,O
+innings,NN,I-NP,O
+and,CC,O,O

@@ -1,0 +1,13 @@
+0,1,2,3
+Norm,NNP,B-NP,B-PER
+Charlton,NNP,I-NP,I-PER
+retired,VBD,B-VP,O
+the,DT,B-NP,O
+final,JJ,I-NP,O
+three,CD,I-NP,O
+batters,NNS,I-NP,O
+to,TO,B-VP,O
+seal,VB,I-VP,O
+the,DT,B-NP,O
+victory,NN,I-NP,O
+.,.,O,O

@@ -1,0 +1,11 @@
+0,1,2,3
+Pakistan,NNP,B-NP,B-LOC
+first,RB,B-ADVP,O
+innings,NN,B-NP,O
+521-8,JJ,I-NP,O
+declared,VBD,B-VP,O
+(,(,O,O
+Saeed,NNP,B-NP,B-PER
+Anwar,NNP,I-NP,I-PER
+176,CD,I-NP,O
+",",",",O,O

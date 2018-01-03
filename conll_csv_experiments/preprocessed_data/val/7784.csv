@@ -1,0 +1,12 @@
+0,1,2,3
+elected,VBN,B-VP,O
+to,TO,I-VP,O
+bat,VB,I-VP,O
+against,IN,B-PP,O
+Sri,NNP,B-NP,B-LOC
+Lanka,NNP,I-NP,I-LOC
+in,IN,B-PP,O
+the,DT,B-NP,O
+third,JJ,I-NP,O
+day-night,JJ,I-NP,O
+limited,JJ,I-NP,O

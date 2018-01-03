@@ -1,0 +1,11 @@
+0,1,2,3
+U.S.,NNP,B-NP,B-LOC
+base,NN,I-NP,O
+metals,NNS,I-NP,O
+and,CC,O,O
+scrap,NN,B-NP,O
+prices,NNS,I-NP,O
+-,:,O,O
+August,NNP,B-NP,O
+26,CD,I-NP,O
+.,.,O,O

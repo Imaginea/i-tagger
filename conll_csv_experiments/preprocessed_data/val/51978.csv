@@ -1,0 +1,11 @@
+0,1,2,3
+Car,NN,B-NP,O
+kills,VBZ,B-VP,O
+two,CD,B-NP,O
+trying,VBG,B-VP,O
+to,TO,I-VP,O
+avoid,VB,I-VP,O
+Texas,NNP,B-NP,B-LOC
+drag,NN,I-NP,O
+race,NN,I-NP,O
+.,.,O,O

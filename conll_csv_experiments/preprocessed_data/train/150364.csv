@@ -1,0 +1,8 @@
+0,1,2,3
+5.,CD,B-NP,O
+Grzegorz,NNP,I-NP,B-PER
+Krejner,NNP,I-NP,I-PER
+(,(,O,O
+Poland,NNP,B-NP,B-LOC
+),),O,O
+1:04.834,CD,B-NP,O

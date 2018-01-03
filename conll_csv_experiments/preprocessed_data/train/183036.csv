@@ -1,0 +1,14 @@
+0,1,2,3
+The,DT,B-NP,O
+economy,NN,I-NP,O
+is,VBZ,B-VP,O
+not,RB,I-VP,O
+recovering,VBG,I-VP,O
+smoothly,RB,B-ADVP,O
+or,CC,O,O
+at,IN,B-PP,O
+a,DT,B-NP,O
+fast,JJ,I-NP,O
+pace,NN,I-NP,O
+.,.,O,O
+ ,O,O,<UNK>

@@ -1,0 +1,7 @@
+0,1,2,3
+Legia,NNP,B-NP,B-ORG
+Warsaw,NNP,I-NP,I-ORG
+3,CD,I-NP,O
+GKS,NNP,I-NP,B-ORG
+Belchatow,NNP,I-NP,I-ORG
+2,CD,I-NP,O

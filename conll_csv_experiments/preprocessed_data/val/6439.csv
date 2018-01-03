@@ -1,0 +1,8 @@
+0,1,2,3
+2.,NNP,B-NP,O
+Bob,NNP,I-NP,B-PER
+Kennedy,NNP,I-NP,I-PER
+(,(,O,O
+U.S.,NNP,B-NP,B-LOC
+),),O,O
+13:06.12,CD,B-NP,O

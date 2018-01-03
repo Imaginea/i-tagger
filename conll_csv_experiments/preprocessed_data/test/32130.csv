@@ -1,0 +1,8 @@
+0,1,2,3
+Kansas,NNP,B-NP,B-LOC
+feedlot,NN,I-NP,O
+cattle,NNS,I-NP,O
+roundup,VBP,B-VP,O
+-,:,O,O
+USDA,NNP,B-NP,B-ORG
+.,.,O,O

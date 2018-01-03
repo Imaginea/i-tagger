@@ -1,0 +1,11 @@
+0,1,2,3
+behind,IN,B-PP,O
+3.,NNP,B-NP,O
+Marcus,NNP,I-NP,B-PER
+Gronholm,NNP,I-NP,I-PER
+(,(,O,O
+Finland,NNP,B-NP,B-LOC
+),),O,O
+Toyota,NNP,B-NP,B-MISC
+Celica,NNP,I-NP,I-MISC
+2:09,CD,I-NP,O

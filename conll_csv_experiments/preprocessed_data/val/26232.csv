@@ -1,0 +1,10 @@
+0,1,2,3
+Sombre,JJ,B-NP,O
+mood,NN,I-NP,O
+on,IN,B-PP,O
+Arctic,NNP,B-NP,B-MISC
+island,NN,I-NP,O
+after,IN,B-PP,O
+plane,NN,B-NP,O
+crash,NN,I-NP,O
+.,.,O,O

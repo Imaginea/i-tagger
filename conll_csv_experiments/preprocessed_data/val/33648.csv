@@ -1,0 +1,5 @@
+0,1,2,3
+Airdrieonians,NNPS,B-NP,B-ORG
+.,.,O,O
+Division,NN,B-NP,O
+two,CD,I-NP,O

@@ -1,0 +1,16 @@
+0,1,2,3
+His,PRP$,B-NP,O
+body,NN,I-NP,O
+bore,VBD,B-VP,O
+multiple,JJ,B-NP,O
+injuries,NNS,I-NP,O
+",",",",O,O
+and,CC,O,O
+his,PRP$,B-NP,O
+relatives,NNS,I-NP,O
+complained,VBD,B-VP,O
+that,IN,B-SBAR,O
+he,PRP,B-NP,O
+was,VBD,B-VP,O
+murdered,VBN,I-VP,O
+.,.,O,O

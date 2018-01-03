@@ -1,0 +1,11 @@
+0,1,2,3
+No,DT,B-NP,O
+new,JJ,I-NP,O
+deficit,NN,I-NP,O
+forecast,NN,I-NP,O
+has,VBZ,B-VP,O
+been,VBN,I-VP,O
+issued,VBN,I-VP,O
+so,RB,B-ADVP,O
+far,RB,I-ADVP,O
+.,.,O,O

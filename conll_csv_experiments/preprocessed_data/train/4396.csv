@@ -1,0 +1,10 @@
+0,1,2,3
+(,(,O,O
+In,IN,B-PP,O
+Thousands,NNS,B-NP,O
+",",",",O,O
+except,IN,B-PP,O
+per,IN,B-NP,O
+share,NN,I-NP,O
+data,NNS,I-NP,O
+),),O,O

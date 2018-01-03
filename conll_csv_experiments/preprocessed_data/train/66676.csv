@@ -1,0 +1,36 @@
+0,1,2,3
+Among,IN,B-PP,O
+the,DT,B-NP,O
+revelations,NNS,I-NP,O
+are,VBP,B-VP,O
+the,DT,B-NP,O
+fact,NN,I-NP,O
+that,IN,B-SBAR,O
+the,DT,B-NP,O
+gendarmerie,NN,I-NP,O
+was,VBD,B-VP,O
+running,VBG,I-VP,O
+a,DT,B-NP,O
+surveillance,NN,I-NP,O
+operation,NN,I-NP,O
+codenamed,VBD,B-VP,O
+ ,O,O,<UNK>
+Othello,NNP,B-NP,B-MISC
+ ,O,O,<UNK>
+against,IN,B-PP,O
+Dutroux,NNP,B-NP,B-PER
+in,IN,B-PP,O
+1995,CD,B-NP,O
+--,:,O,O
+when,WRB,B-ADVP,O
+both,DT,B-NP,O
+Julie,NNP,I-NP,B-PER
+and,CC,I-NP,O
+Melissa,NNP,I-NP,B-PER
+and,CC,I-NP,O
+An,DT,I-NP,B-PER
+and,CC,O,O
+Eefje,NNP,B-NP,B-PER
+were,VBD,B-VP,O
+kidnapped,VBN,I-VP,O
+.,.,O,O

@@ -1,0 +1,8 @@
+0,1,2,3
+Granic,NN,B-NP,B-PER
+arrives,VBZ,B-VP,O
+to,TO,I-VP,O
+sign,VB,I-VP,O
+Croatia-Yugoslavia,NNP,B-NP,B-LOC
+treaty,NN,I-NP,O
+.,.,O,O

@@ -1,0 +1,8 @@
+0,1,2,3
+12=,CD,B-NP,O
+Barbara,NNP,I-NP,B-PER
+Merlin,NNP,I-NP,I-PER
+(,(,O,O
+Italy,NNP,B-NP,B-LOC
+),),O,O
+42,CD,B-NP,O

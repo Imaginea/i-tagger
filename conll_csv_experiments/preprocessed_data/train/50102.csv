@@ -1,0 +1,24 @@
+0,1,2,3
+ ,O,O,<UNK>
+The,DT,B-NP,O
+President,NNP,I-NP,O
+of,IN,B-PP,O
+the,DT,B-NP,O
+Republic,NNP,I-NP,B-MISC
+Costis,NNP,I-NP,B-PER
+Stephanopoulos,NNP,I-NP,I-PER
+signed,VBD,B-VP,O
+the,DT,B-NP,O
+decree,NN,I-NP,O
+for,IN,B-PP,O
+the,DT,B-NP,O
+dissolution,NN,I-NP,O
+of,IN,B-PP,O
+parliament,NN,B-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+a,DT,B-NP,O
+presidency,NN,I-NP,O
+statement,NN,I-NP,O
+said,VBD,B-VP,O
+.,.,O,O

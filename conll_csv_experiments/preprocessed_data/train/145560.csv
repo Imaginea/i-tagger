@@ -1,0 +1,30 @@
+0,1,2,3
+ ,O,O,<UNK>
+They,PRP,B-NP,O
+moult,NN,I-NP,O
+in,IN,B-PP,O
+the,DT,B-NP,O
+summer,NN,I-NP,O
+",",",",O,O
+so,RB,B-ADVP,O
+five,CD,B-NP,O
+or,CC,I-NP,O
+six,CD,I-NP,O
+months,NNS,I-NP,O
+down,IN,B-PP,O
+the,DT,B-NP,O
+track,NN,I-NP,O
+",",",",O,O
+I,PRP,B-NP,O
+would,MD,B-VP,O
+have,VB,I-VP,O
+looked,VBN,I-VP,O
+like,IN,B-PP,O
+the,DT,B-NP,O
+guilty,JJ,I-NP,O
+party,NN,I-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+Drew,NNP,B-NP,B-PER
+said,VBD,B-VP,O
+.,.,O,O

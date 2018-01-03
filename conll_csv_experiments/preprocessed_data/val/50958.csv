@@ -1,0 +1,11 @@
+0,1,2,3
+Iraq,NNP,B-NP,B-LOC
+'s,POS,B-NP,O
+Aziz,NNP,I-NP,B-PER
+says,VBZ,B-VP,O
+Baghdad,NNP,B-NP,B-LOC
+aiding,VBG,B-VP,O
+KDP,NNP,B-NP,B-ORG
+against,IN,B-PP,O
+rivals,NNS,B-NP,O
+.,.,O,O

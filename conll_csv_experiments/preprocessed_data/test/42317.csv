@@ -1,0 +1,8 @@
+0,1,2,3
+2.,NNP,B-NP,O
+Karin,NNP,I-NP,B-PER
+Kuster,NNP,I-NP,I-PER
+(,(,O,O
+Switzerland,NNP,B-NP,B-LOC
+),),O,O
+160.55,CD,B-NP,O

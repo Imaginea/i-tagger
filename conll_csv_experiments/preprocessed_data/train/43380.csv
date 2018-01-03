@@ -1,0 +1,35 @@
+0,1,2,3
+The,DT,B-NP,O
+two,CD,I-NP,O
+party,NN,I-NP,O
+leaders,NNS,I-NP,O
+had,VBD,B-VP,O
+also,RB,I-VP,O
+agreed,VBN,I-VP,O
+to,TO,I-VP,O
+meet,VB,I-VP,O
+U.S.,NNP,B-NP,B-LOC
+Assistant,NNP,B-NP,O
+Secretary,NNP,I-NP,O
+for,IN,B-PP,O
+Near,IN,I-PP,B-MISC
+Eastern,NNP,B-NP,I-MISC
+Affairs,NNP,I-NP,O
+Robert,NNP,I-NP,B-PER
+Pelletreau,NNP,I-NP,I-PER
+in,IN,B-PP,O
+September,NNP,B-NP,O
+ ,O,O,<UNK>
+to,TO,B-VP,O
+solidify,VB,I-VP,O
+the,DT,B-NP,O
+cease-fire,NN,I-NP,O
+and,CC,O,O
+to,TO,B-VP,O
+pursue,VB,I-VP,O
+reconciliation,NN,B-NP,O
+ ,O,O,<UNK>
+",",",",O,O
+Davies,NNP,B-NP,B-PER
+said,VBD,B-VP,O
+.,.,O,O

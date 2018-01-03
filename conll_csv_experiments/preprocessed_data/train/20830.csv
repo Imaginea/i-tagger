@@ -1,0 +1,15 @@
+0,1,2,3
+Daily,JJ,B-NP,O
+volume,NN,I-NP,O
+dropped,VBD,B-VP,O
+to,TO,B-PP,O
+7.2,CD,B-NP,O
+trillion,CD,I-NP,O
+lira,NN,I-NP,O
+from,IN,B-PP,O
+Wednesday,NNP,B-NP,O
+'s,POS,I-NP,O
+7.8,CD,B-ADJP,O
+trillion,CD,I-ADJP,O
+lira,JJ,I-ADJP,O
+.,.,O,O

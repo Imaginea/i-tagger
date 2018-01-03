@@ -1,0 +1,17 @@
+0,1,2,3
+Every,DT,B-NP,O
+game,NN,I-NP,O
+should,MD,B-VP,O
+be,VB,I-VP,O
+important,JJ,B-ADJP,O
+",",",",O,O
+but,CC,O,O
+it,PRP,B-NP,O
+'s,VBZ,B-VP,O
+a,DT,B-ADJP,O
+little,RB,I-ADJP,O
+more,RBR,I-ADJP,O
+important,JJ,I-ADJP,O
+now,RB,B-ADVP,O
+.,.,O,O
+ ,O,O,<UNK>

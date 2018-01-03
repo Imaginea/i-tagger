@@ -1,0 +1,30 @@
+0,1,2,3
+ ,O,O,<UNK>
+The,DT,B-NP,O
+government,NN,I-NP,O
+'s,POS,B-NP,O
+announced,VBN,I-NP,O
+plans,NNS,I-NP,O
+to,TO,B-VP,O
+balance,VB,I-VP,O
+the,DT,B-NP,O
+budget,NN,I-NP,O
+",",",",O,O
+if,IN,B-SBAR,O
+realised,JJ,B-ADJP,O
+",",",",O,O
+would,MD,B-VP,O
+make,VB,I-VP,O
+a,DT,B-NP,O
+useful,JJ,I-NP,O
+contribution,NN,I-NP,O
+to,TO,B-PP,O
+raising,VBG,B-VP,O
+national,JJ,B-NP,O
+savings,NNS,I-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+the,DT,B-NP,O
+RBA,NNP,I-NP,B-ORG
+said,VBD,B-VP,O
+.,.,O,O

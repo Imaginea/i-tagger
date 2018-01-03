@@ -1,0 +1,5 @@
+0,1,2,3
+Poland,NNP,B-NP,B-LOC
+and,CC,I-NP,O
+Cyprus,NNP,I-NP,B-LOC
+drew,VBD,B-VP,O

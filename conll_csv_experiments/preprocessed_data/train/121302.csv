@@ -1,0 +1,22 @@
+0,1,2,3
+Essex,NNP,B-NP,B-ORG
+secretary-general,NN,I-NP,O
+manager,NN,I-NP,O
+Peter,NNP,I-NP,B-PER
+Edwards,NNP,I-NP,I-PER
+said,VBD,B-VP,O
+:,:,O,O
+ ,O,O,<UNK>
+He,PRP,B-NP,O
+is,VBZ,B-VP,O
+a,DT,B-NP,O
+remarkable,JJ,I-NP,O
+batsman,NN,I-NP,O
+and,CC,O,O
+still,RB,B-ADVP,O
+the,DT,B-NP,O
+best,JJS,I-NP,O
+in,IN,B-PP,O
+this,DT,B-NP,O
+country,NN,I-NP,O
+.,.,O,O

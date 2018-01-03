@@ -1,0 +1,15 @@
+0,1,2,3
+2,CD,B-NP,O
+-,:,I-NP,O
+Miladin,NNP,I-NP,B-PER
+Becanovic,NNP,I-NP,I-PER
+(,(,O,O
+Lille,NNP,B-NP,B-ORG
+),),O,O
+",",",",O,O
+Enzo,NNP,B-NP,B-PER
+Scifo,NNP,I-NP,I-PER
+(,(,O,O
+Monaco,NNP,B-NP,B-ORG
+),),O,O
+",",",",O,O

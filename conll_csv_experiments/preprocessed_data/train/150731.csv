@@ -1,0 +1,15 @@
+0,1,2,3
+Collinelli,NNP,B-NP,B-PER
+qualified,VBN,I-NP,O
+in,IN,B-PP,O
+second,JJ,B-NP,O
+place,NN,I-NP,O
+",",",",O,O
+also,RB,B-ADVP,O
+beating,VBG,B-VP,O
+his,PRP$,B-NP,O
+old,JJ,I-NP,O
+record,NN,I-NP,O
+in,IN,B-PP,O
+4:17.696,CD,B-NP,O
+.,.,O,O

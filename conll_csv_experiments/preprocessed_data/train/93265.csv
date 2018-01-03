@@ -1,0 +1,8 @@
+0,1,2,3
+LONDON,NNP,B-NP,B-LOC
+1996-08-26,CD,I-NP,O
+English,NNP,B-NP,B-MISC
+and,CC,I-NP,O
+Scottish,NNP,I-NP,B-MISC
+league,NN,I-NP,O
+soccer,NN,I-NP,O

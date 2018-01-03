@@ -1,0 +1,13 @@
+0,1,2,3
+The,DT,B-NP,O
+tour,NN,I-NP,O
+party,NN,I-NP,O
+will,MD,B-VP,O
+be,VB,I-VP,O
+announced,VBN,I-VP,O
+towards,IN,B-PP,O
+the,DT,B-NP,O
+end,NN,I-NP,O
+of,IN,B-PP,O
+March,NNP,B-NP,O
+.,.,O,O

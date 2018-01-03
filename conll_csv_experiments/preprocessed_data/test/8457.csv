@@ -1,0 +1,5 @@
+0,1,2,3
+Draw,NN,B-NP,O
+:,:,O,O
+0-0,CD,B-NP,O
+8-1,JJ,B-ADVP,O

@@ -1,0 +1,10 @@
+0,1,2,3
+Moreau,NNP,B-NP,B-PER
+takes,VBZ,B-VP,O
+bronze,NN,B-NP,O
+medal,NN,I-NP,O
+as,IN,B-PP,O
+faster,JJR,B-NP,O
+losing,VBG,I-NP,O
+semifinalist,NN,I-NP,O
+.,.,O,O

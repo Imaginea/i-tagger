@@ -1,0 +1,16 @@
+0,1,2,3
+Justin,NNP,B-NP,B-PER
+suffered,VBD,B-VP,O
+a,DT,B-NP,O
+sprained,JJ,I-NP,O
+right,NN,I-NP,O
+shoulder,NN,I-NP,O
+in,IN,B-PP,O
+the,DT,B-NP,O
+third,JJ,I-NP,O
+quarter,NN,I-NP,O
+and,CC,O,O
+did,VBD,B-VP,O
+not,RB,I-VP,O
+return,NN,I-VP,O
+.,.,O,O

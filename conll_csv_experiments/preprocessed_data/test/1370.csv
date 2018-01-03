@@ -1,0 +1,15 @@
+0,1,2,3
+Scorers,NNS,B-NP,O
+:,:,O,O
+Japan,NNP,B-NP,B-LOC
+-,:,O,O
+Hassan,NNP,B-NP,B-PER
+Abbas,NNP,I-NP,I-PER
+84,CD,I-NP,O
+own,JJ,I-NP,O
+goal,NN,I-NP,O
+",",",",O,O
+Takuya,NNP,B-NP,B-PER
+Takagi,NNP,I-NP,I-PER
+88,CD,I-NP,O
+.,.,O,O

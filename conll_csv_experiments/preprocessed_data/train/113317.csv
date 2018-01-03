@@ -1,0 +1,15 @@
+0,1,2,3
+--,:,B-NP,O
+Tosco,NNP,I-NP,B-ORG
+Corp,NNP,I-NP,I-ORG
+to,TO,B-PP,O
+$,$,B-NP,O
+0.95,CD,I-NP,O
+from,IN,B-PP,O
+$,$,B-NP,O
+1.03,CD,I-NP,O
+versus,IN,B-PP,O
+the,DT,B-NP,O
+consensus,NN,I-NP,O
+$,$,I-NP,O
+0.94,CD,I-NP,O

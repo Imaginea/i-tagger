@@ -1,0 +1,14 @@
+0,1,2,3
+Martin,NNP,B-NP,B-PER
+Damm,NNP,I-NP,I-PER
+(,(,O,O
+Czech,NNP,B-NP,B-LOC
+Republic,NNP,I-NP,I-LOC
+),),O,O
+beat,VB,B-VP,O
+Michael,NNP,B-NP,B-PER
+Joyce,NNP,I-NP,I-PER
+(,(,O,O
+U.S.,NNP,B-NP,B-LOC
+),),O,O
+5-7,CD,B-NP,O

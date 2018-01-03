@@ -1,0 +1,5 @@
+0,1,2,3
+Maturity,NNP,B-NP,O
+Balance,NNP,I-NP,O
+Coupon,NN,I-NP,O
+List,VB,B-VP,O

@@ -1,0 +1,10 @@
+0,1,2,3
+Opposition,NN,B-NP,O
+group,NN,I-NP,O
+says,VBZ,B-VP,O
+Iraqis,NNPS,B-NP,B-MISC
+advance,VBP,B-VP,O
+in,IN,B-PP,O
+north,JJ,B-NP,O
+Iraq,NNP,I-NP,B-LOC
+.,.,O,O

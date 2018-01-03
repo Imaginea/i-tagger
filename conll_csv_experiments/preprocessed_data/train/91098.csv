@@ -1,0 +1,10 @@
+0,1,2,3
+6.,NNP,B-NP,O
+Thomas,NNP,I-NP,B-PER
+Radstrom,NNP,I-NP,I-PER
+(,(,O,O
+Sweden,NNP,O,B-LOC
+),),O,O
+Toyota,NNP,B-NP,B-MISC
+Celica,NNP,I-NP,I-MISC
+4.09,CD,I-NP,O

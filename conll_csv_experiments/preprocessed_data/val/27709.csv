@@ -1,0 +1,5 @@
+0,1,2,3
+Sales,NNS,B-NP,O
+12.50,CD,I-NP,O
+13.00,CD,I-NP,O
+11.27,CD,I-NP,O

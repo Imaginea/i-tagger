@@ -1,0 +1,14 @@
+0,1,2,3
+Annett,NN,B-NP,B-PER
+Neumann,NNP,I-NP,I-PER
+(,(,O,O
+Germany,NNP,B-NP,B-LOC
+),),O,O
+beat,VB,B-VP,O
+Galina,NNP,B-NP,B-PER
+Enioukhina,NNP,I-NP,I-PER
+(,(,O,O
+Russia,NNP,B-NP,B-LOC
+),),O,O
+2-0,CD,B-NP,O
+",",",",O,O

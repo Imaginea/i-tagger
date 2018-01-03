@@ -1,0 +1,5 @@
+0,1,2,3
+Scorers,NNS,B-NP,O
+:,:,O,O
+Ferencvaros,NN,B-NP,B-ORG
+:,:,O,O

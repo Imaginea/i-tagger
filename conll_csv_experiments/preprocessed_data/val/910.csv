@@ -1,0 +1,11 @@
+0,1,2,3
+May,NNP,B-NP,O
+27-29,CD,I-NP,O
+v,SYM,B-VP,O
+Gloucestershire,NNP,B-NP,B-ORG
+or,CC,I-NP,O
+Sussex,NNP,I-NP,B-ORG
+or,CC,I-NP,O
+Surrey,NNP,I-NP,B-ORG
+(,(,O,O
+three,CD,B-NP,O

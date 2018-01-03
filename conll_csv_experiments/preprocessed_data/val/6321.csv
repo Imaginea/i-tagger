@@ -1,0 +1,8 @@
+0,1,2,3
+5.,CD,B-NP,O
+Igor,NNP,I-NP,B-PER
+Potapovich,NNP,I-NP,I-PER
+(,(,O,O
+Kazakstan,NNP,B-NP,B-LOC
+),),O,O
+5.80,CD,B-NP,O

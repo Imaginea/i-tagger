@@ -1,0 +1,13 @@
+0,1,2,3
+were,VBD,B-VP,O
+largely,RB,B-ADJP,O
+unchanged,JJ,I-ADJP,O
+at,IN,B-PP,O
+the,DT,B-NP,O
+Bank,NNP,I-NP,B-ORG
+of,IN,B-PP,I-ORG
+Finland,NNP,B-NP,I-ORG
+'s,POS,B-NP,O
+daily,JJ,I-NP,O
+fixing,VBG,I-NP,O
+on,IN,B-PP,O

@@ -1,0 +1,10 @@
+0,1,2,3
+Turkey,NNP,B-NP,B-LOC
+says,VBZ,B-VP,O
+25,CD,B-NP,O
+Kurd,NNP,I-NP,B-MISC
+rebels,NNS,I-NP,O
+killed,VBN,B-VP,O
+in,IN,B-PP,O
+clashes,NNS,B-NP,O
+.,.,O,O

@@ -1,0 +1,9 @@
+0,1,2,3
+Painted,JJ,B-NP,O
+parrot,NN,I-NP,O
+scam,NN,I-NP,O
+lands,NNS,I-NP,O
+Australian,JJ,I-NP,B-MISC
+in,IN,B-PP,O
+jail,NN,B-NP,O
+.,.,O,O

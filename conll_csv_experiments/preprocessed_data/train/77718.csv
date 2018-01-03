@@ -1,0 +1,13 @@
+0,1,2,3
+Domingos,NNP,B-NP,B-PER
+redeemed,VBN,B-VP,O
+himself,PRP,B-NP,O
+by,IN,B-PP,O
+netting,VBG,B-VP,O
+the,DT,B-NP,O
+equaliser,JJR,I-NP,O
+just,RB,I-NP,O
+into,IN,B-PP,O
+extra,JJ,B-NP,O
+time,NN,I-NP,O
+.,.,O,O

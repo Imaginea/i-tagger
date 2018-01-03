@@ -1,0 +1,9 @@
+0,1,2,3
+Chisinau,NNP,B-NP,B-ORG
+(,(,O,O
+Moldova,NNP,B-NP,B-LOC
+),),O,O
+2,CD,B-NP,O
+(,(,O,O
+2-1,CD,B-NP,O
+),),O,O

@@ -1,0 +1,7 @@
+0,1,2,3
+BRUSSELS,NNP,B-NP,B-LOC
+1996-08-25,CD,I-NP,O
+Results,NNS,B-NP,O
+of,IN,B-PP,O
+Belgian,JJ,B-NP,B-MISC
+first,JJ,I-NP,O

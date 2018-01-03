@@ -1,0 +1,6 @@
+0,1,2,3
+Feedlots,NNS,B-NP,O
+reporting,VBG,B-VP,O
+moderate,JJ,B-NP,O
+inquiry,NN,I-NP,O
+.,.,O,O

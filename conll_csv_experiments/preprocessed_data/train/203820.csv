@@ -1,0 +1,9 @@
+0,1,2,3
+Salang,NN,B-NP,B-LOC
+tunnel,NN,I-NP,O
+reopened,VBD,B-VP,O
+linking,VBG,I-VP,O
+Kabul,NNP,B-NP,B-LOC
+with,IN,B-PP,O
+north,JJ,B-NP,O
+.,.,O,O

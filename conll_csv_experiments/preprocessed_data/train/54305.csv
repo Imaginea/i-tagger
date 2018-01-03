@@ -1,0 +1,11 @@
+0,1,2,3
+Waldbaum,NNP,B-NP,B-MISC
+Hamlet,NNP,I-NP,I-MISC
+Cup,NNP,I-NP,I-MISC
+tennis,NN,I-NP,O
+tournament,NN,I-NP,O
+on,IN,B-PP,O
+Friday,NNP,B-NP,O
+(,(,O,O
+prefix,JJ,B-NP,O
+number,NN,I-NP,O

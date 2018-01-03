@@ -1,0 +1,12 @@
+0,1,2,3
+10.,CD,B-NP,O
+Olaf,NNP,I-NP,B-PER
+Ludwig,NNP,I-NP,I-PER
+(,(,O,O
+Germany,NNP,B-NP,B-LOC
+),),O,O
+Telekom,NNP,B-NP,B-ORG
+1,CD,I-NP,O
+minute,NN,I-NP,O
+44,CD,B-NP,O
+seconds,NNS,I-NP,O

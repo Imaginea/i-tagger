@@ -1,0 +1,12 @@
+0,1,2,3
+Bootleg,VBG,B-NP,O
+brew,NN,I-NP,O
+kills,VBZ,B-VP,O
+35,CD,B-NP,O
+in,IN,B-PP,O
+China,NNP,B-NP,B-LOC
+",",",",I-NP,O
+police,NN,I-NP,O
+nab,NN,I-NP,O
+suspects,NNS,I-NP,O
+.,.,O,O

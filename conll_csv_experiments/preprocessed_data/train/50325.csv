@@ -1,0 +1,7 @@
+0,1,2,3
+Group,NNP,B-NP,O
+sales,NNS,I-NP,O
+"14,600",CD,I-NP,O
+up,RB,B-ADVP,O
+3.3,CD,B-NP,O
+pct,NN,I-NP,O

@@ -1,0 +1,7 @@
+0,1,2,3
+Balls,NNS,B-NP,O
+were,VBD,B-VP,O
+going,VBG,I-VP,O
+really,RB,I-VP,O
+fast,RB,B-ADVP,O
+.,.,O,O

@@ -1,0 +1,17 @@
+0,1,2,3
+Dickson,NNP,B-NP,B-PER
+allowed,VBD,B-VP,O
+a,DT,B-NP,O
+homer,NN,I-NP,O
+to,TO,B-PP,O
+Derek,NNP,B-NP,B-PER
+Jeter,NNP,I-NP,I-PER
+on,IN,B-PP,O
+his,PRP$,B-NP,O
+first,JJ,I-NP,O
+major-league,JJ,I-NP,O
+pitch,NN,I-NP,O
+but,CC,O,O
+settled,VBD,B-VP,O
+down,RB,B-PRT,O
+.,.,O,O

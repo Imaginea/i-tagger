@@ -1,0 +1,7 @@
+0,1,2,3
+ ,O,O,<UNK>
+He,PRP,B-NP,O
+was,VBD,B-VP,O
+not,RB,I-VP,O
+involved,VBN,I-VP,O
+...,:,O,O

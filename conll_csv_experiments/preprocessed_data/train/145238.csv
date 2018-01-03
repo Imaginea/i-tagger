@@ -1,0 +1,14 @@
+0,1,2,3
+The,DT,B-NP,O
+pilot,NN,I-NP,O
+said,VBD,B-VP,O
+several,JJ,B-NP,O
+hijackers,NNS,I-NP,O
+appeared,VBD,B-VP,O
+to,TO,I-VP,O
+be,VB,I-VP,O
+placed,VBN,I-VP,O
+around,IN,B-PP,O
+the,DT,B-NP,O
+plane,NN,I-NP,O
+.,.,O,O

@@ -1,0 +1,11 @@
+0,1,2,3
+Same,JJ,B-NP,O
+Period,NNP,I-NP,O
+Last,JJ,I-NP,O
+Year*,NN,I-NP,O
+(,(,O,O
+act,NN,B-NP,O
+),),O,O
+"685,000",CD,B-NP,O
+"31,000",CD,I-NP,O
+"1,914,000",CD,I-NP,O

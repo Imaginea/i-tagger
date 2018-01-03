@@ -1,0 +1,11 @@
+0,1,2,3
+ ,O,O,<UNK>
+It,PRP,B-NP,O
+'s,VBZ,B-VP,O
+a,DT,B-NP,O
+sight,NN,I-NP,O
+I,PRP,B-NP,O
+will,MD,B-VP,O
+never,RB,I-VP,O
+forget,VB,I-VP,O
+.,.,O,O

@@ -1,0 +1,7 @@
+0,1,2,3
+Racing,VBG,B-VP,B-ORG
+Club,NNP,B-NP,I-ORG
+0,CD,I-NP,O
+Rosario,NNP,I-NP,B-ORG
+Central,NNP,I-NP,I-ORG
+2,CD,I-NP,O

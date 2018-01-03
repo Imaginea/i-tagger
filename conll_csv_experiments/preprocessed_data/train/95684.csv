@@ -1,0 +1,7 @@
+0,1,2,3
+in,IN,B-PP,O
+the,DT,B-NP,O
+Mexican,JJ,I-NP,B-MISC
+soccer,NN,I-NP,O
+championship,NN,I-NP,O
+:,:,O,O

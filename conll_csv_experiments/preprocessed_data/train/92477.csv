@@ -1,0 +1,9 @@
+0,1,2,3
+(,(,O,O
+A.,NNP,B-NP,B-PER
+Brown,NNP,I-NP,I-PER
+56,CD,I-NP,O
+not,RB,B-VP,O
+out,RP,B-PRT,O
+),),O,O
+.,.,O,O

@@ -1,0 +1,15 @@
+0,1,2,3
+(,(,O,O
+Zimbabwe,NNP,B-NP,B-LOC
+),),O,O
+75,CD,B-NP,O
+68,CD,I-NP,O
+70,CD,I-NP,O
+",",",",O,O
+Nic,NNP,B-NP,B-PER
+Henning,NNP,I-NP,I-PER
+73,CD,I-NP,O
+70,CD,I-NP,O
+70,CD,I-NP,O
+",",",",O,O
+Dion,NNP,B-NP,B-PER

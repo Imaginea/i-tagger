@@ -1,0 +1,12 @@
+0,1,2,3
+EXPANSION,NN,B-NP,B-ORG
+-,:,O,O
+Government,NNP,B-NP,O
+will,MD,B-VP,O
+finish,VB,I-VP,O
+pension,NN,B-NP,O
+reform,NN,I-NP,O
+before,IN,B-SBAR,O
+the,DT,B-NP,O
+year,NN,I-NP,O
+2000,CD,I-NP,O

@@ -1,0 +1,20 @@
+0,1,2,3
+there,EX,B-NP,O
+'s,VBZ,B-VP,O
+really,RB,B-NP,O
+no,DT,I-NP,O
+reason,NN,I-NP,O
+to,TO,B-VP,O
+change,VB,I-VP,O
+our,PRP$,B-NP,O
+forecast,NN,I-NP,O
+and,CC,O,O
+our,PRP$,B-NP,O
+largely,RB,I-NP,O
+positive,JJ,I-NP,O
+view,NN,I-NP,O
+on,IN,B-PP,O
+the,DT,B-NP,O
+stock,NN,I-NP,O
+.,.,O,O
+ ,O,O,<UNK>

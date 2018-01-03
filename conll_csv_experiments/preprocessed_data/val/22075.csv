@@ -1,0 +1,10 @@
+0,1,2,3
+First,NNP,B-NP,O
+Half,NN,I-NP,O
+Shr,NN,B-NP,O
+loss,NN,I-NP,O
+$,$,I-NP,O
+0.42,CD,I-NP,O
+loss,NN,I-NP,O
+$,$,I-NP,O
+0.21,CD,I-NP,O

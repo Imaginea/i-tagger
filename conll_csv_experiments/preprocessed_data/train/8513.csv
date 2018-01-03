@@ -1,0 +1,10 @@
+0,1,2,3
+Scorers,NNS,B-NP,O
+:,:,O,O
+Hearts,NNPS,B-NP,B-ORG
+-,:,O,O
+Dave,NNP,B-NP,B-PER
+McPherson,NNP,I-NP,I-PER
+(,(,O,O
+44th,CD,B-NP,O
+),),O,O

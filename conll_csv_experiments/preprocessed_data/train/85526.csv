@@ -1,0 +1,11 @@
+0,1,2,3
+-,:,O,O
+Jordan,NNP,B-NP,B-LOC
+releases,VBZ,B-VP,O
+32,CD,B-NP,O
+from,IN,B-PP,O
+southern,JJ,B-NP,O
+town,NN,I-NP,O
+of,IN,B-PP,O
+Karak,NNP,B-NP,B-LOC
+.,.,O,O

@@ -1,0 +1,8 @@
+0,1,2,3
+Eight,CD,B-NP,O
+drown,VBP,B-VP,O
+in,IN,B-PP,O
+Venezuelan,JJ,B-NP,B-MISC
+boating,NN,I-NP,O
+accident,NN,I-NP,O
+.,.,O,O

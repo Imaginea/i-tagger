@@ -1,0 +1,6 @@
+0,1,2,3
+Le,FW,B-NP,B-ORG
+Havre,NNP,I-NP,I-ORG
+1,CD,I-NP,O
+Caen,NNP,I-NP,B-ORG
+1,CD,I-NP,O

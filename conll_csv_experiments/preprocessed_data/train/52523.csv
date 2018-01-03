@@ -1,0 +1,9 @@
+0,1,2,3
+SHANGHAI,NNP,B-NP,B-LOC
+1996-08-23,CD,I-NP,O
+Half-year,JJ,B-NP,O
+ended,VBD,B-VP,O
+June,NNP,B-NP,O
+30,CD,I-NP,O
+",",",",I-NP,O
+1996,CD,I-NP,O

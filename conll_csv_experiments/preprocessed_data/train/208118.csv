@@ -1,0 +1,29 @@
+0,1,2,3
+The,DT,B-NP,O
+suit,NN,I-NP,O
+was,VBD,B-VP,O
+filed,VBN,I-VP,O
+on,IN,B-PP,O
+Wednesday,NNP,B-NP,O
+in,IN,B-PP,O
+federal,JJ,B-NP,O
+court,NN,I-NP,O
+in,IN,B-PP,O
+Manhattan,NNP,B-NP,B-LOC
+and,CC,O,O
+is,VBZ,B-VP,O
+another,DT,B-NP,O
+legal,JJ,I-NP,O
+skirmish,NN,I-NP,O
+over,IN,B-PP,O
+what,WP,B-NP,O
+constitutes,VBZ,B-VP,O
+a,DT,B-NP,O
+ ,O,O,<UNK>
+broadcast,NN,B-NP,O
+ ,O,O,<UNK>
+in,IN,B-PP,O
+the,DT,B-NP,O
+computer,NN,I-NP,O
+age,NN,I-NP,O
+.,.,O,O

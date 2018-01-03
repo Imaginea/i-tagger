@@ -1,0 +1,9 @@
+0,1,2,3
+In,IN,B-PP,O
+India,NNP,B-NP,B-LOC
+she,PRP,B-NP,O
+was,VBD,B-VP,O
+simply,RB,I-VP,O
+called,VBN,I-VP,O
+Mother,NNP,B-NP,B-PER
+.,.,O,O

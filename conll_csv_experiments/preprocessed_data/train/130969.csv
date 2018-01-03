@@ -1,0 +1,16 @@
+0,1,2,3
+Presidential,JJ,B-NP,O
+officials,NNS,I-NP,O
+were,VBD,B-VP,O
+not,RB,O,O
+available,JJ,B-ADJP,O
+to,TO,B-VP,O
+comment,VB,I-VP,O
+on,IN,B-PP,O
+the,DT,B-NP,O
+call,NN,I-NP,O
+for,IN,B-PP,O
+Iliescu,NNP,B-NP,B-PER
+'s,POS,B-NP,O
+impeachment,NN,I-NP,O
+.,.,O,O

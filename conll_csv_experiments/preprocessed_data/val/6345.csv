@@ -1,0 +1,8 @@
+0,1,2,3
+8.,CD,B-NP,O
+Dmitri,NNP,B-NP,B-PER
+Markov,NNP,I-NP,I-PER
+(,(,O,O
+Belarus,NNP,B-NP,B-LOC
+),),O,O
+5.65,CD,B-NP,O

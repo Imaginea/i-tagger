@@ -1,0 +1,23 @@
+0,1,2,3
+ ,O,O,<UNK>
+Cozma,NNP,B-NP,B-PER
+'s,POS,B-NP,O
+blow,NN,I-NP,O
+was,VBD,B-VP,O
+not,RB,O,O
+too,RB,B-ADJP,O
+painful,JJ,I-ADJP,O
+because,IN,B-SBAR,O
+I,PRP,B-NP,O
+'m,VBP,B-VP,O
+a,DT,B-NP,O
+tall,JJ,I-NP,O
+man,NN,I-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+Lupu,NNP,B-NP,B-PER
+told,VBD,B-VP,O
+Reuters,NNP,B-NP,B-ORG
+on,IN,B-PP,O
+Tuesday,NNP,B-NP,O
+.,.,O,O

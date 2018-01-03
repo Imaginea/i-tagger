@@ -1,0 +1,31 @@
+0,1,2,3
+A,DT,B-NP,O
+resolution,NN,I-NP,O
+released,VBN,B-VP,O
+by,IN,B-PP,O
+the,DT,B-NP,O
+council,NN,I-NP,O
+called,VBD,B-VP,O
+for,IN,B-PP,O
+ ,O,O,<UNK>
+halting,VBG,B-VP,O
+contacts,NNS,B-NP,O
+with,IN,B-PP,O
+the,DT,B-NP,O
+Israeli,JJ,I-NP,B-MISC
+side,NN,I-NP,O
+and,CC,O,O
+leaving,VBG,B-VP,O
+the,DT,B-NP,O
+mechanism,NN,I-NP,O
+to,TO,B-VP,O
+carry,VB,I-VP,O
+out,RP,B-PRT,O
+this,DT,B-NP,O
+to,TO,B-PP,O
+Palestinian,JJ,B-NP,B-MISC
+President,NNP,I-NP,O
+Yasser,NNP,I-NP,B-PER
+Arafat,NNP,I-NP,I-PER
+ ,O,O,<UNK>
+.,.,O,O

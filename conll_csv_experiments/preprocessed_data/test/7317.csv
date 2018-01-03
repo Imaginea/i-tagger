@@ -1,0 +1,10 @@
+0,1,2,3
+Bayer,NNP,B-NP,B-ORG
+Leverkusen,NNP,I-NP,I-ORG
+17,CD,I-NP,O
+10,CD,I-NP,O
+4,CD,I-NP,O
+3,CD,I-NP,O
+38,CD,I-NP,O
+22,CD,I-NP,O
+34,CD,I-NP,O

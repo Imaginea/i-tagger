@@ -1,0 +1,5 @@
+0,1,2,3
+ZTE,NNP,B-NP,B-ORG
+1,CD,I-NP,O
+Debrecen,NNP,I-NP,B-ORG
+5,CD,I-NP,O

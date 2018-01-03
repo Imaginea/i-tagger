@@ -1,0 +1,9 @@
+0,1,2,3
+LONDON,NNP,B-NP,B-LOC
+1996-12-06,CD,I-NP,O
+Result,NN,B-NP,O
+of,IN,B-PP,O
+an,DT,B-NP,O
+English,NNP,I-NP,B-MISC
+F.A.,NNP,I-NP,I-MISC
+Challenge,NNP,I-NP,I-MISC

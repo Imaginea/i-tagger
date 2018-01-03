@@ -1,0 +1,8 @@
+0,1,2,3
+London,NNP,B-NP,B-LOC
+LIFFE,NNP,I-NP,B-ORG
+futures,NNS,I-NP,O
+APT,NNP,I-NP,O
+closing,NN,I-NP,O
+prices,NNS,I-NP,O
+.,.,O,O

@@ -1,0 +1,13 @@
+0,1,2,3
+Olsza,NNP,B-NP,B-PER
+is,VBZ,B-VP,O
+undaunted,JJ,B-NP,O
+by,IN,B-PP,O
+the,DT,B-NP,O
+level,NN,I-NP,O
+of,IN,B-PP,O
+competition,NN,B-NP,O
+in,IN,B-PP,O
+the,DT,B-NP,O
+pros,NNS,I-NP,O
+.,.,O,O

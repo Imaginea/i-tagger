@@ -1,0 +1,31 @@
+0,1,2,3
+ ,O,O,<UNK>
+This,DT,B-NP,O
+assistance,NN,I-NP,O
+will,MD,B-VP,O
+provide,VB,I-VP,O
+a,DT,B-NP,O
+fast,JJ,I-NP,O
+track,NN,I-NP,O
+development,NN,I-NP,O
+programme,NN,I-NP,O
+for,IN,B-PP,O
+the,DT,B-NP,O
+designated,VBN,I-NP,O
+(,(,O,O
+northern,JJ,B-ADJP,O
+),),O,O
+safe,JJ,B-ADJP,O
+area,NN,B-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+Britain,NNP,B-NP,B-LOC
+'s,POS,B-NP,O
+Overseas,NNP,I-NP,B-ORG
+Development,NNP,I-NP,I-ORG
+Administration,NNP,I-NP,I-ORG
+said,VBD,B-VP,O
+in,IN,B-PP,O
+a,DT,B-NP,O
+statement,NN,I-NP,O
+.,.,O,O

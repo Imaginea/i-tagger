@@ -1,0 +1,8 @@
+0,1,2,3
+4.,CD,B-NP,O
+Emilio,NNP,I-NP,B-PER
+Valle,NNP,I-NP,I-PER
+(,(,O,O
+Cuba,NNP,B-NP,B-LOC
+),),O,O
+13.52,CD,B-NP,O

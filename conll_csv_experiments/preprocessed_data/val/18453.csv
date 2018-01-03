@@ -1,0 +1,19 @@
+0,1,2,3
+ ,O,O,<UNK>
+On,IN,B-PP,O
+Wednesday,NNP,B-NP,O
+",",",",O,O
+examinations,NNS,B-NP,O
+indicated,VBD,B-VP,O
+that,IN,B-SBAR,O
+the,DT,B-NP,O
+cancer,NN,I-NP,O
+has,VBZ,B-VP,O
+returned,VBN,I-VP,O
+",",",",O,O
+this,DT,B-NP,O
+time,NN,I-NP,O
+in,IN,B-PP,O
+the,DT,B-NP,O
+liver,NN,I-NP,O
+.,.,O,O

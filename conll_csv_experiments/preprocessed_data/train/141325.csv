@@ -1,0 +1,6 @@
+0,1,2,3
+Soyoil,NN,B-NP,O
+solvent,JJ,I-NP,O
+plant,NN,I-NP,O
+delivery,NN,I-NP,O
+"30,300-30,400",CD,I-NP,O

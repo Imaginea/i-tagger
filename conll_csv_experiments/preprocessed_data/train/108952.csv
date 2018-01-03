@@ -1,0 +1,11 @@
+0,1,2,3
+ ,O,O,<UNK>
+There,EX,B-NP,O
+is,VBZ,B-VP,O
+a,DT,B-NP,O
+question,NN,I-NP,O
+mark,NN,I-NP,O
+over,IN,B-PP,O
+this,DT,B-NP,O
+issue,NN,I-NP,O
+.,.,O,O

@@ -1,0 +1,15 @@
+0,1,2,3
+matches,NNS,B-NP,O
+),),O,O
+Florian,NNP,B-NP,B-PER
+Rousseau,NNP,I-NP,I-PER
+(,(,O,O
+France,NNP,B-NP,B-LOC
+),),O,O
+beat,VB,B-VP,O
+Ainars,NNPS,B-NP,B-PER
+Kiksis,NNP,I-NP,I-PER
+(,(,O,O
+Latvia,NNP,B-NP,B-LOC
+),),O,O
+2-0,CD,B-NP,O

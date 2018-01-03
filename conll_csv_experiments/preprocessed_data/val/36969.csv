@@ -1,0 +1,17 @@
+0,1,2,3
+I,PRP,B-NP,O
+want,VBP,B-VP,O
+to,TO,I-VP,O
+beat,VB,I-VP,O
+him,PRP,B-NP,O
+so,RB,B-ADVP,O
+badly,RB,I-ADVP,O
+that,IN,B-SBAR,O
+I,PRP,B-NP,O
+just,RB,B-ADVP,O
+cannot,VBP,B-VP,O
+get,VB,I-VP,O
+it,PRP,B-NP,O
+together,RB,B-ADVP,O
+.,.,O,O
+ ,O,O,<UNK>

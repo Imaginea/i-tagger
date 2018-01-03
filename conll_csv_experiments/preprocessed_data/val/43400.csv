@@ -1,0 +1,23 @@
+0,1,2,3
+1860,CD,B-NP,O
+-,:,I-NP,O
+Giuseppe,NNP,I-NP,B-PER
+Garibaldi,NNP,I-NP,I-PER
+leading,VBG,B-VP,O
+his,PRP$,B-NP,O
+ ,O,O,<UNK>
+Red,NNP,B-NP,B-MISC
+Shirts,NNP,I-NP,I-MISC
+ ,O,O,<UNK>
+seized,VBD,B-VP,O
+Naples,NNP,B-NP,B-LOC
+in,IN,B-PP,O
+the,DT,B-NP,O
+Italian,JJ,I-NP,B-MISC
+war,NN,I-NP,O
+of,IN,B-PP,O
+liberation,NN,B-NP,O
+against,IN,B-PP,O
+the,DT,B-NP,O
+Austrians,NNPS,I-NP,B-MISC
+.,.,O,O

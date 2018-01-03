@@ -1,0 +1,17 @@
+0,1,2,3
+Former,JJ,B-NP,O
+world,NN,I-NP,O
+800,CD,I-NP,O
+champion,NN,I-NP,O
+Mutola,NNP,B-NP,B-PER
+pushed,VBD,B-VP,O
+Masterkova,NNP,B-NP,B-PER
+all,PDT,B-NP,O
+the,DT,I-NP,O
+way,NN,I-NP,O
+",",",",O,O
+finishing,VBG,B-VP,O
+second,JJ,B-NP,O
+in,IN,B-PP,O
+2:29.66,CD,B-NP,O
+.,.,O,O

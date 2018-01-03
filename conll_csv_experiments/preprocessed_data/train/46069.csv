@@ -1,0 +1,35 @@
+0,1,2,3
+ ,O,O,<UNK>
+Jordan,NNP,B-NP,B-LOC
+has,VBZ,B-VP,O
+asked,VBN,I-VP,O
+Mr.,NNP,B-NP,O
+Adel,NNP,I-NP,B-PER
+Ibrahim,NNP,I-NP,I-PER
+",",",",O,O
+the,DT,B-NP,O
+Iraqi,JJ,I-NP,B-MISC
+embassy,NN,I-NP,O
+'s,POS,B-NP,O
+press,NN,I-NP,O
+attache,NN,I-NP,O
+",",",",O,O
+to,TO,B-VP,O
+leave,VB,I-VP,O
+because,IN,B-SBAR,O
+he,PRP,B-NP,O
+was,VBD,B-VP,O
+carrying,VBG,I-VP,O
+out,RP,B-PRT,O
+duties,NNS,B-NP,O
+incompatible,JJ,B-ADJP,O
+with,IN,B-PP,O
+diplomatic,JJ,B-NP,O
+norms,NNS,I-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+the,DT,B-NP,O
+source,NN,I-NP,O
+told,VBN,B-VP,O
+Reuters,NNP,B-NP,B-ORG
+.,.,O,O

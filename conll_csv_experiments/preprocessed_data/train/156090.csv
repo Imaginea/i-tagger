@@ -1,0 +1,15 @@
+0,1,2,3
+Graf,NNP,B-NP,B-PER
+ran,VBD,B-VP,O
+off,RP,B-PRT,O
+the,DT,B-NP,O
+next,JJ,I-NP,O
+three,CD,I-NP,O
+games,NNS,I-NP,O
+to,TO,B-VP,O
+restore,VB,I-VP,O
+some,DT,B-NP,O
+semblance,NN,I-NP,O
+of,IN,B-PP,O
+order,NN,B-NP,O
+.,.,O,O

@@ -1,0 +1,6 @@
+0,1,2,3
+Partizan,NNP,B-NP,B-ORG
+-,:,O,O
+Dejan,NNP,B-NP,B-PER
+Koturovic,NNP,I-NP,I-PER
+21,CD,I-NP,O

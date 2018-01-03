@@ -1,0 +1,13 @@
+0,1,2,3
+Heat,NN,B-NP,O
+hit,VBD,B-VP,O
+a,DT,B-NP,O
+session,NN,I-NP,O
+low,JJ,I-NP,O
+of,IN,B-PP,O
+62.45,CD,B-NP,O
+shortly,RB,B-PP,O
+before,IN,I-PP,O
+the,DT,B-NP,O
+close,NN,I-NP,O
+.,.,O,O

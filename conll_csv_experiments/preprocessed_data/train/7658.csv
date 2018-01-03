@@ -1,0 +1,10 @@
+0,1,2,3
+(,(,O,O
+Switzerland,NNP,B-NP,B-LOC
+),),O,O
+6-3,CD,B-NP,O
+3-6,CD,I-NP,O
+7-6,CD,B-ADVP,O
+(,(,O,O
+8-6,CD,B-NP,O
+),),O,O

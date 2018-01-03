@@ -1,0 +1,40 @@
+0,1,2,3
+The,DT,B-NP,O
+agency,NN,I-NP,O
+also,RB,B-ADVP,O
+proposed,VBD,B-VP,O
+rule,NN,B-NP,O
+changes,NNS,I-NP,O
+that,WDT,B-NP,O
+would,MD,B-VP,O
+require,VB,I-VP,O
+continuous,JJ,B-NP,O
+ ,O,O,<UNK>
+bid,NN,B-NP,O
+ ,O,O,<UNK>
+and,CC,O,O
+ ,O,O,<UNK>
+ask,VB,B-VP,O
+ ,O,O,<UNK>
+quotations,NNS,B-NP,O
+from,IN,B-PP,O
+exchange,NN,B-NP,O
+specialists,NNS,I-NP,O
+and,CC,O,O
+market,NN,B-NP,O
+makers,NNS,I-NP,O
+who,WP,B-NP,O
+trade,VBP,B-VP,O
+more,JJR,B-NP,O
+than,IN,I-NP,O
+1,CD,I-NP,O
+percent,NN,I-NP,O
+of,IN,B-PP,O
+a,DT,B-NP,O
+stock,NN,I-NP,O
+during,IN,B-PP,O
+any,DT,B-NP,O
+quarter,NN,I-NP,O
+on,IN,B-PP,O
+Nasdaq,NNP,B-NP,B-MISC
+.,.,O,O

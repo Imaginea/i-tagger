@@ -1,0 +1,6 @@
+0,1,2,3
+Genk,VBG,B-VP,B-ORG
+1,CD,B-NP,O
+Club,NNP,I-NP,B-ORG
+Brugge,NNP,I-NP,I-ORG
+1,CD,I-NP,O

@@ -1,0 +1,13 @@
+0,1,2,3
+NZ,NNP,B-NP,B-LOC
+'s,POS,B-NP,O
+Peters,NNP,I-NP,B-PER
+says,VBZ,B-VP,O
+Nat,NNP,B-NP,B-PER
+",",",",O,O
+Lab,NNP,B-NP,B-PER
+talks,NNS,I-NP,O
+at,IN,B-PP,O
+similar,JJ,B-NP,O
+stage,NN,I-NP,O
+.,.,O,O

@@ -1,0 +1,13 @@
+0,1,2,3
+42-3,CD,B-NP,O
+.,.,O,O
+At,IN,B-PP,O
+Trent,NNP,B-NP,B-LOC
+Bridge,NNP,I-NP,I-LOC
+:,:,O,O
+Nottinghamshire,NNP,B-NP,B-ORG
+446-9,CD,I-NP,O
+declared,NNS,I-NP,O
+(,(,O,O
+G.,NNP,B-NP,B-PER
+Archer,NNP,I-NP,I-PER

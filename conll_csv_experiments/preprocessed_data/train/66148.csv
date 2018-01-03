@@ -1,0 +1,9 @@
+0,1,2,3
+Belgium,NNP,B-NP,B-LOC
+asks,VBZ,B-VP,O
+how,WRB,B-ADVP,O
+paedophile,JJ,B-NP,O
+suspect,NN,I-NP,O
+eluded,VBD,B-VP,O
+police,NN,B-NP,O
+.,.,O,O

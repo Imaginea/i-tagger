@@ -1,0 +1,9 @@
+0,1,2,3
+BALANCE-Water,JJ,B-NP,B-MISC
+Dist,NN,I-NP,I-MISC
+1,CD,I-NP,I-MISC
+Johnson,NNP,I-NP,B-LOC
+Cty,NNP,I-NP,I-LOC
+",",",",O,O
+Kan,NNP,B-NP,B-LOC
+.,.,O,O

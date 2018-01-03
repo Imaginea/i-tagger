@@ -1,0 +1,10 @@
+0,1,2,3
+The,DT,B-NP,O
+policy-making,JJ,I-NP,O
+FOMC,NNP,I-NP,B-ORG
+is,VBZ,B-VP,O
+to,TO,B-VP,O
+meet,VB,I-VP,O
+on,IN,B-PP,O
+Sept,NNP,B-NP,O
+.,.,O,O

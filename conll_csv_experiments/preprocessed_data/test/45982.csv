@@ -1,0 +1,13 @@
+0,1,2,3
+Postponed,VBN,B-VP,O
+:,:,O,O
+Forfar,JJ,B-NP,B-ORG
+v,NNP,O,O
+Alloa,NNP,B-NP,B-ORG
+",",",",O,O
+Inverness,NNP,B-NP,B-ORG
+Thistle,NNP,I-NP,I-ORG
+v,FW,I-NP,O
+Queen,NNP,I-NP,B-ORG
+'s,POS,B-NP,I-ORG
+Park,NNP,I-NP,I-ORG

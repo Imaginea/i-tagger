@@ -1,0 +1,10 @@
+0,1,2,3
+Turkey,NNP,B-NP,B-LOC
+hindered,VBD,B-VP,O
+by,IN,B-PP,O
+own,JJ,B-NP,O
+landmines,NNS,I-NP,O
+on,IN,B-PP,O
+Syrian,JJ,B-NP,B-MISC
+border,NN,I-NP,O
+.,.,O,O

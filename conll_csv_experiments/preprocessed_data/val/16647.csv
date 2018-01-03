@@ -1,0 +1,37 @@
+0,1,2,3
+ ,O,O,<UNK>
+The,DT,B-NP,O
+market,NN,I-NP,O
+does,VBZ,B-VP,O
+n't,RB,I-VP,O
+seem,VB,I-VP,O
+to,TO,I-VP,O
+be,VB,I-VP,O
+able,JJ,B-ADJP,O
+to,TO,B-VP,O
+make,VB,I-VP,O
+new,JJ,B-NP,O
+highs,NNS,I-NP,O
+and,CC,O,O
+it,PRP,B-NP,O
+has,VBZ,B-VP,O
+been,VBN,I-VP,O
+back,RB,B-ADVP,O
+and,CC,I-ADVP,O
+forth,RB,I-ADVP,O
+in,IN,B-PP,O
+a,DT,B-NP,O
+fairly,RB,I-NP,O
+horizontal,JJ,I-NP,O
+mode,NN,I-NP,O
+which,WDT,B-NP,O
+looks,VBZ,B-VP,O
+like,IN,B-PP,O
+a,DT,B-NP,O
+holding,VBG,I-NP,O
+pattern,NN,I-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+said,VBD,B-VP,O
+Geraghty,NNP,B-NP,B-PER
+.,.,O,O

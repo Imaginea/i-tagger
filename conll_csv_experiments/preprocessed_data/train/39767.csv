@@ -1,0 +1,13 @@
+0,1,2,3
+RTRS,NNS,B-NP,B-ORG
+-,:,O,O
+Golf,NNP,B-NP,O
+:,:,O,O
+Norman,NNP,B-NP,B-PER
+sacks,NNS,I-NP,O
+his,PRP$,B-NP,O
+coach,NN,I-NP,O
+after,IN,B-PP,O
+disappointing,JJ,B-NP,O
+season,NN,I-NP,O
+.,.,O,O

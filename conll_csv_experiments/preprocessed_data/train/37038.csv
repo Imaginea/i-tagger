@@ -1,0 +1,8 @@
+0,1,2,3
+2.,NNP,B-NP,O
+Isaac,NNP,I-NP,B-PER
+Viciosa,NNP,I-NP,I-PER
+(,(,O,O
+Spain,NNP,B-NP,B-LOC
+),),O,O
+3:33.00,CD,B-NP,O

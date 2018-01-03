@@ -1,0 +1,9 @@
+0,1,2,3
+Princess,NNP,B-NP,O
+Diana,NNP,I-NP,B-PER
+send,VBP,B-VP,O
+message,NN,B-NP,O
+to,TO,B-PP,O
+Mother,NNP,B-NP,B-PER
+Teresa,NNP,I-NP,I-PER
+.,.,O,O

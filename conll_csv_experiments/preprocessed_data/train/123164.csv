@@ -1,0 +1,14 @@
+0,1,2,3
+Naoko,NNP,B-NP,B-PER
+Sawamatsu,NNP,I-NP,I-PER
+(,(,O,O
+Japan,NNP,B-NP,B-LOC
+),),O,O
+beat,VB,B-VP,O
+Rennae,NNP,B-NP,B-PER
+Stubbs,NNP,I-NP,I-PER
+(,(,O,O
+Australia,NNP,B-NP,B-LOC
+),),O,O
+6-4,CD,B-NP,O
+6-3,CD,I-NP,O

@@ -1,0 +1,9 @@
+0,1,2,3
+Swedish,JJ,B-NP,B-MISC
+500cc,JJ,I-NP,O
+motocross,NN,I-NP,O
+Grand,NNP,I-NP,B-MISC
+Prix,NNP,I-NP,I-MISC
+on,IN,B-PP,O
+Sunday,NNP,B-NP,O
+:,:,O,O

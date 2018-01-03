@@ -1,0 +1,6 @@
+0,1,2,3
+Ride,VB,B-VP,O
+for,IN,B-PP,O
+third,JJ,B-NP,O
+place,NN,I-NP,O
+:,:,O,O

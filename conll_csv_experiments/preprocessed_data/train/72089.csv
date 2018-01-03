@@ -1,0 +1,14 @@
+0,1,2,3
+Warwickshire,NNP,B-NP,B-ORG
+are,VBP,B-VP,O
+currently,RB,B-ADVP,O
+in,IN,B-PP,O
+fourth,JJ,B-NP,O
+position,NN,I-NP,O
+behind,IN,B-PP,O
+Yorkshire,NNP,B-NP,B-ORG
+",",",",O,O
+Nottinghamshire,NNP,B-NP,B-ORG
+and,CC,O,O
+Surrey,NNP,B-NP,B-ORG
+.,.,O,O

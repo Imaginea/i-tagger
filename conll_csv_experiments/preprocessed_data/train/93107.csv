@@ -1,0 +1,6 @@
+0,1,2,3
+St,NNP,B-NP,B-ORG
+Helens,NNP,I-NP,I-ORG
+66,CD,I-NP,O
+Warrington,NNP,I-NP,B-ORG
+14,CD,I-NP,O

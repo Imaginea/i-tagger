@@ -1,0 +1,7 @@
+0,1,2,3
+Prykarpattya,NNP,B-NP,B-ORG
+Ivano-Frankivsk,NNP,I-NP,I-ORG
+0,CD,I-NP,O
+Zirka-Nibas,NNP,I-NP,B-ORG
+Kirovohrad,NNP,I-NP,I-ORG
+0,CD,I-NP,O

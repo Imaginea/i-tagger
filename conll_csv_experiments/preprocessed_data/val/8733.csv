@@ -1,0 +1,12 @@
+0,1,2,3
+U.S.,NNP,B-NP,B-LOC
+debt,NN,I-NP,O
+futures,NNS,I-NP,O
+end,VBP,B-VP,O
+lower,JJR,B-ADJP,O
+",",",",O,O
+shaken,VBN,B-VP,O
+by,IN,B-PP,O
+Chicago,NNP,B-NP,B-LOC
+NAPM,NNP,I-NP,B-ORG
+.,.,O,O

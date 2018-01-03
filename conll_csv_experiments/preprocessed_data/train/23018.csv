@@ -1,0 +1,5 @@
+0,1,2,3
+Hamburg,NNP,B-NP,B-LOC
+"21,240",CD,B-NP,O
+down,RB,B-ADVP,O
+3.5,CD,B-NP,O

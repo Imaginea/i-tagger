@@ -1,0 +1,6 @@
+0,1,2,3
+First,NNP,B-NP,B-ORG
+Alliance,NNP,I-NP,I-ORG
+Corporation,NNP,I-NP,I-ORG
+and,CC,I-NP,I-ORG
+Subsidiaries,NNP,I-NP,I-ORG

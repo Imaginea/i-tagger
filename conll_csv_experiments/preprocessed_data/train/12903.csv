@@ -1,0 +1,4 @@
+0,1,2,3
+32.,NNP,B-NP,O
+Russia,NNP,I-NP,B-LOC
+8.03,CD,I-NP,O

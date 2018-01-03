@@ -1,0 +1,9 @@
+0,1,2,3
+--,:,B-NP,O
+Oslo,NN,I-NP,B-LOC
+newsroom,NN,I-NP,O
++47,CD,I-NP,O
+22,CD,I-NP,O
+42,CD,I-NP,O
+50,CD,I-NP,O
+41,CD,I-NP,O

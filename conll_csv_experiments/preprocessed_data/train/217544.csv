@@ -1,0 +1,17 @@
+0,1,2,3
+Goulnara,NNP,B-NP,B-PER
+Fatkoullina,NNP,I-NP,I-PER
+helped,VBD,B-VP,O
+Samokhalova,NNP,B-NP,B-PER
+to,TO,B-VP,O
+build,VB,I-VP,O
+an,DT,B-NP,O
+unbeatable,JJ,I-NP,O
+points,NNS,I-NP,O
+lead,VBP,B-VP,O
+before,IN,B-PP,O
+snatching,VBG,B-VP,O
+the,DT,B-NP,O
+bronze,JJ,I-NP,O
+medal,NN,I-NP,O
+.,.,O,O

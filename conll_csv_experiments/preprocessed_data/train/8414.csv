@@ -1,0 +1,8 @@
+0,1,2,3
+Dynamo,NNP,B-NP,B-ORG
+Batumi,NNP,I-NP,I-ORG
+win,VBP,B-VP,O
+9-0,CD,B-NP,O
+on,IN,B-PP,O
+aggregate,NN,B-NP,O
+.,.,O,O

@@ -1,0 +1,8 @@
+0,1,2,3
+3.,NNP,B-NP,O
+Lucy,NNP,I-NP,B-PER
+Tyler-Sharman,NNP,I-NP,I-PER
+(,(,O,O
+Australia,NNP,B-NP,B-LOC
+),),O,O
+3:31.830,CD,B-NP,O

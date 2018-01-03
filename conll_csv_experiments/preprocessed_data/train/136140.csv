@@ -1,0 +1,20 @@
+0,1,2,3
+ ,O,O,<UNK>
+I,PRP,B-NP,O
+believe,VBP,B-VP,O
+the,DT,B-NP,O
+Democratic,JJ,I-NP,B-MISC
+party,NN,I-NP,O
+ought,MD,B-VP,O
+to,TO,I-VP,O
+be,VB,I-VP,O
+pro-woman,JJ,B-NP,O
+",",",",I-NP,O
+pro-child,JJ,I-NP,O
+and,CC,I-NP,O
+pro-life,JJ,I-NP,O
+",",",",I-NP,O
+ ,O,O,<UNK>
+Casey,NNP,B-NP,B-PER
+said,VBD,B-VP,O
+.,.,O,O

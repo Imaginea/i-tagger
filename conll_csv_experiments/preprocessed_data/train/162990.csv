@@ -1,0 +1,25 @@
+0,1,2,3
+He,PRP,B-NP,O
+wrote,VBD,B-VP,O
+ ,O,O,<UNK>
+Rene,NNP,B-NP,B-MISC
+ ,O,O,<UNK>
+",",",",O,O
+a,DT,B-NP,O
+seminal,JJ,I-NP,O
+work,NN,I-NP,O
+in,IN,B-PP,O
+the,DT,B-NP,O
+French,JJ,I-NP,B-MISC
+romantic,JJ,I-NP,O
+movement,NN,I-NP,O
+and,CC,O,O
+a,DT,B-NP,O
+famous,JJ,I-NP,O
+autobiography,NN,I-NP,O
+ ,O,O,<UNK>
+Memoires,NNS,B-NP,B-MISC
+d'Outre,NNP,I-NP,I-MISC
+Tombe,NNP,I-NP,I-MISC
+ ,O,O,<UNK>
+.,.,O,O

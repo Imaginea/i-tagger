@@ -1,0 +1,13 @@
+0,1,2,3
+73,CD,B-NP,O
+Ross,NNP,I-NP,B-PER
+McFarlane,NNP,I-NP,I-PER
+",",",",O,O
+Domingo,NNP,B-NP,B-PER
+Hospital,NNP,I-NP,I-PER
+(,(,O,O
+Spain,NNP,B-NP,B-LOC
+),),O,O
+",",",",O,O
+Seve,NNP,B-NP,B-PER
+Ballesteros,NNPS,I-NP,I-PER

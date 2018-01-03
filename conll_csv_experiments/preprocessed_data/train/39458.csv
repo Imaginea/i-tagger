@@ -1,0 +1,10 @@
+0,1,2,3
+Konpolis,NNS,B-NP,B-ORG
+75,CD,I-NP,O
+1/9,CD,I-NP,O
+Mideast,JJ,I-NP,B-LOC
+/,SYM,O,O
+Indonesia,NNP,B-NP,B-LOC
+W112.5,NNP,I-NP,O
+KPC,NNP,I-NP,B-ORG
+.,.,O,O

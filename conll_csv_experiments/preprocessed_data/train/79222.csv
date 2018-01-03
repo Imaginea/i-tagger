@@ -1,0 +1,5 @@
+0,1,2,3
+20.,CD,B-NP,O
+Russell,NNP,I-NP,B-PER
+Claydon,NNP,I-NP,I-PER
+"156,996",CD,I-NP,O

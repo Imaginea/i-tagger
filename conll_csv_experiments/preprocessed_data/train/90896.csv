@@ -1,0 +1,10 @@
+0,1,2,3
+Captain,NN,B-NP,O
+and,CC,O,O
+goalkicker,NN,B-NP,O
+Bobbie,NNP,I-NP,B-PER
+Goulding,NNP,I-NP,I-PER
+scored,VBD,B-VP,O
+18,CD,B-NP,O
+points,NNS,I-NP,O
+.,.,O,O

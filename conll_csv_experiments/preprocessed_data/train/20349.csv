@@ -1,0 +1,35 @@
+0,1,2,3
+Chairman,NNP,B-NP,O
+Mohamed,NNP,I-NP,B-PER
+Fahim,NNP,I-NP,I-PER
+Rayyan,NNP,I-NP,I-PER
+told,VBD,B-VP,O
+a,DT,B-NP,O
+news,NN,I-NP,O
+conference,NN,I-NP,O
+at,IN,B-PP,O
+Cairo,NNP,B-NP,B-LOC
+airport,NN,I-NP,O
+:,:,O,O
+ ,O,O,<UNK>
+The,DT,B-NP,O
+control,NN,I-NP,O
+tower,NN,I-NP,O
+should,MD,B-VP,O
+have,VB,I-VP,O
+allocated,VBN,I-VP,O
+the,DT,B-NP,O
+plane,NN,I-NP,O
+another,DT,B-NP,O
+runway,NN,I-NP,O
+",",",",O,O
+instead,RB,B-PP,O
+of,IN,I-PP,O
+the,DT,B-NP,O
+one,NN,I-NP,O
+the,DT,B-NP,O
+plane,NN,I-NP,O
+landed,VBD,B-VP,O
+on,RP,B-PRT,O
+.,.,O,O
+ ,O,O,<UNK>

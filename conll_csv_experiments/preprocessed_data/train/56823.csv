@@ -1,0 +1,15 @@
+0,1,2,3
+Pakistan,NNP,B-NP,B-LOC
+318-2,NN,I-NP,O
+(,(,O,O
+Saeed,NNP,B-NP,B-PER
+Anwar,NNP,I-NP,I-PER
+169,CD,I-NP,O
+not,RB,B-VP,O
+out,RP,B-PRT,O
+",",",",O,O
+Ijaz,NNP,B-NP,B-PER
+Ahmed,NNP,I-NP,I-PER
+61,CD,I-NP,O
+),),O,O
+.,.,O,O

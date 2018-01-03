@@ -1,0 +1,9 @@
+0,1,2,3
+Indonesian,JJ,B-NP,B-MISC
+rupiah,NN,I-NP,O
+stable,RB,B-ADVP,O
+in,IN,B-PP,O
+quiet,JJ,B-NP,O
+late,RB,B-ADVP,O
+trading,VBG,B-VP,O
+.,.,O,O

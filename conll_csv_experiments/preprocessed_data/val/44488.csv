@@ -1,0 +1,10 @@
+0,1,2,3
+No,DT,B-NP,O
+pleas,NNS,I-NP,O
+were,VBD,B-VP,O
+entered,VBN,I-VP,O
+at,IN,B-PP,O
+the,DT,B-NP,O
+preliminary,JJ,I-NP,O
+hearing,NN,I-NP,O
+.,.,O,O

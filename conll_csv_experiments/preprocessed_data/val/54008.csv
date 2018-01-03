@@ -1,0 +1,8 @@
+0,1,2,3
+They,PRP,B-NP,O
+have,VBP,B-VP,O
+not,RB,I-VP,O
+been,VBN,I-VP,O
+seen,VBN,I-VP,O
+since,IN,B-PP,O
+.,.,O,O

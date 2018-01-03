@@ -1,0 +1,9 @@
+0,1,2,3
+Miss,NNP,B-NP,B-MISC
+Universe,NNP,I-NP,I-MISC
+hides,NNS,I-NP,O
+behind,IN,B-PP,O
+veil,NN,B-NP,O
+of,IN,B-PP,O
+silence,NN,B-NP,O
+.,.,O,O

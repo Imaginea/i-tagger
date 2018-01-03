@@ -1,0 +1,13 @@
+0,1,2,3
+Did,VBD,O,O
+not,RB,O,O
+bat,VB,B-VP,O
+:,:,O,O
+P.,NNP,B-NP,B-PER
+Reiffel,NNP,I-NP,I-PER
+",",",",O,O
+D.,NNP,B-NP,B-PER
+Flemming,NNP,I-NP,I-PER
+",",",",O,O
+G.,NNP,B-NP,B-PER
+McGrath,NNP,I-NP,I-PER

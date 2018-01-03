@@ -1,0 +1,26 @@
+0,1,2,3
+He,PRP,B-NP,O
+said,VBD,B-VP,O
+",",",",O,O
+however,RB,B-ADVP,O
+",",",",O,O
+that,IN,B-SBAR,O
+Switzerland,NNP,B-NP,B-LOC
+did,VBD,B-VP,O
+get,VB,I-VP,O
+about,IN,B-NP,O
+"16,000",CD,I-NP,O
+francs,NNS,I-NP,O
+from,IN,B-PP,O
+the,DT,B-NP,O
+so-called,JJ,I-NP,O
+ ,O,O,<UNK>
+dead,JJ,B-ADJP,O
+accounts,NNS,B-NP,O
+ ,O,O,<UNK>
+as,IN,B-PP,O
+part,NN,B-NP,O
+of,IN,B-PP,O
+the,DT,B-NP,O
+compensation,NN,I-NP,O
+.,.,O,O

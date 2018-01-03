@@ -1,0 +1,11 @@
+0,1,2,3
+Japan,NNP,B-NP,B-LOC
+'s,POS,B-NP,O
+authorities,NNS,I-NP,O
+seen,VBN,B-VP,O
+seeking,VBG,I-VP,O
+to,TO,I-VP,O
+rein,VB,I-VP,O
+in,IN,B-PP,O
+dollar,NN,B-NP,O
+.,.,O,O

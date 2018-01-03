@@ -1,0 +1,5 @@
+0,1,2,3
+Alastair,NNP,B-NP,B-PER
+Macdonald,NN,I-NP,I-PER
+MOSCOW,RB,B-ADVP,B-LOC
+1996-08-26,CD,B-NP,O

@@ -1,0 +1,15 @@
+0,1,2,3
+Shells,NNS,B-NP,O
+had,VBD,B-VP,O
+smashed,VBN,I-VP,O
+roofs,NNS,B-NP,O
+and,CC,I-NP,O
+windows,NNS,I-NP,O
+and,CC,O,O
+empty,JJ,B-NP,O
+shell,JJ,I-NP,O
+cases,NNS,I-NP,O
+littered,VBD,B-VP,O
+the,DT,B-NP,O
+streets,NNS,I-NP,O
+.,.,O,O

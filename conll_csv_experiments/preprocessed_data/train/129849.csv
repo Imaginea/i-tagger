@@ -1,0 +1,17 @@
+0,1,2,3
+The,DT,B-NP,O
+Russian,JJ,I-NP,B-MISC
+command,NN,I-NP,O
+insisted,VBD,B-VP,O
+that,IN,B-SBAR,O
+not,RB,B-NP,O
+all,PDT,I-NP,O
+the,DT,I-NP,O
+weapons,NNS,I-NP,O
+were,VBD,B-VP,O
+the,DT,B-NP,O
+same,JJ,I-NP,O
+as,IN,B-PP,O
+those,DT,B-NP,O
+taken,VBN,B-VP,O
+.,.,O,O

@@ -1,0 +1,4 @@
+0,1,2,3
+Gore,NNP,B-NP,B-PER
+said,VBD,B-VP,O
+.,.,O,O

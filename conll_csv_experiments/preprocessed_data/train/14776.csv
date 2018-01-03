@@ -1,0 +1,13 @@
+0,1,2,3
+The,DT,B-NP,O
+study,NN,I-NP,O
+did,VBD,B-VP,O
+not,RB,I-VP,O
+address,VB,I-VP,O
+whether,IN,B-SBAR,O
+whole,JJ,B-NP,O
+garlic,NN,I-NP,O
+could,MD,B-VP,O
+affect,VB,I-VP,O
+cholesterol,NN,B-NP,O
+.,.,O,O

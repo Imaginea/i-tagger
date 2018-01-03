@@ -1,0 +1,9 @@
+0,1,2,3
+LONDON,NNP,B-NP,B-LOC
+1996-08-30,CD,I-NP,O
+Australia,NNP,B-NP,B-LOC
+will,MD,B-VP,O
+defend,VB,I-VP,O
+the,DT,B-NP,O
+Ashes,NNP,I-NP,B-MISC
+in,IN,B-PP,O

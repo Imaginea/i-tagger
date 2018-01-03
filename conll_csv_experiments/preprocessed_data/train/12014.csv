@@ -1,0 +1,7 @@
+0,1,2,3
+NEC,NNP,B-NP,B-ORG
+Nijmegen,NNP,I-NP,I-ORG
+1,CD,I-NP,O
+PSV,NNP,I-NP,B-ORG
+Eindhoven,NNP,I-NP,I-ORG
+4,CD,I-NP,O

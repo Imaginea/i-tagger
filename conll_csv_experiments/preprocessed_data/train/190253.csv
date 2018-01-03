@@ -1,0 +1,6 @@
+0,1,2,3
+6-,CD,B-NP,O
+3,CD,I-NP,O
+Men,NN,B-NP,O
+'s,POS,B-NP,O
+singles,NNS,I-NP,O

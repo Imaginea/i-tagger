@@ -1,0 +1,15 @@
+0,1,2,3
+But,CC,O,O
+of,IN,B-PP,O
+course,NN,B-NP,O
+those,DT,B-NP,O
+who,WP,B-NP,O
+could,MD,B-VP,O
+not,RB,I-VP,O
+read,VB,I-VP,O
+had,VBD,B-VP,O
+to,TO,I-VP,O
+be,VB,I-VP,O
+shown,VBN,I-VP,O
+.,.,O,O
+ ,O,O,<UNK>

@@ -1,0 +1,8 @@
+0,1,2,3
+6.,NNP,B-NP,O
+Mathias,NNP,I-NP,B-PER
+Ntawulikura,NNP,I-NP,I-PER
+(,(,O,O
+Rwanda,NNP,B-NP,B-LOC
+),),O,O
+27:25.48,CD,B-NP,O

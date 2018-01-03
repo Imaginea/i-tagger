@@ -1,0 +1,26 @@
+0,1,2,3
+ ,O,O,<UNK>
+But,CC,O,O
+we,PRP,B-NP,O
+must,MD,B-VP,O
+avoid,VB,I-VP,O
+giving,VBG,I-VP,O
+the,DT,B-NP,O
+impression,NN,I-NP,O
+this,DT,B-NP,O
+peace,NN,I-NP,O
+deployment,NN,I-NP,O
+in,IN,B-PP,O
+former,JJ,B-NP,O
+Yugoslavia,NNP,I-NP,B-LOC
+is,VBZ,B-VP,O
+being,VBG,I-VP,O
+perceived,VBN,I-VP,O
+in,IN,B-PP,O
+the,DT,B-NP,O
+long,JJ,I-NP,O
+run,NN,I-NP,O
+as,IN,B-PP,O
+an,DT,B-NP,O
+occupation,NN,I-NP,O
+.,.,O,O

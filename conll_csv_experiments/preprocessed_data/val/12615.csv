@@ -1,0 +1,18 @@
+0,1,2,3
+ ,O,O,<UNK>
+The,DT,B-NP,O
+people,NNS,I-NP,O
+have,VB,B-VP,O
+asked,VBD,I-VP,O
+us,PRP,B-NP,O
+to,TO,B-VP,O
+establish,VB,I-VP,O
+order,NN,B-NP,O
+and,CC,O,O
+that,DT,B-NP,O
+'s,VBZ,B-VP,O
+our,PRP$,B-NP,O
+main,JJ,I-NP,O
+aim,NN,I-NP,O
+.,.,O,O
+ ,O,O,<UNK>

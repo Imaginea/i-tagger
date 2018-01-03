@@ -1,0 +1,6 @@
+0,1,2,3
+Volume,NN,B-NP,O
+was,VBD,B-VP,O
+"19,560",CD,B-NP,O
+contracts,NNS,I-NP,O
+.,.,O,O

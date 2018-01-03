@@ -1,0 +1,9 @@
+0,1,2,3
+OFK,NN,B-NP,B-ORG
+Kikinda,RB,B-ADVP,I-ORG
+1,CD,B-NP,O
+Radnicki,NNP,I-NP,B-ORG
+(,(,O,I-ORG
+N,NNP,B-NP,I-ORG
+),),O,I-ORG
+0,CD,B-NP,O

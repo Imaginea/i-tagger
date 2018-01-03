@@ -1,0 +1,8 @@
+0,1,2,3
+Soccer,JJR,B-NP,O
+-,:,O,O
+Nijmeh,NNP,B-NP,B-ORG
+beat,VBD,B-VP,O
+Nasr,NNP,B-NP,B-ORG
+1-0,NNP,I-NP,O
+.,.,O,O

@@ -1,0 +1,11 @@
+0,1,2,3
+4.,CD,B-NP,O
+Kurt,NNP,I-NP,B-PER
+Betschart,NNP,I-NP,I-PER
+-,:,O,O
+Bruno,NNP,B-NP,B-PER
+Risi,NNP,I-NP,I-PER
+(,(,O,O
+Switzerland,NNP,B-NP,B-LOC
+),),O,O
+22,CD,B-NP,O

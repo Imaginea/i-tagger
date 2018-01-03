@@ -1,0 +1,29 @@
+0,1,2,3
+Puig,NNP,B-NP,B-PER
+'s,POS,B-NP,O
+first,JJ,I-NP,O
+novel,NN,I-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+Bertillon,NNP,B-NP,B-MISC
+166,CD,I-NP,I-MISC
+",",",",O,O
+ ,O,O,<UNK>
+was,VBD,B-VP,O
+published,VBN,I-VP,O
+in,IN,B-PP,O
+1960,CD,B-NP,O
+",",",",O,O
+a,DT,B-NP,O
+year,NN,I-NP,O
+after,IN,B-SBAR,O
+the,DT,B-NP,O
+Cuban,JJ,I-NP,B-MISC
+revolution,NN,I-NP,O
+brought,VBD,B-VP,O
+President,NNP,B-NP,O
+Fidel,NNP,I-NP,B-PER
+Castro,NNP,I-NP,I-PER
+to,TO,B-PP,O
+power,NN,B-NP,O
+.,.,O,O

@@ -1,0 +1,29 @@
+0,1,2,3
+ ,O,O,<UNK>
+In,IN,B-PP,O
+July,NNP,B-NP,O
+",",",",O,O
+average,JJ,B-NP,O
+weekly,JJ,I-NP,O
+hours,NNS,I-NP,O
+and,CC,O,O
+average,JJ,B-NP,O
+hourly,JJ,I-NP,O
+earnings,NNS,I-NP,O
+declined,VBD,B-VP,O
+",",",",O,O
+more,JJR,B-NP,O
+than,IN,I-NP,O
+offsetting,VBG,I-NP,O
+the,DT,B-NP,O
+effect,NN,I-NP,O
+of,IN,B-PP,O
+an,DT,B-NP,O
+increase,NN,I-NP,O
+in,IN,B-PP,O
+employment,NN,B-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+Commerce,NNP,B-NP,B-ORG
+said,VBD,B-VP,O
+.,.,O,O

@@ -1,0 +1,8 @@
+0,1,2,3
+2.,CD,B-NP,O
+Natalya,NNP,I-NP,B-PER
+Torshina,NNS,I-NP,I-PER
+(,(,O,O
+Kazakhstan,NNP,B-NP,B-LOC
+),),O,O
+55.99,CD,B-NP,O

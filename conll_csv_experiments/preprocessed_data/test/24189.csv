@@ -1,0 +1,8 @@
+0,1,2,3
+Indian,JJ,B-NP,B-MISC
+rubber,NN,I-NP,O
+demand,NN,I-NP,O
+seen,VBN,B-VP,O
+outstripping,VBG,I-VP,O
+production,NN,B-NP,O
+.,.,O,O

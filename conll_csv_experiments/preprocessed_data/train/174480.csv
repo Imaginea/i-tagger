@@ -1,0 +1,17 @@
+0,1,2,3
+Sharif,NNP,B-NP,B-PER
+accused,VBD,B-VP,O
+Bhutto,NNP,B-NP,B-PER
+of,IN,B-PP,O
+corruption,NN,B-NP,O
+and,CC,I-NP,O
+nepotism,NN,I-NP,O
+",",",",O,O
+charges,VBZ,B-VP,O
+she,PRP,B-NP,O
+has,VBZ,B-VP,O
+denied,VBN,I-VP,O
+in,IN,B-PP,O
+the,DT,B-NP,O
+past,NN,I-NP,O
+.,.,O,O

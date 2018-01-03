@@ -1,0 +1,12 @@
+0,1,2,3
+4.,CD,B-NP,O
+Maarten,NNP,I-NP,B-PER
+den,NN,I-NP,I-PER
+Bakker,NNP,I-NP,I-PER
+(,(,I-NP,O
+Netherlands,NNP,I-NP,B-LOC
+),),O,O
+TVM,NNP,B-NP,B-ORG
+all,DT,O,O
+same,JJ,O,O
+time,NN,O,O

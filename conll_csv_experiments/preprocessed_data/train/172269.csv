@@ -1,0 +1,8 @@
+0,1,2,3
+WHEAT--Rains,NNS,B-NP,O
+boost,VBP,B-VP,O
+U.S.,NNP,B-NP,B-LOC
+HRW,VBZ,B-VP,O
+planting,NN,B-NP,O
+prospects,NNS,I-NP,O
+.,.,O,O

@@ -1,0 +1,12 @@
+0,1,2,3
+--,:,B-NP,O
+Avalon,NNP,I-NP,B-LOC
+Borough,NNP,I-NP,I-LOC
+",",",",O,O
+N.J.,NNP,B-NP,B-LOC
+",",",",O,O
+$,$,B-NP,O
+11.4,CD,I-NP,O
+million,CD,I-NP,O
+GOs,NNPS,I-NP,O
+.,.,O,O

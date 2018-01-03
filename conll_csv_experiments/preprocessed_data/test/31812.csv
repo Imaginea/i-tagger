@@ -1,0 +1,12 @@
+0,1,2,3
+More,JJR,B-NP,O
+than,IN,I-NP,O
+"21,000",CD,I-NP,O
+people,NNS,I-NP,O
+have,VBP,B-VP,O
+died,VBN,I-VP,O
+in,IN,B-PP,O
+the,DT,B-NP,O
+12-year-old,JJ,I-NP,O
+conflict,NN,I-NP,O
+.,.,O,O

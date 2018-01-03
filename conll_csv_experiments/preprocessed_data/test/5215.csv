@@ -1,0 +1,15 @@
+0,1,2,3
+Scorers,NNS,B-NP,O
+:,:,O,O
+Aly,RB,B-ADVP,B-PER
+Ashour,NNP,B-NP,I-PER
+7,CD,I-NP,O
+",",",",O,O
+56,CD,B-NP,O
+penalty,NN,I-NP,O
+",",",",O,O
+Mohamed,NNP,B-NP,B-PER
+Ouda,NNP,I-NP,I-PER
+24,CD,I-NP,O
+",",",",I-NP,O
+73,CD,I-NP,O

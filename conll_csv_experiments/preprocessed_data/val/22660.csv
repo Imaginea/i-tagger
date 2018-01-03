@@ -1,0 +1,10 @@
+0,1,2,3
+The,DT,B-NP,O
+newspapers,NNS,I-NP,O
+said,VBD,B-VP,O
+the,DT,B-NP,O
+men,NNS,I-NP,O
+were,VBD,B-VP,O
+being,VBG,I-VP,O
+interrogated,VBN,I-VP,O
+.,.,O,O

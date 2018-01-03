@@ -1,0 +1,11 @@
+0,1,2,3
+Levy,NNP,B-NP,B-PER
+said,VBD,B-VP,O
+seeking,VBG,I-VP,O
+bankruptcy,NN,B-NP,O
+protection,NN,I-NP,O
+was,VBD,B-VP,O
+not,RB,O,O
+under,IN,B-PP,O
+consideration,NN,B-NP,O
+.,.,O,O

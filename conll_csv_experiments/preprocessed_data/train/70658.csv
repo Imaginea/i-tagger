@@ -1,0 +1,10 @@
+0,1,2,3
+Fastest,JJS,B-NP,O
+lap,NN,I-NP,O
+:,:,O,O
+Berger,NNP,B-NP,B-PER
+1:53.067,NNP,I-NP,O
+(,(,O,O
+221.857,CD,B-NP,O
+kph,NN,I-NP,O
+),),O,O

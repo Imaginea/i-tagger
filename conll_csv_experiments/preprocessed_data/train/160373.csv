@@ -1,0 +1,9 @@
+0,1,2,3
+S.,NNP,B-NP,B-PER
+Ganguly,NNP,I-NP,I-PER
+c,SYM,O,O
+de,FW,B-NP,B-PER
+Silva,NN,I-NP,I-PER
+b,SYM,O,O
+Dharmasena,NNP,B-NP,B-PER
+16,CD,I-NP,O

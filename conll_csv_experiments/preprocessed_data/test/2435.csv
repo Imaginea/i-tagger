@@ -1,0 +1,10 @@
+0,1,2,3
+Bayer,NNP,B-NP,B-ORG
+Leverkusen,NNP,I-NP,I-ORG
+(,(,O,O
+Germany,NNP,B-NP,B-LOC
+),),O,O
+9,CD,B-NP,O
+0,CD,I-NP,O
+9,CD,I-NP,O
+9,CD,I-NP,O

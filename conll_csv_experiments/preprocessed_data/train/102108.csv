@@ -1,0 +1,8 @@
+0,1,2,3
+C.,NNP,B-NP,B-PER
+Wishart,NNP,I-NP,I-PER
+c,SYM,O,O
+Healy,NNP,B-NP,B-PER
+b,SYM,O,O
+Reiffel,NNP,B-NP,B-PER
+0,CD,I-NP,O

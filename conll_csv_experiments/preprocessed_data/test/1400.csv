@@ -1,0 +1,10 @@
+0,1,2,3
+Scorers,NNS,B-NP,O
+:,:,O,O
+Shkvyrin,NNP,B-NP,B-PER
+Igor,NNP,I-NP,I-PER
+78,CD,I-NP,O
+",",",",O,O
+Shatskikh,NNP,B-NP,B-PER
+Oleg,NNP,I-NP,I-PER
+90,CD,I-NP,O

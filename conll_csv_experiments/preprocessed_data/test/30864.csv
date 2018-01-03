@@ -1,0 +1,16 @@
+0,1,2,3
+Asked,VBN,B-VP,O
+about,IN,B-PP,O
+the,DT,B-NP,O
+reports,NNS,I-NP,O
+",",",",O,O
+the,DT,B-NP,O
+spokesman,NN,I-NP,O
+said,VBD,B-VP,O
+:,:,O,O
+ ,O,O,<UNK>
+Relations,NNP,B-NP,O
+are,VBP,B-VP,O
+good,JJ,B-ADJP,O
+.,.,O,O
+ ,O,O,<UNK>

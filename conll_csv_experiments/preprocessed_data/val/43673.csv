@@ -1,0 +1,17 @@
+0,1,2,3
+1986,CD,B-NP,O
+-,:,I-NP,O
+Bishop,NNP,I-NP,O
+Desmond,NNP,I-NP,B-PER
+Tutu,NNP,I-NP,I-PER
+was,VBD,B-VP,O
+enthroned,VBN,I-VP,O
+as,IN,B-PP,O
+Archbishop,NNP,B-NP,O
+of,IN,B-PP,O
+Cape,NNP,B-NP,B-LOC
+Town,NNP,I-NP,I-LOC
+",",",",O,O
+South,NNP,B-NP,B-LOC
+Africa,NNP,I-NP,I-LOC
+.,.,O,O

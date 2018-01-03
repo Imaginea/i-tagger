@@ -1,0 +1,11 @@
+0,1,2,3
+N.,NNP,B-NP,B-LOC
+Korea,NNP,I-NP,I-LOC
+urges,VBZ,B-VP,O
+S.,NNP,B-NP,B-LOC
+Korea,NNP,I-NP,I-LOC
+to,TO,B-VP,O
+return,VB,I-VP,O
+war,NN,B-NP,O
+veteran,NN,I-NP,O
+.,.,O,O

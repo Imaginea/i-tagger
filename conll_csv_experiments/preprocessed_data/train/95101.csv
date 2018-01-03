@@ -1,0 +1,6 @@
+0,1,2,3
+BUDAPEST,RB,B-NP,B-LOC
+1996-08-26,CD,I-NP,O
+Hungarian,JJ,B-NP,B-MISC
+first,JJ,I-NP,O
+division,NN,I-NP,O

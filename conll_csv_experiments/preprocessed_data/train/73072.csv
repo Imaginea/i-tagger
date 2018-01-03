@@ -1,0 +1,10 @@
+0,1,2,3
+7-1-24-0,NNP,B-NP,O
+",",",",O,O
+Mushtaq,NNP,B-NP,B-PER
+Ahmed,NNP,I-NP,I-PER
+7-2-11-0,CD,I-NP,O
+",",",",O,O
+Aamir,NNP,B-NP,B-PER
+Sohail,NNP,I-NP,I-PER
+2-1-4-0,CD,I-NP,O

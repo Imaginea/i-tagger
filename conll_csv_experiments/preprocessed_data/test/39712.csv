@@ -1,0 +1,8 @@
+0,1,2,3
+21.,NNP,B-NP,O
+Shannon,NNP,I-NP,B-PER
+Nobis,NNP,I-NP,I-PER
+(,(,O,O
+U.S.,NNP,B-NP,B-LOC
+),),O,O
+1:19.08,CD,B-NP,O

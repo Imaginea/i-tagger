@@ -1,0 +1,8 @@
+0,1,2,3
+8.,NNP,B-NP,O
+Marcus,NNP,I-NP,B-PER
+O'Sullivan,NNP,I-NP,I-PER
+(,(,O,O
+Ireland,NNP,B-NP,B-LOC
+),),O,O
+3:54.87,CD,B-NP,O

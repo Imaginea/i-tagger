@@ -1,0 +1,11 @@
+0,1,2,3
+68,CD,B-NP,O
+65,CD,I-NP,O
+",",",",O,O
+Eamonn,NNP,B-NP,B-PER
+Darcy,NNP,I-NP,I-PER
+(,(,O,O
+Ireland,NNP,B-NP,B-LOC
+),),O,O
+65,CD,B-NP,O
+68,CD,I-NP,O

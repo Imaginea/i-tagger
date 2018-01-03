@@ -1,0 +1,14 @@
+0,1,2,3
+We,PRP,B-NP,O
+can,MD,B-VP,O
+neither,RB,I-VP,O
+confirm,VBP,I-VP,O
+nor,CC,I-VP,O
+deny,VB,I-VP,O
+that,DT,B-NP,O
+report,NN,I-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+he,PRP,B-NP,O
+said,VBD,B-VP,O
+.,.,O,O

@@ -1,0 +1,11 @@
+0,1,2,3
+8.,NNP,B-NP,O
+Isaac,NNP,I-NP,B-PER
+Galvez-Lopez,NNP,I-NP,I-PER
+-,:,O,O
+Juan,NNP,B-NP,B-PER
+Llaneras,NNP,I-NP,I-PER
+(,(,O,O
+Spain,NNP,B-NP,B-LOC
+),),O,O
+11,CD,B-NP,O

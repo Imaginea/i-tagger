@@ -1,0 +1,36 @@
+0,1,2,3
+ ,O,O,<UNK>
+From,IN,B-PP,O
+a,DT,B-NP,O
+common-sense,JJ,I-NP,O
+view,NN,I-NP,O
+",",",",O,O
+the,DT,B-NP,O
+department,NN,I-NP,O
+should,MD,B-VP,O
+reconsider,VB,I-VP,O
+this,DT,B-NP,O
+plan,NN,I-NP,O
+",",",",O,O
+but,CC,O,O
+due,RB,B-ADVP,O
+to,TO,B-PP,O
+politics,NNS,B-NP,O
+they,PRP,B-NP,O
+will,MD,B-VP,O
+probably,RB,I-VP,O
+go,VB,I-VP,O
+ahead,RB,B-ADVP,O
+with,IN,B-PP,O
+this,DT,B-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+said,VBD,B-VP,O
+Tom,NNP,B-NP,B-PER
+Bellamore,NNP,I-NP,I-PER
+of,IN,B-PP,O
+the,DT,B-NP,O
+California,NNP,I-NP,B-LOC
+avocado,JJ,I-NP,O
+group,NN,I-NP,O
+.,.,O,O

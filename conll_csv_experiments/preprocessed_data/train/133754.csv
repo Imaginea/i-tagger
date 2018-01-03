@@ -1,0 +1,9 @@
+0,1,2,3
+Nicaraguan,JJ,B-NP,B-MISC
+drunks,NNS,I-NP,O
+fear,VBP,B-VP,O
+ ,O,O,<UNK>
+lovebite,NN,B-NP,O
+ ,O,O,<UNK>
+bandit,NN,B-NP,O
+.,.,O,O

@@ -1,0 +1,11 @@
+0,1,2,3
+ ,O,O,<UNK>
+We,PRP,B-NP,O
+need,VBP,B-VP,O
+all,DT,B-NP,O
+the,DT,I-NP,O
+help,NN,I-NP,O
+we,PRP,B-NP,O
+can,MD,B-VP,O
+get,VB,I-VP,O
+.,.,O,O

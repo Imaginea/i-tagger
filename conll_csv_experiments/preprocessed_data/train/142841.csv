@@ -1,0 +1,9 @@
+0,1,2,3
+Swiss,NNP,B-NP,B-ORG
+Bank,NNP,I-NP,I-ORG
+Corp,NNP,I-NP,I-ORG
+sets,VBZ,B-VP,O
+warrants,NNS,B-NP,O
+on,IN,B-PP,O
+DTB-Bund-Future,NNP,B-NP,B-MISC
+.,.,O,O

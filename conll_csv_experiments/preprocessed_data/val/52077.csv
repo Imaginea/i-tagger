@@ -1,0 +1,11 @@
+0,1,2,3
+A,DT,B-NP,O
+26-year-old,JJ,I-NP,O
+man,NN,I-NP,O
+and,CC,O,O
+an,DT,B-NP,O
+18-year-old,JJ,I-NP,O
+woman,NN,I-NP,O
+were,VBD,B-VP,O
+killed,VBN,I-VP,O
+.,.,O,O

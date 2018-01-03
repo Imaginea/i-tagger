@@ -1,0 +1,6 @@
+0,1,2,3
+Sudbury,NNP,B-NP,B-ORG
+Town,NNP,I-NP,I-ORG
+1,CD,I-NP,O
+Brentford,NNP,I-NP,B-ORG
+3,CD,I-NP,O

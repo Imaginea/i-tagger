@@ -1,0 +1,5 @@
+0,1,2,3
+Dollar,NN,B-NP,O
+/,SYM,O,O
+yen,NNS,B-NP,O
+....,NNS,I-NP,O

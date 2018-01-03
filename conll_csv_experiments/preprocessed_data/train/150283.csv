@@ -1,0 +1,13 @@
+0,1,2,3
+Francis,NNP,B-NP,B-PER
+Moreau,NNP,I-NP,I-PER
+(,(,O,O
+France,NNP,B-NP,B-LOC
+),),O,O
+4:16.274,CD,B-NP,O
+beat,NN,I-NP,O
+Heiko,NNP,B-NP,B-PER
+Szonn,NNP,I-NP,I-PER
+(,(,O,O
+Germany,NNP,B-NP,B-LOC
+),),O,O

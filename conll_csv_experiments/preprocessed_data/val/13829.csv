@@ -1,0 +1,11 @@
+0,1,2,3
+Russian,JJ,B-NP,B-MISC
+judge,NN,I-NP,O
+stabbed,VBD,B-VP,O
+to,TO,B-PP,O
+death,NN,B-NP,O
+over,IN,B-PP,O
+$,$,B-NP,O
+7,CD,I-NP,O
+fine,NN,I-NP,O
+.,.,O,O

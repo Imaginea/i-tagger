@@ -1,0 +1,10 @@
+0,1,2,3
+Ginebra,NNP,B-NP,B-ORG
+San,NNP,I-NP,I-ORG
+Miguel,NNP,I-NP,I-ORG
+beat,VBD,B-VP,O
+Shell,NN,B-NP,B-ORG
+120-103,CD,I-NP,O
+(,(,O,O
+65-56,CD,B-NP,O
+),),O,O

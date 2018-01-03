@@ -1,0 +1,12 @@
+0,1,2,3
+ ,O,O,<UNK>
+I,PRP,B-NP,O
+'ve,VBP,B-VP,O
+never,RB,I-VP,O
+tried,VBN,I-VP,O
+it,PRP,B-NP,O
+and,CC,O,O
+why,WRB,B-ADVP,O
+should,MD,O,O
+I,PRP,B-NP,O
+?,.,O,O

@@ -1,0 +1,6 @@
+0,1,2,3
+R.,NNP,B-NP,B-PER
+Irani,NNP,I-NP,I-PER
+not,RB,O,O
+out,IN,B-PP,O
+6,CD,B-NP,O

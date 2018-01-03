@@ -1,0 +1,21 @@
+0,1,2,3
+The,DT,B-NP,O
+elections,NNS,I-NP,O
+which,WDT,B-NP,O
+are,VBP,B-VP,O
+valid,JJ,B-ADJP,O
+are,VBP,B-VP,O
+those,DT,B-NP,O
+conducted,VBN,B-VP,O
+by,IN,B-PP,O
+the,DT,B-NP,O
+international,JJ,I-NP,O
+community,NN,I-NP,O
+under,IN,B-PP,O
+the,DT,B-NP,O
+management,NN,I-NP,O
+of,IN,B-PP,O
+the,DT,B-NP,O
+OSCE,NNP,I-NP,B-ORG
+.,.,I-NP,O
+ ,O,O,<UNK>

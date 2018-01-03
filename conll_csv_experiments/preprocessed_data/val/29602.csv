@@ -1,0 +1,8 @@
+0,1,2,3
+between,IN,B-PP,O
+Roermond,NNP,B-NP,B-LOC
+and,CC,I-NP,O
+Landgraaf,NNP,I-NP,B-LOC
+on,IN,B-PP,O
+Saturday,NNP,B-NP,O
+:,:,O,O

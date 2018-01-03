@@ -1,0 +1,17 @@
+0,1,2,3
+In,IN,B-PP,O
+1995,CD,B-NP,O
+",",",",O,O
+Kekkila,NNP,B-NP,B-ORG
+reported,VBD,B-VP,O
+a,DT,O,O
+5.6,CD,O,O
+million,CD,O,O
+markka,NNS,B-NP,O
+loss,NN,I-NP,O
+before,IN,B-PP,O
+extraordinary,JJ,B-NP,O
+items,NNS,I-NP,O
+and,CC,I-NP,O
+tax,NN,I-NP,O
+.,.,O,O

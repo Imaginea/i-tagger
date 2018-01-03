@@ -1,0 +1,11 @@
+0,1,2,3
+Right,RB,B-ADVP,O
+now,RB,I-ADVP,O
+",",",",O,O
+Wall,NNP,B-NP,B-LOC
+Street,NNP,I-NP,I-LOC
+is,VBZ,B-VP,O
+pondering,VBG,I-VP,O
+the,DT,B-NP,O
+candidates,NNS,I-NP,O
+.,.,O,O

@@ -1,0 +1,15 @@
+0,1,2,3
+We,PRP,B-NP,O
+often,RB,B-ADVP,O
+see,VBP,B-VP,O
+people,NNS,B-NP,O
+dressed,VBN,B-VP,O
+in,IN,B-PP,O
+military-style,JJ,B-NP,O
+clothing,NN,I-NP,O
+here,RB,B-ADVP,O
+",",",",O,O
+ ,O,O,<UNK>
+he,PRP,B-NP,O
+said,VBD,B-VP,O
+.,.,O,O

@@ -1,0 +1,11 @@
+0,1,2,3
+ ,O,O,<UNK>
+None,NN,B-NP,O
+of,IN,B-PP,O
+the,DT,B-NP,O
+treaties,NNS,I-NP,O
+are,VBP,B-VP,O
+ready,JJ,B-ADJP,O
+to,TO,B-VP,O
+move,VB,I-VP,O
+.,.,O,O

@@ -1,0 +1,10 @@
+0,1,2,3
+Quarter-finals,NNS,B-NP,O
+Boardman,NNP,B-NP,B-PER
+4:14.784,CD,I-NP,O
+caught,VBD,B-VP,O
+Edouard,NNP,B-NP,B-PER
+Gritson,NNP,I-NP,I-PER
+(,(,O,O
+Russia,NNP,B-NP,B-LOC
+),),O,O

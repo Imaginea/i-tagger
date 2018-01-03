@@ -1,0 +1,34 @@
+0,1,2,3
+ ,O,O,<UNK>
+There,EX,B-NP,O
+has,VBZ,B-VP,O
+been,VBN,I-VP,O
+some,DT,B-NP,O
+shooting,NN,I-NP,O
+from,IN,B-PP,O
+their,PRP$,B-NP,O
+side,NN,I-NP,O
+but,CC,O,O
+it,PRP,B-NP,O
+has,VBZ,B-VP,O
+been,VBN,I-VP,O
+relatively,RB,B-ADJP,O
+quiet,JJ,I-ADJP,O
+",",",",O,O
+ ,O,O,<UNK>
+said,VBD,B-VP,O
+fighter,NN,B-NP,O
+Aslan,NNP,I-NP,B-PER
+Shabazov,NNP,I-NP,I-PER
+",",",",O,O
+a,DT,B-NP,O
+bearded,JJ,I-NP,O
+man,NN,I-NP,O
+wearing,VBG,B-VP,O
+a,DT,B-NP,O
+white,JJ,I-NP,O
+t-shirt,NN,I-NP,O
+and,CC,O,O
+camoflage,NN,B-NP,O
+trousers,NNS,I-NP,O
+.,.,O,O

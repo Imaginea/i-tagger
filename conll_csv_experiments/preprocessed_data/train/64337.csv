@@ -1,0 +1,14 @@
+0,1,2,3
+BABEL,NNP,B-NP,B-ORG
+-,:,O,O
+Blaming,NNP,B-VP,O
+Iraq,NNP,B-NP,B-LOC
+for,IN,B-PP,O
+riots,NNS,B-NP,O
+in,IN,B-PP,O
+Jordan,NNP,B-NP,B-LOC
+is,VBZ,B-VP,O
+a,DT,B-NP,O
+dirty,JJ,I-NP,O
+game,NN,I-NP,O
+.,.,O,O

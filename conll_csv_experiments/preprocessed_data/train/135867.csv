@@ -1,0 +1,7 @@
+0,1,2,3
+Inquiry,NNP,B-NP,O
+and,CC,O,O
+demand,NN,B-NP,O
+very,RB,B-ADJP,O
+light,JJ,I-ADJP,O
+.,.,O,O

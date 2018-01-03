@@ -1,0 +1,8 @@
+0,1,2,3
+--,:,B-NP,O
+Wall,NNP,I-NP,B-ORG
+Street,NNP,I-NP,I-ORG
+Desk,NNP,I-NP,I-ORG
+",",",",O,O
+212-859-1734,CD,B-NP,O
+.,.,O,O

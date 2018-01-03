@@ -1,0 +1,28 @@
+0,1,2,3
+ ,O,O,<UNK>
+Seven,CD,B-NP,O
+percent,NN,I-NP,O
+creates,VBZ,B-VP,O
+psychological,JJ,B-NP,O
+problems,NNS,I-NP,O
+and,CC,O,O
+a,DT,B-NP,O
+legitimate,JJ,I-NP,O
+competitor,NN,I-NP,O
+for,IN,B-PP,O
+money,NN,B-NP,O
+from,IN,B-PP,O
+equities,NNS,B-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+said,VBD,B-VP,O
+Ralph,NNP,B-NP,B-PER
+Bloch,NNP,I-NP,I-PER
+",",",",O,O
+chief,JJ,B-NP,O
+technical,JJ,I-NP,O
+analyst,NN,I-NP,O
+at,IN,B-PP,O
+Raymond,NNP,B-NP,B-PER
+James,NNP,I-NP,I-PER
+.,.,O,O

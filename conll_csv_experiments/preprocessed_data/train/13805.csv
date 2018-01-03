@@ -1,0 +1,27 @@
+0,1,2,3
+He,PRP,B-NP,O
+also,RB,B-ADVP,O
+told,VBD,B-VP,O
+Reuters,NNP,B-NP,B-ORG
+before,IN,B-PP,O
+the,DT,B-NP,O
+retailer,NN,I-NP,O
+'s,POS,B-NP,O
+annual,JJ,I-NP,O
+meeting,NN,I-NP,O
+that,IN,B-SBAR,O
+the,DT,B-NP,O
+second,JJ,I-NP,O
+quarter,NN,I-NP,O
+could,MD,B-VP,O
+be,VB,I-VP,O
+better,JJR,B-ADJP,O
+than,IN,B-PP,O
+the,DT,B-NP,O
+first,JJ,I-NP,O
+quarter,NN,I-NP,O
+ended,VBN,B-VP,O
+May,NNP,B-NP,O
+4,CD,I-NP,O
+.,.,O,O
+ ,O,O,<UNK>

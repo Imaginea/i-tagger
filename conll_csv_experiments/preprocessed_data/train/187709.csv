@@ -1,0 +1,14 @@
+0,1,2,3
+Andrea,NNP,B-NP,B-PER
+Collinelli,NNP,I-NP,I-PER
+(,(,O,O
+Italy,NNP,B-NP,B-LOC
+),),O,O
+4:16.141,CD,B-NP,O
+beat,NN,I-NP,O
+Francis,NNP,I-NP,B-PER
+Moreau,NNP,I-NP,I-PER
+(,(,O,O
+France,NNP,B-NP,B-LOC
+),),O,O
+4:19.665,CD,B-NP,O

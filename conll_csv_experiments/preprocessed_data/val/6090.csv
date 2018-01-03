@@ -1,0 +1,9 @@
+0,1,2,3
+1.,CD,B-NP,O
+Falilat,NNP,I-NP,B-PER
+Ogunkoya,NNP,I-NP,I-PER
+(,(,O,O
+Nigeria,NNP,B-NP,B-LOC
+),),O,O
+50.31,CD,B-NP,O
+seconds,NNS,I-NP,O

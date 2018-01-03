@@ -1,0 +1,9 @@
+0,1,2,3
+tournament,NN,B-NP,O
+.,.,O,O
+There,EX,B-NP,O
+is,VBZ,B-VP,O
+no,DT,B-NP,O
+overall,JJ,I-NP,O
+champion,NN,I-NP,O
+.,.,O,O

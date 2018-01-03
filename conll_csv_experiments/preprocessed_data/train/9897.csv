@@ -1,0 +1,4 @@
+0,1,2,3
+Qualifier,NN,B-NP,O
+vs.,FW,B-PP,O
+qualifier,JJR,B-ADJP,O

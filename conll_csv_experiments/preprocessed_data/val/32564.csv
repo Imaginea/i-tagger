@@ -1,0 +1,7 @@
+0,1,2,3
+LONDON,NNP,B-NP,B-LOC
+1996-08-31,NNP,I-NP,O
+Scottish,JJ,B-NP,B-MISC
+league,NN,I-NP,O
+standings,NNS,I-NP,O
+after,IN,B-PP,O

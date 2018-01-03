@@ -1,0 +1,25 @@
+0,1,2,3
+Although,IN,B-SBAR,O
+fake,JJ,B-NP,O
+guns,NNS,I-NP,O
+are,VBP,B-VP,O
+legal,JJ,B-NP,O
+",",",",O,O
+the,DT,B-NP,O
+use,NN,I-NP,O
+he,PRP,B-NP,O
+made,VBD,B-VP,O
+of,IN,B-PP,O
+them,PRP,B-NP,O
+means,VBZ,B-VP,O
+he,PRP,B-NP,O
+could,MD,B-VP,O
+be,VB,I-VP,O
+tried,VBN,I-VP,O
+",",",",O,O
+ ,O,O,<UNK>
+a,DT,B-NP,O
+police,NN,I-NP,O
+official,NN,I-NP,O
+said,VBD,B-VP,O
+.,.,O,O

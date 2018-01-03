@@ -1,0 +1,9 @@
+0,1,2,3
+Denmark,NNP,B-NP,B-LOC
+'s,POS,B-NP,O
+Radiometer,NNP,I-NP,O
+H1,NNP,I-NP,O
+result,NN,I-NP,O
+seen,VBN,B-VP,O
+flat,JJ,B-ADJP,O
+.,.,O,O

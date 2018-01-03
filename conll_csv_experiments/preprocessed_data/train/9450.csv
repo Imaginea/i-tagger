@@ -1,0 +1,10 @@
+0,1,2,3
+National,NNP,B-NP,B-LOC
+Tennis,NNP,I-NP,I-LOC
+Centre,NNP,I-NP,I-LOC
+(,(,O,O
+prefix,JJ,B-NP,O
+denotes,NNS,I-NP,O
+seeding,VBG,B-VP,O
+),),O,O
+:,:,O,O

@@ -1,0 +1,13 @@
+0,1,2,3
+(,(,O,O
+Zimbabwe,NNP,B-NP,B-LOC
+),),O,O
+",",",",O,O
+Padraig,NNP,B-NP,B-PER
+Harrington,NNP,I-NP,I-PER
+(,(,O,O
+Ireland,NNP,B-NP,B-LOC
+),),O,O
+",",",",O,O
+Pedro,NNP,B-NP,B-PER
+Linhart,NNP,I-NP,I-PER

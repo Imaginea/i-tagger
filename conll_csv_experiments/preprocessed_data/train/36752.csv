@@ -1,0 +1,8 @@
+0,1,2,3
+2.,CD,B-NP,O
+Marie-Jose,NNP,I-NP,B-PER
+Perec,NNP,I-NP,I-PER
+(,(,O,O
+France,NNP,B-NP,B-LOC
+),),O,O
+49.72,CD,B-NP,O

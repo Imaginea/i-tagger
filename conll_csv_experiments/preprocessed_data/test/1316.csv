@@ -1,0 +1,8 @@
+0,1,2,3
+10.,CD,B-NP,O
+Katleen,NNP,I-NP,B-PER
+Allais,NNPS,I-NP,I-PER
+(,(,O,O
+France,NNP,B-NP,B-LOC
+),),O,O
+21.58,CD,B-NP,O

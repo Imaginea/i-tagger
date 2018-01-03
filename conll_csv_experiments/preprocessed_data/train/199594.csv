@@ -1,0 +1,26 @@
+0,1,2,3
+Republicans,NNS,B-NP,B-MISC
+hope,VBP,B-VP,O
+to,TO,I-VP,O
+seize,VB,I-VP,O
+on,IN,B-PP,O
+the,DT,B-NP,O
+ ,O,O,<UNK>
+character,NN,B-NP,O
+ ,O,O,<UNK>
+issue,NN,B-NP,O
+to,TO,B-VP,O
+bolster,VB,I-VP,O
+Clinton,NNP,B-NP,B-PER
+'s,POS,B-NP,O
+challenger,NN,I-NP,O
+Bob,NNP,I-NP,B-PER
+Dole,NNP,I-NP,I-PER
+in,IN,B-PP,O
+the,DT,B-NP,O
+final,JJ,I-NP,O
+weeks,NNS,I-NP,O
+of,IN,B-PP,O
+the,DT,B-NP,O
+campaign,NN,I-NP,O
+.,.,O,O

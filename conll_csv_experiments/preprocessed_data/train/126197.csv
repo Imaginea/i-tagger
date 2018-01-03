@@ -1,0 +1,17 @@
+0,1,2,3
+Teemu,NNP,B-NP,B-PER
+Selanne,NNP,I-NP,I-PER
+(,(,O,O
+11th,JJ,B-NP,O
+),),O,O
+",",",",O,O
+Jyrki,NNP,B-NP,B-PER
+Lumme,NNP,I-NP,I-PER
+(,(,O,O
+13th,JJ,B-NP,O
+and,CC,I-NP,O
+51st,JJ,I-NP,O
+),),O,O
+",",",",O,O
+Janne,NNP,B-NP,B-PER
+Ojanen,NNP,I-NP,I-PER

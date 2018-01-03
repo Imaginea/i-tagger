@@ -1,0 +1,8 @@
+0,1,2,3
+2.,NNP,B-NP,O
+Samuel,NNP,I-NP,B-PER
+Matete,NNP,I-NP,I-PER
+(,(,O,O
+Zambia,NNP,B-NP,B-LOC
+),),O,O
+48.34,CD,B-NP,O

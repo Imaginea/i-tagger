@@ -1,0 +1,11 @@
+0,1,2,3
+Our,PRP$,B-NP,O
+personal,JJ,I-NP,O
+and,CC,I-NP,O
+religious,JJ,I-NP,O
+liberties,NNS,I-NP,O
+would,MD,B-VP,O
+be,VB,I-VP,O
+at,IN,B-PP,O
+risk,NN,B-NP,O
+.,.,O,O

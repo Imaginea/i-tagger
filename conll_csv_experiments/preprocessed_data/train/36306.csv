@@ -1,0 +1,8 @@
+0,1,2,3
+2.,NNP,B-NP,O
+Patricia,NNP,I-NP,B-PER
+Djate,NNP,I-NP,I-PER
+(,(,O,O
+France,NNP,B-NP,B-LOC
+),),O,O
+4:02.26,CD,B-NP,O

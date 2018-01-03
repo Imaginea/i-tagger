@@ -1,0 +1,19 @@
+0,1,2,3
+I,PRP,B-NP,O
+think,VBP,B-VP,O
+he,PRP,B-NP,O
+got,VBD,B-VP,O
+a,DT,B-NP,O
+little,JJ,I-NP,O
+tight,JJ,I-NP,O
+at,IN,B-PP,O
+a,DT,B-NP,O
+couple,NN,I-NP,O
+of,IN,B-PP,O
+moments,NNS,B-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+said,VBD,B-VP,O
+Washington,NNP,B-NP,B-PER
+.,.,I-NP,O
+ ,O,O,<UNK>

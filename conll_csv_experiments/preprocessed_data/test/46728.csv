@@ -1,0 +1,15 @@
+0,1,2,3
+71,CD,B-NP,O
+",",",",O,O
+Andrew,NNP,B-NP,B-PER
+Park,NNP,I-NP,I-PER
+72,CD,I-NP,O
+67,CD,I-NP,O
+75,CD,I-NP,O
+",",",",O,O
+Desvonde,NNP,B-NP,B-PER
+Botes,NNPS,I-NP,I-PER
+72,CD,I-NP,O
+68,CD,I-NP,O
+74,CD,B-NP,O
+.,.,O,O

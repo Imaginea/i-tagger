@@ -1,0 +1,8 @@
+0,1,2,3
+G.,NNP,B-NP,B-PER
+Flower,NNP,I-NP,I-PER
+c,SYM,O,O
+Ponting,NNP,B-NP,B-PER
+b,SYM,O,O
+Flemming,VBG,B-VP,B-PER
+7,CD,B-NP,O

@@ -1,0 +1,20 @@
+0,1,2,3
+In,IN,B-PP,O
+the,DT,B-NP,O
+second,JJ,I-NP,O
+half,NN,I-NP,O
+of,IN,B-PP,O
+September,NNP,B-NP,O
+and,CC,I-NP,O
+October,NNP,I-NP,O
+we,PRP,B-NP,O
+see,VBP,B-VP,O
+the,DT,B-NP,O
+premium,NN,I-NP,O
+coming,VBG,B-VP,O
+off,RP,B-PRT,O
+to,TO,B-VP,O
+70-75,CD,B-NP,O
+cents,NNS,I-NP,O
+.,.,O,O
+ ,O,O,<UNK>

@@ -1,0 +1,22 @@
+0,1,2,3
+ ,O,O,<UNK>
+They,PRP,B-NP,O
+respect,VBP,B-VP,O
+employees,NNS,B-NP,O
+more,RBR,B-ADJP,O
+",",",",O,O
+they,PRP,B-NP,O
+trust,VBP,B-VP,O
+employees,NNS,B-NP,O
+more,JJR,I-NP,O
+and,CC,I-NP,O
+they,PRP,I-NP,O
+value,NN,I-NP,O
+their,PRP$,B-NP,O
+employees,NNS,I-NP,O
+more,RBR,B-ADJP,O
+",",",",O,O
+ ,O,O,<UNK>
+O'Neal,NNP,B-NP,B-PER
+said,VBD,B-VP,O
+.,.,O,O

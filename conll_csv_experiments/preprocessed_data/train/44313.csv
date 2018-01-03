@@ -1,0 +1,15 @@
+0,1,2,3
+CROP,NNP,B-NP,O
+IMPACT-,NNP,I-NP,O
+Conditions,NNPS,I-NP,O
+remain,VBP,B-VP,O
+favorable,JJ,B-ADJP,O
+for,IN,B-PP,O
+the,DT,B-NP,O
+development,NN,I-NP,O
+of,IN,B-PP,O
+rice,NN,B-NP,O
+in,IN,B-PP,O
+the,DT,B-NP,O
+region,NN,I-NP,O
+.,.,O,O

@@ -1,0 +1,11 @@
+0,1,2,3
+Playing,VBG,B-VP,O
+at,IN,B-PP,O
+night,NN,B-NP,O
+was,VBD,B-VP,O
+not,RB,O,O
+Muster,NNP,B-NP,B-PER
+'s,POS,B-NP,O
+preference,NN,I-NP,O
+.,.,O,O
+ ,O,O,<UNK>

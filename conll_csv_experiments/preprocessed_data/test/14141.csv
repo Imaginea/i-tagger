@@ -1,0 +1,7 @@
+0,1,2,3
+New,JJ,B-NP,O
+meningitis,NNS,I-NP,O
+scare,VBP,B-VP,O
+hits,NNS,B-NP,O
+Britain,NNP,I-NP,B-LOC
+.,.,O,O

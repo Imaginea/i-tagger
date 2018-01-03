@@ -1,0 +1,10 @@
+0,1,2,3
+Women,NNS,B-NP,O
+:,:,O,O
+1.,CD,B-NP,O
+Veronica,NN,I-NP,B-PER
+Brenner,NNP,I-NP,I-PER
+(,(,O,O
+Canada,NNP,B-NP,B-LOC
+),),O,O
+170.42,CD,B-NP,O

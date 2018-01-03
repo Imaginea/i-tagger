@@ -1,0 +1,13 @@
+0,1,2,3
+It,PRP,B-NP,O
+said,VBD,B-VP,O
+the,DT,B-NP,O
+ban,NN,I-NP,O
+applied,VBN,B-VP,O
+to,TO,B-PP,O
+Senegalese,NNP,B-NP,B-MISC
+nationals,NNS,I-NP,O
+and,CC,O,O
+foreign,JJ,B-NP,O
+residents,NNS,I-NP,O
+.,.,O,O

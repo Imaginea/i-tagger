@@ -1,0 +1,7 @@
+0,1,2,3
+Olga,NNP,B-NP,B-PER
+Boshova,NNP,I-NP,I-PER
+(,(,O,O
+Moldova,NNP,B-NP,B-LOC
+),),O,O
+1.85,CD,B-NP,O

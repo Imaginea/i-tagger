@@ -1,0 +1,14 @@
+0,1,2,3
+Medicaid,NNP,B-NP,B-MISC
+would,MD,B-VP,O
+be,VB,I-VP,O
+at,IN,B-PP,O
+risk,NN,B-NP,O
+of,IN,B-PP,O
+being,VBG,B-VP,O
+taken,VBN,I-VP,O
+away,RB,B-ADVP,O
+from,IN,B-PP,O
+poor,JJ,B-NP,O
+children,NNS,I-NP,O
+.,.,O,O

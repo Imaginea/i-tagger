@@ -1,0 +1,14 @@
+0,1,2,3
+7,CD,B-NP,O
+-,:,I-NP,O
+Robbie,NNP,I-NP,B-PER
+Earle,NNP,I-NP,I-PER
+(,(,O,O
+Wimbledon,NNP,B-NP,B-LOC
+),),O,O
+",",",",O,O
+Les,NNP,B-NP,B-PER
+Ferdinand,NNP,I-NP,I-PER
+(,(,O,O
+Newcastle,NNP,B-NP,B-ORG
+),),O,O

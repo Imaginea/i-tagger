@@ -1,0 +1,13 @@
+0,1,2,3
+It,PRP,B-NP,O
+was,VBD,B-VP,O
+the,DT,B-NP,O
+first,JJ,I-NP,O
+surplus,NN,I-NP,O
+since,IN,B-SBAR,O
+the,DT,B-NP,O
+fourth,JJ,I-NP,O
+quarter,NN,I-NP,O
+of,IN,B-PP,O
+1984,CD,B-NP,O
+.,.,O,O

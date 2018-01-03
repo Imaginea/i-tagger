@@ -1,0 +1,11 @@
+0,1,2,3
+State,NN,B-NP,O
+security,NN,I-NP,O
+officials,NNS,I-NP,O
+were,VBD,B-VP,O
+not,RB,I-VP,O
+immediately,RB,I-VP,O
+available,JJ,B-ADJP,O
+for,IN,B-PP,O
+comment,NN,B-NP,O
+.,.,O,O

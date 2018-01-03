@@ -1,0 +1,15 @@
+0,1,2,3
+Smyth,NN,B-NP,B-PER
+(,(,O,O
+Ireland,NNP,B-NP,B-LOC
+),),O,O
+66,CD,B-NP,O
+69,CD,I-NP,O
+",",",",O,O
+David,NNP,B-NP,B-PER
+Carter,NNP,I-NP,I-PER
+66,CD,I-NP,O
+69,CD,I-NP,O
+",",",",O,O
+Steve,NNP,B-NP,B-PER
+Webster,NNP,I-NP,I-PER

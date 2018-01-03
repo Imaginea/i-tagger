@@ -1,0 +1,12 @@
+0,1,2,3
+OMAHA,NNP,B-NP,B-LOC
+1996-12-06,CD,I-NP,O
+Slaughter,NNP,B-NP,O
+steers,VBZ,B-VP,O
+and,CC,I-VP,O
+heifers,VBZ,I-VP,O
+were,VBD,B-VP,O
+not,RB,I-VP,O
+established,VBD,I-VP,O
+Thursday,NNP,B-NP,O
+.,.,O,O

@@ -1,0 +1,8 @@
+0,1,2,3
+The,DT,B-NP,O
+girl,NN,I-NP,O
+was,VBD,B-VP,O
+taken,VBN,I-VP,O
+to,TO,B-PP,O
+hospital,NN,B-NP,O
+.,.,O,O

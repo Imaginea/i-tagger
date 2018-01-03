@@ -1,0 +1,13 @@
+0,1,2,3
+Police,NNS,B-NP,O
+said,VBD,B-VP,O
+they,PRP,B-NP,O
+made,VBD,B-VP,O
+30,CD,B-NP,O
+arrests,NNS,I-NP,O
+and,CC,O,O
+there,EX,B-NP,O
+were,VBD,B-VP,O
+two,CD,B-NP,O
+stabbings,NNS,I-NP,O
+.,.,O,O

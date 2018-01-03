@@ -1,0 +1,8 @@
+0,1,2,3
+7.,NNP,B-NP,O
+Claus,NNP,I-NP,B-PER
+Hirsbro,NNP,I-NP,I-PER
+(,(,O,O
+Denmark,NNP,B-NP,B-LOC
+),),O,O
+20.90,CD,B-NP,O

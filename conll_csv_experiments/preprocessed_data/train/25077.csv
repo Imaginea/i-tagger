@@ -1,0 +1,11 @@
+0,1,2,3
+Two,CD,B-NP,O
+pct,JJ,I-NP,O
+India,NNP,I-NP,B-LOC
+current,JJ,I-NP,O
+account,NN,I-NP,O
+deficit,NN,I-NP,O
+viable,JJ,I-NP,O
+-,:,I-NP,O
+RBI,NNP,I-NP,B-ORG
+.,.,O,O

@@ -1,0 +1,17 @@
+0,1,2,3
+Holstein,NN,B-NP,O
+-,:,O,O
+(,(,O,O
+weight,NN,B-NP,O
+only,RB,B-ADVP,O
+),),O,O
+Select,NNP,B-NP,O
+to,TO,B-VP,O
+mostly,RB,B-ADVP,O
+Choice,NNP,B-NP,O
+2-3,CD,I-NP,O
+1250-1400,CD,I-NP,O
+lbs,NNS,I-NP,O
+no,RB,B-ADVP,O
+sales,NNS,B-NP,O
+.,.,O,O

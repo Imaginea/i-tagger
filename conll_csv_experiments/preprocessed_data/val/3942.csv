@@ -1,0 +1,9 @@
+0,1,2,3
+But,CC,O,O
+I,PRP,B-NP,O
+think,VBP,B-VP,O
+it,PRP,B-NP,O
+'s,VBZ,B-VP,O
+not,RB,O,O
+that,IN,B-SBAR,O
+.,.,O,O

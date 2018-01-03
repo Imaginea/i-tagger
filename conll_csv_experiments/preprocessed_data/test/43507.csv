@@ -1,0 +1,11 @@
+0,1,2,3
+9,CD,B-NP,O
+-,:,I-NP,O
+Fabrizio,NNP,I-NP,B-PER
+Ravanelli,NNP,I-NP,I-PER
+(,(,O,O
+Middlesbrough,NNP,B-NP,B-ORG
+),),O,O
+",",",",O,O
+Alan,NNP,B-NP,B-PER
+Shearer,NNP,I-NP,I-PER

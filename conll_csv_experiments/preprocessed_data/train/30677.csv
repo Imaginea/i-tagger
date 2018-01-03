@@ -1,0 +1,8 @@
+0,1,2,3
+G.,NNP,B-NP,B-PER
+Thorpe,NNP,I-NP,I-PER
+lbw,NN,I-NP,O
+b,SYM,O,O
+Mohammad,NNP,B-NP,B-PER
+Akram,NNP,I-NP,I-PER
+54,CD,I-NP,O

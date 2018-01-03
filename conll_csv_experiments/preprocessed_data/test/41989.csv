@@ -1,0 +1,24 @@
+0,1,2,3
+A,DT,B-NP,O
+visit,NN,I-NP,O
+to,TO,B-PP,O
+India,NNP,B-NP,B-LOC
+is,VBZ,B-VP,O
+always,RB,B-ADVP,O
+an,DT,B-NP,O
+intriguing,JJ,I-NP,O
+experience,NN,I-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+Woolmer,NNP,B-NP,B-PER
+",",",",O,O
+now,RB,B-ADVP,O
+the,DT,B-NP,O
+South,JJ,I-NP,B-MISC
+African,JJ,I-NP,I-MISC
+coach,NN,I-NP,O
+",",",",O,O
+said,VBD,B-VP,O
+on,IN,B-PP,O
+Saturday,NNP,B-NP,O
+.,.,O,O

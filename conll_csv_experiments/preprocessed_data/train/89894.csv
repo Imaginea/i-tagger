@@ -1,0 +1,12 @@
+0,1,2,3
+I,PRP,B-NP,O
+think,VBP,B-VP,O
+we,PRP,B-NP,O
+can,MD,B-VP,O
+look,VB,I-VP,O
+forward,RB,B-ADVP,O
+to,TO,B-PP,O
+further,JJ,B-NP,O
+growth,NN,I-NP,O
+ ,O,O,<UNK>
+.,.,O,O

@@ -1,0 +1,10 @@
+0,1,2,3
+1996,CD,B-NP,O
+1995,CD,I-NP,O
+Shr,NN,B-NP,O
+loss,NN,I-NP,O
+$,$,I-NP,O
+0.22,CD,I-NP,O
+loss,NN,I-NP,O
+$,$,I-NP,O
+0.07,CD,I-NP,O

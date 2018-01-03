@@ -1,0 +1,6 @@
+0,1,2,3
+seedings,NNS,B-NP,O
+:,:,O,O
+Finals,NNS,B-NP,O
+",",",",O,O
+singles,VBZ,B-VP,O

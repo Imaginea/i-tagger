@@ -1,0 +1,30 @@
+0,1,2,3
+The,DT,B-NP,O
+government,NN,I-NP,O
+would,MD,B-VP,O
+put,VB,I-VP,O
+land,NN,B-NP,O
+on,IN,B-PP,O
+the,DT,B-NP,O
+market,NN,I-NP,O
+to,TO,B-VP,O
+stop,VB,I-VP,O
+rentals,NNS,B-NP,O
+ ,O,O,<UNK>
+going,VBG,B-VP,O
+through,IN,B-PP,O
+the,DT,B-NP,O
+roof,NN,I-NP,O
+ ,O,O,<UNK>
+",",",",O,O
+but,CC,O,O
+this,DT,B-NP,O
+would,MD,B-VP,O
+mean,VB,I-VP,O
+reclamation,NN,B-NP,O
+",",",",O,O
+with,IN,B-PP,O
+possible,JJ,B-NP,O
+environmental,JJ,I-NP,O
+problems,NNS,I-NP,O
+.,.,O,O

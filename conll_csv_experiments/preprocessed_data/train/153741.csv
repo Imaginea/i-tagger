@@ -1,0 +1,15 @@
+0,1,2,3
+Zubair,NNP,B-NP,B-PER
+Jahan,NNP,I-NP,I-PER
+Khan,NNP,I-NP,I-PER
+(,(,O,O
+Pakistan,NNP,B-NP,B-LOC
+),),O,O
+beat,VB,B-VP,O
+Faheem,NNP,B-NP,B-PER
+Khan,NNP,I-NP,I-PER
+(,(,O,O
+Hong,NNP,B-NP,B-LOC
+Kong,NNP,I-NP,I-LOC
+),),O,O
+12-15,CD,B-NP,O

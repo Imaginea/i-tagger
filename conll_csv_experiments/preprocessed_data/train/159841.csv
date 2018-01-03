@@ -1,0 +1,6 @@
+0,1,2,3
+Christie,NN,B-NP,B-PER
+belongs,VBZ,B-VP,O
+to,TO,I-VP,O
+them,PRP,B-NP,O
+.,.,O,O

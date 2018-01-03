@@ -1,0 +1,12 @@
+0,1,2,3
+Fall,NN,B-NP,O
+of,IN,B-PP,O
+wickets,NN,B-NP,O
+:,:,O,O
+1-106,CD,B-NP,O
+2-239,CD,I-NP,O
+3-334,CD,I-NP,O
+4-334,CD,I-NP,O
+5-365,CD,I-NP,O
+6-440,CD,I-NP,O
+7-502,CD,I-NP,O

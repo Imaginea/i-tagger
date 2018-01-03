@@ -1,0 +1,11 @@
+0,1,2,3
+ ,O,O,<UNK>
+I,PRP,B-NP,O
+look,VBP,B-VP,O
+forward,RB,B-ADVP,O
+to,TO,B-VP,O
+continuing,VBG,B-NP,O
+our,PRP$,I-NP,O
+good,JJ,I-NP,O
+relations,NNS,I-NP,O
+...,:,O,O

@@ -1,0 +1,6 @@
+0,1,2,3
+9-2,CD,B-NP,O
+Davor,NNP,I-NP,B-PER
+Suker,NNP,I-NP,I-PER
+9-2,NNP,I-NP,O
+Ronaldo,NNP,I-NP,B-PER

@@ -1,0 +1,4 @@
+0,1,2,3
+International,NNP,B-NP,O
+reserves,NNS,I-NP,O
+and,CC,O,O

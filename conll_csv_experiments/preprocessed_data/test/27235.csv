@@ -1,0 +1,10 @@
+0,1,2,3
+NYMEX,NN,B-NP,B-ORG
+natgas,NN,I-NP,O
+ends,VBZ,B-VP,O
+sharply,RB,I-VP,O
+lower,VB,I-VP,O
+on,IN,B-PP,O
+weather,NN,B-NP,O
+outlook,NN,I-NP,O
+.,.,O,O

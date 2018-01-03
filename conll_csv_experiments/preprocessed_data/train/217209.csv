@@ -1,0 +1,14 @@
+0,1,2,3
+Otherwise,RB,B-ADVP,O
+",",",",O,O
+you,PRP,B-NP,O
+get,VB,B-VP,O
+selling,VBG,I-VP,O
+out,IN,B-PP,O
+of,IN,B-PP,O
+Tokyo,NNP,B-NP,B-LOC
+and,CC,I-NP,O
+Frankfurt,NNP,I-NP,B-LOC
+again,RB,B-ADVP,O
+.,.,O,O
+ ,O,O,<UNK>

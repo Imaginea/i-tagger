@@ -1,0 +1,11 @@
+0,1,2,3
+Queen,NNP,B-NP,B-ORG
+of,IN,B-PP,I-ORG
+South,NNP,B-NP,I-ORG
+3,CD,I-NP,O
+2,CD,I-NP,O
+0,CD,I-NP,O
+1,CD,I-NP,O
+5,CD,I-NP,O
+4,CD,I-NP,O
+6,CD,I-NP,O

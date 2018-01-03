@@ -1,0 +1,13 @@
+0,1,2,3
+Robert,NNP,B-NP,B-PER
+Casey,NNP,I-NP,I-PER
+",",",",O,O
+a,DT,B-NP,O
+vehement,JJ,I-NP,O
+opponent,NN,I-NP,O
+of,IN,B-PP,O
+abortion,NN,B-NP,O
+",",",",O,O
+from,IN,B-PP,O
+speaking,VBG,B-VP,O
+.,.,O,O

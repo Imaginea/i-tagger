@@ -1,0 +1,8 @@
+0,1,2,3
+IPO,NN,B-NP,B-ORG
+FILING,NN,I-NP,O
+-,:,O,O
+Transkaryotic,NNP,B-NP,B-ORG
+Therapies,NNPS,I-NP,I-ORG
+Inc,NNP,I-NP,I-ORG
+.,.,O,O

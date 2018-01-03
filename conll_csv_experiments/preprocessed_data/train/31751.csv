@@ -1,0 +1,8 @@
+0,1,2,3
+It,PRP,B-NP,O
+was,VBD,B-VP,O
+mostly,RB,B-ADJP,O
+short,JJ,I-ADJP,O
+points,NNS,B-NP,O
+.,.,O,O
+ ,O,O,<UNK>

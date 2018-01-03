@@ -1,0 +1,33 @@
+0,1,2,3
+He,PRP,B-NP,O
+told,VBD,B-VP,O
+Reuters,NNP,B-NP,B-ORG
+the,DT,B-NP,O
+reason,NN,I-NP,O
+was,VBD,B-VP,O
+his,PRP$,B-NP,O
+own,JJ,I-NP,O
+front-page,JJ,I-NP,O
+editorial,NN,I-NP,O
+",",",",O,O
+entitled,VBN,B-VP,O
+ ,O,O,<UNK>
+A,DT,B-NP,O
+Chronic,NNP,I-NP,O
+Mental,NNP,I-NP,O
+Illness,NNP,I-NP,O
+ ,O,O,<UNK>
+in,IN,B-PP,O
+which,WDT,B-NP,O
+he,PRP,B-NP,O
+attacks,NNS,I-NP,O
+compliant,JJ,B-ADJP,O
+Arab,JJ,I-ADJP,B-MISC
+leaders,NNS,B-NP,O
+for,IN,B-PP,O
+serving,VBG,B-VP,O
+U.S.,NNP,B-NP,B-LOC
+and,CC,I-NP,O
+Israeli,JJ,I-NP,B-MISC
+interests,NNS,I-NP,O
+.,.,O,O

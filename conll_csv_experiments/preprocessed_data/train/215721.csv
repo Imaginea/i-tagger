@@ -1,0 +1,12 @@
+0,1,2,3
+GDP,NNP,B-NP,O
+Yr-yr,JJ,B-NP,O
+(,(,O,O
+%,NN,B-NP,O
+),),O,O
+Q1,NN,B-NP,O
++1.9,CD,I-NP,O
++2.3R,CD,I-NP,O
++3.4,CD,I-NP,O
+-,:,I-NP,O
+-,:,O,O

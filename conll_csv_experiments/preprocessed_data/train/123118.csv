@@ -1,0 +1,17 @@
+0,1,2,3
+Lisa,NNP,B-NP,B-PER
+Raymond,NNP,I-NP,I-PER
+(,(,O,O
+U.S.,NNP,B-NP,B-LOC
+),),O,O
+beat,VB,B-VP,O
+Lori,NNP,B-NP,B-PER
+McNeil,NNP,I-NP,I-PER
+(,(,O,O
+U.S.,NNP,B-NP,B-LOC
+),),O,O
+7-6,CD,B-ADVP,O
+(,(,O,O
+8-6,CD,B-NP,O
+),),O,O
+6-3,CD,B-NP,O

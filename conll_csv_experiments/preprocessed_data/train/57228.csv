@@ -1,0 +1,9 @@
+0,1,2,3
+New,NNP,B-NP,B-LOC
+Zealand,NNP,I-NP,I-LOC
+lead,NN,I-NP,O
+the,DT,B-NP,O
+three-test,JJ,I-NP,O
+series,NN,I-NP,O
+2-0,CD,I-NP,O
+.,.,O,O

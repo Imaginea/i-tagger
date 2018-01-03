@@ -1,0 +1,5 @@
+0,1,2,3
+9.,CD,B-NP,O
+Raymond,NNP,I-NP,B-PER
+Russell,NNP,I-NP,I-PER
+"229,360",CD,I-NP,O

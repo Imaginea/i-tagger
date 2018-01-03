@@ -1,0 +1,27 @@
+0,1,2,3
+ ,O,O,<UNK>
+Just,RB,B-ADVP,O
+about,IN,B-PP,O
+",",",",O,O
+ ,O,O,<UNK>
+he,PRP,B-NP,O
+told,VBD,B-VP,O
+Europe,NNP,B-NP,B-ORG
+1,CD,I-NP,I-ORG
+radio,NN,I-NP,O
+when,WRB,B-ADVP,O
+asked,VBD,B-VP,O
+whether,IN,B-SBAR,O
+he,PRP,B-NP,O
+had,VBD,B-VP,O
+sent,VBN,I-VP,O
+his,PRP$,B-NP,O
+letter,NN,I-NP,O
+of,IN,B-PP,O
+resignation,NN,B-NP,O
+to,TO,B-PP,O
+Assembly,NNP,B-NP,B-ORG
+speaker,NN,I-NP,O
+Philippe,NNP,I-NP,B-PER
+Seguin,NNP,I-NP,I-PER
+.,.,O,O

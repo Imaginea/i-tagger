@@ -1,0 +1,8 @@
+0,1,2,3
+Scorer,NNP,B-NP,O
+:,:,O,O
+Vidadi,NNP,B-NP,B-PER
+Rzayev,NNP,I-NP,I-PER
+(,(,O,O
+28th,CD,B-NP,O
+),),O,O

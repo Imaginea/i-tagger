@@ -1,0 +1,16 @@
+0,1,2,3
+16,CD,B-NP,O
+-,:,I-NP,O
+Martina,NNP,I-NP,B-PER
+Hingis,NNP,I-NP,I-PER
+(,(,O,O
+Switzerland,NNP,B-NP,B-LOC
+),),O,O
+beat,VB,B-VP,O
+Angeles,NNP,B-NP,B-PER
+Montolio,NNP,I-NP,I-PER
+(,(,O,O
+Spain,NNP,B-NP,B-LOC
+),),O,O
+6-1,JJ,B-ADVP,O
+6-0,CD,B-NP,O

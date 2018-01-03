@@ -1,0 +1,11 @@
+0,1,2,3
+5647.65,CD,B-NP,O
+(,(,O,O
+-,:,O,O
+64.73,CD,B-NP,O
+),),O,O
+$,$,B-NP,O
+387.70,CD,I-NP,O
+copper,NN,I-NP,O
+per,IN,B-PP,O
+tonne,NN,B-NP,O

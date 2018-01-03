@@ -1,0 +1,14 @@
+0,1,2,3
+Waalwijk,VBG,B-VP,B-ORG
+2,CD,B-NP,O
+(,(,O,O
+Dos,NNP,B-NP,B-PER
+Santos,NNP,I-NP,I-PER
+38th,CD,I-NP,O
+",",",",O,O
+Van,NNP,B-NP,B-PER
+Arum,NNP,I-NP,I-PER
+73th,JJ,I-NP,O
+penalty,NN,I-NP,O
+),),O,O
+.,.,O,O

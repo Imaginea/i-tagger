@@ -1,0 +1,13 @@
+0,1,2,3
+The,DT,B-NP,O
+Nasdaq,NNP,I-NP,B-MISC
+composite,JJ,I-NP,O
+index,NN,I-NP,O
+closed,VBD,B-VP,O
+3.53,CD,B-NP,O
+points,NNS,I-NP,O
+lower,RBR,B-ADVP,O
+Friday,NNP,B-NP,O
+at,IN,B-PP,O
+"1,141.50",CD,B-NP,O
+.,.,O,O

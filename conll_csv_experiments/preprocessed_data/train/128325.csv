@@ -1,0 +1,21 @@
+0,1,2,3
+ ,O,O,<UNK>
+At,IN,B-PP,O
+24,CD,B-NP,O
+",",",",I-NP,O
+25,CD,I-NP,O
+or,CC,I-NP,O
+26,CD,I-NP,O
+you,PRP,B-NP,O
+could,MD,B-VP,O
+get,VB,I-VP,O
+away,RB,B-ADVP,O
+with,IN,B-PP,O
+it,PRP,B-NP,O
+",",",",O,O
+not,RB,O,O
+having,VBG,B-VP,O
+played,VBN,I-VP,O
+first-team,JJ,B-NP,O
+games,NNS,I-NP,O
+.,.,O,O

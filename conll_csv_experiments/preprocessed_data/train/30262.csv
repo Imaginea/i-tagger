@@ -1,0 +1,15 @@
+0,1,2,3
+Second,JJ,B-NP,O
+day,NN,I-NP,O
+At,IN,B-PP,O
+Colchester,NNP,B-NP,B-LOC
+:,:,O,O
+Gloucestershire,VB,B-VP,B-ORG
+280,CD,B-NP,O
+(,(,O,O
+J.,NNP,B-NP,B-PER
+Russell,NNP,I-NP,I-PER
+63,CD,I-NP,O
+",",",",O,O
+A.,NNP,B-NP,B-PER
+Symonds,NNP,I-NP,I-PER

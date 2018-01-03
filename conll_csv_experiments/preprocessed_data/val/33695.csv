@@ -1,0 +1,6 @@
+0,1,2,3
+Inverness,NNP,B-NP,B-ORG
+Thistle,NNP,I-NP,I-ORG
+1,CD,I-NP,O
+Alloa,NNP,I-NP,B-ORG
+0,CD,I-NP,O

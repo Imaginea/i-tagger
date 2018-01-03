@@ -1,0 +1,9 @@
+0,1,2,3
+8.,CD,B-NP,O
+Ingeborg,NNP,I-NP,B-PER
+Helen,NNP,I-NP,I-PER
+Marken,NNP,I-NP,I-PER
+(,(,O,O
+Norway,NNP,B-NP,B-LOC
+),),O,O
+1:49.41,CD,B-NP,O

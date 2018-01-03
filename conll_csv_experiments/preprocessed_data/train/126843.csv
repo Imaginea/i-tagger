@@ -1,0 +1,14 @@
+0,1,2,3
+10.,CD,B-NP,O
+Michael,NNP,I-NP,B-PER
+van,NNP,I-NP,I-PER
+der,FW,I-NP,I-PER
+Wolf,NNP,I-NP,I-PER
+(,(,O,O
+Neths,NNPS,B-NP,B-LOC
+),),O,O
+Foreldorado,NNP,B-NP,B-ORG
+all,DT,O,O
+same,JJ,O,O
+time,NN,O,O
+.,.,O,O

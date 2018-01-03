@@ -1,0 +1,8 @@
+0,1,2,3
+Division,NN,B-NP,O
+one,CD,B-NP,O
+Airdrieonians,NNPS,B-NP,B-ORG
+0,CD,I-NP,O
+East,NNP,I-NP,B-ORG
+Fife,NNP,I-NP,I-ORG
+0,CD,I-NP,O

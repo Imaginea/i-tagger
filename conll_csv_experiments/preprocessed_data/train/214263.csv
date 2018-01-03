@@ -1,0 +1,6 @@
+0,1,2,3
+Mar.97,NNP,B-NP,O
+INT,NNP,I-NP,O
+PAY,NN,I-NP,O
+5,CD,I-NP,O
+.,.,O,O

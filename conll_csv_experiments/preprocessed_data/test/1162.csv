@@ -1,0 +1,10 @@
+0,1,2,3
+Men,NN,B-NP,O
+1.,CD,B-NP,O
+Jesper,NNP,I-NP,B-PER
+Ronnback,NNP,I-NP,I-PER
+(,(,O,O
+Sweden,NNP,B-NP,B-LOC
+),),O,O
+25.76,CD,B-NP,O
+points,NNS,I-NP,O

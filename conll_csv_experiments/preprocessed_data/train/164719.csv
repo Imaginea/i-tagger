@@ -1,0 +1,16 @@
+0,1,2,3
+About,IN,B-NP,O
+80,CD,I-NP,O
+Chinese,JJ,I-NP,B-MISC
+dissidents,NNS,I-NP,O
+are,VBP,B-VP,O
+believed,VBN,I-VP,O
+to,TO,I-VP,O
+be,VB,I-VP,O
+living,VBG,I-VP,O
+in,IN,B-PP,O
+exile,NN,B-NP,O
+in,IN,B-PP,O
+Hong,NNP,B-NP,B-LOC
+Kong,NNP,I-NP,I-LOC
+.,.,O,O

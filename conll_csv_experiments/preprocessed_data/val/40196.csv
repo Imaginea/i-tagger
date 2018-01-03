@@ -1,0 +1,16 @@
+0,1,2,3
+ ,O,O,<UNK>
+That,DT,B-NP,O
+'s,VBZ,B-VP,O
+where,WRB,B-ADVP,O
+the,DT,B-NP,O
+match,NN,I-NP,O
+sort,NN,I-NP,O
+of,IN,B-PP,O
+changed,VBN,B-NP,O
+",",",",I-NP,O
+ ,O,O,<UNK>
+said,VBD,B-VP,O
+Edberg,NNP,B-NP,B-PER
+.,.,I-NP,O
+ ,O,O,<UNK>

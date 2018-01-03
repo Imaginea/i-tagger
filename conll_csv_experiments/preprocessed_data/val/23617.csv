@@ -1,0 +1,15 @@
+0,1,2,3
+The,DT,B-NP,O
+generally,RB,I-NP,O
+lackluster,JJ,I-NP,O
+report,NN,I-NP,O
+on,IN,B-PP,O
+spending,NN,B-NP,O
+and,CC,I-NP,O
+incomes,NNS,I-NP,O
+in,IN,B-PP,O
+July,NNP,B-NP,O
+had,VBD,B-VP,O
+been,VBN,I-VP,O
+expected,VBN,I-VP,O
+.,.,O,O

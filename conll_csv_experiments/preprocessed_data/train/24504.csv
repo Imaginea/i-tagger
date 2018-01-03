@@ -1,0 +1,9 @@
+0,1,2,3
+India,NNP,B-NP,B-LOC
+fears,VBZ,B-VP,O
+attempts,NNS,B-NP,O
+to,TO,B-VP,O
+disrupt,VB,I-VP,O
+Kashmir,NNP,B-NP,B-LOC
+polls,NNS,I-NP,O
+.,.,O,O

@@ -1,0 +1,32 @@
+0,1,2,3
+ ,O,O,<UNK>
+People,NNS,B-NP,O
+are,VBP,B-VP,O
+morose,JJ,B-ADJP,O
+and,CC,O,O
+it,PRP,B-NP,O
+'s,VBZ,B-VP,O
+not,RB,O,O
+the,DT,B-NP,O
+post-holiday,JJ,I-NP,O
+period,NN,I-NP,O
+or,CC,O,O
+the,DT,B-NP,O
+budget,NN,I-NP,O
+or,CC,O,O
+company,NN,B-NP,O
+results,NNS,I-NP,O
+that,WDT,B-NP,O
+are,VBP,B-VP,O
+going,VBG,I-VP,O
+to,TO,I-VP,O
+lift,VB,I-VP,O
+anyone,NN,B-NP,O
+'s,POS,B-NP,O
+spirits,NNS,I-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+a,DT,B-NP,O
+broker,NN,I-NP,O
+said,VBD,B-VP,O
+.,.,O,O

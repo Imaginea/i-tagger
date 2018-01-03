@@ -1,0 +1,10 @@
+0,1,2,3
+Egypt,NNP,B-NP,B-LOC
+wants,VBZ,B-VP,O
+nothing,NN,B-NP,O
+to,TO,B-VP,O
+do,VB,I-VP,O
+with,IN,B-PP,O
+Sudanese,NNP,B-NP,B-MISC
+rulers,NNS,I-NP,O
+.,.,O,O

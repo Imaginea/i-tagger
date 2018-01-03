@@ -1,0 +1,9 @@
+0,1,2,3
+20.,CD,B-NP,O
+Giovanni,NNP,I-NP,B-PER
+Lavaggi,NNP,I-NP,I-PER
+(,(,O,O
+Italy,NNP,B-NP,B-LOC
+),),O,O
+Minardi,NNP,B-NP,B-ORG
+1:58.579,CD,I-NP,O

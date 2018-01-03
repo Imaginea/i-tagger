@@ -1,0 +1,6 @@
+0,1,2,3
+Ashta,NNP,B-NP,B-LOC
+10,CD,I-NP,O
+Yellow,NNP,I-NP,O
+"12,700-12,900",CD,I-NP,O
+"12,800-13,000",CD,I-NP,O

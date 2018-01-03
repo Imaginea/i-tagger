@@ -1,0 +1,10 @@
+0,1,2,3
+Bundesliga,NNP,B-NP,B-MISC
+standings,NNS,I-NP,O
+after,IN,B-PP,O
+Tuesday,NNP,B-NP,O
+'s,POS,B-NP,O
+games,NNS,I-NP,O
+(,(,O,O
+tabulate,NN,B-NP,O
+under,IN,B-PP,O

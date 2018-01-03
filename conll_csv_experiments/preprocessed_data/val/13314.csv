@@ -1,0 +1,8 @@
+0,1,2,3
+Polish,NNP,B-NP,B-MISC
+Foreign,NNP,I-NP,O
+Minister,NNP,I-NP,O
+to,TO,B-VP,O
+visit,VB,I-VP,O
+Yugoslavia,NNP,B-NP,B-LOC
+.,.,O,O

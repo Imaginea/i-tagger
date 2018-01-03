@@ -1,0 +1,17 @@
+0,1,2,3
+The,DT,B-NP,O
+firm,NN,I-NP,O
+also,RB,B-ADVP,O
+revised,VBD,B-VP,O
+down,RB,B-ADVP,O
+its,PRP$,B-NP,O
+year-end,NN,I-NP,O
+peso,NN,I-NP,O
+forecast,NN,I-NP,O
+to,TO,B-PP,O
+7.85-8.15,CD,B-NP,O
+per,IN,I-NP,O
+dollar,NN,I-NP,O
+from,IN,B-PP,O
+8.20-8.50,CD,B-NP,O
+.,.,O,O

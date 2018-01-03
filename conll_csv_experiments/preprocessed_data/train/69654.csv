@@ -1,0 +1,6 @@
+0,1,2,3
+International,NNP,B-NP,B-MISC
+Endurance,NNP,I-NP,I-MISC
+GT,NNP,I-NP,I-MISC
+championship,NN,I-NP,I-MISC
+:,:,O,O

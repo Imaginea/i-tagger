@@ -1,0 +1,9 @@
+0,1,2,3
+China,NNP,B-NP,B-LOC
+0,CD,I-NP,O
+Uzbekistan,NNP,I-NP,B-LOC
+2,CD,I-NP,O
+(,(,I-NP,O
+halftime,NN,I-NP,O
+0-0,CD,I-NP,O
+),),O,O

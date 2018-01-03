@@ -1,0 +1,9 @@
+0,1,2,3
+5.,NNP,B-NP,O
+Lee,NNP,I-NP,B-PER
+Kyou-hyuk,NNP,I-NP,I-PER
+(,(,O,O
+South,NNP,B-NP,B-LOC
+Korea,NNP,I-NP,I-LOC
+),),O,O
+1:16.47,CD,B-NP,O

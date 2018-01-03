@@ -1,0 +1,7 @@
+0,1,2,3
+-,:,O,O
+Revenue,NN,B-NP,O
+$,$,I-NP,O
+"15,400",CD,I-NP,O
+$,$,I-NP,O
+"10,000",CD,I-NP,O

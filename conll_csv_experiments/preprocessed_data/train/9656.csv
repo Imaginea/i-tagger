@@ -1,0 +1,15 @@
+0,1,2,3
+------------------------,SYM,O,O
+4,CD,B-NP,O
+-,:,I-NP,O
+Goran,NNP,I-NP,B-PER
+Ivanisevic,NNP,I-NP,I-PER
+(,(,O,O
+Croatia,NNP,B-NP,B-LOC
+),),O,O
+vs.,IN,B-PP,O
+Andrei,NNP,B-NP,B-PER
+Chesnokov,NNP,I-NP,I-PER
+(,(,O,O
+Russia,NNP,B-NP,B-LOC
+),),O,O

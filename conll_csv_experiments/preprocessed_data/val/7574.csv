@@ -1,0 +1,7 @@
+0,1,2,3
+R.,NNP,B-NP,B-PER
+Kaluwitharana,NNP,I-NP,I-PER
+b,SYM,O,O
+S.,NNP,B-NP,B-PER
+Waugh,NNP,I-NP,I-PER
+8,CD,I-NP,O

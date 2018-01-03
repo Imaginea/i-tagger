@@ -1,0 +1,8 @@
+0,1,2,3
+7.,NNP,B-NP,O
+Jim,NNP,I-NP,B-PER
+Moran,NNP,I-NP,I-PER
+(,(,O,O
+U.S.,NNP,B-NP,B-LOC
+),),O,O
+23.25,CD,B-NP,O

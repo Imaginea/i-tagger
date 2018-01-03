@@ -1,0 +1,7 @@
+0,1,2,3
+J.,NNP,B-NP,B-PER
+Adams,NNP,I-NP,I-PER
+lbw,NN,I-NP,O
+b,SYM,O,O
+Moody,NNP,B-NP,B-PER
+5,CD,I-NP,O

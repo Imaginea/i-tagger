@@ -1,0 +1,17 @@
+0,1,2,3
+Flour,NN,B-NP,O
+mills,NNS,I-NP,O
+sold,VBD,B-VP,O
+much,JJ,B-NP,O
+of,IN,B-PP,O
+their,PRP$,B-NP,O
+production,NN,I-NP,O
+through,IN,B-PP,O
+September,NN,B-NP,O
+leaving,VBG,B-VP,O
+little,JJ,B-NP,O
+available,JJ,I-NP,O
+for,IN,B-PP,O
+prompt,JJ,B-NP,O
+shipment,NN,I-NP,O
+.,.,O,O

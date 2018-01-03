@@ -1,0 +1,6 @@
+0,1,2,3
+4-6,JJ,B-NP,O
+6-4,CD,I-NP,O
+Women,NNS,B-NP,O
+'s,POS,B-NP,O
+singles,NNS,I-NP,O

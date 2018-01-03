@@ -1,0 +1,8 @@
+0,1,2,3
+It,PRP,B-NP,O
+'s,VBZ,B-VP,O
+an,DT,B-NP,O
+inexorable,JJ,I-NP,O
+change,NN,I-NP,O
+.,.,O,O
+ ,O,O,<UNK>

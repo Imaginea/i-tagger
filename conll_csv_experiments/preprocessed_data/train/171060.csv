@@ -1,0 +1,20 @@
+0,1,2,3
+on,IN,B-PP,O
+the,DT,B-NP,O
+contrary,NN,I-NP,O
+he,PRP,B-NP,O
+was,VBD,B-VP,O
+harassed,VBN,I-VP,O
+by,IN,B-PP,O
+the,DT,B-NP,O
+elements,NNS,I-NP,O
+which,WDT,B-NP,O
+carried,VBD,B-VP,O
+out,RP,B-PRT,O
+the,DT,B-NP,O
+hijacking,VBG,I-NP,O
+",",",",I-NP,O
+ ,O,O,<UNK>
+he,PRP,B-NP,O
+said,VBD,B-VP,O
+.,.,O,O

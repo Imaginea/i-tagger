@@ -1,0 +1,8 @@
+0,1,2,3
+Dow,NNP,B-NP,B-ORG
+Chemical,NNP,I-NP,I-ORG
+in,IN,B-PP,O
+China,NNP,B-NP,B-LOC
+ethylene,NN,I-NP,O
+venture,NN,I-NP,O
+.,.,O,O

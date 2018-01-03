@@ -1,0 +1,7 @@
+0,1,2,3
+Division,NNP,B-NP,O
+B,NNP,I-NP,O
+Sutjeska,NNP,B-NP,B-ORG
+3,CD,I-NP,O
+Sloboda,NNP,I-NP,B-ORG
+2,CD,I-NP,O

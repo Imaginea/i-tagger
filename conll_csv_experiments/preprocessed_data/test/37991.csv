@@ -1,0 +1,34 @@
+0,1,2,3
+ ,O,O,<UNK>
+While,IN,B-SBAR,O
+there,EX,B-NP,O
+has,VBZ,B-VP,O
+been,VBN,I-VP,O
+some,DT,B-NP,O
+agreement,NN,I-NP,O
+in,IN,B-PP,O
+principle,NN,B-NP,O
+on,IN,B-PP,O
+some,DT,B-NP,O
+issues,NNS,I-NP,O
+",",",",O,O
+there,EX,B-NP,O
+are,VBP,B-VP,O
+still,RB,B-ADVP,O
+others,NNS,B-NP,O
+such,JJ,B-PP,O
+as,IN,I-PP,O
+procedures,NNS,B-NP,O
+and,CC,I-NP,O
+mechanisms,NNS,I-NP,O
+that,WP,B-NP,O
+needed,VBD,B-VP,O
+to,TO,I-VP,O
+be,VB,I-VP,O
+sorted,VBN,I-VP,O
+out,RP,B-PRT,O
+",",",",O,O
+ ,O,O,<UNK>
+he,PRP,B-NP,O
+added,VBD,B-VP,O
+.,.,O,O

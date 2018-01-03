@@ -1,0 +1,11 @@
+0,1,2,3
+Alloy,NN,B-NP,O
+shipments,NNS,I-NP,O
+",",",",O,O
+however,RB,B-ADVP,O
+",",",",O,O
+were,VBD,B-VP,O
+7.5,CD,B-NP,O
+percent,NN,I-NP,O
+down,RP,B-PRT,O
+.,.,O,O

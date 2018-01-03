@@ -1,0 +1,14 @@
+0,1,2,3
+replying,VBG,B-VP,O
+ ,O,O,<UNK>
+above,IN,B-PP,O
+normal,JJ,B-NP,O
+ ,O,O,<UNK>
+and,CC,O,O
+those,DT,B-NP,O
+replying,VBG,B-VP,O
+ ,O,O,<UNK>
+below,IN,B-PP,O
+normal,JJ,B-ADJP,O
+.,.,O,O
+ ,O,O,<UNK>

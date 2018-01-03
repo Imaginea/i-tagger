@@ -1,0 +1,29 @@
+0,1,2,3
+ ,O,O,<UNK>
+We,PRP,B-NP,O
+'ve,VBP,B-VP,O
+got,VBD,I-VP,O
+two,CD,B-NP,O
+more,JJR,I-NP,O
+regular,JJ,I-NP,O
+season,NN,I-NP,O
+games,NNS,I-NP,O
+against,IN,B-PP,O
+them,PRP,B-NP,O
+and,CC,O,O
+we,PRP,B-NP,O
+might,MD,B-VP,O
+get,VB,I-VP,O
+lucky,JJ,B-ADJP,O
+enough,RB,I-ADJP,O
+or,CC,O,O
+unlucky,JJ,B-NP,O
+enough,RB,B-ADJP,O
+to,TO,B-VP,O
+play,VB,I-VP,O
+them,PRP,B-NP,O
+in,IN,B-PP,O
+the,DT,B-NP,O
+post-season,NN,I-NP,O
+.,.,O,O
+ ,O,O,<UNK>

@@ -1,0 +1,26 @@
+0,1,2,3
+A,DT,B-NP,O
+Costain,NN,I-NP,B-ORG
+spokesman,NN,I-NP,O
+told,VBD,B-VP,O
+Reuters,NNP,B-NP,B-ORG
+:,:,O,O
+ ,O,O,<UNK>
+We,PRP,B-NP,O
+'ve,VBP,B-VP,O
+had,VBD,I-VP,O
+all,DT,B-NP,O
+sorts,NNS,I-NP,O
+of,IN,B-PP,O
+protests,NNS,B-NP,O
+at,IN,B-PP,O
+the,DT,B-NP,O
+head,NN,I-NP,O
+office,NN,I-NP,O
+and,CC,O,O
+the,DT,B-NP,O
+chief,JJ,I-NP,O
+executive,NN,I-NP,O
+'s,POS,B-NP,O
+house,NN,I-NP,O
+.,.,O,O

@@ -1,0 +1,10 @@
+0,1,2,3
+Best,JJS,B-NP,B-ORG
+sees,VBZ,B-VP,O
+Q2,CD,B-NP,O
+loss,NN,I-NP,O
+similar,JJ,B-ADJP,O
+to,TO,B-VP,O
+Q1,NNP,B-NP,O
+loss,NN,I-NP,O
+.,.,O,O

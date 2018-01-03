@@ -1,0 +1,9 @@
+0,1,2,3
+7.,CD,B-NP,O
+Norihiko,NNP,I-NP,B-PER
+Fujiwara,NNP,I-NP,I-PER
+(,(,O,O
+Japan,NNP,B-NP,B-LOC
+),),O,O
+Yamaha,NNP,B-NP,B-ORG
+38:43.253,CD,I-NP,O

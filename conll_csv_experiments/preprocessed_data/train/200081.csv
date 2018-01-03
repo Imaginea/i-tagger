@@ -1,0 +1,11 @@
+0,1,2,3
+30,CD,B-NP,O
+Year,NNP,I-NP,O
+A-rated,NNP,I-NP,O
+Housing,NNP,I-NP,O
+Rev,NNP,I-NP,O
+6.05,CD,I-NP,O
+%,NN,I-NP,O
+6.00,CD,B-NP,O
+%,NN,I-NP,O
++0.05,CD,I-NP,O

@@ -1,0 +1,15 @@
+0,1,2,3
+You,PRP,B-NP,O
+just,RB,B-ADVP,O
+have,VBP,B-VP,O
+to,TO,I-VP,O
+look,VB,I-VP,O
+at,IN,B-PP,O
+his,PRP$,B-NP,O
+record,NN,I-NP,O
+to,TO,B-VP,O
+appreciate,VB,I-VP,O
+that,DT,B-NP,O
+fact,NN,I-NP,O
+.,.,O,O
+ ,O,O,<UNK>

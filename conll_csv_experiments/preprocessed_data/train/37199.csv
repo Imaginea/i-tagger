@@ -1,0 +1,10 @@
+0,1,2,3
+record,NN,B-NP,O
+),),O,O
+2.,NNP,B-NP,O
+Paul,NNP,I-NP,B-PER
+Tergat,NNP,I-NP,I-PER
+(,(,O,O
+Kenya,NNP,B-NP,B-LOC
+),),O,O
+26:54.41,CD,B-NP,O

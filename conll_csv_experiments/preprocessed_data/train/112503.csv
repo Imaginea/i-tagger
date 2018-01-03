@@ -1,0 +1,15 @@
+0,1,2,3
+Maybe,RB,B-ADVP,O
+sentiment,NN,B-NP,O
+is,VBZ,B-VP,O
+a,DT,B-NP,O
+little,JJ,I-NP,O
+bit,NN,I-NP,O
+weaker,JJR,B-ADJP,O
+but,CC,O,O
+prices,NNS,B-NP,O
+have,VBP,B-VP,O
+not,RB,I-VP,O
+changed,VBN,I-VP,O
+.,.,O,O
+ ,O,O,<UNK>

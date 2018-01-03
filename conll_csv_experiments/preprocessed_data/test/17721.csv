@@ -1,0 +1,10 @@
+0,1,2,3
+Ex-minister,NNP,B-NP,O
+",",",",O,O
+son,NN,B-NP,O
+killed,VBN,B-VP,O
+in,IN,B-PP,O
+Central,NNP,B-NP,B-LOC
+Africa,NNP,I-NP,I-LOC
+unrest,NN,I-NP,O
+.,.,O,O

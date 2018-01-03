@@ -1,0 +1,12 @@
+0,1,2,3
+AMARILLO,NNP,B-NP,B-LOC
+1996-12-06,CD,I-NP,O
+Trade,NNP,B-NP,O
+very,RB,B-ADVP,O
+slow,JJ,B-ADJP,O
+in,IN,B-PP,O
+the,DT,B-NP,O
+Panhandle,NNP,I-NP,B-LOC
+area,NN,I-NP,O
+Thursday,NNP,B-NP,O
+.,.,O,O

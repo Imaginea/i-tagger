@@ -1,0 +1,10 @@
+0,1,2,3
+The,DT,B-NP,O
+UEFA,NNP,I-NP,B-MISC
+Fair,NNP,I-NP,I-MISC
+Play,NN,I-NP,I-MISC
+rankings,NNS,I-NP,O
+are,VBP,B-VP,O
+:,:,O,O
+1,LS,B-LST,O
+.,.,O,O

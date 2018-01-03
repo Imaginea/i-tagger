@@ -1,0 +1,15 @@
+0,1,2,3
+I,PRP,B-NP,O
+'m,VBP,B-VP,O
+telling,VBG,I-VP,O
+clients,NNS,B-NP,O
+things,NNS,I-NP,O
+are,VBP,B-VP,O
+dicey,RB,I-VP,O
+going,VBG,I-VP,O
+into,IN,B-PP,O
+next,JJ,B-NP,O
+Friday,NNP,I-NP,O
+(,(,I-NP,O
+Sept,NNP,I-NP,O
+.,.,O,O

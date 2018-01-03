@@ -1,0 +1,17 @@
+0,1,2,3
+CPI,NNP,B-NP,O
+(,(,O,O
+pct,VBN,B-VP,O
+),),O,O
+July,NNP,B-NP,O
++0.4m,CD,B-NP,O
+/,SYM,O,O
+m,VBP,B-VP,O
+;,:,O,O
+23.0yr,CD,B-NP,O
+/,SYM,O,O
+yr,NN,B-NP,O
+(,(,O,O
+June,NNP,B-NP,O
++0.9;+23.6,NNP,I-NP,O
+),),O,O

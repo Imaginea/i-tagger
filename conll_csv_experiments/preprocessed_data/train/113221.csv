@@ -1,0 +1,11 @@
+0,1,2,3
+Salomon,NNP,B-NP,B-ORG
+cuts,NNS,I-NP,O
+refiner,NN,I-NP,O
+Q3,JJ,I-NP,O
+EPS,NNP,I-NP,O
+view,VBP,B-VP,O
+on,IN,B-PP,O
+margin,NN,B-NP,O
+concern,NN,I-NP,O
+.,.,O,O

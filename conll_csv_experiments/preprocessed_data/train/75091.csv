@@ -1,0 +1,4 @@
+0,1,2,3
+Played,NNP,B-NP,O
+Sunday,NNP,I-NP,O
+:,:,O,O

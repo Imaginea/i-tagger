@@ -1,0 +1,30 @@
+0,1,2,3
+According,VBG,B-PP,O
+to,TO,B-PP,O
+Middle,NNP,B-NP,B-MISC
+East,NNP,I-NP,I-MISC
+Economic,NNP,I-NP,I-MISC
+Survey,NNP,I-NP,I-MISC
+(,(,O,O
+MEES,NNP,O,B-MISC
+),),O,O
+",",",",O,O
+Yemen,NNP,B-NP,B-LOC
+and,CC,I-NP,O
+Amoco,NNP,I-NP,B-ORG
+signed,VBD,B-VP,O
+a,DT,B-NP,O
+ ,O,O,<UNK>
+memorandum,NN,B-NP,O
+of,IN,B-PP,O
+understanding,VBG,B-VP,O
+ ,O,O,<UNK>
+for,IN,B-PP,O
+a,DT,B-NP,O
+production-sharing,JJ,I-NP,O
+agreement,NN,I-NP,O
+in,IN,B-PP,O
+Shabwa,NNP,B-NP,B-MISC
+Block,NNP,I-NP,I-MISC
+No,DT,I-NP,I-MISC
+.,.,O,I-MISC

@@ -1,0 +1,5 @@
+0,1,2,3
+St.,NNP,B-NP,B-LOC
+Louis,NNP,I-NP,I-LOC
+"253,821",CD,I-NP,O
+"223,172",CD,I-NP,O

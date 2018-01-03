@@ -1,0 +1,12 @@
+0,1,2,3
+--,:,O,O
+Amsterdam,NN,B-NP,B-LOC
+newsdesk,NN,B-NP,O
++31,CD,I-NP,O
+20,CD,I-NP,O
+504,CD,I-NP,O
+5000,CD,I-NP,O
+(,(,O,O
+Fax,NN,B-NP,O
+020-504-5040,CD,I-NP,O
+),),O,O

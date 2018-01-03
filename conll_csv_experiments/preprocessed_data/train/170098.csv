@@ -1,0 +1,5 @@
+0,1,2,3
+Tax,NN,B-NP,O
+3.67,CD,I-NP,O
+vs,NNP,O,O
+1.82,CD,O,O

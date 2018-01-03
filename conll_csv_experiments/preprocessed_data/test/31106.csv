@@ -1,0 +1,21 @@
+0,1,2,3
+ ,O,O,<UNK>
+We,PRP,B-NP,O
+considered,VBD,B-VP,O
+it,PRP,B-NP,O
+as,IN,B-PP,O
+being,VBG,B-VP,O
+missing,VBG,I-VP,O
+until,IN,B-SBAR,O
+about,RB,B-NP,O
+0600,CD,I-NP,O
+(,(,O,O
+4:30,CD,B-NP,O
+A.M.,RB,I-NP,O
+EST,NNP,I-NP,O
+),),O,O
+(,(,O,O
+0930,CD,B-NP,O
+GMT,NNP,O,B-MISC
+),),O,O
+.,.,O,O

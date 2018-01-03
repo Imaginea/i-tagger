@@ -1,0 +1,6 @@
+0,1,2,3
+Thursday,NNP,B-NP,O
+:,:,O,O
+England,NNP,B-NP,B-LOC
+first,RB,B-ADVP,O
+innings,NN,B-NP,O

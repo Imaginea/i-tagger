@@ -1,0 +1,11 @@
+0,1,2,3
+Results,NNS,B-NP,O
+at,IN,B-PP,O
+the,DT,B-NP,O
+world,NN,I-NP,O
+track,NN,I-NP,O
+cycling,NN,I-NP,O
+championships,NNS,I-NP,O
+on,IN,B-PP,O
+Friday,NNP,B-NP,O
+:,:,O,O

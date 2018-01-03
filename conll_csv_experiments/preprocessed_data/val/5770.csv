@@ -1,0 +1,8 @@
+0,1,2,3
+5.,CD,B-NP,O
+Marko,NNP,I-NP,B-PER
+Koers,NNP,I-NP,I-PER
+(,(,I-NP,O
+Netherlands,NNP,I-NP,B-LOC
+),),O,O
+3:53.47,CD,B-NP,O

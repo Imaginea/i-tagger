@@ -1,0 +1,7 @@
+0,1,2,3
+Responsibility,NN,B-NP,O
+is,VBZ,B-VP,O
+percolating,VBG,I-VP,O
+downwards,NNS,B-NP,O
+.,.,O,O
+ ,O,O,<UNK>

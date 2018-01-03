@@ -1,0 +1,15 @@
+0,1,2,3
+Several,JJ,B-NP,O
+studies,NNS,I-NP,O
+have,VBP,B-VP,O
+found,VBN,I-VP,O
+garlic,NN,B-NP,O
+pills,NNS,I-NP,O
+can,MD,B-VP,O
+lower,VB,I-VP,O
+blood,NN,B-NP,O
+pressure,NN,I-NP,O
+and,CC,I-NP,O
+blood,NN,I-NP,O
+cholesterol,NN,I-NP,O
+.,.,O,O

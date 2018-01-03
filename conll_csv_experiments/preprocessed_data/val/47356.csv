@@ -1,0 +1,22 @@
+0,1,2,3
+In,IN,B-PP,O
+the,DT,B-NP,O
+same,JJ,I-NP,O
+interview,NN,I-NP,O
+",",",",O,O
+published,VBN,B-VP,O
+by,IN,B-PP,O
+Prensa,NNP,B-NP,B-ORG
+Latina,NNP,I-NP,I-ORG
+on,IN,B-PP,O
+Saturday,NNP,B-NP,O
+",",",",O,O
+Puig,NNP,B-NP,B-PER
+was,VBD,B-VP,O
+asked,VBN,I-VP,O
+if,IN,B-SBAR,O
+he,PRP,B-NP,O
+feared,VBD,B-VP,O
+death,NN,B-NP,O
+.,.,O,O
+ ,O,O,<UNK>

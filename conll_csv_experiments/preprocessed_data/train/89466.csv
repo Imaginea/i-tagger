@@ -1,0 +1,10 @@
+0,1,2,3
+ ,O,O,<UNK>
+Collectivisation,NN,B-NP,O
+brought,VBD,B-VP,O
+us,PRP,B-NP,O
+a,DT,B-NP,O
+lot,NN,I-NP,O
+of,IN,B-PP,O
+pain,NN,B-NP,O
+.,.,O,O

@@ -1,0 +1,16 @@
+0,1,2,3
+ ,O,O,<UNK>
+Multi-layers,NNS,B-NP,O
+kept,VBD,B-VP,O
+management,NN,B-NP,O
+at,IN,B-PP,O
+a,DT,B-NP,O
+distance,NN,I-NP,O
+from,IN,B-PP,O
+its,PRP$,B-NP,O
+customers,NNS,I-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+O'Neal,NNP,B-NP,B-PER
+said,VBD,B-VP,O
+.,.,O,O

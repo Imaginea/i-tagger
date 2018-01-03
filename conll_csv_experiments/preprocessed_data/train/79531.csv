@@ -1,0 +1,16 @@
+0,1,2,3
+All,DT,B-NP,O
+three,CD,I-NP,O
+clocked,VBN,B-VP,O
+the,DT,B-NP,O
+same,JJ,I-NP,O
+time,NN,I-NP,O
+of,IN,B-PP,O
+five,CD,B-NP,O
+hours,NNS,I-NP,O
+51,CD,B-NP,O
+minutes,NNS,I-NP,O
+",",",",O,O
+52,CD,B-NP,O
+seconds,NNS,I-NP,O
+.,.,O,O

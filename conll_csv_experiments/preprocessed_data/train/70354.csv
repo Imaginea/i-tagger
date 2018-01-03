@@ -1,0 +1,8 @@
+0,1,2,3
+2.,NNP,B-NP,O
+John,NNP,I-NP,B-PER
+Mayock,NNP,I-NP,I-PER
+(,(,O,O
+Britain,NNP,B-NP,B-LOC
+),),O,O
+3:54.60,CD,B-NP,O

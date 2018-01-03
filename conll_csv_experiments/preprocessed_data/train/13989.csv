@@ -1,0 +1,10 @@
+0,1,2,3
+It,PRP,B-NP,O
+currently,RB,B-ADVP,O
+operates,VBZ,B-VP,O
+169,CD,B-NP,O
+stores,NNS,I-NP,O
+in,IN,B-PP,O
+23,CD,B-NP,O
+states,NNS,I-NP,O
+.,.,O,O

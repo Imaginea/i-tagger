@@ -1,0 +1,11 @@
+0,1,2,3
+Clinton,NN,B-NP,B-PER
+to,TO,B-VP,O
+have,VB,I-VP,O
+more,JJR,B-NP,O
+news,NN,I-NP,O
+conferences,NNS,I-NP,O
+in,IN,B-PP,O
+2nd,JJ,B-NP,O
+term,NN,I-NP,O
+.,.,O,O

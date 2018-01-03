@@ -1,0 +1,7 @@
+0,1,2,3
+Vessel,NNP,B-NP,O
+Date,NNP,I-NP,O
+of,IN,B-PP,O
+Arrival,NNP,B-NP,O
+Quantity,NNP,I-NP,O
+Destination,NNP,I-NP,O

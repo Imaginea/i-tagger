@@ -1,0 +1,8 @@
+0,1,2,3
+Council,NNP,B-NP,O
+resolutions,NNS,I-NP,O
+are,VBP,B-VP,O
+not,RB,O,O
+necessarily,RB,B-ADVP,O
+binding,JJ,B-NP,O
+.,.,O,O

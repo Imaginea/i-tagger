@@ -1,0 +1,10 @@
+0,1,2,3
+Kurd,JJ,B-NP,B-MISC
+group,NN,I-NP,O
+says,VBZ,B-VP,O
+Iraqi,JJ,B-NP,B-MISC
+troops,NNS,I-NP,O
+massing,VBG,B-VP,O
+near,IN,B-PP,O
+north,JJ,B-NP,O
+.,.,O,O

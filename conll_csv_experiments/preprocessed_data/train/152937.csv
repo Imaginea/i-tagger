@@ -1,0 +1,15 @@
+0,1,2,3
+Jones,NNP,B-NP,B-PER
+has,VBZ,B-VP,O
+a,DT,B-NP,O
+knee,NN,I-NP,O
+injury,NN,I-NP,O
+while,IN,B-SBAR,O
+Wilson,NNP,B-NP,B-PER
+is,VBZ,B-VP,O
+suffering,VBG,I-VP,O
+from,IN,B-PP,O
+a,DT,B-NP,O
+viral,JJ,I-NP,O
+infection,NN,I-NP,O
+.,.,O,O

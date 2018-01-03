@@ -1,0 +1,10 @@
+0,1,2,3
+New,NNP,B-NP,O
+Liberia,NNPS,I-NP,B-ORG
+Council,NNP,I-NP,I-ORG
+chief,JJ,I-NP,O
+to,TO,B-VP,O
+be,VB,I-VP,O
+installed,VBN,I-VP,O
+Tuesday,NNP,B-NP,O
+.,.,O,O

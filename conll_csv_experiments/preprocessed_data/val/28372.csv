@@ -1,0 +1,23 @@
+0,1,2,3
+ ,O,O,<UNK>
+They,PRP,B-NP,O
+asked,VBD,B-VP,O
+me,PRP,B-NP,O
+to,TO,B-VP,O
+call,VB,I-VP,O
+in,IN,B-PP,O
+the,DT,B-NP,O
+Israeli,JJ,I-NP,B-MISC
+charge,NN,I-NP,O
+d'affaires,NNS,I-NP,O
+and,CC,O,O
+discuss,VB,B-VP,O
+the,DT,B-NP,O
+matter,NN,I-NP,O
+with,IN,B-PP,O
+him,PRP,B-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+he,PRP,B-NP,O
+added,VBD,B-VP,O
+.,.,O,O

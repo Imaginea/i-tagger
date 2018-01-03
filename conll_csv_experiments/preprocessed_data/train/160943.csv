@@ -1,0 +1,25 @@
+0,1,2,3
+ ,O,O,<UNK>
+We,PRP,B-NP,O
+can,MD,B-VP,O
+subpoena,VB,I-VP,O
+anyone,NN,B-NP,O
+we,PRP,B-NP,O
+want,VBP,B-VP,O
+to,TO,I-VP,O
+",",",",O,O
+even,RB,B-NP,O
+the,DT,I-NP,O
+president,NN,I-NP,O
+of,IN,B-PP,O
+the,DT,B-NP,O
+country,NN,I-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+spokesman,NN,B-NP,O
+John,NNP,I-NP,B-PER
+Allen,NNP,I-NP,I-PER
+told,VBD,B-VP,O
+Reuters,NNP,B-NP,B-ORG
+.,.,I-NP,O
+ ,O,O,<UNK>

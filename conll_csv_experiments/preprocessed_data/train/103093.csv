@@ -1,0 +1,25 @@
+0,1,2,3
+.,.,O,O
+ ,O,O,<UNK>
+Kuperman,NNP,B-NP,B-PER
+added,VBD,B-VP,O
+that,IN,B-SBAR,O
+options,NNS,B-NP,O
+other,JJ,B-ADJP,O
+than,IN,B-PP,O
+postponement,NN,B-NP,O
+were,VBD,B-VP,O
+also,RB,B-ADVP,O
+on,IN,B-PP,O
+the,DT,B-NP,O
+table,NN,I-NP,O
+",",",",O,O
+but,CC,O,O
+she,PRP,B-NP,O
+refused,VBD,B-VP,O
+to,TO,I-VP,O
+specify,VB,I-VP,O
+what,WP,B-NP,O
+they,PRP,B-NP,O
+were,VBD,B-VP,O
+.,.,O,O

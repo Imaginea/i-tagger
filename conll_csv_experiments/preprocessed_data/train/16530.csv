@@ -1,0 +1,7 @@
+0,1,2,3
+Senegal,JJ,B-NP,B-LOC
+cholera,NN,I-NP,O
+outbreak,NN,I-NP,O
+kills,VBZ,B-VP,O
+five,CD,B-NP,O
+.,.,O,O

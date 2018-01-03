@@ -1,0 +1,15 @@
+0,1,2,3
+Benetton,NNP,B-NP,B-ORG
+(,(,O,O
+Italy,NNP,B-NP,B-LOC
+),),O,O
+92,CD,B-NP,O
+Dinamo,NNP,I-NP,B-ORG
+(,(,O,O
+Russia,NNP,B-NP,B-LOC
+),),O,O
+81,CD,B-NP,O
+(,(,I-NP,O
+halftime,NN,I-NP,O
+50-28,CD,I-NP,O
+),),O,O

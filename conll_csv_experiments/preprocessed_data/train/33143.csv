@@ -1,0 +1,10 @@
+0,1,2,3
+We,PRP,B-NP,O
+won,VBD,B-VP,O
+the,DT,B-NP,O
+game,NN,I-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+said,VBD,B-VP,O
+Moyer,NNP,B-NP,B-PER
+.,.,O,O

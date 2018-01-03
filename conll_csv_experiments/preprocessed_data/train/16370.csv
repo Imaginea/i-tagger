@@ -1,0 +1,18 @@
+0,1,2,3
+Then,RB,B-ADVP,O
+he,PRP,B-NP,O
+shanked,VBD,B-VP,O
+a,DT,B-NP,O
+forehand,NN,I-NP,O
+at,IN,B-PP,O
+to,TO,B-VP,O
+make,VB,I-VP,O
+it,PRP,B-NP,O
+5-all,CD,I-NP,O
+and,CC,O,O
+that,WDT,B-NP,O
+helped,VBD,B-VP,O
+me,PRP,B-NP,O
+back,RB,B-ADVP,O
+.,.,O,O
+ ,O,O,<UNK>

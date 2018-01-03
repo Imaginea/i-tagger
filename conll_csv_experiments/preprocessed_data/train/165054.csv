@@ -1,0 +1,16 @@
+0,1,2,3
+Last,JJ,B-NP,O
+year,NN,I-NP,O
+",",",",O,O
+Bedie,NNP,B-NP,B-PER
+pardoned,VBD,B-VP,O
+four,CD,B-NP,O
+journalists,NNS,I-NP,O
+jailed,VBN,B-VP,O
+for,IN,B-PP,O
+the,DT,B-NP,O
+same,JJ,I-NP,O
+or,CC,I-NP,O
+similar,JJ,I-NP,O
+offences,NNS,I-NP,O
+.,.,O,O

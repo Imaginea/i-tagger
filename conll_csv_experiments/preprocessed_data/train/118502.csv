@@ -1,0 +1,14 @@
+0,1,2,3
+ ,O,O,<UNK>
+We,PRP,B-NP,O
+had,VBD,B-VP,O
+300,CD,B-NP,O
+Earth,NNP,I-NP,B-ORG
+First,NNP,I-NP,I-ORG
+protestors,NNS,I-NP,O
+invade,VBP,B-VP,O
+and,CC,I-VP,O
+occupy,VB,I-VP,O
+our,PRP$,B-NP,O
+site,NN,I-NP,O
+.,.,O,O

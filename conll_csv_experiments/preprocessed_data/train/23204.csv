@@ -1,0 +1,9 @@
+0,1,2,3
+Clinton,NNP,B-NP,B-PER
+'s,POS,B-NP,O
+Ballybunion,NNP,I-NP,B-ORG
+fans,NNS,I-NP,O
+invited,VBN,B-VP,O
+to,TO,B-PP,O
+Chicago,NNP,B-NP,B-LOC
+.,.,O,O

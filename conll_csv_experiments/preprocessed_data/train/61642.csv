@@ -1,0 +1,16 @@
+0,1,2,3
+Union,NNP,B-NP,O
+officials,NNS,I-NP,O
+from,IN,B-PP,O
+the,DT,B-NP,O
+Public,NNP,I-NP,B-ORG
+Service,NNP,I-NP,I-ORG
+Association,NNP,I-NP,I-ORG
+(,(,O,O
+PSA,NNP,B-NP,B-ORG
+),),O,O
+were,VBD,B-VP,O
+unavailable,JJ,B-ADJP,O
+for,IN,B-PP,O
+comment,NN,B-NP,O
+.,.,O,O

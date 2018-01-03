@@ -1,0 +1,15 @@
+0,1,2,3
+Some,DT,B-NP,O
+human,JJ,I-NP,O
+rights,NNS,I-NP,O
+groups,NNS,I-NP,O
+have,VBP,B-VP,O
+criticised,VBN,I-VP,O
+the,DT,B-NP,O
+government,NN,I-NP,O
+'s,POS,B-NP,O
+handling,NN,I-NP,O
+of,IN,B-PP,O
+the,DT,B-NP,O
+situation,NN,I-NP,O
+.,.,O,O

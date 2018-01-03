@@ -1,0 +1,7 @@
+0,1,2,3
+Cash,NN,B-NP,O
+flow,NN,I-NP,O
+/,SYM,O,O
+shr,NN,B-NP,O
+0.86,CD,I-NP,O
+0.81,CD,I-NP,O

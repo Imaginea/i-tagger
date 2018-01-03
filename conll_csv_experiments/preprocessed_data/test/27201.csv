@@ -1,0 +1,6 @@
+0,1,2,3
+Oats,NNP,B-NP,O
+Rye,NNP,I-NP,O
+Flaxseed,NNP,I-NP,O
+Canola,NNP,I-NP,O
+Corn,NNP,I-NP,O

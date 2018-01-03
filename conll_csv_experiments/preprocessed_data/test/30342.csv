@@ -1,0 +1,9 @@
+0,1,2,3
+The,DT,B-NP,O
+election,NN,I-NP,O
+must,MD,B-VP,O
+be,VB,I-VP,O
+held,VBN,I-VP,O
+by,IN,B-PP,O
+May,NNP,B-NP,O
+.,.,O,O

@@ -1,0 +1,10 @@
+0,1,2,3
+1908,CD,B-NP,O
+-,:,I-NP,O
+U.S.,NNP,I-NP,B-LOC
+film,NN,I-NP,O
+director,NN,I-NP,O
+Edward,NNP,I-NP,B-PER
+Dmytryk,NNP,I-NP,I-PER
+born,VBN,B-VP,O
+.,.,O,O

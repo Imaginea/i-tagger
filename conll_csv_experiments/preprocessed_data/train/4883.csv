@@ -1,0 +1,11 @@
+0,1,2,3
+Finnish,JJ,B-NP,B-MISC
+April,NNP,I-NP,O
+trade,NN,I-NP,O
+surplus,NN,I-NP,O
+3.8,CD,I-NP,O
+billion,CD,I-NP,O
+markka,NNS,I-NP,O
+-,:,O,O
+NCB,NNP,B-NP,B-ORG
+.,.,O,O

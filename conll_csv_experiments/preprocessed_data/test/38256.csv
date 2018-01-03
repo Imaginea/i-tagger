@@ -1,0 +1,7 @@
+0,1,2,3
+Honda,NNP,B-NP,B-MISC
+RV,NN,I-NP,I-MISC
+exceeds,VBZ,B-VP,O
+sales,NNS,B-NP,O
+target,NN,I-NP,O
+.,.,O,O

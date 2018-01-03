@@ -1,0 +1,23 @@
+0,1,2,3
+However,RB,B-ADVP,O
+",",",",O,O
+it,PRP,B-NP,O
+called,VBD,B-VP,O
+the,DT,B-NP,O
+conditions,NNS,I-NP,O
+ ,O,O,<UNK>
+more,JJR,B-NP,O
+severe,JJ,I-NP,O
+ ,O,O,<UNK>
+than,IN,B-PP,O
+those,DT,B-NP,O
+imposed,VBN,B-VP,O
+by,IN,B-PP,O
+other,JJ,B-NP,O
+regulatory,JJ,I-NP,O
+authorities,NNS,I-NP,O
+on,IN,B-PP,O
+similar,JJ,B-NP,O
+airline,NN,I-NP,O
+alliances,NNS,I-NP,O
+.,.,O,O

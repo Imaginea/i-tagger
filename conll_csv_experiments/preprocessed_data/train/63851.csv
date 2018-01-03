@@ -1,0 +1,10 @@
+0,1,2,3
+There,EX,B-NP,O
+was,VBD,B-VP,O
+no,DT,B-NP,O
+independent,JJ,I-NP,O
+confirmation,NN,I-NP,O
+of,IN,B-PP,O
+the,DT,B-NP,O
+reports,NNS,I-NP,O
+.,.,O,O

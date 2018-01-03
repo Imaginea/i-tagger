@@ -1,0 +1,6 @@
+0,1,2,3
+16-1,CD,B-NP,O
+Manolo,NNP,I-NP,B-PER
+Sanchis,NNP,I-NP,I-PER
+14-1,NNP,I-NP,O
+Gheorghe,NNP,I-NP,B-PER

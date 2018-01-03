@@ -1,0 +1,12 @@
+0,1,2,3
+refrained,VBD,B-VP,O
+from,IN,B-PP,O
+staging,VBG,B-VP,O
+a,DT,B-NP,O
+reverse,NN,I-NP,O
+repo,VBZ,B-VP,O
+operation,NN,B-NP,O
+on,IN,B-PP,O
+Friday,NNP,B-NP,O
+",",",",O,O
+the,DT,B-NP,O

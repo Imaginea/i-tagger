@@ -1,0 +1,25 @@
+0,1,2,3
+But,CC,O,O
+",",",",O,O
+he,PRP,B-NP,O
+said,VBD,B-VP,O
+",",",",O,O
+ ,O,O,<UNK>
+we,PRP,B-NP,O
+still,RB,B-ADVP,O
+have,VBP,B-VP,O
+hope,NN,B-NP,O
+that,DT,B-SBAR,O
+somebody,NN,B-NP,O
+is,VBZ,B-VP,O
+going,VBG,I-VP,O
+to,TO,I-VP,O
+see,VB,I-VP,O
+our,PRP$,B-NP,O
+point,NN,I-NP,O
+of,IN,B-PP,O
+view,NN,B-NP,O
+in,IN,B-PP,O
+this,DT,B-NP,O
+.,.,O,O
+ ,O,O,<UNK>

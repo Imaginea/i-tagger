@@ -1,0 +1,12 @@
+0,1,2,3
+(,(,O,O
+Corrects,NNS,B-NP,O
+to,TO,B-VP,O
+show,VB,I-VP,O
+elections,NNS,B-NP,O
+are,VBP,B-VP,O
+not,RB,O,O
+for,IN,B-PP,O
+governor,NN,B-NP,O
+),),O,O
+.,.,O,O

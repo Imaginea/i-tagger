@@ -1,0 +1,22 @@
+0,1,2,3
+ ,O,O,<UNK>
+I,PRP,B-NP,O
+sincerely,RB,B-ADVP,O
+believe,VBP,B-VP,O
+that,IN,B-SBAR,O
+this,DT,B-NP,O
+unfortunate,JJ,I-NP,O
+choice,NN,I-NP,O
+in,IN,B-PP,O
+giving,VBG,B-VP,O
+the,DT,B-NP,O
+honour,NN,I-NP,O
+to,TO,B-PP,O
+such,DT,B-NP,O
+a,DT,I-NP,O
+controversial,JJ,I-NP,O
+figure,NN,I-NP,O
+as,IN,B-PP,O
+Ramos,NNP,B-NP,B-PER
+Horta,NNP,I-NP,I-PER
+...,:,O,O

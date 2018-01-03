@@ -1,0 +1,10 @@
+0,1,2,3
+Missing,JJ,B-NP,O
+German,JJ,I-NP,B-MISC
+girl,NN,I-NP,O
+found,VBD,B-VP,O
+alive,JJ,B-ADJP,O
+at,IN,B-PP,O
+Dutch,JJ,B-NP,B-MISC
+campsite,NN,I-NP,O
+.,.,O,O

@@ -1,0 +1,22 @@
+0,1,2,3
+It,PRP,B-NP,O
+added,VBD,B-VP,O
+that,IN,B-SBAR,O
+it,PRP,B-NP,O
+would,MD,B-VP,O
+be,VB,I-VP,O
+ ,O,O,<UNK>
+prepared,VBN,B-VP,O
+to,TO,I-VP,O
+take,VB,I-VP,O
+reasonable,JJ,B-NP,O
+steps,NNS,I-NP,O
+to,TO,B-VP,O
+assist,VB,I-VP,O
+the,DT,B-NP,O
+introduction,NN,I-NP,O
+of,IN,B-PP,O
+additional,JJ,B-NP,O
+competition,NN,I-NP,O
+.,.,O,O
+ ,O,O,<UNK>

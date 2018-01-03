@@ -1,0 +1,13 @@
+0,1,2,3
+A,DT,B-NP,O
+set,NN,I-NP,O
+",",",",O,O
+however,RB,B-ADVP,O
+",",",",O,O
+was,VBD,B-VP,O
+used,VBN,I-VP,O
+for,IN,B-PP,O
+the,DT,B-NP,O
+fighting,VBG,I-NP,O
+scenes,NNS,I-NP,O
+.,.,O,O

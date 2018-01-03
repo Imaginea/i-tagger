@@ -1,0 +1,11 @@
+0,1,2,3
+They,PRP,B-NP,O
+reported,VBD,B-VP,O
+more,JJR,B-NP,O
+arrivals,NNS,I-NP,O
+that,WDT,B-NP,O
+were,VBD,B-VP,O
+probably,RB,I-VP,O
+spot,VB,I-VP,O
+purchases,NNS,B-NP,O
+.,.,O,O

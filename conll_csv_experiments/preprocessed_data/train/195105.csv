@@ -1,0 +1,17 @@
+0,1,2,3
+ ,O,O,<UNK>
+The,DT,B-NP,O
+situation,NN,I-NP,O
+in,IN,B-PP,O
+Mahala,NNP,B-NP,B-LOC
+seems,VBZ,B-VP,O
+to,TO,I-VP,O
+be,VB,I-VP,O
+very,RB,B-NP,O
+much,RB,I-NP,O
+on,IN,B-PP,O
+its,PRP$,B-NP,O
+way,NN,I-NP,O
+toward,IN,B-PP,O
+resolution,NN,B-NP,O
+.,.,O,O

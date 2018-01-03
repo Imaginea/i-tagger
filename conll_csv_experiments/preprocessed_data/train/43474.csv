@@ -1,0 +1,12 @@
+0,1,2,3
+One,CD,B-NP,O
+teen,JJ,I-NP,O
+left,VBD,B-VP,O
+dead,JJ,B-ADJP,O
+by,IN,B-PP,O
+attack,NN,B-NP,O
+on,IN,B-PP,O
+U.S.,NNP,B-NP,B-LOC
+slumber,NN,I-NP,O
+party,NN,I-NP,O
+.,.,O,O

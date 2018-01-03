@@ -1,0 +1,5 @@
+0,1,2,3
+Bradford,NNP,B-NP,B-ORG
+finished,VBD,B-VP,O
+third,JJ,B-NP,O
+.,.,O,O

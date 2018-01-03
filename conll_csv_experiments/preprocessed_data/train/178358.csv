@@ -1,0 +1,5 @@
+0,1,2,3
+-,:,O,O
+Colorado,NNP,B-NP,B-ORG
+Christian,NNP,I-NP,I-ORG
+Home,NNP,I-NP,I-ORG

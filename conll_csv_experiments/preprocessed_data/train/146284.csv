@@ -1,0 +1,23 @@
+0,1,2,3
+ ,O,O,<UNK>
+Some,DT,B-NP,O
+nuclear,JJ,I-NP,O
+powers,NNS,I-NP,O
+stubbornly,RB,B-ADVP,O
+uphold,VBP,B-VP,O
+policies,NNS,B-NP,O
+of,IN,B-PP,O
+nuclear,JJ,B-NP,O
+deterrence,NN,I-NP,O
+based,VBN,B-VP,O
+on,IN,B-PP,O
+first,JJ,B-NP,O
+use,NN,I-NP,O
+of,IN,B-PP,O
+nuclear,JJ,B-NP,O
+weapons,NNS,I-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+it,PRP,B-NP,O
+said,VBD,B-VP,O
+.,.,O,O

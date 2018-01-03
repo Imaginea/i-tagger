@@ -1,0 +1,10 @@
+0,1,2,3
+Tin,NNP,B-NP,O
+(,(,O,O
+Grade,NNP,B-NP,O
+A,NNP,I-NP,O
+),),O,O
+6.5-8.5,CD,B-NP,O
+cents,NNS,I-NP,O
+/,SYM,O,O
+pound,NN,B-NP,O

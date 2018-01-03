@@ -1,0 +1,9 @@
+0,1,2,3
+Now,RB,B-ADVP,O
+organisations,NNS,B-NP,O
+must,MD,B-VP,O
+change,VB,I-VP,O
+to,TO,I-VP,O
+stay,VB,I-VP,O
+competitive,JJ,B-ADJP,O
+.,.,O,O

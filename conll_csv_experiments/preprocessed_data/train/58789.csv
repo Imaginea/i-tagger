@@ -1,0 +1,16 @@
+0,1,2,3
+"30,000",CD,B-NP,O
+.,.,O,O
+Marseille,JJ,B-NP,B-ORG
+1,CD,I-NP,O
+(,(,O,O
+Gravelaine,NNP,B-NP,B-PER
+24th,JJ,I-NP,O
+),),O,O
+Metz,NNP,B-NP,B-ORG
+2,CD,I-NP,O
+(,(,O,O
+Traore,NNP,B-NP,B-PER
+65th,CD,I-NP,O
+",",",",O,O
+Bombarda,NNP,B-NP,B-PER

@@ -1,0 +1,10 @@
+0,1,2,3
+Exposure,VB,B-VP,O
+to,TO,I-VP,O
+viruses,NNS,B-NP,O
+can,MD,B-VP,O
+often,RB,I-VP,O
+cause,VB,I-VP,O
+birth,NN,B-NP,O
+defects,NNS,I-NP,O
+.,.,O,O

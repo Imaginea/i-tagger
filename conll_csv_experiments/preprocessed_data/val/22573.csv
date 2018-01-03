@@ -1,0 +1,9 @@
+0,1,2,3
+Egypt,NNP,B-NP,B-LOC
+police,NN,I-NP,O
+detain,VB,B-VP,O
+26,CD,B-NP,O
+suspected,VBD,B-VP,O
+Moslem,NNP,B-NP,B-MISC
+militants,NNS,I-NP,O
+.,.,O,O

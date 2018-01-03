@@ -1,0 +1,7 @@
+0,1,2,3
+time,NN,B-NP,O
+of,IN,B-PP,O
+55,CD,B-NP,O
+minutes,NNS,I-NP,O
+47.4,CD,I-NP,O
+seconds,NNS,I-NP,O

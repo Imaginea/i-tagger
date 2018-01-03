@@ -1,0 +1,10 @@
+0,1,2,3
+ ,O,O,<UNK>
+Israel,NNP,B-NP,B-LOC
+has,VBZ,B-VP,O
+started,VBN,I-VP,O
+the,DT,B-NP,O
+war,NN,I-NP,O
+on,IN,B-PP,O
+Jerusalem,NNP,B-NP,B-LOC
+.,.,O,O

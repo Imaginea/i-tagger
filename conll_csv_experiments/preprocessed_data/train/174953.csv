@@ -1,0 +1,27 @@
+0,1,2,3
+ ,O,O,<UNK>
+The,DT,B-NP,O
+industry,NN,I-NP,O
+saw,VBD,B-VP,O
+capacity,NN,B-NP,O
+expansion,NN,I-NP,O
+of,IN,B-PP,O
+about,RB,B-NP,O
+13,CD,I-NP,O
+percent,NN,I-NP,O
+over,IN,B-PP,O
+1994/95,CD,B-NP,O
+from,IN,B-PP,O
+77.79,CD,B-NP,O
+million,CD,I-NP,O
+tonnes,NNS,I-NP,O
+to,TO,B-PP,O
+87.45,CD,B-NP,O
+million,CD,I-NP,O
+tonnes,NNS,I-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+Palkhivala,NNP,B-NP,B-PER
+told,VBD,B-VP,O
+shareholders,NNS,B-NP,O
+.,.,O,O

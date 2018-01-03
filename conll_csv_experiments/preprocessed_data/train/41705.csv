@@ -1,0 +1,29 @@
+0,1,2,3
+ ,O,O,<UNK>
+The,DT,B-NP,O
+ceasefire,NN,I-NP,O
+is,VBZ,B-VP,O
+being,VBG,I-VP,O
+observed,VBN,I-VP,O
+",",",",O,O
+ ,O,O,<UNK>
+said,VBD,B-VP,O
+woman,NN,B-NP,O
+soldier,NN,I-NP,O
+Svetlana,NNP,I-NP,B-PER
+Goncharova,NNP,I-NP,I-PER
+",",",",O,O
+35,CD,B-NP,O
+",",",",O,O
+short,JJ,B-NP,O
+dark,JJ,I-NP,O
+hair,NN,I-NP,O
+poking,VBG,B-VP,O
+out,RB,B-PP,O
+from,IN,B-PP,O
+under,IN,B-PP,O
+a,DT,B-NP,O
+peaked,JJ,I-NP,O
+camouflage,NN,I-NP,O
+cap,NN,I-NP,O
+.,.,O,O

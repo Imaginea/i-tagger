@@ -1,0 +1,14 @@
+0,1,2,3
+Reduced,VBN,B-VP,O
+concern,NN,B-NP,O
+over,IN,B-PP,O
+Hurricane,NNP,B-NP,O
+Edouard,NNP,I-NP,B-MISC
+prompted,VBD,B-VP,O
+some,DT,B-NP,O
+of,IN,B-PP,O
+the,DT,B-NP,O
+early,JJ,I-NP,O
+profit,NN,I-NP,O
+taking,VBG,B-VP,O
+.,.,O,O

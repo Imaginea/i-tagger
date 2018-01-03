@@ -1,0 +1,10 @@
+0,1,2,3
+That,IN,B-NP,O
+compared,VBN,B-VP,O
+to,TO,B-PP,O
+26-57,CD,B-NP,O
+in,IN,B-PP,O
+the,DT,B-NP,O
+previous,JJ,I-NP,O
+poll,NN,I-NP,O
+.,.,O,O

@@ -1,0 +1,7 @@
+0,1,2,3
+Saudi,NNP,B-NP,B-LOC
+Arabia,NNP,I-NP,I-LOC
+executes,VBZ,B-VP,O
+Pakistani,JJ,B-NP,B-MISC
+man,NN,I-NP,O
+.,.,O,O

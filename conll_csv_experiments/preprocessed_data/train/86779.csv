@@ -1,0 +1,30 @@
+0,1,2,3
+After,IN,B-PP,O
+World,NNP,B-NP,B-MISC
+War,NNP,I-NP,I-MISC
+II,NNP,I-NP,I-MISC
+",",",",O,O
+corporations,NNS,B-NP,O
+adopted,VBD,B-VP,O
+a,DT,B-NP,O
+ ,O,O,<UNK>
+military,JJ,B-NP,O
+model,NN,I-NP,O
+ ,O,O,<UNK>
+creating,VBG,B-VP,O
+hierarchical,JJ,B-ADJP,O
+organisations,NNS,B-NP,O
+where,WRB,B-ADVP,O
+ ,O,O,<UNK>
+the,DT,B-NP,O
+concept,NN,I-NP,O
+of,IN,B-PP,O
+defined,VBN,B-NP,O
+tasks,NNS,I-NP,O
+worked,VBD,B-VP,O
+great,JJ,B-ADJP,O
+",",",",O,O
+ ,O,O,<UNK>
+she,PRP,B-NP,O
+said,VBD,B-VP,O
+.,.,O,O

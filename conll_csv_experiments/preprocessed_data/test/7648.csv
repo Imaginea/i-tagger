@@ -1,0 +1,8 @@
+0,1,2,3
+PARIS,NNP,B-NP,B-LOC
+1996-12-06,CD,I-NP,O
+Standings,NNS,B-NP,O
+in,IN,B-PP,O
+the,DT,B-NP,O
+French,JJ,I-NP,B-MISC
+first,JJ,I-NP,O

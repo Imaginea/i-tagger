@@ -1,0 +1,37 @@
+0,1,2,3
+Crowds,NNS,B-NP,O
+anxiously,RB,B-ADVP,O
+wait,VB,B-VP,O
+for,IN,B-PP,O
+his,PRP$,B-NP,O
+appearances,NNS,I-NP,O
+",",",",O,O
+thrusting,VBG,B-VP,O
+out,RP,B-PRT,O
+hands,NNS,B-NP,O
+for,IN,B-PP,O
+him,PRP,B-NP,O
+to,TO,B-PP,O
+grip,NN,B-NP,O
+as,IN,B-SBAR,O
+they,PRP,B-NP,O
+scream,NN,I-NP,O
+ ,O,O,<UNK>
+12,CD,B-NP,O
+more,JJR,I-NP,O
+years,NNS,I-NP,O
+ ,O,O,<UNK>
+--,:,O,O
+a,DT,B-NP,O
+wishful,JJ,I-NP,O
+hope,NN,I-NP,O
+to,TO,B-PP,O
+eight,CD,B-NP,O
+years,NNS,I-NP,O
+of,IN,B-PP,O
+Gore,NNP,B-NP,B-PER
+after,IN,B-PP,O
+a,DT,B-NP,O
+Clinton,NNP,I-NP,B-PER
+re-election,NN,I-NP,O
+.,.,O,O

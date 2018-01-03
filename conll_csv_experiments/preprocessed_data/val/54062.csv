@@ -1,0 +1,7 @@
+0,1,2,3
+Vera,NNP,B-NP,B-PER
+Haller,NNP,I-NP,I-PER
+VENICE,NNP,B-NP,O
+",",",",O,O
+Italy,NNP,B-NP,B-LOC
+1996-08-31,NNP,I-NP,O

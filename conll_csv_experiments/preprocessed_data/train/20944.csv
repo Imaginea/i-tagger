@@ -1,0 +1,17 @@
+0,1,2,3
+The,DT,B-NP,O
+session,NN,I-NP,O
+'s,VBZ,I-NP,O
+most,RBS,B-ADJP,O
+active,JJ,I-ADJP,O
+shares,NNS,B-NP,O
+were,VBD,B-VP,O
+those,DT,B-NP,O
+of,IN,B-PP,O
+Isbank,NNPS,B-NP,B-ORG
+gained,VBD,B-VP,O
+300,CD,B-NP,O
+lira,NN,I-NP,O
+to,TO,B-PP,O
+"8,600",CD,B-NP,O
+.,.,O,O

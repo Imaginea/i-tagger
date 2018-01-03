@@ -1,0 +1,33 @@
+0,1,2,3
+ ,O,O,<UNK>
+This,DT,B-NP,O
+most,RBS,I-NP,O
+recent,JJ,I-NP,O
+measure,NN,I-NP,O
+represents,VBZ,B-VP,O
+a,DT,B-NP,O
+revival,NN,I-NP,O
+of,IN,B-PP,O
+old,JJ,B-NP,O
+",",",",I-NP,O
+malicious,JJ,I-NP,O
+plans,NNS,I-NP,O
+to,TO,B-VP,O
+confiscate,VB,I-VP,O
+the,DT,B-NP,O
+land,NN,I-NP,O
+and,CC,O,O
+build,VB,B-VP,O
+units,NNS,B-NP,O
+for,IN,B-PP,O
+Israeli,JJ,B-NP,B-MISC
+settlers,NNS,I-NP,O
+within,IN,B-PP,O
+the,DT,B-NP,O
+walls,NNS,I-NP,O
+of,IN,B-PP,O
+the,DT,B-NP,O
+Old,NNP,I-NP,B-LOC
+City,NNP,I-NP,I-LOC
+.,.,I-NP,O
+ ,O,O,<UNK>

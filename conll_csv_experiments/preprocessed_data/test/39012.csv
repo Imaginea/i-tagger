@@ -1,0 +1,20 @@
+0,1,2,3
+I,PRP,B-NP,O
+think,VB,B-VP,O
+political,JJ,B-NP,O
+issues,NNS,I-NP,O
+will,MD,B-VP,O
+take,VB,I-VP,O
+secondary,JJ,B-NP,O
+importance,NN,I-NP,O
+to,TO,B-PP,O
+all,DT,B-NP,O
+these,DT,I-NP,O
+economic,JJ,I-NP,O
+issues,NNS,I-NP,O
+that,WDT,B-NP,O
+will,MD,B-VP,O
+be,VB,I-VP,O
+displayed,VBN,I-VP,O
+.,.,O,O
+ ,O,O,<UNK>

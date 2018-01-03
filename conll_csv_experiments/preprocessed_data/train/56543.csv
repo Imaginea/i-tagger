@@ -1,0 +1,6 @@
+0,1,2,3
+Crystal,NNP,B-NP,B-ORG
+Palace,NNP,I-NP,I-ORG
+3,CD,I-NP,O
+Oldham,NNP,I-NP,B-ORG
+1,CD,I-NP,O

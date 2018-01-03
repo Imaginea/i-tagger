@@ -1,0 +1,8 @@
+0,1,2,3
+9.,CD,B-NP,O
+Andrei,NNP,B-NP,B-PER
+Tchmil,NNP,I-NP,I-PER
+(,(,O,O
+Ukraine,NNP,B-NP,B-LOC
+),),O,O
+56,CD,B-NP,O

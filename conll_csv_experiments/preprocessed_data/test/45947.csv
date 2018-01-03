@@ -1,0 +1,13 @@
+0,1,2,3
+Fife,NNP,B-NP,B-ORG
+v,FW,I-NP,O
+Partick,NNP,B-NP,B-ORG
+",",",",O,O
+Stirling,NNP,B-NP,B-ORG
+v,FW,I-NP,O
+St,NNP,I-NP,B-ORG
+Mirren,NNP,I-NP,I-ORG
+(,(,O,O
+to,TO,B-PP,O
+Tuesday,NNP,B-NP,O
+),),O,O

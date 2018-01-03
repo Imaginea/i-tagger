@@ -1,0 +1,15 @@
+0,1,2,3
+LONDON,NNP,B-NP,B-LOC
+1996-08-22,CD,I-NP,O
+-,:,O,O
+Secondhand,VB,B-VP,O
+tonnage,NN,B-NP,O
+brokers,NNS,I-NP,O
+reported,VBD,B-VP,O
+the,DT,B-NP,O
+sale,NN,I-NP,O
+of,IN,B-PP,O
+the,DT,B-NP,O
+following,VBG,I-NP,O
+vessels,NNS,I-NP,O
+.,.,O,O

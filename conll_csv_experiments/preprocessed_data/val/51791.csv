@@ -1,0 +1,30 @@
+0,1,2,3
+ ,O,O,<UNK>
+Even,RB,B-ADVP,O
+if,IN,B-SBAR,O
+changes,NNS,B-NP,O
+are,VBP,B-VP,O
+made,VBN,I-VP,O
+to,TO,I-VP,O
+airbags,VB,I-VP,O
+today,NN,B-NP,O
+",",",",O,O
+we,PRP,B-NP,O
+'d,MD,B-VP,O
+still,RB,I-VP,O
+have,VB,I-VP,O
+20,CD,B-NP,O
+million,CD,I-NP,O
+vehicles,NNS,I-NP,O
+on,IN,B-PP,O
+the,DT,B-NP,O
+road,NN,I-NP,O
+with,IN,B-PP,O
+current,JJ,B-NP,O
+technology,NN,I-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+Dewey,NNP,B-NP,B-PER
+said,VBD,B-VP,O
+.,.,O,O
+ ,O,O,<UNK>

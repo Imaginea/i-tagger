@@ -1,0 +1,36 @@
+0,1,2,3
+In,IN,B-PP,O
+a,DT,B-NP,O
+statement,NN,I-NP,O
+Havel,NNP,I-NP,B-PER
+",",",",O,O
+who,WP,B-NP,O
+is,VBZ,B-VP,O
+recovering,VBG,I-VP,O
+from,IN,B-PP,O
+cancer,NN,B-NP,O
+surgery,NN,I-NP,O
+",",",",O,O
+said,VBD,B-VP,O
+:,:,O,O
+ ,O,O,<UNK>
+Madeleine,NNP,B-NP,B-PER
+Albright,NNP,I-NP,I-PER
+is,VBZ,B-VP,O
+a,DT,B-NP,O
+distinguished,JJ,I-NP,O
+friend,NN,I-NP,O
+",",",",O,O
+a,DT,B-NP,O
+tested,VBN,I-NP,O
+diplomat,NN,I-NP,O
+",",",",O,O
+and,CC,O,O
+a,DT,B-NP,O
+true,JJ,I-NP,O
+American,NNP,I-NP,B-MISC
+of,IN,B-PP,O
+fine,JJ,B-NP,O
+origins,NNS,I-NP,O
+.,.,O,O
+ ,O,O,<UNK>

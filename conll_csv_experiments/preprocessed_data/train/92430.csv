@@ -1,0 +1,6 @@
+0,1,2,3
+Sussex,NNP,B-NP,B-ORG
+389,CD,I-NP,O
+and,CC,I-NP,O
+112,CD,I-NP,O
+.,.,O,O

@@ -1,0 +1,4 @@
+0,1,2,3
+Attendance,NNP,B-NP,O
+"18,500",CD,I-NP,O
+.,.,O,O

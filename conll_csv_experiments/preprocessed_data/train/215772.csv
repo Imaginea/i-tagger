@@ -1,0 +1,10 @@
+0,1,2,3
+Jobless,NN,B-NP,O
+figures,NNS,I-NP,O
+are,VBP,B-VP,O
+registered,VBN,I-VP,O
+unemployed,JJ,B-ADJP,O
+at,IN,B-PP,O
+labour,NN,B-NP,O
+ministry,NN,I-NP,O
+.,.,O,O

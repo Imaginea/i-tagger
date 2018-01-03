@@ -1,0 +1,7 @@
+0,1,2,3
+St,NNP,B-NP,B-ORG
+George,NNP,I-NP,I-ORG
+20,CD,I-NP,O
+North,NNP,I-NP,B-ORG
+Queensland,NNP,I-NP,I-ORG
+24,CD,I-NP,O

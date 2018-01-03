@@ -1,0 +1,19 @@
+0,1,2,3
+Maybe,RB,B-ADVP,O
+they,PRP,B-NP,O
+want,VBP,B-VP,O
+us,PRP,B-NP,O
+to,TO,B-VP,O
+be,VB,I-VP,O
+alcoholics,NNS,B-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+Perry,NNP,B-NP,B-PER
+joked,VBD,B-VP,O
+before,IN,B-PP,O
+lifting,VBG,B-VP,O
+her,PRP$,B-NP,O
+glass,NN,I-NP,O
+of,IN,B-PP,O
+wine,NN,B-NP,O
+.,.,O,O

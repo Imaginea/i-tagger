@@ -1,0 +1,6 @@
+0,1,2,3
+No,DT,B-NP,O
+one,NN,I-NP,O
+was,VBD,B-VP,O
+hurt,VBN,I-VP,O
+.,.,O,O

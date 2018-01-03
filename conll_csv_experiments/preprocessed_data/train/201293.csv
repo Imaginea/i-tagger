@@ -1,0 +1,22 @@
+0,1,2,3
+Recent,JJ,B-NP,O
+want-ad,JJ,I-NP,O
+figures,NNS,I-NP,O
+indicate,VBP,B-VP,O
+that,IN,B-SBAR,O
+conservative,JJ,B-NP,O
+hiring,NN,I-NP,O
+plans,NNS,I-NP,O
+are,VBP,B-VP,O
+keeping,VBG,I-VP,O
+job,NN,B-NP,O
+growth,NN,I-NP,O
+below,IN,B-PP,O
+the,DT,B-NP,O
+rate,NN,I-NP,O
+of,IN,B-PP,O
+overall,JJ,B-NP,O
+economic,JJ,I-NP,O
+activity,NN,I-NP,O
+.,.,O,O
+ ,O,O,<UNK>

@@ -1,0 +1,10 @@
+0,1,2,3
+1836,CD,B-NP,O
+-,:,I-NP,O
+Scottish,NNP,I-NP,B-MISC
+politician,NN,I-NP,O
+Sir,NNP,I-NP,O
+Henry,NNP,I-NP,B-PER
+Campbell-Bannerman,NNP,I-NP,I-PER
+born,VBN,B-VP,O
+.,.,O,O

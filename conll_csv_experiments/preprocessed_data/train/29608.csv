@@ -1,0 +1,28 @@
+0,1,2,3
+It,PRP,B-NP,O
+said,VBD,B-VP,O
+ ,O,O,<UNK>
+Mission,NNP,B-NP,B-MISC
+:,:,O,I-MISC
+Impossible,JJ,B-ADJP,I-MISC
+ ,O,O,<UNK>
+director,NN,B-NP,O
+Brian,NNP,I-NP,B-PER
+De,NNP,I-NP,I-PER
+Palma,NNP,I-NP,I-PER
+would,MD,B-VP,O
+have,VB,I-VP,O
+first,JJ,B-NP,O
+crack,NN,I-NP,O
+at,IN,B-PP,O
+the,DT,B-NP,O
+sequel,NN,I-NP,O
+",",",",O,O
+though,IN,B-SBAR,O
+no,DT,B-NP,O
+deals,NNS,I-NP,O
+have,VBP,B-VP,O
+been,VBN,I-VP,O
+made,VBN,I-VP,O
+yet,RB,B-ADVP,O
+.,.,O,O

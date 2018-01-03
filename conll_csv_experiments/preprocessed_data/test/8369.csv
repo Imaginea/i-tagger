@@ -1,0 +1,9 @@
+0,1,2,3
+MADRID,NNP,B-NP,B-LOC
+1996-12-06,CD,I-NP,O
+William,NNP,B-NP,B-PER
+Hill,NNP,I-NP,I-PER
+betting,VBG,B-VP,O
+on,IN,B-PP,O
+Saturday,NNP,B-NP,O
+'s,POS,I-NP,O

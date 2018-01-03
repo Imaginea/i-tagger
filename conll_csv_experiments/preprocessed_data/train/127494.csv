@@ -1,0 +1,11 @@
+0,1,2,3
+direct,JJ,B-NP,O
+equity,NN,I-NP,O
+trades,NNS,I-NP,O
+made,VBN,B-VP,O
+on,IN,B-PP,O
+the,DT,B-NP,O
+Prague,NNP,I-NP,B-ORG
+Stock,NNP,I-NP,I-ORG
+Exchange,NNP,I-NP,I-ORG
+:,:,O,O

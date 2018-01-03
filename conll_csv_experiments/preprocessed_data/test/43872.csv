@@ -1,0 +1,13 @@
+0,1,2,3
+GLASGOW,NNP,B-NP,B-LOC
+1996-12-07,CD,I-NP,O
+Summaries,NNS,B-NP,O
+of,IN,B-PP,O
+Scottish,JJ,B-NP,B-MISC
+premier,JJ,I-NP,O
+division,NN,I-NP,O
+matches,NNS,I-NP,O
+played,VBN,B-VP,O
+on,IN,B-PP,O
+Saturday,NNP,B-NP,O
+:,:,O,O

@@ -1,0 +1,27 @@
+0,1,2,3
+ ,O,O,<UNK>
+We,PRP,B-NP,O
+were,VBD,B-VP,O
+not,RB,I-VP,O
+allowed,VBN,I-VP,O
+a,DT,B-NP,O
+delay,NN,I-NP,O
+to,TO,B-VP,O
+enable,VB,I-VP,O
+us,PRP,B-NP,O
+to,TO,B-VP,O
+transfer,VB,I-VP,O
+the,DT,B-NP,O
+movement,NN,I-NP,O
+'s,POS,B-NP,O
+goods,NNS,I-NP,O
+and,CC,I-NP,O
+documents,NNS,I-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+Khalfallah,WRB,B-ADVP,B-PER
+added,VBN,B-VP,O
+in,IN,B-PP,O
+a,DT,B-NP,O
+statement,NN,I-NP,O
+.,.,O,O

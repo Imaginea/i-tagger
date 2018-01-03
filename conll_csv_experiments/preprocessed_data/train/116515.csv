@@ -1,0 +1,21 @@
+0,1,2,3
+AD-DIYAR,NN,B-NP,B-ORG
+-,:,O,O
+A,DT,B-NP,O
+cabinet,NN,I-NP,O
+minister,NN,I-NP,O
+:,:,O,O
+ ,O,O,<UNK>
+Lebanon,NNP,B-NP,B-ORG
+First,NNP,I-NP,I-ORG
+ ,O,O,<UNK>
+aims,VBZ,B-VP,O
+at,IN,B-PP,O
+splitting,NN,B-NP,O
+the,DT,B-NP,O
+Syrian-Lebanese,NN,I-NP,B-MISC
+peace,NN,I-NP,O
+tracks,NNS,I-NP,O
+with,IN,B-PP,O
+Israel,NNP,B-NP,B-LOC
+.,.,O,O

@@ -1,0 +1,9 @@
+0,1,2,3
+Dutch,JJ,B-NP,B-MISC
+bond,NN,I-NP,O
+futures,NNS,I-NP,O
+revival,NN,I-NP,O
+delayed,VBD,B-VP,O
+-,:,O,O
+EOE,NNP,B-NP,B-ORG
+.,.,O,O

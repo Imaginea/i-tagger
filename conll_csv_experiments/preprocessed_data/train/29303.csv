@@ -1,0 +1,32 @@
+0,1,2,3
+Understating,VBG,B-VP,O
+the,DT,B-NP,O
+cost,NN,I-NP,O
+of,IN,B-PP,O
+exported,VBN,B-NP,O
+goods,NNS,I-NP,O
+could,MD,B-VP,O
+still,RB,I-VP,O
+be,VB,I-VP,O
+a,DT,B-NP,O
+loophole,NN,I-NP,O
+for,IN,B-PP,O
+barter,JJR,B-NP,O
+dealers,NNS,I-NP,O
+",",",",O,O
+but,CC,O,O
+Volkova,NNP,B-NP,B-PER
+said,VBD,B-VP,O
+the,DT,B-NP,O
+authorities,NNS,I-NP,O
+are,VBP,B-VP,O
+currently,RB,I-VP,O
+ ,O,O,<UNK>
+tackling,VBG,B-VP,O
+the,DT,B-NP,O
+technicalities,NNS,I-NP,O
+of,IN,B-PP,O
+the,DT,B-NP,O
+issue,NN,I-NP,O
+ ,O,O,<UNK>
+.,.,O,O

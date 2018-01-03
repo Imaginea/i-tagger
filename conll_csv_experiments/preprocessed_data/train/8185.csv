@@ -1,0 +1,8 @@
+0,1,2,3
+Nyva,NN,B-NP,B-ORG
+qualified,VBN,I-NP,O
+on,RP,B-PP,O
+away,RB,B-ADVP,O
+goals,NNS,B-NP,O
+rule,VBP,B-VP,O
+.,.,O,O

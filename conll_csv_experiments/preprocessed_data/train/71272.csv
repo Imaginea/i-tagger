@@ -1,0 +1,9 @@
+0,1,2,3
+5.,NNP,B-NP,O
+Colin,NNP,I-NP,B-PER
+Edwards,NNP,I-NP,I-PER
+(,(,O,O
+U.S.,NNP,B-NP,B-LOC
+),),O,O
+Yamaha,NNP,B-NP,B-ORG
+176,CD,I-NP,O

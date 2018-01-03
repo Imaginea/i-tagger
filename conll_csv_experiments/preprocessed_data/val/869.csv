@@ -1,0 +1,10 @@
+0,1,2,3
+May,NNP,B-NP,O
+22,CD,I-NP,O
+First,NNP,I-NP,O
+one-day,JJ,I-NP,O
+international,NN,I-NP,O
+(,(,O,O
+at,IN,B-PP,O
+Headingley,NNP,B-NP,B-LOC
+",",",",O,O

@@ -1,0 +1,13 @@
+0,1,2,3
+Ford,NNP,B-NP,B-ORG
+China,NNP,I-NP,I-ORG
+JV,NNP,I-NP,O
+posts,NNS,I-NP,O
+77,CD,B-NP,O
+percent,NN,I-NP,O
+net,JJ,I-NP,O
+drop,NN,I-NP,O
+in,IN,B-PP,O
+H1,NN,B-NP,O
+96,CD,I-NP,O
+.,.,O,O

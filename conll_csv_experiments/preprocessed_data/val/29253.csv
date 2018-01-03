@@ -1,0 +1,12 @@
+0,1,2,3
+286,CD,B-NP,O
+Miguel,NNP,I-NP,B-PER
+Angel,NNP,I-NP,I-PER
+Jimenez,NNP,I-NP,I-PER
+(,(,O,O
+Spain,NNP,B-NP,B-LOC
+),),O,O
+74,CD,B-NP,O
+72,CD,I-NP,O
+73,CD,I-NP,O
+67,CD,I-NP,O

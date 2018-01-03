@@ -1,0 +1,16 @@
+0,1,2,3
+A,DT,B-NP,O
+Bank,NNP,I-NP,B-ORG
+Indonesia,NNP,I-NP,I-ORG
+spokeswoman,NN,I-NP,O
+confirmed,VBD,B-VP,O
+the,DT,B-NP,O
+newspaper,NN,I-NP,O
+report,NN,I-NP,O
+but,CC,O,O
+declined,VBD,B-VP,O
+to,TO,I-VP,O
+give,VB,I-VP,O
+further,JJ,B-NP,O
+details,NNS,I-NP,O
+.,.,O,O

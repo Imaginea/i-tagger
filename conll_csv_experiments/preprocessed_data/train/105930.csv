@@ -1,0 +1,33 @@
+0,1,2,3
+Preliminary,JJ,B-NP,O
+reports,NNS,I-NP,O
+said,VBD,B-VP,O
+the,DT,B-NP,O
+couple,NN,I-NP,O
+were,VBD,B-VP,O
+kidnapped,VBN,I-VP,O
+on,IN,B-PP,O
+the,DT,B-NP,O
+ ,O,O,<UNK>
+Altamira,NNP,B-NP,B-LOC
+ ,O,O,<UNK>
+farm,NN,B-NP,O
+",",",",O,O
+owned,VBN,B-VP,O
+by,IN,B-PP,O
+Dutchman,NNP,B-NP,B-MISC
+Richard,NNP,I-NP,B-PER
+Wisinga,NNP,I-NP,I-PER
+",",",",O,O
+at,IN,B-PP,O
+Aguas,NNP,B-NP,B-LOC
+Zarcas,NNP,I-NP,I-LOC
+de,FW,I-NP,I-LOC
+San,NNP,I-NP,I-LOC
+Carlos,NNP,I-NP,I-LOC
+near,IN,B-PP,O
+the,DT,B-NP,O
+Costa,NNP,I-NP,B-LOC
+Rica-Nicaragua,NNP,I-NP,I-LOC
+border,NN,I-NP,O
+.,.,O,O

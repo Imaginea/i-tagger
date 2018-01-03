@@ -1,0 +1,17 @@
+0,1,2,3
+ ,O,O,<UNK>
+Today,NN,B-NP,O
+the,DT,B-NP,O
+concentration,NN,I-NP,O
+was,VBD,B-VP,O
+the,DT,B-NP,O
+most,RBS,I-NP,O
+important,JJ,I-NP,O
+thing,NN,I-NP,O
+for,IN,B-PP,O
+me,PRP,B-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+Mitchell,NNP,B-NP,B-PER
+said,VBD,B-VP,O
+.,.,O,O

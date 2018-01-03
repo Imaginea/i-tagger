@@ -1,0 +1,10 @@
+0,1,2,3
+Three,CD,B-NP,O
+members,NNS,I-NP,O
+of,IN,B-PP,O
+the,DT,B-NP,O
+party,NN,I-NP,O
+were,VBD,B-VP,O
+rescued,VBN,I-VP,O
+unhurt,JJ,B-ADJP,O
+.,.,O,O

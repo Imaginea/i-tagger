@@ -1,0 +1,8 @@
+0,1,2,3
+5.,CD,B-NP,O
+Svetlana,NNP,I-NP,B-PER
+Zalevskaya,NNP,I-NP,I-PER
+(,(,O,O
+Kazakhstan,NNP,B-NP,B-LOC
+),),O,O
+1.91,CD,B-NP,O

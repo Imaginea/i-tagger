@@ -1,0 +1,19 @@
+0,1,2,3
+ ,O,O,<UNK>
+It,PRP,B-NP,O
+'s,VBZ,B-VP,O
+not,RB,O,O
+as,IN,B-SBAR,O
+though,IN,I-SBAR,O
+it,PRP,B-NP,O
+has,VBZ,B-VP,O
+n't,RB,I-VP,O
+had,VBD,I-VP,O
+an,DT,B-NP,O
+impact,NN,I-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+he,PRP,B-NP,O
+said,VBD,B-VP,O
+.,.,O,O
+ ,O,O,<UNK>

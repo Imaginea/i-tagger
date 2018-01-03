@@ -1,0 +1,17 @@
+0,1,2,3
+Amanda,NNP,B-NP,B-PER
+Coetzer,NNP,I-NP,I-PER
+(,(,O,O
+South,NNP,B-NP,B-LOC
+Africa,NNP,I-NP,I-LOC
+),),O,O
+beat,VB,B-VP,O
+Mariaan,NNP,B-NP,B-PER
+de,NNP,I-NP,I-PER
+Swardt,NNP,I-NP,I-PER
+(,(,O,O
+South,NNP,B-NP,B-LOC
+Africa,NNP,I-NP,I-LOC
+),),O,O
+6-2,CD,B-NP,O
+7-5,CD,I-NP,O

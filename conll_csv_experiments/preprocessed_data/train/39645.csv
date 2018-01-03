@@ -1,0 +1,12 @@
+0,1,2,3
+World,NNP,B-NP,B-ORG
+Bridge,NNP,I-NP,I-ORG
+30,CD,I-NP,O
+03/09,CD,I-NP,O
+South,NNP,I-NP,B-LOC
+Korea,NNP,I-NP,I-LOC
+/,SYM,O,O
+Japan,NNP,B-NP,B-LOC
+rnr,CC,I-NP,O
+CNR,NNP,I-NP,B-ORG
+.,.,O,O

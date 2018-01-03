@@ -1,0 +1,13 @@
+0,1,2,3
+That,DT,B-NP,O
+refusal,NN,I-NP,O
+led,VBD,B-VP,O
+to,TO,B-PP,O
+the,DT,B-NP,O
+imposition,NN,I-NP,O
+of,IN,B-PP,O
+U.N.,NNP,B-NP,B-ORG
+sanctions,VBZ,B-VP,O
+on,IN,B-PP,O
+Libya,NNP,B-NP,B-LOC
+.,.,O,O

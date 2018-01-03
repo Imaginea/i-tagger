@@ -1,0 +1,33 @@
+0,1,2,3
+Davies,NNP,B-NP,B-PER
+said,VBD,B-VP,O
+the,DT,B-NP,O
+two,CD,I-NP,O
+leaders,NNS,I-NP,O
+ ,O,O,<UNK>
+have,VBP,B-VP,O
+agreed,VBN,I-VP,O
+to,TO,I-VP,O
+cease,VB,I-VP,O
+the,DT,B-NP,O
+fighting,NN,I-NP,O
+(,(,O,O
+and,CC,O,O
+),),O,O
+return,NN,B-NP,O
+their,PRP$,B-NP,O
+forces,NNS,I-NP,O
+to,TO,B-PP,O
+the,DT,B-NP,O
+positions,NNS,I-NP,O
+held,VBN,B-VP,O
+before,IN,B-PP,O
+the,DT,B-NP,O
+current,JJ,I-NP,O
+fighting,NN,I-NP,O
+began,VBD,B-VP,O
+ ,O,O,<UNK>
+on,IN,B-PP,O
+August,NNP,B-NP,O
+17,CD,I-NP,O
+.,.,O,O

@@ -1,0 +1,8 @@
+0,1,2,3
+Matahari,NNP,B-NP,B-ORG
+revises,VBZ,B-VP,O
+down,RB,B-ADVP,O
+1996,CD,B-NP,O
+net,JJ,I-NP,O
+target,NN,I-NP,O
+.,.,O,O

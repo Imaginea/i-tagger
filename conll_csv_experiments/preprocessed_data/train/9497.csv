@@ -1,0 +1,8 @@
+0,1,2,3
+Mikael,NNP,B-NP,B-PER
+Tillstrom,NNP,I-NP,I-PER
+(,(,O,O
+Sweden,NNP,B-NP,B-LOC
+),),O,O
+vs,NNP,O,O
+qualifier,NN,B-NP,O

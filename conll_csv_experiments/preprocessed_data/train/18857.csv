@@ -1,0 +1,13 @@
+0,1,2,3
+Argentine,JJ,B-NP,B-MISC
+July,NNP,I-NP,O
+raw,JJ,I-NP,O
+steel,NN,I-NP,O
+output,NN,I-NP,O
+up,IN,B-PP,O
+14.8,CD,B-NP,O
+pct,JJ,I-NP,O
+vs,NNP,O,O
+',POS,B-NP,O
+95,CD,I-NP,O
+.,.,O,O

@@ -1,0 +1,8 @@
+0,1,2,3
+Nebraska,NN,B-NP,B-LOC
+fed,VBN,B-VP,O
+cattle,NNS,B-NP,O
+roundup,VBP,B-VP,O
+-,:,O,O
+USDA,NNP,B-NP,B-ORG
+.,.,O,O

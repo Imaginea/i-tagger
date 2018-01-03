@@ -1,0 +1,8 @@
+0,1,2,3
+M.,NNP,B-NP,B-PER
+Bevan,NNP,I-NP,I-PER
+c,SYM,O,O
+Vaas,NNP,B-NP,B-PER
+b,SYM,O,O
+Chandana,NNP,B-NP,B-PER
+56,CD,I-NP,O

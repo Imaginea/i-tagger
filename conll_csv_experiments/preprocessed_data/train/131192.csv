@@ -1,0 +1,17 @@
+0,1,2,3
+His,PRP$,B-NP,O
+only,JJ,I-NP,O
+political,JJ,I-NP,O
+role,NN,I-NP,O
+is,VBZ,B-VP,O
+to,TO,I-VP,O
+smoothe,VB,I-VP,O
+the,DT,B-NP,O
+functioning,NN,I-NP,O
+of,IN,B-PP,O
+government,NN,B-NP,O
+in,IN,B-PP,O
+periods,NNS,B-NP,O
+of,IN,B-PP,O
+crisis,NN,B-NP,O
+.,.,O,O

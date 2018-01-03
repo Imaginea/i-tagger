@@ -1,0 +1,21 @@
+0,1,2,3
+However,RB,B-ADVP,O
+",",",",O,O
+we,PRP,B-NP,O
+are,VBP,B-VP,O
+assuming,VBG,I-VP,O
+they,PRP,B-NP,O
+are,VBP,B-VP,O
+as,IN,B-PP,O
+a,DT,B-NP,O
+precaution,NN,I-NP,O
+for,IN,B-PP,O
+the,DT,B-NP,O
+time,NN,I-NP,O
+being,VBG,B-VP,O
+",",",",O,O
+ ,O,O,<UNK>
+a,DT,B-NP,O
+spokeswoman,NN,I-NP,O
+said,VBD,B-VP,O
+.,.,O,O

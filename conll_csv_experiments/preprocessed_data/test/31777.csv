@@ -1,0 +1,16 @@
+0,1,2,3
+Turkey,NNP,B-NP,B-LOC
+says,VBZ,B-VP,O
+Syria,NNP,B-NP,B-LOC
+sponsors,VBZ,B-VP,O
+the,DT,B-NP,O
+PKK,NNP,I-NP,B-ORG
+",",",",O,O
+fighting,VBG,B-VP,O
+for,IN,B-PP,O
+Kurdish,JJ,B-NP,B-MISC
+self-rule,NN,I-NP,O
+in,IN,B-PP,O
+southeast,JJ,B-NP,O
+Turkey,NNP,I-NP,B-LOC
+.,.,O,O

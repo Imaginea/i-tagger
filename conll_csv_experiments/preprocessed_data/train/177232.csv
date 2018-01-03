@@ -1,0 +1,10 @@
+0,1,2,3
+There,EX,B-NP,O
+will,MD,B-VP,O
+be,VB,I-VP,O
+no,DT,B-NP,O
+Palestinian,JJ,I-NP,B-MISC
+state,NN,I-NP,O
+without,IN,B-PP,O
+Jerusalem,NNP,B-NP,B-LOC
+.,.,O,O

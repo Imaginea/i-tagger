@@ -1,0 +1,13 @@
+0,1,2,3
+Africa,NNP,B-NP,B-LOC
+),),O,O
+71,CD,B-NP,O
+74,CD,B-NP,O
+75,CD,I-NP,O
+",",",",O,O
+David,NNP,B-NP,B-PER
+Gilford,NNP,I-NP,I-PER
+69,CD,I-NP,O
+74,CD,B-NP,O
+77,CD,I-NP,O
+.,.,O,O

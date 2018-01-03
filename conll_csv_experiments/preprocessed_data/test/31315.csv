@@ -1,0 +1,25 @@
+0,1,2,3
+ ,O,O,<UNK>
+President,NNP,B-NP,O
+Arafat,NNP,I-NP,B-PER
+is,VBZ,B-VP,O
+ready,JJ,B-ADJP,O
+to,TO,B-VP,O
+meet,VB,I-VP,O
+Prime,NNP,B-NP,O
+Minister,NNP,I-NP,O
+Netanyahu,NNP,I-NP,B-PER
+but,CC,O,O
+no,DT,B-NP,O
+time,NN,I-NP,O
+or,CC,I-NP,O
+date,NN,I-NP,O
+has,VBZ,B-VP,O
+been,VBN,I-VP,O
+set,VBN,I-VP,O
+for,IN,B-PP,O
+such,JJ,B-NP,O
+a,DT,I-NP,O
+meeting,NN,I-NP,O
+yet,RB,B-ADVP,O
+.,.,O,O

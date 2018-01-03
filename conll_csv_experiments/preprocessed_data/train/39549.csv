@@ -1,0 +1,12 @@
+0,1,2,3
+AP,NNP,B-NP,B-ORG
+Moller,NNP,I-NP,I-ORG
+30,CD,I-NP,O
+31/8,CD,I-NP,O
+Caribs,NNP,I-NP,B-LOC
+/,SYM,O,O
+Japan,NNP,B-NP,B-LOC
+$,$,B-NP,O
+"875,000",CD,I-NP,O
+BP,NNP,I-NP,B-ORG
+.,.,O,O

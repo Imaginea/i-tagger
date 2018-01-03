@@ -1,0 +1,8 @@
+0,1,2,3
+German,JJ,B-NP,B-MISC
+anti-nuclear,JJ,I-NP,O
+activists,NNS,I-NP,O
+in,IN,B-PP,O
+pantomime,NN,B-NP,O
+protest,NN,I-NP,O
+.,.,O,O

@@ -1,0 +1,10 @@
+0,1,2,3
+Postponed,VBN,B-VP,O
+:,:,O,O
+Charlton,NNP,B-NP,B-ORG
+v,NNP,O,O
+Birmingham,NNP,B-NP,B-ORG
+",",",",O,O
+Sheffield,NNP,B-NP,B-ORG
+United,NNP,I-NP,I-ORG
+v,SYM,O,O

@@ -1,0 +1,10 @@
+0,1,2,3
+Distances,NNS,B-NP,O
+:,:,O,O
+a,DT,B-NP,O
+short,JJ,I-NP,O
+head,NN,I-NP,O
+",",",",O,O
+1-1/4,CD,B-NP,O
+lengths,NNS,I-NP,O
+.,.,O,O

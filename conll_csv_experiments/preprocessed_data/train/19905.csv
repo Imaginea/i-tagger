@@ -1,0 +1,22 @@
+0,1,2,3
+ ,O,O,<UNK>
+They,PRP,B-NP,O
+made,VBD,B-VP,O
+me,PRP,B-NP,O
+sign,VBP,B-VP,O
+an,DT,B-NP,O
+undertaking,NN,I-NP,O
+not,RB,O,O
+to,TO,B-VP,O
+sell,VB,I-VP,O
+the,DT,B-NP,O
+books,NNS,I-NP,O
+to,TO,B-PP,O
+anyone,NN,B-NP,O
+at,IN,B-PP,O
+the,DT,B-NP,O
+risk,NN,I-NP,O
+of,IN,B-PP,O
+legal,JJ,B-NP,O
+action,NN,I-NP,O
+.,.,O,O

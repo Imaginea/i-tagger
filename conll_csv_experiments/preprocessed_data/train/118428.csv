@@ -1,0 +1,35 @@
+0,1,2,3
+ ,O,O,<UNK>
+I,PRP,B-NP,O
+do,VBP,B-VP,O
+often,RB,I-VP,O
+hear,VB,I-VP,O
+on,IN,B-PP,O
+the,DT,B-NP,O
+industry,NN,I-NP,O
+circuit,NN,I-NP,O
+of,IN,B-PP,O
+tales,NNS,B-NP,O
+where,WRB,B-ADVP,O
+the,DT,B-NP,O
+company,NN,I-NP,O
+tenders,NNS,I-NP,O
+at,IN,B-PP,O
+low,JJ,B-NP,O
+margins,NNS,I-NP,O
+and,CC,O,O
+the,DT,B-NP,O
+demonstrations,NNS,I-NP,O
+which,WDT,B-NP,O
+follow,VBP,B-VP,O
+means,VBZ,I-VP,O
+they,PRP,B-NP,O
+are,VBP,B-VP,O
+running,VBG,I-VP,O
+the,DT,B-NP,O
+project,NN,I-NP,O
+at,IN,B-PP,O
+a,DT,B-NP,O
+loss,NN,I-NP,O
+.,.,O,O
+ ,O,O,<UNK>

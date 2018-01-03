@@ -1,0 +1,7 @@
+0,1,2,3
+That,DT,B-NP,O
+would,MD,B-VP,O
+really,RB,I-VP,O
+help,VB,I-VP,O
+.,.,O,O
+ ,O,O,<UNK>

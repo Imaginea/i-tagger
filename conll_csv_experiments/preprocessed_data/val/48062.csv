@@ -1,0 +1,25 @@
+0,1,2,3
+Wang,NNP,B-NP,B-PER
+",",",",O,O
+45,CD,B-NP,O
+",",",",O,O
+was,VBD,B-VP,O
+sentenced,VBN,I-VP,O
+last,JJ,B-NP,O
+month,NN,I-NP,O
+to,TO,B-PP,O
+one,CD,B-NP,O
+year,NN,I-NP,O
+'s,POS,I-NP,O
+ ,O,O,<UNK>
+re-education,NN,B-NP,O
+by,IN,B-PP,O
+labour,NN,B-NP,O
+ ,O,O,<UNK>
+but,CC,O,O
+was,VBD,B-VP,O
+released,VBN,I-VP,O
+because,RB,B-PP,O
+of,IN,I-PP,O
+ill-health,NN,B-NP,O
+.,.,O,O

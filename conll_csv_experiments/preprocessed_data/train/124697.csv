@@ -1,0 +1,10 @@
+0,1,2,3
+Washington,NNP,B-NP,B-PER
+'s,NNP,I-NP,O
+win,VBP,B-VP,O
+was,VBD,I-VP,O
+not,RB,O,O
+comfortable,JJ,B-ADJP,O
+",",",",O,O
+either,RB,B-ADVP,O
+.,.,O,O

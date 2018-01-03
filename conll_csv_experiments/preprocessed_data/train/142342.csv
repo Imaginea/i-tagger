@@ -1,0 +1,7 @@
+0,1,2,3
+Consumer,NN,B-NP,O
+magazines,NNS,I-NP,O
+618,CD,I-NP,O
+90,CD,B-NP,O
+568,CD,I-NP,O
+80,CD,I-NP,O

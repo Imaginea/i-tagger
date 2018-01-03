@@ -1,0 +1,30 @@
+0,1,2,3
+ ,O,O,<UNK>
+When,WRB,B-ADVP,O
+this,DT,B-NP,O
+government,NN,I-NP,O
+insists,VBZ,B-VP,O
+on,IN,B-PP,O
+stabbing,VBG,B-VP,O
+the,DT,B-NP,O
+peace,NN,I-NP,O
+process,NN,I-NP,O
+and,CC,O,O
+tearing,VBG,B-VP,O
+it,PRP,B-NP,O
+apart,RB,B-ADVP,O
+",",",",O,O
+this,DT,B-NP,O
+means,VBZ,B-VP,O
+that,IN,B-SBAR,O
+it,PRP,B-NP,O
+is,VBZ,B-VP,O
+preparing,VBG,I-VP,O
+for,IN,B-PP,O
+war,NN,B-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+the,DT,B-NP,O
+radio,NN,I-NP,O
+said,VBD,B-VP,O
+.,.,O,O

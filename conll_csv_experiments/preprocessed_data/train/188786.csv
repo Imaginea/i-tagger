@@ -1,0 +1,9 @@
+0,1,2,3
+9.,CD,B-NP,O
+Johan,NNP,I-NP,B-PER
+Capiot,NNP,I-NP,I-PER
+(,(,O,O
+Belgium,NNP,B-NP,B-LOC
+),),O,O
+Collstrop,VB,B-VP,B-ORG
+32,CD,B-NP,O

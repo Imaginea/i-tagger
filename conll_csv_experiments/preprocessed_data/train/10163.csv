@@ -1,0 +1,12 @@
+0,1,2,3
+Nicklas,NNP,B-NP,B-PER
+Kulti,NNP,I-NP,I-PER
+(,(,O,O
+Sweden,NNP,B-NP,B-LOC
+),),O,O
+vs.,IN,B-PP,O
+Jakob,NNP,B-NP,B-PER
+Hlasek,NNP,I-NP,I-PER
+(,(,O,O
+Switzerland,NNP,B-NP,B-LOC
+),),O,O

@@ -1,0 +1,6 @@
+0,1,2,3
+Police,NNS,B-NP,O
+have,VBP,B-VP,O
+investigated,VBN,I-VP,O
+others,NNS,B-NP,O
+.,.,O,O

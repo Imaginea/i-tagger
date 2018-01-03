@@ -1,0 +1,7 @@
+0,1,2,3
+There,EX,B-NP,O
+was,VBD,B-VP,O
+no,DT,B-NP,O
+Bundesbank,NNP,I-NP,B-ORG
+intervention,NN,I-NP,O
+.,.,O,O

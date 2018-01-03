@@ -1,0 +1,10 @@
+0,1,2,3
+No,DT,B-NP,O
+street,NN,I-NP,O
+value,NN,I-NP,O
+was,VBD,B-VP,O
+given,VBN,I-VP,O
+for,IN,B-PP,O
+the,DT,B-NP,O
+cannabis,NN,I-NP,O
+.,.,O,O

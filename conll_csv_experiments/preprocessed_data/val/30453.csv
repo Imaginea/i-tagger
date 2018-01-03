@@ -1,0 +1,10 @@
+0,1,2,3
+World,NNP,B-NP,O
+sprint,VBG,B-VP,O
+championship,NN,B-NP,O
+quarter,NN,I-NP,O
+finals,NNS,I-NP,O
+(,(,O,O
+best,JJS,B-NP,O
+of,IN,B-PP,O
+three,CD,B-NP,O

@@ -1,0 +1,8 @@
+0,1,2,3
+25.,NNP,B-NP,O
+Carole,NNP,I-NP,B-PER
+Montillet,NNP,I-NP,I-PER
+(,(,O,O
+France,NNP,B-NP,B-LOC
+),),O,O
+1:50.91,CD,B-NP,O

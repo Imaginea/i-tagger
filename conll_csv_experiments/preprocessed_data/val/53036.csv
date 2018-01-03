@@ -1,0 +1,11 @@
+0,1,2,3
+Iran,NNP,B-NP,B-LOC
+agents,NNS,I-NP,O
+stormed,VBD,B-VP,O
+German,JJ,B-NP,B-MISC
+diplomat,NN,I-NP,O
+'s,POS,B-NP,O
+home,NN,I-NP,O
+--,:,O,O
+Bonn,NNP,B-NP,B-LOC
+.,.,O,O

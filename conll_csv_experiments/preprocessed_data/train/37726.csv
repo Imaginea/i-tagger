@@ -1,0 +1,8 @@
+0,1,2,3
+ATHENS,NNS,B-NP,B-LOC
+1996-08-23,CD,I-NP,O
+Following,VBG,B-VP,O
+are,VBP,B-VP,O
+the,DT,B-NP,O
+European,JJ,I-NP,B-MISC
+soccer,NN,I-NP,O

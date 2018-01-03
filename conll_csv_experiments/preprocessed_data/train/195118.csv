@@ -1,0 +1,13 @@
+0,1,2,3
+My,PRP$,B-NP,O
+understanding,NN,I-NP,O
+is,VBZ,B-VP,O
+the,DT,B-NP,O
+(,(,O,O
+Serb,NNP,B-NP,B-MISC
+),),O,O
+police,NN,B-NP,O
+have,VB,B-VP,O
+been,VBN,I-VP,O
+released,VBN,I-VP,O
+...,:,O,O

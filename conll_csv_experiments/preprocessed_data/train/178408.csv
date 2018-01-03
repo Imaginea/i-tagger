@@ -1,0 +1,8 @@
+0,1,2,3
+WASHINGTON,NNP,B-NP,B-LOC
+1996-08-27,CD,I-NP,O
+Former,NNP,B-NP,O
+Colorado,NNP,I-NP,B-LOC
+Democratic,NNP,I-NP,B-MISC
+Gov,NNP,I-NP,O
+.,.,O,O

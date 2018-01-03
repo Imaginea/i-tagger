@@ -1,0 +1,7 @@
+0,1,2,3
+Jiul,JJ,B-NP,B-ORG
+Petrosani,NNP,I-NP,I-ORG
+1,CD,I-NP,O
+Dinamo,NNP,I-NP,B-ORG
+Bucharest,NNP,I-NP,I-ORG
+0,CD,I-NP,O

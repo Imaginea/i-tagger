@@ -1,0 +1,14 @@
+0,1,2,3
+At,IN,B-PP,O
+Hove,NNP,B-NP,B-LOC
+:,:,O,O
+Sussex,NNP,B-NP,B-ORG
+363,CD,I-NP,O
+and,CC,I-NP,O
+144,CD,I-NP,O
+",",",",O,O
+Lancashire,NN,B-NP,B-ORG
+218,CD,I-NP,O
+and,CC,I-NP,O
+53-0,CD,I-NP,O
+.,.,O,O

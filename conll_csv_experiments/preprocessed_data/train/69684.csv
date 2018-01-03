@@ -1,0 +1,15 @@
+0,1,2,3
+(,(,O,O
+Finland,NNP,B-NP,B-LOC
+),),O,O
+Gulf,NNP,B-NP,B-MISC
+McLaren,NNP,I-NP,I-MISC
+FI,NNP,I-NP,I-MISC
+GTR,NN,I-NP,I-MISC
+171,CD,I-NP,O
+laps,NNS,I-NP,O
+-,:,O,O
+6,CD,B-NP,O
+hours,NNS,I-NP,O
+18,CD,B-NP,O
+minutes,NNS,I-NP,O

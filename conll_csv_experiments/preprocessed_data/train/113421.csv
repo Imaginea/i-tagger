@@ -1,0 +1,7 @@
+0,1,2,3
+/,SYM,O,O
+/,SYM,O,O
+BOOK,NNP,I-NP,O
+ENTRY,NNP,I-NP,O
+:,:,O,O
+Y,NNP,B-NP,O

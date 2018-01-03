@@ -1,0 +1,14 @@
+0,1,2,3
+RTRS,NNS,B-NP,B-ORG
+-,:,O,O
+Tennis,NNS,B-NP,O
+-,:,O,O
+Muster,NNP,B-NP,B-PER
+upset,JJ,B-ADJP,O
+",",",",O,O
+Philippoussis,NNP,B-NP,B-PER
+wins,VBZ,B-VP,O
+",",",",O,O
+Stoltenberg,NNP,B-NP,B-PER
+loses,VBZ,B-VP,O
+.,.,O,O

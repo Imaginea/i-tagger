@@ -1,0 +1,32 @@
+0,1,2,3
+A,DT,B-NP,O
+three-day,JJ,I-NP,O
+ ,O,O,<UNK>
+independence,NN,B-NP,O
+ ,O,O,<UNK>
+march,NN,B-NP,O
+along,IN,B-PP,O
+the,DT,B-NP,O
+Po,NNP,I-NP,B-LOC
+River,NNP,I-NP,O
+in,IN,B-PP,O
+September,NNP,B-NP,O
+",",",",O,O
+culminating,VBG,B-VP,O
+in,IN,B-PP,O
+a,DT,B-NP,O
+declaration,NN,I-NP,O
+in,IN,B-PP,O
+Venice,NNP,B-NP,B-LOC
+of,IN,B-PP,O
+a,DT,B-NP,O
+self-styled,JJ,I-NP,O
+ ,O,O,<UNK>
+Republic,NNP,B-NP,B-LOC
+of,IN,B-PP,I-LOC
+Padania,NNP,B-NP,I-LOC
+ ,O,O,<UNK>
+",",",",O,O
+flopped,VBD,B-VP,O
+badly,RB,B-ADVP,O
+.,.,O,O

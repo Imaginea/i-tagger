@@ -1,0 +1,17 @@
+0,1,2,3
+Ajax,NNP,B-NP,B-ORG
+Amsterdam,NNP,I-NP,I-ORG
+opened,VBD,B-VP,O
+their,PRP$,B-NP,O
+title,NN,I-NP,O
+defence,NN,I-NP,O
+with,IN,B-PP,O
+a,DT,B-NP,O
+1-0,CD,I-NP,O
+win,VBP,B-VP,O
+over,RP,B-PRT,O
+NAC,NNP,B-NP,B-ORG
+Breda,NNP,I-NP,I-ORG
+on,IN,B-PP,O
+Wednesday,NNP,B-NP,O
+.,.,O,O

@@ -1,0 +1,8 @@
+0,1,2,3
+8.,CD,B-NP,O
+Kathrin,NNP,I-NP,B-PER
+Freitag,NNP,I-NP,I-PER
+(,(,O,O
+Germany,NNP,B-NP,B-LOC
+),),O,O
+36.491,CD,B-NP,O

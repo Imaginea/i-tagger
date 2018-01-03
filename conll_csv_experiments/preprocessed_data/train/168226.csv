@@ -1,0 +1,11 @@
+0,1,2,3
+I,PRP,B-NP,O
+do,VBP,B-VP,O
+n't,RB,I-VP,O
+know,VB,I-VP,O
+who,WP,B-NP,O
+I,PRP,B-NP,O
+voted,VBD,B-VP,O
+for,IN,B-PP,O
+.,.,O,O
+ ,O,O,<UNK>

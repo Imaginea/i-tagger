@@ -1,0 +1,9 @@
+0,1,2,3
+He,PRP,B-NP,O
+too,RB,B-ADVP,O
+had,VBD,B-VP,O
+never,RB,I-VP,O
+browsed,VBD,I-VP,O
+the,DT,B-NP,O
+Net,NN,I-NP,O
+.,.,O,O

@@ -1,0 +1,17 @@
+0,1,2,3
+ ,O,O,<UNK>
+Commander,NNP,B-NP,O
+Nuour,NNP,I-NP,B-PER
+Marial,NNP,I-NP,I-PER
+is,VBZ,B-VP,O
+a,DT,B-NP,O
+soldier,NN,I-NP,O
+so,IN,B-SBAR,O
+he,PRP,B-NP,O
+must,MD,B-VP,O
+accept,VB,I-VP,O
+the,DT,B-NP,O
+leadership,NN,I-NP,O
+'s,POS,B-NP,O
+decision,NN,I-NP,O
+.,.,O,O

@@ -1,0 +1,16 @@
+0,1,2,3
+He,PRP,B-NP,O
+said,VBD,B-VP,O
+the,DT,B-NP,O
+Bangladesh,NNP,I-NP,B-LOC
+government,NN,I-NP,O
+had,VBD,B-VP,O
+assured,VBN,I-VP,O
+him,PRP,B-NP,O
+it,PRP,B-NP,O
+was,VBD,B-VP,O
+taking,VBG,I-VP,O
+the,DT,B-NP,O
+matter,NN,I-NP,O
+seriously,RB,B-ADVP,O
+.,.,O,O

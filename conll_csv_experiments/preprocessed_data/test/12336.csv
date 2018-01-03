@@ -1,0 +1,16 @@
+0,1,2,3
+Zywiec,NNP,B-NP,B-ORG
+is,VBZ,B-VP,O
+31.8-percent,JJ,B-NP,O
+owned,VBN,I-NP,O
+by,IN,B-PP,O
+Heineken,NNP,B-NP,B-ORG
+while,IN,B-SBAR,O
+Carlsberg,NNP,B-NP,B-ORG
+has,VBZ,B-VP,O
+the,DT,B-NP,O
+same,JJ,I-NP,O
+amount,NN,I-NP,O
+in,IN,B-PP,O
+Okocim,NNP,B-NP,B-ORG
+.,.,O,O

@@ -1,0 +1,7 @@
+0,1,2,3
+Division,NN,B-NP,O
+three,CD,I-NP,O
+Albion,NNP,B-NP,B-ORG
+2,CD,I-NP,O
+Cowdenbeath,NNP,I-NP,B-ORG
+0,CD,I-NP,O

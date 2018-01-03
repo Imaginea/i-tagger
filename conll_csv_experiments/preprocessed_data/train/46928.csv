@@ -1,0 +1,14 @@
+0,1,2,3
+Luehrs,NNP,B-NP,B-PER
+declined,VBD,B-VP,O
+to,TO,I-VP,O
+say,VB,I-VP,O
+when,WRB,B-ADVP,O
+the,DT,B-NP,O
+operation,NN,I-NP,O
+was,VBD,B-VP,O
+expected,VBN,I-VP,O
+to,TO,I-VP,O
+be,VB,I-VP,O
+profitable,JJ,B-ADJP,O
+.,.,O,O

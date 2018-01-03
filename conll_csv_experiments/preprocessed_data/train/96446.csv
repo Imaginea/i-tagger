@@ -1,0 +1,15 @@
+0,1,2,3
+Scorers,NNS,B-NP,O
+:,:,O,O
+Juan,NNP,B-NP,B-PER
+Castro,NNP,I-NP,I-PER
+(,(,O,O
+3rd,CD,B-NP,O
+minute,NN,I-NP,O
+),),O,O
+",",",",O,O
+Enrique,NNP,B-NP,B-PER
+Centeno,NNP,I-NP,I-PER
+(,(,O,O
+33rd,CD,B-NP,O
+and,CC,O,O

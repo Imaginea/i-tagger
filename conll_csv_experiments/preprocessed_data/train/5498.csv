@@ -1,0 +1,12 @@
+0,1,2,3
+British,JJ,B-NP,B-MISC
+officials,NNS,I-NP,O
+say,VBP,B-VP,O
+sheep,NN,B-NP,O
+meat,NN,I-NP,O
+is,VBZ,B-VP,O
+perfectly,RB,B-ADJP,O
+safe,JJ,I-ADJP,O
+to,TO,B-VP,O
+eat,VB,I-VP,O
+.,.,O,O

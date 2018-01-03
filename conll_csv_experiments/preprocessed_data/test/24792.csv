@@ -1,0 +1,20 @@
+0,1,2,3
+ ,O,O,<UNK>
+It,PRP,B-NP,O
+shows,VBZ,B-VP,O
+that,IN,B-SBAR,O
+Sakakibara,NNP,B-NP,B-PER
+is,VBZ,B-VP,O
+not,RB,O,O
+for,IN,B-PP,O
+a,DT,B-NP,O
+stronger,JJR,I-NP,O
+dollar,NN,I-NP,O
+either,RB,B-ADVP,O
+",",",",O,O
+ ,O,O,<UNK>
+said,VBD,B-VP,O
+Sumitomo,NNP,B-NP,B-ORG
+'s,POS,I-NP,O
+Note,VB,B-VP,B-PER
+.,.,O,O

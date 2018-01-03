@@ -1,0 +1,14 @@
+0,1,2,3
+days,NNS,B-NP,O
+),),O,O
+May,NNP,B-NP,O
+31,CD,I-NP,O
+-,:,I-NP,O
+June,NNP,I-NP,O
+2,CD,I-NP,O
+v,SYM,B-VP,O
+Derbyshire,NN,B-NP,B-ORG
+(,(,O,O
+three,CD,B-NP,O
+days,NNS,I-NP,O
+),),O,O

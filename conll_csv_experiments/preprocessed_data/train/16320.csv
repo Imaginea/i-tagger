@@ -1,0 +1,25 @@
+0,1,2,3
+ ,O,O,<UNK>
+I,PRP,B-NP,O
+'m,VBP,B-VP,O
+pleased,VBN,B-ADJP,O
+because,IN,B-SBAR,O
+I,PRP,B-NP,O
+did,VBD,B-VP,O
+n't,RB,I-VP,O
+play,VB,I-VP,O
+that,DT,B-NP,O
+great,JJ,I-NP,O
+today,NN,I-NP,O
+",",",",O,O
+but,CC,O,O
+I,PRP,B-NP,O
+fought,VBD,B-VP,O
+really,RB,I-VP,O
+well,RB,I-VP,O
+",",",",I-VP,O
+ ,O,O,<UNK>
+he,PRP,B-NP,O
+said,VBD,B-VP,O
+.,.,O,O
+ ,O,O,<UNK>

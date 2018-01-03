@@ -1,0 +1,5 @@
+0,1,2,3
+1.,CD,B-NP,O
+Slight,NN,I-NP,B-PER
+280,CD,I-NP,O
+points,NNS,I-NP,O

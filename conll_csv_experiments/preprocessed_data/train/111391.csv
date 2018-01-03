@@ -1,0 +1,35 @@
+0,1,2,3
+Her,PRP$,B-NP,O
+reward,NN,I-NP,O
+was,VBD,B-VP,O
+the,DT,B-NP,O
+passage,NN,I-NP,O
+in,IN,B-PP,O
+1993,CD,B-NP,O
+of,IN,B-PP,O
+the,DT,B-NP,O
+ ,O,O,<UNK>
+Brady,NNP,B-NP,B-MISC
+Bill,NNP,I-NP,I-MISC
+ ,O,O,<UNK>
+which,WDT,B-NP,O
+requires,VBZ,B-VP,O
+a,DT,B-NP,O
+mandatory,JJ,I-NP,O
+five-day,JJ,I-NP,O
+waiting,NN,I-NP,O
+period,NN,I-NP,O
+for,IN,B-PP,O
+purchase,NN,B-NP,O
+of,IN,B-PP,O
+handguns,NNS,B-NP,O
+and,CC,O,O
+also,RB,B-ADVP,O
+mandates,VBZ,B-VP,O
+background,NN,B-NP,O
+checks,NNS,I-NP,O
+for,IN,B-PP,O
+would-be,JJ,B-NP,O
+gun,NN,I-NP,O
+purchasers,NNS,I-NP,O
+.,.,O,O

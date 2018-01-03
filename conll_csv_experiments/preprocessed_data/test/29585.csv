@@ -1,0 +1,6 @@
+0,1,2,3
+--,:,B-NP,O
+Milan,NNP,I-NP,B-LOC
+newsroom,NN,I-NP,O
++392,CD,B-NP,O
+66129502,CD,I-NP,O

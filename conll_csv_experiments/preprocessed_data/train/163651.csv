@@ -1,0 +1,10 @@
+0,1,2,3
+UK,NN,B-NP,B-LOC
+lowers,VBZ,B-VP,O
+noise,NN,B-NP,O
+limits,NNS,I-NP,O
+for,IN,B-PP,O
+three,CD,B-NP,O
+London,NNP,I-NP,B-LOC
+airports,NNS,I-NP,O
+.,.,O,O

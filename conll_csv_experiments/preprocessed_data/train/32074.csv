@@ -1,0 +1,16 @@
+0,1,2,3
+The,DT,B-NP,O
+line-up,NN,I-NP,O
+would,MD,B-VP,O
+not,RB,I-VP,O
+be,VB,I-VP,O
+announced,VBN,I-VP,O
+until,IN,B-SBAR,O
+shortly,RB,B-ADVP,O
+before,IN,B-PP,O
+the,DT,B-NP,O
+start,NN,I-NP,O
+",",",",O,O
+Markgraaff,NNP,B-NP,B-PER
+said,VBD,B-VP,O
+.,.,O,O

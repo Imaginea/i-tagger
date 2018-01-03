@@ -1,0 +1,8 @@
+0,1,2,3
+Government,NN,B-NP,O
+disperses,VBZ,B-VP,O
+protest,NN,B-NP,O
+with,IN,B-PP,O
+water,NN,B-NP,O
+cannons,NNS,I-NP,O
+.,.,O,O

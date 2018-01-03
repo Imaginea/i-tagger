@@ -1,0 +1,16 @@
+0,1,2,3
+Northern,NNP,B-NP,O
+Iraq,NNP,I-NP,B-LOC
+has,VBZ,B-VP,O
+been,VBN,I-VP,O
+under,IN,B-PP,O
+Iraqi,JJ,B-NP,B-MISC
+Kurdish,JJ,I-NP,I-MISC
+control,NN,I-NP,O
+since,IN,B-PP,O
+after,IN,B-PP,O
+the,DT,B-NP,O
+1991,CD,I-NP,O
+Gulf,NNP,I-NP,B-MISC
+War,NNP,I-NP,I-MISC
+.,.,O,O

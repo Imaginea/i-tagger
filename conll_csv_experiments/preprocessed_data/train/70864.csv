@@ -1,0 +1,8 @@
+0,1,2,3
+13.,CD,B-NP,O
+Johnny,NNP,I-NP,B-PER
+Herbert,NNP,I-NP,I-PER
+(,(,O,O
+Britain,NNP,B-NP,B-LOC
+),),O,O
+4,CD,B-NP,O

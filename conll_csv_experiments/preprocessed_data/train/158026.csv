@@ -1,0 +1,14 @@
+0,1,2,3
+Becanovic,NNP,B-NP,B-PER
+(,(,O,O
+Lille,NNP,B-NP,B-ORG
+),),O,O
+",",",",O,O
+Alain,NNP,B-NP,B-PER
+Caveglia,NNP,I-NP,I-PER
+(,(,O,O
+Lyon,NNP,B-NP,B-ORG
+),),O,O
+",",",",O,O
+Xavier,NNP,B-NP,B-PER
+Gravelaine,NNP,I-NP,I-PER

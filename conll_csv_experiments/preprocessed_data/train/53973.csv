@@ -1,0 +1,9 @@
+0,1,2,3
+16.,CD,B-NP,O
+Jos,NNP,I-NP,B-PER
+Verstappen,NNP,I-NP,I-PER
+(,(,I-NP,O
+Netherlands,NNP,I-NP,B-LOC
+),),O,O
+Arrows,NNS,B-NP,B-ORG
+1:55.150,CD,I-NP,O

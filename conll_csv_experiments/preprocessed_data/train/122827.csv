@@ -1,0 +1,15 @@
+0,1,2,3
+Elena,NNP,B-NP,B-PER
+Likhovtseva,NNP,I-NP,I-PER
+(,(,O,O
+Russia,NNP,B-NP,B-LOC
+),),O,O
+beat,VB,B-VP,O
+Kyoko,NNP,B-NP,B-PER
+Nagatsuka,NNP,I-NP,I-PER
+(,(,O,O
+Japan,NNP,B-NP,B-LOC
+),),O,O
+7-6,CD,B-ADVP,O
+(,(,O,O
+7-,CD,B-NP,O

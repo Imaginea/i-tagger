@@ -1,0 +1,11 @@
+0,1,2,3
+I,PRP,B-NP,O
+'m,VBP,B-VP,O
+here,RB,B-ADVP,O
+to,TO,B-VP,O
+play,VB,I-VP,O
+tennis,NN,B-NP,O
+and,CC,O,O
+to,TO,B-VP,O
+win,VB,I-VP,O
+.,.,O,O

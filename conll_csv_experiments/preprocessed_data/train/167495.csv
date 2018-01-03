@@ -1,0 +1,11 @@
+0,1,2,3
+German,JJ,B-NP,B-MISC
+chancellor,NN,I-NP,O
+to,TO,B-VP,O
+meet,VB,I-VP,O
+Yeltsin,NNP,B-NP,B-PER
+Sept,NNP,I-NP,O
+7,CD,I-NP,O
+-,:,I-NP,O
+Interfax,NNP,I-NP,B-ORG
+.,.,O,O

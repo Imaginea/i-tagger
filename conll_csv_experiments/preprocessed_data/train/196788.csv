@@ -1,0 +1,37 @@
+0,1,2,3
+CARACAS,NNP,B-NP,B-LOC
+1996-08-28,CD,I-NP,O
+Venezuelan,JJ,B-NP,B-MISC
+Finance,NNP,I-NP,O
+Minister,NNP,I-NP,O
+Luis,NNP,I-NP,B-PER
+Raul,NNP,I-NP,I-PER
+Matos,NNP,I-NP,I-PER
+Azocar,NNP,I-NP,I-PER
+will,MD,B-VP,O
+make,VB,I-VP,O
+an,DT,B-NP,O
+ ,O,O,<UNK>
+important,JJ,B-NP,O
+announcement,NN,I-NP,O
+ ,O,O,<UNK>
+on,IN,B-PP,O
+Thursday,NNP,B-NP,O
+at,IN,B-PP,O
+1230,CD,B-NP,O
+local,JJ,I-NP,O
+/,SYM,O,O
+1630,CD,B-NP,O
+GMT,NNP,I-NP,B-MISC
+at,IN,B-PP,O
+a,DT,B-NP,O
+Central,NNP,I-NP,B-ORG
+Bank,NNP,I-NP,I-ORG
+press,NN,I-NP,O
+conference,NN,I-NP,O
+",",",",O,O
+the,DT,B-NP,O
+Finance,NNP,I-NP,B-ORG
+Ministry,NNP,I-NP,I-ORG
+said,VBD,B-VP,O
+.,.,O,O

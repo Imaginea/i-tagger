@@ -1,0 +1,6 @@
+0,1,2,3
+Pavlos,NNP,B-NP,B-PER
+Markou,NNP,I-NP,I-PER
+(,(,O,O
+84th,CD,B-NP,O
+),),O,O

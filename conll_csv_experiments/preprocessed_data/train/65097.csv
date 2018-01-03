@@ -1,0 +1,9 @@
+0,1,2,3
+Hurricane,NN,B-NP,O
+expected,VBN,B-VP,O
+to,TO,I-VP,O
+veer,VB,I-VP,O
+north,RB,B-ADVP,O
+of,IN,B-PP,O
+Caribbean,NNP,B-NP,B-LOC
+.,.,O,O

@@ -1,0 +1,9 @@
+0,1,2,3
+TOKYO,TO,B-VP,B-LOC
+1996-08-23,CD,B-NP,O
+Year,NN,B-NP,O
+to,TO,B-PP,O
+May,NNP,B-NP,O
+31,CD,I-NP,O
+",",",",I-NP,O
+1997,CD,I-NP,O

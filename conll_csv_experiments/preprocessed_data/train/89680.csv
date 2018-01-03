@@ -1,0 +1,15 @@
+0,1,2,3
+Implats,NNS,B-NP,B-ORG
+posted,VBD,B-VP,O
+year,NN,B-NP,O
+attributable,JJ,I-NP,O
+profit,NN,I-NP,O
+of,IN,B-PP,O
+176,CD,B-NP,O
+million,CD,I-NP,O
+rand,NN,I-NP,O
+from,IN,B-PP,O
+281,CD,B-NP,O
+million,CD,I-NP,O
+previously,RB,B-NP,O
+.,.,O,O

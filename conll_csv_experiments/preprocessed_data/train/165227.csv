@@ -1,0 +1,10 @@
+0,1,2,3
+Peace,NN,B-NP,O
+talks,NNS,I-NP,O
+in,IN,B-PP,O
+Ivory,NNP,B-NP,B-LOC
+Coast,NNP,I-NP,I-LOC
+began,VBD,B-VP,O
+in,IN,B-PP,O
+February,NNP,B-NP,O
+.,.,O,O

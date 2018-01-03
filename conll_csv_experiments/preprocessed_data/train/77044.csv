@@ -1,0 +1,28 @@
+0,1,2,3
+ ,O,O,<UNK>
+I,PRP,B-NP,O
+was,VBD,B-VP,O
+just,RB,I-VP,O
+trying,VBG,I-VP,O
+to,TO,I-VP,O
+hang,VB,I-VP,O
+in,IN,B-PP,O
+there,RB,B-ADVP,O
+and,CC,O,O
+hit,VBD,B-VP,O
+it,PRP,B-NP,O
+up,RP,B-PRT,O
+the,DT,B-NP,O
+middle,NN,I-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+said,VBD,B-VP,O
+McGriff,NN,B-NP,B-PER
+about,IN,B-PP,O
+his,PRP$,B-NP,O
+homer,NN,I-NP,O
+in,IN,B-PP,O
+the,DT,B-NP,O
+ninth,JJ,I-NP,O
+.,.,O,O
+ ,O,O,<UNK>

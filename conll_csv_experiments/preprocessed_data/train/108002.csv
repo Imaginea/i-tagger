@@ -1,0 +1,17 @@
+0,1,2,3
+Tomorrow,NN,B-NP,O
+and,CC,I-NP,O
+today,NN,I-NP,O
+rupiah,VBG,B-VP,O
+closed,VBN,I-VP,O
+at,IN,B-PP,O
+"2,342.00",CD,B-NP,O
+/,SYM,O,O
+42.45,CD,B-NP,O
+and,CC,I-NP,O
+"2,341.5",CD,I-NP,O
+/,SYM,O,O
+42.0,CD,B-NP,O
+",",",",O,O
+respectively,RB,B-ADVP,O
+.,.,O,O

@@ -1,0 +1,12 @@
+0,1,2,3
+at,IN,B-PP,O
+quite,PDT,B-NP,O
+a,DT,I-NP,O
+bit,NN,I-NP,O
+lower,JJR,B-ADJP,O
+than,IN,B-PP,O
+the,DT,B-NP,O
+price,NN,I-NP,O
+is,VBZ,B-VP,O
+now,RB,I-VP,O
+...,:,O,O

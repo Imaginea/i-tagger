@@ -1,0 +1,14 @@
+0,1,2,3
+Ajax,NNP,B-NP,B-ORG
+Amsterdam,NNP,I-NP,I-ORG
+1,CD,I-NP,O
+(,(,O,O
+Frank,NNP,B-NP,B-PER
+de,NNP,I-NP,I-PER
+Boer,NNP,I-NP,I-PER
+30th,JJ,I-NP,O
+),),O,O
+AZ,NNP,B-NP,B-ORG
+Alkmaar,NNP,I-NP,I-ORG
+0,CD,I-NP,O
+.,.,O,O

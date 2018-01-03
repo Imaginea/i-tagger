@@ -1,0 +1,17 @@
+0,1,2,3
+ ,O,O,<UNK>
+The,DT,B-NP,O
+rise,NN,I-NP,O
+was,VBD,B-VP,O
+due,JJ,B-ADJP,O
+to,TO,B-PP,O
+the,DT,B-NP,O
+end,NN,I-NP,O
+of,IN,B-PP,O
+exchange,NN,B-NP,O
+controls,NNS,I-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+OCEI,NNP,B-NP,B-ORG
+said,VBD,B-VP,O
+.,.,O,O

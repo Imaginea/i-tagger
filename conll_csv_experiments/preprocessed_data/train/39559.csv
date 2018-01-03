@@ -1,0 +1,10 @@
+0,1,2,3
+Tiber,NNP,B-NP,B-ORG
+29,CD,I-NP,O
+2/9,CD,I-NP,O
+Caribs,NNP,I-NP,B-LOC
+/,SYM,O,O
+options,NNS,B-NP,O
+W265,NNS,I-NP,O
+Stinnes,NNP,I-NP,B-ORG
+.,.,O,O

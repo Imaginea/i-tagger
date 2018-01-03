@@ -1,0 +1,10 @@
+0,1,2,3
+Saudi,JJ,B-NP,B-MISC
+riyal,JJ,I-NP,O
+rates,NNS,I-NP,O
+steady,RB,B-ADJP,O
+in,IN,B-PP,O
+quiet,JJ,B-NP,O
+summer,NN,I-NP,O
+trade,NN,I-NP,O
+.,.,O,O

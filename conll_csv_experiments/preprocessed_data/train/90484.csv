@@ -1,0 +1,13 @@
+0,1,2,3
+IMED,NN,B-NP,B-ORG
+introduced,VBD,B-VP,O
+the,DT,B-NP,O
+world,NN,I-NP,O
+'s,POS,B-NP,O
+first,JJ,I-NP,O
+volumetric,JJ,I-NP,O
+infusion,NN,I-NP,O
+pump,NN,I-NP,O
+in,IN,B-PP,O
+1974,CD,B-NP,O
+.,.,O,O

@@ -1,0 +1,13 @@
+0,1,2,3
+The,DT,B-NP,O
+Australian,NNP,I-NP,B-MISC
+brushed,VBD,B-VP,O
+aside,RB,B-ADVP,O
+unseeded,VBN,B-VP,O
+Englishman,NNP,B-NP,B-MISC
+Mark,NNP,I-NP,B-PER
+Cairns,NNP,I-NP,I-PER
+15-7,CD,I-NP,O
+15-6,CD,I-NP,O
+15-8,CD,I-NP,O
+.,.,O,O

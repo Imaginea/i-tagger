@@ -1,0 +1,20 @@
+0,1,2,3
+ ,O,O,<UNK>
+We,PRP,B-NP,O
+believe,VBP,B-VP,O
+the,DT,B-NP,O
+increase,NN,I-NP,O
+in,IN,B-PP,O
+plastic,NN,B-NP,O
+surgeries,NNS,I-NP,O
+for,IN,B-PP,O
+men,NNS,B-NP,O
+results,NNS,I-NP,O
+from,IN,B-PP,O
+the,DT,B-NP,O
+difficulties,NNS,I-NP,O
+in,IN,B-PP,O
+the,DT,B-NP,O
+job,NN,I-NP,O
+market,NN,I-NP,O
+.,.,O,O

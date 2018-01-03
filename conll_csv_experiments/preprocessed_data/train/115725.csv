@@ -1,0 +1,27 @@
+0,1,2,3
+This,DT,B-NP,O
+has,VBZ,B-VP,O
+nothing,NN,B-NP,O
+to,TO,B-VP,O
+do,VB,I-VP,O
+with,IN,B-PP,O
+the,DT,B-NP,O
+accusation,NN,I-NP,O
+that,IN,B-SBAR,O
+I,PRP,B-NP,O
+am,VBP,B-VP,O
+trying,VBG,I-VP,O
+to,TO,I-VP,O
+escape,VB,I-VP,O
+the,DT,B-NP,O
+debate,NN,I-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+Banharn,NNP,B-NP,B-PER
+told,VBD,B-VP,O
+reporters,NNS,B-NP,O
+after,IN,B-PP,O
+meeting,VBG,B-VP,O
+coalition,NN,B-NP,O
+partners,NNS,I-NP,O
+.,.,O,O

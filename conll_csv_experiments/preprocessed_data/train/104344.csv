@@ -1,0 +1,17 @@
+0,1,2,3
+Interfax,RB,B-SBAR,B-ORG
+said,VBD,B-VP,O
+Yastrezhembsky,NNP,B-NP,B-PER
+did,VBD,B-VP,O
+not,RB,I-VP,O
+exclude,VB,I-VP,O
+that,IN,B-SBAR,O
+Yeltsin,NNP,B-NP,B-PER
+could,MD,B-VP,O
+spend,VB,I-VP,O
+some,DT,B-NP,O
+time,NN,I-NP,O
+in,IN,B-PP,O
+other,JJ,B-NP,O
+places,NNS,I-NP,O
+.,.,O,O

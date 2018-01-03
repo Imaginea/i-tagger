@@ -1,0 +1,9 @@
+0,1,2,3
+Men,NN,B-NP,O
+'s,POS,B-NP,O
+4x100,CD,I-NP,O
+relay,NN,I-NP,O
+Jesse,NNP,I-NP,B-PER
+Owens,NNP,I-NP,I-PER
+memorial,NN,I-NP,O
+race,NN,I-NP,O

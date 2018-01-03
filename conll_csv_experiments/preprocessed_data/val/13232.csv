@@ -1,0 +1,14 @@
+0,1,2,3
+They,PRP,B-NP,O
+also,RB,B-ADVP,O
+said,VBD,B-VP,O
+rebel,NN,B-NP,O
+fighters,NNS,I-NP,O
+had,VBD,B-VP,O
+looted,VBN,I-VP,O
+medicines,NNS,B-NP,O
+from,IN,B-PP,O
+the,DT,B-NP,O
+local,JJ,I-NP,O
+hospital,NN,I-NP,O
+.,.,O,O

@@ -1,0 +1,12 @@
+0,1,2,3
+She,PRP,B-NP,O
+added,VBD,B-VP,O
+",",",",O,O
+ ,O,O,<UNK>
+But,CC,O,O
+we,PRP,B-NP,O
+need,VBP,B-VP,O
+to,TO,I-VP,O
+do,VB,I-VP,O
+more,JJR,B-NP,O
+.,.,O,O

@@ -1,0 +1,9 @@
+0,1,2,3
+These,DT,B-NP,O
+shares,NNS,I-NP,O
+are,VBP,B-VP,O
+subject,JJ,B-ADJP,O
+to,TO,B-VP,O
+post-closing,JJ,B-NP,O
+adjustments,NNS,I-NP,O
+.,.,O,O

@@ -1,0 +1,8 @@
+0,1,2,3
+1.,CD,B-NP,O
+Stefka,NNP,I-NP,B-PER
+Kostadinova,NNP,I-NP,I-PER
+(,(,O,O
+Bulgaria,NNP,B-NP,B-LOC
+),),O,O
+2.03,CD,B-NP,O

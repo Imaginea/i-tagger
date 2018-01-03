@@ -1,0 +1,16 @@
+0,1,2,3
+6-3,CD,B-NP,O
+5,CD,B-NP,O
+-,:,I-NP,O
+Thomas,NNP,I-NP,B-PER
+Enqvist,NNP,I-NP,I-PER
+(,(,O,O
+Sweden,NNP,B-NP,B-LOC
+),),O,O
+beat,VB,B-VP,O
+Petr,NNP,B-NP,B-PER
+Korda,NNP,I-NP,I-PER
+(,(,O,O
+Czech,NNP,B-NP,B-LOC
+Republic,NNP,I-NP,I-LOC
+),),O,O

@@ -1,0 +1,10 @@
+0,1,2,3
+Greek,JJ,B-NP,B-MISC
+socialists,NNS,I-NP,O
+give,VBP,B-VP,O
+PM,NNP,B-NP,O
+green,JJ,I-NP,O
+light,NN,I-NP,O
+for,IN,B-PP,O
+election,NN,B-NP,O
+.,.,O,O

@@ -1,0 +1,12 @@
+0,1,2,3
+Nicolas,NNP,B-NP,B-PER
+Lapentti,NNP,I-NP,I-PER
+(,(,O,O
+Ecuador,NNP,B-NP,B-LOC
+),),O,O
+vs.,IN,B-PP,O
+Alex,NNP,B-NP,B-PER
+O'Brien,NNP,I-NP,I-PER
+(,(,O,O
+U.S.,NNP,B-NP,B-LOC
+),),O,O

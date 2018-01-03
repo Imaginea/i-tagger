@@ -1,0 +1,14 @@
+0,1,2,3
+Paul,NNP,B-NP,B-PER
+Johnson,NNP,I-NP,I-PER
+(,(,O,O
+England,NNP,B-NP,B-LOC
+),),O,O
+beat,VB,B-VP,O
+Tony,NNP,B-NP,B-PER
+Hands,NNS,I-NP,I-PER
+(,(,O,O
+England,NNP,B-NP,B-LOC
+),),O,O
+12-15,CD,B-NP,O
+15-11,CD,I-NP,O

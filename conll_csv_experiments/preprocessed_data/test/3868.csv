@@ -1,0 +1,8 @@
+0,1,2,3
+MELBOURNE,NNP,B-NP,B-LOC
+1996-12-06,CD,I-NP,O
+Scoreboard,RB,B-ADVP,O
+in,IN,B-PP,O
+the,DT,B-NP,O
+World,NNP,I-NP,B-MISC
+Series,NNP,I-NP,I-MISC

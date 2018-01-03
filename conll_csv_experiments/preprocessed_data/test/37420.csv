@@ -1,0 +1,10 @@
+0,1,2,3
+EPA,NNP,B-NP,B-ORG
+says,VBZ,B-VP,O
+economic,JJ,B-NP,O
+assessment,NN,I-NP,O
+unchanged,JJ,B-ADJP,O
+by,IN,B-PP,O
+GDP,NNP,B-NP,O
+data,NNS,I-NP,O
+.,.,O,O

@@ -1,0 +1,17 @@
+0,1,2,3
+We,PRP,B-NP,O
+'ve,VBP,B-VP,O
+got,VBN,I-VP,O
+an,DT,B-NP,O
+international,JJ,I-NP,O
+problem,NN,I-NP,O
+and,CC,O,O
+I,PRP,B-NP,O
+'m,VBP,B-VP,O
+prepared,VBN,I-VP,O
+to,TO,I-VP,O
+use,VB,I-VP,O
+our,PRP$,B-NP,O
+military,JJ,I-NP,O
+might,NN,I-NP,O
+.,.,O,O

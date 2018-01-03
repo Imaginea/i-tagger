@@ -1,0 +1,35 @@
+0,1,2,3
+ANSA,NNP,B-NP,B-ORG
+said,VBD,B-VP,O
+Stevanin,NNP,B-NP,B-PER
+was,VBD,B-VP,O
+unable,JJ,B-ADJP,O
+to,TO,B-VP,O
+recall,VB,I-VP,O
+how,WRB,B-ADVP,O
+he,PRP,B-NP,O
+had,VBD,B-VP,O
+killed,VBN,I-VP,O
+the,DT,B-NP,O
+women,NNS,I-NP,O
+",",",",O,O
+remembering,VBG,B-VP,O
+only,RB,B-ADVP,O
+that,IN,B-SBAR,O
+he,PRP,B-NP,O
+had,VBD,B-VP,O
+found,VBN,I-VP,O
+them,PRP,B-NP,O
+ ,O,O,<UNK>
+lifeless,JJ,B-ADJP,O
+in,IN,B-PP,O
+his,PRP$,B-NP,O
+arms,NNS,I-NP,O
+ ,O,O,<UNK>
+after,IN,B-PP,O
+having,VBG,B-VP,O
+sadmasochistic,JJ,B-NP,O
+sex,NN,I-NP,O
+with,IN,B-PP,O
+them,PRP,B-NP,O
+.,.,O,O

@@ -1,0 +1,15 @@
+0,1,2,3
+Milenko,NNP,B-NP,B-PER
+Kovasevic,NNP,I-NP,I-PER
+(,(,O,O
+60th,CD,B-NP,O
+",",",",O,O
+penalty,NN,B-NP,O
+),),O,O
+",",",",O,O
+Goran,NNP,B-NP,B-PER
+Koprinovic,NNP,I-NP,I-PER
+(,(,O,O
+82nd,CD,B-NP,O
+),),O,O
+",",",",O,O

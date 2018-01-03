@@ -1,0 +1,12 @@
+0,1,2,3
+5.,CD,B-NP,O
+Jimmy,NNP,B-NP,B-PER
+Vasser,NNP,I-NP,I-PER
+(,(,O,O
+U.S.,NNP,B-NP,B-LOC
+),),O,O
+",",",",O,O
+Reynard,VB,B-VP,B-ORG
+Honda,NNP,B-NP,I-ORG
+",",",",O,O
+54.617,CD,B-NP,O

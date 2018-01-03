@@ -1,0 +1,8 @@
+0,1,2,3
+Potent,JJ,B-ADJP,O
+landmines,NNS,B-NP,O
+found,VBD,B-VP,O
+near,IN,B-PP,O
+Colombian,JJ,B-NP,B-MISC
+presidency,NN,I-NP,O
+.,.,O,O

@@ -1,0 +1,35 @@
+0,1,2,3
+ ,O,O,<UNK>
+At,IN,B-PP,O
+the,DT,B-NP,O
+Olympics,NNPS,I-NP,B-MISC
+water,NN,I-NP,O
+was,VBD,B-VP,O
+only,RB,B-ADVP,O
+a,DT,B-NP,O
+dollar,NN,I-NP,O
+",",",",O,O
+and,CC,O,O
+that,DT,B-NP,O
+was,VBD,B-VP,O
+the,DT,B-NP,O
+Olympics,NNPS,I-NP,B-MISC
+",",",",O,O
+ ,O,O,<UNK>
+said,VBD,B-VP,O
+one,CD,B-NP,O
+incredulous,JJ,I-NP,O
+fan,NN,I-NP,O
+",",",",O,O
+noting,VBG,B-VP,O
+that,IN,B-SBAR,O
+the,DT,B-NP,O
+Atlanta,NNP,I-NP,B-MISC
+Games,NNPS,I-NP,I-MISC
+had,VBD,B-VP,O
+been,VBN,I-VP,O
+notorious,JJ,B-ADJP,O
+for,IN,B-PP,O
+price,NN,B-NP,O
+gouging,NN,I-NP,O
+.,.,O,O

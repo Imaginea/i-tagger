@@ -1,0 +1,8 @@
+0,1,2,3
+Iraq,NNP,B-NP,B-LOC
+says,VBZ,B-VP,O
+hijackers,NNS,B-NP,O
+were,VBD,B-VP,O
+not,RB,B-NP,O
+diplomats,NNS,B-NP,O
+.,.,O,O

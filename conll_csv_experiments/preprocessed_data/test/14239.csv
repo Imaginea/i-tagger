@@ -1,0 +1,15 @@
+0,1,2,3
+ ,O,O,<UNK>
+At,IN,B-PP,O
+the,DT,B-NP,O
+moment,NN,I-NP,O
+there,EX,B-NP,O
+is,VBZ,B-VP,O
+no,DT,B-NP,O
+evidence,NN,I-NP,O
+the,DT,B-NP,O
+two,CD,I-NP,O
+cases,NNS,I-NP,O
+are,VBP,B-VP,O
+linked,VBN,I-VP,O
+.,.,O,O

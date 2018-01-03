@@ -1,0 +1,16 @@
+0,1,2,3
+It,PRP,B-NP,O
+is,VBZ,B-VP,O
+our,PRP$,B-NP,O
+duty,NN,I-NP,O
+towards,IN,B-PP,O
+al-Aqsa,NN,B-NP,B-LOC
+to,TO,B-VP,O
+come,VB,I-VP,O
+and,CC,I-VP,O
+pray,VB,I-VP,O
+",",",",O,O
+ ,O,O,<UNK>
+Jamil,NNP,B-NP,B-PER
+said,VBD,B-VP,O
+.,.,O,O

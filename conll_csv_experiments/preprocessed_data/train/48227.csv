@@ -1,0 +1,32 @@
+0,1,2,3
+ ,O,O,<UNK>
+The,DT,B-NP,O
+United,NNP,I-NP,B-LOC
+States,NNP,I-NP,I-LOC
+will,MD,B-VP,O
+continue,VB,I-VP,O
+to,TO,I-VP,O
+return,VB,I-VP,O
+Cuban,JJ,B-NP,B-MISC
+migrants,NNS,I-NP,O
+intercepted,VBD,B-VP,O
+at,IN,B-PP,O
+sea,NN,B-NP,O
+who,WP,B-NP,O
+seek,VBP,B-VP,O
+to,TO,I-VP,O
+enter,VB,I-VP,O
+the,DT,B-NP,O
+United,NNP,I-NP,B-LOC
+States,NNP,I-NP,I-LOC
+or,CC,O,O
+the,DT,B-NP,O
+Guantanamo,NNP,I-NP,B-LOC
+Naval,NNP,I-NP,I-LOC
+Base,NNP,I-NP,I-LOC
+illegally,RB,B-ADVP,O
+",",",",O,O
+ ,O,O,<UNK>
+it,PRP,B-NP,O
+said,VBD,B-VP,O
+.,.,O,O

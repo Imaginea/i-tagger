@@ -1,0 +1,10 @@
+0,1,2,3
+8.,CD,B-NP,O
+Lasse,NNP,I-NP,B-PER
+Lampi,NNP,I-NP,I-PER
+(,(,O,O
+Finland,NNP,B-NP,B-LOC
+),),O,O
+Mitsubishi,NNP,B-NP,B-MISC
+Lancer,NNP,I-NP,I-MISC
+12:01,CD,I-NP,O

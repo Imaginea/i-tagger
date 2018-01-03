@@ -1,0 +1,14 @@
+0,1,2,3
+Budget,NNP,B-NP,O
+deficit,NN,I-NP,O
+(,(,O,O
+HUF,NN,B-NP,O
+),),O,O
+Jan-July,RB,B-NP,O
+102,CD,I-NP,O
+bln,NN,I-NP,O
+(,(,O,O
+Jan-June,JJ,B-NP,O
+122,CD,I-NP,O
+bln,NN,I-NP,O
+),),O,O

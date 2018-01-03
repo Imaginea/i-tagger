@@ -1,0 +1,12 @@
+0,1,2,3
+That,WDT,B-NP,O
+followed,VBD,B-VP,O
+a,DT,B-NP,O
+revised,VBN,I-NP,O
+0.7,CD,I-NP,O
+percent,NN,I-NP,O
+decline,NN,I-NP,O
+in,IN,B-PP,O
+June,NNP,B-NP,O
+orders,NNS,I-NP,O
+.,.,O,O

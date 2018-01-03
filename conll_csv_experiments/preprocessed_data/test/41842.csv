@@ -1,0 +1,14 @@
+0,1,2,3
+9.,CD,B-NP,O
+Britain,NNP,I-NP,B-ORG
+I,PRP,B-NP,I-ORG
+(,(,O,O
+Sean,NNP,B-NP,B-PER
+Olsson,NNP,I-NP,I-PER
+",",",",O,O
+Dean,NNP,B-NP,B-PER
+Ward,NNP,I-NP,I-PER
+),),O,O
+1:46.26,CD,B-NP,O
+(,(,O,O
+52.97/,CD,B-NP,O

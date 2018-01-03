@@ -1,0 +1,12 @@
+0,1,2,3
+10.,CD,B-NP,O
+Kaspars,NNP,I-NP,B-PER
+Ozers,NNP,I-NP,I-PER
+(,(,O,O
+Latvia,NNP,B-NP,B-LOC
+),),O,O
+Motorola,NNP,B-NP,B-ORG
+all,DT,O,O
+same,JJ,O,O
+time,NN,O,O
+.,.,O,O

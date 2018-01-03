@@ -1,0 +1,11 @@
+0,1,2,3
+Second,JJ,B-NP,O
+race,NN,I-NP,O
+1.,CD,B-NP,O
+Shayne,NNP,I-NP,B-PER
+King,NNP,I-NP,I-PER
+(,(,O,O
+New,NNP,B-NP,B-LOC
+Zealand,NNP,I-NP,I-LOC
+),),O,O
+KTM,NNP,B-NP,B-ORG

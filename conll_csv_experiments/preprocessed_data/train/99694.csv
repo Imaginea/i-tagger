@@ -1,0 +1,14 @@
+0,1,2,3
+Debbie,NNP,B-NP,B-PER
+Graham,NNP,I-NP,I-PER
+(,(,O,O
+U.S.,NNP,B-NP,B-LOC
+),),O,O
+beat,VB,B-VP,O
+Stephanie,NNP,B-NP,B-PER
+Deville,NNP,I-NP,I-PER
+(,(,O,O
+Belarus,NNP,B-NP,B-LOC
+),),O,O
+6-4,CD,B-NP,O
+6-2,CD,I-NP,O

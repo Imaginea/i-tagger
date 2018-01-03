@@ -1,0 +1,11 @@
+0,1,2,3
+English,JJ,B-NP,B-MISC
+division,NN,I-NP,O
+one,CD,B-NP,O
+-,:,O,O
+Birmingham,NNP,B-NP,B-ORG
+v,NNP,O,O
+Barnsley,NNP,B-NP,B-ORG
+",",",",O,O
+Bradford,NNP,B-NP,B-ORG
+v,SYM,O,O

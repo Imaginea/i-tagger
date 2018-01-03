@@ -1,0 +1,7 @@
+0,1,2,3
+Lada,NNP,B-NP,B-ORG
+Togliatti,NNP,I-NP,I-ORG
+1,CD,I-NP,O
+Spartak,NNP,I-NP,B-ORG
+Moscow,NNP,I-NP,I-ORG
+1,CD,I-NP,O

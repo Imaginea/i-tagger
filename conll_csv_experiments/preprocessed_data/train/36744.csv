@@ -1,0 +1,9 @@
+0,1,2,3
+1.,CD,B-NP,O
+Cathy,NNP,I-NP,B-PER
+Freeman,NNP,I-NP,I-PER
+(,(,O,O
+Australia,NNP,B-NP,B-LOC
+),),O,O
+49.48,CD,B-NP,O
+seconds,NNS,I-NP,O

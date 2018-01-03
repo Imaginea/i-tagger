@@ -1,0 +1,10 @@
+0,1,2,3
+Florida,NNP,B-NP,B-LOC
+cop,NN,I-NP,O
+disguised,VBN,B-VP,O
+as,IN,B-PP,O
+shrub,NN,B-NP,O
+nabs,NNS,I-NP,O
+bad,JJ,B-NP,O
+guys,NNS,I-NP,O
+.,.,O,O

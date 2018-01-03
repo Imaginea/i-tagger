@@ -1,0 +1,17 @@
+0,1,2,3
+They,PRP,B-NP,O
+wanted,VBD,B-VP,O
+to,TO,I-VP,O
+get,VB,I-VP,O
+a,DT,B-NP,O
+weight,NN,I-NP,O
+off,IN,B-PP,O
+their,PRP$,B-NP,O
+consciences,NNS,I-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+a,DT,B-NP,O
+police,NN,I-NP,O
+spokesman,NN,I-NP,O
+said,VBD,B-VP,O
+.,.,O,O

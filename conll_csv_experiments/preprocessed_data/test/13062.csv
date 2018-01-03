@@ -1,0 +1,9 @@
+0,1,2,3
+Tambang,VBG,B-VP,B-ORG
+Timah,NNP,B-NP,I-ORG
+at,IN,B-PP,O
+$,$,B-NP,O
+15.575,CD,I-NP,O
+in,IN,B-PP,O
+London,NNP,B-NP,B-LOC
+.,.,O,O

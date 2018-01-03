@@ -1,0 +1,10 @@
+0,1,2,3
+FEATURE,VB,B-VP,O
+-,:,O,O
+Singapore,NNP,B-NP,B-LOC
+sees,VBZ,B-VP,O
+prestige,NN,B-NP,O
+in,IN,B-PP,O
+hosting,VBG,B-VP,O
+WTO,NNP,B-NP,B-ORG
+.,.,O,O

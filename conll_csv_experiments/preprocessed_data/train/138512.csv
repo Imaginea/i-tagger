@@ -1,0 +1,8 @@
+0,1,2,3
+ ,O,O,<UNK>
+If,IN,B-SBAR,O
+you,PRP,B-NP,O
+had,VBD,B-VP,O
+been,VBN,I-VP,O
+struck,VBN,I-VP,O
+...,:,O,O

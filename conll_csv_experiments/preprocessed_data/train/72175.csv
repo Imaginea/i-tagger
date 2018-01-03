@@ -1,0 +1,17 @@
+0,1,2,3
+Yorkshire,NNP,B-NP,B-ORG
+eventually,RB,B-VP,O
+reached,VBN,I-VP,O
+their,PRP$,B-NP,O
+target,NN,I-NP,O
+with,IN,B-PP,O
+only,RB,B-NP,O
+four,CD,I-NP,O
+wickets,NNS,I-NP,O
+down,RB,B-ADVP,O
+and,CC,O,O
+7.5,CD,B-NP,O
+overs,NNS,I-NP,O
+to,TO,B-VP,O
+spare,VB,I-VP,O
+.,.,O,O

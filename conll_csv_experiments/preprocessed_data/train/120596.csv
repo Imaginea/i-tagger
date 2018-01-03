@@ -1,0 +1,11 @@
+0,1,2,3
+Postponed,VBN,B-VP,O
+:,:,O,O
+Peterborough,NNP,B-NP,B-ORG
+v,NNP,O,O
+Notts,NNP,B-NP,B-ORG
+County,NNP,I-NP,I-ORG
+",",",",O,O
+Wrexham,NNP,B-NP,B-ORG
+v,FW,I-NP,O
+Bristol,NNP,I-NP,B-ORG

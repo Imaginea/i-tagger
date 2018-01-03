@@ -1,0 +1,5 @@
+0,1,2,3
+Prince,NNP,B-NP,B-LOC
+Rupert,NNP,I-NP,I-LOC
+1,CD,I-NP,O
+3,CD,I-NP,O

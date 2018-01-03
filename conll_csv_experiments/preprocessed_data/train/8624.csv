@@ -1,0 +1,8 @@
+0,1,2,3
+Kispest,NNP,B-NP,B-ORG
+Honved,NNP,I-NP,I-ORG
+win,VBP,B-VP,O
+2-0,CD,B-NP,O
+on,IN,B-PP,O
+aggregate,NN,B-NP,O
+.,.,O,O

@@ -1,0 +1,10 @@
+0,1,2,3
+Last,JJ,B-NP,O
+April,NNP,I-NP,O
+she,PRP,B-NP,O
+fractured,JJ,I-NP,O
+her,PRP$,I-NP,O
+left,JJ,I-NP,O
+collar,NN,I-NP,O
+bone,NN,I-NP,O
+.,.,O,O

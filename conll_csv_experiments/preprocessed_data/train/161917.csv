@@ -1,0 +1,12 @@
+0,1,2,3
+Chiron,NNP,B-NP,B-ORG
+makes,VBZ,B-VP,O
+Betaseron,NNP,B-NP,B-MISC
+;,:,O,O
+Berlex,JJ,B-NP,B-ORG
+markets,NNS,I-NP,O
+it,PRP,B-NP,O
+",",",",O,O
+he,PRP,B-NP,O
+said,VBD,B-VP,O
+.,.,O,O

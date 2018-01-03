@@ -1,0 +1,21 @@
+0,1,2,3
+Neuchatel,JJ,B-NP,B-ORG
+coach,NN,I-NP,O
+Gilbert,NNP,I-NP,B-PER
+Gress,NNP,I-NP,I-PER
+described,VBD,B-VP,O
+the,DT,B-NP,O
+incident,NN,I-NP,O
+as,IN,B-PP,O
+ ,O,O,<UNK>
+shocking,JJ,B-NP,O
+ ,O,O,<UNK>
+",",",",O,O
+but,CC,O,O
+said,VBD,B-VP,O
+Moura,NNP,B-NP,B-PER
+was,VBD,B-VP,O
+also,RB,B-ADVP,O
+to,TO,B-VP,O
+blame,VB,I-VP,O
+.,.,O,O

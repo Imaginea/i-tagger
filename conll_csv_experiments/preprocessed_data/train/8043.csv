@@ -1,0 +1,12 @@
+0,1,2,3
+own,JJ,B-NP,O
+goal,NN,I-NP,O
+),),O,O
+",",",",O,O
+Miroslav,NNP,B-NP,B-PER
+Bak,NNP,I-NP,I-PER
+(,(,O,O
+62nd,JJ,B-NP,O
+and,CC,I-NP,O
+63rd,NN,I-NP,O
+),),O,O

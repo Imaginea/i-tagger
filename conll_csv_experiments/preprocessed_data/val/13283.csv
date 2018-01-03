@@ -1,0 +1,17 @@
+0,1,2,3
+He,PRP,B-NP,O
+also,RB,B-ADVP,O
+said,VBD,B-VP,O
+government,NN,B-NP,O
+soldiers,NNS,I-NP,O
+had,VBD,B-VP,O
+raped,VBN,I-VP,O
+the,DT,B-NP,O
+wife,NN,I-NP,O
+of,IN,B-PP,O
+one,CD,B-NP,O
+of,IN,B-PP,O
+his,PRP$,B-NP,O
+sons,NNS,I-NP,O
+.,.,O,O
+ ,O,O,<UNK>

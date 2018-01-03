@@ -1,0 +1,5 @@
+0,1,2,3
+Stoke,VB,B-VP,B-ORG
+2,CD,B-NP,O
+Tranmere,NNP,I-NP,B-ORG
+0,CD,I-NP,O

@@ -1,0 +1,23 @@
+0,1,2,3
+ ,O,O,<UNK>
+The,DT,B-NP,O
+plan,NN,I-NP,O
+apparently,RB,B-ADVP,O
+failed,VBD,B-VP,O
+due,JJ,B-ADJP,O
+to,TO,B-PP,O
+difficulties,NNS,B-NP,O
+in,IN,B-PP,O
+crossing,VBG,B-VP,O
+the,DT,B-NP,O
+border,NN,I-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+he,PRP,B-NP,O
+added,VBD,B-VP,O
+",",",",O,O
+but,CC,O,O
+did,VBD,B-VP,O
+not,RB,I-VP,O
+elaborate,VB,I-VP,O
+.,.,O,O

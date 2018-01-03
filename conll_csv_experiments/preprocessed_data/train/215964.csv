@@ -1,0 +1,14 @@
+0,1,2,3
+DIARIO,VBG,B-VP,B-ORG
+16,CD,B-NP,I-ORG
+-,:,O,O
+Judge,NNP,B-NP,O
+Javier,NNP,I-NP,B-PER
+Gomez,NNP,I-NP,I-PER
+de,NNP,I-NP,I-PER
+Liano,NNP,I-NP,I-PER
+says,VBZ,B-VP,O
+government,NN,B-NP,O
+is,VBZ,B-VP,O
+obstructing,VBG,I-VP,O
+justice,NN,B-NP,O

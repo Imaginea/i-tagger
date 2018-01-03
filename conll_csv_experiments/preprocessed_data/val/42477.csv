@@ -1,0 +1,8 @@
+0,1,2,3
+DUBLIN,NNP,B-NP,B-LOC
+1996-08-31,NNP,I-NP,O
+Result,NN,B-NP,O
+of,IN,B-PP,O
+the,DT,B-NP,O
+Tattersalls,NNP,I-NP,B-MISC
+Breeders,NNP,I-NP,I-MISC

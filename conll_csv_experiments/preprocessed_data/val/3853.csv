@@ -1,0 +1,13 @@
+0,1,2,3
+ ,O,O,<UNK>
+I,PRP,B-NP,O
+love,VBP,B-VP,O
+the,DT,B-NP,O
+crowd,NN,I-NP,O
+if,IN,B-SBAR,O
+they,PRP,B-NP,O
+boo,VB,B-VP,O
+me,PRP,B-NP,O
+every,DT,B-NP,O
+day,NN,I-NP,O
+.,.,O,O

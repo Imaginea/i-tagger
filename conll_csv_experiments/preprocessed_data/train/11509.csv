@@ -1,0 +1,6 @@
+0,1,2,3
+They,PRP,B-NP,O
+stranded,VBN,B-VP,O
+11,CD,B-NP,O
+baserunners,NNS,I-NP,O
+.,.,O,O

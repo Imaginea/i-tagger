@@ -1,0 +1,12 @@
+0,1,2,3
+The,DT,B-NP,O
+long-distance,JJ,I-NP,O
+operator,NN,I-NP,O
+will,MD,B-VP,O
+offer,VB,I-VP,O
+international,JJ,B-NP,O
+services,NNS,I-NP,O
+",",",",O,O
+Horinouchi,NNP,B-NP,B-PER
+said,VBD,B-VP,O
+.,.,O,O

@@ -1,0 +1,9 @@
+0,1,2,3
+July,NNP,B-NP,O
+19-21,CD,I-NP,O
+v,SYM,B-VP,O
+Middlesex,NNP,B-NP,B-ORG
+(,(,O,O
+three,CD,B-NP,O
+days,NNS,I-NP,O
+),),O,O

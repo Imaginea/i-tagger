@@ -1,0 +1,12 @@
+0,1,2,3
+Note,VB,B-VP,O
+-,:,O,O
+Figures,NNS,B-NP,O
+are,VBP,B-VP,O
+unadjusted,JJ,B-NP,O
+",",",",O,O
+in,IN,B-PP,O
+billions,NNS,B-NP,O
+of,IN,B-PP,O
+dollars,NNS,B-NP,O
+.,.,O,O

@@ -1,0 +1,15 @@
+0,1,2,3
+ ,O,O,<UNK>
+The,DT,B-NP,O
+eastern,JJ,I-NP,O
+European,JJ,I-NP,B-MISC
+market,NN,I-NP,O
+offers,VBZ,B-VP,O
+good,JJ,B-NP,O
+chances,NNS,I-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+said,VBD,B-VP,O
+Erdei,NNP,B-NP,B-PER
+.,.,I-NP,O
+ ,O,O,<UNK>

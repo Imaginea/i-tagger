@@ -1,0 +1,6 @@
+0,1,2,3
+Dunvant,NN,B-NP,B-ORG
+21,CD,I-NP,O
+Ebbw,VBG,I-NP,B-ORG
+Vale,NNP,I-NP,I-ORG
+10,CD,I-NP,O

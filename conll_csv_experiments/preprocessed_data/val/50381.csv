@@ -1,0 +1,13 @@
+0,1,2,3
+Nerweyi,NNP,B-NP,B-PER
+said,VBD,B-VP,O
+he,PRP,B-NP,O
+did,VBD,B-VP,O
+not,RB,I-VP,O
+know,VB,I-VP,O
+if,IN,B-SBAR,O
+there,EX,B-NP,O
+were,VBD,B-VP,O
+any,DT,B-NP,O
+casualties,NNS,I-NP,O
+.,.,O,O

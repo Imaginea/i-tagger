@@ -1,0 +1,18 @@
+0,1,2,3
+ ,O,O,<UNK>
+But,CC,O,O
+I,PRP,B-NP,O
+do,VBP,B-VP,O
+remember,VB,I-VP,O
+we,PRP,B-NP,O
+had,VBD,B-VP,O
+a,DT,B-NP,O
+cobra,NN,I-NP,O
+snake,NN,I-NP,O
+in,IN,B-PP,O
+the,DT,B-NP,O
+basement,NN,I-NP,O
+of,IN,B-PP,O
+our,PRP$,B-NP,O
+house,NN,I-NP,O
+.,.,O,O

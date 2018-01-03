@@ -1,0 +1,7 @@
+0,1,2,3
+German,NNP,B-NP,B-MISC
+Jan-August,NNP,I-NP,O
+coffee,NN,I-NP,O
+imports,NNS,I-NP,O
+detailed,VBN,B-VP,O
+.,.,O,O

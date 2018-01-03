@@ -1,0 +1,36 @@
+0,1,2,3
+ ,O,O,<UNK>
+If,IN,B-SBAR,O
+it,PRP,B-NP,O
+was,VBD,B-VP,O
+an,DT,B-NP,O
+unsolicited,JJ,I-NP,O
+statement,NN,I-NP,O
+and,CC,O,O
+a,DT,B-NP,O
+bolt,NN,I-NP,O
+out,IN,B-PP,O
+of,IN,B-PP,O
+the,DT,B-NP,O
+blue,NN,I-NP,O
+",",",",O,O
+then,RB,B-ADVP,O
+it,PRP,B-NP,O
+obviously,RB,B-ADVP,O
+means,VBZ,B-VP,O
+something,NN,B-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+said,VBD,B-VP,O
+Christopher,NNP,B-NP,B-PER
+Granville,NNP,I-NP,I-PER
+",",",",O,O
+chief,JJ,B-NP,O
+economist,NN,I-NP,O
+at,IN,B-PP,O
+United,NNP,B-NP,B-ORG
+City,NNP,I-NP,I-ORG
+Bank,NNP,I-NP,I-ORG
+in,IN,B-PP,O
+Moscow,NNP,B-NP,B-LOC
+.,.,O,O

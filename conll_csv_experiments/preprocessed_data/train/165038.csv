@@ -1,0 +1,17 @@
+0,1,2,3
+The,DT,B-NP,O
+United,NNP,I-NP,B-LOC
+States,NNP,I-NP,I-LOC
+embassy,NN,I-NP,O
+in,IN,B-PP,O
+Abidjan,NNP,B-NP,B-LOC
+and,CC,O,O
+international,JJ,B-NP,O
+press,NN,I-NP,O
+organisations,NNS,I-NP,O
+denounced,VBD,B-VP,O
+the,DT,B-NP,O
+sentences,NNS,I-NP,O
+as,IN,B-PP,O
+excessive,JJ,B-ADJP,O
+.,.,O,O

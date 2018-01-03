@@ -1,0 +1,25 @@
+0,1,2,3
+When,WRB,B-ADVP,O
+in,IN,B-PP,O
+1979,CD,B-NP,O
+she,PRP,B-NP,O
+was,VBD,B-VP,O
+told,VBN,B-ADJP,O
+she,PRP,B-NP,O
+had,VBD,B-VP,O
+won,VBN,I-VP,O
+the,DT,B-NP,O
+Nobel,NNP,I-NP,B-MISC
+Peace,NNP,I-NP,I-MISC
+Prize,NNP,I-NP,I-MISC
+",",",",O,O
+she,PRP,B-NP,O
+said,VBD,B-VP,O
+characteristically,RB,B-ADVP,O
+:,:,O,O
+ ,O,O,<UNK>
+I,PRP,B-NP,O
+am,VBP,B-VP,O
+unworthy,JJ,B-ADJP,O
+.,.,O,O
+ ,O,O,<UNK>

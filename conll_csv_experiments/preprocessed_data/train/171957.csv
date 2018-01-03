@@ -1,0 +1,8 @@
+0,1,2,3
+1996A,CD,B-NP,O
+$,$,B-NP,O
+"22,980,000",CD,I-NP,O
+RFDG,NNP,I-NP,O
+",",",",O,O
+SER,UH,B-NP,O
+.,.,O,O

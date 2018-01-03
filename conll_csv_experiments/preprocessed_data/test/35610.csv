@@ -1,0 +1,10 @@
+0,1,2,3
+ ,O,O,<UNK>
+We,PRP,B-NP,O
+have,VBP,B-VP,O
+a,DT,B-NP,O
+divided,VBN,I-NP,O
+and,CC,I-NP,O
+split,NN,I-NP,O
+Cabinet,NNP,I-NP,B-ORG
+.,.,O,O

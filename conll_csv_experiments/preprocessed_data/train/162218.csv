@@ -1,0 +1,9 @@
+0,1,2,3
+COMEX,NN,B-NP,B-ORG
+copper,NN,I-NP,O
+ends,VBZ,B-VP,O
+higher,JJR,B-NP,O
+after,IN,B-PP,O
+late,JJ,B-NP,O
+recovery,NN,I-NP,O
+.,.,O,O

@@ -1,0 +1,7 @@
+0,1,2,3
+Sep.96,CD,B-NP,O
+FIRST,NNP,B-NP,O
+INT,NNP,I-NP,O
+PAY,NN,I-NP,O
+5,CD,I-NP,O
+.,.,O,O

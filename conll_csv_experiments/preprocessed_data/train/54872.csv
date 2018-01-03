@@ -1,0 +1,10 @@
+0,1,2,3
++11,CD,B-NP,O
+Steve,NNP,I-NP,B-PER
+Schneiter,NNP,I-NP,I-PER
+77,CD,I-NP,O
+74,CD,B-NP,O
+),),O,O
+through,IN,B-PP,O
+18,CD,B-NP,O
+),),O,O

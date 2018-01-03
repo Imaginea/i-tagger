@@ -1,0 +1,19 @@
+0,1,2,3
+ ,O,O,<UNK>
+We,PRP,B-NP,O
+have,VBP,B-VP,O
+not,RB,I-VP,O
+gone,VBN,I-VP,O
+to,TO,B-PP,O
+sea,NN,B-NP,O
+since,IN,B-PP,O
+August,NNP,B-NP,O
+19,CD,I-NP,O
+",",",",O,O
+but,CC,O,O
+refugees,NNS,B-NP,O
+are,VBP,B-VP,O
+arriving,VBG,I-VP,O
+daily,JJ,B-NP,O
+nevertheless,RB,B-ADVP,O
+.,.,O,O

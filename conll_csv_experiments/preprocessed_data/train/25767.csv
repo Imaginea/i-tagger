@@ -1,0 +1,18 @@
+0,1,2,3
+She,PRP,B-NP,O
+said,VBD,B-VP,O
+her,PRP,B-NP,O
+divine,JJ,B-NP,O
+call,VB,B-VP,O
+to,TO,I-VP,O
+work,VB,I-VP,O
+among,IN,B-PP,O
+the,DT,B-NP,O
+poor,JJ,I-NP,O
+came,VBD,B-VP,O
+in,IN,B-PP,O
+September,NNP,B-NP,O
+",",",",O,O
+1946,CD,B-NP,O
+.,.,O,O
+ ,O,O,<UNK>

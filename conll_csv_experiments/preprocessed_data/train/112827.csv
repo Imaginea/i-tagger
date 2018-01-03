@@ -1,0 +1,6 @@
+0,1,2,3
+North,NNP,B-NP,B-LOC
+Battleford,NNP,I-NP,I-LOC
+",",",",O,O
+Sask,NNP,B-NP,B-LOC
+.,.,O,O

@@ -1,0 +1,27 @@
+0,1,2,3
+People,NNS,B-NP,O
+need,VBP,B-VP,O
+to,TO,I-VP,O
+have,VB,I-VP,O
+a,DT,B-NP,O
+more,RBR,I-NP,O
+youthful,JJ,I-NP,O
+look,NN,I-NP,O
+to,TO,B-VP,O
+compete,VB,I-VP,O
+in,IN,B-PP,O
+the,DT,B-NP,O
+job,NN,I-NP,O
+market,NN,I-NP,O
+",",",",O,O
+given,VBN,B-PP,O
+the,DT,B-NP,O
+profound,JJ,I-NP,O
+changes,NNS,I-NP,O
+in,IN,B-PP,O
+Latin,NNP,B-NP,B-LOC
+America,NNP,I-NP,I-LOC
+'s,POS,B-NP,O
+economy,NN,I-NP,O
+.,.,O,O
+ ,O,O,<UNK>

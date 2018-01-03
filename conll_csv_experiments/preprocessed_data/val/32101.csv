@@ -1,0 +1,9 @@
+0,1,2,3
+LONDON,NNP,B-NP,B-LOC
+1996-08-31,NNP,I-NP,O
+Results,NNS,B-NP,O
+of,IN,B-PP,O
+English,NNP,B-NP,B-MISC
+",",",",O,O
+Scottish,NNP,B-NP,B-MISC
+and,CC,O,O

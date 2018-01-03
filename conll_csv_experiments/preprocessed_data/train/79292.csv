@@ -1,0 +1,7 @@
+0,1,2,3
+5.,NNP,B-NP,O
+Francesco,NNP,I-NP,B-PER
+Casagrande,NNP,I-NP,I-PER
+(,(,O,O
+Italy,NNP,B-NP,B-LOC
+),),O,O

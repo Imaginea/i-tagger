@@ -1,0 +1,10 @@
+0,1,2,3
+The,DT,B-NP,O
+company,NN,I-NP,O
+currently,RB,B-ADVP,O
+buys,VBZ,B-VP,O
+the,DT,B-NP,O
+tubes,NNS,I-NP,O
+from,IN,B-PP,O
+competitors,NNS,B-NP,O
+.,.,O,O

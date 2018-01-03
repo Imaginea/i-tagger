@@ -1,0 +1,15 @@
+0,1,2,3
+In,IN,B-PP,O
+1994,CD,B-NP,O
+he,PRP,B-NP,O
+served,VBD,B-VP,O
+two,CD,B-NP,O
+months,NNS,I-NP,O
+for,IN,B-PP,O
+shooting,VBG,B-VP,O
+a,DT,B-NP,O
+thief,NN,I-NP,O
+in,IN,B-PP,O
+the,DT,B-NP,O
+backside,NN,I-NP,O
+.,.,O,O

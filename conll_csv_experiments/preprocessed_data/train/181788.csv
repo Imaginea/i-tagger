@@ -1,0 +1,16 @@
+0,1,2,3
+Production,NN,B-NP,O
+costs,NNS,I-NP,O
+also,RB,B-ADVP,O
+rose,VBD,B-VP,O
+eight,CD,B-NP,O
+percent,NN,I-NP,O
+during,IN,B-PP,O
+the,DT,B-NP,O
+year,NN,I-NP,O
+to,TO,B-PP,O
+A$,$,B-NP,B-MISC
+406,CD,I-NP,O
+per,IN,B-PP,O
+ounce,NN,B-NP,O
+.,.,O,O

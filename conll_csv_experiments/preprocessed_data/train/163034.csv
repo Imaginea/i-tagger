@@ -1,0 +1,7 @@
+0,1,2,3
+1824,CD,B-NP,O
+-,:,I-NP,O
+Anton,NNP,I-NP,B-PER
+Bruckner,NNP,I-NP,I-PER
+born,VBN,B-VP,O
+.,.,O,O

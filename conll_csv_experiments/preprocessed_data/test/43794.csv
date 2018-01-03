@@ -1,0 +1,6 @@
+0,1,2,3
+Gloucester,NNP,B-NP,B-ORG
+29,CD,I-NP,O
+London,NNP,I-NP,B-ORG
+Irish,NNP,I-NP,I-ORG
+19,CD,I-NP,O

@@ -1,0 +1,11 @@
+0,1,2,3
+-,:,O,O
+USDA,NNP,B-NP,B-ORG
+Thursday,NNP,B-NP,O
+200,CD,I-NP,O
+Week,NNP,I-NP,O
+Ago,NNP,I-NP,O
+Holiday,NNP,I-NP,O
+Year,NNP,I-NP,O
+Ago,NNP,I-NP,O
+"10,900",CD,I-NP,O

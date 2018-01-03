@@ -1,0 +1,10 @@
+0,1,2,3
+Zimbabwe,NNP,B-NP,B-LOC
+A.,NNP,B-NP,B-PER
+Shah,NNP,I-NP,I-PER
+c,SYM,O,O
+M.,NNP,B-NP,B-PER
+Waugh,NNP,I-NP,I-PER
+b,SYM,O,O
+Hogg,NNP,B-NP,B-PER
+41,CD,I-NP,O

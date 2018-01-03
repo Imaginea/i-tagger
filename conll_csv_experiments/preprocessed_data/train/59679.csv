@@ -1,0 +1,7 @@
+0,1,2,3
+Bayer,NNP,B-NP,B-ORG
+Leverkusen,NNP,I-NP,I-ORG
+0,CD,I-NP,O
+Fortuna,NNP,I-NP,B-ORG
+Duesseldorf,NNP,I-NP,I-ORG
+1,CD,I-NP,O

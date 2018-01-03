@@ -1,0 +1,15 @@
+0,1,2,3
+Hamburg,NNP,B-NP,B-ORG
+0,CD,I-NP,O
+VfB,NNP,I-NP,B-ORG
+Stuttgart,NNP,I-NP,I-ORG
+4,CD,I-NP,O
+(,(,O,O
+Balakov,NNP,B-NP,B-PER
+29th,JJ,I-NP,O
+",",",",I-NP,O
+Bobic,NNP,I-NP,B-PER
+47th,NNP,I-NP,O
+and,CC,O,O
+60th,CD,B-NP,O
+",",",",O,O

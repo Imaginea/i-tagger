@@ -1,0 +1,13 @@
+0,1,2,3
+Brazil,NNP,B-NP,B-LOC
+was,VBD,B-VP,O
+in,IN,B-PP,O
+seventh,JJ,B-NP,O
+position,NN,I-NP,O
+with,IN,B-PP,O
+"54,333",CD,B-NP,O
+bags,NNS,I-NP,O
+(,(,O,O
+"29,055",CD,B-NP,O
+),),O,O
+.,.,O,O

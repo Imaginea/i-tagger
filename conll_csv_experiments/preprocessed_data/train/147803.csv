@@ -1,0 +1,13 @@
+0,1,2,3
+It,PRP,B-NP,O
+says,VBZ,B-VP,O
+it,PRP,B-NP,O
+will,MD,B-VP,O
+never,RB,I-VP,O
+cede,VB,I-VP,O
+any,DT,B-NP,O
+part,NN,I-NP,O
+of,IN,B-PP,O
+the,DT,B-NP,O
+city,NN,I-NP,O
+.,.,O,O

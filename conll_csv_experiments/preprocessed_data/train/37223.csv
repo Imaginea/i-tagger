@@ -1,0 +1,8 @@
+0,1,2,3
+5.,CD,B-NP,O
+Aloys,NNP,I-NP,B-PER
+Nizigama,NNP,I-NP,I-PER
+(,(,O,O
+Burundi,NNP,B-NP,B-LOC
+),),O,O
+27:25.13,CD,B-NP,O

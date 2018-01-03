@@ -1,0 +1,15 @@
+0,1,2,3
+One,CD,B-NP,O
+analyst,NN,I-NP,O
+said,VBD,B-VP,O
+sales,NNS,B-NP,O
+of,IN,B-PP,O
+Avonex,NNP,B-NP,B-MISC
+had,VBD,B-VP,O
+already,RB,I-VP,O
+cut,VB,I-VP,O
+into,IN,B-PP,O
+Betaseron,NNP,B-NP,B-MISC
+market,NN,I-NP,O
+share,NN,I-NP,O
+.,.,O,O

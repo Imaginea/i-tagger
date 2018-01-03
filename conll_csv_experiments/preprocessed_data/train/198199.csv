@@ -1,0 +1,36 @@
+0,1,2,3
+BRASILIA,NNP,B-NP,B-LOC
+1996-08-28,CD,I-NP,O
+Seven,CD,B-NP,O
+churches,NNS,I-NP,O
+joined,VBD,B-VP,O
+voices,NNS,B-NP,O
+on,IN,B-PP,O
+Wednesday,NNP,B-NP,O
+to,TO,B-VP,O
+condemn,VB,I-VP,O
+the,DT,B-NP,O
+ ,O,O,<UNK>
+day-to-day,JJ,B-NP,O
+violence,NN,I-NP,O
+ ,O,O,<UNK>
+of,IN,B-PP,O
+Brazil,NNP,B-NP,B-LOC
+'s,POS,B-NP,O
+rural,JJ,I-NP,O
+hinterland,NN,I-NP,O
+and,CC,O,O
+the,DT,B-NP,O
+government,NN,I-NP,O
+'s,POS,B-NP,O
+failure,NN,I-NP,O
+to,TO,B-VP,O
+punish,VB,I-VP,O
+those,DT,B-NP,O
+responsible,JJ,I-NP,O
+for,IN,B-PP,O
+massacres,NNS,B-NP,O
+of,IN,B-PP,O
+landless,JJ,B-NP,O
+peasants,NNS,I-NP,O
+.,.,O,O

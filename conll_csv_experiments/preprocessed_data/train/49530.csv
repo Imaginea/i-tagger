@@ -1,0 +1,7 @@
+0,1,2,3
+Alpha,NNP,B-NP,B-ORG
+Techs,NNP,I-NP,I-ORG
+closes,VBZ,B-VP,O
+Lockhart,NNP,B-NP,B-ORG
+purchase,NN,I-NP,O
+.,.,O,O

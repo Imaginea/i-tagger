@@ -1,0 +1,11 @@
+0,1,2,3
+Hong,NNP,B-NP,B-LOC
+Kong,NNP,I-NP,I-LOC
+'s,POS,B-NP,O
+Tsang,NNP,I-NP,B-PER
+sees,VBZ,B-VP,O
+growth,NN,B-NP,O
+",",",",O,O
+smooth,JJ,B-NP,O
+transition,NN,I-NP,O
+.,.,O,O

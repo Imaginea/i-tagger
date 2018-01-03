@@ -1,0 +1,12 @@
+0,1,2,3
+The,DT,B-NP,O
+Israeli,JJ,I-NP,B-MISC
+army,NN,I-NP,O
+also,RB,B-ADVP,O
+uses,VBZ,B-VP,O
+the,DT,B-NP,O
+area,NN,I-NP,O
+for,IN,B-PP,O
+military,JJ,B-NP,O
+training,NN,I-NP,O
+.,.,O,O

@@ -1,0 +1,27 @@
+0,1,2,3
+ ,O,O,<UNK>
+A,DT,B-NP,O
+group,NN,I-NP,O
+of,IN,B-PP,O
+four,CD,B-NP,O
+skinheads,NNS,I-NP,O
+attacked,VBD,B-VP,O
+the,DT,B-NP,O
+rabbi,NN,I-NP,O
+",",",",O,O
+one,CD,B-NP,O
+kicked,VBD,B-VP,O
+him,PRP,B-NP,O
+in,IN,B-PP,O
+the,DT,B-NP,O
+hand,NN,I-NP,O
+but,CC,O,O
+caused,VBD,B-VP,O
+no,DT,B-NP,O
+injury,NN,I-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+the,DT,B-NP,O
+spokesman,NN,I-NP,O
+said,VBD,B-VP,O
+.,.,O,O

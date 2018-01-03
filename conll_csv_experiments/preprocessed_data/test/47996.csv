@@ -1,0 +1,17 @@
+0,1,2,3
+Scorers,NNS,B-NP,O
+:,:,O,O
+UAE,NNP,B-NP,B-LOC
+-,:,O,O
+Hassan,NNP,B-NP,B-PER
+Ahmed,NNP,I-NP,I-PER
+53,CD,I-NP,O
+",",",",O,O
+Adnan,NNP,B-NP,B-PER
+Al,NNP,I-NP,I-PER
+Talyani,NNP,I-NP,I-PER
+55,CD,I-NP,O
+",",",",O,O
+Bakhit,NNP,B-NP,B-PER
+Saad,NNP,I-NP,I-PER
+80,CD,I-NP,O

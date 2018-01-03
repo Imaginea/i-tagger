@@ -1,0 +1,8 @@
+0,1,2,3
+New,NNP,B-NP,B-LOC
+Zealand,NNP,I-NP,I-LOC
+win,VBP,B-VP,O
+test,NN,B-NP,O
+series,NN,I-NP,O
+2-1,CD,I-NP,O
+.,.,O,O

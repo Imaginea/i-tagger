@@ -1,0 +1,24 @@
+0,1,2,3
+ ,O,O,<UNK>
+We,PRP,B-NP,O
+'ve,VBP,B-VP,O
+been,VBN,I-VP,O
+working,VBG,I-VP,O
+all,DT,B-NP,O
+year,NN,I-NP,O
+on,IN,B-PP,O
+my,PRP$,B-NP,O
+follow-through,JJ,I-NP,O
+",",",",O,O
+and,CC,O,O
+I,PRP,B-NP,O
+really,RB,B-ADVP,O
+concentrated,JJ,B-NP,O
+on,IN,B-PP,O
+that,DT,B-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+VanLandingham,NNP,B-NP,B-PER
+said,VBD,B-VP,O
+.,.,O,O
+ ,O,O,<UNK>

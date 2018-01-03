@@ -1,0 +1,16 @@
+0,1,2,3
+ ,O,O,<UNK>
+The,DT,B-NP,O
+embassy,NN,I-NP,O
+is,VBZ,B-VP,O
+issuing,VBG,I-VP,O
+them,PRP,B-NP,O
+travel,VB,B-VP,O
+documents,NNS,B-NP,O
+for,IN,B-PP,O
+their,PRP$,B-NP,O
+return,NN,I-NP,O
+to,TO,B-PP,O
+their,PRP$,B-NP,O
+homeland,NN,I-NP,O
+.,.,O,O

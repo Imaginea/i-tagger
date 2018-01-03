@@ -1,0 +1,6 @@
+0,1,2,3
+12-1,NNP,B-NP,O
+Fernando,NNP,I-NP,B-PER
+Redondo,NNP,I-NP,I-PER
+9-1,NNP,I-NP,O
+Giovanni,NNP,I-NP,B-PER

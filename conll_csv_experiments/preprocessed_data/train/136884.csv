@@ -1,0 +1,8 @@
+0,1,2,3
+ ,O,O,<UNK>
+That,DT,B-NP,O
+is,VBZ,B-VP,O
+a,DT,B-NP,O
+welcome,JJ,I-NP,O
+development,NN,I-NP,O
+.,.,O,O

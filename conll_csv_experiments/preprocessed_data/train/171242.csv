@@ -1,0 +1,24 @@
+0,1,2,3
+ ,O,O,<UNK>
+He,PRP,B-NP,O
+'ll,MD,B-VP,O
+probably,RB,I-VP,O
+mention,VB,I-VP,O
+his,PRP$,B-NP,O
+war,NN,I-NP,O
+on,IN,B-PP,O
+drugs,NNS,B-NP,O
+",",",",O,O
+which,WDT,B-NP,O
+he,PRP,B-NP,O
+'s,VBZ,B-VP,O
+going,VBG,I-VP,O
+to,TO,I-VP,O
+start,VB,I-VP,O
+like,JJ,B-PP,O
+everything,NN,B-NP,O
+else,JJ,I-NP,O
+--,:,O,O
+next,JJ,B-NP,O
+year,NN,I-NP,O
+.,.,O,O

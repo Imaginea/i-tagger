@@ -1,0 +1,29 @@
+0,1,2,3
+Last,JJ,B-NP,O
+month,NN,I-NP,O
+Five,CD,I-NP,B-MISC
+Nations,NNS,I-NP,I-MISC
+',POS,B-NP,O
+committee,NN,I-NP,O
+chairman,NN,I-NP,O
+Tom,NNP,I-NP,B-PER
+Kiernan,NNP,I-NP,I-PER
+said,VBD,B-VP,O
+England,NNP,B-NP,B-LOC
+would,MD,B-VP,O
+be,VB,I-VP,O
+thrown,VBN,I-VP,O
+out,IN,B-ADVP,O
+of,IN,B-PP,O
+the,DT,B-NP,O
+competition,NN,I-NP,O
+ ,O,O,<UNK>
+unless,IN,B-SBAR,O
+circumstances,NNS,B-NP,O
+change,NN,I-NP,O
+in,IN,B-PP,O
+the,DT,B-NP,O
+near,JJ,I-NP,O
+future,JJ,I-NP,O
+ ,O,O,<UNK>
+.,.,O,O

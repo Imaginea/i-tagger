@@ -1,0 +1,13 @@
+0,1,2,3
+New,NNP,B-NP,B-LOC
+York,NNP,I-NP,I-LOC
+coal,NN,I-NP,O
+/,SYM,O,O
+ore,NN,B-NP,O
+/,SYM,O,O
+scrap,NN,B-NP,O
+fixtures,NNS,I-NP,O
+-,:,O,O
+Dec,NNP,B-NP,O
+6,CD,I-NP,O
+.,.,O,O

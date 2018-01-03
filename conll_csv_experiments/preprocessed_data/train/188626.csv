@@ -1,0 +1,12 @@
+0,1,2,3
+1.,CD,B-NP,O
+Giovanni,NNP,I-NP,B-PER
+Lombardi,NNP,I-NP,I-PER
+(,(,O,O
+Italy,NNP,B-NP,B-LOC
+),),O,O
+Polti,NNP,B-NP,B-ORG
+2,CD,I-NP,O
+hours,NNS,I-NP,O
+35,CD,B-NP,O
+minutes,NNS,I-NP,O

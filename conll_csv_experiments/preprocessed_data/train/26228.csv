@@ -1,0 +1,14 @@
+0,1,2,3
+Analysts,NNS,B-NP,O
+had,VBD,B-VP,O
+on,IN,B-PP,O
+average,JJ,B-NP,O
+expected,JJ,I-NP,O
+a,DT,I-NP,O
+pre-abnormals,JJ,I-NP,O
+profit,NN,I-NP,O
+of,IN,B-PP,O
+A$,$,B-NP,B-MISC
+1.343,CD,I-NP,O
+billion,CD,I-NP,O
+.,.,O,O

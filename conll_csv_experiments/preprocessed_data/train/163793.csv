@@ -1,0 +1,26 @@
+0,1,2,3
+Nevertheless,RB,B-ADVP,O
+I,PRP,B-NP,O
+am,VBP,B-VP,O
+satisfied,VBN,B-ADJP,O
+that,IN,B-SBAR,O
+the,DT,B-NP,O
+overall,JJ,I-NP,O
+benefits,NNS,I-NP,O
+will,MD,B-VP,O
+be,VB,I-VP,O
+worthwile,JJ,B-ADJP,O
+",",",",O,O
+ ,O,O,<UNK>
+Lord,NNP,B-NP,O
+Goschen,NNP,I-NP,B-PER
+",",",",O,O
+minister,NN,B-NP,O
+for,IN,B-PP,O
+aviation,NN,B-NP,O
+",",",",O,O
+said,VBD,B-VP,O
+in,IN,B-PP,O
+a,DT,B-NP,O
+statement,NN,I-NP,O
+.,.,O,O

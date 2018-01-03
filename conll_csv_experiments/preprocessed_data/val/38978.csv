@@ -1,0 +1,23 @@
+0,1,2,3
+ ,O,O,<UNK>
+In,IN,B-PP,O
+the,DT,B-NP,O
+early,JJ,I-NP,O
+innings,NN,I-NP,O
+",",",",O,O
+I,PRP,B-NP,O
+was,VBD,B-VP,O
+struggling,VBG,I-VP,O
+",",",",O,O
+I,PRP,B-NP,O
+was,VBD,B-VP,O
+just,RB,I-VP,O
+trying,VBG,I-VP,O
+to,TO,I-VP,O
+make,VB,I-VP,O
+it,PRP,B-NP,O
+from,IN,B-PP,O
+pitch,NN,B-NP,O
+to,TO,B-PP,O
+pitch,NN,B-NP,O
+.,.,O,O

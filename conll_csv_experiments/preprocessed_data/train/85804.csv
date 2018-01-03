@@ -1,0 +1,14 @@
+0,1,2,3
+Shumer,NNP,B-NP,B-PER
+said,VBD,B-VP,O
+his,PRP$,B-NP,O
+current,JJ,I-NP,O
+position,NN,I-NP,O
+was,VBD,B-VP,O
+that,IN,B-SBAR,O
+the,DT,B-NP,O
+peace,NN,I-NP,O
+process,NN,I-NP,O
+must,MD,B-VP,O
+continue,VB,I-VP,O
+.,.,O,O

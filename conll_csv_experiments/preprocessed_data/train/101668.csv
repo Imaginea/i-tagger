@@ -1,0 +1,15 @@
+0,1,2,3
+Atletico,NNP,B-NP,B-ORG
+Madrid,NNP,I-NP,I-ORG
+-,:,O,O
+Esnaider,NNP,B-NP,B-PER
+(,(,O,O
+37th,JJ,B-NP,O
+),),O,O
+",",",",O,O
+Pantic,NNP,B-NP,B-PER
+(,(,O,O
+57th,NNP,B-NP,O
+",",",",O,O
+penalty,NN,B-NP,O
+),),O,O

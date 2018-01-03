@@ -1,0 +1,8 @@
+0,1,2,3
+10.,CD,B-NP,O
+Mira,NNP,I-NP,B-PER
+Kasslin,NNP,I-NP,I-PER
+(,(,O,O
+Finland,NNP,B-NP,B-LOC
+),),O,O
+37.273,CD,B-NP,O

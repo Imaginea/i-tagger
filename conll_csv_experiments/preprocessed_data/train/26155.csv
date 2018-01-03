@@ -1,0 +1,24 @@
+0,1,2,3
+A,DT,B-NP,O
+budgeted,VBN,I-NP,O
+profit,NN,I-NP,O
+increase,NN,I-NP,O
+of,IN,B-PP,O
+at,IN,B-NP,O
+least,JJS,I-NP,O
+20,CD,I-NP,O
+percent,NN,I-NP,O
+for,IN,B-PP,O
+the,DT,B-NP,O
+full,JJ,I-NP,O
+year,NN,I-NP,O
+currently,RB,B-ADVP,O
+appears,VBZ,B-VP,O
+very,RB,B-ADJP,O
+attainable,JJ,I-ADJP,O
+",",",",O,O
+ ,O,O,<UNK>
+News,NNP,B-NP,B-ORG
+Corp,NNP,I-NP,I-ORG
+said,VBD,B-VP,O
+.,.,O,O

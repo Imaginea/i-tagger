@@ -1,0 +1,14 @@
+0,1,2,3
+The,DT,B-NP,O
+two,CD,I-NP,O
+were,VBD,B-VP,O
+held,VBN,I-VP,O
+for,IN,B-PP,O
+71,CD,B-NP,O
+days,NNS,I-NP,O
+until,IN,B-SBAR,O
+relatives,NNS,B-NP,O
+paid,VBD,B-VP,O
+a,DT,B-NP,O
+ransom,NN,I-NP,O
+.,.,O,O

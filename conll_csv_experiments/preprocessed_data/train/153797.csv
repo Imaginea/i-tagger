@@ -1,0 +1,9 @@
+0,1,2,3
+(,(,O,O
+Formula,NNP,B-NP,B-ORG
+Shell,NNP,I-NP,I-ORG
+leads,VBZ,B-VP,O
+best-of-seven,JJ,B-NP,O
+series,NN,I-NP,O
+1-0,CD,I-NP,O
+),),O,O

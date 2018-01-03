@@ -1,0 +1,27 @@
+0,1,2,3
+ ,O,O,<UNK>
+I,PRP,B-NP,O
+'m,VBP,B-VP,O
+sure,JJ,B-ADJP,O
+there,RB,B-ADVP,O
+wo,MD,B-VP,O
+n't,RB,I-VP,O
+be,VB,I-VP,O
+a,DT,B-NP,O
+problem,NN,I-NP,O
+",",",",O,O
+I,PRP,B-NP,O
+'m,VBP,B-VP,O
+sure,JJ,B-ADJP,O
+Alan,NNP,B-NP,B-PER
+is,VBZ,B-VP,O
+the,DT,B-NP,O
+man,NN,I-NP,O
+for,IN,B-PP,O
+the,DT,B-NP,O
+job,NN,I-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+Hoddle,NNP,B-NP,B-PER
+said,VBD,B-VP,O
+.,.,O,O

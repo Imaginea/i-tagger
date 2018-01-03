@@ -1,0 +1,9 @@
+0,1,2,3
+16=,CD,B-NP,O
+Claudia,NNP,I-NP,B-PER
+Riegler,NNP,I-NP,I-PER
+(,(,O,O
+New,NNP,B-NP,B-LOC
+Zealand,NNP,I-NP,I-LOC
+),),O,O
+100,CD,B-NP,O

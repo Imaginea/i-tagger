@@ -1,0 +1,22 @@
+0,1,2,3
+Especially,RB,B-ADJP,O
+since,IN,B-PP,O
+the,DT,B-NP,O
+Hebron,NNP,I-NP,B-LOC
+issue,NN,I-NP,O
+has,VBZ,B-VP,O
+not,RB,I-VP,O
+been,VBN,I-VP,O
+agreed,VBN,I-VP,O
+yet,RB,B-ADVP,O
+and,CC,O,O
+the,DT,B-NP,O
+crucial,JJ,I-NP,O
+disputed,VBN,B-VP,O
+issues,NNS,B-NP,O
+have,VBP,B-VP,O
+not,RB,I-VP,O
+been,VBN,I-VP,O
+resolved,VBN,I-VP,O
+.,.,O,O
+ ,O,O,<UNK>

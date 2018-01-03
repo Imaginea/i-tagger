@@ -1,0 +1,36 @@
+0,1,2,3
+Two,CD,B-NP,O
+other,JJ,I-NP,O
+arbs,NNS,I-NP,O
+called,VBD,B-VP,O
+Newmont,NNP,B-NP,B-ORG
+'s,POS,B-NP,O
+move,NN,I-NP,O
+a,DT,B-NP,O
+ ,O,O,<UNK>
+a,DT,B-NP,O
+32,CD,I-NP,O
+cent,NN,I-NP,O
+bid,NN,I-NP,O
+ ,O,O,<UNK>
+because,IN,B-SBAR,O
+there,EX,B-NP,O
+is,VBZ,B-VP,O
+no,DT,B-NP,O
+formal,JJ,I-NP,O
+tender,NN,I-NP,O
+offer,NN,I-NP,O
+",",",",O,O
+only,RB,B-NP,O
+the,DT,I-NP,O
+proposal,NN,I-NP,O
+letter,NN,I-NP,O
+ ,O,O,<UNK>
+mailed,VBN,B-VP,O
+ ,O,O,<UNK>
+to,TO,B-VP,O
+Santa,VB,I-VP,B-ORG
+Fe,NNP,B-NP,I-ORG
+'s,POS,B-NP,O
+board,NN,I-NP,O
+.,.,O,O

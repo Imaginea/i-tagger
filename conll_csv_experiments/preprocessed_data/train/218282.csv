@@ -1,0 +1,9 @@
+0,1,2,3
+10.,CD,B-NP,O
+Shinichi,NNP,I-NP,B-PER
+Itoh,NNP,I-NP,I-PER
+(,(,O,O
+Japan,NNP,O,B-LOC
+),),O,O
+Honda,NNP,B-NP,B-ORG
+1:51.857,CD,I-NP,O

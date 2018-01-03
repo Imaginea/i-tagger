@@ -1,0 +1,16 @@
+0,1,2,3
+William,NNP,B-NP,B-PER
+Weld,NNP,I-NP,I-PER
+asked,VBD,B-VP,O
+to,TO,I-VP,O
+deliver,VB,I-VP,O
+a,DT,B-NP,O
+speech,JJ,I-NP,O
+defending,VBG,I-NP,O
+abortion,NN,I-NP,O
+rights,NNS,I-NP,O
+and,CC,O,O
+was,VBD,B-VP,O
+turned,VBN,I-VP,O
+down,IN,B-PRT,O
+.,.,O,O

@@ -1,0 +1,8 @@
+0,1,2,3
+half-time,NN,B-NP,O
+full-time,RB,B-ADVP,O
+5-2,CD,B-NP,O
+Real,JJ,I-NP,B-ORG
+Madrid,NNP,I-NP,I-ORG
+Real,NNP,I-NP,B-ORG
+Madrid,NNP,I-NP,I-ORG

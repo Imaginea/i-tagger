@@ -1,0 +1,8 @@
+0,1,2,3
+3.,NNP,B-NP,O
+Donovan,NNP,I-NP,B-PER
+Bailey,NNP,I-NP,I-PER
+(,(,O,O
+Canada,NNP,B-NP,B-LOC
+),),O,O
+10.13,CD,B-NP,O

@@ -1,0 +1,9 @@
+0,1,2,3
+Total,JJ,B-NP,O
+(,(,O,O
+in,IN,B-PP,O
+billion,CD,B-NP,O
+rupiah,VB,O,O
+),),O,O
+38.43,CD,B-NP,O
+218.50,CD,I-NP,O

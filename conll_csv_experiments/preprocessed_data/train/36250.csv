@@ -1,0 +1,8 @@
+0,1,2,3
+5.,CD,B-NP,O
+Chryste,NNP,I-NP,B-PER
+Gaines,NNP,I-NP,I-PER
+(,(,O,O
+U.S.,NNP,B-NP,B-LOC
+),),O,O
+11.18,CD,B-NP,O

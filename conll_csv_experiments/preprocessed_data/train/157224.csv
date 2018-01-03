@@ -1,0 +1,16 @@
+0,1,2,3
+Pescara,NNP,B-NP,B-ORG
+'s,POS,B-NP,O
+Ottavio,NNP,I-NP,B-PER
+Palladini,NNP,I-NP,I-PER
+shattered,VBD,B-VP,O
+Parma,NNP,B-NP,B-ORG
+with,IN,B-PP,O
+goals,NNS,B-NP,O
+in,IN,B-PP,O
+the,DT,B-NP,O
+second,JJ,I-NP,O
+and,CC,I-NP,O
+fourth,JJ,I-NP,O
+minutes,NNS,I-NP,O
+.,.,O,O

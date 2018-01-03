@@ -1,0 +1,10 @@
+0,1,2,3
+English,JJ,B-NP,B-MISC
+county,NN,I-NP,O
+sides,NNS,I-NP,O
+and,CC,O,O
+another,DT,B-NP,O
+against,IN,B-PP,O
+British,JJ,B-NP,B-ORG
+Universities,NNS,I-NP,I-ORG
+",",",",O,O

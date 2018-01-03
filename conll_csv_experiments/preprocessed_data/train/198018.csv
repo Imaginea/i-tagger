@@ -1,0 +1,10 @@
+0,1,2,3
+Brazil,NNP,B-NP,B-LOC
+police,NN,I-NP,O
+arrest,NN,I-NP,O
+wanted,VBN,B-VP,O
+Italian,JJ,B-NP,B-MISC
+man,NN,I-NP,O
+-,:,O,O
+report,VB,B-VP,O
+.,.,O,O

@@ -1,0 +1,20 @@
+0,1,2,3
+ ,O,O,<UNK>
+I,PRP,B-NP,O
+made,VBD,B-VP,O
+some,DT,B-NP,O
+bad,JJ,I-NP,O
+pitches,NNS,I-NP,O
+at,IN,B-PP,O
+the,DT,B-NP,O
+end,NN,I-NP,O
+but,CC,O,O
+I,PRP,B-NP,O
+'m,VBP,B-VP,O
+not,RB,I-VP,O
+going,VBG,I-VP,O
+to,TO,I-VP,O
+dwell,VB,I-VP,O
+on,IN,B-PP,O
+it,PRP,B-NP,O
+.,.,O,O

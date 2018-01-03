@@ -1,0 +1,16 @@
+0,1,2,3
+NYMEX,NNP,B-NP,B-ORG
+Permian,NNP,I-NP,B-MISC
+natgas,NNS,I-NP,O
+",",",",O,O
+also,RB,B-ADVP,O
+untraded,JJ,B-ADJP,O
+",",",",O,O
+ended,VBD,B-VP,O
+10,CD,B-NP,O
+cents,NNS,I-NP,O
+lower,RBR,B-ADVP,O
+at,IN,B-PP,O
+$,$,B-NP,O
+2.90,CD,I-NP,O
+.,.,O,O

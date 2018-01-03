@@ -1,0 +1,19 @@
+0,1,2,3
+Relations,NNS,B-NP,O
+with,IN,B-PP,O
+Russia,NNP,B-NP,B-LOC
+",",",",O,O
+which,WDT,B-NP,O
+is,VBZ,B-VP,O
+our,PRP$,B-NP,O
+main,JJ,I-NP,O
+partner,NN,I-NP,O
+",",",",O,O
+have,VBP,B-VP,O
+great,JJ,B-NP,O
+importance,NN,I-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+Kuchma,NNP,B-NP,B-PER
+said,VBD,B-VP,O
+.,.,O,O

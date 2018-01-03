@@ -1,0 +1,6 @@
+0,1,2,3
+They,PRP,B-NP,O
+were,VBD,B-VP,O
+singing,VBG,I-VP,O
+peacefully,RB,B-ADVP,O
+.,.,O,O

@@ -1,0 +1,7 @@
+0,1,2,3
+tax,NN,B-NP,O
+provision,NN,I-NP,O
+"9,306,000",CD,B-NP,O
+"11,346,000",CD,I-NP,O
+"17,166,000",CD,I-NP,O
+"11,046,000",CD,I-NP,O

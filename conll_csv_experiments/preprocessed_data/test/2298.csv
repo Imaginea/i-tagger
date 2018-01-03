@@ -1,0 +1,10 @@
+0,1,2,3
+Ulker,NNP,B-NP,B-ORG
+Spor,NNP,I-NP,I-ORG
+(,(,O,O
+Turkey,NNP,B-NP,B-LOC
+),),O,O
+9,CD,B-NP,O
+4,CD,I-NP,O
+5,CD,I-NP,O
+13,CD,I-NP,O

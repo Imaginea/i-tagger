@@ -1,0 +1,7 @@
+0,1,2,3
+Sweden,NNP,B-NP,B-LOC
+),),O,O
+70,CD,B-NP,O
+75,CD,I-NP,O
+71,CD,I-NP,O
+72,CD,I-NP,O

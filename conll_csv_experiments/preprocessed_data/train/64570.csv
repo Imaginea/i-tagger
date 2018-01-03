@@ -1,0 +1,16 @@
+0,1,2,3
+Actually,RB,B-ADVP,O
+",",",",O,O
+creation,NN,B-NP,O
+of,IN,B-PP,O
+such,PDT,B-NP,O
+a,DT,I-NP,O
+registry,NN,I-NP,O
+was,VBD,B-VP,O
+underway,RB,B-ADJP,O
+without,IN,B-PP,O
+Clinton,NNP,B-NP,B-PER
+lifting,VBG,B-VP,O
+a,DT,B-NP,O
+finger,NN,I-NP,O
+.,.,O,O

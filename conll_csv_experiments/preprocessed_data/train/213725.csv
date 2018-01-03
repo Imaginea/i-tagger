@@ -1,0 +1,30 @@
+0,1,2,3
+ ,O,O,<UNK>
+There,EX,B-NP,O
+will,MD,B-VP,O
+be,VB,I-VP,O
+on,IN,B-PP,O
+the,DT,B-NP,O
+whole,NN,I-NP,O
+a,DT,B-NP,O
+slightly,RB,B-ADVP,O
+upward,RB,B-ADVP,O
+climb,VB,B-VP,O
+",",",",O,O
+consistent,JJ,B-ADJP,O
+with,IN,B-PP,O
+our,PRP$,B-NP,O
+economic,JJ,I-NP,O
+growth,NN,I-NP,O
+rate,NN,I-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+he,PRP,B-NP,O
+said,VBD,B-VP,O
+in,IN,B-PP,O
+reference,NN,B-NP,O
+to,TO,B-PP,O
+the,DT,B-NP,O
+property,NN,I-NP,O
+market,NN,I-NP,O
+.,.,O,O

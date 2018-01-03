@@ -1,0 +1,5 @@
+0,1,2,3
+10-3-30-0,CD,B-NP,O
+Pakistan,NNP,B-NP,B-LOC
+second,JJ,I-NP,O
+innings,NN,I-NP,O

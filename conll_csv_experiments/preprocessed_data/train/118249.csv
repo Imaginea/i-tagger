@@ -1,0 +1,9 @@
+0,1,2,3
+The,DT,B-NP,O
+government,NN,I-NP,O
+has,VBZ,B-VP,O
+slashed,VBN,I-VP,O
+its,PRP$,B-NP,O
+road-building,NN,I-NP,O
+spending,NN,I-NP,O
+.,.,O,O

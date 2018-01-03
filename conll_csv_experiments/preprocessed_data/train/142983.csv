@@ -1,0 +1,10 @@
+0,1,2,3
+DBRS,NNS,B-NP,B-ORG
+confirms,VBZ,B-VP,O
+Power,NNP,B-NP,B-ORG
+Corp,NNP,I-NP,I-ORG
+",",",",O,O
+Power,NNP,B-NP,B-ORG
+Financial,NNP,I-NP,O
+ratings,NNS,I-NP,O
+.,.,O,O

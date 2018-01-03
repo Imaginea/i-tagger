@@ -1,0 +1,15 @@
+0,1,2,3
+Asa,NNP,B-NP,B-PER
+Carlsson,NNP,I-NP,I-PER
+(,(,O,O
+Sweden,NNP,B-NP,B-LOC
+),),O,O
+beat,VB,B-VP,O
+Gloria,NNP,B-NP,B-PER
+Pizzichini,NNP,I-NP,I-PER
+(,(,O,O
+Italy,NNP,B-NP,B-LOC
+),),O,O
+3-6,CD,B-NP,O
+6-1,JJ,B-ADVP,O
+7-5,CD,B-NP,O

@@ -1,0 +1,15 @@
+0,1,2,3
+CHICAGO,NNP,B-NP,B-LOC
+1996-08-29,CD,I-NP,O
+Grain,NN,B-NP,O
+and,CC,O,O
+oilseed,JJ,B-NP,O
+exports,NNS,I-NP,O
+reported,VBN,B-VP,O
+by,IN,B-PP,O
+USDA,NNP,B-NP,B-ORG
+and,CC,O,O
+private,JJ,B-NP,O
+export,NN,I-NP,O
+sources,NNS,I-NP,O
+.,.,O,O

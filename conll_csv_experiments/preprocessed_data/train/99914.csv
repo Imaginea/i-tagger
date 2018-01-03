@@ -1,0 +1,15 @@
+0,1,2,3
+Laurence,NNP,B-NP,B-PER
+Courtois,NNP,I-NP,I-PER
+(,(,O,O
+Belgium,NNP,B-NP,B-LOC
+),),O,O
+beat,VB,B-VP,O
+Flora,NNP,B-NP,B-LOC
+Perfetti,NNP,I-NP,B-PER
+(,(,O,O
+Italy,NNP,B-NP,B-LOC
+),),O,O
+6-4,CD,B-NP,O
+3-6,CD,I-NP,O
+6-2,CD,I-NP,O

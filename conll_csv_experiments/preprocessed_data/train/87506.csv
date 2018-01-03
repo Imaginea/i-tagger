@@ -1,0 +1,11 @@
+0,1,2,3
+French,JJ,B-NP,B-MISC
+1997,CD,I-NP,O
+budget,NN,I-NP,O
+due,JJ,B-ADJP,O
+around,IN,B-PP,O
+September,NNP,B-NP,O
+10,CD,I-NP,O
+-,:,I-NP,O
+Juppe,NNP,I-NP,B-PER
+.,.,O,O

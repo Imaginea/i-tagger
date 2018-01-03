@@ -1,0 +1,9 @@
+0,1,2,3
+--,:,O,O
+Luli,NNP,B-NP,B-PER
+Popescu,NNP,I-NP,I-PER
+",",",",O,O
+Bucharest,JJS,B-NP,B-ORG
+Newsroom,NNP,I-NP,I-ORG
+40-1,NNP,I-NP,O
+3120264,CD,I-NP,O

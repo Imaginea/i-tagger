@@ -1,0 +1,14 @@
+0,1,2,3
+TRADE,NN,B-NP,O
+BALANCE,NNS,I-NP,O
+Exports,NNS,B-NP,O
+(,(,O,O
+bln,FW,B-NP,O
+pts,NNS,I-NP,O
+),),O,O
+Jun,NNP,B-NP,O
+"1,100.7",CD,I-NP,O
+"1,164.1",CD,I-NP,O
+988.2,CD,I-NP,O
+-,:,I-NP,O
+-,:,O,O

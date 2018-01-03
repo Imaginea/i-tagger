@@ -1,0 +1,13 @@
+0,1,2,3
+Flemming,NNP,B-VP,B-PER
+",",",",O,O
+Jason,NNP,B-NP,B-PER
+Gillespie,NNP,I-NP,I-PER
+",",",",O,O
+Stuart,NNP,B-NP,B-PER
+Law,NNP,I-NP,I-PER
+",",",",O,O
+Glenn,NNP,B-NP,B-PER
+McGrath,NNP,I-NP,I-PER
+",",",",O,O
+Ricky,NNP,B-NP,B-PER

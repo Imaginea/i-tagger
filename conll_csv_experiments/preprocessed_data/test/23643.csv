@@ -1,0 +1,23 @@
+0,1,2,3
+But,CC,O,O
+they,PRP,B-NP,O
+have,VBP,B-VP,O
+said,VBD,I-VP,O
+both,DT,B-NP,O
+parties,NNS,I-NP,O
+had,VBD,B-VP,O
+a,DT,B-NP,O
+ ,O,O,<UNK>
+moral,JJ,B-NP,O
+link,NN,I-NP,O
+ ,O,O,<UNK>
+in,IN,B-PP,O
+that,IN,B-SBAR,O
+they,PRP,B-NP,O
+were,VBD,B-VP,O
+against,IN,B-PP,O
+police,NN,B-NP,O
+brutality,NN,I-NP,O
+and,CC,I-NP,O
+injustice,NN,I-NP,O
+.,.,O,O

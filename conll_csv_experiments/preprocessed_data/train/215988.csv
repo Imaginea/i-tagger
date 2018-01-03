@@ -1,0 +1,11 @@
+0,1,2,3
+CINCO,NNP,B-NP,B-ORG
+DIAS,NNP,I-NP,I-ORG
+-,:,O,O
+BCH,NNP,B-NP,B-ORG
+in,IN,B-PP,O
+the,DT,B-NP,O
+hive,NN,I-NP,O
+of,IN,B-PP,O
+Chilean,JJ,B-NP,B-MISC
+pensions,NNS,I-NP,O

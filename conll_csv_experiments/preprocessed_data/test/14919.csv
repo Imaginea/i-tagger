@@ -1,0 +1,11 @@
+0,1,2,3
+Manitoba,NNP,B-NP,B-ORG
+Pork,NNP,I-NP,I-ORG
+forward,JJ,I-NP,O
+contract,NN,I-NP,O
+PM,NNP,I-NP,O
+prices,NNS,I-NP,O
+-,:,O,O
+Dec,NNP,B-NP,O
+6,CD,I-NP,O
+.,.,O,O

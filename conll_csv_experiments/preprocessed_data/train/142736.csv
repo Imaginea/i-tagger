@@ -1,0 +1,15 @@
+0,1,2,3
+Airport,NNP,B-NP,O
+spokeswoman,NN,I-NP,O
+Rona,NNP,I-NP,B-PER
+Young,NNP,I-NP,I-PER
+confirmed,VBD,B-VP,O
+that,IN,B-SBAR,O
+all,PDT,B-NP,O
+the,DT,I-NP,O
+passengers,NNS,I-NP,O
+had,VBD,B-VP,O
+left,VBN,I-VP,O
+the,DT,B-NP,O
+aircraft,NN,I-NP,O
+.,.,O,O

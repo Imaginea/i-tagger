@@ -1,0 +1,6 @@
+0,1,2,3
+other,JJ,B-NP,O
+foreign,JJ,I-NP,O
+assets,NNS,I-NP,O
+"13,256.5",CD,I-NP,O
+"12,855.7",CD,I-NP,O

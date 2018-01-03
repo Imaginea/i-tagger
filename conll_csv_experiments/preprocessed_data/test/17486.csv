@@ -1,0 +1,16 @@
+0,1,2,3
+The,DT,B-NP,O
+northeastern,JJ,I-NP,O
+coast,NN,I-NP,O
+of,IN,B-PP,O
+the,DT,B-NP,O
+nearby,JJ,I-NP,O
+island,NN,I-NP,O
+of,IN,B-PP,O
+Madagascar,NNP,B-NP,B-LOC
+has,VBZ,B-VP,O
+also,RB,I-VP,O
+gone,VBN,I-VP,O
+on,IN,B-PP,O
+alert,NN,B-NP,O
+.,.,O,O

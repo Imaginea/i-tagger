@@ -1,0 +1,8 @@
+0,1,2,3
+Algeria,NNP,B-NP,B-LOC
+forces,NNS,I-NP,O
+kill,VBP,B-VP,O
+guerrillas,NNS,B-NP,O
+-,:,O,O
+papers,NNS,B-NP,O
+.,.,O,O

@@ -1,0 +1,13 @@
+0,1,2,3
+Todd,NNP,B-NP,B-PER
+Worrell,NNP,I-NP,I-PER
+worked,VBD,B-VP,O
+the,DT,B-NP,O
+12th,JJ,I-NP,O
+to,TO,B-VP,O
+earn,VB,I-VP,O
+his,PRP$,B-NP,O
+league-leading,JJ,I-NP,O
+37th,JJ,I-NP,O
+save,VB,B-VP,O
+.,.,O,O

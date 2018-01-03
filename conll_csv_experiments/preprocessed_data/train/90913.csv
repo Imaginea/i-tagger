@@ -1,0 +1,17 @@
+0,1,2,3
+St,NNP,B-NP,B-ORG
+Helens,NNP,I-NP,I-ORG
+'s,POS,B-NP,O
+triumph,NN,I-NP,O
+marked,VBD,B-VP,O
+the,DT,B-NP,O
+end,NN,I-NP,O
+of,IN,B-PP,O
+Wigan,NNP,B-NP,B-ORG
+'s,POS,B-NP,O
+seven-year,JJ,I-NP,O
+reign,NN,I-NP,O
+as,IN,B-SBAR,O
+British,JJ,B-NP,B-MISC
+champions,NNS,I-NP,O
+.,.,O,O

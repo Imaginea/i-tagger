@@ -1,0 +1,7 @@
+0,1,2,3
+Rapid,NNP,B-NP,B-ORG
+Bucharest,NNP,I-NP,I-ORG
+0,CD,I-NP,O
+Steaua,NNP,I-NP,B-ORG
+Bucharest,NNP,I-NP,I-ORG
+2,CD,I-NP,O

@@ -1,0 +1,16 @@
+0,1,2,3
+Syria,NNP,B-NP,B-LOC
+has,VBZ,B-VP,O
+held,VBN,I-VP,O
+sporadic,JJ,B-NP,O
+peace,NN,I-NP,O
+talks,NNS,I-NP,O
+with,IN,B-PP,O
+Israel,NNP,B-NP,B-LOC
+since,IN,B-PP,O
+1991,CD,B-NP,O
+without,IN,B-PP,O
+achieving,VBG,B-VP,O
+a,DT,B-NP,O
+breakthrough,NN,I-NP,O
+.,.,O,O

@@ -1,0 +1,8 @@
+0,1,2,3
+We,PRP,B-NP,O
+will,MD,B-VP,O
+dislodge,VB,I-VP,O
+the,DT,B-NP,O
+Bhutto,NNP,I-NP,B-PER
+government,NN,I-NP,O
+.,.,O,O

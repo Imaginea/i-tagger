@@ -1,0 +1,7 @@
+0,1,2,3
+No-one,CD,B-NP,O
+will,MD,B-VP,O
+argue,VB,I-VP,O
+with,IN,B-PP,O
+that,DT,B-NP,O
+.,.,O,O

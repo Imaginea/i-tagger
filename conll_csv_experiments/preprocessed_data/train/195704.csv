@@ -1,0 +1,34 @@
+0,1,2,3
+ ,O,O,<UNK>
+As,IN,B-SBAR,O
+we,PRP,B-NP,O
+have,VBP,B-VP,O
+said,VBD,I-VP,O
+publicly,RB,I-VP,O
+before,IN,I-VP,O
+",",",",I-VP,O
+if,IN,B-SBAR,O
+there,EX,B-NP,O
+is,VBZ,B-VP,O
+any,DT,B-NP,O
+effort,NN,I-NP,O
+to,TO,B-VP,O
+do,VB,I-VP,O
+so,RB,B-ADVP,O
+(,(,O,O
+hold,VB,B-NP,O
+local,JJ,I-NP,O
+elections,NNS,I-NP,O
+),),O,O
+these,DT,B-NP,O
+elections,NNS,I-NP,O
+will,MD,B-VP,O
+not,RB,I-VP,O
+be,VB,I-VP,O
+valid,JJ,B-ADJP,O
+",",",",O,O
+ ,O,O,<UNK>
+he,PRP,B-NP,O
+said,VBD,B-VP,O
+.,.,O,O
+ ,O,O,<UNK>

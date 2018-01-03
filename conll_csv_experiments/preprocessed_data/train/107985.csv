@@ -1,0 +1,17 @@
+0,1,2,3
+It,PRP,B-NP,O
+was,VBD,B-VP,O
+softer,JJR,B-NP,O
+in,IN,B-PP,O
+the,DT,B-NP,O
+morning,NN,I-NP,O
+due,JJ,B-ADJP,O
+to,TO,B-VP,O
+relatively,RB,B-NP,O
+ample,JJ,I-NP,O
+rupiah,JJ,I-NP,O
+liquidity,NN,I-NP,O
+but,CC,O,O
+recovered,VBD,B-VP,O
+later,RB,B-ADVP,O
+.,.,O,O

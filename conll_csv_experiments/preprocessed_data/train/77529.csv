@@ -1,0 +1,7 @@
+0,1,2,3
+National,NNP,B-NP,B-MISC
+League,NNP,I-NP,I-MISC
+ATLANTA,NNP,B-NP,B-ORG
+6,CD,I-NP,O
+Chicago,NNP,I-NP,B-ORG
+5,CD,I-NP,O

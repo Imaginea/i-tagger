@@ -1,0 +1,17 @@
+0,1,2,3
+BRUSSELS,NNP,B-NP,B-LOC
+1996-08-28,CD,I-NP,O
+Following,VBG,B-VP,O
+are,VBP,B-VP,O
+highlights,VBZ,I-VP,O
+of,IN,B-PP,O
+the,DT,B-NP,O
+midday,NN,I-NP,O
+briefing,NN,I-NP,O
+by,IN,B-PP,O
+the,DT,B-NP,O
+European,NNP,I-NP,B-ORG
+Commission,NNP,I-NP,I-ORG
+on,IN,B-PP,O
+Wednesday,NNP,B-NP,O
+:,:,O,O

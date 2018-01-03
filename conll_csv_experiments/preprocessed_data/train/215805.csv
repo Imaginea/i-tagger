@@ -1,0 +1,9 @@
+0,1,2,3
+GDP,NNP,B-NP,O
+figures,NNS,I-NP,O
+are,VBP,B-VP,O
+quarterly,JJ,B-NP,O
+on,IN,B-PP,O
+annualised,JJ,B-NP,O
+basis,NN,I-NP,O
+.,.,O,O

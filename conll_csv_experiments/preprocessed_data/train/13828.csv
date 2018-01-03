@@ -1,0 +1,12 @@
+0,1,2,3
+The,DT,B-NP,O
+second-quarter,JJ,I-NP,O
+results,NNS,I-NP,O
+are,VBP,B-VP,O
+expected,VBN,I-VP,O
+to,TO,I-VP,O
+be,VB,I-VP,O
+released,VBN,I-VP,O
+in,IN,B-PP,O
+September,NNP,B-NP,O
+.,.,O,O

@@ -1,0 +1,5 @@
+0,1,2,3
+DETROIT,RB,B-NP,B-ORG
+93,CD,I-NP,O
+Cleveland,NNP,I-NP,B-ORG
+81,CD,I-NP,O

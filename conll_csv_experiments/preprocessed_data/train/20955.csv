@@ -1,0 +1,11 @@
+0,1,2,3
+Shares,NNS,B-NP,O
+of,IN,B-PP,O
+utility,NN,B-NP,O
+Cukurova,NNP,I-NP,B-ORG
+lost,VBD,B-VP,O
+"3,000",CD,B-NP,O
+lira,NN,I-NP,O
+to,TO,B-PP,O
+"67,000",CD,B-NP,O
+.,.,O,O

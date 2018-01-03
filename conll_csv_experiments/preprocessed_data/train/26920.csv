@@ -1,0 +1,8 @@
+0,1,2,3
+--,:,B-NP,O
+Wellington,NNP,I-NP,B-LOC
+newsroom,NN,I-NP,O
+64,CD,I-NP,O
+4,CD,I-NP,O
+4734,CD,I-NP,O
+746,CD,I-NP,O

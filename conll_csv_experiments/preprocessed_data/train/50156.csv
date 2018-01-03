@@ -1,0 +1,7 @@
+0,1,2,3
+Libyan,JJ,B-NP,B-MISC
+man,NN,I-NP,O
+murdered,VBN,B-VP,O
+in,IN,B-PP,O
+Malta,NNP,B-NP,B-LOC
+.,.,O,O

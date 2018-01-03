@@ -1,0 +1,19 @@
+0,1,2,3
+She,PRP,B-NP,O
+'s,VBZ,B-VP,O
+fantastic,JJ,B-ADJP,O
+",",",",O,O
+ ,O,O,<UNK>
+said,VBD,B-VP,O
+Nikki,NNP,B-NP,B-PER
+Campbell,NNP,I-NP,I-PER
+",",",",O,O
+28,CD,B-NP,O
+",",",",O,O
+who,WP,B-NP,O
+went,VBD,B-VP,O
+to,TO,B-PP,O
+the,DT,B-NP,O
+pageant,NN,I-NP,O
+.,.,O,O
+ ,O,O,<UNK>

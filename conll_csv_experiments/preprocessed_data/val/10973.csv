@@ -1,0 +1,7 @@
+0,1,2,3
+The,DT,B-NP,O
+team,NN,I-NP,O
+is,VBZ,B-VP,O
+as,RB,B-ADJP,O
+follows,VBZ,B-VP,O
+:,:,O,O

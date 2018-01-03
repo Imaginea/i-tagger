@@ -1,0 +1,13 @@
+0,1,2,3
+Support,NN,B-NP,O
+for,IN,B-PP,O
+Ruutel,NNP,B-NP,B-PER
+",",",",I-NP,O
+68,CD,I-NP,O
+",",",",O,O
+remained,VBD,B-VP,O
+constant,JJ,B-ADJP,O
+at,IN,B-PP,O
+34,CD,B-NP,O
+votes,NNS,I-NP,O
+.,.,O,O

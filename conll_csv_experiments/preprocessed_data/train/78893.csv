@@ -1,0 +1,7 @@
+0,1,2,3
+matches,NNS,B-NP,O
+played,VBD,B-VP,O
+at,IN,B-PP,O
+the,DT,B-NP,O
+weekend,NN,I-NP,O
+:,:,O,O

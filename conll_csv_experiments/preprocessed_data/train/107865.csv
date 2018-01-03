@@ -1,0 +1,15 @@
+0,1,2,3
+The,DT,B-NP,O
+company,NN,I-NP,O
+said,VBD,B-VP,O
+it,PRP,B-NP,O
+was,VBD,B-VP,O
+not,RB,O,O
+aware,JJ,B-ADJP,O
+of,IN,B-PP,O
+any,DT,B-NP,O
+reason,NN,I-NP,O
+for,IN,B-PP,O
+the,DT,B-NP,O
+surge,NN,I-NP,O
+.,.,O,O

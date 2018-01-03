@@ -1,0 +1,10 @@
+0,1,2,3
+Richard,NNP,B-NP,B-PER
+Hadlee,NNP,I-NP,I-PER
+(,(,O,O
+New,NNP,B-NP,B-LOC
+Zealand,NNP,I-NP,I-LOC
+),),O,O
+431,CD,B-NP,O
+",",",",I-NP,O
+86,CD,I-NP,O

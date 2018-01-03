@@ -1,0 +1,9 @@
+0,1,2,3
+Moroccan,NNP,B-NP,B-MISC
+King,NNP,I-NP,O
+meets,VBZ,B-VP,O
+former,JJ,B-NP,O
+Israel,NNP,I-NP,B-LOC
+PM,NNP,I-NP,O
+Peres,NNP,I-NP,B-PER
+.,.,O,O

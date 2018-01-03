@@ -1,0 +1,24 @@
+0,1,2,3
+I,PRP,B-NP,O
+expect,VBP,B-VP,O
+the,DT,B-NP,O
+market,NN,I-NP,O
+to,TO,B-VP,O
+go,VB,I-VP,O
+as,RB,B-ADVP,O
+far,RB,I-ADVP,O
+down,RB,I-ADVP,O
+as,IN,B-PP,O
+"63,000",CD,B-NP,O
+tomorrow,NN,B-NP,O
+if,IN,B-SBAR,O
+sales,NNS,B-NP,O
+continue,VBP,B-VP,O
+",",",",O,O
+ ,O,O,<UNK>
+said,VBD,B-VP,O
+Burcin,NNP,B-NP,B-PER
+Mavituna,NNP,I-NP,I-PER
+from,IN,B-PP,O
+Interbank,NNP,B-NP,B-ORG
+.,.,O,O

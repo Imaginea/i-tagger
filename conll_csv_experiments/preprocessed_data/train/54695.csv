@@ -1,0 +1,6 @@
+0,1,2,3
++2,NNP,B-NP,O
+Clarence,NNP,I-NP,B-PER
+Rose,NNP,I-NP,I-PER
+through,IN,B-PP,O
+9,CD,B-NP,O

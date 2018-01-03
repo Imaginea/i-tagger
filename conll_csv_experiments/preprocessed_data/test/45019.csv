@@ -1,0 +1,10 @@
+0,1,2,3
+Nottingham,NNP,B-NP,B-ORG
+Forest,NNP,I-NP,I-ORG
+15,CD,I-NP,O
+1,CD,I-NP,O
+6,CD,I-NP,O
+8,CD,I-NP,O
+12,CD,I-NP,O
+25,CD,I-NP,O
+9,CD,I-NP,O

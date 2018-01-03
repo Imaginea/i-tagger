@@ -1,0 +1,19 @@
+0,1,2,3
+ ,O,O,<UNK>
+We,PRP,B-NP,O
+had,VBD,B-VP,O
+two,CD,B-NP,O
+very,RB,I-NP,O
+strong,JJ,I-NP,O
+economic,JJ,I-NP,O
+reports,NNS,I-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+said,VBD,B-VP,O
+David,NNP,B-NP,B-PER
+Shulman,NNP,I-NP,I-PER
+",",",",O,O
+Salomon,NNP,B-NP,B-ORG
+Bros,NNP,I-NP,I-ORG
+.,.,O,I-ORG
+','',O,O

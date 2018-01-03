@@ -1,0 +1,8 @@
+0,1,2,3
+8.,NNP,B-NP,O
+Patricia,NNP,I-NP,B-PER
+Girard-Leno,NNP,I-NP,I-PER
+(,(,O,O
+France,NNP,B-NP,B-LOC
+),),O,O
+13.36,CD,B-NP,O

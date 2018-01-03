@@ -1,0 +1,14 @@
+0,1,2,3
+The,DT,B-NP,O
+weekly,JJ,I-NP,O
+government,NN,I-NP,O
+bond,NN,I-NP,O
+index,NN,I-NP,O
+rose,VBD,B-VP,O
+0.07,CD,B-NP,O
+percent,NN,I-NP,O
+in,IN,B-PP,O
+local,JJ,B-NP,O
+currency,NN,I-NP,O
+terms,NNS,I-NP,O
+.,.,O,O

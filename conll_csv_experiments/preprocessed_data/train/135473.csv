@@ -1,0 +1,12 @@
+0,1,2,3
+ ,O,O,<UNK>
+Turkish,JJ,B-NP,B-MISC
+people,NNS,I-NP,O
+are,VBP,B-VP,O
+watching,VBG,I-VP,O
+closely,RB,B-ADVP,O
+the,DT,B-NP,O
+developments,NNS,I-NP,O
+in,IN,B-PP,O
+Bosnia,NNP,B-NP,B-LOC
+.,.,O,O

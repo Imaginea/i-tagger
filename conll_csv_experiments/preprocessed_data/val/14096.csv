@@ -1,0 +1,23 @@
+0,1,2,3
+ ,O,O,<UNK>
+We,PRP,B-NP,O
+will,MD,B-VP,O
+not,RB,I-VP,O
+achieve,VB,I-VP,O
+the,DT,B-NP,O
+full,JJ,I-NP,O
+37,CD,I-NP,O
+million,CD,I-NP,O
+French,JJ,I-NP,B-MISC
+franc,NN,I-NP,O
+(,(,O,O
+net,JJ,O,O
+),),O,O
+profit,NN,B-NP,O
+forecast,NN,I-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+Frater,NNP,B-NP,B-PER
+said,VBD,B-VP,O
+.,.,O,O
+ ,O,O,<UNK>

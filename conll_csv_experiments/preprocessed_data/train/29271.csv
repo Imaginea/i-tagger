@@ -1,0 +1,25 @@
+0,1,2,3
+ ,O,O,<UNK>
+If,IN,B-SBAR,O
+traders,NNS,B-NP,O
+are,VBP,B-VP,O
+late,JJ,B-ADJP,O
+",",",",O,O
+they,PRP,B-NP,O
+will,MD,B-VP,O
+have,VB,I-VP,O
+to,TO,I-VP,O
+pay,VB,I-VP,O
+fines,NNS,B-NP,O
+worth,JJ,B-ADJP,O
+the,DT,B-NP,O
+cost,NN,I-NP,O
+of,IN,B-PP,O
+their,PRP$,B-NP,O
+exported,JJ,I-NP,O
+goods,NNS,I-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+Volkova,NNP,B-NP,B-PER
+said,VBD,B-VP,O
+.,.,O,O

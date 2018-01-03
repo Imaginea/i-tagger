@@ -1,0 +1,8 @@
+0,1,2,3
+-,:,O,O
+5,CD,B-NP,O
+Paul,NNP,I-NP,B-PER
+Goydos,NNPS,I-NP,I-PER
+through,IN,B-PP,O
+2,CD,B-NP,O
+holes,NNS,I-NP,O

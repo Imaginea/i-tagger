@@ -1,0 +1,9 @@
+0,1,2,3
+Qualifier,NN,B-NP,O
+vs.,FW,B-PP,O
+Petr,NNP,B-NP,B-PER
+Korda,NNP,I-NP,I-PER
+(,(,O,O
+Czech,NNP,B-NP,B-LOC
+Republic,NNP,I-NP,I-LOC
+),),O,O

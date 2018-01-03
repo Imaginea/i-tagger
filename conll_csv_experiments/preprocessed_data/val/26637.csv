@@ -1,0 +1,15 @@
+0,1,2,3
+Just,RB,B-ADVP,O
+think,VB,B-VP,O
+of,IN,B-PP,O
+it,PRP,B-NP,O
+--,:,O,O
+a,DT,B-NP,O
+mining,NN,I-NP,O
+village,NN,I-NP,O
+where,WRB,B-ADVP,O
+so,RB,B-NP,O
+many,JJ,I-NP,O
+workers,NNS,I-NP,O
+die,VBP,B-VP,O
+.,.,O,O

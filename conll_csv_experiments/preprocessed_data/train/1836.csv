@@ -1,0 +1,14 @@
+0,1,2,3
+But,CC,O,O
+it,PRP,B-NP,O
+slammed,VBD,B-VP,O
+Damascus,NNP,B-NP,B-LOC
+for,IN,B-PP,O
+creating,VBG,B-VP,O
+what,WP,B-NP,O
+it,PRP,B-NP,O
+called,VBD,B-VP,O
+a,DT,B-NP,O
+dangerous,JJ,I-NP,O
+atmosphere,NN,I-NP,O
+.,.,O,O

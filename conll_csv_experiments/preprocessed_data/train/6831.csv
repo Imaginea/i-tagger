@@ -1,0 +1,15 @@
+0,1,2,3
+Second,JJ,B-NP,O
+day,NN,I-NP,O
+At,IN,B-PP,O
+Weston-super-Mare,NNP,B-NP,B-LOC
+:,:,O,O
+Durham,NNP,B-NP,B-ORG
+326,CD,I-NP,O
+(,(,O,O
+D.,NNP,B-NP,B-PER
+Cox,NNP,I-NP,I-PER
+95,CD,I-NP,O
+not,RB,B-VP,O
+out,RP,B-PRT,O
+",",",",O,O

@@ -1,0 +1,6 @@
+0,1,2,3
+Cologne,NNP,B-NP,B-ORG
+0,CD,I-NP,O
+Hansa,NNP,I-NP,B-ORG
+Rostock,NNP,I-NP,I-ORG
+2,CD,I-NP,O

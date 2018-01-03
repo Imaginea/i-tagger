@@ -1,0 +1,9 @@
+0,1,2,3
+Ian,NNP,B-NP,B-PER
+Salisbury,NNP,I-NP,I-PER
+2,CD,I-NP,O
+4,CD,I-NP,O
+1,CD,I-NP,O
+50,CD,I-NP,O
+40,CD,I-NP,O
+16.66,CD,I-NP,O

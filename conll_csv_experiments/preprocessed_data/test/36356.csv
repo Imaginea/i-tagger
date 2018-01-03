@@ -1,0 +1,13 @@
+0,1,2,3
+Bolger,NNP,B-NP,B-PER
+said,VBD,B-VP,O
+he,PRP,B-NP,O
+expected,VBD,B-VP,O
+a,DT,B-NP,O
+government,NN,I-NP,O
+to,TO,B-VP,O
+be,VB,I-VP,O
+formed,VBN,I-VP,O
+by,IN,B-PP,O
+Thursday,NNP,B-NP,O
+.,.,O,O

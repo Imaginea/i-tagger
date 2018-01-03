@@ -1,0 +1,25 @@
+0,1,2,3
+We,PRP,B-NP,O
+are,VBP,B-VP,O
+extremely,RB,B-ADJP,O
+pleased,JJ,I-ADJP,O
+with,IN,B-PP,O
+this,DT,B-NP,O
+decision,NN,I-NP,O
+and,CC,O,O
+we,PRP,B-NP,O
+recognize,VBP,B-VP,O
+it,PRP,B-NP,O
+as,IN,B-PP,O
+a,DT,B-NP,O
+significant,JJ,I-NP,O
+step,NN,I-NP,O
+toward,IN,B-PP,O
+resolution,NN,B-NP,O
+of,IN,B-PP,O
+our,PRP$,B-NP,O
+outstanding,JJ,I-NP,O
+Medicare,NNP,I-NP,B-MISC
+disputes,NNS,I-NP,O
+.,.,O,O
+ ,O,O,<UNK>

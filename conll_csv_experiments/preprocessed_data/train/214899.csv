@@ -1,0 +1,11 @@
+0,1,2,3
+Civil,JJ,B-NP,O
+servants,NNS,I-NP,O
+argue,VBP,B-VP,O
+the,DT,B-NP,O
+ban,NN,I-NP,O
+stymies,VBZ,B-VP,O
+their,PRP$,B-NP,O
+political,JJ,I-NP,O
+rights,NNS,I-NP,O
+.,.,O,O

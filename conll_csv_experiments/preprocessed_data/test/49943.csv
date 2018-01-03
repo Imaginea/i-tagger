@@ -1,0 +1,21 @@
+0,1,2,3
+ ,O,O,<UNK>
+The,DT,B-NP,O
+years,NNS,I-NP,O
+I,PRP,B-NP,O
+spent,VBD,B-VP,O
+as,IN,B-PP,O
+manager,NN,B-NP,O
+of,IN,B-PP,O
+the,DT,B-NP,O
+Republic,NNP,I-NP,B-LOC
+of,IN,B-PP,I-LOC
+Ireland,NNP,B-NP,I-LOC
+were,VBD,B-VP,O
+the,DT,B-NP,O
+best,JJS,I-NP,O
+years,NNS,I-NP,O
+of,IN,B-PP,O
+my,PRP$,B-NP,O
+life,NN,I-NP,O
+.,.,O,O

@@ -1,0 +1,7 @@
+0,1,2,3
+Rolf,NNP,B-NP,B-PER
+Soderlind,NNP,I-NP,I-PER
+LONGYEAR,NN,B-NP,B-LOC
+",",",",O,O
+Norway,NNP,B-NP,B-LOC
+1996-08-30,CD,I-NP,O

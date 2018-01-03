@@ -1,0 +1,8 @@
+0,1,2,3
+Shrs,NNS,B-NP,O
+outstanding,JJ,B-ADJP,O
+after,IN,B-PP,O
+ipo,VBG,B-VP,O
+N,NN,B-NP,O
+/,SYM,O,O
+A,DT,B-NP,O

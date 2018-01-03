@@ -1,0 +1,13 @@
+0,1,2,3
+Feyenoord,NNP,B-NP,B-ORG
+Rotterdam,NNP,I-NP,I-ORG
+3,CD,I-NP,O
+(,(,O,O
+Sanchez,NNP,B-NP,B-PER
+27th,JJ,I-NP,O
+",",",",I-NP,O
+Taument,NNP,I-NP,B-PER
+44th,CD,I-NP,O
+",",",",I-NP,O
+57th,NNP,I-NP,O
+),),O,O

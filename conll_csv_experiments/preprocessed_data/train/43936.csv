@@ -1,0 +1,10 @@
+0,1,2,3
+BOSTON,NNP,B-NP,B-LOC
+1996-08-23,CD,I-NP,O
+The,DT,B-NP,O
+12-year-old,JJ,I-NP,O
+daughter,NN,I-NP,O
+of,IN,B-PP,O
+Republican,NNP,B-NP,B-MISC
+Gov,NNP,I-NP,O
+.,.,O,O

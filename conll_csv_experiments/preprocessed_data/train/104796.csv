@@ -1,0 +1,15 @@
+0,1,2,3
+ ,O,O,<UNK>
+But,CC,O,O
+there,EX,B-NP,O
+were,VBD,B-VP,O
+more,JJR,B-NP,O
+observers,NNS,I-NP,O
+and,CC,O,O
+passers,NNS,B-NP,O
+by,IN,B-PP,O
+",",",",O,O
+ ,O,O,<UNK>
+he,PRP,B-NP,O
+said,VBD,B-VP,O
+.,.,O,O

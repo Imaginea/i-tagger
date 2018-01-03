@@ -1,0 +1,9 @@
+0,1,2,3
+French,JJ,B-NP,B-MISC
+shipyard,NN,I-NP,O
+workers,NNS,I-NP,O
+march,VB,B-VP,O
+against,RP,B-PRT,O
+job,NN,B-NP,O
+cuts,NNS,I-NP,O
+.,.,O,O

@@ -1,0 +1,6 @@
+0,1,2,3
++3,CD,B-NP,O
+Brad,NNP,I-NP,B-PER
+Bryant,NNP,I-NP,I-PER
+through,IN,B-PP,O
+12,CD,B-NP,O

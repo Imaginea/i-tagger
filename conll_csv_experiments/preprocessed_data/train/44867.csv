@@ -1,0 +1,11 @@
+0,1,2,3
+Nepal,JJ,B-NP,B-LOC
+man,NN,I-NP,O
+held,VBN,B-VP,O
+for,IN,B-PP,O
+keeping,VBG,B-VP,O
+child,NN,B-NP,O
+servant,NN,I-NP,O
+in,IN,B-PP,O
+chains,NNS,B-NP,O
+.,.,O,O

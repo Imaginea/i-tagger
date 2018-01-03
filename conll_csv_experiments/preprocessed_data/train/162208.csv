@@ -1,0 +1,6 @@
+0,1,2,3
+subject,JJ,B-ADJP,O
+to,TO,B-VP,O
+limit,VB,I-VP,O
+"5,124.053",CD,B-NP,O
+"5,122.084",CD,I-NP,O

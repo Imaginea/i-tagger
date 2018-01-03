@@ -1,0 +1,15 @@
+0,1,2,3
+At,IN,B-PP,O
+Northampton,NNP,B-NP,B-LOC
+:,:,O,O
+Sussex,NNP,B-NP,B-ORG
+368-7,CD,I-NP,O
+(,(,O,O
+N.,NNP,B-NP,B-PER
+Lenham,NNP,I-NP,I-PER
+145,CD,I-NP,O
+",",",",O,O
+V.,NNP,B-NP,B-PER
+Drakes,NNP,I-NP,I-PER
+59,CD,I-NP,O
+not,RB,B-VP,O

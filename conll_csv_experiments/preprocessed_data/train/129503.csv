@@ -1,0 +1,36 @@
+0,1,2,3
+The,DT,B-NP,O
+Bosnian,JJ,I-NP,B-MISC
+Serb,NNP,I-NP,I-MISC
+cabinet,NN,I-NP,O
+",",",",O,O
+in,IN,B-PP,O
+a,DT,B-NP,O
+letter,NN,I-NP,O
+to,TO,B-PP,O
+the,DT,B-NP,O
+OSCE,NNP,I-NP,B-ORG
+",",",",O,O
+said,VBD,B-VP,O
+on,IN,B-PP,O
+Monday,NNP,B-NP,O
+that,IN,B-SBAR,O
+any,DT,B-NP,O
+delay,NN,I-NP,O
+of,IN,B-PP,O
+local,JJ,B-NP,O
+elections,NNS,I-NP,O
+would,MD,B-VP,O
+be,VB,I-VP,O
+ ,O,O,<UNK>
+a,DT,B-NP,O
+direct,JJ,I-NP,O
+and,CC,I-NP,O
+flagrant,JJ,I-NP,O
+violation,NN,I-NP,O
+fo,VBD,B-VP,O
+the,DT,B-NP,O
+Dayton,NNP,I-NP,B-LOC
+agreement,NN,I-NP,O
+ ,O,O,<UNK>
+.,.,O,O

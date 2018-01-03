@@ -1,0 +1,17 @@
+0,1,2,3
+2-15,CD,B-ADVP,O
+15-11,CD,B-NP,O
+7,CD,B-NP,O
+-,:,I-NP,O
+Chris,NNP,I-NP,B-PER
+Walker,NNP,I-NP,I-PER
+(,(,O,O
+England,NNP,B-NP,B-LOC
+),),O,O
+beat,VB,B-VP,O
+Julien,NNP,B-NP,B-PER
+Bonetat,NNP,I-NP,I-PER
+(,(,O,O
+France,NNP,B-NP,B-LOC
+),),O,O
+15-12,CD,B-NP,O

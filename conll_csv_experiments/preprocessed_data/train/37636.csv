@@ -1,0 +1,13 @@
+0,1,2,3
+Squad,VB,B-VP,O
+:,:,O,O
+Goalkeepers,NNS,B-NP,O
+-,:,O,O
+Oliver,NNP,B-NP,B-PER
+Kahn,NNP,I-NP,I-PER
+",",",",O,O
+Andreas,NNP,B-NP,B-PER
+Koepke,NNP,I-NP,I-PER
+",",",",O,O
+Oliver,NNP,B-NP,B-PER
+Reck,NNP,I-NP,I-PER

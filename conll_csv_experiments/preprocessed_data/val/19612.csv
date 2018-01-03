@@ -1,0 +1,23 @@
+0,1,2,3
+...,:,O,O
+The,DT,B-NP,O
+view,NN,I-NP,O
+of,IN,B-PP,O
+the,DT,B-NP,O
+U.S.,NNP,I-NP,B-LOC
+government,NN,I-NP,O
+on,IN,B-PP,O
+(,(,O,O
+Farrakhan,NNP,B-NP,B-PER
+'s,POS,I-NP,O
+),),O,O
+not,RB,B-ADJP,O
+accepting,VBG,B-VP,O
+any,DT,B-NP,O
+gifts,NNS,I-NP,O
+from,IN,B-PP,O
+Libya,NNP,B-NP,B-LOC
+is,VBZ,B-VP,O
+well-known,JJ,B-ADJP,O
+.,.,O,O
+ ,O,O,<UNK>

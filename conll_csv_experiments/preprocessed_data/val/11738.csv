@@ -1,0 +1,9 @@
+0,1,2,3
+Lebed,JJ,B-ADJP,B-PER
+",",",",O,O
+Chechens,NNP,B-NP,B-MISC
+sign,NN,I-NP,O
+framework,NN,I-NP,O
+political,JJ,I-NP,O
+deal,NN,I-NP,O
+.,.,O,O

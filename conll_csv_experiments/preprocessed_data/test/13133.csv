@@ -1,0 +1,8 @@
+0,1,2,3
+Telkom,NN,B-INTJ,B-ORG
+at,IN,B-PP,O
+$,$,B-NP,O
+35,CD,I-NP,O
+in,IN,B-PP,O
+London,NNP,B-NP,B-LOC
+.,.,O,O

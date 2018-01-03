@@ -1,0 +1,19 @@
+0,1,2,3
+ ,O,O,<UNK>
+I,PRP,B-NP,O
+think,VBP,B-VP,O
+the,DT,B-NP,O
+Professional,NNP,I-NP,B-ORG
+Squash,NNP,I-NP,I-ORG
+Association,NNP,I-NP,I-ORG
+should,MD,B-VP,O
+look,VB,I-VP,O
+into,IN,B-PP,O
+this,DT,B-NP,O
+matter,NN,I-NP,O
+and,CC,I-NP,O
+deal,NN,I-NP,O
+with,IN,B-PP,O
+it,PRP,B-NP,O
+properly,RB,B-ADVP,O
+.,.,O,O

@@ -1,0 +1,10 @@
+0,1,2,3
+South,JJ,B-NP,B-MISC
+African,JJ,I-NP,I-MISC
+company,NN,I-NP,O
+results,NNS,I-NP,O
+expected,VBD,B-VP,O
+next,JJ,B-NP,O
+week,NN,I-NP,O
+include,VBP,B-VP,O
+the,DT,B-NP,O

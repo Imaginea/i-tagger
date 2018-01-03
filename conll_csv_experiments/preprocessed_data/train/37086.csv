@@ -1,0 +1,8 @@
+0,1,2,3
+8.,CD,B-NP,O
+Christophe,NNP,I-NP,B-PER
+Impens,NNPS,I-NP,I-PER
+(,(,O,O
+Belgium,NNP,B-NP,B-LOC
+),),O,O
+3:34.13,CD,B-NP,O

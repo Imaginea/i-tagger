@@ -1,0 +1,8 @@
+0,1,2,3
+3.,NNP,B-NP,O
+William,NNP,I-NP,B-PER
+Tanui,NNP,I-NP,I-PER
+(,(,O,O
+Kenya,NNP,B-NP,B-LOC
+),),O,O
+3:33.36,CD,B-NP,O

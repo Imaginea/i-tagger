@@ -1,0 +1,7 @@
+0,1,2,3
+LONDON,NNP,B-NP,B-LOC
+1996-08-25,CD,I-NP,O
+Pakistan,NNP,B-NP,B-LOC
+declared,VBD,B-VP,O
+their,PRP$,B-NP,O
+first,JJ,I-NP,O

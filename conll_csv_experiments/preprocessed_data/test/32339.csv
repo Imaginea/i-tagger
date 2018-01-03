@@ -1,0 +1,7 @@
+0,1,2,3
+*from,NN,B-NP,O
+previous,JJ,I-NP,O
+calculation,NN,I-NP,O
+on,IN,B-PP,O
+Nov,NNP,B-NP,O
+27,CD,I-NP,O

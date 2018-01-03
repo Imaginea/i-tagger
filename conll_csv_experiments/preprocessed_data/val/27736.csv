@@ -1,0 +1,14 @@
+0,1,2,3
+NOTE,NN,B-NP,O
+-,:,O,O
+Apic,NNP,B-NP,B-ORG
+Yamada,NNP,I-NP,I-ORG
+Corp,NNP,I-NP,I-ORG
+is,VBZ,B-VP,O
+a,DT,B-NP,O
+leading,VBG,I-NP,O
+manufacturer,NN,I-NP,O
+of,IN,B-PP,O
+semiconductor,NN,B-NP,O
+leadframes,NNS,I-NP,O
+.,.,O,O

@@ -1,0 +1,10 @@
+0,1,2,3
+Montana,NNP,B-NP,B-LOC
+weekly,JJ,I-NP,O
+muni,JJ,I-NP,O
+bond,NN,I-NP,O
+indices,NNS,I-NP,O
+-,:,O,O
+Piper,NNP,B-NP,B-ORG
+Jaffray,NNP,I-NP,I-ORG
+.,.,O,O

@@ -1,0 +1,24 @@
+0,1,2,3
+The,DT,B-NP,O
+inference,NN,I-NP,O
+from,IN,B-PP,O
+all,PDT,B-NP,O
+the,DT,I-NP,O
+material,NN,I-NP,O
+is,VBZ,B-VP,O
+that,IN,B-SBAR,O
+the,DT,B-NP,O
+marauders,NNS,I-NP,O
+had,VBD,B-VP,O
+come,VBN,I-VP,O
+to,TO,B-PP,O
+the,DT,B-NP,O
+wrong,JJ,I-NP,O
+house,NN,I-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+Judge,NNP,B-NP,O
+Michael,NNP,I-NP,B-PER
+Grove,NNP,I-NP,I-PER
+said,VBD,B-VP,O
+.,.,O,O

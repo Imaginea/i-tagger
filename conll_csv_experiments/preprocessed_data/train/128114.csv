@@ -1,0 +1,16 @@
+0,1,2,3
+Kadian,NNP,B-NP,B-MISC
+was,VBD,B-VP,O
+approved,VBN,I-VP,O
+for,IN,B-PP,O
+sale,NN,B-NP,O
+in,IN,B-PP,O
+the,DT,B-NP,O
+United,NNP,I-NP,B-LOC
+States,NNP,I-NP,I-LOC
+last,JJ,B-NP,O
+month,NN,I-NP,O
+",",",",O,O
+Faulding,NNP,B-NP,B-ORG
+said,VBD,B-VP,O
+.,.,O,O

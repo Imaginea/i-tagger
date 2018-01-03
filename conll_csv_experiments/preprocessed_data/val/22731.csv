@@ -1,0 +1,9 @@
+0,1,2,3
+Kamil,NNP,B-NP,B-PER
+Jamil,NNP,I-NP,I-PER
+did,VBD,B-VP,O
+n't,RB,I-VP,O
+have,VB,I-VP,O
+a,DT,B-NP,O
+prayer,NN,I-NP,O
+.,.,O,O

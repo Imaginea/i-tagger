@@ -1,0 +1,8 @@
+0,1,2,3
+--,:,B-NP,O
+Singapore,NNP,I-NP,B-LOC
+newsroom,NN,I-NP,O
+(,(,O,O
+65,CD,B-NP,O
+8703080,CD,I-NP,O
+),),O,O

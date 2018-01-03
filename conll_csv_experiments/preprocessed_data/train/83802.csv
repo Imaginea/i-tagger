@@ -1,0 +1,8 @@
+0,1,2,3
+Eight,CD,B-NP,O
+killed,VBD,B-VP,O
+in,IN,B-PP,O
+Moscow,NNP,B-NP,B-LOC
+casino,NN,I-NP,O
+blaze,NN,I-NP,O
+.,.,O,O

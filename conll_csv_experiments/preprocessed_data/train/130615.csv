@@ -1,0 +1,9 @@
+0,1,2,3
+Nationalists,NNPS,B-NP,O
+want,VBP,B-VP,O
+Iliescu,NNP,B-NP,B-PER
+ousted,VBD,B-VP,O
+for,IN,B-PP,O
+Hungary,NNP,B-NP,B-LOC
+pact,NN,I-NP,O
+.,.,O,O

@@ -1,0 +1,10 @@
+0,1,2,3
+No,DT,B-NP,O
+trace,NN,I-NP,O
+of,IN,B-PP,O
+two,CD,B-NP,O
+missing,JJ,I-NP,O
+teenagers,NNS,I-NP,O
+in,IN,B-PP,O
+Belgium,NNP,B-NP,B-LOC
+.,.,O,O

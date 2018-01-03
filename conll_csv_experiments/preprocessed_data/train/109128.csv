@@ -1,0 +1,8 @@
+0,1,2,3
+Israeli,JJ,B-NP,B-MISC
+army,NN,I-NP,O
+ransacks,NNS,I-NP,O
+Bedouin,NNP,B-NP,B-MISC
+Palestinian,JJ,I-NP,I-MISC
+camp,NN,I-NP,O
+.,.,O,O

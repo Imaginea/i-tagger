@@ -1,0 +1,10 @@
+0,1,2,3
+Rayo,NNP,B-NP,B-ORG
+Vallecano,NNP,I-NP,I-ORG
+15,CD,I-NP,O
+5,CD,I-NP,O
+5,CD,I-NP,O
+5,CD,I-NP,O
+21,CD,I-NP,O
+19,CD,I-NP,O
+20,CD,I-NP,O

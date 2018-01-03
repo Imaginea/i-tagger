@@ -1,0 +1,11 @@
+0,1,2,3
+Only,RB,B-NP,O
+the,DT,I-NP,O
+top,JJ,I-NP,O
+three,CD,I-NP,O
+countries,NNS,I-NP,O
+are,VBP,B-VP,O
+allocated,VBN,I-VP,O
+additional,JJ,B-NP,O
+places,NNS,I-NP,O
+.,.,O,O

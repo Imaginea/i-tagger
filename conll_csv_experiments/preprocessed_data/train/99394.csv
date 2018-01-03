@@ -1,0 +1,15 @@
+0,1,2,3
+Barbara,NNP,B-NP,B-PER
+Schett,NNP,I-NP,I-PER
+(,(,O,O
+Austria,NNP,B-NP,B-LOC
+),),O,O
+beat,VB,B-VP,O
+Sabine,NNP,B-NP,B-PER
+Appelmans,NNS,I-NP,I-PER
+(,(,O,O
+Belgium,NNP,B-NP,B-LOC
+),),O,O
+1-6,CD,B-NP,O
+6-4,CD,I-NP,O
+6-4,CD,I-NP,O

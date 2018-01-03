@@ -1,0 +1,13 @@
+0,1,2,3
+THE,DT,B-NP,B-ORG
+TIMES,NNP,I-NP,I-ORG
+-,:,O,O
+Visitors,NNS,B-NP,O
+slam,NN,I-NP,O
+bus,NN,I-NP,O
+and,CC,I-NP,O
+taxi,NN,I-NP,O
+drivers,NNS,I-NP,O
+for,IN,B-PP,O
+cheating,VBG,B-NP,O
+.,.,O,O

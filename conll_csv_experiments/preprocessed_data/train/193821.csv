@@ -1,0 +1,12 @@
+0,1,2,3
+Diana,NNP,B-NP,B-PER
+met,VBD,B-VP,O
+Will,NNP,B-NP,B-PER
+Carling,NNP,I-NP,I-PER
+at,IN,B-PP,O
+an,DT,B-NP,O
+exclusive,JJ,I-NP,O
+gymnasium,NN,I-NP,O
+in,IN,B-PP,O
+London,NNP,B-NP,B-LOC
+.,.,O,O

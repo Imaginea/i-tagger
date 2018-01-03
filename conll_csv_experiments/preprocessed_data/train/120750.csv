@@ -1,0 +1,9 @@
+0,1,2,3
+Nasser,NNP,B-NP,B-PER
+Hussain,NNP,I-NP,I-PER
+2,CD,I-NP,O
+3,CD,I-NP,O
+0,CD,I-NP,O
+111,CD,I-NP,O
+51,CD,I-NP,O
+37.00,CD,I-NP,O

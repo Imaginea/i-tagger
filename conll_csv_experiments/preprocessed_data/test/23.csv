@@ -1,0 +1,9 @@
+0,1,2,3
+Nadim,NNP,B-NP,B-PER
+Ladki,NNP,I-NP,I-PER
+AL-AIN,NNP,B-NP,B-LOC
+",",",",O,O
+United,NNP,B-NP,B-LOC
+Arab,NNP,I-NP,I-LOC
+Emirates,NNPS,I-NP,I-LOC
+1996-12-06,CD,I-NP,O

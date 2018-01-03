@@ -1,0 +1,4 @@
+0,1,2,3
+Leading,JJ,B-NP,O
+scores,NNS,I-NP,O
+after,IN,B-PP,O

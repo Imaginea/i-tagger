@@ -1,0 +1,8 @@
+0,1,2,3
+14.,CD,B-NP,O
+Padraig,NNP,I-NP,B-PER
+Harrington,NNP,I-NP,I-PER
+(,(,O,O
+Ireland,NNP,B-NP,B-LOC
+),),O,O
+"202,593",CD,B-NP,O

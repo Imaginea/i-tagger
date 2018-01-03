@@ -1,0 +1,10 @@
+0,1,2,3
+following,VBG,B-PP,O
+(,(,O,O
+all,DT,B-NP,O
+figures,NNS,I-NP,O
+cents,NNS,I-NP,O
+per,IN,B-PP,O
+share,NN,B-NP,O
+),),O,O
+:,:,O,O

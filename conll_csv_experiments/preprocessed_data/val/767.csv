@@ -1,0 +1,9 @@
+0,1,2,3
+Australia,NNP,B-NP,B-LOC
+will,MD,B-VP,O
+also,RB,I-VP,O
+play,VB,I-VP,O
+three,CD,B-NP,O
+one-day,JJ,I-NP,O
+internationals,NNS,I-NP,O
+and,CC,O,O

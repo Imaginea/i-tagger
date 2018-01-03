@@ -1,0 +1,28 @@
+0,1,2,3
+ ,O,O,<UNK>
+The,DT,B-NP,O
+(,(,O,O
+dollar,NN,B-NP,O
+'s,POS,I-NP,O
+),),O,O
+rise,NN,B-NP,O
+was,VBD,B-VP,O
+due,JJ,B-ADJP,O
+to,TO,B-VP,O
+demand,VB,I-VP,O
+from,IN,B-PP,O
+importers,NNS,B-NP,O
+who,WP,B-NP,O
+have,VBP,B-VP,O
+a,DT,B-NP,O
+lot,NN,I-NP,O
+of,IN,B-PP,O
+wire,NN,B-NP,O
+transfers,NNS,I-NP,O
+accumulated,VBN,B-VP,O
+",",",",O,O
+ ,O,O,<UNK>
+one,CD,B-NP,O
+dealer,NN,I-NP,O
+said,VBD,B-VP,O
+.,.,O,O

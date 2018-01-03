@@ -1,0 +1,27 @@
+0,1,2,3
+ ,O,O,<UNK>
+Besides,IN,B-PP,O
+the,DT,B-NP,O
+Tankan,NNP,I-NP,B-ORG
+",",",",O,O
+there,EX,B-NP,O
+'s,VBZ,B-VP,O
+nothing,NN,B-NP,O
+really,RB,B-SBAR,O
+until,IN,I-SBAR,O
+the,DT,B-NP,O
+U.S.,NNP,I-NP,B-LOC
+jobs,NNS,I-NP,O
+numbers,NNS,I-NP,O
+next,IN,B-NP,O
+week,NN,I-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+said,VBD,B-VP,O
+a,DT,B-NP,O
+UK,NNP,I-NP,B-LOC
+bank,NN,I-NP,O
+corporate,JJ,I-NP,O
+dealer,NN,I-NP,O
+.,.,O,O
+ ,O,O,<UNK>

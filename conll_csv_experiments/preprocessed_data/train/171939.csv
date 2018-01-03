@@ -1,0 +1,7 @@
+0,1,2,3
+",",",",O,O
+KS,NNP,B-NP,B-LOC
+RE,NNP,B-NP,O
+:,:,O,O
+$,$,B-NP,O
+"45,020,000",CD,I-NP,O

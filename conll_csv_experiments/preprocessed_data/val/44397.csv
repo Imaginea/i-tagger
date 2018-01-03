@@ -1,0 +1,19 @@
+0,1,2,3
+ ,O,O,<UNK>
+We,PRP,B-NP,O
+are,VBP,B-VP,O
+in,IN,B-PP,O
+close,JJ,B-NP,O
+touch,NN,I-NP,O
+with,IN,B-PP,O
+all,PDT,B-NP,O
+our,PRP$,I-NP,O
+allies,NNS,I-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+said,VBD,B-VP,O
+the,DT,B-NP,O
+Foreign,NNP,I-NP,B-ORG
+Office,NNP,I-NP,I-ORG
+spokesman,NN,I-NP,O
+.,.,O,O

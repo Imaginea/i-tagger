@@ -1,0 +1,6 @@
+0,1,2,3
+--,:,B-NP,O
+Sydney,NNP,I-NP,B-LOC
+newsroom,NN,I-NP,O
+61-2,RB,B-ADVP,O
+9373-1800,NNP,B-NP,O

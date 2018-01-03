@@ -1,0 +1,8 @@
+0,1,2,3
+GOVT.BUDGET,VB,B-VP,O
+(,(,O,O
+bln,FW,B-NP,O
+pts,NNS,I-NP,O
+),),O,O
+Govt.Fcast,NNP,B-NP,O
+96,CD,I-NP,O

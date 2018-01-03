@@ -1,0 +1,11 @@
+0,1,2,3
+English,JJ,B-NP,B-MISC
+division,NN,I-NP,O
+one,CD,B-NP,O
+-,:,O,O
+West,NNP,B-NP,B-ORG
+Bromwich,NNP,I-NP,I-ORG
+v,FW,I-NP,O
+Sheffield,NNP,I-NP,B-ORG
+United,NNP,I-NP,I-ORG
+.,.,O,O

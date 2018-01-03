@@ -1,0 +1,12 @@
+0,1,2,3
+NOTE,NN,B-NP,O
+-,:,O,O
+Jeans,NNPS,B-NP,B-ORG
+Mate,NNP,I-NP,I-ORG
+Corp,NNP,I-NP,I-ORG
+is,VBZ,B-VP,O
+the,DT,B-NP,O
+full,JJ,I-NP,O
+company,NN,I-NP,O
+name,NN,I-NP,O
+.,.,O,O

@@ -1,0 +1,8 @@
+0,1,2,3
+Steve,NNP,B-NP,B-PER
+Barnes,NNP,I-NP,I-PER
+LITTLE,NNP,B-NP,B-LOC
+ROCK,NNP,I-NP,I-LOC
+",",",",O,O
+Ark,NNP,B-NP,B-LOC
+.,.,O,O

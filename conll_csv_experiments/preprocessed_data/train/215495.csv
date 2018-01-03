@@ -1,0 +1,15 @@
+0,1,2,3
+Trade,NNP,B-NP,O
+(,(,O,O
+bln,FW,B-NP,O
+pts,NNS,I-NP,O
+),),O,O
+May,NNP,B-NP,O
+-,:,O,O
+196.8,CD,B-NP,O
+-,:,I-NP,O
+180.6,CD,I-NP,O
+-,:,I-NP,O
+279.9,CD,I-NP,O
+-,:,I-NP,O
+-,:,O,O

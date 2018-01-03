@@ -1,0 +1,12 @@
+0,1,2,3
+6.,NNP,B-NP,O
+Paul,NNP,I-NP,B-PER
+Tracy,NNP,I-NP,I-PER
+(,(,O,O
+Canada,NNP,B-NP,B-LOC
+),),O,O
+",",",",O,O
+Penske,NNP,B-NP,B-ORG
+Mercedes-Benz,NNP,I-NP,I-ORG
+",",",",O,O
+54.620,CD,B-NP,O

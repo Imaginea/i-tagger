@@ -1,0 +1,17 @@
+0,1,2,3
+The,DT,B-NP,O
+top,JJ,I-NP,O
+U.N.,NNP,I-NP,B-ORG
+refugee,NN,I-NP,O
+official,NN,I-NP,O
+in,IN,B-PP,O
+the,DT,B-NP,O
+Balkans,NNS,I-NP,B-LOC
+highlighted,VBD,B-VP,O
+the,DT,B-NP,O
+voter,NN,I-NP,O
+registration,NN,I-NP,O
+problem,NN,I-NP,O
+on,IN,B-PP,O
+Monday,NNP,B-NP,O
+.,.,O,O

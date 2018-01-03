@@ -1,0 +1,15 @@
+0,1,2,3
+England,NNP,B-NP,B-LOC
+first,RB,B-ADVP,O
+innings,NN,B-NP,O
+326,CD,I-NP,O
+(,(,O,O
+J.,NNP,B-NP,B-PER
+Crawley,NNP,I-NP,I-PER
+106,CD,I-NP,O
+",",",",O,O
+G.,NNP,B-NP,B-PER
+Thorpe,NNP,I-NP,I-PER
+54,CD,I-NP,O
+;,:,O,O
+Waqar,NNP,B-NP,B-PER

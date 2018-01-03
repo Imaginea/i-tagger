@@ -1,0 +1,35 @@
+0,1,2,3
+Iraq,NNP,B-NP,B-LOC
+'s,POS,B-NP,O
+ambassador,NN,I-NP,O
+in,IN,B-PP,O
+Khartoum,NNP,B-NP,B-LOC
+denounced,VBD,B-VP,O
+the,DT,B-NP,O
+hijacking,VBG,I-NP,O
+and,CC,O,O
+described,VBD,B-VP,O
+it,PRP,B-NP,O
+as,IN,B-PP,O
+a,DT,B-NP,O
+terrorist,JJ,I-NP,O
+act,NN,I-NP,O
+which,WDT,B-NP,O
+had,VBD,B-VP,O
+nothing,NN,B-NP,O
+to,TO,B-VP,O
+do,VB,I-VP,O
+ ,O,O,<UNK>
+with,IN,B-PP,O
+the,DT,B-NP,O
+morals,NNS,I-NP,O
+and,CC,I-NP,O
+values,NNS,I-NP,O
+of,IN,B-PP,O
+noble,JJ,B-NP,O
+Iraqis,NNS,I-NP,B-MISC
+",",",",O,O
+ ,O,O,<UNK>
+INA,NNP,B-NP,B-ORG
+said,VBD,B-VP,O
+.,.,O,O

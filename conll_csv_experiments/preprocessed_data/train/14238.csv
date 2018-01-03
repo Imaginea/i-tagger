@@ -1,0 +1,11 @@
+0,1,2,3
+All,PDT,B-NP,O
+the,DT,I-NP,O
+key,JJ,I-NP,O
+numbers,NNS,I-NP,O
+-,:,O,O
+CBI,NNP,B-NP,B-ORG
+August,NNP,I-NP,O
+industrial,JJ,I-NP,O
+trends,NNS,I-NP,O
+.,.,O,O

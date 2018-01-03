@@ -1,0 +1,8 @@
+0,1,2,3
+3.,NNP,B-NP,O
+Rose,NNP,I-NP,B-PER
+Cheruiyot,NNP,I-NP,I-PER
+(,(,O,O
+Kenya,NNP,B-NP,B-LOC
+),),O,O
+15:05.41,CD,B-NP,O

@@ -1,0 +1,23 @@
+0,1,2,3
+ ,O,O,<UNK>
+We,PRP,B-NP,O
+have,VBP,B-VP,O
+suspicions,NNS,B-NP,O
+of,IN,B-PP,O
+a,DT,B-NP,O
+rape,NN,I-NP,O
+",",",",O,O
+but,CC,O,O
+the,DT,B-NP,O
+police,NN,I-NP,O
+still,RB,B-ADVP,O
+have,VBP,B-VP,O
+to,TO,I-VP,O
+find,VB,I-VP,O
+the,DT,B-NP,O
+victim,NN,I-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+Gajdos,NNP,B-NP,B-PER
+added,VBD,B-VP,O
+.,.,O,O

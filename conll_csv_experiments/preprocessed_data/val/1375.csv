@@ -1,0 +1,7 @@
+0,1,2,3
+BELGRADE,VB,B-VP,B-LOC
+1996-08-30,CD,B-NP,O
+Result,NN,B-NP,O
+in,IN,B-PP,O
+an,DT,B-NP,O
+international,JJ,I-NP,O

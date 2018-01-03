@@ -1,0 +1,10 @@
+0,1,2,3
+--,:,O,O
+Fatima,NNP,B-NP,B-PER
+Cristina,NNP,I-NP,I-PER
+",",",",O,O
+Sao,NNP,B-NP,B-LOC
+Paulo,NNP,I-NP,I-LOC
+newsroom,NN,I-NP,O
+",",",",O,O
+55-11-2324411,CD,B-NP,O

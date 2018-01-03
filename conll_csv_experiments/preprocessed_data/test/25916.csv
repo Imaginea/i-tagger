@@ -1,0 +1,10 @@
+0,1,2,3
+Week,NN,B-NP,O
+to,TO,B-PP,O
+date,NN,B-NP,O
+(,(,O,O
+est,FW,O,O
+),),O,O
+"688,000",CD,B-NP,O
+"31,000",CD,I-NP,O
+"1,810,000",CD,I-NP,O

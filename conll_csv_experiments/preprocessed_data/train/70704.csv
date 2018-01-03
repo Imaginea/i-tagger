@@ -1,0 +1,10 @@
+0,1,2,3
+Canada,NNP,B-NP,B-LOC
+'s,POS,B-NP,O
+Jacques,NNP,I-NP,B-PER
+Villeneuve,NNP,I-NP,I-PER
+finished,VBD,B-VP,O
+second,NN,B-NP,O
+in,IN,B-PP,O
+his,PRP$,B-NP,O
+Williams,NNP,I-NP,B-ORG

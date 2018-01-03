@@ -1,0 +1,9 @@
+0,1,2,3
+Working,NNP,B-NP,O
+Capital,NNP,I-NP,O
+$,$,B-NP,O
+"5,755",CD,I-NP,O
+(,(,O,O
+$,$,B-NP,O
+881,CD,I-NP,O
+),),O,O

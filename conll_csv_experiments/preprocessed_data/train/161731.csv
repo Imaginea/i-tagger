@@ -1,0 +1,10 @@
+0,1,2,3
+U.S.,NNP,B-NP,B-LOC
+judge,NN,I-NP,O
+orders,NNS,I-NP,O
+Biogen,NNP,I-NP,B-ORG
+",",",",O,O
+Berlex,NNP,B-NP,B-ORG
+officials,NNS,I-NP,O
+deposed,VBN,I-NP,O
+.,.,O,O

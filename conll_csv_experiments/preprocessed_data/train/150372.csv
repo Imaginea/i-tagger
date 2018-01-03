@@ -1,0 +1,8 @@
+0,1,2,3
+6.,CD,B-NP,O
+Ainars,NNP,I-NP,B-PER
+Kiksis,NNP,I-NP,I-PER
+(,(,O,O
+Latvia,NNP,B-NP,B-LOC
+),),O,O
+1:04.896,CD,B-NP,O

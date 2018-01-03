@@ -1,0 +1,16 @@
+0,1,2,3
+Bowling,NNP,B-NP,O
+:,:,O,O
+Doull,VB,B-NP,B-PER
+8-1-60-0,CD,I-NP,O
+(,(,O,O
+w-3,CD,B-NP,O
+),),O,O
+",",",",O,O
+Kennedy,NNP,B-NP,B-PER
+3-0-24-0,CD,I-NP,O
+(,(,O,O
+w-7,CD,B-NP,O
+nb-1,JJ,I-NP,O
+),),O,O
+",",",",O,O

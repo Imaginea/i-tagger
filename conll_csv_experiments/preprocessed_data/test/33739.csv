@@ -1,0 +1,9 @@
+0,1,2,3
+People,NNS,B-NP,O
+here,RB,B-ADVP,O
+do,VBP,B-VP,O
+n't,RB,I-VP,O
+understand,VB,I-VP,O
+Internet,NN,B-NP,B-MISC
+technology,NN,I-NP,O
+.,.,O,O

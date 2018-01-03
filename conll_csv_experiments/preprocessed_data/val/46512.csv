@@ -1,0 +1,20 @@
+0,1,2,3
+ ,O,O,<UNK>
+The,DT,B-NP,O
+war,NN,I-NP,O
+has,VBZ,B-VP,O
+ended,VBN,I-VP,O
+if,IN,B-SBAR,O
+everything,NN,B-NP,O
+works,VBZ,B-VP,O
+out,RP,B-PRT,O
+",",",",O,O
+if,IN,B-SBAR,O
+there,EX,B-NP,O
+is,VBZ,B-VP,O
+law,NN,B-NP,O
+there,EX,B-NP,O
+will,MD,B-VP,O
+be,VB,I-VP,O
+power,NN,B-NP,O
+.,.,O,O

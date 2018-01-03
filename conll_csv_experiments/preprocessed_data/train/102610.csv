@@ -1,0 +1,15 @@
+0,1,2,3
+Lamonts,NNS,B-NP,B-ORG
+said,VBD,B-VP,O
+it,PRP,B-NP,O
+plans,VBZ,B-VP,O
+to,TO,I-VP,O
+issue,VB,I-VP,O
+9,CD,B-NP,O
+million,CD,I-NP,O
+shares,NNS,I-NP,O
+of,IN,B-PP,O
+new,JJ,B-NP,O
+common,JJ,I-NP,O
+stock,NN,I-NP,O
+.,.,O,O

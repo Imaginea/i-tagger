@@ -1,0 +1,10 @@
+0,1,2,3
+Percent,NN,B-NP,O
+change,NN,I-NP,O
+1.8,CD,B-NP,O
+%,NN,I-NP,O
+21.8,CD,B-NP,O
+%,NN,I-NP,O
+-,:,O,O
+4.4,CD,B-NP,O
+%,NN,I-NP,O

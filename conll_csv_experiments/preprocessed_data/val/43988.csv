@@ -1,0 +1,17 @@
+0,1,2,3
+Holland,NNP,B-NP,B-PER
+was,VBD,B-VP,O
+moved,VBN,I-VP,O
+to,TO,B-PP,O
+a,DT,B-NP,O
+more,RBR,I-NP,O
+secure,VB,B-VP,O
+centre,NN,B-NP,O
+earlier,RBR,B-NP,O
+this,DT,I-NP,O
+year,NN,I-NP,O
+after,IN,B-SBAR,O
+a,DT,B-NP,O
+similar,JJ,I-NP,O
+incident,NN,I-NP,O
+.,.,O,O

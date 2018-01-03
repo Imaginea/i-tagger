@@ -1,0 +1,13 @@
+0,1,2,3
+-,:,O,O
+Net,JJ,B-NP,O
+Income,NNP,I-NP,O
+(,(,O,O
+loss,NN,B-NP,O
+),),O,O
+$,$,B-NP,O
+"2,074",CD,I-NP,O
+(,(,O,O
+$,$,B-NP,O
+"3,422",CD,I-NP,O
+),),O,O

@@ -1,0 +1,18 @@
+0,1,2,3
+ ,O,O,<UNK>
+I,PRP,B-NP,O
+told,VBD,B-VP,O
+Monica,NNP,B-NP,B-PER
+we,PRP,B-NP,O
+need,VBP,B-VP,O
+her,PRP,B-NP,O
+if,IN,B-SBAR,O
+we,PRP,B-NP,O
+want,VBP,B-VP,O
+to,TO,I-VP,O
+win,VB,I-VP,O
+",",",",O,O
+ ,O,O,<UNK>
+King,NNP,B-NP,B-PER
+said,VBD,B-VP,O
+.,.,O,O

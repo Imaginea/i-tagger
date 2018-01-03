@@ -1,0 +1,14 @@
+0,1,2,3
+-,:,O,O
+Four,CD,B-NP,O
+ships,NNS,I-NP,O
+unload,VBP,B-VP,O
+tonnes,NNS,B-NP,O
+of,IN,B-PP,O
+Iraq-bound,JJ,B-NP,B-MISC
+sugar,NN,I-NP,O
+at,IN,B-PP,O
+Jordan,NNP,B-NP,B-LOC
+'s,POS,B-NP,O
+Aqaba,NNP,I-NP,B-LOC
+.,.,O,O

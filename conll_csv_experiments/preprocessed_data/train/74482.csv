@@ -1,0 +1,7 @@
+0,1,2,3
+GKS,NNS,B-NP,B-ORG
+Katowice,NN,I-NP,I-ORG
+1,CD,I-NP,O
+Polonia,NNP,I-NP,B-ORG
+Warsaw,NNP,I-NP,I-ORG
+0,CD,I-NP,O

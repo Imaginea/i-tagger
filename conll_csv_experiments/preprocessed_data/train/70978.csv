@@ -1,0 +1,10 @@
+0,1,2,3
+Rally,NN,B-NP,B-MISC
+",",",",O,O
+sixth,JJ,B-NP,O
+round,NN,I-NP,O
+of,IN,B-PP,O
+the,DT,B-NP,O
+world,NN,I-NP,O
+championship,NN,I-NP,O
+:,:,O,O

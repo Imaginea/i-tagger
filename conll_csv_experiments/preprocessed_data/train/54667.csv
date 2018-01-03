@@ -1,0 +1,6 @@
+0,1,2,3
++1,NNP,B-NP,O
+Fred,NNP,I-NP,B-PER
+Funk,NNP,I-NP,I-PER
+through,IN,B-PP,O
+9,CD,B-NP,O

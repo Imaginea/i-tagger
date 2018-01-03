@@ -1,0 +1,7 @@
+0,1,2,3
+The,DT,B-NP,O
+building,NN,I-NP,O
+is,VBZ,B-VP,O
+state,NN,B-NP,O
+property,NN,I-NP,O
+.,.,O,O

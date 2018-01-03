@@ -1,0 +1,12 @@
+0,1,2,3
+Magnus,NNP,B-NP,B-PER
+Larsson,NNP,I-NP,I-PER
+(,(,O,O
+Sweden,NNP,B-NP,B-LOC
+),),O,O
+vs.,IN,B-PP,O
+Alexander,NNP,B-NP,B-PER
+Volkov,NNP,I-NP,I-PER
+(,(,O,O
+Russia,NNP,B-NP,B-LOC
+),),O,O

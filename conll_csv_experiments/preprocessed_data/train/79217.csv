@@ -1,0 +1,5 @@
+0,1,2,3
+19.,NNP,B-NP,O
+Jim,NNP,I-NP,B-PER
+Payne,NNP,I-NP,I-PER
+"165,150",CD,I-NP,O

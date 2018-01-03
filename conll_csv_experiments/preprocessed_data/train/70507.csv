@@ -1,0 +1,9 @@
+0,1,2,3
+5.,CD,B-NP,O
+Damon,NNP,B-NP,B-PER
+Hill,NNP,I-NP,I-PER
+(,(,O,O
+Britain,NNP,O,B-LOC
+),),O,O
+Williams,NNP,B-NP,B-PER
+29.179,CD,I-NP,O

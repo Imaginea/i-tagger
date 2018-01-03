@@ -1,0 +1,7 @@
+0,1,2,3
+Proj,NNP,B-NP,O
+.,.,O,O
+Series,NN,B-NP,O
+1996,CD,I-NP,O
+B,NNP,I-NP,O
+Taxable,NNP,I-NP,O

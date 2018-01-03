@@ -1,0 +1,12 @@
+0,1,2,3
+8.,NNP,B-NP,O
+Austria,NNP,I-NP,B-ORG
+I,PRP,B-NP,I-ORG
+(,(,O,O
+Hubert,NNP,B-NP,B-PER
+Schoesser,NNP,I-NP,I-PER
+",",",",O,O
+Erwin,NNP,B-NP,B-PER
+Arnold,NNP,I-NP,I-PER
+),),O,O
+1:46.13,CD,B-NP,O

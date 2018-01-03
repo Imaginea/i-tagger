@@ -1,0 +1,12 @@
+0,1,2,3
+15-21,CD,B-NP,O
+",",",",O,O
+Brazil,NNP,B-NP,B-LOC
+'s,POS,B-NP,O
+Foreign,NNP,I-NP,O
+Relations,NNPS,I-NP,O
+Ministry,NNP,I-NP,O
+said,VBD,B-VP,O
+on,IN,B-PP,O
+Tuesday,NNP,B-NP,O
+.,.,O,O

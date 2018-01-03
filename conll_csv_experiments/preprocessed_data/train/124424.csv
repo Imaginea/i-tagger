@@ -1,0 +1,9 @@
+0,1,2,3
+NEW,NNP,B-NP,B-LOC
+YORK,NNP,I-NP,I-LOC
+Results,NNS,B-NP,O
+of,IN,B-PP,O
+Major,NNP,B-NP,B-MISC
+League,NNP,I-NP,I-MISC
+Baseball,NNP,I-NP,I-MISC
+games,NNS,I-NP,O

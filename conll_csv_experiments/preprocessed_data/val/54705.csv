@@ -1,0 +1,10 @@
+0,1,2,3
+ ,O,O,<UNK>
+The,DT,B-NP,O
+market,NN,I-NP,O
+is,VBZ,B-VP,O
+expected,VBN,I-VP,O
+to,TO,I-VP,O
+remain,VB,I-VP,O
+steady,JJ,B-ADJP,O
+.,.,O,O

@@ -1,0 +1,16 @@
+0,1,2,3
+Semifinals,NNS,B-NP,O
+:,:,O,O
+Martin,NNP,B-NP,B-PER
+Damm,NNP,I-NP,I-PER
+(,(,O,O
+Czech,NNP,B-NP,B-LOC
+Republic,NNP,I-NP,I-LOC
+),),O,O
+beat,VB,B-VP,O
+Adrian,NNP,B-NP,B-PER
+Voinea,NNP,I-NP,I-PER
+(,(,O,O
+Romania,NNP,B-NP,B-LOC
+),),O,O
+5-7,CD,B-NP,O

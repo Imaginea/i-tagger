@@ -1,0 +1,14 @@
+0,1,2,3
+6-3,CD,B-NP,O
+6-4,CD,I-NP,O
+Daniel,NNP,B-NP,B-PER
+Vacek,NNP,I-NP,I-PER
+(,(,O,O
+Czech,NNP,B-NP,B-LOC
+Republic,NNP,I-NP,I-LOC
+),),O,O
+beat,VB,B-VP,O
+13,CD,B-NP,O
+-,:,I-NP,O
+Jason,NNP,I-NP,B-PER
+Stoltenberg,NNP,I-NP,I-PER

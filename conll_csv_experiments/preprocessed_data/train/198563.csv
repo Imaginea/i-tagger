@@ -1,0 +1,17 @@
+0,1,2,3
+At,IN,B-PP,O
+the,DT,B-NP,O
+time,NN,I-NP,O
+of,IN,B-PP,O
+his,PRP$,B-NP,O
+arrest,NN,I-NP,O
+",",",",O,O
+ICAC,NNP,B-NP,B-ORG
+officers,NNS,I-NP,O
+seized,VBD,B-VP,O
+HK$,$,B-NP,B-MISC
+"100,000",CD,I-NP,O
+",",",",O,O
+it,PRP,B-NP,O
+added,VBD,B-VP,O
+.,.,O,O

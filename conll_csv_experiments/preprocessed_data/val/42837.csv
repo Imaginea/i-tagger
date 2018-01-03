@@ -1,0 +1,16 @@
+0,1,2,3
+Scorers,NNS,B-NP,O
+:,:,O,O
+Romania,NNP,B-NP,B-LOC
+-,:,O,O
+Cosmin,NNP,B-NP,B-PER
+Contra,NNP,I-NP,I-PER
+(,(,O,O
+31st,CD,B-NP,O
+),),O,O
+",",",",O,O
+Mihai,NNP,B-NP,B-PER
+Tararache,NNP,I-NP,I-PER
+(,(,O,O
+75th,JJ,B-NP,O
+),),O,O

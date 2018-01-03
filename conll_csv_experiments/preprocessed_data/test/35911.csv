@@ -1,0 +1,35 @@
+0,1,2,3
+ ,O,O,<UNK>
+Today,NN,B-NP,O
+we,PRP,B-NP,O
+are,VBP,B-VP,O
+left,VBN,I-VP,O
+with,IN,B-PP,O
+a,DT,B-NP,O
+ruinous,JJ,I-NP,O
+wreck,NN,I-NP,O
+beyond,IN,B-PP,O
+salvage,NN,B-NP,O
+and,CC,O,O
+a,DT,B-NP,O
+continuing,VBG,I-NP,O
+pall,NN,I-NP,O
+of,IN,B-PP,O
+doubt,NN,B-NP,O
+and,CC,I-NP,O
+suspicion,NN,I-NP,O
+hanging,VBG,B-VP,O
+over,IN,B-PP,O
+our,PRP$,B-NP,O
+diplomatic,JJ,I-NP,O
+service,NN,I-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+opposition,NN,B-NP,O
+foreign,JJ,I-NP,O
+affairs,NNS,I-NP,O
+spokesman,NN,I-NP,O
+Laurie,NNP,I-NP,B-PER
+Brereton,NNP,I-NP,I-PER
+said,VBD,B-VP,O
+.,.,O,O

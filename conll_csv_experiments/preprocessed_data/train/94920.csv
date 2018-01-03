@@ -1,0 +1,10 @@
+0,1,2,3
+goals,NNS,B-NP,O
+for,IN,B-PP,O
+",",",",O,O
+goals,NNS,B-NP,O
+against,IN,B-PP,O
+",",",",O,O
+points,VBZ,B-VP,O
+),),O,O
+:,:,O,O

@@ -1,0 +1,5 @@
+0,1,2,3
+Munich,NNP,B-NP,B-LOC
+"44,525",CD,I-NP,O
+up,RB,B-ADVP,O
+11.8,CD,B-NP,O

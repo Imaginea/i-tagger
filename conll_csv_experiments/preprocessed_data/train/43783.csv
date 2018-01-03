@@ -1,0 +1,9 @@
+0,1,2,3
+Glickman,NNP,B-NP,B-PER
+says,VBZ,B-VP,O
+USDA,NNP,B-NP,B-ORG
+monitoring,VBG,I-NP,O
+aflatoxin,NN,I-NP,O
+in,IN,B-PP,O
+Texas,NNP,B-NP,B-LOC
+.,.,O,O

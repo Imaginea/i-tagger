@@ -1,0 +1,12 @@
+0,1,2,3
+BRUSSELS,NNP,B-NP,B-LOC
+1996-12-06,CD,I-NP,O
+Result,NN,B-NP,O
+of,IN,B-PP,O
+a,DT,B-NP,O
+EuroLeague,NNP,I-NP,B-MISC
+basketball,NN,B-NP,O
+match,VB,B-VP,O
+on,IN,B-PP,O
+Thursday,NNP,B-NP,O
+:,:,O,O

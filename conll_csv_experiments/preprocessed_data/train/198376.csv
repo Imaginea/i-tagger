@@ -1,0 +1,10 @@
+0,1,2,3
+Thai,NNP,B-NP,B-MISC
+official,NN,I-NP,O
+flees,NN,I-NP,O
+Hong,NNP,I-NP,B-LOC
+Kong,NNP,I-NP,I-LOC
+after,IN,B-PP,O
+passport,NN,B-NP,O
+scam,NN,I-NP,O
+.,.,O,O

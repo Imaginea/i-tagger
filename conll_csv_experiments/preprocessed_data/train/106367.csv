@@ -1,0 +1,9 @@
+0,1,2,3
+Bancomext,NN,B-NP,B-ORG
+official,NN,I-NP,O
+says,VBZ,B-VP,O
+Mexico,NNP,B-NP,B-LOC
+peso,NN,I-NP,O
+level,NN,I-NP,O
+suitable,JJ,B-ADJP,O
+.,.,O,O

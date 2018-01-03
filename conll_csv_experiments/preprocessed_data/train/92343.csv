@@ -1,0 +1,14 @@
+0,1,2,3
+P.,NNP,B-NP,B-PER
+Prichard,NNP,I-NP,I-PER
+88,CD,I-NP,O
+",",",",O,O
+D.,NNP,B-NP,B-PER
+Robinson,NNP,I-NP,I-PER
+72,CD,I-NP,O
+;,:,O,O
+M.,NNP,B-NP,B-PER
+Alleyne,NNP,I-NP,I-PER
+4-80,CD,I-NP,O
+),),O,O
+.,.,O,O

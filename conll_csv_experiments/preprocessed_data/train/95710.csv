@@ -1,0 +1,5 @@
+0,1,2,3
+Pachuca,NNP,B-NP,B-ORG
+3,CD,I-NP,O
+Toluca,NN,B-NP,B-ORG
+0,CD,I-NP,O

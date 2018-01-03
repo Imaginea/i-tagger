@@ -1,0 +1,6 @@
+0,1,2,3
+Leyton,NNP,B-NP,B-ORG
+Orient,NNP,I-NP,I-ORG
+2,CD,I-NP,O
+Hartlepool,NNP,I-NP,B-ORG
+0,CD,I-NP,O

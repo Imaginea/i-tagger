@@ -1,0 +1,17 @@
+0,1,2,3
+Ahold,NNP,B-NP,B-ORG
+has,VBZ,B-VP,O
+annualised,VBN,I-VP,O
+sales,NNS,B-NP,O
+of,IN,B-PP,O
+approximately,RB,B-NP,O
+US$,$,I-NP,B-MISC
+24,CD,I-NP,O
+billion,CD,I-NP,O
+",",",",O,O
+and,CC,O,O
+employs,VBZ,B-VP,O
+"180,000",CD,B-NP,O
+people,NNS,I-NP,O
+worldwide,JJ,B-ADJP,O
+.,.,O,O

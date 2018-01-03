@@ -1,0 +1,12 @@
+0,1,2,3
+15,CD,B-NP,O
+",",",",O,O
+Hansma,NNP,B-NP,B-PER
+24,CD,I-NP,O
+",",",",O,O
+Wouden,NNP,B-NP,B-PER
+70,CD,I-NP,O
+",",",",I-NP,O
+90,CD,I-NP,O
+),),O,O
+.,.,O,O

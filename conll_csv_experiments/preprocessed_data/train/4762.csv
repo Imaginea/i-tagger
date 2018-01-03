@@ -1,0 +1,11 @@
+0,1,2,3
+Well,RB,B-INTJ,O
+repairs,NNS,B-NP,O
+to,TO,B-VP,O
+lift,VB,I-VP,O
+Heidrun,NNP,B-NP,B-LOC
+oil,NN,I-NP,O
+output,NN,I-NP,O
+-,:,O,O
+Statoil,NNP,B-NP,B-ORG
+.,.,O,O

@@ -1,0 +1,10 @@
+0,1,2,3
+--,:,B-NP,O
+Sofia,NNP,I-NP,B-ORG
+Newsroom,NNP,I-NP,I-ORG
+",",",",O,O
+(,(,B-LST,O
+++359-2,CD,B-NP,O
+),),O,O
+981,CD,B-NP,O
+8569,CD,I-NP,O

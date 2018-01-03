@@ -1,0 +1,8 @@
+0,1,2,3
+7.,CD,B-NP,O
+Annette,NNP,I-NP,B-PER
+Peters,NNP,I-NP,I-PER
+(,(,O,O
+U.S.,NNP,B-NP,B-LOC
+),),O,O
+15:07.85,CD,B-NP,O

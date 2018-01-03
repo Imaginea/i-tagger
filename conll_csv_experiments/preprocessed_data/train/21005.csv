@@ -1,0 +1,8 @@
+0,1,2,3
+--,:,O,O
+Istanbul,NNP,B-NP,B-ORG
+Newsroom,NNP,I-NP,I-ORG
+",",",",O,O
++90-212-275,CD,B-NP,O
+0875,CD,I-NP,O
+SA,NNP,I-NP,O

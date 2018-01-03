@@ -1,0 +1,10 @@
+0,1,2,3
+Shimazaki,NNP,B-NP,B-PER
+Kyoko,NNP,I-NP,I-PER
+(,(,O,O
+Japan,NNP,B-NP,B-LOC
+),),O,O
+41.45,CD,B-NP,O
+;,:,O,O
+6,LS,B-LST,O
+.,.,O,O

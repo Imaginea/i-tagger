@@ -1,0 +1,13 @@
+0,1,2,3
+Maybe,RB,B-ADVP,O
+it,PRP,B-NP,O
+will,MD,B-VP,O
+be,VB,I-VP,O
+in,IN,B-PP,O
+single-digits,NNS,B-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+Wijffels,NNP,B-NP,B-PER
+told,VBD,B-VP,O
+Reuters,NNP,B-NP,B-ORG
+.,.,O,O

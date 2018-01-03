@@ -1,0 +1,10 @@
+0,1,2,3
+ISSUER,NNP,B-NP,O
+:,:,O,O
+Bay,NNP,B-NP,B-ORG
+Co,NNP,I-NP,I-ORG
+Building,NNP,I-NP,I-ORG
+Authority,NNP,I-NP,I-ORG
+ST,NNP,I-NP,O
+:,:,O,O
+MI,NNS,B-NP,B-LOC

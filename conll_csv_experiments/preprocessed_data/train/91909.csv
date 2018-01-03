@@ -1,0 +1,11 @@
+0,1,2,3
+Wasim,NN,B-NP,B-PER
+becomes,VBZ,B-VP,O
+the,DT,B-NP,O
+11th,JJ,I-NP,O
+player,NN,I-NP,O
+to,TO,B-VP,O
+join,VB,I-VP,O
+the,DT,B-NP,O
+300-club,JJ,I-NP,O
+of,IN,B-PP,O

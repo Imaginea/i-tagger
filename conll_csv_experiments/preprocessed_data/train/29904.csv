@@ -1,0 +1,12 @@
+0,1,2,3
+1.,CD,B-NP,O
+Gerhard,NNP,I-NP,B-PER
+Berger,NNP,I-NP,I-PER
+(,(,O,O
+Austria,NNP,B-NP,B-LOC
+),),O,O
+Benetton,NNP,B-NP,B-ORG
+1,CD,I-NP,O
+minute,NN,I-NP,O
+53.706,CD,I-NP,O
+seconds,NNS,I-NP,O

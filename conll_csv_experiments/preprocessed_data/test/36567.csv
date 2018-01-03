@@ -1,0 +1,14 @@
+0,1,2,3
+Halverson,NN,B-NP,B-PER
+was,VBD,B-VP,O
+considering,VBG,I-VP,O
+possible,JJ,B-NP,O
+dates,NNS,I-NP,O
+for,IN,B-PP,O
+the,DT,B-NP,O
+by-election,NN,I-NP,O
+",",",",O,O
+his,PRP$,B-NP,O
+office,NN,I-NP,O
+said,VBD,B-VP,O
+.,.,O,O

@@ -1,0 +1,20 @@
+0,1,2,3
+ ,O,O,<UNK>
+Regrettably,RB,B-ADVP,O
+Jimmy,NNP,B-NP,B-PER
+has,VBZ,B-VP,O
+felt,VBN,I-VP,O
+unable,JJ,B-ADJP,O
+to,TO,B-VP,O
+accept,VB,I-VP,O
+that,DT,B-NP,O
+offer,NN,I-NP,O
+",",",",O,O
+and,CC,O,O
+has,VBZ,B-VP,O
+accordingly,RB,B-ADVP,O
+left,VBD,B-VP,O
+the,DT,B-NP,O
+club,NN,I-NP,O
+.,.,O,O
+ ,O,O,<UNK>

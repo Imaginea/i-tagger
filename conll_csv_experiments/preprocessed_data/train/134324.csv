@@ -1,0 +1,15 @@
+0,1,2,3
+Bamerindus,NNP,B-NP,B-ORG
+",",",",O,O
+Brazil,NNP,B-NP,B-LOC
+'s,POS,B-NP,O
+fourth-largest,JJ,I-NP,O
+private,JJ,I-NP,O
+bank,NN,I-NP,O
+",",",",O,O
+has,VBZ,B-VP,O
+been,VBN,I-VP,O
+facing,VBG,I-VP,O
+liquidity,NN,B-NP,O
+troubles,NNS,I-NP,O
+.,.,O,O

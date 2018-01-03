@@ -1,0 +1,8 @@
+0,1,2,3
+ ,O,O,<UNK>
+My,PRP$,B-NP,O
+game,NN,I-NP,O
+feels,VBZ,B-VP,O
+very,RB,B-NP,O
+good,JJ,I-NP,O
+.,.,O,O

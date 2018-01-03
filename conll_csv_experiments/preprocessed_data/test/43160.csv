@@ -1,0 +1,6 @@
+0,1,2,3
+WHISTLER,NNP,B-NP,B-LOC
+",",",",O,O
+British,NNP,B-NP,B-LOC
+Columbia,NNP,I-NP,I-LOC
+1996-12-06,CD,I-NP,O

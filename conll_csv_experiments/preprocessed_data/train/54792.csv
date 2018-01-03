@@ -1,0 +1,10 @@
+0,1,2,3
++5,NNP,B-NP,O
+Wayne,NNP,I-NP,B-PER
+Westner,NNP,I-NP,I-PER
+(,(,O,O
+South,NNP,B-NP,B-LOC
+Africa,NNP,I-NP,I-LOC
+),),O,O
+77,CD,B-NP,O
+68,CD,I-NP,O

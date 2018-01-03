@@ -1,0 +1,33 @@
+0,1,2,3
+ ,O,O,<UNK>
+It,PRP,B-NP,O
+'s,VBZ,B-VP,O
+a,DT,B-NP,O
+win,VBP,B-VP,O
+that,IN,B-SBAR,O
+I,PRP,B-NP,O
+can,MD,B-VP,O
+be,VB,I-VP,O
+proud,JJ,B-ADJP,O
+of,IN,B-PP,O
+",",",",O,O
+ ,O,O,<UNK>
+said,VBD,B-VP,O
+the,DT,B-NP,O
+30-year-old,JJ,I-NP,O
+Swede,NN,I-NP,B-MISC
+",",",",O,O
+winner,NN,B-NP,O
+of,IN,B-PP,O
+two,CD,B-NP,O
+U.S.,NNP,I-NP,B-LOC
+Opens,NNP,I-NP,O
+and,CC,O,O
+six,CD,B-NP,O
+Grand,NNP,I-NP,B-MISC
+Slam,NNP,I-NP,I-MISC
+titles,NNS,I-NP,O
+in,IN,B-PP,O
+all,DT,B-NP,O
+.,.,O,O
+ ,O,O,<UNK>

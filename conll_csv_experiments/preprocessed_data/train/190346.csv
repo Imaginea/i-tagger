@@ -1,0 +1,14 @@
+0,1,2,3
+Naoko,NNP,B-NP,B-PER
+Kijimuta,NNP,I-NP,I-PER
+(,(,O,O
+Japan,NNP,B-NP,B-LOC
+),),O,O
+beat,VB,B-VP,O
+Alexandra,NNP,B-NP,B-PER
+Fusai,NNP,I-NP,I-PER
+(,(,O,O
+France,NNP,B-NP,B-LOC
+),),O,O
+6-4,CD,B-NP,O
+7-5,CD,I-NP,O

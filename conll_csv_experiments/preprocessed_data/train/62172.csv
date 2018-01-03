@@ -1,0 +1,13 @@
+0,1,2,3
+These,DT,B-NP,O
+people,NNS,I-NP,O
+are,VBP,B-VP,O
+now,RB,B-ADVP,O
+in,IN,B-PP,O
+Gisenyi,NNP,B-NP,B-LOC
+prison,NN,I-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+Gatera,NNP,B-NP,B-PER
+added,VBD,B-VP,O
+.,.,O,O

@@ -1,0 +1,13 @@
+0,1,2,3
+Rebels,NNS,B-NP,O
+of,IN,B-PP,O
+the,DT,B-NP,O
+Revolutionary,NNP,I-NP,B-ORG
+United,NNP,I-NP,I-ORG
+Front,NNP,I-NP,I-ORG
+agreed,VBD,B-VP,O
+a,DT,B-NP,O
+ceasefire,NN,I-NP,O
+in,IN,B-PP,O
+April,NNP,B-NP,O
+.,.,O,O

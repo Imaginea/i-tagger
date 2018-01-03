@@ -1,0 +1,17 @@
+0,1,2,3
+He,PRP,B-NP,O
+was,VBD,B-VP,O
+staking,VBG,I-VP,O
+out,RP,B-PRT,O
+the,DT,B-NP,O
+restaurant,NN,I-NP,O
+after,IN,B-PP,O
+a,DT,B-NP,O
+series,NN,I-NP,O
+of,IN,B-PP,O
+robberies,NNS,B-NP,O
+at,IN,B-PP,O
+local,JJ,B-NP,O
+fast-food,NN,I-NP,O
+places,NNS,I-NP,O
+.,.,O,O

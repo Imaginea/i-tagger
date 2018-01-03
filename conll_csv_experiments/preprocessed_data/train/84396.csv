@@ -1,0 +1,36 @@
+0,1,2,3
+It,PRP,B-NP,O
+was,VBD,B-VP,O
+the,DT,B-NP,O
+second,JJ,I-NP,O
+time,NN,I-NP,O
+armed,VBD,B-VP,O
+ ,O,O,<UNK>
+commanders,NNS,B-NP,O
+ ,O,O,<UNK>
+of,IN,B-PP,O
+the,DT,B-NP,O
+EPR,NNP,I-NP,B-ORG
+have,VBP,B-VP,O
+granted,VBN,I-VP,O
+interviews,NNS,B-NP,O
+outside,IN,B-PP,O
+Guerrero,NNP,B-NP,B-LOC
+state,NN,I-NP,O
+",",",",O,O
+an,DT,B-NP,O
+extremely,RB,I-NP,O
+poor,JJ,I-NP,O
+and,CC,I-NP,O
+volatile,JJ,I-NP,O
+region,NN,I-NP,O
+where,WRB,B-ADVP,O
+leftist,JJ,B-NP,O
+protesters,NNS,I-NP,O
+often,RB,B-ADVP,O
+have,VBP,B-VP,O
+clashed,VBN,I-VP,O
+violently,RB,B-ADVP,O
+with,IN,B-PP,O
+authorities,NNS,B-NP,O
+.,.,O,O

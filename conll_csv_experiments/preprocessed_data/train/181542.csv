@@ -1,0 +1,15 @@
+0,1,2,3
+The,DT,B-NP,O
+company,NN,I-NP,O
+did,VBD,B-VP,O
+not,RB,I-VP,O
+declare,VB,I-VP,O
+an,DT,B-NP,O
+interim,JJ,I-NP,O
+dividend,NN,I-NP,O
+as,IN,B-PP,O
+in,IN,B-PP,O
+the,DT,B-NP,O
+previous,JJ,I-NP,O
+year,NN,I-NP,O
+.,.,O,O

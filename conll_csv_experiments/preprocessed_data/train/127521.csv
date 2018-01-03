@@ -1,0 +1,15 @@
+0,1,2,3
+(,(,O,O
+CZK,NNP,B-NP,O
+),),O,O
+(,(,O,O
+CZK,NNP,B-NP,O
+),),O,O
+(,(,O,O
+shares,NNS,B-NP,O
+),),O,O
+(,(,O,O
+CZK,NNP,B-NP,O
+000,CD,I-NP,O
+'s,POS,I-NP,O
+),),O,O

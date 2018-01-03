@@ -1,0 +1,10 @@
+0,1,2,3
+Loxley,NNP,B-NP,B-ORG
+H1,NNP,I-NP,O
+net,JJ,I-NP,O
+rises,NNS,I-NP,O
+to,TO,B-PP,O
+332.66,CD,B-NP,O
+mln,JJ,I-NP,O
+baht,NN,I-NP,O
+.,.,O,O

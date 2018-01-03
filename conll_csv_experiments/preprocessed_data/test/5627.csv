@@ -1,0 +1,12 @@
+0,1,2,3
+League,NNP,B-NP,B-ORG
+games,NNS,I-NP,O
+on,IN,B-PP,O
+Thursday,NNP,B-NP,O
+(,(,O,O
+home,NN,B-NP,O
+team,NN,I-NP,O
+in,IN,B-PP,O
+CAPS,NNP,B-NP,O
+),),O,O
+:,:,O,O

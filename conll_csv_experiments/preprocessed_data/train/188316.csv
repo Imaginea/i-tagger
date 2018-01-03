@@ -1,0 +1,6 @@
+0,1,2,3
+Aamir,NNP,B-NP,B-PER
+Sohail,NNP,I-NP,I-PER
+b,SYM,O,O
+Croft,NNP,B-NP,B-PER
+48,CD,I-NP,O

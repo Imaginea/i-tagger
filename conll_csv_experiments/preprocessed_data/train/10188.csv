@@ -1,0 +1,13 @@
+0,1,2,3
+Vince,NNP,B-NP,B-PER
+Spadea,NNP,I-NP,I-PER
+(,(,O,O
+U.S.,NNP,B-NP,B-LOC
+),),O,O
+vs.,IN,B-PP,O
+Daniel,NNP,B-NP,B-PER
+Vacek,NNP,I-NP,I-PER
+(,(,O,O
+Czech,NNP,B-NP,B-LOC
+Republic,NNP,I-NP,I-LOC
+),),O,O

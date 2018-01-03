@@ -1,0 +1,17 @@
+0,1,2,3
+The,DT,B-NP,O
+German,JJ,I-NP,B-MISC
+government,NN,I-NP,O
+hailed,VBD,B-VP,O
+the,DT,B-NP,O
+conviction,NN,I-NP,O
+as,IN,B-PP,O
+a,DT,B-NP,O
+major,JJ,I-NP,O
+victory,NN,I-NP,O
+in,IN,B-PP,O
+the,DT,B-NP,O
+fight,NN,I-NP,O
+against,IN,B-PP,O
+neo-Nazism,NN,B-NP,B-MISC
+.,.,O,O

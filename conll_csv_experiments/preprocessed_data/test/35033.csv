@@ -1,0 +1,5 @@
+0,1,2,3
+--,:,B-NP,O
+Hamburg,NNP,I-NP,B-LOC
+newsroom,NN,I-NP,O
++49-40-41903275,CD,I-NP,O

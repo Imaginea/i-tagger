@@ -1,0 +1,13 @@
+0,1,2,3
+The,DT,B-NP,O
+guys,NNS,I-NP,O
+say,VBP,B-VP,O
+it,PRP,B-NP,O
+moved,VBD,B-VP,O
+more,JJR,B-ADVP,O
+than,IN,B-PP,O
+everyone,NN,B-NP,O
+in,IN,B-PP,O
+the,DT,B-NP,O
+league,NN,I-NP,O
+.,.,O,O

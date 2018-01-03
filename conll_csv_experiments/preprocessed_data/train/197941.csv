@@ -1,0 +1,9 @@
+0,1,2,3
+Despite,IN,B-PP,O
+the,DT,B-NP,O
+criticism,NN,I-NP,O
+",",",",O,O
+acting,VBG,B-VP,O
+state,NN,B-NP,O
+Gov,NNP,B-NP,O
+.,.,O,O

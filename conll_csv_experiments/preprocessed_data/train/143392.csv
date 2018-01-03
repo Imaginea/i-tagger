@@ -1,0 +1,33 @@
+0,1,2,3
+ ,O,O,<UNK>
+Because,IN,B-SBAR,O
+our,PRP$,B-NP,O
+leaders,NNS,I-NP,O
+have,VBP,B-VP,O
+started,VBN,I-VP,O
+to,TO,I-VP,O
+behave,VB,I-VP,O
+with,IN,B-PP,O
+extreme,JJ,B-NP,O
+hostility,NN,I-NP,O
+towards,IN,B-PP,O
+the,DT,B-NP,O
+interests,NNS,I-NP,O
+of,IN,B-PP,O
+their,PRP$,B-NP,O
+peoples,NNS,I-NP,O
+to,TO,B-VP,O
+court,VB,I-VP,O
+the,DT,B-NP,O
+goodwill,NN,I-NP,O
+of,IN,B-PP,O
+the,DT,B-NP,O
+Americans,NNS,I-NP,B-MISC
+and,CC,O,O
+the,DT,B-NP,O
+Zionists,NNPS,I-NP,B-MISC
+",",",",O,O
+ ,O,O,<UNK>
+he,PRP,B-NP,O
+added,VBD,B-VP,O
+.,.,O,O

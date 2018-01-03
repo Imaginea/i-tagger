@@ -1,0 +1,8 @@
+0,1,2,3
+7.,CD,B-NP,O
+Vaclavas,NNP,I-NP,B-PER
+Kidikas,NNP,I-NP,I-PER
+(,(,O,O
+Lithuania,NNP,B-NP,B-LOC
+),),O,O
+60.92,CD,B-NP,O

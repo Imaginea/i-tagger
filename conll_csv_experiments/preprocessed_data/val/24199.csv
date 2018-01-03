@@ -1,0 +1,10 @@
+0,1,2,3
+6,LS,B-LST,O
+),),O,O
+so,RB,B-ADVP,O
+let,VB,B-VP,O
+'s,PRP,B-NP,O
+be,VB,B-VP,O
+careful,JJ,B-ADJP,O
+.,.,O,O
+ ,O,O,<UNK>

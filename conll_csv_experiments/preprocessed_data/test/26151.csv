@@ -1,0 +1,10 @@
+0,1,2,3
+PaineWebber,NNP,B-NP,B-ORG
+Incorporated,NNP,I-NP,I-ORG
+First,NNP,B-NP,B-ORG
+Union,NNP,I-NP,I-ORG
+Capital,NNP,I-NP,I-ORG
+Markets,NNP,I-NP,I-ORG
+Corp.,NNP,I-NP,I-ORG
+-,:,O,O
+NJ,NNP,B-NP,B-LOC

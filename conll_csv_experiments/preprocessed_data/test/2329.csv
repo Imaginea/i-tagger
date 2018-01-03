@@ -1,0 +1,12 @@
+0,1,2,3
+Group,NNP,B-NP,O
+B,NNP,I-NP,O
+Teamsystem,NNP,B-NP,B-ORG
+Bologna,NNP,I-NP,I-ORG
+(,(,O,O
+Italy,NNP,B-NP,B-LOC
+),),O,O
+9,CD,B-NP,O
+7,CD,I-NP,O
+2,CD,I-NP,O
+16,CD,I-NP,O

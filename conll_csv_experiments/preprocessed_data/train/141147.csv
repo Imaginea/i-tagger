@@ -1,0 +1,11 @@
+0,1,2,3
+Soyoil,NN,B-NP,O
+refined,VBN,B-VP,O
+fell,VBD,B-VP,O
+by,IN,B-PP,O
+200,CD,B-NP,O
+rupees,NNS,I-NP,O
+on,IN,B-PP,O
+weak,JJ,B-NP,O
+undertone,NN,I-NP,O
+.,.,O,O

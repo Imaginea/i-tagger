@@ -1,0 +1,9 @@
+0,1,2,3
+Jordan,NNP,B-NP,B-LOC
+expels,VBZ,B-VP,O
+Iraqi,JJ,B-NP,B-MISC
+diplomat,NN,I-NP,O
+after,IN,B-SBAR,O
+bread,NN,B-NP,O
+riots,NNS,I-NP,O
+.,.,O,O

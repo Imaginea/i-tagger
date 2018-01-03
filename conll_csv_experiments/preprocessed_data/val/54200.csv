@@ -1,0 +1,33 @@
+0,1,2,3
+Jordan,NNP,B-NP,B-PER
+defends,VBZ,B-VP,O
+his,PRP$,B-NP,O
+decision,NN,I-NP,O
+to,TO,B-VP,O
+make,VB,I-VP,O
+the,DT,B-NP,O
+film,NN,I-NP,O
+",",",",O,O
+whose,WP$,B-NP,O
+screenplay,NN,I-NP,O
+he,PRP,B-NP,O
+wrote,VBD,B-VP,O
+himself,PRP,B-NP,O
+after,IN,B-PP,O
+years,NNS,B-NP,O
+of,IN,B-PP,O
+research,NN,B-NP,O
+",",",",O,O
+saying,VBG,B-VP,O
+it,PRP,B-NP,O
+was,VBD,B-VP,O
+ ,O,O,<UNK>
+more,JJR,B-NP,O
+about,IN,B-PP,O
+history,NN,B-NP,O
+than,IN,B-PP,O
+any,DT,B-NP,O
+political,JJ,I-NP,O
+statement,NN,I-NP,O
+ ,O,O,<UNK>
+.,.,O,O

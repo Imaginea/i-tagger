@@ -1,0 +1,8 @@
+0,1,2,3
+6.,CD,B-NP,O
+Jean,NNP,B-NP,B-PER
+Galfione,NNP,I-NP,I-PER
+(,(,O,O
+France,NNP,B-NP,B-LOC
+),),O,O
+5.65,CD,B-NP,O

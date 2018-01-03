@@ -1,0 +1,5 @@
+0,1,2,3
+first,JJ,B-NP,O
+division,NN,I-NP,O
+match,NN,I-NP,O
+:,:,O,O

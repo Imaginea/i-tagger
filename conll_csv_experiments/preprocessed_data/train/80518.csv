@@ -1,0 +1,7 @@
+0,1,2,3
+Attendance,NNP,B-NP,O
+"27,500",CD,I-NP,O
+Played,VBN,B-VP,O
+on,IN,B-PP,O
+Saturday,NNP,B-NP,O
+:,:,O,O

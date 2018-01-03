@@ -1,0 +1,9 @@
+0,1,2,3
+opening,NN,B-NP,O
+weekend,NN,I-NP,O
+of,IN,B-PP,O
+the,DT,B-NP,O
+Argentine,JJ,I-NP,B-MISC
+Apertura,NNP,I-NP,I-MISC
+championship,NN,I-NP,O
+:,:,O,O

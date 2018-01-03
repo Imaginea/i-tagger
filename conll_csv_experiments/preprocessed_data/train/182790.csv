@@ -1,0 +1,13 @@
+0,1,2,3
+Ieng,VBG,B-VP,B-PER
+Mouly,NNP,B-NP,I-PER
+said,VBD,B-VP,O
+the,DT,B-NP,O
+aircraft,NN,I-NP,O
+went,VBD,B-VP,O
+down,RB,B-ADVP,O
+during,IN,B-PP,O
+a,DT,B-NP,O
+rain,NN,I-NP,O
+storm,NN,I-NP,O
+.,.,O,O

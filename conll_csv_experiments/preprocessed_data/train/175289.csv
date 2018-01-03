@@ -1,0 +1,7 @@
+0,1,2,3
+P.V.,NNP,B-NP,B-PER
+Krishnamoorthy,NNP,I-NP,I-PER
+RAMESWARAM,NNP,B-NP,B-LOC
+",",",",O,O
+India,NNP,B-NP,B-LOC
+1996-08-28,CD,I-NP,O

@@ -1,0 +1,14 @@
+0,1,2,3
+15-2,CD,B-NP,O
+17-14,CD,I-NP,O
+P.,NNP,B-NP,B-PER
+Kantharoopan,NNP,I-NP,I-PER
+(,(,O,O
+Malaysia,NNP,B-NP,B-LOC
+),),O,O
+beat,VB,B-VP,O
+3/4,CD,B-NP,O
+-,:,I-NP,O
+Jeroen,NNP,I-NP,B-PER
+Van,NNP,I-NP,I-PER
+Dijk,NNP,I-NP,I-PER

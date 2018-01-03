@@ -1,0 +1,17 @@
+0,1,2,3
+AL,NNP,B-NP,B-ORG
+RAI,NNP,I-NP,I-ORG
+-,:,O,O
+Prime,NNP,B-NP,O
+Minister,NNP,I-NP,O
+Abdul-Karim,NNP,I-NP,B-PER
+al-Kabariti,NN,I-NP,I-PER
+says,VBZ,B-VP,O
+government,NN,B-NP,O
+commited,VBD,B-VP,O
+to,TO,I-VP,O
+lifting,VBG,I-VP,O
+ceiling,NN,B-NP,O
+of,IN,B-PP,O
+democracy,NN,B-NP,O
+.,.,O,O

@@ -1,0 +1,9 @@
+0,1,2,3
+course,NN,B-NP,O
+(,(,O,O
+players,NNS,B-NP,O
+U.S.,NNP,B-NP,B-LOC
+unless,IN,B-SBAR,O
+noted,VBN,B-VP,O
+),),O,O
+:,:,O,O

@@ -1,0 +1,7 @@
+0,1,2,3
+NAC,NNP,B-NP,B-ORG
+Breda,NNP,I-NP,I-ORG
+1,CD,I-NP,O
+Sparta,NNP,I-NP,B-ORG
+Rotterdam,NNP,I-NP,I-ORG
+0,CD,I-NP,O

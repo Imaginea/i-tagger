@@ -1,0 +1,12 @@
+0,1,2,3
+ ,O,O,<UNK>
+Jim,NNP,B-NP,B-PER
+",",",",O,O
+we,PRP,B-NP,O
+must,MD,B-VP,O
+have,VB,I-VP,O
+made,VBN,I-VP,O
+a,DT,B-NP,O
+wrong,JJ,I-NP,O
+turn,NN,I-NP,O
+.,.,O,O

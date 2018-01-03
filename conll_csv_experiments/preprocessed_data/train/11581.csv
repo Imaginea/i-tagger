@@ -1,0 +1,16 @@
+0,1,2,3
+Stanley,NNP,B-NP,B-PER
+owns,VBZ,B-VP,O
+a,DT,B-NP,O
+.367,CD,I-NP,O
+career,NN,I-NP,O
+batting,NN,I-NP,O
+average,NN,I-NP,O
+with,IN,B-PP,O
+the,DT,B-NP,O
+bases,NNS,I-NP,O
+loaded,VBN,B-VP,O
+(,(,O,O
+33-for-90,CD,B-NP,O
+),),O,O
+.,.,O,O

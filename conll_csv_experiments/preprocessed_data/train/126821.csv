@@ -1,0 +1,9 @@
+0,1,2,3
+8.,NNP,B-NP,O
+John,NNP,I-NP,B-PER
+den,NN,I-NP,I-PER
+Braber,NNP,I-NP,I-PER
+(,(,O,O
+Neths,NNPS,B-NP,B-LOC
+),),O,O
+Collstrop,NNP,B-NP,B-ORG

@@ -1,0 +1,16 @@
+0,1,2,3
+Nyva,NNP,B-NP,B-ORG
+Vinnytsya,NNP,I-NP,I-ORG
+(,(,O,O
+Ukraine,NNP,B-NP,B-LOC
+),),O,O
+1,CD,B-NP,O
+Tallinna,NNP,I-NP,B-ORG
+Sadam,NNP,I-NP,I-ORG
+(,(,O,O
+Estonia,NNP,B-NP,B-LOC
+),),O,O
+0,CD,B-NP,O
+(,(,O,O
+0-0,CD,B-NP,O
+),),O,O

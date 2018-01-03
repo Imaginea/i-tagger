@@ -1,0 +1,10 @@
+0,1,2,3
+Chris,NNP,B-NP,B-PER
+Witty,NNP,I-NP,I-PER
+(,(,O,O
+US,NNP,B-NP,B-LOC
+),),O,O
+41.75,CD,B-NP,O
+;,:,O,O
+10,LS,B-LST,O
+.,.,O,O

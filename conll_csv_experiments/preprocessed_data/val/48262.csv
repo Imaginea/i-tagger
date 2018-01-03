@@ -1,0 +1,25 @@
+0,1,2,3
+Ramos,NNP,B-NP,B-PER
+said,VBD,B-VP,O
+the,DT,B-NP,O
+peace,NN,I-NP,O
+agreement,NN,I-NP,O
+ ,O,O,<UNK>
+shall,MD,B-VP,O
+bring,VB,I-VP,O
+down,IN,B-PP,O
+the,DT,B-NP,O
+curtain,NN,I-NP,O
+on,IN,B-PP,O
+a,DT,B-NP,O
+long,JJ,I-NP,O
+and,CC,I-NP,O
+storied,JJ,I-NP,O
+era,NN,I-NP,O
+of,IN,B-PP,O
+strife,NN,B-NP,O
+in,IN,B-PP,O
+Philippine,JJ,B-NP,B-LOC
+history,NN,I-NP,O
+.,.,O,O
+ ,O,O,<UNK>

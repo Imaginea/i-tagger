@@ -1,0 +1,9 @@
+0,1,2,3
+I,PRP,B-NP,O
+'m,VBP,B-VP,O
+in,IN,B-PP,O
+a,DT,B-NP,O
+good,JJ,I-NP,O
+position,NN,I-NP,O
+.,.,O,O
+ ,O,O,<UNK>

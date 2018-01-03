@@ -1,0 +1,10 @@
+0,1,2,3
+Green,NNP,B-NP,B-PER
+and,CC,I-NP,O
+black,JJ,I-NP,O
+face,NN,I-NP,O
+paint,NN,I-NP,O
+completed,VBD,B-VP,O
+his,PRP$,B-NP,O
+disguise,NN,I-NP,O
+.,.,O,O

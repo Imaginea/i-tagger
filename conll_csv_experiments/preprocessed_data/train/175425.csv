@@ -1,0 +1,16 @@
+0,1,2,3
+Rameswaram,NN,B-NP,B-LOC
+is,VBZ,B-VP,O
+15,CD,B-NP,O
+km,NN,I-NP,O
+(,(,O,O
+10,CD,B-NP,O
+miles,NNS,I-NP,O
+),),O,O
+off,RP,B-PRT,O
+the,DT,B-NP,O
+coast,NN,I-NP,O
+of,IN,B-PP,O
+Sri,NNP,B-NP,B-LOC
+Lanka,NNP,I-NP,I-LOC
+.,.,O,O

@@ -1,0 +1,17 @@
+0,1,2,3
+The,DT,B-NP,O
+officials,NNS,I-NP,O
+said,VBD,B-VP,O
+the,DT,B-NP,O
+rebels,NNS,I-NP,O
+set,VBP,B-VP,O
+ablaze,RB,B-ADJP,O
+two,CD,B-NP,O
+buses,NNS,I-NP,O
+and,CC,O,O
+released,VBD,B-VP,O
+all,DT,B-NP,O
+but,CC,I-NP,O
+three,CD,I-NP,O
+passengers,NNS,I-NP,O
+.,.,O,O

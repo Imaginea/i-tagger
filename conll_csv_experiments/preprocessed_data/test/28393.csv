@@ -1,0 +1,11 @@
+0,1,2,3
+Let,VB,B-VP,O
+'s,POS,B-NP,O
+respect,JJ,I-NP,O
+their,PRP$,I-NP,O
+territories,NNS,I-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+he,PRP,B-NP,O
+said,VBD,B-VP,O
+.,.,O,O

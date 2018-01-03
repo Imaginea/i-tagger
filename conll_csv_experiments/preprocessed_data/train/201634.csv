@@ -1,0 +1,9 @@
+0,1,2,3
+O.J.,NNP,B-NP,B-PER
+Simpson,NNP,I-NP,I-PER
+hints,NNS,I-NP,O
+at,IN,B-PP,O
+more,JJR,B-NP,O
+supporting,VBG,B-VP,O
+evidence,NN,B-NP,O
+.,.,O,O

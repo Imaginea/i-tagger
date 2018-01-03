@@ -1,0 +1,6 @@
+0,1,2,3
+-,:,O,O
+Turnover,NN,B-NP,O
+756,CD,I-NP,O
+vs,NNP,O,O
+829,CD,O,O

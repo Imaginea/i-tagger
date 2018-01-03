@@ -1,0 +1,8 @@
+0,1,2,3
+Romania,NNP,B-NP,B-LOC
+state,NN,I-NP,O
+budget,NN,I-NP,O
+soars,NNS,B-VP,O
+in,IN,B-PP,O
+June,NNP,B-NP,O
+.,.,O,O

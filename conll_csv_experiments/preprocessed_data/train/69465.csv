@@ -1,0 +1,10 @@
+0,1,2,3
+First,JJ,B-NP,O
+race,NN,I-NP,O
+1.,CD,B-NP,O
+Sebastien,NNP,I-NP,B-PER
+Tortelli,NNP,I-NP,I-PER
+(,(,O,O
+France,NNP,O,B-LOC
+),),O,O
+Kawasaki,NNP,B-NP,B-ORG

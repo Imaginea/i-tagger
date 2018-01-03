@@ -1,0 +1,6 @@
+0,1,2,3
+Namibia,NNP,B-NP,B-LOC
+win,VBP,B-VP,O
+6-0,CD,B-NP,O
+on,IN,B-PP,O
+aggregate,JJ,B-NP,O

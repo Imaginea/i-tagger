@@ -1,0 +1,10 @@
+0,1,2,3
+S.,NNP,B-NP,B-MISC
+African,NNP,I-NP,I-MISC
+apartheid,NN,I-NP,O
+killer,NN,I-NP,O
+convicted,VBN,B-VP,O
+of,IN,B-PP,O
+six,CD,B-NP,O
+murders,NNS,I-NP,O
+.,.,O,O

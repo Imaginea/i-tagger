@@ -1,0 +1,18 @@
+0,1,2,3
+ ,O,O,<UNK>
+We,PRP,B-NP,O
+could,MD,B-VP,O
+carry,VB,I-VP,O
+another,DT,B-NP,O
+100,CD,I-NP,O
+points,NNS,I-NP,O
+lower,RBR,B-ADVP,O
+in,IN,B-PP,O
+the,DT,B-NP,O
+Dow,NNP,I-NP,B-MISC
+",",",",O,O
+ ,O,O,<UNK>
+he,PRP,B-NP,O
+said,VBD,B-VP,O
+.,.,O,O
+ ,O,O,<UNK>

@@ -1,0 +1,12 @@
+0,1,2,3
+Hansa,NNP,B-NP,B-ORG
+Rostock,NNP,I-NP,I-ORG
+0,CD,I-NP,O
+Hamburg,NNP,I-NP,B-ORG
+1,CD,I-NP,O
+(,(,O,O
+Baeron,NN,B-NP,B-PER
+64th,JJ,I-NP,O
+min,NN,I-NP,O
+),),O,O
+.,.,O,O

@@ -1,0 +1,27 @@
+0,1,2,3
+ ,O,O,<UNK>
+The,DT,B-NP,O
+leadership,NN,I-NP,O
+has,VBZ,B-VP,O
+decided,VBN,I-VP,O
+to,TO,I-VP,O
+provide,VB,I-VP,O
+support,NN,B-NP,O
+and,CC,I-NP,O
+military,JJ,I-NP,O
+aid,NN,I-NP,O
+to,TO,B-PP,O
+Mr,NNP,B-NP,O
+Massoud,NNP,I-NP,B-PER
+Barzani,NNP,I-NP,I-PER
+and,CC,O,O
+his,PRP$,B-NP,O
+comrades,NNS,I-NP,O
+to,TO,B-VP,O
+enable,VB,I-VP,O
+them,PRP,B-NP,O
+confront,VBP,B-VP,O
+the,DT,B-NP,O
+vicious,JJ,I-NP,O
+aggression,NN,I-NP,O
+...,:,O,O

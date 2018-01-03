@@ -1,0 +1,10 @@
+0,1,2,3
+Motor-bike,JJ,B-NP,O
+registration,NN,I-NP,O
+rose,VBD,B-VP,O
+32.7,CD,B-NP,O
+percent,NN,I-NP,O
+in,IN,B-PP,O
+the,DT,B-NP,O
+period,NN,I-NP,O
+.,.,O,O

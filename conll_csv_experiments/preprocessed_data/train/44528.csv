@@ -1,0 +1,27 @@
+0,1,2,3
+The,DT,B-NP,O
+Sri,NNP,I-NP,B-MISC
+Lankan,NNP,I-NP,I-MISC
+foreign,JJ,I-NP,O
+ministry,NN,I-NP,O
+said,VBD,B-VP,O
+in,IN,B-PP,O
+a,DT,B-NP,O
+statement,NN,I-NP,O
+:,:,O,O
+ ,O,O,<UNK>
+The,DT,B-NP,O
+United,NNP,I-NP,B-LOC
+States,NNP,I-NP,I-LOC
+government,NN,I-NP,O
+sympathised,VBN,B-VP,O
+with,IN,B-PP,O
+the,DT,B-NP,O
+current,JJ,I-NP,O
+predicament,NN,I-NP,O
+Sri,NNP,I-NP,B-LOC
+Lanka,NNP,I-NP,I-LOC
+was,VBD,B-VP,O
+facing,VBG,I-VP,O
+.,.,O,O
+ ,O,O,<UNK>

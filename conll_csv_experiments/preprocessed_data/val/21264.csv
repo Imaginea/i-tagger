@@ -1,0 +1,23 @@
+0,1,2,3
+We,PRP,B-NP,O
+have,VB,B-VP,O
+also,RB,I-VP,O
+found,VBN,I-VP,O
+and,CC,O,O
+arrested,VBN,B-VP,O
+her,PRP$,B-NP,O
+aunt,NN,I-NP,O
+and,CC,I-NP,O
+companion,NN,I-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+said,VBD,B-VP,O
+a,DT,B-NP,O
+spokeswoman,NN,I-NP,O
+of,IN,B-PP,O
+the,DT,B-NP,O
+Dutch,JJ,I-NP,B-MISC
+criminal,NN,I-NP,O
+investigation,NN,I-NP,O
+service,NN,I-NP,O
+.,.,O,O

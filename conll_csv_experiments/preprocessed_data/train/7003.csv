@@ -1,0 +1,15 @@
+0,1,2,3
+At,IN,B-PP,O
+Headingley,NNP,B-NP,B-LOC
+:,:,O,O
+Yorkshire,NNP,B-NP,B-ORG
+305-5,CD,I-NP,O
+(,(,O,O
+C.,NNP,B-NP,B-PER
+White,NNP,I-NP,I-PER
+66,CD,I-NP,O
+not,RB,B-VP,O
+out,RP,B-PRT,O
+",",",",O,O
+M.,NNP,B-NP,B-PER
+Moxon,NNP,I-NP,I-PER

@@ -1,0 +1,16 @@
+0,1,2,3
+ ,O,O,<UNK>
+No,DT,B-NP,O
+",",",",O,O
+they,PRP,B-NP,O
+have,VBP,B-VP,O
+good,JJ,B-NP,O
+intentions,NNS,I-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+Arafat,NNP,B-NP,B-PER
+quoted,VBD,B-VP,O
+Ross,NNP,B-NP,B-PER
+as,IN,B-PP,O
+saying,VBG,B-VP,O
+.,.,O,O

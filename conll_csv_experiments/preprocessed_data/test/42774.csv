@@ -1,0 +1,11 @@
+0,1,2,3
+Jaegal,NNP,B-NP,B-PER
+Sung-Yeol,NNP,I-NP,I-PER
+(,(,O,O
+South,NNP,B-NP,B-LOC
+Korea,NNP,I-NP,I-LOC
+),),O,O
+37.46,CD,B-NP,O
+;,:,O,O
+3,LS,B-LST,O
+.,.,O,O

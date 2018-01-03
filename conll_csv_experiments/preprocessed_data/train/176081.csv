@@ -1,0 +1,10 @@
+0,1,2,3
+Evert,NNP,B-NP,B-PER
+will,MD,B-VP,O
+depart,VB,I-VP,O
+for,IN,B-PP,O
+Alexandroupolis,NNS,B-NP,B-LOC
+on,IN,B-PP,O
+Saturday,NNP,B-NP,O
+afternoon,NN,I-NP,O
+.,.,O,O

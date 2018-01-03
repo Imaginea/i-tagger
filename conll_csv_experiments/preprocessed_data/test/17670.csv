@@ -1,0 +1,22 @@
+0,1,2,3
+ ,O,O,<UNK>
+If,IN,B-SBAR,O
+Africa,NNP,B-NP,B-LOC
+does,VBZ,B-VP,O
+not,RB,I-VP,O
+wish,VB,I-VP,O
+to,TO,I-VP,O
+lose,VB,I-VP,O
+its,PRP$,B-NP,O
+turn,NN,I-NP,O
+we,PRP,B-NP,O
+have,VBP,B-VP,O
+to,TO,I-VP,O
+act,VB,I-VP,O
+fast,RB,B-ADVP,O
+",",",",O,O
+ ,O,O,<UNK>
+Diouf,NNP,B-NP,B-PER
+said,VBD,B-VP,O
+.,.,O,O
+ ,O,O,<UNK>

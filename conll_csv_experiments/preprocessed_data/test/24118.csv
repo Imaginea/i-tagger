@@ -1,0 +1,37 @@
+0,1,2,3
+The,DT,B-NP,O
+ILO,NNP,I-NP,B-ORG
+wants,VBZ,B-VP,O
+a,DT,B-NP,O
+trade,NN,I-NP,O
+and,CC,I-NP,O
+labour,NN,I-NP,O
+rights,NNS,I-NP,O
+ ,O,O,<UNK>
+social,JJ,B-NP,O
+clause,NN,I-NP,O
+ ,O,O,<UNK>
+included,VBD,B-VP,O
+in,IN,B-PP,O
+the,DT,B-NP,O
+final,JJ,I-NP,O
+ministerial,JJ,I-NP,O
+statement,NN,I-NP,O
+issued,VBN,B-VP,O
+by,IN,B-PP,O
+WTO,NNP,B-NP,B-ORG
+leaders,NNS,I-NP,O
+at,IN,B-PP,O
+the,DT,B-NP,O
+end,NN,I-NP,O
+of,IN,B-PP,O
+the,DT,B-NP,O
+meeting,NN,I-NP,O
+",",",",O,O
+the,DT,B-NP,O
+organization,NN,I-NP,O
+'s,POS,B-NP,O
+first,JJ,I-NP,O
+ministerial-level,JJ,I-NP,O
+gathering,NN,I-NP,O
+.,.,O,O

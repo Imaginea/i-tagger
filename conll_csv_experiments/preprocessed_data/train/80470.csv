@@ -1,0 +1,14 @@
+0,1,2,3
+Twente,NNP,B-NP,B-ORG
+Enschede,NN,I-NP,I-ORG
+1,CD,I-NP,O
+(,(,O,O
+Hoogma,NNP,B-NP,B-PER
+30th,JJ,I-NP,O
+),),O,O
+Roda,NNP,B-NP,B-ORG
+JC,NNP,I-NP,I-ORG
+Kerkrade,NNP,I-NP,I-ORG
+1,CD,I-NP,O
+(,(,O,O
+Roelofsen,NNP,B-NP,B-PER

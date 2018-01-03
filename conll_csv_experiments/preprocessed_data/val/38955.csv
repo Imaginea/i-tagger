@@ -1,0 +1,26 @@
+0,1,2,3
+ ,O,O,<UNK>
+Bolesy,NNP,B-NP,B-PER
+(,(,O,O
+Florida,NNP,B-NP,B-ORG
+manager,NN,I-NP,O
+John,NNP,I-NP,B-PER
+Boles,NNP,I-NP,I-PER
+),),O,O
+told,VBD,B-VP,O
+me,PRP,B-NP,O
+yesterday,NN,B-NP,O
+",",",",O,O
+','',O,O
+You,PRP,B-NP,O
+have,VBP,B-VP,O
+to,TO,I-VP,O
+go,VB,I-VP,O
+nine,CD,B-NP,O
+tomorrow,NN,B-NP,O
+",",",",O,O
+','',O,O
+ ,O,O,<UNK>
+Brown,NNP,B-NP,B-PER
+said,VBD,B-VP,O
+.,.,O,O

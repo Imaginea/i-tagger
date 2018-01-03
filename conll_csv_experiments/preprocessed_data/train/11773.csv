@@ -1,0 +1,16 @@
+0,1,2,3
+He,PRP,B-NP,O
+allowed,VBD,B-VP,O
+two,CD,B-NP,O
+runs,NNS,I-NP,O
+--,:,O,O
+one,NN,B-NP,O
+earned,VBD,B-VP,O
+--,:,O,O
+and,CC,O,O
+lowered,VBD,B-VP,O
+his,PRP$,B-NP,O
+ERA,NNP,I-NP,B-MISC
+to,TO,B-PP,O
+2.99,CD,B-NP,O
+.,.,O,O

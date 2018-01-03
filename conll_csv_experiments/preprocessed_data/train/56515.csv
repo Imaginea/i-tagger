@@ -1,0 +1,5 @@
+0,1,2,3
+Manchester,NNP,B-NP,B-ORG
+United,NNP,I-NP,I-ORG
+v,FW,I-NP,O
+Blackburn,NNP,I-NP,B-ORG

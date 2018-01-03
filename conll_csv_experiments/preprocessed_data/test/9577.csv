@@ -1,0 +1,11 @@
+0,1,2,3
+Cagliari,NNP,B-NP,B-ORG
+(,(,O,O
+16,CD,B-NP,O
+),),O,O
+v,JJ,B-NP,O
+Reggiana,NNP,I-NP,B-ORG
+(,(,O,O
+18,CD,B-NP,O
+),),O,O
+1530,CD,B-NP,O

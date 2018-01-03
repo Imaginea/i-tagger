@@ -1,0 +1,5 @@
+0,1,2,3
+George,NNP,B-NP,B-PER
+Nishiyama,NNP,I-NP,I-PER
+TOKYO,TO,B-VP,B-LOC
+1996-12-06,CD,B-NP,O

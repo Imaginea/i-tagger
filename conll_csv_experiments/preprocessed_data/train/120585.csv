@@ -1,0 +1,5 @@
+0,1,2,3
+York,NNP,B-NP,B-ORG
+3,CD,I-NP,O
+Millwall,NNP,I-NP,B-ORG
+2,CD,I-NP,O

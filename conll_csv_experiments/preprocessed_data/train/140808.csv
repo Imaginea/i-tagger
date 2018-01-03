@@ -1,0 +1,14 @@
+0,1,2,3
+The,DT,B-NP,O
+Maoists,NNPS,I-NP,B-MISC
+oppose,VBP,B-VP,O
+multi-party,JJ,B-NP,O
+democracy,NN,I-NP,O
+and,CC,O,O
+want,VB,B-VP,O
+to,TO,I-VP,O
+establish,VB,I-VP,O
+a,DT,B-NP,O
+communist,JJ,I-NP,O
+state,NN,I-NP,O
+.,.,O,O

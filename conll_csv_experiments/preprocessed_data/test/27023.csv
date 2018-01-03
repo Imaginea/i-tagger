@@ -1,0 +1,12 @@
+0,1,2,3
+Curr,NNP,B-NP,O
+Wk,NN,I-NP,O
+Yr,NNP,I-NP,O
+Ago,NNP,I-NP,O
+Curr,NNP,I-NP,O
+Wk,NN,I-NP,O
+Yr,NNP,I-NP,O
+to,TO,B-PP,O
+Date,NNP,B-NP,O
+Yr,NNP,I-NP,O
+Ago,NNP,I-NP,O

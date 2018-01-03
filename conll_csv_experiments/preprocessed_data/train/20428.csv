@@ -1,0 +1,12 @@
+0,1,2,3
+The,DT,B-NP,O
+EgyptAir,NNP,I-NP,B-ORG
+pilot,NN,I-NP,O
+blamed,VBN,B-VP,O
+Turkish,JJ,B-NP,B-MISC
+airport,NN,I-NP,O
+staff,NN,I-NP,O
+for,IN,B-PP,O
+misleading,VBG,B-VP,O
+him,PRP,B-NP,O
+.,.,O,O

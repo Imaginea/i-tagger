@@ -1,0 +1,10 @@
+0,1,2,3
+A,DT,B-NP,O
+reading,NN,I-NP,O
+above,IN,B-PP,O
+50,CD,B-NP,O
+indicates,VBZ,B-VP,O
+growth,NN,B-NP,O
+in,IN,B-PP,O
+manufacturing,NN,B-NP,O
+.,.,O,O

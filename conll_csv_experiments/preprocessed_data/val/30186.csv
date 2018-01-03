@@ -1,0 +1,8 @@
+0,1,2,3
+7,CD,B-NP,O
+Jane,NNP,I-NP,B-PER
+Quigley,NNP,I-NP,I-PER
+(,(,O,O
+U.S.,NNP,B-NP,B-LOC
+),),O,O
+3:46.493,CD,B-NP,O

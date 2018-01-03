@@ -1,0 +1,33 @@
+0,1,2,3
+ ,O,O,<UNK>
+It,PRP,B-NP,O
+goes,VBZ,B-VP,O
+without,IN,B-PP,O
+saying,VBG,B-VP,O
+that,IN,B-SBAR,O
+we,PRP,B-NP,O
+'re,VBP,B-VP,O
+rather,RB,B-ADVP,O
+disappointed,VBN,B-ADJP,O
+",",",",O,O
+ ,O,O,<UNK>
+Head,NN,B-NP,B-PER
+said,VBD,B-VP,O
+of,IN,B-PP,O
+the,DT,B-NP,O
+decision,NN,I-NP,O
+by,IN,B-PP,O
+the,DT,B-NP,O
+U.S.,NNP,I-NP,B-ORG
+Court,NNP,I-NP,I-ORG
+of,IN,B-PP,I-ORG
+Appeals,NNPS,B-NP,I-ORG
+for,IN,B-PP,O
+the,DT,B-NP,O
+Fourth,JJ,I-NP,B-ORG
+Circuit,NN,I-NP,I-ORG
+",",",",I-NP,O
+sitting,NN,I-NP,O
+in,IN,B-PP,O
+Baltimore,NNP,B-NP,B-LOC
+.,.,O,O

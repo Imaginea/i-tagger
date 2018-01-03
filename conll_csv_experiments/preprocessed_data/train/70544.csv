@@ -1,0 +1,10 @@
+0,1,2,3
+9.,CD,B-NP,O
+Ricardo,NNP,I-NP,B-PER
+Rosset,NNP,I-NP,I-PER
+(,(,O,O
+Brazil,NNP,B-NP,B-LOC
+),),O,O
+Arrows,NNS,B-NP,B-ORG
+one,CD,B-NP,O
+lap,NN,I-NP,O

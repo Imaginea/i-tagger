@@ -1,0 +1,16 @@
+0,1,2,3
+Ex-Yankee,NNP,B-NP,O
+Randy,NNP,I-NP,B-PER
+Velarde,NNP,I-NP,I-PER
+hit,VBD,B-VP,O
+his,PRP$,B-NP,O
+11th,JJ,I-NP,O
+homer,NN,I-NP,O
+",",",",O,O
+his,PRP$,B-NP,O
+most,RBS,I-NP,O
+at,IN,B-PP,O
+any,DT,B-NP,O
+professional,JJ,I-NP,O
+level,NN,I-NP,O
+.,.,O,O

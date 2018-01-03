@@ -1,0 +1,8 @@
+0,1,2,3
+--,:,B-NP,O
+Warsaw,NNP,I-NP,B-ORG
+Newsroom,NNP,I-NP,I-ORG
++48,CD,I-NP,O
+22,CD,I-NP,O
+653,CD,I-NP,O
+9700,CD,I-NP,O

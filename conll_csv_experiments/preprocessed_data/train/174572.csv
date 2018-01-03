@@ -1,0 +1,27 @@
+0,1,2,3
+ ,O,O,<UNK>
+I,PRP,B-NP,O
+promise,VBP,B-VP,O
+the,DT,B-NP,O
+people,NNS,I-NP,O
+of,IN,B-PP,O
+Karachi,NNP,B-NP,B-LOC
+that,IN,B-SBAR,O
+those,DT,B-NP,O
+responsible,JJ,I-NP,O
+for,IN,B-PP,O
+the,DT,B-NP,O
+extra-judicial,JJ,I-NP,O
+killing,NN,I-NP,O
+of,IN,B-PP,O
+innocent,JJ,B-NP,O
+youths,NNS,I-NP,O
+would,MD,B-VP,O
+not,RB,I-VP,O
+be,VB,I-VP,O
+spared,VBN,I-VP,O
+",",",",O,O
+ ,O,O,<UNK>
+Sharif,NNP,B-NP,B-PER
+said,VBD,B-VP,O
+.,.,O,O

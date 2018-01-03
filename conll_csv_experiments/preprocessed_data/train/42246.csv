@@ -1,0 +1,9 @@
+0,1,2,3
+Brazil,NN,B-NP,B-LOC
+to,TO,B-VP,O
+use,VB,I-VP,O
+hovercrafts,NNS,B-NP,O
+for,IN,B-PP,O
+Amazon,NNP,B-NP,B-LOC
+travel,NN,I-NP,O
+.,.,O,O

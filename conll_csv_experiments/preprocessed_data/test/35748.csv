@@ -1,0 +1,16 @@
+0,1,2,3
+Major,NNP,B-NP,B-PER
+told,VBD,B-VP,O
+parliament,NN,B-NP,O
+on,IN,B-PP,O
+Thursday,NNP,B-NP,O
+he,PRP,B-NP,O
+would,MD,B-VP,O
+keep,VB,I-VP,O
+his,PRP$,B-NP,O
+options,NNS,I-NP,O
+open,JJ,B-ADJP,O
+on,IN,B-PP,O
+single-currency,NN,B-NP,O
+membership,NN,I-NP,O
+.,.,O,O

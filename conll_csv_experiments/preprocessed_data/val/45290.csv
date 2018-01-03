@@ -1,0 +1,7 @@
+0,1,2,3
+Their,PRP$,B-NP,O
+threats,NNS,I-NP,O
+came,VBD,B-VP,O
+to,TO,B-PP,O
+nothing,NN,B-NP,O
+.,.,O,O

@@ -1,0 +1,8 @@
+0,1,2,3
+What,WP,B-NP,O
+'s,VBZ,B-VP,O
+the,DT,B-NP,O
+message,NN,I-NP,O
+here,RB,B-ADVP,O
+?,.,O,O
+ ,O,O,<UNK>

@@ -1,0 +1,11 @@
+0,1,2,3
+But,CC,O,O
+Stich,NNP,B-NP,B-PER
+did,VBD,B-VP,O
+n't,RB,I-VP,O
+want,VB,I-VP,O
+to,TO,I-VP,O
+play,VB,I-VP,O
+that,DT,B-NP,O
+game,NN,I-NP,O
+.,.,O,O

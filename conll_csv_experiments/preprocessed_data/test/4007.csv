@@ -1,0 +1,14 @@
+0,1,2,3
+9-153,CD,B-NP,O
+.,.,O,O
+Bowling,NNP,B-NP,O
+:,:,O,O
+Reiffel,NNP,B-NP,B-PER
+10-2-26-0,NNP,I-NP,O
+(,(,O,O
+nb-3,CD,B-NP,O
+),),O,O
+",",",",O,O
+Gillespie,NNP,B-NP,B-PER
+10-0-39-2,CD,I-NP,O
+",",",",O,O

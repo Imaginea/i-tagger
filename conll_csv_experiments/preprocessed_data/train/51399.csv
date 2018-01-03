@@ -1,0 +1,9 @@
+0,1,2,3
+NOTE,NN,B-NP,O
+-,:,O,O
+Orii,NNP,B-NP,B-ORG
+Corp,NNP,I-NP,I-ORG
+makes,VBZ,B-VP,O
+automation,NN,B-NP,O
+equipment,NN,I-NP,O
+.,.,O,O

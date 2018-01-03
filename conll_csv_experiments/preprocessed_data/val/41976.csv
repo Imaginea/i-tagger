@@ -1,0 +1,19 @@
+0,1,2,3
+we,PRP,B-NP,O
+suffered,VBD,B-VP,O
+",",",",O,O
+ ,O,O,<UNK>
+said,VBD,B-VP,O
+Van,NNP,B-NP,B-PER
+Moer,NNP,I-NP,I-PER
+",",",",O,O
+who,WP,B-NP,O
+succeeded,VBD,B-VP,O
+Paul,NNP,B-NP,B-PER
+Van,NNP,I-NP,I-PER
+Himst,NNP,I-NP,I-PER
+as,IN,B-PP,O
+coach,NN,B-NP,O
+in,IN,B-PP,O
+April,NNP,B-NP,O
+.,.,O,O

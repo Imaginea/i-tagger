@@ -1,0 +1,15 @@
+0,1,2,3
+He,PRP,B-NP,O
+said,VBD,B-VP,O
+advertising,NN,B-NP,O
+costs,NNS,I-NP,O
+would,MD,B-VP,O
+also,RB,I-VP,O
+increase,VB,I-VP,O
+in,IN,B-PP,O
+the,DT,B-NP,O
+fight,NN,I-NP,O
+for,IN,B-PP,O
+market,NN,B-NP,O
+share,NN,I-NP,O
+.,.,O,O

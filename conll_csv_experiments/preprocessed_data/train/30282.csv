@@ -1,0 +1,12 @@
+0,1,2,3
+Essex,NNP,B-NP,B-ORG
+194-0,NNP,I-NP,O
+(,(,O,O
+G.,NNP,B-NP,B-PER
+Gooch,NNP,I-NP,I-PER
+105,CD,I-NP,O
+not,RB,B-VP,O
+out,RP,B-PRT,O
+",",",",O,O
+D.,NNP,B-NP,B-PER
+Robinson,NNP,I-NP,I-PER

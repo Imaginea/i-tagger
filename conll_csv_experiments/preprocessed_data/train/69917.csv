@@ -1,0 +1,7 @@
+0,1,2,3
+Championship,NNP,B-NP,O
+standings,NNS,I-NP,O
+after,IN,B-PP,O
+seven,CD,B-NP,O
+rounds,NNS,I-NP,O
+:,:,O,O

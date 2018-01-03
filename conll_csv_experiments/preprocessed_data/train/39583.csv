@@ -1,0 +1,11 @@
+0,1,2,3
+Tenacity,CD,B-NP,B-ORG
+70,CD,I-NP,O
+24/08,CD,I-NP,O
+Mideast,JJ,I-NP,B-LOC
+/,SYM,O,O
+South,NNP,B-NP,B-LOC
+Korea,NNP,I-NP,I-LOC
+W145,NNP,I-NP,O
+Samsung,NNP,I-NP,B-ORG
+.,.,O,O

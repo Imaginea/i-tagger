@@ -1,0 +1,8 @@
+0,1,2,3
+Colombia,NNP,B-NP,B-LOC
+police,NN,I-NP,O
+find,VBP,B-VP,O
+marijuana,NN,B-NP,O
+on,IN,B-PP,O
+ship,NN,B-NP,O
+.,.,O,O

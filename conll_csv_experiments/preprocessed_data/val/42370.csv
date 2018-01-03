@@ -1,0 +1,8 @@
+0,1,2,3
+AMSTERDAM,NN,B-NP,B-LOC
+1996-08-31,CD,I-NP,O
+The,DT,B-NP,B-LOC
+Netherlands,NNP,I-NP,I-LOC
+drew,VBD,B-VP,O
+2-2,RB,B-ADVP,O
+with,IN,B-PP,O

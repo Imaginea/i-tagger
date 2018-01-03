@@ -1,0 +1,15 @@
+0,1,2,3
+4,CD,B-NP,O
+-,:,I-NP,O
+Marcelo,NNP,I-NP,B-PER
+Rios,NNP,I-NP,I-PER
+(,(,O,O
+Chile,NNP,B-NP,B-LOC
+),),O,O
+beat,VB,B-VP,O
+Patrick,NNP,B-NP,B-PER
+Rafter,NNP,I-NP,I-PER
+(,(,O,O
+Australia,NNP,B-NP,B-LOC
+),),O,O
+0-6,CD,B-NP,O

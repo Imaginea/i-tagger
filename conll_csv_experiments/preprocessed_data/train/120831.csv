@@ -1,0 +1,9 @@
+0,1,2,3
+Alan,NNP,B-NP,B-PER
+Mullally,NNP,I-NP,I-PER
+3,CD,I-NP,O
+5,CD,I-NP,O
+1,CD,I-NP,O
+39,CD,I-NP,O
+24,CD,I-NP,O
+9.75,CD,I-NP,O

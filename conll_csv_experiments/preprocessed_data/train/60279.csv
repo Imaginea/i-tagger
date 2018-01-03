@@ -1,0 +1,19 @@
+0,1,2,3
+ ,O,O,<UNK>
+For,IN,B-PP,O
+the,DT,B-NP,O
+first,JJ,I-NP,O
+period,NN,I-NP,O
+we,PRP,B-NP,O
+were,VBD,B-VP,O
+held,VBN,I-VP,O
+in,IN,B-PP,O
+a,DT,B-NP,O
+small,JJ,I-NP,O
+room,NN,I-NP,O
+with,IN,B-PP,O
+no,DT,B-NP,O
+bed,NN,I-NP,O
+or,CC,I-NP,O
+anything,NN,I-NP,O
+.,.,O,O

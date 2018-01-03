@@ -1,0 +1,8 @@
+0,1,2,3
+Iran,NNP,B-NP,B-LOC
+accuses,VBZ,B-VP,O
+Iraq,NNP,B-NP,B-LOC
+of,IN,B-PP,O
+ceasefire,NN,B-NP,O
+violations,NNS,I-NP,O
+.,.,O,O

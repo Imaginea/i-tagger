@@ -1,0 +1,15 @@
+0,1,2,3
+Tim,NNP,B-NP,B-PER
+Henman,NNP,I-NP,I-PER
+(,(,O,O
+Britain,NNP,B-NP,B-LOC
+),),O,O
+beat,VB,B-VP,O
+Doug,NNP,B-NP,B-PER
+Flach,NNP,I-NP,I-PER
+(,(,O,O
+U.S.,NNP,B-NP,B-LOC
+),),O,O
+6-3,CD,B-NP,O
+6-4,CD,I-NP,O
+6-2,CD,I-NP,O

@@ -1,0 +1,26 @@
+0,1,2,3
+ ,O,O,<UNK>
+If,IN,B-SBAR,O
+there,EX,B-NP,O
+are,VBP,B-VP,O
+any,DT,B-NP,O
+movements,NNS,I-NP,O
+toward,IN,B-PP,O
+freer,JJR,B-NP,O
+trade,NN,I-NP,O
+",",",",O,O
+then,RB,B-ADVP,O
+Singapore,NNP,B-NP,B-LOC
+'s,POS,B-NP,O
+economy,NN,I-NP,O
+and,CC,O,O
+the,DT,B-NP,O
+electorate,NN,I-NP,O
+would,MD,B-VP,O
+gain,VB,I-VP,O
+",",",",O,O
+ ,O,O,<UNK>
+he,PRP,B-NP,O
+said,VBD,B-VP,O
+.,.,O,O
+ ,O,O,<UNK>

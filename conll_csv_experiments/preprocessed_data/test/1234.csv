@@ -1,0 +1,8 @@
+0,1,2,3
+10.,CD,B-NP,O
+Troy,NNP,I-NP,B-PER
+Benson,NNP,I-NP,I-PER
+(,(,O,O
+U.S.,NNP,B-NP,B-LOC
+),),O,O
+22.56,CD,B-NP,O

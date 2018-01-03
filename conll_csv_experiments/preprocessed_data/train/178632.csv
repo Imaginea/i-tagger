@@ -1,0 +1,8 @@
+0,1,2,3
+Latest,JJS,B-NP,O
+Prior,RB,B-ADVP,O
+Amount,NN,B-NP,O
+$,$,I-NP,O
+0.69,CD,I-NP,O
+$,$,I-NP,O
+0.69,CD,I-NP,O

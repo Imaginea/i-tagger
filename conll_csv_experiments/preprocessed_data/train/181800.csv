@@ -1,0 +1,11 @@
+0,1,2,3
+RTRS,NNS,B-NP,B-ORG
+-,:,O,O
+Queensland,NNP,B-NP,B-LOC
+gunman,NN,I-NP,O
+evades,VBZ,B-VP,O
+police,NN,B-NP,O
+in,IN,B-PP,O
+bush,NN,B-NP,O
+hunt,NN,I-NP,O
+.,.,O,O

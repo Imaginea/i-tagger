@@ -1,0 +1,15 @@
+0,1,2,3
+ ,O,O,<UNK>
+The,DT,B-NP,O
+fundamental,JJ,I-NP,O
+problem,NN,I-NP,O
+we,PRP,B-NP,O
+have,VBP,B-VP,O
+with,IN,B-PP,O
+the,DT,B-NP,O
+Commonwealth,NNP,I-NP,B-ORG
+is,VBZ,B-VP,O
+our,PRP$,B-NP,O
+unfair,JJ,I-NP,O
+suspension,NN,I-NP,O
+.,.,O,O

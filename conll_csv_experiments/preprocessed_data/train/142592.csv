@@ -1,0 +1,16 @@
+0,1,2,3
+AOL,NNP,B-NP,B-ORG
+is,VBZ,B-VP,O
+the,DT,B-NP,O
+leading,VBG,I-NP,O
+global,JJ,I-NP,O
+commercial,JJ,I-NP,O
+online,NN,I-NP,O
+service,NN,I-NP,O
+with,IN,B-PP,O
+some,DT,B-NP,O
+six,CD,I-NP,O
+million,CD,I-NP,O
+subscribers,NNS,I-NP,O
+worldwide,JJ,B-ADJP,O
+.,.,O,O

@@ -1,0 +1,8 @@
+0,1,2,3
+9.,CD,B-NP,O
+Agnieszka,NNP,I-NP,B-PER
+Godras,NNP,I-NP,I-PER
+(,(,O,O
+Poland,NNP,B-NP,B-LOC
+),),O,O
+8,CD,B-NP,O

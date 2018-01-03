@@ -1,0 +1,12 @@
+0,1,2,3
+I,PRP,B-NP,O
+was,VBD,B-VP,O
+just,RB,I-VP,O
+trying,VBG,I-VP,O
+to,TO,I-VP,O
+put,VB,I-VP,O
+the,DT,B-NP,O
+ball,NN,I-NP,O
+in,IN,B-PP,O
+play,NN,B-NP,O
+.,.,O,O

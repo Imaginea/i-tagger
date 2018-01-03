@@ -1,0 +1,8 @@
+0,1,2,3
+Kornblum,NN,B-NP,B-PER
+",",",",O,O
+Milosevic,NNP,B-NP,B-PER
+discuss,VBP,B-VP,O
+election,NN,B-NP,O
+crisis,NN,I-NP,O
+.,.,O,O

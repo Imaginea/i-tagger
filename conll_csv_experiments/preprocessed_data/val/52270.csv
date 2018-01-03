@@ -1,0 +1,40 @@
+0,1,2,3
+ ,O,O,<UNK>
+Yesterday,NN,B-NP,O
+the,DT,B-NP,O
+president,NN,I-NP,O
+ordered,VBD,B-VP,O
+the,DT,B-NP,O
+Department,NNP,I-NP,B-ORG
+of,IN,B-PP,I-ORG
+Defense,NN,B-NP,I-ORG
+to,TO,B-VP,O
+take,VB,I-VP,O
+prudent,JJ,B-NP,O
+planning,NN,I-NP,O
+steps,NNS,I-NP,O
+to,TO,B-VP,O
+have,VB,I-VP,O
+forces,NNS,B-NP,O
+ready,JJ,B-ADJP,O
+to,TO,B-VP,O
+deploy,VB,I-VP,O
+to,TO,B-PP,O
+the,DT,B-NP,O
+region,NN,I-NP,O
+should,MD,O,O
+he,PRP,B-NP,O
+direct,VBP,B-VP,O
+us,PRP,B-NP,O
+to,TO,B-VP,O
+do,VB,I-VP,O
+so,RB,B-ADVP,O
+",",",",O,O
+ ,O,O,<UNK>
+Pentagon,NNP,B-NP,B-ORG
+spokesman,NN,I-NP,O
+Doug,NNP,I-NP,B-PER
+Kennett,NNP,I-NP,I-PER
+said,VBD,B-VP,O
+.,.,O,O
+ ,O,O,<UNK>

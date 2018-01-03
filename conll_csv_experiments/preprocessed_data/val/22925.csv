@@ -1,0 +1,7 @@
+0,1,2,3
+They,PRP,B-NP,O
+were,VBD,B-VP,O
+immediately,RB,I-VP,O
+turned,VBN,I-VP,O
+back,RB,B-PRT,O
+.,.,O,O

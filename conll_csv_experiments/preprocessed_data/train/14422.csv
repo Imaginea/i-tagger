@@ -1,0 +1,4 @@
+0,1,2,3
+London,NNP,B-NP,B-LOC
+shipsales,NNS,I-NP,O
+.,.,O,O

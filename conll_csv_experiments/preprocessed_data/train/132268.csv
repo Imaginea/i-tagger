@@ -1,0 +1,26 @@
+0,1,2,3
+ ,O,O,<UNK>
+The,DT,B-NP,O
+police,NN,I-NP,O
+interrogated,VBN,B-VP,O
+several,JJ,B-NP,O
+Slovak,NNP,I-NP,B-MISC
+girls,NNS,I-NP,O
+who,WP,B-NP,O
+said,VBD,B-VP,O
+that,IN,B-SBAR,O
+they,PRP,B-NP,O
+had,VBD,B-VP,O
+been,VBN,I-VP,O
+invited,VBN,I-VP,O
+by,IN,B-PP,O
+Mark,NNP,B-NP,B-PER
+Dutroux,NNP,I-NP,I-PER
+to,TO,B-VP,O
+visit,VB,I-VP,O
+Belgium,NNP,B-NP,B-LOC
+",",",",O,O
+ ,O,O,<UNK>
+Gajdos,NNP,B-NP,B-PER
+said,VBD,B-VP,O
+.,.,O,O

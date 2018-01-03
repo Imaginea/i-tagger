@@ -1,0 +1,6 @@
+0,1,2,3
+A.,NNP,B-NP,B-PER
+Gurusinha,NNP,I-NP,I-PER
+run,VBP,B-VP,O
+out,RP,B-PRT,O
+16,CD,B-NP,O

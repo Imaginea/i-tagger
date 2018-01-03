@@ -1,0 +1,20 @@
+0,1,2,3
+When,WRB,B-ADVP,O
+asked,VBD,B-VP,O
+specifically,RB,B-ADVP,O
+if,IN,B-SBAR,O
+he,PRP,B-NP,O
+was,VBD,B-VP,O
+suggesting,VBG,I-VP,O
+a,DT,B-NP,O
+ban,NN,I-NP,O
+on,IN,B-PP,O
+cigarettes,NNS,B-NP,O
+",",",",O,O
+Dole,NNP,B-NP,B-PER
+replied,VBD,B-VP,O
+:,:,O,O
+ ,O,O,<UNK>
+Oh,UH,B-INTJ,O
+no,UH,I-INTJ,O
+.,.,O,O

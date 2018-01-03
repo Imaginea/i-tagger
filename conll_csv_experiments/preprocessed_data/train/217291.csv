@@ -1,0 +1,5 @@
+0,1,2,3
+BARRY,NNP,B-NP,B-LOC
+",",",",O,O
+Wales,NNP,B-NP,B-LOC
+1996-08-30,CD,I-NP,O

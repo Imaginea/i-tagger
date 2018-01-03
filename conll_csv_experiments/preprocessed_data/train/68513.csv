@@ -1,0 +1,12 @@
+0,1,2,3
+He,PRP,B-NP,O
+lost,VBD,B-VP,O
+to,TO,B-PP,O
+Greg,NNP,B-NP,B-PER
+Norman,NNP,I-NP,I-PER
+in,IN,B-PP,O
+sudden,JJ,B-NP,O
+death,NN,I-NP,O
+last,JJ,B-NP,O
+year,NN,I-NP,O
+.,.,O,O

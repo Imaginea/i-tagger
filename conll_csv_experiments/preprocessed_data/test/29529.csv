@@ -1,0 +1,8 @@
+0,1,2,3
+Italy,NN,B-NP,B-LOC
+commission,NN,I-NP,O
+concludes,VBZ,B-VP,O
+1997,CD,B-NP,O
+budget,NN,I-NP,O
+examination,NN,I-NP,O
+.,.,O,O

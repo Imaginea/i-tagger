@@ -1,0 +1,8 @@
+0,1,2,3
+PARIS,NNP,B-NP,B-LOC
+1996-08-28,CD,I-NP,O
+Leading,JJ,B-NP,O
+scorers,NNS,I-NP,O
+in,IN,B-PP,O
+the,DT,B-NP,O
+French,JJ,I-NP,B-MISC

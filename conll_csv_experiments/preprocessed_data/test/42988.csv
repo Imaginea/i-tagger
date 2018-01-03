@@ -1,0 +1,8 @@
+0,1,2,3
+2.,CD,B-NP,O
+Sergey,NNP,I-NP,B-PER
+Klevchenya,NNP,I-NP,I-PER
+(,(,O,O
+Russia,NNP,B-NP,B-LOC
+),),O,O
+1:16.31,CD,B-NP,O

@@ -1,0 +1,9 @@
+0,1,2,3
+GLASGOW,NNP,B-NP,B-LOC
+1996-12-07,CD,I-NP,O
+Results,NNS,B-NP,O
+of,IN,B-PP,O
+Scottish,JJ,B-NP,B-MISC
+league,NN,I-NP,O
+and,CC,I-NP,O
+cup,NN,I-NP,O

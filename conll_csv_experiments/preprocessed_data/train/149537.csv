@@ -1,0 +1,13 @@
+0,1,2,3
+71,CD,B-NP,O
+Steven,NNP,I-NP,B-PER
+Bottomley,NNP,I-NP,I-PER
+",",",",O,O
+Ove,NNP,B-NP,B-PER
+Sellberg,NNP,I-NP,I-PER
+(,(,O,O
+Sweden,NNP,B-NP,B-LOC
+),),O,O
+",",",",O,O
+Joakim,NNP,B-NP,B-PER
+Haeggman,NNP,I-NP,I-PER

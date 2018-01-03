@@ -1,0 +1,17 @@
+0,1,2,3
+Algeria,NNP,B-NP,B-LOC
+said,VBD,B-VP,O
+ ,O,O,<UNK>
+they,PRP,B-NP,O
+are,VBP,B-VP,O
+clearly,RB,I-VP,O
+working,VBG,I-VP,O
+to,TO,I-VP,O
+undermine,VB,I-VP,O
+the,DT,B-NP,O
+stability,NN,I-NP,O
+ ,O,O,<UNK>
+of,IN,B-PP,O
+Arab,JJ,B-NP,B-MISC
+countries,NNS,I-NP,O
+.,.,O,O

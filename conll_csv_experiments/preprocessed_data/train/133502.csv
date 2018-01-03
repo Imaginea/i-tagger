@@ -1,0 +1,11 @@
+0,1,2,3
+Two,CD,B-NP,O
+of,IN,B-PP,O
+the,DT,B-NP,O
+suspected,VBN,I-NP,O
+abductors,NNS,I-NP,O
+have,VBP,B-VP,O
+since,IN,I-VP,O
+been,VBN,I-VP,O
+arrested,VBN,I-VP,O
+.,.,O,O

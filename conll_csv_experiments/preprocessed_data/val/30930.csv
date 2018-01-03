@@ -1,0 +1,10 @@
+0,1,2,3
+The,DT,B-NP,O
+Indians,NNPS,I-NP,B-MISC
+had,VBD,B-VP,O
+their,PRP$,B-NP,O
+four-game,JJ,I-NP,O
+winning,VBG,I-NP,O
+streak,NN,I-NP,O
+stopped,VBD,B-VP,O
+.,.,O,O

@@ -1,0 +1,11 @@
+0,1,2,3
+Dutch,JJ,B-NP,B-MISC
+government,NN,I-NP,O
+wo,MD,B-VP,O
+n't,RB,I-VP,O
+pay,VB,I-VP,O
+ransom,NN,B-NP,O
+for,IN,B-PP,O
+kidnap,VB,B-VP,O
+victims,NNS,B-NP,O
+.,.,O,O

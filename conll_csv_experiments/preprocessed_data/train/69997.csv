@@ -1,0 +1,10 @@
+0,1,2,3
+1.,CD,B-NP,O
+Sarka,NNP,I-NP,B-PER
+Kasparkova,NNP,I-NP,I-PER
+(,(,O,O
+Czech,NNP,B-NP,B-LOC
+Republic,NNP,I-NP,I-LOC
+),),O,O
+14.84,CD,B-NP,O
+metres,NNS,I-NP,O

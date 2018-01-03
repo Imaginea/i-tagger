@@ -1,0 +1,8 @@
+0,1,2,3
+--,:,B-NP,O
+Budapest,NNP,I-NP,B-LOC
+newsroom,NN,I-NP,O
+",",",",O,O
++361,CD,B-NP,O
+266,CD,I-NP,O
+2410,CD,I-NP,O

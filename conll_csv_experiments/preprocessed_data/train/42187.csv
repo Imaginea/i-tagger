@@ -1,0 +1,30 @@
+0,1,2,3
+ ,O,O,<UNK>
+In,IN,B-PP,O
+these,DT,B-NP,O
+weekly,JJ,I-NP,O
+lunches,NNS,I-NP,O
+we,PRP,B-NP,O
+are,VBP,B-VP,O
+going,VBG,I-VP,O
+to,TO,I-VP,O
+get,VB,I-VP,O
+to,TO,I-VP,O
+know,VB,I-VP,O
+the,DT,B-NP,O
+problems,NNS,I-NP,O
+of,IN,B-PP,O
+the,DT,B-NP,O
+Indian,NNP,I-NP,B-MISC
+",",",",O,O
+mixed-race,CD,B-NP,O
+",",",",O,O
+black,JJ,B-ADJP,O
+and,CC,O,O
+peasant,NN,B-NP,O
+sectors,NNS,I-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+he,PRP,B-NP,O
+said,VBD,B-VP,O
+.,.,O,O

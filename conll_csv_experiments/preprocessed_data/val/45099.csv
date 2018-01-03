@@ -1,0 +1,9 @@
+0,1,2,3
+S.,NNP,B-NP,B-MISC
+African,NNP,I-NP,I-MISC
+Afrikaners,NNPS,I-NP,B-MISC
+still,RB,B-ADVP,O
+seek,VBP,B-VP,O
+own,JJ,B-NP,O
+territory,NN,I-NP,O
+.,.,O,O

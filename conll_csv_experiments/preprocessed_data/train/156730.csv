@@ -1,0 +1,17 @@
+0,1,2,3
+Barcelona,NNP,B-NP,B-ORG
+had,VBD,B-VP,O
+won,VBN,I-VP,O
+the,DT,B-NP,O
+first,JJ,I-NP,O
+leg,NN,I-NP,O
+5-2,CD,I-NP,O
+but,CC,O,O
+the,DT,B-NP,O
+second,JJ,I-NP,O
+leg,NN,I-NP,O
+was,VBD,B-VP,O
+a,DT,B-NP,O
+different,JJ,I-NP,O
+story,NN,I-NP,O
+.,.,O,O

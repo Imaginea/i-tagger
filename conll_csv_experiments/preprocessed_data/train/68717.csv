@@ -1,0 +1,17 @@
+0,1,2,3
+284,CD,B-NP,O
+D.A.,NNP,I-NP,B-PER
+Weibring,NNP,B-VP,I-PER
+73,CD,B-NP,O
+69,CD,I-NP,O
+74,CD,B-NP,O
+68,CD,I-NP,O
+",",",",O,O
+Tim,NNP,B-NP,B-PER
+Herron,NNP,I-NP,I-PER
+70,CD,I-NP,O
+67,CD,I-NP,O
+75,CD,I-NP,O
+72,CD,I-NP,O
+",",",",O,O
+Mark,NNP,B-NP,B-PER

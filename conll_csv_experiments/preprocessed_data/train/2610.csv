@@ -1,0 +1,15 @@
+0,1,2,3
+It,PRP,B-NP,O
+said,VBD,B-VP,O
+about,IN,B-NP,O
+100,CD,I-NP,O
+Iraqi,JJ,I-NP,B-MISC
+Kurds,NNPS,I-NP,I-MISC
+were,VBD,B-VP,O
+killed,VBN,I-VP,O
+or,CC,I-VP,O
+wounded,VBN,I-VP,O
+in,IN,B-PP,O
+the,DT,B-NP,O
+attack,NN,I-NP,O
+.,.,O,O

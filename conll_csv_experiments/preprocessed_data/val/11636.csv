@@ -1,0 +1,13 @@
+0,1,2,3
+Yeltsin,NNP,B-NP,B-PER
+has,VBZ,B-VP,O
+said,VBN,I-VP,O
+any,DT,B-NP,O
+deal,NN,I-NP,O
+should,MD,B-VP,O
+preserve,VB,I-VP,O
+Russia,NNP,B-NP,B-LOC
+'s,POS,B-NP,O
+territorial,JJ,I-NP,O
+integrity,NN,I-NP,O
+.,.,O,O

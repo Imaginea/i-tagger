@@ -1,0 +1,24 @@
+0,1,2,3
+ ,O,O,<UNK>
+But,CC,O,O
+the,DT,B-NP,O
+more,RBR,I-NP,O
+educated,VBN,B-VP,O
+public,JJ,B-ADJP,O
+will,MD,B-VP,O
+realise,VB,I-VP,O
+that,IN,B-SBAR,O
+these,DT,B-NP,O
+kind,NN,I-NP,O
+of,IN,B-PP,O
+things,NNS,B-NP,O
+are,VBP,B-VP,O
+important,JJ,B-ADJP,O
+for,IN,B-PP,O
+Singapore,NNP,B-NP,B-LOC
+as,IN,B-PP,O
+a,DT,B-NP,O
+small,JJ,I-NP,O
+economy,NN,I-NP,O
+.,.,O,O
+ ,O,O,<UNK>

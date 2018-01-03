@@ -1,0 +1,13 @@
+0,1,2,3
+They,PRP,B-NP,O
+must,MD,B-VP,O
+be,VB,I-VP,O
+having,VBG,I-VP,O
+a,DT,B-NP,O
+tough,JJ,I-NP,O
+time,NN,I-NP,O
+of,IN,B-PP,O
+it,PRP,B-NP,O
+now,RB,B-ADVP,O
+.,.,O,O
+ ,O,O,<UNK>

@@ -1,0 +1,5 @@
+0,1,2,3
+Leonard,NNP,B-NP,B-PER
+Santorelli,NNP,I-NP,I-PER
+LONDON,NNP,B-NP,B-LOC
+1996-08-27,CD,I-NP,O

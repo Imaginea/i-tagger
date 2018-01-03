@@ -1,0 +1,10 @@
+0,1,2,3
+Unknown,JJ,B-ADJP,O
+group,NN,B-NP,O
+kidnaps,NNS,I-NP,O
+Dutch,JJ,I-NP,B-MISC
+couple,NN,I-NP,O
+in,IN,B-PP,O
+Costa,NNP,B-NP,B-LOC
+Rica,NNP,I-NP,I-LOC
+.,.,O,O

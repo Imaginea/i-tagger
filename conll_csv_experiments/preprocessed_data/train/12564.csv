@@ -1,0 +1,13 @@
+0,1,2,3
+Cooper,NNP,B-NP,B-PER
+67,CD,B-NP,O
+Jeff,NNP,B-NP,B-PER
+Hawksworth,NNP,I-NP,I-PER
+",",",",O,O
+Padraig,NNP,B-NP,B-PER
+Harrington,NNP,I-NP,I-PER
+(,(,O,O
+Ireland,NNP,B-NP,B-LOC
+),),O,O
+",",",",O,O
+Michael,NNP,B-NP,B-PER

@@ -1,0 +1,9 @@
+0,1,2,3
+Fifty,CD,B-NP,O
+Russians,NNPS,I-NP,B-MISC
+die,VBP,B-VP,O
+in,IN,B-PP,O
+clash,NN,B-NP,O
+with,IN,B-PP,O
+rebels-Interfax,NN,B-NP,O
+.,.,O,O

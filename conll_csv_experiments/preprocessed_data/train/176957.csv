@@ -1,0 +1,17 @@
+0,1,2,3
+PRECIOUS,JJ,B-NP,O
+METALS,NNS,I-NP,O
+Gold,NN,B-NP,O
+fixed,VBN,B-VP,O
+at,IN,B-PP,O
+$,$,B-NP,O
+388.50,CD,I-NP,O
+versus,IN,B-PP,O
+Tuesday,NNP,B-NP,O
+'s,POS,B-NP,O
+London,NNP,I-NP,B-LOC
+close,NN,I-NP,O
+of,IN,B-PP,O
+$,$,B-NP,O
+388.55,CD,I-NP,O
+.,.,O,O

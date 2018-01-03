@@ -1,0 +1,36 @@
+0,1,2,3
+The,DT,B-NP,O
+auto,NN,I-NP,O
+industry,NN,I-NP,O
+was,VBD,B-VP,O
+about,RB,B-NP,O
+three,CD,I-NP,O
+to,TO,I-NP,O
+six,CD,I-NP,O
+years,NNS,I-NP,O
+away,RB,B-PP,O
+from,IN,B-PP,O
+introducing,VBG,B-VP,O
+ ,O,O,<UNK>
+smart,JJ,B-ADJP,O
+ ,O,O,<UNK>
+air,NN,B-NP,O
+bags,NNS,I-NP,O
+with,IN,B-PP,O
+the,DT,B-NP,O
+ability,NN,I-NP,O
+to,TO,B-VP,O
+detect,VB,I-VP,O
+the,DT,B-NP,O
+size,NN,I-NP,O
+and,CC,I-NP,O
+position,NN,I-NP,O
+of,IN,B-PP,O
+an,DT,B-NP,O
+occupant,NN,I-NP,O
+and,CC,O,O
+adjust,VB,B-VP,O
+inflation,NN,B-NP,O
+pressures,NNS,I-NP,O
+accordingly,RB,B-ADVP,O
+.,.,O,O

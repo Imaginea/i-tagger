@@ -1,0 +1,8 @@
+0,1,2,3
+TORONTO,TO,B-VP,B-LOC
+1996-08-25,CD,B-NP,O
+Results,NNS,B-NP,O
+from,IN,B-PP,O
+the,DT,B-NP,O
+Canadian,NNP,I-NP,B-MISC
+Open,NNP,I-NP,I-MISC

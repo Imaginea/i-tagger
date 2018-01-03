@@ -1,0 +1,28 @@
+0,1,2,3
+Dai,NNP,B-NP,B-PER
+'s,POS,I-NP,O
+most,RBS,B-ADJP,O
+famous,JJ,I-ADJP,O
+book,NN,B-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+Ren,NNP,B-NP,B-MISC
+A,NNP,I-NP,I-MISC
+Ren,NNP,I-NP,I-MISC
+ ,O,O,<UNK>
+(,(,O,O
+People,NNS,B-NP,B-MISC
+",",",",O,I-MISC
+People,NNP,B-NP,I-MISC
+),),O,O
+",",",",O,O
+was,VBD,B-VP,O
+translated,VBN,I-VP,O
+into,IN,B-PP,O
+German,JJ,B-NP,B-MISC
+and,CC,I-NP,O
+English,NNP,I-NP,B-MISC
+",",",",O,O
+he,PRP,B-NP,O
+said,VBD,B-VP,O
+.,.,O,O

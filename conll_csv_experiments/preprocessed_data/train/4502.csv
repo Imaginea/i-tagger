@@ -1,0 +1,7 @@
+0,1,2,3
+Cash,NN,B-NP,O
+and,CC,I-NP,O
+Cash,NNP,I-NP,O
+Equivalents,NNS,I-NP,O
+"2,386",CD,B-NP,O
+93,CD,I-NP,O

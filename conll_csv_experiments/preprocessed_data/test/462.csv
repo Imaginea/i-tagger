@@ -1,0 +1,7 @@
+0,1,2,3
+ROME,VB,B-NP,B-LOC
+1996-12-06,CD,I-NP,O
+Italy,NNP,B-NP,B-LOC
+recalled,VBD,B-VP,O
+Marcello,NNP,B-NP,B-PER
+Cuttitta,NNP,I-NP,I-PER

@@ -1,0 +1,17 @@
+0,1,2,3
+There,EX,B-NP,O
+was,VBD,B-VP,O
+also,RB,B-ADVP,O
+concern,NN,B-NP,O
+over,IN,B-PP,O
+injuries,NNS,B-NP,O
+to,TO,B-PP,O
+Paul,NNP,B-NP,B-PER
+Gascoigne,NNP,I-NP,I-PER
+",",",",O,O
+Les,NNP,B-NP,B-PER
+Ferdinand,NNP,I-NP,I-PER
+and,CC,I-NP,O
+David,NNP,I-NP,B-PER
+Batty,NNP,I-NP,I-PER
+.,.,O,O

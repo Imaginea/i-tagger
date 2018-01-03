@@ -1,0 +1,6 @@
+0,1,2,3
+Sport,NNP,B-NP,B-ORG
+Recife,NN,I-NP,I-ORG
+3,CD,I-NP,O
+Coritiba,NNP,I-NP,B-ORG
+0,CD,I-NP,O

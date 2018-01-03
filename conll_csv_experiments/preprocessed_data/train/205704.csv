@@ -1,0 +1,9 @@
+0,1,2,3
+Oasis,NNP,B-NP,B-ORG
+singer,NN,I-NP,O
+heads,NNS,I-NP,O
+for,IN,B-PP,O
+U.S.,NNP,B-NP,B-LOC
+after,IN,B-PP,O
+illness,NN,B-NP,O
+.,.,O,O

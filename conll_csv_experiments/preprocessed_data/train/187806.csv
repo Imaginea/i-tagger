@@ -1,0 +1,12 @@
+0,1,2,3
+45.810,CD,B-NP,O
+4.,CD,B-NP,O
+Greece,NNP,I-NP,B-LOC
+(,(,O,O
+Dimitrios,NNPS,B-NP,B-PER
+Georgalis,NNPS,I-NP,I-PER
+",",",",O,O
+Georgios,NNP,B-NP,B-PER
+Chimonetos,NNP,I-NP,I-PER
+",",",",O,O
+Lampros,NNP,B-NP,B-PER

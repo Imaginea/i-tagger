@@ -1,0 +1,11 @@
+0,1,2,3
+At,IN,B-PP,O
+Chester-le-Street,NNP,B-NP,B-LOC
+:,:,O,O
+Glamorgan,NNP,B-NP,B-ORG
+beat,VBD,B-VP,O
+Durham,NNP,B-NP,B-ORG
+by,IN,B-PP,O
+141,CD,B-NP,O
+runs,NNS,I-NP,O
+.,.,O,O

@@ -1,0 +1,12 @@
+0,1,2,3
+Man,NN,B-NP,O
+stole,VBD,B-VP,O
+pigs,NNS,B-NP,O
+",",",",O,O
+tipped,VBD,B-VP,O
+strippers,NNS,B-NP,O
+",",",",O,O
+gets,VBZ,B-VP,O
+10,CD,B-NP,O
+years,NNS,I-NP,O
+.,.,O,O

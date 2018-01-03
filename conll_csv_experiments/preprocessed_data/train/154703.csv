@@ -1,0 +1,17 @@
+0,1,2,3
+8,CD,B-NP,O
+-,:,I-NP,O
+Lindsay,NNP,I-NP,B-PER
+Davenport,NNP,I-NP,I-PER
+(,(,O,O
+U.S.,NNP,B-NP,B-LOC
+),),O,O
+beat,VB,B-VP,O
+Henrietta,NNP,B-NP,B-PER
+Nagyova,NNP,I-NP,I-PER
+(,(,O,O
+Slovakia,NNP,B-NP,B-LOC
+),),O,O
+6-,CD,B-NP,O
+0,CD,I-NP,O
+6-4,CD,I-NP,O

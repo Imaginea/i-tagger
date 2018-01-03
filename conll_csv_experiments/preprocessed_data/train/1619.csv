@@ -1,0 +1,10 @@
+0,1,2,3
+Port,NN,B-NP,O
+conditions,NNS,I-NP,O
+update,VBP,B-VP,O
+-,:,O,O
+Syria,NNP,B-NP,B-LOC
+-,:,O,O
+Lloyds,NNP,B-NP,B-ORG
+Shipping,NNP,I-NP,I-ORG
+.,.,O,O

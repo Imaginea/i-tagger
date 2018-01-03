@@ -1,0 +1,31 @@
+0,1,2,3
+The,DT,B-NP,O
+men,NNS,I-NP,O
+shouted,VBD,B-VP,O
+ ,O,O,<UNK>
+Allahu,NNP,B-NP,B-PER
+Akbar,NNP,I-NP,O
+ ,O,O,<UNK>
+(,(,O,O
+God,NNP,B-NP,B-PER
+is,VBZ,B-VP,O
+Greatest,NNP,B-NP,O
+),),O,O
+as,IN,B-PP,O
+a,DT,B-NP,O
+former,JJ,I-NP,O
+Islamist,NNP,I-NP,B-MISC
+deputy,NN,I-NP,O
+",",",",O,O
+Ahmed,NNP,B-NP,B-PER
+Kafawin,NNP,B-NP,I-PER
+",",",",O,O
+told,VBD,B-VP,O
+soldiers,NNS,B-NP,O
+the,DT,B-NP,O
+crowd,NN,I-NP,O
+would,MD,B-VP,O
+not,RB,I-VP,O
+cause,VB,I-VP,O
+trouble,NN,B-NP,O
+.,.,O,O

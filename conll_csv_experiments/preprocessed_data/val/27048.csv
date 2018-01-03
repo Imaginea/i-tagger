@@ -1,0 +1,11 @@
+0,1,2,3
+HK,NNP,B-NP,B-LOC
+has,VBZ,B-VP,O
+infrastructure,NN,B-NP,O
+in,IN,B-PP,O
+place,NN,B-NP,O
+for,IN,B-PP,O
+post-97,JJ,B-NP,O
+-,:,I-NP,O
+Tsang,NNP,I-NP,B-PER
+.,.,O,O

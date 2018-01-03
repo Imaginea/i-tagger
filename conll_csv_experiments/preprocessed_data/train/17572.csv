@@ -1,0 +1,17 @@
+0,1,2,3
+Government,NN,B-NP,O
+bond,NN,I-NP,O
+yields,NNS,I-NP,O
+:,:,O,O
+(,(,O,O
+2-yr,CD,B-NP,O
+1998,CD,I-NP,O
+/,SYM,O,O
+J,NNP,B-NP,O
+),),O,O
+"25.49,(3-yr",JJ,O,O
+1999,CD,B-ADJP,O
+/,SYM,O,O
+c,SYM,O,O
+),),O,O
+24.44,CD,B-NP,O

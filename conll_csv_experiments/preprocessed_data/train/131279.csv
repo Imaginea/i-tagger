@@ -1,0 +1,13 @@
+0,1,2,3
+This,DT,B-NP,O
+support,NN,I-NP,O
+only,RB,B-VP,O
+inched,VBD,I-VP,O
+up,IN,B-PP,O
+to,TO,B-PP,O
+49,CD,B-NP,O
+in,IN,B-PP,O
+the,DT,B-NP,O
+second,JJ,I-NP,O
+vote,NN,I-NP,O
+.,.,O,O

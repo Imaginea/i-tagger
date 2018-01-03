@@ -1,0 +1,10 @@
+0,1,2,3
+(,(,O,O
+Norway,NNP,B-NP,B-LOC
+),),O,O
+",",",",O,O
+Stephen,NNP,B-NP,B-PER
+McAllister,NNP,I-NP,I-PER
+",",",",O,O
+Neal,NNP,B-NP,B-PER
+Briggs,NNP,I-NP,I-PER

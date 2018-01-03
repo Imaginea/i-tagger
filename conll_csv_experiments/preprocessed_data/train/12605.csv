@@ -1,0 +1,14 @@
+0,1,2,3
+(,(,O,O
+Sweden,NNP,B-NP,B-LOC
+),),O,O
+",",",",O,O
+Paul,NNP,B-NP,B-PER
+Eales,NNP,I-NP,I-PER
+",",",",O,O
+David,NNP,B-NP,B-PER
+Williams,NNP,I-NP,I-PER
+",",",",O,O
+Andrew,NNP,B-NP,B-PER
+Coltart,NNP,I-NP,I-PER
+",",",",O,O

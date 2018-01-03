@@ -1,0 +1,14 @@
+0,1,2,3
+Professor,NNP,B-NP,O
+Tom,NNP,I-NP,B-PER
+Lodge,NNP,I-NP,I-PER
+of,IN,B-PP,O
+the,DT,B-NP,O
+University,NNP,I-NP,B-ORG
+of,IN,B-PP,I-ORG
+the,DT,B-NP,I-ORG
+Witwatersrand,NNP,I-NP,I-ORG
+demurred,VBD,B-VP,O
+",",",",O,O
+saying,VBG,B-VP,O
+:,:,O,O

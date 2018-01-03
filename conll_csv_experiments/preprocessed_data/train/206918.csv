@@ -1,0 +1,15 @@
+0,1,2,3
+Some,DT,B-NP,O
+are,VBP,B-VP,O
+commanding,JJ,B-NP,O
+a,DT,I-NP,O
+very,RB,I-NP,O
+good,JJ,I-NP,O
+premium,NN,I-NP,O
+of,IN,B-PP,O
+95,CD,B-NP,O
+cents,NNS,I-NP,O
+to,TO,B-PP,O
+one,CD,B-NP,O
+dollar,NN,I-NP,O
+.,.,O,O

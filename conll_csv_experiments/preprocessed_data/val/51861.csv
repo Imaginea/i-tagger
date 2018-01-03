@@ -1,0 +1,15 @@
+0,1,2,3
+ ,O,O,<UNK>
+It,PRP,B-NP,O
+was,VBD,B-VP,O
+an,DT,B-NP,O
+explosion,NN,I-NP,O
+",",",",O,O
+and,CC,O,O
+then,RB,B-ADVP,O
+it,PRP,B-NP,O
+got,VBD,B-VP,O
+involved,VBN,I-VP,O
+in,IN,B-PP,O
+fire,NN,B-NP,O
+.,.,O,O

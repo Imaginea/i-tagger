@@ -1,0 +1,8 @@
+0,1,2,3
+10.,CD,B-NP,O
+Primoz,NNP,I-NP,B-PER
+Peterka,NNP,I-NP,I-PER
+(,(,O,O
+Slovakia,NNP,B-NP,B-LOC
+),),O,O
+76,CD,B-NP,O

@@ -1,0 +1,21 @@
+0,1,2,3
+ ,O,O,<UNK>
+Remarkably,NNP,B-NP,O
+both,DT,B-NP,O
+the,DT,I-NP,O
+train,NN,I-NP,O
+driver,NN,I-NP,O
+and,CC,O,O
+the,DT,B-NP,O
+truck,NN,I-NP,O
+driver,NN,I-NP,O
+were,VBD,B-VP,O
+not,RB,I-VP,O
+injured,VBN,I-VP,O
+",",",",O,O
+ ,O,O,<UNK>
+the,DT,B-NP,O
+rail,NN,I-NP,O
+spokesman,NN,I-NP,O
+said,VBD,B-VP,O
+.,.,O,O

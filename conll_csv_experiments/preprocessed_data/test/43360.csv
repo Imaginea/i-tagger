@@ -1,0 +1,9 @@
+0,1,2,3
+Scottish,JJ,B-NP,B-MISC
+premier,JJ,I-NP,I-MISC
+division,NN,I-NP,O
+after,IN,B-PP,O
+Saturday,NNP,B-NP,O
+'s,POS,B-NP,O
+matches,NNS,I-NP,O
+:,:,O,O

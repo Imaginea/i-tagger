@@ -1,0 +1,11 @@
+0,1,2,3
+Natural,NNP,B-NP,B-ORG
+Law,NNP,I-NP,I-ORG
+Party,NNP,I-NP,I-ORG
+says,VBZ,B-VP,O
+it,PRP,B-NP,O
+can,MD,B-VP,O
+meditate,VB,I-VP,O
+problems,NNS,B-NP,O
+away,RB,B-ADVP,O
+.,.,O,O

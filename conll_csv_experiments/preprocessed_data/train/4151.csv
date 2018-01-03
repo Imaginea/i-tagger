@@ -1,0 +1,10 @@
+0,1,2,3
+Kindercare,NNP,B-NP,O
+says,VBZ,B-VP,O
+debt,NN,B-NP,O
+buy,VB,B-VP,O
+to,TO,I-VP,O
+hit,VB,I-VP,O
+Q1,CD,B-NP,O
+results,NNS,I-NP,O
+.,.,O,O

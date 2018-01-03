@@ -1,0 +1,10 @@
+0,1,2,3
+The,DT,B-NP,O
+ex-officer,NNS,I-NP,O
+admitted,VBD,B-VP,O
+stashing,NN,B-NP,O
+heroin,NN,I-NP,O
+under,IN,B-PP,O
+his,PRP$,B-NP,O
+mattress,NN,I-NP,O
+.,.,O,O

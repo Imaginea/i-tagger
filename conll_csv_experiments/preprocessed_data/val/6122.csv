@@ -1,0 +1,8 @@
+0,1,2,3
+5.,CD,B-NP,O
+Olabisi,NNP,B-NP,B-PER
+Afolabi,NNP,I-NP,I-PER
+(,(,O,O
+Nigeria,NNP,B-NP,B-LOC
+),),O,O
+51.98,CD,B-NP,O

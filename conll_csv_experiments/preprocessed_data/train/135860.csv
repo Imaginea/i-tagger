@@ -1,0 +1,14 @@
+0,1,2,3
+Trade,NNP,B-NP,O
+was,VBD,B-VP,O
+quiet,JJ,B-ADJP,O
+",",",",O,O
+with,IN,B-PP,O
+no,DT,B-NP,O
+sales,NNS,I-NP,O
+slaughter,NN,I-NP,O
+steers,VBZ,B-VP,O
+or,CC,I-VP,O
+heifers,NNS,B-NP,O
+confirmed,VBD,B-VP,O
+.,.,O,O

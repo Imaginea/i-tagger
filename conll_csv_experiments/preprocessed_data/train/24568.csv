@@ -1,0 +1,33 @@
+0,1,2,3
+ ,O,O,<UNK>
+It,PRP,B-NP,O
+seems,VBZ,B-VP,O
+that,IN,B-SBAR,O
+from,IN,B-PP,O
+across,IN,B-PP,O
+the,DT,B-NP,O
+border,NN,I-NP,O
+there,EX,B-NP,O
+is,VBZ,B-VP,O
+going,VBG,I-VP,O
+to,TO,I-VP,O
+be,VB,I-VP,O
+a,DT,B-NP,O
+planned,JJ,I-NP,O
+attempt,NN,I-NP,O
+to,TO,B-VP,O
+disrupt,VB,I-VP,O
+the,DT,B-NP,O
+elections,NNS,I-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+Inderjit,NNP,B-NP,B-PER
+Gupta,NNP,I-NP,I-PER
+told,VBD,B-VP,O
+reporters,NNS,B-NP,O
+in,IN,B-PP,O
+the,DT,B-NP,O
+state,NN,I-NP,O
+capital,NN,I-NP,O
+Srinagar,NNP,I-NP,B-LOC
+.,.,O,O

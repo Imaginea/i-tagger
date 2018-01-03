@@ -1,0 +1,9 @@
+0,1,2,3
+Berlin,NNP,B-NP,B-LOC
+(,(,O,O
+total,JJ,B-NP,O
+),),O,O
+"17,844",CD,B-NP,O
+up,RB,B-ADVP,O
+5.9,CD,B-NP,O
+pct,NN,I-NP,O

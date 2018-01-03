@@ -1,0 +1,15 @@
+0,1,2,3
+Scoreboard,RB,B-ADVP,O
+of,IN,B-PP,O
+the,DT,B-NP,O
+second,JJ,I-NP,O
+one-day,JJ,I-NP,O
+cricket,NN,I-NP,O
+match,NN,I-NP,O
+between,IN,B-PP,O
+England,NNP,B-NP,B-LOC
+and,CC,I-NP,O
+Pakistan,NNP,I-NP,B-LOC
+on,IN,B-PP,O
+Saturday,NNP,B-NP,O
+:,:,O,O

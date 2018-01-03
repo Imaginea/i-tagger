@@ -1,0 +1,11 @@
+0,1,2,3
+Trade,NNP,B-NP,O
+data,NNS,I-NP,O
+are,VBP,B-VP,O
+customs-cleared,JJ,B-ADJP,O
+",",",",O,O
+published,VBN,B-VP,O
+by,IN,B-PP,O
+economy,NN,B-NP,O
+ministry,NN,I-NP,O
+.,.,O,O

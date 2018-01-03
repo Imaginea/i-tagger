@@ -1,0 +1,8 @@
+0,1,2,3
+2.,NNP,B-NP,O
+Andrea,NNP,I-NP,B-PER
+Collinelli,NNP,I-NP,I-PER
+(,(,O,O
+Italy,NNP,B-NP,B-LOC
+),),O,O
+4:17.696,CD,B-NP,O

@@ -1,0 +1,6 @@
+0,1,2,3
+2.,NNP,B-NP,O
+Armstrong,NNP,I-NP,B-PER
+3,CD,I-NP,O
+seconds,NNS,I-NP,O
+behind,IN,B-PP,O

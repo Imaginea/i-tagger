@@ -1,0 +1,5 @@
+0,1,2,3
+Torquay,RB,B-NP,B-ORG
+2,CD,I-NP,O
+Exeter,NNP,I-NP,B-ORG
+0,CD,I-NP,O

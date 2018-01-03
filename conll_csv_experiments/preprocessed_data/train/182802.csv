@@ -1,0 +1,11 @@
+0,1,2,3
+MOF,NNP,B-NP,B-ORG
+'s,POS,B-NP,O
+Kubo,NNP,I-NP,B-PER
+says,VBZ,B-VP,O
+believes,VBZ,B-VP,O
+BOJ,NNP,B-NP,B-ORG
+rate,NN,I-NP,O
+policy,NN,I-NP,O
+unchanged,JJ,B-ADJP,O
+.,.,O,O

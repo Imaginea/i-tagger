@@ -1,0 +1,22 @@
+0,1,2,3
+ ,O,O,<UNK>
+I,PRP,B-NP,O
+think,VBP,B-VP,O
+we,PRP,B-NP,O
+would,MD,B-VP,O
+have,VB,I-VP,O
+liked,VBN,I-VP,O
+to,TO,I-VP,O
+have,VB,I-VP,O
+more,JJR,B-ADJP,O
+of,IN,B-PP,O
+Ingwe,NNP,B-NP,B-ORG
+but,CC,O,O
+it,PRP,B-NP,O
+'s,VBZ,B-VP,O
+the,DT,B-NP,O
+question,NN,I-NP,O
+of,IN,B-PP,O
+adding,VBG,B-VP,O
+value,NN,B-NP,O
+.,.,O,O

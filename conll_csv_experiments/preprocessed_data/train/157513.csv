@@ -1,0 +1,16 @@
+0,1,2,3
+That,DT,B-NP,O
+would,MD,B-VP,O
+set,VB,I-VP,O
+Genoa,NNP,B-NP,B-ORG
+up,RB,B-ADVP,O
+for,IN,B-PP,O
+a,DT,B-NP,O
+second,JJ,I-NP,O
+round,JJ,I-NP,O
+match,NN,I-NP,O
+against,IN,B-PP,O
+local,JJ,B-NP,O
+rivals,NNS,I-NP,O
+Sampdoria,NNP,I-NP,B-ORG
+.,.,O,O

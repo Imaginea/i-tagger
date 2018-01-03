@@ -1,0 +1,17 @@
+0,1,2,3
+Nathalie,NNP,B-NP,B-PER
+Tauziat,NNP,I-NP,I-PER
+(,(,O,O
+France,NNP,B-NP,B-LOC
+),),O,O
+beat,VB,B-VP,O
+Angelica,NNP,B-NP,B-PER
+Gavaldon,NNP,I-NP,I-PER
+(,(,O,O
+Mexico,NNP,B-NP,B-LOC
+),),O,O
+7-6,CD,B-ADVP,O
+(,(,O,O
+7-4,CD,B-NP,O
+),),O,O
+6-2,CD,B-NP,O

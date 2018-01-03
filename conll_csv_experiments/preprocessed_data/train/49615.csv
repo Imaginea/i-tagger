@@ -1,0 +1,10 @@
+0,1,2,3
+--,:,O,O
+New,NNP,B-NP,B-LOC
+York,NNP,I-NP,I-LOC
+newsroom,NN,I-NP,O
+",",",",O,O
+(,(,B-LST,O
+212,LS,I-LST,O
+),),O,O
+859-1610,CD,B-NP,O

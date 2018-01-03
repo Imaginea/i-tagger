@@ -1,0 +1,10 @@
+0,1,2,3
+Afghan,NNP,B-NP,B-MISC
+UAE,NNP,I-NP,B-LOC
+embassy,NN,I-NP,O
+says,VBZ,B-VP,O
+Taleban,NNP,B-NP,B-MISC
+guards,NNS,I-NP,O
+going,VBG,B-VP,O
+home,RB,B-ADVP,O
+.,.,O,O

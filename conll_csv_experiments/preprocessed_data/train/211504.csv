@@ -1,0 +1,8 @@
+0,1,2,3
+Spitzbergen,NN,B-NP,B-LOC
+is,VBZ,B-VP,O
+a,DT,B-NP,O
+Norwegian,JJ,I-NP,B-MISC
+coal-mining,JJ,I-NP,O
+settlement,NN,I-NP,O
+.,.,O,O

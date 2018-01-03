@@ -1,0 +1,9 @@
+0,1,2,3
+CBOT,NNP,B-NP,O
+rice,NN,I-NP,O
+closes,VBZ,B-VP,O
+higher,JJR,B-ADJP,O
+on,IN,B-PP,O
+technical,JJ,B-NP,O
+bounce,NN,I-NP,O
+.,.,O,O

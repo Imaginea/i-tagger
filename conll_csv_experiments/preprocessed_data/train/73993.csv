@@ -1,0 +1,9 @@
+0,1,2,3
+first,JJ,B-NP,O
+division,NN,I-NP,O
+after,IN,B-SBAR,O
+the,DT,B-NP,O
+weekend,NN,I-NP,O
+'s,POS,B-NP,O
+matches,NNS,I-NP,O
+:,:,O,O

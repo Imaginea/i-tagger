@@ -1,0 +1,5 @@
+0,1,2,3
+Result,NN,B-NP,O
+of,IN,B-PP,O
+the,DT,B-NP,O
+"1,000",CD,I-NP,B-MISC

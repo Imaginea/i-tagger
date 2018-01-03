@@ -1,0 +1,8 @@
+0,1,2,3
+Skinheads,NNS,B-NP,O
+attack,VBD,B-VP,O
+Bratislava,NNP,B-NP,B-LOC
+Rabbi,NNP,I-NP,O
+-,:,O,O
+police,NN,B-NP,O
+.,.,O,O

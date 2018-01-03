@@ -1,0 +1,8 @@
+0,1,2,3
+Trade,NN,B-NP,O
+balance,NN,I-NP,O
+(,(,O,O
+million,CD,B-NP,O
+markka,NNS,I-NP,O
+),),O,O
+:,:,O,O

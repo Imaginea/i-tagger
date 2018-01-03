@@ -1,0 +1,9 @@
+0,1,2,3
+Ljubljana,NNP,B-NP,B-ORG
+(,(,O,O
+Slovenia,NNP,B-NP,B-LOC
+),),O,O
+9,CD,B-NP,O
+6,CD,I-NP,O
+3,CD,I-NP,O
+15,CD,I-NP,O

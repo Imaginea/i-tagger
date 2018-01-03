@@ -1,0 +1,7 @@
+0,1,2,3
+Shr,NN,B-NP,O
+(,(,O,O
+H.K.,NNP,B-NP,B-LOC
+cents,NNS,I-NP,O
+),),O,O
+14.0,CD,B-NP,O

@@ -1,0 +1,12 @@
+0,1,2,3
+ ,O,O,<UNK>
+There,EX,B-NP,O
+is,VBZ,B-VP,O
+little,JJ,B-NP,O
+we,PRP,B-NP,O
+can,MD,B-VP,O
+do,VB,I-VP,O
+when,WRB,B-ADVP,O
+at,IN,B-NP,O
+mid-sea,NNP,I-NP,O
+.,.,O,O

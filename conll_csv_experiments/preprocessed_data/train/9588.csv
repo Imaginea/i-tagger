@@ -1,0 +1,12 @@
+0,1,2,3
+Alex,NNP,B-NP,B-PER
+Corretja,NNP,I-NP,I-PER
+(,(,O,O
+Spain,NNP,B-NP,B-LOC
+),),O,O
+vs.,IN,B-PP,O
+Byron,NNP,B-NP,B-PER
+Black,NNP,I-NP,I-PER
+(,(,O,O
+Zimbabwe,NNP,B-NP,B-LOC
+),),O,O

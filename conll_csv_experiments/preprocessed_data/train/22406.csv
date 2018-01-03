@@ -1,0 +1,36 @@
+0,1,2,3
+ ,O,O,<UNK>
+Neither,DT,B-NP,O
+the,DT,B-NP,O
+National,NNP,I-NP,B-MISC
+Socialists,NNPS,I-NP,I-MISC
+(,(,O,O
+Nazis,NNPS,B-NP,B-MISC
+),),O,O
+nor,CC,O,O
+the,DT,B-NP,O
+communists,NNS,I-NP,O
+dared,VBD,B-VP,O
+to,TO,I-VP,O
+kidnap,VB,I-VP,O
+an,DT,B-NP,O
+American,JJ,I-NP,B-MISC
+citizen,NN,I-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+he,PRP,B-NP,O
+shouted,VBD,B-VP,O
+",",",",O,O
+in,IN,B-PP,O
+an,DT,B-NP,O
+oblique,JJ,I-NP,O
+reference,NN,I-NP,O
+to,TO,B-PP,O
+his,PRP$,B-NP,O
+extradition,NN,I-NP,O
+to,TO,B-PP,O
+Germany,NNP,B-NP,B-LOC
+from,IN,B-PP,O
+Denmark,NNP,B-NP,B-LOC
+.,.,I-NP,O
+ ,O,O,<UNK>

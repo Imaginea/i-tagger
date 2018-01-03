@@ -1,0 +1,16 @@
+0,1,2,3
+L-ORIZZONT,NNP,B-NP,B-LOC
+-,:,O,O
+Opposition,NN,B-NP,O
+leader,NN,I-NP,O
+Alfred,NNP,I-NP,B-PER
+Sant,NNP,I-NP,I-PER
+on,IN,B-PP,O
+steep,JJ,B-NP,O
+rise,NN,I-NP,O
+in,IN,B-PP,O
+taxes,NNS,B-NP,O
+over,IN,B-PP,O
+10,CD,B-NP,O
+years,NNS,I-NP,O
+.,.,O,O

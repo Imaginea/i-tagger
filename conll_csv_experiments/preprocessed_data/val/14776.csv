@@ -1,0 +1,8 @@
+0,1,2,3
+Assault,NN,B-NP,O
+charges,NNS,I-NP,O
+dropped,VBD,B-VP,O
+against,IN,B-PP,O
+Surinam,NNP,B-NP,B-LOC
+ex-rebel,VBN,B-VP,O
+.,.,O,O

@@ -1,0 +1,4 @@
+0,1,2,3
+Correct,JJ,B-ADJP,O
+score,NN,B-NP,O
+:,:,O,O

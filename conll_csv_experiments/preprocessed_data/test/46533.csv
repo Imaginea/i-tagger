@@ -1,0 +1,9 @@
+0,1,2,3
+HARARE,VB,B-VP,B-LOC
+1996-12-07,CD,B-NP,O
+Leading,JJ,B-NP,O
+third,JJ,I-NP,O
+round,JJ,I-NP,O
+scores,NNS,I-NP,O
+in,IN,B-PP,O
+the,DT,B-NP,O

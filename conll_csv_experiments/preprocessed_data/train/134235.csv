@@ -1,0 +1,14 @@
+0,1,2,3
+Sao,NNP,B-NP,B-LOC
+Paulo,NNP,I-NP,I-LOC
+state,NN,I-NP,O
+'s,POS,B-NP,O
+debt,NN,I-NP,O
+is,VBZ,B-VP,O
+now,RB,I-VP,O
+estimated,VBN,I-VP,O
+at,IN,B-PP,O
+19,CD,B-NP,O
+billion,CD,I-NP,O
+reais,NNS,I-NP,O
+.,.,O,O

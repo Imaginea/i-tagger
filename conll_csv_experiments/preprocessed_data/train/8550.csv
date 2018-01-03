@@ -1,0 +1,11 @@
+0,1,2,3
+In,IN,B-PP,O
+Rishon-Lezion,NNP,B-NP,B-LOC
+:,:,O,O
+Hapoel,NNP,B-NP,B-ORG
+Ironi,NNP,I-NP,I-ORG
+(,(,O,O
+Israel,NNP,B-NP,B-LOC
+),),O,O
+3,CD,B-NP,O
+Constructorul,NNP,I-NP,B-ORG

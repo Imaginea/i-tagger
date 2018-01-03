@@ -1,0 +1,13 @@
+0,1,2,3
+AL,NNP,B-NP,B-ORG
+ASWAQ,NNP,I-NP,I-ORG
+-,:,O,O
+State,NN,B-NP,O
+security,NN,I-NP,O
+court,NN,I-NP,O
+starts,NNS,I-NP,O
+investigating,VBG,B-VP,O
+suspects,NNS,B-NP,O
+in,IN,B-PP,O
+unrest,NN,B-NP,O
+.,.,O,O

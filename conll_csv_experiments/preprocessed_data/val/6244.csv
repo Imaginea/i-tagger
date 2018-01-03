@@ -1,0 +1,8 @@
+0,1,2,3
+4.,CD,B-NP,O
+Nico,NNP,I-NP,B-PER
+Motchebon,NNP,I-NP,I-PER
+(,(,O,O
+Germany,NNP,B-NP,B-LOC
+),),O,O
+1:45.03,CD,B-NP,O

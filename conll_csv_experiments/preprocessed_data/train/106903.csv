@@ -1,0 +1,17 @@
+0,1,2,3
+She,PRP,B-NP,O
+is,VBZ,B-VP,O
+scheduled,VBN,I-VP,O
+to,TO,I-VP,O
+step,VB,I-VP,O
+down,IN,B-PP,O
+in,IN,B-PP,O
+January,NNP,B-NP,O
+after,IN,B-PP,O
+a,DT,B-NP,O
+term,NN,I-NP,O
+of,IN,B-PP,O
+nearly,RB,B-NP,O
+seven,CD,I-NP,O
+years,NNS,I-NP,O
+.,.,O,O

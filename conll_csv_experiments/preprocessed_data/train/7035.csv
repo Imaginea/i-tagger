@@ -1,0 +1,10 @@
+0,1,2,3
+LONDON,NNP,B-NP,B-LOC
+1996-08-22,CD,I-NP,O
+Scoreboard,RB,B-ADVP,O
+on,IN,B-PP,O
+the,DT,B-NP,O
+first,JJ,I-NP,O
+day,NN,I-NP,O
+of,IN,B-PP,O
+the,DT,B-NP,O

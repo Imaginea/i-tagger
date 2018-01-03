@@ -1,0 +1,14 @@
+0,1,2,3
+130,CD,B-NP,O
+Fernando,NNP,I-NP,B-PER
+Roca,NNP,I-NP,I-PER
+(,(,O,O
+Spain,NNP,B-NP,B-LOC
+),),O,O
+66,CD,B-NP,O
+64,CD,I-NP,O
+",",",",O,O
+Ian,NNP,B-NP,B-PER
+Pyman,NNP,I-NP,I-PER
+66,CD,I-NP,O
+64,CD,I-NP,O

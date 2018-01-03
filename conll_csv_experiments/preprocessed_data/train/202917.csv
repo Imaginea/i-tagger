@@ -1,0 +1,11 @@
+0,1,2,3
+--,:,O,O
+CHICAGO,NNP,B-NP,B-MISC
+AREA,NN,I-NP,I-MISC
+MILLS,NNS,I-NP,I-MISC
+(,(,O,O
+dollars,NNS,B-NP,O
+per,IN,B-PP,O
+short,JJ,B-NP,O
+ton,NN,I-NP,O
+),),O,O

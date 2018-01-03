@@ -1,0 +1,9 @@
+0,1,2,3
+The,DT,B-NP,O
+tourists,NNS,I-NP,O
+will,MD,B-VP,O
+play,VB,I-VP,O
+nine,CD,B-NP,O
+first-class,JJ,I-NP,O
+matches,NNS,I-NP,O
+against,IN,B-PP,O

@@ -1,0 +1,8 @@
+0,1,2,3
+6.,CD,B-NP,O
+Oksana,NNP,I-NP,B-PER
+Grichina,NNP,I-NP,I-PER
+(,(,O,O
+Russia,NNP,B-NP,B-LOC
+),),O,O
+36.242,CD,B-NP,O

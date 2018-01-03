@@ -1,0 +1,13 @@
+0,1,2,3
+PRODUCER,NNP,B-NP,O
+PRICES,NN,I-NP,O
+(,(,O,O
+%,NN,B-NP,O
+),),O,O
+Jun,NNP,B-NP,O
+-,:,O,O
+0.2,CD,B-NP,O
++0.1,CD,I-NP,O
++0.2,CD,I-NP,O
+119.6**,CD,I-NP,O
+-,:,I-NP,O

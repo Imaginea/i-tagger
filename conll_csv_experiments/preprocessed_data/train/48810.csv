@@ -1,0 +1,14 @@
+0,1,2,3
+Seeing,VBG,B-VP,O
+me,PRP,B-NP,O
+in,IN,B-PP,O
+my,PRP$,B-NP,O
+uniform,NN,I-NP,O
+",",",",O,O
+he,PRP,B-NP,O
+kept,VBD,B-VP,O
+saying,VBG,I-VP,O
+",",",",O,O
+Jail,NN,B-NP,O
+better,RB,B-ADVP,O
+.,.,O,O

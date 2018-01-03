@@ -1,0 +1,13 @@
+0,1,2,3
+declared,VBD,B-VP,O
+.,.,O,O
+Worcestershire,NNP,B-NP,B-ORG
+205-9,CD,I-NP,O
+declared,NNS,I-NP,O
+(,(,O,O
+K.,NNP,B-NP,B-PER
+Spiring,NNP,I-NP,I-PER
+52,CD,I-NP,O
+;,:,O,O
+A.,NNP,B-NP,B-PER
+Giles,NNP,I-NP,I-PER

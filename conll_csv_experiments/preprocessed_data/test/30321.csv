@@ -1,0 +1,16 @@
+0,1,2,3
+William,NNP,B-NP,B-PER
+Hill,NNP,I-NP,I-PER
+said,VBD,B-VP,O
+the,DT,B-NP,O
+odds,NNS,I-NP,O
+were,VBD,B-VP,O
+the,DT,B-NP,O
+longest,JJS,I-NP,O
+they,PRP,I-NP,O
+had,VBD,B-VP,O
+been,VBN,I-VP,O
+for,IN,B-PP,O
+six,CD,B-NP,O
+months,NNS,I-NP,O
+.,.,O,O

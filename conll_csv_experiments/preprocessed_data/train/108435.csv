@@ -1,0 +1,16 @@
+0,1,2,3
+The,DT,B-NP,O
+question,NN,I-NP,O
+of,IN,B-PP,O
+whether,IN,B-SBAR,O
+Perry,NNP,B-NP,B-PER
+should,MD,B-VP,O
+resign,VB,I-VP,O
+remained,VBN,I-VP,O
+open,JJ,B-ADJP,O
+",",",",O,O
+the,DT,B-NP,O
+Pennsylvania,NNP,I-NP,B-LOC
+Republican,NNP,I-NP,B-MISC
+said,VBD,B-VP,O
+.,.,O,O

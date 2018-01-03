@@ -1,0 +1,17 @@
+0,1,2,3
+The,DT,B-NP,O
+average,JJ,I-NP,O
+selling,NN,I-NP,O
+price,NN,I-NP,O
+",",",",O,O
+$,$,B-NP,O
+"206,464",CD,I-NP,O
+",",",",O,O
+was,VBD,B-VP,O
+up,RB,B-ADVP,O
+10.6,CD,B-NP,O
+percent,NN,I-NP,O
+over,IN,B-PP,O
+July,NNP,B-NP,O
+1995,CD,I-NP,O
+.,.,O,O

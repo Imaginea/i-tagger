@@ -1,0 +1,12 @@
+0,1,2,3
+6-4,CD,B-NP,O
+Mark,NNP,B-NP,B-PER
+Philippoussis,NNP,I-NP,I-PER
+(,(,O,O
+Australia,NNP,B-NP,B-LOC
+),),O,O
+beat,VB,B-VP,O
+Bohdan,NNP,B-NP,B-PER
+Ulihrach,NNP,I-NP,I-PER
+(,(,O,O
+Czech,JJ,B-NP,B-LOC

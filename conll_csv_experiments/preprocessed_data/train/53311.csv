@@ -1,0 +1,10 @@
+0,1,2,3
+Ford,NNP,B-NP,B-ORG
+owns,VBZ,B-VP,O
+138.643,CD,B-NP,O
+million,CD,I-NP,O
+shares,NNS,I-NP,O
+in,IN,B-PP,O
+the,DT,B-NP,O
+firm,NN,I-NP,O
+.,.,O,O

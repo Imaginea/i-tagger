@@ -1,0 +1,15 @@
+0,1,2,3
+Texas,NNP,B-NP,B-LOC
+/,SYM,O,O
+w,IN,B-NP,O
+Okla,NNP,I-NP,B-LOC
+fed,VBN,B-VP,O
+cattle,NNS,B-NP,O
+market,NN,I-NP,O
+thin,JJ,B-ADJP,O
+at,IN,B-PP,O
+$,$,B-NP,O
+67,CD,I-NP,O
+-,:,I-NP,O
+USDA,NNP,I-NP,B-ORG
+.,.,O,O

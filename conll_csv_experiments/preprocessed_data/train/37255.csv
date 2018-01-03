@@ -1,0 +1,8 @@
+0,1,2,3
+9.,CD,B-NP,O
+Worku,NNP,I-NP,B-PER
+Bekila,NNP,I-NP,I-PER
+(,(,O,O
+Ethiopia,NNP,B-NP,B-LOC
+),),O,O
+28.42.23,CD,B-NP,O

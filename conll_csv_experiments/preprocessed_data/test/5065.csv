@@ -1,0 +1,16 @@
+0,1,2,3
+Group,NNP,B-NP,O
+A,NNP,I-NP,O
+Gong,NNP,B-NP,B-PER
+Zhichao,NNP,I-NP,I-PER
+(,(,O,O
+China,NNP,B-NP,B-LOC
+),),O,O
+beat,VB,B-VP,O
+Mia,NNP,B-NP,B-PER
+Audina,NNP,I-NP,I-PER
+(,(,O,O
+Indonesia,NNP,O,B-LOC
+),),O,O
+11-2,CD,B-NP,O
+12-10,JJ,I-NP,O

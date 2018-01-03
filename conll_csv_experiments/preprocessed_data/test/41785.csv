@@ -1,0 +1,12 @@
+0,1,2,3
+6.,NNP,B-NP,O
+Germany,NNP,I-NP,B-ORG
+III,NNP,I-NP,I-ORG
+(,(,O,O
+Dirk,NNP,B-NP,B-PER
+Wiese,NNP,I-NP,I-PER
+",",",",O,O
+Jakobs,NNP,B-NP,B-PER
+Marco,NNP,I-NP,I-PER
+),),O,O
+1:46.02,CD,B-NP,O

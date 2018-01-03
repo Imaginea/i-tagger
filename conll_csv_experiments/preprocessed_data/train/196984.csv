@@ -1,0 +1,16 @@
+0,1,2,3
+Foreign,JJ,B-NP,O
+exchange,NN,I-NP,O
+controls,NNS,I-NP,O
+were,VBD,B-VP,O
+removed,VBN,I-VP,O
+April,NNP,B-NP,O
+22,CD,I-NP,O
+as,IN,B-PP,O
+part,NN,B-NP,O
+of,IN,B-PP,O
+a,DT,B-NP,O
+wider,JJR,I-NP,O
+IMF-sponsored,JJ,I-NP,B-MISC
+program,NN,I-NP,O
+.,.,O,O

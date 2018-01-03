@@ -1,0 +1,10 @@
+0,1,2,3
+--,:,B-NP,O
+Chris,NNP,I-NP,B-PER
+Aspin,NNP,I-NP,I-PER
+",",",",O,O
+Mexico,NNP,B-NP,B-LOC
+City,NNP,I-NP,I-LOC
+newsroom,NN,I-NP,O
++525,CD,B-NP,O
+728-7903,CD,I-NP,O

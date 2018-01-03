@@ -1,0 +1,13 @@
+0,1,2,3
+Grant,NNP,B-NP,B-PER
+Stafford,NNP,I-NP,I-PER
+(,(,O,O
+South,NNP,B-NP,B-LOC
+Africa,NNP,I-NP,I-LOC
+),),O,O
+vs.,IN,B-PP,O
+Guy,NNP,B-NP,B-PER
+Forget,VB,B-VP,I-PER
+(,(,O,O
+France,NNP,B-NP,B-LOC
+),),O,O

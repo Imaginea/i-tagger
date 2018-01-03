@@ -1,0 +1,8 @@
+0,1,2,3
+BRUSSELS,NNP,B-NP,B-LOC
+1996-08-23,CD,I-NP,O
+Leading,JJ,B-NP,O
+results,NNS,I-NP,O
+in,IN,B-PP,O
+the,DT,B-NP,O
+Brussels,NNP,I-NP,B-MISC

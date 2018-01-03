@@ -1,0 +1,7 @@
+0,1,2,3
+Utrecht,NNP,B-NP,B-ORG
+0,CD,I-NP,O
+Twente,NNP,I-NP,B-ORG
+Enschede,NNP,I-NP,I-ORG
+0,CD,I-NP,O
+.,.,O,O

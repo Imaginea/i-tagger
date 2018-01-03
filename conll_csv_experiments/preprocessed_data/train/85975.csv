@@ -1,0 +1,13 @@
+0,1,2,3
+MAARIV,NNP,B-NP,B-ORG
+-,:,O,O
+Palestinian,JJ,B-NP,B-ORG
+Authority,NNP,I-NP,I-ORG
+has,VBZ,B-VP,O
+taken,VBN,I-VP,O
+over,RP,B-PRT,O
+education,NN,B-NP,O
+in,IN,B-PP,O
+East,NNP,B-NP,B-LOC
+Jerusalem,NNP,I-NP,I-LOC
+.,.,O,O

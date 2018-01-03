@@ -1,0 +1,8 @@
+0,1,2,3
+Barrier,NNP,B-NP,O
+removed,VBD,B-VP,O
+to,TO,B-PP,O
+Brazil,NNP,B-NP,B-LOC
+CVRD,NNP,I-NP,B-ORG
+sell-off,NN,I-NP,O
+.,.,O,O

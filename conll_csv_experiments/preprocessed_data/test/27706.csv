@@ -1,0 +1,9 @@
+0,1,2,3
+U.S.,NNP,B-NP,B-LOC
+barges,NNS,I-NP,O
+lightly,RB,B-VP,O
+quoted,VBN,I-VP,O
+on,IN,B-PP,O
+call,NN,B-NP,O
+session,NN,I-NP,O
+.,.,O,O

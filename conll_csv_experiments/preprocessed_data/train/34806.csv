@@ -1,0 +1,9 @@
+0,1,2,3
+The,DT,B-NP,O
+time,NN,I-NP,O
+was,VBD,B-VP,O
+officially,RB,I-VP,O
+adjusted,VBN,I-VP,O
+to,TO,B-PP,O
+2:28.98,CD,B-NP,O
+.,.,O,O

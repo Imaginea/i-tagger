@@ -1,0 +1,7 @@
+0,1,2,3
+Myos,NNP,B-NP,B-MISC
+Yang,NNP,I-NP,I-MISC
+5,CD,I-NP,O
+22/11/96,CD,I-NP,O
+"4,000",CD,I-NP,O
+Indonesia,NNP,I-NP,B-LOC

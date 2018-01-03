@@ -1,0 +1,21 @@
+0,1,2,3
+ ,O,O,<UNK>
+The,DT,B-NP,O
+procedure,NN,I-NP,O
+of,IN,B-PP,O
+bankruptcy,NN,B-NP,O
+will,MD,B-VP,O
+be,VB,I-VP,O
+applied,VBN,I-VP,O
+",",",",O,O
+ ,O,O,<UNK>
+Tass,NNP,B-NP,B-ORG
+quoted,VBD,B-VP,O
+Livshits,NNP,B-NP,B-PER
+as,IN,B-PP,O
+telling,VBG,B-VP,O
+Duma,NNP,B-NP,B-ORG
+deputies,VBZ,B-VP,O
+about,IN,B-PP,O
+Norilsk,NNP,B-NP,B-ORG
+.,.,O,O

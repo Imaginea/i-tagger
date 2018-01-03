@@ -1,0 +1,10 @@
+0,1,2,3
+France,NNP,B-NP,B-LOC
+expels,VBZ,B-VP,O
+African,JJ,B-NP,B-MISC
+",",",",O,O
+Air,NNP,B-NP,B-ORG
+France,NNP,I-NP,I-ORG
+unions,NNS,I-NP,O
+protest,NN,I-NP,O
+.,.,O,O

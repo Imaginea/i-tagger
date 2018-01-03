@@ -1,0 +1,17 @@
+0,1,2,3
+That,DT,B-NP,O
+is,VBZ,B-VP,O
+why,WRB,B-ADVP,O
+this,DT,B-NP,O
+is,VBZ,B-VP,O
+so,RB,B-ADJP,O
+emotional,JJ,I-ADJP,O
+a,DT,B-NP,O
+night,NN,I-NP,O
+for,IN,B-PP,O
+me,PRP,B-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+Charlton,NNP,B-NP,B-PER
+said,VBD,B-VP,O
+.,.,O,O

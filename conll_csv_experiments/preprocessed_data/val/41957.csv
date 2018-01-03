@@ -1,0 +1,12 @@
+0,1,2,3
+ ,O,O,<UNK>
+We,PRP,B-NP,O
+started,VBD,B-VP,O
+panicking,VBG,I-VP,O
+a,DT,B-NP,O
+bit,NN,I-NP,O
+after,IN,B-PP,O
+the,DT,B-NP,O
+Turkish,JJ,I-NP,B-MISC
+goal,NN,I-NP,O
+...,:,O,O

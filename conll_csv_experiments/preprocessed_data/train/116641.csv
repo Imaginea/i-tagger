@@ -1,0 +1,11 @@
+0,1,2,3
+IN-NAZZJON,NNP,B-NP,B-LOC
+-,:,O,O
+Government,NN,B-NP,O
+considering,VBG,B-VP,O
+measures,NNS,B-NP,O
+for,IN,B-PP,O
+better,JJR,B-NP,O
+road,NN,I-NP,O
+discipline,NN,I-NP,O
+.,.,O,O

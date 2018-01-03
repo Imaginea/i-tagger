@@ -1,0 +1,12 @@
+0,1,2,3
+(,(,O,O
+low,JJ,B-NP,O
+lead,NN,I-NP,O
+",",",",O,O
+50,CD,B-NP,O
+ppm,NNS,I-NP,O
+),),O,O
+9.0-10.5,CD,B-NP,O
+cents,NNS,I-NP,O
+/,SYM,O,O
+pound,NN,B-NP,O

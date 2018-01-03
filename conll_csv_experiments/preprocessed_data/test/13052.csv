@@ -1,0 +1,11 @@
+0,1,2,3
+No,DT,B-NP,O
+date,NN,I-NP,O
+has,VBZ,B-VP,O
+been,VBN,I-VP,O
+set,VBN,I-VP,O
+for,IN,B-PP,O
+further,JJ,B-NP,O
+talks,NNS,I-NP,O
+.,.,O,O
+ ,O,O,<UNK>

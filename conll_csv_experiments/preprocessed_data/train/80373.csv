@@ -1,0 +1,10 @@
+0,1,2,3
+Sint,NNP,B-NP,B-ORG
+Truiden,NNP,I-NP,I-ORG
+4,CD,I-NP,O
+1,CD,I-NP,O
+0,CD,I-NP,O
+3,CD,I-NP,O
+4,CD,I-NP,O
+11,CD,I-NP,O
+3,CD,I-NP,O

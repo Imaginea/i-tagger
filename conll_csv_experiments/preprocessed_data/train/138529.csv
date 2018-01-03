@@ -1,0 +1,17 @@
+0,1,2,3
+by,IN,B-PP,O
+the,DT,B-NP,O
+disease,NN,I-NP,O
+of,IN,B-PP,O
+scepticism,NN,B-NP,O
+",",",",I-NP,O
+gloom,NN,I-NP,O
+and,CC,I-NP,O
+resignation,NN,I-NP,O
+",",",",O,O
+you,PRP,B-NP,O
+would,MD,B-VP,O
+not,RB,I-VP,O
+be,VB,I-VP,O
+here,RB,B-ADVP,O
+.,.,O,O

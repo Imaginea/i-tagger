@@ -1,0 +1,26 @@
+0,1,2,3
+ ,O,O,<UNK>
+They,PRP,B-NP,O
+(,(,O,O
+the,DT,B-NP,O
+insurgents,NNS,I-NP,O
+),),O,O
+should,MD,B-VP,O
+first,RB,I-VP,O
+give,VB,I-VP,O
+up,RP,B-PRT,O
+their,PRP$,B-NP,O
+violent,JJ,I-NP,O
+activities,NNS,I-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+Home,NNP,B-NP,O
+(,(,O,O
+Interior,NNP,B-NP,O
+),),O,O
+Minister,NNP,B-NP,O
+Khum,NNP,I-NP,B-PER
+Bahadur,NNP,I-NP,I-PER
+Khadga,NNP,I-NP,I-PER
+said,VBD,B-VP,O
+.,.,O,O

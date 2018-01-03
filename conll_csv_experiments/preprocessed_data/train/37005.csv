@@ -1,0 +1,8 @@
+0,1,2,3
+7.,CD,B-NP,O
+Rogel,NNP,I-NP,B-PER
+Nachum,NNP,I-NP,I-PER
+(,(,O,O
+Israel,NNP,B-NP,B-LOC
+),),O,O
+16.36,CD,B-NP,O

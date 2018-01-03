@@ -1,0 +1,14 @@
+0,1,2,3
+EL,NNP,B-NP,B-ORG
+MUNDO,NNP,I-NP,I-ORG
+-,:,O,O
+Government,NN,B-NP,O
+wants,VBZ,B-VP,O
+to,TO,I-VP,O
+charge,VB,I-VP,O
+for,IN,B-PP,O
+prescriptions,NNS,B-NP,O
+and,CC,O,O
+some,DT,B-NP,O
+medical,JJ,I-NP,O
+services,NNS,I-NP,O

@@ -1,0 +1,18 @@
+0,1,2,3
+The,DT,B-NP,O
+national,JJ,I-NP,O
+bank,NN,I-NP,O
+and,CC,O,O
+the,DT,B-NP,O
+government,NN,I-NP,O
+have,VBP,B-VP,O
+every,DT,B-NP,O
+reason,NN,I-NP,O
+to,TO,B-VP,O
+be,VB,I-VP,O
+proud,JJ,B-ADJP,O
+of,IN,B-PP,O
+their,PRP$,B-NP,O
+efforts,NNS,I-NP,O
+.,.,O,O
+ ,O,O,<UNK>

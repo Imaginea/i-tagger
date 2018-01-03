@@ -1,0 +1,12 @@
+0,1,2,3
+Revenue,NN,B-NP,O
+from,IN,B-PP,O
+transport,NN,B-NP,O
+(,(,O,O
+Dm,NNP,B-NP,B-MISC
+million,CD,I-NP,O
+),),O,O
+820,CD,B-NP,O
+up,RB,B-ADVP,O
+2,CD,B-NP,O
+pct,NN,I-NP,O

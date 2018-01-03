@@ -1,0 +1,9 @@
+0,1,2,3
+Netanyahu,NN,B-NP,B-PER
+",",",",O,O
+Weizman,JJ,B-NP,B-PER
+consult,NN,I-NP,O
+on,IN,B-PP,O
+Arafat,NNP,B-NP,B-PER
+invitation,NN,I-NP,O
+.,.,O,O

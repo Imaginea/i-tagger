@@ -1,0 +1,15 @@
+0,1,2,3
+The,DT,B-NP,O
+company,NN,I-NP,O
+was,VBD,B-VP,O
+responding,VBG,I-VP,O
+to,TO,B-PP,O
+an,DT,B-NP,O
+article,NN,I-NP,O
+in,IN,B-PP,O
+Sunday,NNP,B-NP,O
+'s,POS,B-NP,O
+New,NNP,I-NP,B-ORG
+York,NNP,I-NP,I-ORG
+Times,NNP,I-NP,I-ORG
+.,.,O,O

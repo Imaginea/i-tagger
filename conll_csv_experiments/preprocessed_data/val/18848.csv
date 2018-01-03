@@ -1,0 +1,13 @@
+0,1,2,3
+Bernardin,NN,B-NP,B-PER
+prayed,VBD,B-VP,O
+with,IN,B-PP,O
+him,PRP,B-NP,O
+before,IN,B-SBAR,O
+he,PRP,B-NP,O
+died,VBD,B-VP,O
+from,IN,B-PP,O
+AIDS,NNP,B-NP,B-MISC
+last,JJ,B-NP,O
+year,NN,I-NP,O
+.,.,O,O

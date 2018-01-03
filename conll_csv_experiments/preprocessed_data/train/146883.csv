@@ -1,0 +1,16 @@
+0,1,2,3
+July,NNP,B-NP,O
+inventories,NNS,I-NP,O
+stood,VBD,B-VP,O
+at,IN,B-PP,O
+"75,632",CD,B-NP,O
+tonnes,NNS,I-NP,O
+",",",",O,O
+down,RB,B-ADVP,O
+2.6,CD,B-NP,O
+percent,NN,I-NP,O
+from,IN,B-PP,O
+the,DT,B-NP,O
+prior,JJ,I-NP,O
+month,NN,I-NP,O
+.,.,O,O

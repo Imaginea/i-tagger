@@ -1,0 +1,15 @@
+0,1,2,3
+He,PRP,B-NP,O
+said,VBD,B-VP,O
+he,PRP,B-NP,O
+had,VBD,B-VP,O
+been,VBN,I-VP,O
+receiving,VBG,I-VP,O
+anonymous,JJ,B-NP,O
+death,NN,I-NP,O
+threats,NNS,I-NP,O
+since,IN,B-PP,O
+making,VBG,B-VP,O
+the,DT,B-NP,O
+move,NN,I-NP,O
+.,.,O,O

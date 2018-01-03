@@ -1,0 +1,17 @@
+0,1,2,3
+In,IN,B-PP,O
+a,DT,B-NP,O
+few,JJ,I-NP,O
+years,NNS,I-NP,O
+",",",",O,O
+it,PRP,B-NP,O
+could,MD,B-VP,O
+change,VB,I-VP,O
+a,DT,B-NP,O
+lot,NN,I-NP,O
+among,IN,B-PP,O
+the,DT,B-NP,O
+top,JJ,I-NP,O
+players,NNS,I-NP,O
+.,.,O,O
+ ,O,O,<UNK>

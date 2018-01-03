@@ -1,0 +1,13 @@
+0,1,2,3
+Police,NNS,B-NP,O
+said,VBD,B-VP,O
+the,DT,B-NP,O
+girl,NN,I-NP,O
+who,WP,B-NP,O
+died,VBD,B-VP,O
+was,VBD,B-VP,O
+identified,VBN,I-VP,O
+as,IN,B-PP,O
+Michelle,NNP,B-NP,B-PER
+Harper,NNP,I-NP,I-PER
+.,.,O,O

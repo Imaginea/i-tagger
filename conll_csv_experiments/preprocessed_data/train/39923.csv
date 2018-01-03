@@ -1,0 +1,15 @@
+0,1,2,3
+ ,O,O,<UNK>
+My,PRP$,B-NP,O
+application,NN,I-NP,O
+this,DT,B-NP,O
+year,NN,I-NP,O
+has,VBZ,B-VP,O
+been,VBN,I-VP,O
+strange,JJ,B-ADJP,O
+",",",",O,O
+ ,O,O,<UNK>
+Norman,NNP,B-NP,B-PER
+said,VBD,B-VP,O
+.,.,O,O
+ ,O,O,<UNK>

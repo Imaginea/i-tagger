@@ -1,0 +1,10 @@
+0,1,2,3
+Mixed,JJ,B-NP,O
+low-copper,JJ,I-NP,O
+clips,NNS,I-NP,O
+48,CD,B-NP,O
+to,TO,I-NP,O
+49,CD,I-NP,O
+cents,NNS,I-NP,O
+/,SYM,O,O
+pound,NN,B-NP,O

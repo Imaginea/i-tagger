@@ -1,0 +1,10 @@
+0,1,2,3
+McGrath,NNP,B-NP,B-PER
+left,VBD,B-VP,O
+out,RB,B-PP,O
+of,IN,B-PP,O
+Ireland,NNP,B-NP,B-LOC
+World,NNP,I-NP,B-MISC
+Cup,NNP,I-NP,I-MISC
+squad,NN,B-NP,O
+.,.,O,O

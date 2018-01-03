@@ -1,0 +1,7 @@
+0,1,2,3
+Faulding,NN,B-NP,B-ORG
+target,NN,I-NP,O
+of,IN,B-PP,O
+patent,NN,B-NP,O
+lawsuit,NN,I-NP,O
+.,.,O,O

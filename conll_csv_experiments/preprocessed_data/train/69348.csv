@@ -1,0 +1,9 @@
+0,1,2,3
+6.,NNP,B-NP,O
+Claus,NNP,I-NP,B-PER
+Manne,NNP,I-NP,I-PER
+Nielsen,NNP,I-NP,I-PER
+(,(,O,O
+Denmark,NNP,B-NP,B-LOC
+),),O,O
+KTM,NNP,B-NP,B-ORG

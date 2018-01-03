@@ -1,0 +1,9 @@
+0,1,2,3
+LONDON,NNP,B-NP,B-LOC
+1996-08-26,CD,I-NP,O
+Results,NNS,B-NP,O
+on,IN,B-PP,O
+the,DT,B-NP,O
+final,JJ,I-NP,O
+day,NN,I-NP,O
+of,IN,B-PP,O

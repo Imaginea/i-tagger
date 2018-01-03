@@ -1,0 +1,22 @@
+0,1,2,3
+ ,O,O,<UNK>
+Boatmen,NNP,B-NP,B-ORG
+'s,POS,I-NP,I-ORG
+was,VBD,B-VP,O
+the,DT,B-NP,O
+plum,NN,I-NP,O
+of,IN,B-PP,O
+Missouri,NNP,B-NP,B-LOC
+and,CC,O,O
+was,VBD,B-VP,O
+the,DT,B-NP,O
+plum,NN,I-NP,O
+of,IN,B-PP,O
+the,DT,B-NP,O
+central,JJ,I-NP,O
+Midwest,NNP,I-NP,B-LOC
+",",",",O,O
+ ,O,O,<UNK>
+Weber,NNP,B-NP,B-PER
+said,VBD,B-VP,O
+.,.,O,O

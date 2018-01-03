@@ -1,0 +1,7 @@
+0,1,2,3
+1.,CD,B-NP,O
+Ian,NNP,I-NP,B-PER
+Woosnam,NNP,I-NP,I-PER
+"480,618",CD,I-NP,O
+pounds,NNS,I-NP,O
+sterling,NN,I-NP,O

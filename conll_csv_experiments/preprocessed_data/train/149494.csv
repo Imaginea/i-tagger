@@ -1,0 +1,13 @@
+0,1,2,3
+(,(,O,O
+Australia,NNP,B-NP,B-LOC
+),),O,O
+",",",",O,O
+David,NNP,B-NP,B-PER
+Gilford,NNP,I-NP,I-PER
+",",",",O,O
+Stuart,NNP,B-NP,B-PER
+Cage,NNP,I-NP,I-PER
+",",",",O,O
+Mike,NNP,B-NP,B-PER
+Clayton,NNP,I-NP,I-PER

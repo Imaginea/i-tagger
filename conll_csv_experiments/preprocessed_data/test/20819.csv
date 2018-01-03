@@ -1,0 +1,8 @@
+0,1,2,3
+ ,O,O,<UNK>
+It,PRP,B-NP,O
+was,VBD,B-VP,O
+Greenspan,NNP,B-NP,B-PER
+at,IN,B-PP,O
+first,RB,B-ADVP,O
+.,.,O,O

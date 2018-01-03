@@ -1,0 +1,9 @@
+0,1,2,3
+Brian,NNP,B-NP,B-PER
+Laudrup,NNP,I-NP,I-PER
+(,(,O,O
+Rangers,NNPS,B-NP,B-ORG
+),),O,O
+",",",",O,O
+Darren,NNP,B-NP,B-PER
+Jackson,NNP,I-NP,I-PER

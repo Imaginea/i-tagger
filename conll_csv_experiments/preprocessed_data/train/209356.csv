@@ -1,0 +1,6 @@
+0,1,2,3
+Ulysses,VBZ,O,B-PER
+Grant,NNP,B-NP,I-PER
+'s,POS,B-NP,O
+papers,NNS,I-NP,O
+.,.,O,O

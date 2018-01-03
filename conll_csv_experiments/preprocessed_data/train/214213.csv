@@ -1,0 +1,8 @@
+0,1,2,3
+LEAD,NNP,B-NP,O
+MGR,NNP,I-NP,O
+-,:,O,O
+Nomura,NNP,B-NP,B-ORG
+Securities,NNP,I-NP,I-ORG
+Co,NNP,I-NP,I-ORG
+Ltd,NNP,I-NP,I-ORG

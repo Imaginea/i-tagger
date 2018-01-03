@@ -1,0 +1,15 @@
+0,1,2,3
+Scorers,NNS,B-NP,O
+:,:,O,O
+Netherlands,NNS,B-NP,B-LOC
+-,:,O,O
+Ronald,NNP,B-NP,B-PER
+de,NNP,I-NP,I-PER
+Boer,NNP,I-NP,I-PER
+(,(,O,O
+52nd,JJ,B-NP,O
+minute,NN,I-NP,O
+),),O,O
+",",",",O,O
+Van,NNP,B-NP,B-PER
+Gastel,NNP,I-NP,I-PER

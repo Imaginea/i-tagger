@@ -1,0 +1,19 @@
+0,1,2,3
+I,PRP,B-NP,O
+am,VBP,B-VP,O
+not,RB,I-VP,O
+calling,VBG,I-VP,O
+for,IN,B-PP,O
+him,PRP,B-NP,O
+to,TO,B-VP,O
+be,VB,I-VP,O
+banned,VBN,I-VP,O
+but,CC,O,O
+they,PRP,B-NP,O
+have,VBP,B-VP,O
+to,TO,I-VP,O
+take,VB,I-VP,O
+some,DT,B-NP,O
+action,NN,I-NP,O
+.,.,O,O
+ ,O,O,<UNK>

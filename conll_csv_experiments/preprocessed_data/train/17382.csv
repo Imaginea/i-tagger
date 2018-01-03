@@ -1,0 +1,7 @@
+0,1,2,3
+BUDAPEST,RB,B-NP,B-LOC
+1996-08-22,CD,I-NP,O
+The,DT,B-NP,O
+latest,JJS,I-NP,O
+indicators,NNS,I-NP,O
+:,:,O,O

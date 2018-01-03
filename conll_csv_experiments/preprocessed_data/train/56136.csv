@@ -1,0 +1,7 @@
+0,1,2,3
+Division,NN,B-NP,O
+two,CD,I-NP,O
+Berwick,NN,B-NP,B-ORG
+0,CD,I-NP,O
+Stenhousemuir,NNP,I-NP,B-ORG
+6,CD,I-NP,O

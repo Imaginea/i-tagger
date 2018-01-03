@@ -1,0 +1,8 @@
+0,1,2,3
+Venezuela,NNP,B-NP,B-LOC
+unions,NNS,I-NP,O
+harden,NN,I-NP,O
+towards,IN,B-PP,O
+CVG,NNP,B-NP,B-ORG
+privatization,NN,I-NP,O
+.,.,O,O

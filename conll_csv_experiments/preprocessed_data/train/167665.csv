@@ -1,0 +1,7 @@
+0,1,2,3
+Duncan,NNP,B-NP,B-PER
+Shiels,NNP,I-NP,I-PER
+NAGYATAD,NNP,B-NP,B-LOC
+",",",",O,O
+Hungary,NNP,B-NP,B-LOC
+1996-08-28,CD,I-NP,O

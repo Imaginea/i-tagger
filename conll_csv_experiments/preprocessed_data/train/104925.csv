@@ -1,0 +1,10 @@
+0,1,2,3
+Supply,NN,B-NP,O
+stood,VBD,B-VP,O
+at,IN,B-PP,O
+a,DT,B-NP,O
+high,JJ,I-NP,O
+180,CD,I-NP,O
+million,CD,I-NP,O
+kuna,NNS,I-NP,O
+.,.,O,O

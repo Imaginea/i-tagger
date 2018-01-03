@@ -1,0 +1,16 @@
+0,1,2,3
+Later,RB,B-ADVP,O
+they,PRP,B-NP,O
+said,VBD,B-VP,O
+the,DT,B-NP,O
+number,NN,I-NP,O
+of,IN,B-PP,O
+passengers,NNS,B-NP,O
+released,VBN,B-VP,O
+from,IN,B-PP,O
+the,DT,B-NP,O
+plane,NN,I-NP,O
+had,VBD,B-VP,O
+reached,VBN,I-VP,O
+80,CD,B-NP,O
+.,.,O,O

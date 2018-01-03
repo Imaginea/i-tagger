@@ -1,0 +1,14 @@
+0,1,2,3
+We,PRP,B-NP,O
+'re,VBP,B-VP,O
+not,RB,I-VP,O
+going,VBG,I-VP,O
+to,TO,I-VP,O
+let,VB,I-VP,O
+them,PRP,B-NP,O
+get,VB,B-VP,O
+away,RB,B-ADVP,O
+with,IN,B-PP,O
+that,DT,B-NP,O
+.,.,O,O
+ ,O,O,<UNK>

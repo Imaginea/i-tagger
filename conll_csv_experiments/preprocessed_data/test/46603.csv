@@ -1,0 +1,8 @@
+0,1,2,3
+209,CD,B-NP,O
+Steve,NNP,I-NP,B-PER
+van,NNP,I-NP,I-PER
+Vuuren,NNP,I-NP,I-PER
+65,CD,I-NP,O
+69,CD,I-NP,O
+75,CD,I-NP,O

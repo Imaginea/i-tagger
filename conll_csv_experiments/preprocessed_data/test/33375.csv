@@ -1,0 +1,10 @@
+0,1,2,3
+We,PRP,B-NP,O
+can,MD,B-VP,O
+read,VB,I-VP,O
+sports,NNS,B-NP,O
+statistics,NNS,I-NP,O
+or,CC,O,O
+stock,NN,B-NP,O
+prices,NNS,I-NP,O
+.,.,O,O

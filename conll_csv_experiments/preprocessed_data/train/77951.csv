@@ -1,0 +1,6 @@
+0,1,2,3
+Guimaraes,NNS,B-NP,B-ORG
+4,CD,B-NP,O
+Gil,NNP,I-NP,B-ORG
+Vicente,NNP,I-NP,I-ORG
+2,CD,I-NP,O

@@ -1,0 +1,8 @@
+0,1,2,3
+LONDON,NNP,B-NP,B-LOC
+1996-12-07,CD,I-NP,O
+Leading,JJ,B-NP,O
+goalscorers,NNS,I-NP,O
+in,IN,B-PP,O
+the,DT,B-NP,O
+English,NNP,I-NP,B-MISC

@@ -1,0 +1,8 @@
+0,1,2,3
+LONDON,NNP,B-NP,B-LOC
+1996-08-31,NNP,I-NP,O
+Results,NNS,B-NP,O
+of,IN,B-PP,O
+English,JJ,B-NP,B-MISC
+soccer,NN,I-NP,O
+matches,NNS,I-NP,O

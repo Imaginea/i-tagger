@@ -1,0 +1,13 @@
+0,1,2,3
+In,IN,B-PP,O
+1993,CD,B-NP,O
+",",",",O,O
+she,PRP,B-NP,O
+fell,VBD,B-VP,O
+in,IN,B-PP,O
+Rome,NNP,B-NP,B-LOC
+and,CC,O,O
+broke,VBD,B-VP,O
+three,CD,B-NP,O
+ribs,NNS,I-NP,O
+.,.,O,O

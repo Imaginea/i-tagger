@@ -1,0 +1,9 @@
+0,1,2,3
+7.,NNP,B-NP,O
+Marty,NNP,I-NP,B-PER
+Jemison,NNP,I-NP,I-PER
+(,(,O,O
+U.S.,NNP,B-NP,B-LOC
+),),O,O
+U.S.,NNP,B-NP,B-ORG
+Postal,NNP,I-NP,I-ORG

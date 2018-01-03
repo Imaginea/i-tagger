@@ -1,0 +1,17 @@
+0,1,2,3
+The,DT,B-NP,O
+last,JJ,I-NP,O
+no-confidence,NN,I-NP,O
+debate,NN,I-NP,O
+against,IN,B-PP,O
+Banharn,NNP,B-NP,B-PER
+'s,POS,B-NP,O
+coalition,NN,I-NP,O
+in,IN,B-PP,O
+May,NNP,B-NP,O
+was,VBD,B-VP,O
+won,VBN,I-VP,O
+by,IN,B-PP,O
+the,DT,B-NP,O
+government,NN,I-NP,O
+.,.,O,O

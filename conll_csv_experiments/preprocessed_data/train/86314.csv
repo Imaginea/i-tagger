@@ -1,0 +1,12 @@
+0,1,2,3
+It,PRP,B-NP,O
+said,VBD,B-VP,O
+Netanyahu,NNP,B-NP,B-PER
+had,VBD,B-VP,O
+yet,RB,I-VP,O
+to,TO,I-VP,O
+give,VB,I-VP,O
+Weizman,NNP,B-NP,B-PER
+an,DT,B-NP,O
+answer,NN,I-NP,O
+.,.,O,O

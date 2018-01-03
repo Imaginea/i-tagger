@@ -1,0 +1,8 @@
+0,1,2,3
+Industrial,NNP,B-NP,O
+services,NNS,I-NP,O
+-,:,O,O
+Turnover,NN,B-NP,O
+657,CD,I-NP,O
+vs,NNP,O,O
+700,CD,O,O

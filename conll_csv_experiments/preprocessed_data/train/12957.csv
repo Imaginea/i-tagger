@@ -1,0 +1,4 @@
+0,1,2,3
+45.,NNP,B-NP,O
+Malta,NNP,I-NP,B-LOC
+7.40,CD,I-NP,O

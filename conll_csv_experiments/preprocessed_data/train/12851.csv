@@ -1,0 +1,4 @@
+0,1,2,3
+19.,NNP,B-NP,O
+France,NNP,I-NP,B-LOC
+8.18,CD,I-NP,O

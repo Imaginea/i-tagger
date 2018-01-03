@@ -1,0 +1,15 @@
+0,1,2,3
+-,:,O,O
+Shimon,NNP,B-NP,B-PER
+Peres,NNP,I-NP,I-PER
+to,TO,B-PP,O
+Morocco,NNP,B-NP,B-LOC
+",",",",O,O
+will,MD,B-VP,O
+stay,VB,I-VP,O
+at,IN,B-PP,O
+king,NN,B-NP,O
+'s,POS,B-NP,O
+private,JJ,I-NP,O
+residence,NN,I-NP,O
+.,.,O,O

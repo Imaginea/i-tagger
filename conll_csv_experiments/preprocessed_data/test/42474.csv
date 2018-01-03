@@ -1,0 +1,13 @@
+0,1,2,3
+4.,CD,B-NP,O
+Dieter,NNP,I-NP,B-PER
+Thoma,NNP,I-NP,I-PER
+(,(,O,O
+Germany,NNP,B-NP,B-LOC
+),),O,O
+267,CD,B-NP,O
+(,(,O,O
+141.6,CD,B-NP,O
+/,SYM,O,O
+124.4,CD,B-NP,O
+),),O,O

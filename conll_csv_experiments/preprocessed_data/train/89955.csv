@@ -1,0 +1,8 @@
+0,1,2,3
+The,DT,B-NP,O
+biggest,JJS,I-NP,O
+of,IN,B-PP,O
+those,DT,B-NP,O
+was,VBD,B-VP,O
+Malbak,NNP,B-NP,B-ORG
+.,.,O,O

@@ -1,0 +1,13 @@
+0,1,2,3
+People,NNS,B-NP,O
+were,VBD,B-VP,O
+waiting,VBG,I-VP,O
+for,IN,B-PP,O
+the,DT,B-NP,O
+results,NNS,I-NP,O
+to,TO,B-VP,O
+come,VB,I-VP,O
+out,RP,B-PRT,O
+before,IN,B-PP,O
+buying,VBG,B-VP,O
+.,.,O,O

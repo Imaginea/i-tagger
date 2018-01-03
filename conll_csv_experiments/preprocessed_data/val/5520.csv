@@ -1,0 +1,8 @@
+0,1,2,3
+6.,NNP,B-NP,O
+Carmen,NNP,I-NP,B-PER
+Wuestenhagen,NNP,I-NP,I-PER
+(,(,O,O
+Germany,NNP,B-NP,B-LOC
+),),O,O
+4:10.38,CD,B-NP,O

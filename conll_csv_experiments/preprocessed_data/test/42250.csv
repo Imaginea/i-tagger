@@ -1,0 +1,8 @@
+0,1,2,3
+4.,CD,B-NP,O
+Eric,NNP,I-NP,B-PER
+Bergoust,NNP,I-NP,I-PER
+(,(,O,O
+U.S,NNP,O,B-LOC
+),),O,O
+207.15,CD,B-NP,O

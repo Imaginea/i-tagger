@@ -1,0 +1,25 @@
+0,1,2,3
+ ,O,O,<UNK>
+There,EX,B-NP,O
+are,VBP,B-VP,O
+500,CD,B-NP,O
+million,CD,I-NP,O
+messages,NNS,I-NP,O
+transmitted,VBN,B-VP,O
+through,IN,B-PP,O
+the,DT,B-NP,O
+Internet,NN,I-NP,B-MISC
+everyday,JJ,I-NP,O
+",",",",I-NP,O
+ ,O,O,<UNK>
+said,VBD,B-VP,O
+Tim,NNP,B-NP,B-PER
+Casey,NNP,I-NP,I-PER
+of,IN,B-PP,O
+the,DT,B-NP,O
+U.S.-based,JJ,I-NP,B-MISC
+MCI,NNP,I-NP,B-ORG
+Communications,NNP,I-NP,I-ORG
+Corporation,NNP,I-NP,I-ORG
+.,.,I-NP,O
+ ,O,O,<UNK>

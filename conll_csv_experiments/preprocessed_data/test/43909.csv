@@ -1,0 +1,6 @@
+0,1,2,3
+Hearts,NNPS,B-NP,B-ORG
+0,CD,I-NP,O
+Raith,NNP,I-NP,B-ORG
+0,CD,I-NP,O
+.,.,O,O

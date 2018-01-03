@@ -1,0 +1,12 @@
+0,1,2,3
+Wang,NNP,B-NP,B-PER
+'s,POS,B-NP,O
+family,NN,I-NP,O
+could,MD,B-VP,O
+not,RB,I-VP,O
+immediately,RB,I-VP,O
+be,VB,I-VP,O
+reached,VBN,I-VP,O
+for,IN,B-PP,O
+comment,NN,B-NP,O
+.,.,O,O

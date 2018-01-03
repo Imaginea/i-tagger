@@ -1,0 +1,14 @@
+0,1,2,3
+Contracts,NNS,B-NP,O
+traded,VBD,B-VP,O
+in,IN,B-PP,O
+Singapore,NNP,B-NP,B-LOC
+are,VBP,B-VP,O
+mutually,RB,B-ADVP,O
+offset,VBN,B-VP,O
+against,IN,B-PP,O
+contracts,NNS,B-NP,O
+traded,VBN,B-VP,O
+in,IN,B-PP,O
+London,NNP,B-NP,B-LOC
+.,.,O,O

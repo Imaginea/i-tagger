@@ -1,0 +1,11 @@
+0,1,2,3
+Bourlet,NNP,B-NP,B-PER
+said,VBD,B-VP,O
+two,CD,B-NP,O
+other,JJ,I-NP,O
+people,NNS,I-NP,O
+had,VBD,B-VP,O
+also,RB,I-VP,O
+been,VBN,I-VP,O
+arrested,VBN,I-VP,O
+.,.,O,O

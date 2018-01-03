@@ -1,0 +1,14 @@
+0,1,2,3
+The,DT,B-NP,O
+figures,NNS,I-NP,O
+exclude,VBP,B-VP,O
+trucked,NN,B-NP,O
+airfreight,JJ,I-NP,O
+according,VBG,B-PP,O
+to,TO,B-PP,O
+the,DT,B-NP,O
+German,JJ,I-NP,B-MISC
+airports,NNS,I-NP,O
+association,NN,I-NP,O
+ADV,NNP,B-NP,B-ORG
+.,.,O,O

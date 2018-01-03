@@ -1,0 +1,11 @@
+0,1,2,3
+NYC,NNP,B-NP,B-MISC
+Jan,NNP,I-NP,O
+refunding,NN,I-NP,O
+has,VBZ,B-VP,O
+its,PRP$,B-NP,O
+1st,CD,I-NP,O
+Euro,NNP,I-NP,B-MISC
+floating,JJ,I-NP,O
+rate,NN,I-NP,O
+.,.,O,O

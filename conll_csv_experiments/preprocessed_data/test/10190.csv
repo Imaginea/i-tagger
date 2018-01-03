@@ -1,0 +1,6 @@
+0,1,2,3
+Group,NNP,B-NP,O
+D,NNP,I-NP,O
+In,IN,B-PP,O
+Belgrade,NNP,B-NP,B-LOC
+:,:,O,O

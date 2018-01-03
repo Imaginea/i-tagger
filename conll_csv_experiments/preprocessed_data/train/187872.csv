@@ -1,0 +1,14 @@
+0,1,2,3
+Felicia,NNP,B-NP,B-PER
+Ballanger,NNP,I-NP,I-PER
+(,(,O,O
+France,NNP,B-NP,B-LOC
+),),O,O
+beat,VB,B-VP,O
+Oksana,NNP,B-NP,B-PER
+Grichina,NNP,I-NP,I-PER
+(,(,O,O
+Russia,NNP,B-NP,B-LOC
+),),O,O
+2-0,CD,B-NP,O
+",",",",O,O

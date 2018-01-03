@@ -1,0 +1,9 @@
+0,1,2,3
+Portsmouth,NNP,B-NP,B-LOC
+22,CD,I-NP,O
+7,CD,I-NP,O
+5,CD,I-NP,O
+10,CD,I-NP,O
+25,CD,I-NP,O
+29,CD,I-NP,O
+26,CD,B-NP,O

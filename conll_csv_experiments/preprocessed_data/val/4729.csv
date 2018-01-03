@@ -1,0 +1,12 @@
+0,1,2,3
+That,DT,B-NP,O
+'s,VBZ,B-VP,O
+always,RB,I-VP,O
+been,VBN,I-VP,O
+the,DT,B-NP,O
+worst,JJS,I-NP,O
+part,NN,I-NP,O
+of,IN,B-PP,O
+my,PRP$,B-NP,O
+game,NN,I-NP,O
+.,.,O,O

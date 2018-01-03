@@ -1,0 +1,12 @@
+0,1,2,3
+Michael,NNP,B-NP,B-PER
+Tebbutt,NNP,I-NP,I-PER
+(,(,O,O
+Australia,NNP,B-NP,B-LOC
+),),O,O
+vs.,IN,B-PP,O
+Richey,NNP,B-NP,B-PER
+Reneberg,NNP,I-NP,I-PER
+(,(,O,O
+U.S.,NNP,B-NP,B-LOC
+),),O,O

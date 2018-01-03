@@ -1,0 +1,16 @@
+0,1,2,3
+",",",",O,O
+said,VBD,B-VP,O
+the,DT,B-NP,O
+contract,NN,I-NP,O
+was,VBD,B-VP,O
+ ,O,O,<UNK>
+not,RB,B-VP,O
+unique,JJ,B-NP,O
+",",",",O,O
+but,CC,O,O
+it,PRP,B-NP,O
+'s,VBZ,B-VP,O
+big,JJ,B-ADJP,O
+.,.,O,O
+ ,O,O,<UNK>

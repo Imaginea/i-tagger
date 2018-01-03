@@ -1,0 +1,7 @@
+0,1,2,3
+Highs,NNS,B-NP,O
+82-96F,CD,B-ADVP,O
+(,(,O,O
+28-36C,CD,B-NP,O
+),),O,O
+.,.,O,O

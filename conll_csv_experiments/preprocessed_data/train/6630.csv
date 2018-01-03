@@ -1,0 +1,14 @@
+0,1,2,3
+Blackburn,VBN,B-VP,B-ORG
+announced,VBN,I-VP,O
+on,IN,B-PP,O
+Wednesday,NNP,B-NP,O
+they,PRP,B-NP,O
+and,CC,I-NP,O
+Dalglish,NNP,I-NP,B-PER
+had,VBD,B-VP,O
+parted,VBN,I-VP,O
+by,IN,B-PP,O
+mutual,JJ,B-NP,O
+consent,NN,I-NP,O
+.,.,O,O

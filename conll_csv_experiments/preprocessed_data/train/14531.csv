@@ -1,0 +1,11 @@
+0,1,2,3
+Garlic,JJ,B-NP,O
+pills,NNS,I-NP,O
+do,VBP,B-VP,O
+n't,RB,I-VP,O
+lower,VB,I-VP,O
+cholesterol,NN,B-NP,O
+",",",",O,O
+study,NN,B-NP,O
+finds,VBZ,B-VP,O
+.,.,O,O

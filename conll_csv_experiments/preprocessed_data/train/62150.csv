@@ -1,0 +1,36 @@
+0,1,2,3
+ ,O,O,<UNK>
+After,IN,B-PP,O
+a,DT,B-NP,O
+meeting,NN,I-NP,O
+between,IN,B-PP,O
+the,DT,B-NP,O
+governor,NN,I-NP,O
+of,IN,B-PP,O
+north,JJ,B-NP,O
+Kivu,NNS,I-NP,B-LOC
+and,CC,O,O
+the,DT,B-NP,O
+prefect,NN,I-NP,O
+of,IN,B-PP,O
+Gisenyi,NNP,B-NP,B-LOC
+",",",",O,O
+28,CD,B-NP,O
+prisoners,NNS,I-NP,O
+(,(,O,O
+refugees,NNS,B-NP,O
+),),O,O
+were,VBD,B-VP,O
+handed,VBN,I-VP,O
+over,RP,B-PRT,O
+to,TO,B-PP,O
+Rwandan,JJ,B-NP,B-MISC
+authorities,NNS,I-NP,O
+on,IN,B-PP,O
+Friday,NNP,B-NP,O
+",",",",O,O
+ ,O,O,<UNK>
+Gatera,NNP,B-NP,B-PER
+said,VBD,B-VP,O
+.,.,O,O
+ ,O,O,<UNK>

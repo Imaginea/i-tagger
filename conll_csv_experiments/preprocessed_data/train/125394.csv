@@ -1,0 +1,14 @@
+0,1,2,3
+PARIS,NNP,B-NP,B-LOC
+1996-08-27,CD,I-NP,O
+Summary,NNS,B-NP,O
+of,IN,B-PP,O
+a,DT,B-NP,O
+French,JJ,I-NP,B-MISC
+first,JJ,I-NP,O
+division,NN,I-NP,O
+soccer,NN,I-NP,O
+match,NN,I-NP,O
+on,IN,B-PP,O
+Tuesday,NNP,B-NP,O
+:,:,O,O

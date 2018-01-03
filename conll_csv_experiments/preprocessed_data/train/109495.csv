@@ -1,0 +1,12 @@
+0,1,2,3
+--,:,O,O
+Aluminum,NN,B-NP,O
+scrap,NN,I-NP,O
+",",",",O,O
+Midwest,NNP,B-NP,B-LOC
+and,CC,I-NP,O
+East,NNP,I-NP,B-LOC
+coast,NN,I-NP,I-LOC
+average,NN,I-NP,O
+price,NN,I-NP,O
+",",",",O,O

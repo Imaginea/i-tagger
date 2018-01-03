@@ -1,0 +1,14 @@
+0,1,2,3
+Not,RB,B-ADVP,O
+exactly,RB,B-NP,O
+a,DT,B-NP,O
+clash,NN,I-NP,O
+of,IN,B-PP,O
+the,DT,B-NP,O
+titans,NNS,I-NP,O
+but,CC,O,O
+an,DT,B-NP,O
+intriuguing,VBG,I-NP,O
+match,NN,I-NP,O
+nonetheless,RB,B-ADVP,O
+.,.,O,O

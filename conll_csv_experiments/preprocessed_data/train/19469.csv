@@ -1,0 +1,10 @@
+0,1,2,3
+Noisy,NNP,B-NP,O
+saw,VBD,B-VP,O
+leads,NNS,B-NP,O
+Thai,NNP,B-NP,B-MISC
+police,NN,I-NP,O
+to,TO,B-PP,O
+heroin,NN,B-NP,O
+hideaway,NN,I-NP,O
+.,.,O,O

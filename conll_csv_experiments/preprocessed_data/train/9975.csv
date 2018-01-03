@@ -1,0 +1,12 @@
+0,1,2,3
+Mark,NNP,B-NP,B-PER
+Knowles,NNPS,I-NP,I-PER
+(,(,O,O
+Bahamas,NNPS,B-NP,B-LOC
+),),O,O
+vs.,IN,B-PP,O
+Marcelo,NNP,B-NP,B-PER
+Filippini,NNP,I-NP,I-PER
+(,(,O,O
+Uruguay,NNP,B-NP,B-LOC
+),),O,O

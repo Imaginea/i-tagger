@@ -1,0 +1,19 @@
+0,1,2,3
+The,DT,B-NP,O
+Scots,NNS,I-NP,O
+are,VBP,B-VP,O
+not,RB,O,O
+really,RB,B-ADVP,O
+a,DT,B-NP,O
+great,JJ,I-NP,O
+team,NN,I-NP,O
+and,CC,O,O
+we,PRP,B-NP,O
+should,MD,B-VP,O
+have,VB,I-VP,O
+won,VBN,I-VP,O
+",",",",O,O
+ ,O,O,<UNK>
+he,PRP,B-NP,O
+said,VBD,B-VP,O
+.,.,O,O

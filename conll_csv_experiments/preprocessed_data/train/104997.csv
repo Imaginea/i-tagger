@@ -1,0 +1,9 @@
+0,1,2,3
+--,:,O,O
+Kolumbina,NNP,B-NP,B-PER
+Bencevic,NNP,I-NP,I-PER
+",",",",O,O
+Zagreb,NNP,B-NP,B-ORG
+Newsroom,NNP,I-NP,I-ORG
+",",",",O,O
+385-1-4557075,CD,B-NP,O

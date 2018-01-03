@@ -1,0 +1,17 @@
+0,1,2,3
+Coventry,NNP,B-NP,B-ORG
+1,CD,I-NP,O
+(,(,O,O
+Whelan,NNP,B-NP,B-PER
+60,CD,I-NP,O
+),),O,O
+Tottenham,NN,B-NP,B-ORG
+2,CD,I-NP,O
+(,(,O,O
+Sheringham,NNP,B-NP,B-PER
+27,CD,I-NP,O
+",",",",O,O
+Sinton,NNP,B-NP,B-PER
+75,CD,I-NP,O
+),),O,O
+.,.,O,O

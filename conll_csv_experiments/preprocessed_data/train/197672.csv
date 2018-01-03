@@ -1,0 +1,13 @@
+0,1,2,3
+---,IN,B-NP,O
+Patricia,NNP,I-NP,B-PER
+Lezama,NNP,I-NP,I-PER
+",",",",O,O
+Mexico,NNP,B-NP,B-LOC
+City,NNP,I-NP,I-LOC
+newroom,NN,B-NP,O
+(,(,O,O
+525,CD,B-NP,O
+),),O,O
+728,CD,O,O
+9554,CD,B-NP,O
