@@ -65,6 +65,9 @@ python src/commands/tagger.py \
 tensorboard --logdir=$MODEL_PATH
 ```
 
+**Token Level Accuracies**
+
+[Click here!]()
 
 **Demo on web interface**
 
