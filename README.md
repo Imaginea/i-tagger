@@ -19,7 +19,7 @@ while training and testing
     - Maitaining different feature sets (i.e number of features and its types) for the model
 - Models
     - Maintaining different models for same set of features
-    - Good visulaizing and debugging environment/tools
+    - Good visualizing and debugging environment/tools
     - Start and pause the training at will
 - Model Serving
     - Load a particular model from the pool of available models for a
@@ -197,7 +197,10 @@ python -m unittest discover src/
 - [Walk Through of Tensorflow APIs](notebooks/walk_through_of_tf_apis.ipynb)
 
 
-## !!!!!! WORK IN PROGRESS !!!!!!
+# Authors
+- Mageswaran Dhandapani <mageswaran.dhandapani@imaginea.com>
+- Gaurish Thakkar <gaurish.thakkar@imaginea.com>
+- Anil Kumar Reddy <anilkumar.reddy@imaginea.com>
 
 
 TODOs:

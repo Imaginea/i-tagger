@@ -36,7 +36,7 @@ python src/commands/tagger.py \
 --mode=train \
 --data-iterator-name=csv_data_iterator \
 --model-name=bilstm_crf_v0 \
---batch-size=64 \
+--batch-size=32 \
 --num-epochs=5
 
 #above when run with default params will create following model
@@ -47,7 +47,7 @@ python src/commands/tagger.py \
 --mode=retrain \
 --data-iterator-name=csv_data_iterator \
 --model-name=bilstm_crf_v0 \
---batch-size=64 \
+--batch-size=32 \
 --num-epochs=8 \
 --model-dir=$MODEL_PATH
 
