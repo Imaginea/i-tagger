@@ -1,10 +1,4 @@
 import unittest
-import sys
-sys.path.append("")
-sys.path.append("src/")
-sys.path.append("../")
-sys.path.append("../../")
-sys.path.append("../../../")
 import numpy as np
 
 from helpers.print_helper import *
@@ -14,7 +8,6 @@ from data_iterators.csv_data_iterator import CsvDataIterator
 class CsvDataIteratorTest(unittest.TestCase):
 
     def setUp(self):
-        print_info("==============")
         self.data_iterator = CsvDataIterator("conll_csv_experiments/", 32)
 
     def test_pad_sequences_level_one(self):

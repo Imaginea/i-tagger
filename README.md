@@ -32,17 +32,17 @@ Below two Git repos got our attention:
 
 Both of the projects are excellent in their own way, however they lack few
 things like support for different dataset and models in a modular way,
-which plays a key role in a customer facing project(s).
-Where nature of the data changes as the project evolves.
+which plays a key role in a customer facing project(s). Where nature of
+the data changes as the project evolves.
 
 # Problem Statement
  - To come up with an software architecture to try different models on
- different dataset
+ different data set
  - Which should take care of:
     - Pre-processing the data
     - Preparing the data iterators for training, validation and testing
     for set of features and their types
-    - Use a model that aligns with the data iterator feature type
+    - Use a model that aligns with the data iterator and a feature type
     - Train the model in an iterative manner, with fail safe
     - Use the trained model to predict on new data
  - Keep the **model core logic independent** of the current architecture
@@ -53,34 +53,35 @@ A few object-oriented principles are used in the python scripts for
 ease of extensibility and maintenance.
 
 **What we solved using this code?**
- - Top level accuracies on open Conll dataset 2003
+ - Top level results on open CoNLL dataset 2003
  - Extract information from patent documents for form filling, from historical
 data entries from the Database records.
 
-## Current Architecture
+### Current Architecture
 
 - [Handling Dataset and Preprocessing](docs/dataset.md)
 - [Data iterators](docs/data_iterator.md)
     - Dataset may have one or more features like words,
 characters, positional information of words etc.,
     - Extract those and convert word/characters to numeric ids, pad them etc.,
-    - Enforces number of features and their types, so that set of models can work on down the line
+    - Enforces number of features and their types, so that set of models
+      can work on down the line
 - [Models](docs/models.md) should agree with data iterator features types and
-make use of the aviable features to train the data
+make use of the available features to train the data
 
 
 ![](docs/images/i_tagger_architecture.png)
 
 
-- [Tensorflow Estimators](https://www.tensorflow.org/extend/estimators) is used for training/evaluating/saving/restoring/predicting
+- **[Tensorflow Estimators](https://www.tensorflow.org/extend/estimators)** is used for training/evaluating/saving/restoring/predicting
 
 ![](docs/images/tf_estimators.png)
 
-### Directory Details
+#### Directory Details
 
-Each experiment starts based on a dataset.
+Each experiment should have its own copy of the data set.
 
-Let use CoNLL data set, since it is provided as part this repo
+Lets consider CoNLL data set, since it is provided as part this repo
 - [conll_csv_experiments](conll_csv_experiments/)
     - config
         - config.ini # all one time config goes here
@@ -92,21 +93,22 @@ Let use CoNLL data set, since it is provided as part this repo
         - train/
         - val/
         - test/
-    - data_iterator_1
-        - model_v0
-            - config_1
+    - csv_data_iterator
+        - bilstm_crf_v0
+            - charembd_True_lr_0.001_lstmsize_2-48-32_wemb_48_cemb_32_outprob_0.5
             - config_2
 
 
-# Available Models:
+#### Available Models:
 - [Models](docs/models)
     - [Variable Length BiLSTM with CRF](docs/models/bilstm_crf_v0/BiLSTM_CRF_V0.md)
 
 
 # Validation
- The whole pacakage is tested on CoNLL data set for software integrity, and results are not tuned yet!
+ The whole package is tested on CoNLL data set for software integrity,
+ and results are not tuned yet!
 
-[Check here for more details on how to rest it on CoNLL data set.](conll_csv_experiments/README.md)
+**[Check here for more details on how to test it on CoNLL data set.](conll_csv_experiments/README.md)**
 
 
 ![](docs/images/conll_tensorboard_results.png)
@@ -184,7 +186,12 @@ export LD_LIBRARY_PATH=/home/rpx/softwares/cudnn6/cuda/lib64:$LD_LIBRARY_PATH
 
 ```
 
+### Run Tests
+```
+cd path/to/i-tagger/
 
+python -m unittest discover src/
+```
 
 ### Learning Materials
 - [Walk Through of Tensorflow APIs](notebooks/walk_through_of_tf_apis.ipynb)
@@ -192,15 +199,6 @@ export LD_LIBRARY_PATH=/home/rpx/softwares/cudnn6/cuda/lib64:$LD_LIBRARY_PATH
 
 ## !!!!!! WORK IN PROGRESS !!!!!!
 
-#### Imaginea Patent Tagging
-```bash
-
-python src/commands/patent_dataset.py --mode=preprocess
-python src/commands/patent_dataset.py --mode=train
-python src/commands/patent_dataset.py --mode=retrain --model-dir=PATH TO Model
-python src/commands/patent_dataset.py --mode=predict --model-dir=PATH TO Model --predict-dir=PATH to Prediction files
-
-``` 
 
 TODOs:
 - Remove all default params
