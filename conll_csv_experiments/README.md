@@ -67,7 +67,8 @@ tensorboard --logdir=$MODEL_PATH
 
 **Token Level Accuracies**
 
-[Click here!]()
+[Click here!](csv_data_iterator/bilstm_crf_v0/charembd_True_lr_0.001_lstmsize_2-48-32_wemb_48_cemb_32_outprob_0.5/predictions/metrics/metric_report.csv)
+
 
 **Demo on web interface**
 
@@ -86,7 +87,7 @@ python src/app.py
 
     **How to run?**:
     Sentence: He was well backed by England hopeful Mark Butcher who made 70 as Surrey closed on 429 for seven, a lead of 234.
-    Model Dir: /path/to/i-tagger/conll_csv_experiments/csv_data_iterator/bilstm_crf_v0/
+    Model Dir: /path/to/i-tagger/conll_csv_experiments/csv_data_iterator/bilstm_crf_v0/   
 
 
 - Open browser and navigate to : http://localhost:8080/predict
