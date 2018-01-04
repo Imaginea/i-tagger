@@ -5,21 +5,17 @@ import shutil
 import pandas as pd
 import numpy as np
 from tqdm import tqdm
-import pickle
 from tensorflow.python.platform import gfile
 
 from interfaces.preprocessor_interface import IPreprocessorInterface
 from helpers.print_helper import *
 from config.global_constants import *
 from helpers.os_helper import check_n_makedirs
-from config.config_helper import ConfigManager
 
-from nlp.spacy_helper import naive_vocab_creater, get_char_vocab, vocab_to_tsv
-from config.preprocessed_data_info import PreprocessedDataInfo
 
 class PatentDataPreprocessor(IPreprocessorInterface):
     def __init__(self,
-                 experiment_root_directory="experiments",
+                 experiment_root_directory,
                  over_write=None,
                  use_iob=None,
                  out_dir=None,
@@ -50,7 +46,7 @@ class PatentDataPreprocessor(IPreprocessorInterface):
             self.OVER_WRITE = over_write
             self.USE_IOB = use_iob
 
-            self.OUT_DIR = self.EXPERIMENT_ROOT_DIR + "/" + out_dir
+            self.PREPROCESSED_DATA_DIR = self.EXPERIMENT_ROOT_DIR + "/" + out_dir
 
             self.TRAIN_CSV_PATH = train_csvs_path
             self.VAL_CSV_PATH = val_csv_path
@@ -64,7 +60,7 @@ class PatentDataPreprocessor(IPreprocessorInterface):
             self.OVER_WRITE = self.config.get_item("Options", "over_write")
             self.USE_IOB = self.config.get_item_as_boolean("Options", "use_iob_format")
 
-            self.OUT_DIR = self.EXPERIMENT_ROOT_DIR + "/" + self.config.get_item("OutputDirectories", "data_dir")
+            self.PREPROCESSED_DATA_DIR = self.EXPERIMENT_ROOT_DIR + "/" + self.config.get_item("OutputDirectories", "preprocessed_data_dir")
 
             self.TRAIN_CSV_PATH = self.config.get_item("InputDirectories", "train_csvs_path")
             self.VAL_CSV_PATH = self.config.get_item("InputDirectories", "val_csvs_path")
@@ -79,13 +75,13 @@ class PatentDataPreprocessor(IPreprocessorInterface):
             self.EXTRA_COLS = self.config.get_item("Schema", "extra_columns")
             self.EXTRA_COLS = [str.strip(col) for col in self.EXTRA_COLS.split(",")]
 
-        self.TRAIN_CSV_INTERMEDIATE_PATH = self.OUT_DIR + "/train-iob-annotated/"
-        self.VAL_CSV_INTERMEDIATE_PATH = self.OUT_DIR + "/val-iob-annotated/"
-        self.TEST_CSV_INTERMEDIATE_PATH = self.OUT_DIR + "/test-iob-annotated/"
+        self.TRAIN_CSV_INTERMEDIATE_PATH = self.PREPROCESSED_DATA_DIR + "/train/"
+        self.VAL_CSV_INTERMEDIATE_PATH = self.PREPROCESSED_DATA_DIR + "/val/"
+        self.TEST_CSV_INTERMEDIATE_PATH = self.PREPROCESSED_DATA_DIR + "/test/"
 
-        self.WORDS_VOCAB_FILE = self.OUT_DIR + "/" + self.TEXT_COL + "_" + "vocab.tsv"
-        self.CHARS_VOCAB_FILE = self.OUT_DIR + "/" + self.TEXT_COL + "_" + "chars_vocab.tsv"
-        self.ENTITY_VOCAB_FILE = self.OUT_DIR + "/" + self.ENTITY_COL + "_vocab.tsv"
+        self.WORDS_VOCAB_FILE = self.PREPROCESSED_DATA_DIR + "/" + self.TEXT_COL + "_" + "vocab.tsv"
+        self.CHARS_VOCAB_FILE = self.PREPROCESSED_DATA_DIR + "/" + self.TEXT_COL + "_" + "chars_vocab.tsv"
+        self.ENTITY_VOCAB_FILE = self.PREPROCESSED_DATA_DIR + "/" + self.ENTITY_COL + "_vocab.tsv"
 
         # Make sure first two entities are text and entity followed by doc id
         # Doc Id should be taken from the extra cols
@@ -93,27 +89,23 @@ class PatentDataPreprocessor(IPreprocessorInterface):
         self.COLUMNS.extend(self.EXTRA_COLS)
 
         if self.USE_IOB:
-            self.TRAIN_DATA_FILE = self.OUT_DIR + "/train-doc-wise.iob"
-            self.TEST_DATA_FILE = self.OUT_DIR + "/test-doc-wise.iob"
-            self.VAL_DATA_FILE = self.OUT_DIR + "/val-doc-wise.iob"
-            self.ENTITY_VOCAB_FILE = self.OUT_DIR + "/" + self.ENTITY_IOB_COL + "_vocab.tsv"
+            self.TRAIN_DATA_FILE = self.PREPROCESSED_DATA_DIR + "/train-doc-wise.iob"
+            self.TEST_DATA_FILE = self.PREPROCESSED_DATA_DIR + "/test-doc-wise.iob"
+            self.VAL_DATA_FILE = self.PREPROCESSED_DATA_DIR + "/val-doc-wise.iob"
+            self.ENTITY_VOCAB_FILE = self.PREPROCESSED_DATA_DIR + "/" + self.ENTITY_IOB_COL + "_vocab.tsv"
         else:
-            self.TRAIN_DATA_FILE = self.OUT_DIR + "/train-doc-wise.io"
-            self.TEST_DATA_FILE = self.OUT_DIR + "/test-doc-wise.io"
-            self.VAL_DATA_FILE = self.OUT_DIR + "/val-doc-wise.io"
-            self.ENTITY_VOCAB_FILE = self.OUT_DIR + "/" + self.ENTITY_COL + "_vocab.tsv"
+            self.TRAIN_DATA_FILE = self.PREPROCESSED_DATA_DIR + "/train-doc-wise.io"
+            self.TEST_DATA_FILE = self.PREPROCESSED_DATA_DIR + "/test-doc-wise.io"
+            self.VAL_DATA_FILE = self.PREPROCESSED_DATA_DIR + "/val-doc-wise.io"
+            self.ENTITY_VOCAB_FILE = self.PREPROCESSED_DATA_DIR + "/" + self.ENTITY_COL + "_vocab.tsv"
 
-    def load_ini(self):
-        self.config = ConfigManager("src/config/patent_data_preprocessor.ini")
-        self.global_constants = ConfigManager("src/config/global_constants.ini")
-
-    def create_target_directories(self):
-        if os.path.exists(self.OUT_DIR):
+    def _create_target_directories(self):
+        if os.path.exists(self.PREPROCESSED_DATA_DIR):
             if self.OVER_WRITE == "yes":
-                print_info("Deletingls data folder: {}".format(self.OUT_DIR))
-                shutil.rmtree(self.OUT_DIR)
-                print_info("Recreating data folder: {}".format(self.OUT_DIR))
-                os.makedirs(self.OUT_DIR)
+                print_info("Deletingls data folder: {}".format(self.PREPROCESSED_DATA_DIR))
+                shutil.rmtree(self.PREPROCESSED_DATA_DIR)
+                print_info("Recreating data folder: {}".format(self.PREPROCESSED_DATA_DIR))
+                os.makedirs(self.PREPROCESSED_DATA_DIR)
                 check_n_makedirs(self.TRAIN_CSV_INTERMEDIATE_PATH)
                 check_n_makedirs(self.VAL_CSV_INTERMEDIATE_PATH)
                 check_n_makedirs(self.TEST_CSV_INTERMEDIATE_PATH)
@@ -121,8 +113,8 @@ class PatentDataPreprocessor(IPreprocessorInterface):
                 print_info("Skipping preprocessing step, since the data is already available")
                 return "skip"
         else:
-            print_info("Creating data folder: {}".format(self.OUT_DIR))
-            os.makedirs(self.OUT_DIR)
+            print_info("Creating data folder: {}".format(self.PREPROCESSED_DATA_DIR))
+            os.makedirs(self.PREPROCESSED_DATA_DIR)
             check_n_makedirs(self.TRAIN_CSV_INTERMEDIATE_PATH)
             check_n_makedirs(self.VAL_CSV_INTERMEDIATE_PATH)
             check_n_makedirs(self.TEST_CSV_INTERMEDIATE_PATH)
@@ -305,7 +297,7 @@ class PatentDataPreprocessor(IPreprocessorInterface):
         # Return column details to assist vocab creation
         return self.COLUMNS
 
-    def prepare_data(self):
+    def _prepare_data(self):
         print_info("Preparing train data...")
 
         self._annotate_csvs(csv_files_path=self.TRAIN_CSV_PATH,
@@ -354,58 +346,58 @@ class PatentDataPreprocessor(IPreprocessorInterface):
                                                use_iob=self.USE_IOB,
                                                unknown_token=UNKNOWN_WORD)
 
-    def extract_vocab(self):
-        if not os.path.exists(self.WORDS_VOCAB_FILE) or not os.path.exists(self.ENTITY_VOCAB_FILE):
-            print_info("Preparing the vocab for the text col: {}".format(self.TEXT_COL))
+    # def extract_vocab(self):
+    #     if not os.path.exists(self.WORDS_VOCAB_FILE) or not os.path.exists(self.ENTITY_VOCAB_FILE):
+    #         print_info("Preparing the vocab for the text col: {}".format(self.TEXT_COL))
+    #
+    #         # Read the text file as DataFrame and extract vocab for text column and entity column
+    #         train_df = pd.read_csv(self.TRAIN_DATA_FILE, sep=SEPERATOR, quotechar=QUOTECHAR).fillna(UNKNOWN_WORD)
+    #
+    #         print_info(train_df.head())
+    #
+    #         # Get word level vocab
+    #         lines = train_df[self.TEXT_COL].unique().tolist()
+    #         # VOCAB_SIZE, words_vocab = tf_vocab_processor(lines, WORDS_VOCAB_FILE)
+    #         self.VOCAB_SIZE, words_vocab = naive_vocab_creater(lines, self.WORDS_VOCAB_FILE, use_nlp=True)
+    #
+    #         # Get char level vocab
+    #         words_chars_vocab = [PAD_CHAR, UNKNOWN_CHAR]
+    #         _vocab = get_char_vocab(words_vocab)
+    #         words_chars_vocab.extend(_vocab)
+    #
+    #         # Create char2id map
+    #         vocab_to_tsv(words_chars_vocab, self.CHARS_VOCAB_FILE)
+    #         self.char_2_id_map = {c: i for i, c in enumerate(words_chars_vocab)}
+    #
+    #         print_info("Preparing the vocab for the entity col: {}".format(self.ENTITY_COL))
+    #
+    #         # Reopen the file without filling UNKNOWN_WORD in blank lines
+    #         train_df = pd.read_csv(self.TRAIN_DATA_FILE, sep=SEPERATOR, quotechar=QUOTECHAR)
+    #
+    #         print_info(train_df.head())
+    #
+    #         # Get entity level vocab
+    #         lines = train_df[self.ENTITY_COL].unique().tolist()
+    #         # NUM_TAGS, tags_vocab = tf_vocab_processor(lines, ENTITY_VOCAB_FILE)
+    #         self.NUM_TAGS, tags_vocab = naive_vocab_creater(lines, self.ENTITY_VOCAB_FILE, use_nlp=False)
+    #     else:
+    #         print_info("Reusing the vocab")
 
-            # Read the text file as DataFrame and extract vocab for text column and entity column
-            train_df = pd.read_csv(self.TRAIN_DATA_FILE, sep=SEPERATOR, quotechar=QUOTECHAR).fillna(UNKNOWN_WORD)
 
-            print_info(train_df.head())
-
-            # Get word level vocab
-            lines = train_df[self.TEXT_COL].unique().tolist()
-            # VOCAB_SIZE, words_vocab = tf_vocab_processor(lines, WORDS_VOCAB_FILE)
-            self.VOCAB_SIZE, words_vocab = naive_vocab_creater(lines, self.WORDS_VOCAB_FILE, use_nlp=True)
-
-            # Get char level vocab
-            words_chars_vocab = [PAD_CHAR, UNKNOWN_CHAR]
-            _vocab = get_char_vocab(words_vocab)
-            words_chars_vocab.extend(_vocab)
-
-            # Create char2id map
-            vocab_to_tsv(words_chars_vocab, self.CHARS_VOCAB_FILE)
-            self.char_2_id_map = {c: i for i, c in enumerate(words_chars_vocab)}
-
-            print_info("Preparing the vocab for the entity col: {}".format(self.ENTITY_COL))
-
-            # Reopen the file without filling UNKNOWN_WORD in blank lines
-            train_df = pd.read_csv(self.TRAIN_DATA_FILE, sep=SEPERATOR, quotechar=QUOTECHAR)
-
-            print_info(train_df.head())
-
-            # Get entity level vocab
-            lines = train_df[self.ENTITY_COL].unique().tolist()
-            # NUM_TAGS, tags_vocab = tf_vocab_processor(lines, ENTITY_VOCAB_FILE)
-            self.NUM_TAGS, tags_vocab = naive_vocab_creater(lines, self.ENTITY_VOCAB_FILE, use_nlp=False)
-        else:
-            print_info("Reusing the vocab")
-
-
-    def save_preprocessed_data_info(self):
-        if not PreprocessedDataInfo.is_file_exists(self.OUT_DIR):
-            # Create data level configs that is shared between model training and prediction
-            info = PreprocessedDataInfo(vocab_size=self.VOCAB_SIZE,
-                     num_tags=self.NUM_TAGS,
-                     text_col=self.TEXT_COL,
-                     entity_col=self.ENTITY_COL,
-                     entity_iob_col=self.ENTITY_IOB_COL,
-                     train_data_file=self.TRAIN_DATA_FILE,
-                     val_data_file=self.VAL_DATA_FILE,
-                     test_data_file=self.TEST_DATA_FILE,
-                     words_vocab_file=self.WORDS_VOCAB_FILE,
-                     chars_vocab_file=self.CHARS_VOCAB_FILE,
-                     entity_vocab_file=self.ENTITY_VOCAB_FILE,
-                     char_2_id_map=self.char_2_id_map)
-
-            PreprocessedDataInfo.save(info, self.OUT_DIR)
+    # def save_preprocessed_data_info(self):
+    #     if not PreprocessedDataInfo.is_file_exists(self.PREPROCESSED_DATA_DIR):
+    #         # Create data level configs that is shared between model training and prediction
+    #         info = PreprocessedDataInfo(vocab_size=self.VOCAB_SIZE,
+    #                  num_tags=self.NUM_TAGS,
+    #                  text_col=self.TEXT_COL,
+    #                  entity_col=self.ENTITY_COL,
+    #                  entity_iob_col=self.ENTITY_IOB_COL,
+    #                  train_data_file=self.TRAIN_DATA_FILE,
+    #                  val_data_file=self.VAL_DATA_FILE,
+    #                  test_data_file=self.TEST_DATA_FILE,
+    #                  words_vocab_file=self.WORDS_VOCAB_FILE,
+    #                  chars_vocab_file=self.CHARS_VOCAB_FILE,
+    #                  entity_vocab_file=self.ENTITY_VOCAB_FILE,
+    #                  char_2_id_map=self.char_2_id_map)
+    #
+    #         PreprocessedDataInfo.save(info, self.PREPROCESSED_DATA_DIR)

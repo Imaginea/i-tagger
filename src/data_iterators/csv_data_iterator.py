@@ -21,10 +21,7 @@ from nlp.spacy_helper import naive_vocab_creater, get_char_vocab, vocab_to_tsv
 
 class CsvDataIterator(IDataIterator, ITextFeature):
     def __init__(self, experiment_dir, batch_size):
-        IDataIterator.__init__(self,
-                               name="csv_data_iterator",
-                               experiment_dir=experiment_dir,
-                               batch_size=batch_size)
+        IDataIterator.__init__(self, "csv_data_iterator", experiment_dir, batch_size)
         ITextFeature.__init__(self)
 
         self.extract_vocab()
@@ -38,8 +35,7 @@ class CsvDataIterator(IDataIterator, ITextFeature):
             lines = set()
             entities = set()
 
-            for df_file in tqdm(os.listdir(self.TRAIN_FILES_IN_PATH),
-                                desc="mergining lines"):
+            for df_file in tqdm(os.listdir(self.TRAIN_FILES_IN_PATH), desc="mergining lines"):
                 df_file = os.path.join(self.TRAIN_FILES_IN_PATH, df_file)
                 if df_file.endswith(".csv"):
                     df = pd.read_csv(df_file).fillna(UNKNOWN_WORD)
@@ -48,9 +44,7 @@ class CsvDataIterator(IDataIterator, ITextFeature):
                 lines.update(set(df[self.TEXT_COL].values.tolist()))
                 entities.update(set(df[self.ENTITY_COL].values.tolist()))
 
-            self.VOCAB_SIZE, words_vocab = naive_vocab_creater(lines=lines,
-                                                               out_file_name=self.WORDS_VOCAB_FILE,
-                                                               use_nlp=True)
+            self.VOCAB_SIZE, words_vocab = naive_vocab_creater(lines=lines, out_file_name=self.WORDS_VOCAB_FILE, use_nlp=True)
 
             print_info("Preparing the character vocab for the text col: {}".format(self.TEXT_COL))
 
@@ -60,40 +54,33 @@ class CsvDataIterator(IDataIterator, ITextFeature):
             char_vocab.extend(_vocab)
 
             # Create char2id map
-            self.char_2_id_map = vocab_to_tsv(vocab_list=char_vocab,
-                                              out_file_name=self.CHARS_VOCAB_FILE)
-
+            self.char_2_id_map = vocab_to_tsv(vocab_list=char_vocab, out_file_name=self.CHARS_VOCAB_FILE)
             self.CHAR_VOCAB_SIZE = len(self.char_2_id_map)
 
             print_info("Preparing the vocab for the entity col: {}".format(self.ENTITY_COL))
 
             # NUM_TAGS, tags_vocab = tf_vocab_processor(lines, ENTITY_VOCAB_FILE)
-            self.NUM_TAGS, tags_vocab = naive_vocab_creater(lines=entities,
-                                                            out_file_name=self.ENTITY_VOCAB_FILE,
-                                                            use_nlp=False)
+            self.NUM_TAGS, tags_vocab = naive_vocab_creater(lines=entities, out_file_name=self.ENTITY_VOCAB_FILE, use_nlp=False)
         else:
             print_info("Reusing the vocab")
-            self.VOCAB_SIZE, words_vocab = naive_vocab_creater(lines=None,
-                                                               out_file_name=self.WORDS_VOCAB_FILE,
+            self.VOCAB_SIZE, words_vocab = naive_vocab_creater(lines=None, out_file_name=self.WORDS_VOCAB_FILE,
                                                                use_nlp=None)
-            self.char_2_id_map = vocab_to_tsv(out_file_name=self.CHARS_VOCAB_FILE,
-                                              vocab_list=None)
+            self.char_2_id_map = vocab_to_tsv(out_file_name=self.CHARS_VOCAB_FILE, vocab_list=None)
             self.CHAR_VOCAB_SIZE = len(self.char_2_id_map)
 
-            self.NUM_TAGS, tags_vocab = naive_vocab_creater(lines=None,
-                                                            out_file_name=self.ENTITY_VOCAB_FILE,
+            self.NUM_TAGS, tags_vocab = naive_vocab_creater(lines=None, out_file_name=self.ENTITY_VOCAB_FILE,
                                                             use_nlp=False)
-
-        self.TAGS_2_ID =  {id_num: tag for id_num, tag in enumerate(tags_vocab)}
+            self.TAGS_2_ID =  {id_num: tag for id_num, tag in enumerate(tags_vocab)}
 
     def __pad_sequences(self, sequences, pad_tok, max_length):
-        '''
-        
-        :param sequences: 
-        :param pad_tok: 
-        :param max_length: 
-        :return: 
-        '''
+        """
+        Args:
+            sequences: a generator of list or tuple
+            pad_tok: the char to pad with
+
+        Returns:
+            a list of list where each sublist has same length
+        """
         sequence_padded, sequence_length = [], []
 
         for seq in sequences:
@@ -105,14 +92,16 @@ class CsvDataIterator(IDataIterator, ITextFeature):
         return sequence_padded, sequence_length
 
     def _pad_sequences(self, sequences, pad_tok, nlevels, MAX_WORD_LENGTH=MAX_WORD_LENGTH):
-        '''
-        
-        :param sequences: 
-        :param pad_tok: 
-        :param nlevels: 
-        :param MAX_WORD_LENGTH: 
-        :return: 
-        '''
+        """
+        Args:
+            sequences: a generator of list or tuple
+            pad_tok: the char to pad with
+            nlevels: "depth" of padding, for the case where we have characters ids
+
+        Returns:
+            a list of list where each sublist has same length
+
+        """
         if nlevels == 1:
             sequence_padded = []
             sequence_length = []
@@ -127,6 +116,8 @@ class CsvDataIterator(IDataIterator, ITextFeature):
                 sequence_padded.append(seq + pad_data)
                 sequence_length.append(max_length)  # assumed
 
+                # print_info(sequence_length)
+                #TODO Hey mages can you elaborate the use of this function ?
         elif nlevels == 2:
             # max_length_word = max([max(map(lambda x: len(x), seq))
             #                        for seq in sequences])
@@ -148,11 +139,12 @@ class CsvDataIterator(IDataIterator, ITextFeature):
 
     def _make_seq_pair(self, df_files_path, char_2_id_map, use_char_embd):
         '''
-        
-        :param df_files_path: Path to read files that are compatible with Pandas
-        :param char_2_id_map: 
-        :param use_char_embd: 
-        :return: 
+        Reads the CoNLL text file and makes Sentence-Tags pair for NN model
+        :param df_files_path:
+        :param word_col:
+        :param tag_col:
+        :param empty_line_filler:
+        :return:
         '''
 
         list_text = []
@@ -196,6 +188,8 @@ class CsvDataIterator(IDataIterator, ITextFeature):
             char_ids_feature2, seq_length = self._pad_sequences(char_ids_feature2, nlevels=2, pad_tok=int(PAD_CHAR_ID))
             char_ids_feature2 = np.array(char_ids_feature2)
             seq_length = np.array(seq_length)
+            # print_warn(seq_length.shape)
+            # exit()
             tag_label, seq_length = self._pad_sequences(tag_label,
                                                         nlevels=1,
                                                         pad_tok="{}{}".format(SEPERATOR, PAD_WORD))

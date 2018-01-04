@@ -8,7 +8,7 @@ from tqdm import tqdm
 from interfaces.preprocessor_interface import IPreprocessorInterface
 from helpers.print_helper import *
 from config.global_constants import *
-from helpers.os_helper import copytree
+
 
 class CoNLLDataPreprocessor(IPreprocessorInterface):
     def __init__(self,
@@ -52,18 +52,18 @@ class CoNLLDataPreprocessor(IPreprocessorInterface):
             self.TEST_DF_PATH = self.config.get_item("InputDirectories", "test_txt_path")
 
     def _create_target_directories(self):
-        if os.path.exists(self.DATA_OUT_DIR):
+        if os.path.exists(self.PREPROCESSED_DATA_DIR):
             if self.OVER_WRITE == "yes":
-                print_info("Deletingls data folder: {}".format(self.DATA_OUT_DIR))
-                shutil.rmtree(self.DATA_OUT_DIR)
-                print_info("Recreating data folder: {}".format(self.DATA_OUT_DIR))
-                os.makedirs(self.DATA_OUT_DIR)
+                print_info("Deletingls data folder: {}".format(self.PREPROCESSED_DATA_DIR))
+                shutil.rmtree(self.PREPROCESSED_DATA_DIR)
+                print_info("Recreating data folder: {}".format(self.PREPROCESSED_DATA_DIR))
+                os.makedirs(self.PREPROCESSED_DATA_DIR)
             else:
                 print_info("Skipping preprocessing step, since the data might already be available")
                 exit(0)
         else:
-            print_info("Creating data folder: {}".format(self.DATA_OUT_DIR))
-            os.makedirs(self.DATA_OUT_DIR)
+            print_info("Creating data folder: {}".format(self.PREPROCESSED_DATA_DIR))
+            os.makedirs(self.PREPROCESSED_DATA_DIR)
 
     def _conll_to_csv(self, txt_file_path, out_dir):
         '''

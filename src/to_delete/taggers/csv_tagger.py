@@ -45,14 +45,14 @@ class CsvTagger():
             config = estimator_config.load(self.model_dir)
             if config is None:  # Fail safe
                 estimator_config = estimator_config.with_user_hyperparamaters(EXPERIMENT_ROOT_DIR,
-                                                                              self.preprocessor.DATA_OUT_DIR)
+                                                                              self.preprocessor.PREPROCESSED_DATA_DIR)
             else:
                 estimator_config = config
         else:
             estimator_config = estimator_config.with_user_hyperparamaters(EXPERIMENT_ROOT_DIR,
-                                                                          self.preprocessor.DATA_OUT_DIR)
+                                                                          self.preprocessor.PREPROCESSED_DATA_DIR)
         self.estimator = estimator(estimator_config)
-        self.data_iterators = CsvDataIterator(self.preprocessor.DATA_OUT_DIR, batch_size=BATCH_SIZE)
+        self.data_iterators = CsvDataIterator(self.preprocessor.PREPROCESSED_DATA_DIR, batch_size=BATCH_SIZE)
 
     def preprocess(self):
         self.preprocessor.start()

@@ -14,7 +14,6 @@ from tensorflow.contrib import lookup
 from tensorflow.contrib.learn import ModeKeys
 
 from config.global_constants import *
-from config.preprocessed_data_info import PreprocessedDataInfo
 from helpers.os_helper import check_n_makedirs
 from helpers.print_helper import *
 from helpers.tf_data_helper import *
@@ -75,18 +74,7 @@ class BiLSTMCRFConfigV1(IModelConfig):
         self.NUM_LSTM_LAYERS = num_lstm_layers
 
     @staticmethod
-    def with_user_hyperparamaters(experiment_root_dir, data_dir):
-        # model_root_dir,
-        #                        vocab_size,
-        #                        char_vocab_size,
-        #                        number_tags,
-        #                        unknown_word,
-        #                        pad_word,
-        #                        tags_vocab_file,
-        #                        words_vocab_file,
-        #                        chars_vocab_file):
-
-        preprocessed_data_info = PreprocessedDataInfo.load(data_dir)
+    def with_user_hyperparamaters(experiment_root_dir, data_iterator):
 
         use_crf = "y"  # TODO
         use_char_embedding = False
@@ -99,22 +87,35 @@ class BiLSTMCRFConfigV1(IModelConfig):
             use_crf = False
 
         use_char_embedding_option = input("use_char_embedding (y/n)") or "y"
-        learning_rate = float(input("learning_rate (0.001): ")) or 0.001
-        num_lstm_layers = int(input("num_word_lstm_layers (2): ")) or 2
+        learning_rate = input("learning_rate (0.001): ") or 0.001
+        learning_rate = float(learning_rate)
+        num_lstm_layers = input("num_word_lstm_layers (2): ") or 2
+        num_lstm_layers = int(num_lstm_layers)
 
         if use_char_embedding_option == 'y':
             use_char_embedding = True
-            char_level_lstm_hidden_size = int(input("char_level_lstm_hidden_size (32): ")) or 32
-            char_emd_size = int(input("char_emd_size (32): ")) or 32
+            char_level_lstm_hidden_size = input("char_level_lstm_hidden_size (48): ") or 48
+            char_level_lstm_hidden_size = int(char_level_lstm_hidden_size)
+            char_emd_size = input("char_emd_size (48): ") or 48
+            char_emd_size = int(char_emd_size)
         else:
             use_char_embedding = False
 
-        word_level_lstm_hidden_size = int(input("word_level_lstm_hidden_size (32): ")) or 32
-        word_emd_size = int(input("word_emd_size (128): ")) or 32
-        out_keep_propability = float(input("out_keep_propability(0.5) : ")) or 0.5
+        word_level_lstm_hidden_size = input("word_level_lstm_hidden_size (64): ") or 64
+        word_level_lstm_hidden_size = int(word_level_lstm_hidden_size)
+        word_emd_size = input("word_emd_size (64): ") or 64
+        word_emd_size = int(word_emd_size)
+        out_keep_propability = input("out_keep_propability(0.5) : ") or 0.5
+        out_keep_propability = float(out_keep_propability)
 
         # Does this sound logical? review please
-        model_dir = experiment_root_dir + "/bilstm_crf_v1/" + \
+        '''
+        experiment_root_dir/
+            - data_iterator/
+                - model_name/
+                    - user_hyper_params/
+        '''
+        model_dir = experiment_root_dir + "/" + data_iterator.NAME + "/bilstm_crf_v0/" + \
                     "charembd_{}_lr_{}_lstmsize_{}-{}-{}_wemb_{}_cemb_{}_outprob_{}".format(
                         str(use_char_embedding),
                         learning_rate,
@@ -126,14 +127,14 @@ class BiLSTMCRFConfigV1(IModelConfig):
                         out_keep_propability)
 
         model_config = BiLSTMCRFConfigV1(model_dir=model_dir,
-                                         vocab_size=preprocessed_data_info.VOCAB_SIZE,
-                                         char_vocab_size=preprocessed_data_info.CHAR_VOCAB_SIZE,
-                                         number_tags=preprocessed_data_info.NUM_TAGS,
+                                         vocab_size=data_iterator.VOCAB_SIZE,
+                                         char_vocab_size=data_iterator.CHAR_VOCAB_SIZE,
+                                         number_tags=data_iterator.NUM_TAGS,
                                          unknown_word=UNKNOWN_WORD,
                                          pad_word=PAD_WORD,
-                                         tags_vocab_file=preprocessed_data_info.ENTITY_VOCAB_FILE,
-                                         words_vocab_file=preprocessed_data_info.WORDS_VOCAB_FILE,
-                                         chars_vocab_file=preprocessed_data_info.WORDS_VOCAB_FILE,
+                                         tags_vocab_file=data_iterator.ENTITY_VOCAB_FILE,
+                                         words_vocab_file=data_iterator.WORDS_VOCAB_FILE,
+                                         chars_vocab_file=data_iterator.WORDS_VOCAB_FILE,
                                          # hyper parameters
                                          use_char_embedding=use_char_embedding,
                                          learning_rate=learning_rate,

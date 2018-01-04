@@ -6,13 +6,13 @@ from tensorflow.python import debug as tf_debug
 from models.model_factory import TFEstimatorFactory
 from helpers.print_helper import *
 
-from preprocessor.conll_data_preprocessor import PatentDataPreprocessor
-from data_iterators.positional_patent_data_iterator import PositionalPatentIDataIterator
+from preprocessor.patent_data_preprocessor import PatentDataPreprocessor
+from data_iterators.positional_patent_data_iterator import PositionalPatentDataIterator
 
 EXPERIMENT_ROOT_DIR = "patent_experiments"
 
 NUM_EPOCHS = 5
-BATCH_SIZE = 16
+BATCH_SIZE = 6
 
 
 class PositionalPatentTagger():
@@ -49,7 +49,7 @@ class PositionalPatentTagger():
             estimator_config = estimator_config.with_user_hyperparamaters(EXPERIMENT_ROOT_DIR,
                                                                           self.preprocessor.OUT_DIR)
         self.estimator = estimator(estimator_config)
-        self.data_iterators = PositionalPatentIDataIterator(self.preprocessor.OUT_DIR, batch_size=BATCH_SIZE)
+        self.data_iterators = PositionalPatentDataIterator(self.preprocessor.OUT_DIR, batch_size=BATCH_SIZE)
 
     def preprocess(self):
         self.preprocessor.start()

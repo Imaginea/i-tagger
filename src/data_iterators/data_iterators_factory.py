@@ -2,14 +2,13 @@ import sys
 sys.path.append("../")
 sys.path.append("src/")
 
-import tensorflow as tf
-import argparse
 from importlib import import_module
 
 class DataIteratorsFactory():
 
     data_iterators = {
         "csv_data_iterator": "CsvDataIterator",
+        "positional_patent_data_iterator": "PositionalPatentDataIterator"
     }
 
     def __init__(self):

@@ -14,7 +14,6 @@ from tensorflow.contrib import lookup
 from tensorflow.contrib.learn import ModeKeys
 
 from config.global_constants import *
-# from config.preprocessed_data_info import PreprocessedDataInfo
 from helpers.os_helper import check_n_makedirs
 from helpers.print_helper import *
 from helpers.tf_data_helper import *
@@ -76,8 +75,6 @@ class BiLSTMCRFConfigV0(IModelConfig):
 
     @staticmethod
     def with_user_hyperparamaters(experiment_root_dir, data_iterator):
-
-        # preprocessed_data_info = PreprocessedDataInfo.load(experiment_root_dir)
 
         use_crf = "y"  # TODO
         use_char_embedding = False

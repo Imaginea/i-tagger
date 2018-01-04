@@ -1,7 +1,5 @@
 import sys
 sys.path.append("../")
-import os
-from helpers.os_helper import *
 from config.config_helper import ConfigManager
 
 class IPreprocessorInterface():
@@ -28,11 +26,11 @@ class IPreprocessorInterface():
         self._load_ini()
 
         # If this rule changes, make relevant changes in `IDataIterator` also!
-        self.DATA_OUT_DIR = self.EXPERIMENT_ROOT_DIR + "/" + "preprocessed_data/"
+        self.PREPROCESSED_DATA_DIR = self.EXPERIMENT_ROOT_DIR + "/" + self.config.get_item("OutputDirectories","preprocessed_data_dir")
 
-        self.TRAIN_OUT_PATH = self.DATA_OUT_DIR + "/train/"
-        self.VAL_OUT_PATH = self.DATA_OUT_DIR + "/val/"
-        self.TEST_OUT_PATH = self.DATA_OUT_DIR + "/test/"
+        self.TRAIN_OUT_PATH = self.PREPROCESSED_DATA_DIR + "/train/"
+        self.VAL_OUT_PATH = self.PREPROCESSED_DATA_DIR + "/val/"
+        self.TEST_OUT_PATH = self.PREPROCESSED_DATA_DIR + "/test/"
 
 
     def _load_ini(self):

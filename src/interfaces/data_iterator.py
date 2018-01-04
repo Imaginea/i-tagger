@@ -1,6 +1,5 @@
 import sys
 sys.path.append("../")
-# from config.preprocessed_data_info import PreprocessedDataInfo
 from helpers.print_helper import *
 from config.config_helper import ConfigManager
 from helpers.os_helper import check_n_makedirs
@@ -19,14 +18,14 @@ class IDataIterator():
         self.EXPERIMENT_ROOT_DIR = experiment_dir
         self.OUT_DIR = self.EXPERIMENT_ROOT_DIR + "/" + self.NAME + "/"
 
-        # This rule is assumed to be correct if the previous stage is of IPreprocessorInterface
-        self.DATA_OUT_DIR = self.EXPERIMENT_ROOT_DIR + "/" + "preprocessed_data/"
-        self.TRAIN_FILES_IN_PATH = self.DATA_OUT_DIR + "/train/"
-        self.VAL_FILES_IN_PATH = self.DATA_OUT_DIR + "/val/"
-        self.TEST_FILES_IN_PATH = self.DATA_OUT_DIR + "/test/"
-
         self._load_ini()
         # self.preprocessed_data_info = PreprocessedDataInfo.load(experiment_dir)
+
+        # This rule is assumed to be correct if the previous stage is of IPreprocessorInterface
+        self.PREPROCESSED_DATA_DIR = self.EXPERIMENT_ROOT_DIR + "/" + self.config.get_item("OutputDirectories","preprocessed_data_dir")
+        self.TRAIN_FILES_IN_PATH = self.PREPROCESSED_DATA_DIR + "/train/"
+        self.VAL_FILES_IN_PATH = self.PREPROCESSED_DATA_DIR + "/val/"
+        self.TEST_FILES_IN_PATH = self.PREPROCESSED_DATA_DIR + "/test/"
 
         self.TEXT_COL = self.config.get_item("Schema", "text_column")
         self.ENTITY_COL = self.config.get_item("Schema", "entity_column")
