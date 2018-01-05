@@ -1,4 +1,3 @@
-import pdb
 import sys
 
 from helpers.os_helper import check_n_makedirs
@@ -9,7 +8,6 @@ import os
 import pandas as pd
 from tqdm import tqdm
 import ntpath
-import traceback
 import tensorflow as tf
 from interfaces.data_iterator import IDataIterator
 from helpers.tf_hooks.data_initializers import DataIteratorInitializerHook
