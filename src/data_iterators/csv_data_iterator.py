@@ -19,6 +19,7 @@ from config.global_constants import *
 from interfaces.two_features_interface import ITextFeature
 from nlp.spacy_helper import naive_vocab_creater, get_char_vocab, vocab_to_tsv
 
+
 class CsvDataIterator(IDataIterator, ITextFeature):
     def __init__(self, experiment_dir, batch_size):
         IDataIterator.__init__(self, "csv_data_iterator", experiment_dir, batch_size)
@@ -44,7 +45,8 @@ class CsvDataIterator(IDataIterator, ITextFeature):
                 lines.update(set(df[self.TEXT_COL].values.tolist()))
                 entities.update(set(df[self.ENTITY_COL].values.tolist()))
 
-            self.VOCAB_SIZE, words_vocab = naive_vocab_creater(lines=lines, out_file_name=self.WORDS_VOCAB_FILE, use_nlp=True)
+            self.VOCAB_SIZE, words_vocab = naive_vocab_creater(lines=lines, out_file_name=self.WORDS_VOCAB_FILE,
+                                                               use_nlp=True)
 
             print_info("Preparing the character vocab for the text col: {}".format(self.TEXT_COL))
 
@@ -60,7 +62,8 @@ class CsvDataIterator(IDataIterator, ITextFeature):
             print_info("Preparing the vocab for the entity col: {}".format(self.ENTITY_COL))
 
             # NUM_TAGS, tags_vocab = tf_vocab_processor(lines, ENTITY_VOCAB_FILE)
-            self.NUM_TAGS, tags_vocab = naive_vocab_creater(lines=entities, out_file_name=self.ENTITY_VOCAB_FILE, use_nlp=False)
+            self.NUM_TAGS, tags_vocab = naive_vocab_creater(lines=entities, out_file_name=self.ENTITY_VOCAB_FILE,
+                                                            use_nlp=False)
         else:
             print_info("Reusing the vocab")
             self.VOCAB_SIZE, words_vocab = naive_vocab_creater(lines=None, out_file_name=self.WORDS_VOCAB_FILE,
@@ -70,7 +73,7 @@ class CsvDataIterator(IDataIterator, ITextFeature):
 
             self.NUM_TAGS, tags_vocab = naive_vocab_creater(lines=None, out_file_name=self.ENTITY_VOCAB_FILE,
                                                             use_nlp=False)
-            self.TAGS_2_ID =  {id_num: tag for id_num, tag in enumerate(tags_vocab)}
+            self.TAGS_2_ID = {id_num: tag for id_num, tag in enumerate(tags_vocab)}
 
     def __pad_sequences(self, sequences, pad_tok, max_length):
         """
@@ -117,7 +120,7 @@ class CsvDataIterator(IDataIterator, ITextFeature):
                 sequence_length.append(max_length)  # assumed
 
                 # print_info(sequence_length)
-                #TODO Hey mages can you elaborate the use of this function ?
+                # TODO Hey mages can you elaborate the use of this function ?
         elif nlevels == 2:
             # max_length_word = max([max(map(lambda x: len(x), seq))
             #                        for seq in sequences])
@@ -130,10 +133,10 @@ class CsvDataIterator(IDataIterator, ITextFeature):
 
             max_length_sentence = max(map(lambda x: len(x), sequences))
             sequence_padded, _ = self.__pad_sequences(sequence_padded,
-                                                     [pad_tok] * MAX_WORD_LENGTH,
-                                                     max_length_sentence)
+                                                      [pad_tok] * MAX_WORD_LENGTH,
+                                                      max_length_sentence)
             sequence_length, _ = self.__pad_sequences(sequence_length, 0,
-                                                     max_length_sentence)
+                                                      max_length_sentence)
 
         return np.array(sequence_padded), sequence_length
 
@@ -165,7 +168,7 @@ class CsvDataIterator(IDataIterator, ITextFeature):
 
             df_file = os.path.join(df_files_path, df_file)
 
-            if df_file.endswith(".csv"): #TODO start and stop tags
+            if df_file.endswith(".csv"):  # TODO start and stop tags
                 df = pd.read_csv(df_file).fillna(UNKNOWN_WORD)
             elif df_file.endswith(".json"):
                 df = pd.read_json(df_file).filla(UNKNOWN_WORD)
@@ -178,11 +181,11 @@ class CsvDataIterator(IDataIterator, ITextFeature):
             char_ids_feature2.append(list_char_ids)
             tag_label.append("{}".format(SEPERATOR).join(list_tag))
 
-
         if use_char_embd:
             sentence_feature1, seq_length = self._pad_sequences(sentence_feature1,
                                                                 nlevels=1,
-                                                                pad_tok="{}{}".format(SEPERATOR, PAD_WORD))  # space is used so that it can append to the string sequence
+                                                                pad_tok="{}{}".format(SEPERATOR,
+                                                                                      PAD_WORD))  # space is used so that it can append to the string sequence
             sentence_feature1 = np.array(sentence_feature1)
 
             char_ids_feature2, seq_length = self._pad_sequences(char_ids_feature2, nlevels=2, pad_tok=int(PAD_CHAR_ID))
@@ -241,8 +244,8 @@ class CsvDataIterator(IDataIterator, ITextFeature):
                 # Build dataset iterator
                 if use_char_embd:
                     dataset = tf.data.Dataset.from_tensor_slices(({self.FEATURE_1_NAME: text_features_placeholder,
-                                                                      self.FEATURE_2_NAME: char_ids_placeholder},
-                                                                      labels_placeholder))
+                                                                   self.FEATURE_2_NAME: char_ids_placeholder},
+                                                                  labels_placeholder))
                 else:
                     dataset = tf.data.Dataset.from_tensor_slices(({self.FEATURE_1_NAME: text_features_placeholder},
                                                                   labels_placeholder))
@@ -284,28 +287,30 @@ class CsvDataIterator(IDataIterator, ITextFeature):
         train_sentences, train_char_ids, train_ner_tags = \
             self._make_seq_pair(df_files_path=self.TRAIN_FILES_IN_PATH,
                                 char_2_id_map=self.char_2_id_map,
-                                use_char_embd=True) #TODO
+                                use_char_embd=True)  # TODO
 
-        self.NUM_TRAINING_SAMPLES = train_sentences.shape[0] #TODO
+        self.NUM_TRAINING_SAMPLES = train_sentences.shape[0]  # TODO
 
         self._train_data_input_fn, self._train_data_init_hook = self._setup_input_graph2(text_features=train_sentences,
-                                                                                     char_ids=train_char_ids,
-                                                                                     labels=train_ner_tags,
-                                                                                     batch_size=self.BATCH_SIZE,
-                                                                                     use_char_embd=True) #TODO
+                                                                                         char_ids=train_char_ids,
+                                                                                         labels=train_ner_tags,
+                                                                                         batch_size=self.BATCH_SIZE,
+                                                                                         use_char_embd=True)  # TODO
+
     @overrides
     def setup_val_input_graph(self):
         val_sentences, val_char_ids, val_ner_tags = \
             self._make_seq_pair(df_files_path=self.VAL_FILES_IN_PATH,
                                 char_2_id_map=self.char_2_id_map,
-                                use_char_embd=True) #TODO
+                                use_char_embd=True)  # TODO
         self._val_data_input_fn, self._val_data_init_hook = self._setup_input_graph2(text_features=val_sentences,
                                                                                      char_ids=val_char_ids,
                                                                                      labels=val_ner_tags,
                                                                                      batch_size=self.BATCH_SIZE,
                                                                                      use_char_embd=True,
-                                                                                     is_eval=True) #TODO
-    def setup_predict_graph(self, features, char_ids, batch_size=1, scope='test-data'):
+                                                                                     is_eval=True)  # TODO
+
+    def setup_predict_graph(self, features, char_ids, batch_size=12, scope='test-data'):
         """Returns test set as Operations.
         Returns:
             (features, ) Operations that iterate over the test set.
@@ -331,14 +336,24 @@ class CsvDataIterator(IDataIterator, ITextFeature):
         test_input_fn = self.setup_predict_graph(sentence, char_ids)
         predict_fn = estimator.predict(input_fn=test_input_fn)
 
-
         for predict in predict_fn:
             predictions.append(predict)
 
-        predicted_id = []
-        confidence = []
+        predicted_id_collection = []
+        confidence_collection = []
+
+        pred_1_collection = []
+        pred_1_confidence_collection = []
+
+        pred_2_collection = []
+        pred_2_confidence_collection = []
+
+        pred_3_collection = []
+        pred_3_confidence_collection = []
 
         for each_prediction in predictions:
+            predicted_id = []
+            confidence = []
             for tag_score in each_prediction["confidence"]:
                 confidence.append(tag_score)
             for tag_id in each_prediction["viterbi_seq"]:
@@ -350,75 +365,104 @@ class CsvDataIterator(IDataIterator, ITextFeature):
 
             pred_1 = top_3_predicted_indices[:, 0:1].flatten()
             pred_1 = list(map(lambda x: self.TAGS_2_ID[x], pred_1))
+            pred_1_collection.append(pred_1)
 
             pred_2 = top_3_predicted_indices[:, 1:2].flatten()
             pred_2 = list(map(lambda x: self.TAGS_2_ID[x], pred_2))
+            pred_2_collection.append(pred_2)
 
             pred_3 = top_3_predicted_indices[:, 2:].flatten()
             pred_3 = list(map(lambda x: self.TAGS_2_ID[x], pred_3))
+            pred_3_collection.append(pred_3)
 
             pred_1_confidence = top_3_predicted_confidence[:, 0:1]
             pred_2_confidence = top_3_predicted_confidence[:, 1:2]
             pred_3_confidence = top_3_predicted_confidence[:, 2:]
 
-        return predicted_id, confidence, \
-               pred_1, pred_1_confidence, \
-               pred_2, pred_2_confidence, \
-               pred_3, pred_3_confidence
+            pred_1_confidence_collection.append(pred_1_confidence)
+            pred_2_confidence_collection.append(pred_2_confidence)
+            pred_3_confidence_collection.append(pred_3_confidence)
+
+            predicted_id_collection.append(predicted_id)
+            confidence_collection.append(confidence)
+
+        return predicted_id_collection, confidence_collection, \
+               pred_1_collection, pred_1_confidence_collection, \
+               pred_2_collection, pred_2_confidence_collection, \
+               pred_3_collection, pred_3_confidence_collection
 
     @overrides
-    def predict_on_test_file(self, estimator, df):
-        sentence = ("{}".format(SEPERATOR).
-                    join(df[self.TEXT_COL].astype(str).values))
+    def predict_on_test_file(self, estimator, dfs):
+        sentences = ["{}".format(SEPERATOR).
+                         join(df[self.TEXT_COL].astype(str).values) for df in dfs]
 
-        char_ids = [[self.char_2_id_map.get(c, 0)
-                     for c in word] for word in sentence.split(SEPERATOR)]
+        char_ids = [[[self.char_2_id_map.get(c, 0)
+                      for c in word] for word in sentence.split(SEPERATOR)] for sentence in sentences]
 
-        char_ids, char_ids_length = self._pad_sequences([char_ids], pad_tok=int(PAD_CHAR_ID), nlevels=2)
+        char_ids, char_ids_length = self._pad_sequences(char_ids, pad_tok=int(PAD_CHAR_ID), nlevels=2)
         # TODO add batch support
-        predicted_tags, confidence, \
-        pred_1, pred_1_confidence, \
-        pred_2, pred_2_confidence, \
-        pred_3, pred_3_confidence = self.get_tags(estimator,
-                                                  sentence,
-                                                  char_ids)
+        predicted_tags_collection, confidence_collection, \
+        pred_1_collection, pred_1_confidence_collection, \
+        pred_2_collection, pred_2_confidence_collection, \
+        pred_3_collection, pred_3_confidence_collection = self.get_tags(estimator,
+                                                                        sentences,
+                                                                        char_ids)
 
-        df["predictions"] = predicted_tags
-        df["confidence"] = confidence
-        df["pred_1"] = pred_1
-        df["pred_1_confidence"] = pred_1_confidence
-        df["pred_2"] = pred_2
-        df["pred_2_confidence"] = pred_2_confidence
-        df["pred_3"] = pred_3
-        df["pred_3_confidence"] = pred_3_confidence
+        for i, df in enumerate(dfs):
+            # print(df.shape, len(predicted_tags_collection[i]))
+            # print(df.shape[0])
+            # since the batch has variable length sequences, the sequence size is the max sequence length and padded with pad token
+            # this was not issue when single file was processed as the single file length was the max seq length
+            # Now taking the size from the original sequence and splicing the predicted sequence in order to merge it with the pandas df.
+            splice_length = df.shape[0]
 
-        return df
+            # TODO tidy up this code
+            df["predictions"] = predicted_tags_collection[i][:splice_length]
+            df["confidence"] = confidence_collection[i][:splice_length]
+            df["pred_1"] = pred_1_collection[i][:splice_length]
+            df["pred_1_confidence"] = pred_1_confidence_collection[i][:splice_length]
+            df["pred_2"] = pred_2_collection[i][:splice_length]
+            df["pred_2_confidence"] = pred_2_confidence_collection[i][:splice_length]
+            df["pred_3"] = pred_3_collection[i][:splice_length]
+            df["pred_3_confidence"] = pred_3_confidence_collection[i][:splice_length]
+
+        return dfs
 
     @overrides
     def predict_on_test_files(self, estimator, csv_files_path):
 
         failed_csvs = []
+        out_dir = estimator.model_dir + "/predictions/"
+        check_n_makedirs(out_dir)
 
-        for csv_file in tqdm(os.listdir(csv_files_path), desc="predicting"):
-            csv_file = os.path.join(csv_files_path, csv_file)
-            if csv_file.endswith(".csv"):
-                sentence = ""
-                # try:
-                print_info("processing ====> {}".format(csv_file))
-                df = pd.read_csv(csv_file).fillna(UNKNOWN_WORD)
+        files = [file for file in os.listdir(csv_files_path) if file.endswith('.csv')]
+        batchsize = 12
+        index = 0
+        remaining = len(files)
+        progress_bar = tqdm(total=len(files))
 
-                df = self.predict_on_test_file(estimator, df)
+        while remaining > 0:
+            batch = min(remaining, batchsize)
 
-                out_dir = estimator.model_dir +"/predictions/"
-                check_n_makedirs(out_dir)
-                df.to_csv(out_dir + ntpath.basename(csv_file), index=False)
-                # except Exception as e:
-                #     print_error(traceback.print_exc())
-                #     failed_csvs.append(csv_file)
-                #     print_warn("Failed processing ====> {}".format(csv_file))
-                #     pdb.set_trace()
+            print('NEW BATCH\n')
+            dfs = []
 
-        # print_error(failed_csvs)
+            for csv_file in files[index:index + batch]:
+                df = pd.read_csv(os.path.join(csv_files_path, csv_file)).fillna(UNKNOWN_WORD)
+                df.file_name = csv_file
+                dfs.append(df)
+
+            dfs = self.predict_on_test_file(estimator, dfs)
+
+            for predicted_df in dfs:
+                print_info(predicted_df.file_name)
+                predicted_df.to_csv(out_dir + ntpath.basename(predicted_df.file_name), index=False)
+
+            index += batch
+            remaining -= batch
+            progress_bar.update(index)
+
+        progress_bar.close()
         return out_dir
 
     @overrides
