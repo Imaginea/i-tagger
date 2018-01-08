@@ -115,7 +115,7 @@ class BiLSTMCRFConfigV1(IModelConfig):
                 - model_name/
                     - user_hyper_params/
         '''
-        model_dir = experiment_root_dir + "/" + data_iterator.NAME + "/bilstm_crf_v0/" + \
+        model_dir = experiment_root_dir + "/" + data_iterator.NAME + "/bilstm_crf_v1/" + \
                     "charembd_{}_lr_{}_lstmsize_{}-{}-{}_wemb_{}_cemb_{}_outprob_{}".format(
                         str(use_char_embedding),
                         learning_rate,
