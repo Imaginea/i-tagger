@@ -474,7 +474,9 @@ class CsvDataIterator(IDataIterator, ITextFeature):
         char_ids = [[self.char_2_id_map.get(c, 0) for c in word] for word in sentence.split(SEPERATOR)]
         char_ids, char_ids_length = self._pad_sequences([char_ids], pad_tok=0, nlevels=2)
 
-        predicted_tags, confidence, pred_1, pred_1_confidence, pred_2, pred_2_confidence, \
+        predicted_tags, confidence,\
+        pred_1, pred_1_confidence,\
+        pred_2, pred_2_confidence, \
         pred_3, pred_3_confidence = self.get_tags(estimator, sentence, char_ids)
 
         print_info(predicted_tags)

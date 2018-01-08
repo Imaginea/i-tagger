@@ -351,7 +351,7 @@ class PositionalPatentDataIterator(IDataIterator, IPostionalFeature):
     @overrides
     def setup_val_input_graph(self):
         val_sentences, val_char_ids, eval_positions, val_ner_tags = \
-            self._make_seq_pair(df_files_path=self.VAL_DATA_FILE,
+            self._make_seq_pair(df_files_path=self.VAL_FILES_IN_PATH,
                                 char_2_id_map=self.char_2_id_map,
                                 use_char_embd=True)  # TODO
         self._val_data_input_fn, self._val_data_init_hook = self._setup_input_graph2(text_features=val_sentences,
@@ -362,20 +362,7 @@ class PositionalPatentDataIterator(IDataIterator, IPostionalFeature):
                                                                                      use_char_embd=True,
                                                                                      is_eval=True)  # TODO
 
-    # @overrides
-    # def setup_predict_input_graph(self):
-    #     #TODO this is not used, since we need to append the predicted value to the CSV files
-    #     test_sentences,test_char_ids, test_ner_tags = \
-    #         self._make_seq_pair(text_file_path=self.preprocessed_data_info.TEST_DATA_FILE,
-    #                             char_2_id_map=self.preprocessed_data_info.char_2_id_map,
-    #                             use_char_embd=True)
-    #
-    #     self.val_data_input_fn, self.val_data_init_hook = self._setup_input_graph2(text_features=test_sentences,
-    #                                                                                  char_ids=test_char_ids,
-    #                                                                                  labels=test_ner_tags,
-    #                                                                                  batch_size=self.BATCH_SIZE,
-    #                                                                                  use_char_embd=True) #TODO
-    def setup_predict_graph(self, features, positional_features, char_ids, batch_size=1, scope='test-data'):
+    def setup_predict_graph(self, features, positional_features, char_ids, batch_size=12, scope='test-data'):
         """Returns test set as Operations.
         Returns:
             (features, ) Operations that iterate over the test set.
@@ -383,10 +370,6 @@ class PositionalPatentDataIterator(IDataIterator, IPostionalFeature):
         # Convert raw sentence into a lisr, since TF works on only list/matrix
         if not isinstance(features, list):
             features = [features]
-
-        if not isinstance(positional_features, list):
-            positional_features = [positional_features]
-            positional_features = np.asarray(positional_features)
 
         # TODO mages why this is not below doc in scope below
         positional_features = tf.constant(positional_features, dtype=tf.float32)
@@ -396,7 +379,8 @@ class PositionalPatentDataIterator(IDataIterator, IPostionalFeature):
                 docs = tf.constant(features, dtype=tf.string)
 
                 dataset = tf.data.Dataset.from_tensor_slices(({self.FEATURE_1_NAME: docs,
-                                                               },))
+                                                               self.FEATURE_2_NAME: char_ids,
+                                                               self.FEATURE_3_NAME: positional_features},))
                 dataset.repeat(1)
                 # Return as iteration in batches of 1
                 return dataset.batch(batch_size).make_one_shot_iterator().get_next()
@@ -412,10 +396,21 @@ class PositionalPatentDataIterator(IDataIterator, IPostionalFeature):
         for predict in predict_fn:
             predictions.append(predict)
 
-        predicted_id = []
-        confidence = []
+        predicted_id_collection = []
+        confidence_collection = []
+
+        pred_1_collection = []
+        pred_1_confidence_collection = []
+
+        pred_2_collection = []
+        pred_2_confidence_collection = []
+
+        pred_3_collection = []
+        pred_3_confidence_collection = []
 
         for each_prediction in predictions:
+            predicted_id = []
+            confidence = []
             for tag_score in each_prediction["confidence"]:
                 confidence.append(tag_score)
             for tag_id in each_prediction["viterbi_seq"]:
@@ -427,79 +422,113 @@ class PositionalPatentDataIterator(IDataIterator, IPostionalFeature):
 
             pred_1 = top_3_predicted_indices[:, 0:1].flatten()
             pred_1 = list(map(lambda x: self.TAGS_2_ID[x], pred_1))
+            pred_1_collection.append(pred_1)
 
             pred_2 = top_3_predicted_indices[:, 1:2].flatten()
             pred_2 = list(map(lambda x: self.TAGS_2_ID[x], pred_2))
+            pred_2_collection.append(pred_2)
 
             pred_3 = top_3_predicted_indices[:, 2:].flatten()
             pred_3 = list(map(lambda x: self.TAGS_2_ID[x], pred_3))
+            pred_3_collection.append(pred_3)
 
             pred_1_confidence = top_3_predicted_confidence[:, 0:1]
             pred_2_confidence = top_3_predicted_confidence[:, 1:2]
             pred_3_confidence = top_3_predicted_confidence[:, 2:]
 
-        return predicted_id, confidence, \
-               pred_1, pred_1_confidence, \
-               pred_2, pred_2_confidence, \
-               pred_3, pred_3_confidence
+            pred_1_confidence_collection.append(pred_1_confidence)
+            pred_2_confidence_collection.append(pred_2_confidence)
+            pred_3_confidence_collection.append(pred_3_confidence)
+
+            predicted_id_collection.append(predicted_id)
+            confidence_collection.append(confidence)
+
+        return predicted_id_collection, confidence_collection, \
+               pred_1_collection, pred_1_confidence_collection, \
+               pred_2_collection, pred_2_confidence_collection, \
+               pred_3_collection, pred_3_confidence_collection
 
     @overrides
-    def predict_on_test_file(self, estimator, df):
-        sentence = ("{}".format(SEPERATOR).
-            join(df[self.TEXT_COL].astype(str).values))
+    def predict_on_test_file(self, estimator, dfs):
+        sentences = ["{}".format(SEPERATOR).
+                         join(df[self.TEXT_COL].astype(str).values) for df in dfs]
 
-        char_ids = [[self.char_2_id_map.get(c, 0)
-                     for c in word] for word in sentence.split(SEPERATOR)]
+        char_ids = [[[self.char_2_id_map.get(c, 0)
+                      for c in word] for word in sentence.split(SEPERATOR)] for sentence in sentences]
 
-        char_ids, char_ids_length = self._pad_sequences([char_ids], pad_tok=int(PAD_CHAR_ID), nlevels=2)
+        char_ids, char_ids_length = self._pad_sequences(char_ids, pad_tok=int(PAD_CHAR_ID), nlevels=2)
 
-        positions = df[self.POSITIONAL_COL.split(",")].values.tolist()
+        positions = [df[self.POSITIONAL_COL.split(",")].values.tolist() for df in dfs]
 
         positions, seq_length = self.pad_position(positions)
 
         # positions = np.array(positions)
 
         # TODO add batch support
-        predicted_tags, confidence, \
-        pred_1, pred_1_confidence, \
-        pred_2, pred_2_confidence, \
-        pred_3, pred_3_confidence = self.get_tags(estimator=estimator,
-                                                  sentence=sentence,
-                                                  positions=positions,
-                                                  char_ids=char_ids)
+        predicted_tags_collection, confidence_collection, \
+        pred_1_collection, pred_1_confidence_collection, \
+        pred_2_collection, pred_2_confidence_collection, \
+        pred_3_collection, pred_3_confidence_collection = self.get_tags(estimator=estimator,
+                                                                        sentence=sentences,
+                                                                        positions=positions,
+                                                                        char_ids=char_ids)
 
-        df["predictions"] = predicted_tags
-        df["confidence"] = confidence
-        df["pred_1"] = pred_1
-        df["pred_1_confidence"] = pred_1_confidence
-        df["pred_2"] = pred_2
-        df["pred_2_confidence"] = pred_2_confidence
-        df["pred_3"] = pred_3
-        df["pred_3_confidence"] = pred_3_confidence
+        for i, df in enumerate(dfs):
+            # print(df.shape, len(predicted_tags_collection[i]))
+            # print(df.shape[0])
+            # since the batch has variable length sequences, the sequence size is the max sequence length and padded with pad token
+            # this was not issue when single file was processed as the single file length was the max seq length
+            # Now taking the size from the original sequence and splicing the predicted sequence in order to merge it with the pandas df.
+            splice_length = df.shape[0]
 
-        return df
+            # TODO tidy up this code
+            df["predictions"] = predicted_tags_collection[i][:splice_length]
+            df["confidence"] = confidence_collection[i][:splice_length]
+            df["pred_1"] = pred_1_collection[i][:splice_length]
+            df["pred_1_confidence"] = pred_1_confidence_collection[i][:splice_length]
+            df["pred_2"] = pred_2_collection[i][:splice_length]
+            df["pred_2_confidence"] = pred_2_confidence_collection[i][:splice_length]
+            df["pred_3"] = pred_3_collection[i][:splice_length]
+            df["pred_3_confidence"] = pred_3_confidence_collection[i][:splice_length]
+
+        return dfs
 
     @overrides
     def predict_on_test_files(self, estimator,
                               csv_files_path):
 
         failed_csvs = []
+        out_dir = estimator.model_dir + "/predictions/"
+        check_n_makedirs(out_dir)
 
-        # positional_columns = self.config.get_item("Schema", "positional_column")
+        files = [file for file in os.listdir(csv_files_path) if file.endswith('.csv')]
+        batchsize = 12
+        index = 0
+        remaining = len(files)
+        progress_bar = tqdm(total=len(files))
 
-        for csv_file in tqdm(os.listdir(csv_files_path), desc="predicting"):
-            csv_file = os.path.join(csv_files_path, csv_file)
-            if csv_file.endswith(".csv"):
-                sentence = ""
-                print_info(csv_file)
-                # print_info("processing ====> {}".format(csv_file))
-                df = pd.read_csv(csv_file).fillna(UNKNOWN_WORD)
-                df = self.predict_on_test_file(estimator, df)
+        while remaining > 0:
+            batch = min(remaining, batchsize)
 
-                out_dir = estimator.model_dir + "/predictions/"
-                check_n_makedirs(out_dir)
-                df.to_csv(out_dir + ntpath.basename(csv_file), index=False)
+            print('NEW BATCH\n')
+            dfs = []
 
+            for csv_file in files[index:index + batch]:
+                df = pd.read_csv(os.path.join(csv_files_path, csv_file)).fillna(UNKNOWN_WORD)
+                df.file_name = csv_file
+                dfs.append(df)
+
+            dfs = self.predict_on_test_file(estimator, dfs)
+
+            for predicted_df in dfs:
+                print_info(predicted_df.file_name)
+                predicted_df.to_csv(out_dir + ntpath.basename(predicted_df.file_name), index=False)
+
+            index += batch
+            remaining -= batch
+            progress_bar.update(index)
+
+        progress_bar.close()
         return out_dir
 
     @overrides
