@@ -72,7 +72,7 @@ def get_model_api1(model_dir, sentence):
     # 4. process the output
     print(preds)
     print(words_raw)
-    output_data = align_data({"input": words_raw, "output": preds})
+    output_data = align_data({"input": words_raw, "output": preds[0]})
     return output_data
 
 def align_data(data):
