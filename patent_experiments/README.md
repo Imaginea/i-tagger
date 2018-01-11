@@ -67,41 +67,40 @@ tensorboard --logdir=$MODEL_PATH
 **Training Without Positional Features :**
 - If you decide to train the patent dataset without positional features, this can be done easily as defined below.
 - The components are designed in such a way that they can be used in combination with each other without having to re-write code.
-- For training the patent data without positional features, we will use the patent data preprocessor and patent data iterator.
+- For training the patent data without positional features, we will use the patent data preprocessor and csv data iterator.
 - The model will be pointed to the  bilstm_crf_v0 (Model without positional features in the network)
 
 
 ```
 python src/commands/tagger.py \
---experiment-name=patent_experiments\
+--experiment-name=patent_non_positional_experiments \
 --mode=preprocess \
---preprocessor-name=patent_data_preprocessor\
+--preprocessor-name=patent_data_preprocessor
 
 python src/commands/tagger.py \
---experiment-name=patent_experiments \
+--experiment-name=patent_non_positional_experiments \
 --mode=train \
---data-iterator-name=csv_data_iterator\
---model-name=bilstm_crf_v0\
---batch-size=3\
+--data-iterator-name=csv_data_iterator \
+--model-name=bilstm_crf_v0 \
+--batch-size=3 \
 --num-epochs=5
 
-
 #above when run with default params will create following model
-export MODEL_PATH=patent_experiments/positional_patent_data_iterator/bilstm_crf_v0/charembd_True_lr_0.001_lstmsize_2-64-48_wemb_64_cemb_48_outprob_0.5\
-
+export MODEL_PATH=patent_non_positional_experiments/csv_data_iterator/bilstm_crf_v0/charembd_True_lr_0.001_lstmsize_2-64-48_wemb_64_cemb_48_outprob_0.5
 
 python src/commands/tagger.py \
---experiment-name=patent_experiments \
+--experiment-name=patent_non_positional_experiments \
 --mode=retrain \
---data-iterator-name=positional_patent_data_iterator \
+--data-iterator-name=csv_data_iterator \
 --model-name=bilstm_crf_v0 \
 --batch-size=3 \
 --num-epochs=5 \
 --model-dir=$MODEL_PATH
 
-python src/commands/tagger.py \
---experiment-name=patent_experiments --mode=predict \
---data-iterator-name=positional_patent_data_iterator --model-name=bilstm_crf_v0 \
+python src/commands/tagger.py \ 
+--experiment-name=patent_non_positional_experiments --mode=predict \
+--data-iterator-name=csv_data_iterator --model-name=bilstm_crf_v0 \
 --model-dir=$MODEL_PATH \
---predict-dir=patent_experiments/preprocessed_data/test/
+--predict-dir=patent_non_positional_experiments/preprocessed_data/test/
+
 ```
