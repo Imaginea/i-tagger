@@ -25,6 +25,8 @@ def get_model_api(model_dir, abs_fpath):
     # stored previously by preprocessor
     data_iterator = DataIteratorsFactory.get(data_iterator_name)
     # Initialize the data iterator with experiment folder path and batch size
+    data_iterator = data_iterator(experiment_name, 1)
+
     # all other needed config/info are read from the *.pickle file
     df = None
     if abs_fpath.endswith(".csv"):
@@ -32,7 +34,7 @@ def get_model_api(model_dir, abs_fpath):
     elif abs_fpath.endswith(".json"):
         df = pd.read_json(abs_fpath).filla(UNKNOWN_WORD)
 
-    a = data_iterator.predict_on_test_file(estimator=estimator, df=df)
+    a = data_iterator.predict_on_dataframes(estimator=estimator, dfs=[df])
     return a
 
 def get_model_api1(model_dir, sentence):

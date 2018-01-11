@@ -102,12 +102,12 @@ class IDataIterator():
             self.setup_test_input_graph()
         return self._test_data_init_hook
 
-    def predict_on_test_file(self, estimator, df):
+    def predict_on_dataframes(self, estimator, dfs):
         '''
         Implement this function to predict on given data frame
         based on configured input/text column
         :param estimator: One of the models that support this data iterator
-        :param df: Pandas data frame of the test/user file
+        :param dfs: Pandas data frames of the test/user file/s
         :return: New data frame with predicted columns
         '''
         raise NotImplementedError

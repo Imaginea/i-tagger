@@ -449,7 +449,7 @@ class PositionalPatentDataIterator(IDataIterator, IPostionalFeature):
                pred_3_collection, pred_3_confidence_collection
 
     @overrides
-    def predict_on_test_file(self, estimator, dfs):
+    def predict_on_dataframes(self, estimator, dfs):
         sentences = ["{}".format(SEPERATOR).
                          join(df[self.TEXT_COL].astype(str).values) for df in dfs]
 
@@ -518,7 +518,7 @@ class PositionalPatentDataIterator(IDataIterator, IPostionalFeature):
                 df.file_name = csv_file
                 dfs.append(df)
 
-            dfs = self.predict_on_test_file(estimator, dfs)
+            dfs = self.predict_on_dataframes(estimator, dfs)
 
             for predicted_df in dfs:
                 print_info(predicted_df.file_name)

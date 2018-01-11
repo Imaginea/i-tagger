@@ -51,7 +51,7 @@ def predict_api():
     if(len(model_api) == 0):
         return '''Not Supported.<a href="/predict">Click here to go back.</a>'''
     else:
-        return model_api.to_json(orient='records', lines=True)+'''
+        return model_api[0].to_json(orient='records', lines=True)+'''
             <html><body>
             <br><br><a href="/return-files">Click here to download as csv.</a><br><br>
             <a href="/predict">Click here to upload new document.</a>
