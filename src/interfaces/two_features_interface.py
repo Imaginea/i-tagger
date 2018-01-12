@@ -31,3 +31,11 @@ class IPostionalFeature(IFeature):
         self.FEATURE_1_NAME = "text"
         self.FEATURE_2_NAME = "char_ids"
         self.FEATURE_3_NAME = "position"
+
+class IPOSFeature(IFeature):
+    def __init__(self):
+        self.FEATURE_NAME = "text+char_ids+pos"
+        self.NUM_FEATURES = 3
+        self.FEATURE_1_NAME = "text"
+        self.FEATURE_2_NAME = "char_ids"
+        self.FEATURE_3_NAME = "pos"

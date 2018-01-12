@@ -20,3 +20,13 @@ QUOTECHAR = "^"
 EMPTY_LINE_FILLER = "<LINE_END>"
 
 MAX_WORD_LENGTH = 20
+
+PAD_POS = global_constants.get_item("VOCAB", "padding_pos")
+PAD_POS_ID = global_constants.get_item("VOCAB", "padding_pos_id")
+
+UNKNOWN_POS = global_constants.get_item("VOCAB", "unknown_pos")
+UNKNOWN_POS_ID = global_constants.get_item("VOCAB", "unknown_pos_id")
+
+
+
+
