@@ -17,6 +17,8 @@ from config.global_constants import *
 from interfaces.two_features_interface import IPOSFeature
 from nlp.spacy_helper import naive_vocab_creater, get_char_vocab, vocab_to_tsv
 
+from helpers.tf_data_helper import pad_sequences
+
 
 class CsvPOSDataIterator(IDataIterator, IPOSFeature):
     def __init__(self, experiment_dir, batch_size):
@@ -24,7 +26,7 @@ class CsvPOSDataIterator(IDataIterator, IPOSFeature):
         IPOSFeature.__init__(self)
 
         self.POS_COL = self.config.get_item("Schema", "pos_column")
-        self.POS_VOCAB_FILE = self.OUT_DIR + "/" + self.ENTITY_COL + "pos_vocab.tsv"
+        self.POS_VOCAB_FILE = self.OUT_DIR + "/" + self.ENTITY_COL + "_pos_vocab.tsv"
         self.NUM_POS = None
 
         self.extract_vocab()
@@ -39,7 +41,7 @@ class CsvPOSDataIterator(IDataIterator, IPOSFeature):
             entities = set()
             poses = set()
 
-            for df_file in tqdm(os.listdir(self.TRAIN_FILES_IN_PATH), desc="mergining lines"):
+            for df_file in tqdm(os.listdir(self.TRAIN_FILES_IN_PATH), desc="merging Files, Tags and Features"):
                 df_file = os.path.join(self.TRAIN_FILES_IN_PATH, df_file)
                 if df_file.endswith(".csv"):
                     df = pd.read_csv(df_file).fillna(UNKNOWN_WORD)
@@ -49,10 +51,19 @@ class CsvPOSDataIterator(IDataIterator, IPOSFeature):
                 entities.update(set(df[self.ENTITY_COL].values.tolist()))
                 poses.update(set(df[self.POS_COL].values.tolist()))
 
-            self.VOCAB_SIZE, words_vocab = naive_vocab_creater(lines=lines, out_file_name=self.WORDS_VOCAB_FILE,
+            self.VOCAB_SIZE, words_vocab = naive_vocab_creater(lines=lines,
+                                                               out_file_name=self.WORDS_VOCAB_FILE,
                                                                use_nlp=True)
+            self.word2id = {word: id for id, word in enumerate(words_vocab)}
+            self.id2word = {id: word for id, word in enumerate(words_vocab)}
 
-            self.NUM_POS, pos_vocab = naive_vocab_creater(lines=poses, out_file_name=self.POS_VOCAB_FILE,use_nlp=False)
+            self.NUM_POS, pos_vocab = naive_vocab_creater(lines=poses,
+                                                          out_file_name=self.POS_VOCAB_FILE,
+                                                          use_nlp=False)
+            self.POS_2_ID = {tag: id_num for id_num, tag in enumerate(pos_vocab)}
+            self.ID_2_POS = {id_num: tag for id_num, tag in enumerate(pos_vocab)}
+
+
             print_info("Preparing the character vocab for the text col: {}".format(self.TEXT_COL))
 
             # Get char level vocab
@@ -61,93 +72,42 @@ class CsvPOSDataIterator(IDataIterator, IPOSFeature):
             char_vocab.extend(_vocab)
 
             # Create char2id map
-            self.char_2_id_map = vocab_to_tsv(vocab_list=char_vocab, out_file_name=self.CHARS_VOCAB_FILE)
+            self.char_2_id_map = vocab_to_tsv(vocab_list=char_vocab,
+                                              out_file_name=self.CHARS_VOCAB_FILE)
             self.CHAR_VOCAB_SIZE = len(self.char_2_id_map)
 
             print_info("Preparing the vocab for the entity col: {}".format(self.ENTITY_COL))
 
             # NUM_TAGS, tags_vocab = tf_vocab_processor(lines, ENTITY_VOCAB_FILE)
-            self.NUM_TAGS, tags_vocab = naive_vocab_creater(lines=entities, out_file_name=self.ENTITY_VOCAB_FILE,
+            self.NUM_TAGS, tags_vocab = naive_vocab_creater(lines=entities,
+                                                            out_file_name=self.ENTITY_VOCAB_FILE,
                                                             use_nlp=False)
+
+            self.TAGS_2_ID = {tag: id_num for id_num, tag in enumerate(tags_vocab)}
+            self.ID_2_TAGS = {id_num: tag  for id_num, tag in enumerate(tags_vocab)}
+
         else:
             print_info("Reusing the vocab")
-            self.VOCAB_SIZE, words_vocab = naive_vocab_creater(lines=None, out_file_name=self.WORDS_VOCAB_FILE,
+            self.VOCAB_SIZE, words_vocab = naive_vocab_creater(lines=None,
+                                                               out_file_name=self.WORDS_VOCAB_FILE,
                                                                use_nlp=None)
+            self.word2id = {word: id for id, word in enumerate(words_vocab)}
+            self.id2word = {id: word for id, word in enumerate(words_vocab)}
 
-            self.NUM_POS, pos_vocab = naive_vocab_creater(lines=None,out_file_name=self.POS_VOCAB_FILE, use_nlp=False)
-            self.POS_2_ID = {id_num: tag for id_num, tag in enumerate(pos_vocab)}
+            self.NUM_POS, pos_vocab = naive_vocab_creater(lines=None,
+                                                          out_file_name=self.POS_VOCAB_FILE,
+                                                          use_nlp=False)
+            self.POS_2_ID = {tag: id_num for id_num, tag in enumerate(pos_vocab)}
+            self.ID_2_POS = {id_num: tag for id_num, tag in enumerate(pos_vocab)}
 
             self.char_2_id_map = vocab_to_tsv(out_file_name=self.CHARS_VOCAB_FILE, vocab_list=None)
             self.CHAR_VOCAB_SIZE = len(self.char_2_id_map)
 
-            self.NUM_TAGS, tags_vocab = naive_vocab_creater(lines=None, out_file_name=self.ENTITY_VOCAB_FILE,
+            self.NUM_TAGS, tags_vocab = naive_vocab_creater(lines=None,
+                                                            out_file_name=self.ENTITY_VOCAB_FILE,
                                                             use_nlp=False)
-            self.TAGS_2_ID = {id_num: tag for id_num, tag in enumerate(tags_vocab)}
-
-    def __pad_sequences(self, sequences, pad_tok, max_length):
-        """
-        Args:
-            sequences: a generator of list or tuple
-            pad_tok: the char to pad with
-
-        Returns:
-            a list of list where each sublist has same length
-        """
-        sequence_padded, sequence_length = [], []
-
-        for seq in sequences:
-            seq = list(seq)
-            seq_ = seq[:max_length] + [pad_tok] * max(max_length - len(seq), 0)
-            sequence_padded += [seq_]
-            sequence_length += [min(len(seq), max_length)]
-
-        return sequence_padded, sequence_length
-
-    def _pad_sequences(self, sequences, pad_tok, nlevels, MAX_WORD_LENGTH=MAX_WORD_LENGTH):
-        """
-        Args:
-            sequences: a generator of list or tuple
-            pad_tok: the char to pad with
-            nlevels: "depth" of padding, for the case where we have characters ids
-
-        Returns:
-            a list of list where each sublist has same length
-
-        """
-        if nlevels == 1:
-            sequence_padded = []
-            sequence_length = []
-            max_length = max(map(lambda x: len(x.split(SEPERATOR)), sequences))
-            # sequence_padded, sequence_length = _pad_sequences(sequences,
-            #                                                   pad_tok, max_length)
-            # breaking the code to pad the string instead on its ids
-            for seq in sequences:
-                current_length = len(seq.split(SEPERATOR))
-                diff = max_length - current_length
-                pad_data = pad_tok * diff
-                sequence_padded.append(seq + pad_data)
-                sequence_length.append(max_length)  # assumed
-
-                # print_info(sequence_length)
-                # TODO Hey mages can you elaborate the use of this function ?
-        elif nlevels == 2:
-            # max_length_word = max([max(map(lambda x: len(x), seq))
-            #                        for seq in sequences])
-            sequence_padded, sequence_length = [], []
-            for seq in tqdm(sequences):
-                # all words are same length now
-                sp, sl = self.__pad_sequences(seq, pad_tok, MAX_WORD_LENGTH)
-                sequence_padded += [sp]
-                sequence_length += [sl]
-
-            max_length_sentence = max(map(lambda x: len(x), sequences))
-            sequence_padded, _ = self.__pad_sequences(sequence_padded,
-                                                      [pad_tok] * MAX_WORD_LENGTH,
-                                                      max_length_sentence)
-            sequence_length, _ = self.__pad_sequences(sequence_length, 0,
-                                                      max_length_sentence)
-
-        return np.array(sequence_padded), sequence_length
+            self.TAGS_2_ID = {tag: id_num for id_num, tag in enumerate(tags_vocab)}
+            self.ID_2_TAGS = {id_num: tag  for id_num, tag in enumerate(tags_vocab)}
 
     def _make_seq_pair(self, df_files_path, char_2_id_map, use_char_embd):
         '''
@@ -186,36 +146,53 @@ class CsvPOSDataIterator(IDataIterator, IPOSFeature):
                 df = pd.read_json(df_file).filla(UNKNOWN_WORD)
 
             list_text = df[self.TEXT_COL].astype(str).values.tolist()
-            list_char_ids = [[char_2_id_map.get(c, 0) for c in str(word)] for word in list_text]
-            list_pos = df[self.POS_COL].values.tolist()
+            list_lines_ids = [self.word2id.get(word, UNKNOWN_WORD_ID) for word in tqdm(list_text)]
+
+            list_char_ids = [[char_2_id_map.get(c, UNKNOWN_CHAR_ID) for c in str(word)] for word in list_text]
+
+            list_pos = df[self.POS_COL].astype(str).values.tolist()
+            list_pos_ids = [self.POS_2_ID.get(pos, UNKNOWN_WORD_ID) for pos in tqdm(list_pos)]
+
             list_tag = df[self.ENTITY_COL].astype(str).values.tolist()
+            list_tag_ids = [self.TAGS_2_ID.get(tag, UNKNOWN_WORD_ID) for tag in tqdm(list_tag)]
 
-            sentence_feature1.append("{}".format(SEPERATOR).join(list_text))
+            sentence_feature1.append(list_lines_ids)
             char_ids_feature2.append(list_char_ids)
-            pos_feature3.append("{}".format(SEPERATOR).join(list_pos))
-            tag_label.append("{}".format(SEPERATOR).join(list_tag))
+            pos_feature3.append(list_pos_ids)
+            tag_label.append(list_tag_ids)
 
-        #TODO check this
-        pos_feature3, seq_length =self._pad_sequences(pos_feature3,
-                                                                nlevels=1,
-                                                                pad_tok="{}{}".format(SEPERATOR,
-                                                                                      PAD_WORD))
+        # TODO check this if all are required to be in the numpy array
+        # then the function can convert and send it
+        pos_feature3, seq_length = pad_sequences(pos_feature3,
+                                                 nlevels=1,
+                                                 pad_tok=PAD_WORD_ID,
+                                                 max_doc_length=MAX_DOC_LENGTH,
+                                                 max_word_length=MAX_WORD_LENGTH)
+        # pad_tok="{}{}".format(SEPERATOR,PAD_WORD_ID))
+        pos_feature3 = np.array(pos_feature3)
 
         if use_char_embd:
-            sentence_feature1, seq_length = self._pad_sequences(sentence_feature1,
-                                                                nlevels=1,
-                                                                pad_tok="{}{}".format(SEPERATOR,
-                                                                                      PAD_WORD))  # space is used so that it can append to the string sequence
+            sentence_feature1, seq_length = pad_sequences(sentence_feature1,
+                                                          nlevels=1,
+                                                          pad_tok=PAD_CHAR_ID,
+                                                          max_doc_length=MAX_DOC_LENGTH,
+                                                          max_word_length=MAX_WORD_LENGTH
+                                                          )  # space is used so that it can append to the string sequence
             sentence_feature1 = np.array(sentence_feature1)
 
-            char_ids_feature2, seq_length = self._pad_sequences(char_ids_feature2, nlevels=2, pad_tok=int(PAD_CHAR_ID))
+            char_ids_feature2, seq_length = pad_sequences(char_ids_feature2,
+                                                          nlevels=2, pad_tok=PAD_CHAR_ID,
+                                                          max_doc_length=MAX_DOC_LENGTH,
+                                                          max_word_length=MAX_WORD_LENGTH)
             char_ids_feature2 = np.array(char_ids_feature2)
             seq_length = np.array(seq_length)
             # print_warn(seq_length.shape)
             # exit()
-            tag_label, seq_length = self._pad_sequences(tag_label,
-                                                        nlevels=1,
-                                                        pad_tok="{}{}".format(SEPERATOR, PAD_WORD))
+            tag_label, seq_length = pad_sequences(tag_label,
+                                                  nlevels=1,
+                                                  pad_tok=PAD_WORD_ID,
+                                                  max_doc_length=MAX_DOC_LENGTH,
+                                                  max_word_length=MAX_WORD_LENGTH)
             tag_label = np.array(tag_label)
 
             return sentence_feature1, char_ids_feature2, pos_feature3, tag_label
@@ -256,8 +233,8 @@ class CsvPOSDataIterator(IDataIterator, IPOSFeature):
             with tf.name_scope(scope):
 
                 # Define placeholders
-                text_features_placeholder = tf.placeholder(tf.string, text_features.shape, name="sentence")
-                pos_features_placeholder = tf.placeholder(tf.string, pos_features.shape, name="pos")
+                text_features_placeholder = tf.placeholder(tf.int32, text_features.shape, name="sentence")
+                pos_features_placeholder = tf.placeholder(tf.int32, pos_features.shape, name="pos")
 
                 if use_char_embd:
                     char_ids_placeholder = tf.placeholder(tf.int32, [None, None, MAX_WORD_LENGTH], name="char_ids")
@@ -344,15 +321,15 @@ class CsvPOSDataIterator(IDataIterator, IPOSFeature):
             (features, ) Operations that iterate over the test set.
         """
         # Convert raw sentence into a lisr, since TF works on only list/matrix
-        if not isinstance(features, list):
-            features = [features]
+        # if not isinstance(features, list):
+        #     features = [features]
 
         # TODO mages why this is not below doc in scope below
-        positional_features = tf.constant(pos_features, dtype=tf.float32)
+        # pos_features = tf.constant(pos_features, dtype=tf.float32)
 
         def inputs():
             with tf.name_scope(scope):
-                docs = tf.constant(features, dtype=tf.string)
+                docs = tf.constant(features, dtype=tf.int32,shape=features.shape)
                 dataset = tf.data.Dataset.from_tensor_slices(({self.FEATURE_1_NAME: docs,
                                                                self.FEATURE_2_NAME: char_ids,
                                                                self.FEATURE_3_NAME: pos_features},))
@@ -386,25 +363,27 @@ class CsvPOSDataIterator(IDataIterator, IPOSFeature):
         for each_prediction in predictions:
             predicted_id = []
             confidence = []
+
             for tag_score in each_prediction["confidence"]:
                 confidence.append(tag_score)
+
             for tag_id in each_prediction["viterbi_seq"]:
-                predicted_id.append(self.TAGS_2_ID[tag_id])
+                predicted_id.append(self.ID_2_TAGS[tag_id])
             top_3_predicted_indices = each_prediction["top_3_indices"]
             top_3_predicted_confidence = each_prediction["top_3_confidence"]
 
             # print(top_3_predicted_indices)
 
             pred_1 = top_3_predicted_indices[:, 0:1].flatten()
-            pred_1 = list(map(lambda x: self.TAGS_2_ID[x], pred_1))
+            pred_1 = list(map(lambda x: self.ID_2_TAGS[x], pred_1))
             pred_1_collection.append(pred_1)
 
             pred_2 = top_3_predicted_indices[:, 1:2].flatten()
-            pred_2 = list(map(lambda x: self.TAGS_2_ID[x], pred_2))
+            pred_2 = list(map(lambda x: self.ID_2_TAGS[x], pred_2))
             pred_2_collection.append(pred_2)
 
             pred_3 = top_3_predicted_indices[:, 2:].flatten()
-            pred_3 = list(map(lambda x: self.TAGS_2_ID[x], pred_3))
+            pred_3 = list(map(lambda x: self.ID_2_TAGS[x], pred_3))
             pred_3_collection.append(pred_3)
 
             pred_1_confidence = top_3_predicted_confidence[:, 0:1]
@@ -425,28 +404,48 @@ class CsvPOSDataIterator(IDataIterator, IPOSFeature):
 
     @overrides
     def predict_on_dataframes(self, estimator, dfs):
-        sentences = ["{}".format(SEPERATOR).
-                         join(df[self.TEXT_COL].astype(str).values) for df in dfs]
 
-        char_ids = [[[self.char_2_id_map.get(c, 0)
-                      for c in word] for word in sentence.split(SEPERATOR)] for sentence in sentences]
 
-        char_ids, char_ids_length = self._pad_sequences(char_ids, pad_tok=int(PAD_CHAR_ID), nlevels=2)
+        sentence_ids = [[self.word2id.get(word, UNKNOWN_WORD_ID)
+                                     for word in df[self.TEXT_COL].astype(str).values.tolist()]
+                                        for df in dfs]
+        sentence_feature1, seq_length = pad_sequences(sentence_ids,
+                                                      nlevels=1,
+                                                      pad_tok=PAD_WORD_ID,
+                                                      max_doc_length=MAX_DOC_LENGTH,
+                                                      max_word_length=MAX_WORD_LENGTH)
+        sentence_feature1 = np.array(sentence_feature1)
 
-        pos = [df[self.POS_COL].values.tolist() for df in dfs]
+        char_ids = [[[self.char_2_id_map.get(c, PAD_CHAR_ID) for c in word]
+                            for word in df[self.TEXT_COL].astype(str).values.tolist()]
+                                for df in dfs]
 
-        pos, pos_seq_length = self.pad_position(pos)
+        char_ids_feature2, char_ids_length = pad_sequences(char_ids, pad_tok=PAD_CHAR_ID,
+                                                           nlevels=2,
+                                                           max_doc_length=MAX_DOC_LENGTH,
+                                                           max_word_length=MAX_WORD_LENGTH)
+        char_ids_feature2 = np.array(char_ids_feature2)
 
-        # positions = np.array(positions)
+        pos_ids = [[self.POS_2_ID.get(pos, UNKNOWN_WORD_ID)
+                            for pos in df[self.POS_COL].astype(str).values.tolist()]
+                                for df in dfs]
+        pos_feature3, seq_length = pad_sequences(pos_ids,
+                                                 nlevels=1,
+                                                 pad_tok=PAD_WORD_ID,
+                                                 max_doc_length=MAX_DOC_LENGTH,
+                                                 max_word_length=MAX_WORD_LENGTH)
+        pos_feature3 = np.array(pos_feature3)
+
+        # poses = np.array(poses)
 
         # TODO add batch support
         predicted_tags_collection, confidence_collection, \
         pred_1_collection, pred_1_confidence_collection, \
         pred_2_collection, pred_2_confidence_collection, \
         pred_3_collection, pred_3_confidence_collection = self.get_tags(estimator=estimator,
-                                                                        sentence=sentences,
-                                                                        positions=pos,
-                                                                        char_ids=char_ids)
+                                                                        sentence=sentence_feature1,
+                                                                        pos=pos_feature3,
+                                                                        char_ids=char_ids_feature2)
 
         for i, df in enumerate(dfs):
             # print(df.shape, len(predicted_tags_collection[i]))
@@ -459,10 +458,13 @@ class CsvPOSDataIterator(IDataIterator, IPOSFeature):
             # TODO tidy up this code
             df["predictions"] = predicted_tags_collection[i][:splice_length]
             df["confidence"] = confidence_collection[i][:splice_length]
+
             df["pred_1"] = pred_1_collection[i][:splice_length]
             df["pred_1_confidence"] = pred_1_confidence_collection[i][:splice_length]
+
             df["pred_2"] = pred_2_collection[i][:splice_length]
             df["pred_2_confidence"] = pred_2_confidence_collection[i][:splice_length]
+
             df["pred_3"] = pred_3_collection[i][:splice_length]
             df["pred_3_confidence"] = pred_3_confidence_collection[i][:splice_length]
 
@@ -509,16 +511,30 @@ class CsvPOSDataIterator(IDataIterator, IPOSFeature):
     def predict_on_text(self, estimator, sentence):
 
         # Convert space delimited text to a sentence delimited  by `SEPERATOR`
-        sentence = sentence.split()
-        sentence = "{}".format(SEPERATOR).join(sentence)
+        # sentence = sentence.split()
+        # sentence = "{}".format(SEPERATOR).join(sentence)
+        sentence_ids = [self.word2id.get(word, UNKNOWN_WORD_ID)  for word in sentence]
+
+        sentence_feature1, seq_length = pad_sequences([sentence_ids],
+                                                      nlevels=1,
+                                                      pad_tok=PAD_WORD_ID,
+                                                      max_doc_length=MAX_DOC_LENGTH,
+                                                      max_word_length=MAX_WORD_LENGTH)
+        sentence_feature1 = np.array(sentence_feature1)
 
         # Trailing by 213, Somerset got a solid start to their second innings before Simmons stepped in to bundle them out for 174.
-        char_ids = [[self.char_2_id_map.get(c, 0) for c in word] for word in sentence.split(SEPERATOR)]
-        char_ids, char_ids_length = self._pad_sequences([char_ids], pad_tok=0, nlevels=2)
+        char_ids = [[self.char_2_id_map.get(c, PAD_CHAR_ID) for c in word] for word in sentence.split(SEPERATOR)]
+        char_ids, char_ids_length = pad_sequences([char_ids], pad_tok=0, nlevels=2,
+                                                      max_doc_length=MAX_DOC_LENGTH,
+                                                      max_word_length=MAX_WORD_LENGTH)
 
-        #TODO fix this
-        predicted_tags, confidence, pred_1, pred_1_confidence, pred_2, pred_2_confidence, \
-        pred_3, pred_3_confidence = self.get_tags(estimator=estimator, sentence=sentence, pos=[],
+        # TODO fix this
+        predicted_tags, confidence, \
+        pred_1, pred_1_confidence, \
+        pred_2, pred_2_confidence, \
+        pred_3, pred_3_confidence = self.get_tags(estimator=estimator,
+                                                  sentence=sentence_feature1,
+                                                  pos=[],
                                                   char_ids=char_ids)
         # TODO fix the positions for the single text example
         print_info(predicted_tags)

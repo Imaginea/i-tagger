@@ -10,7 +10,6 @@
 # Reference: https://github.com/tensorflow/tensorflow/blob/r1.4/tensorflow/examples/tutorials/estimators/abalone.py
 # https://github.com/tensorflow/tensorflow/issues/14018
 
-from tensorflow.contrib import lookup
 from tensorflow.contrib.learn import ModeKeys
 
 from config.global_constants import *
@@ -116,7 +115,7 @@ class BiLSTMCRFConfigV2(IModelConfig):
                 - model_name/
                     - user_hyper_params/
         '''
-        model_dir = experiment_root_dir + "/" + data_iterator.NAME + "/bilstm_crf_V2/" + \
+        model_dir = experiment_root_dir + "/" + data_iterator.NAME + "/bilstm_crf_v2/" + \
                     "charembd_{}_lr_{}_lstmsize_{}-{}-{}_wemb_{}_cemb_{}_outprob_{}".format(
                         str(use_char_embedding),
                         learning_rate,
@@ -164,7 +163,7 @@ run_config.log_device_placement = False
 run_config = tf.contrib.learn.RunConfig(session_config=run_config,
                                         save_checkpoints_steps=10,
                                         keep_checkpoint_max=100,
-                                        save_summary_steps= 50)
+                                        save_summary_steps=50)
 
 
 class BiLSTMCRFV2(tf.estimator.Estimator, IPOSFeature):
@@ -194,8 +193,8 @@ class BiLSTMCRFV2(tf.estimator.Estimator, IPOSFeature):
         is_training = mode == ModeKeys.TRAIN
 
         # [BATCH_SIZE, 1]
-        text_features = features[self.FEATURE_1_NAME]
-        pos_features = features[self.FEATURE_3_NAME]
+        token_ids = features[self.FEATURE_1_NAME]
+        pos_ids = features[self.FEATURE_3_NAME]
 
         if self.ner_config.USE_CHAR_EMBEDDING:
             # [BATCH_SIZE, MAX_SEQ_LENGTH, MAX_WORD_LEGTH]
@@ -209,67 +208,16 @@ class BiLSTMCRFV2(tf.estimator.Estimator, IPOSFeature):
             char_ids_reshaped = tf.reshape(char_ids, shape=(s[0] * s[1], s[2]))  # 20 -> char dim
 
         with tf.variable_scope("sentence-words-2-ids"):
-            word_table = lookup.index_table_from_file(vocabulary_file=self.ner_config.WORDS_VOCAB_FILE,
-                                                      num_oov_buckets=0,  # TODO use this for Out of Vocab
-                                                      default_value=1,  # id of <UNK>  w.r.t WORD VOCAB
-                                                      name="table")
-            tf.logging.info('table info: {}'.format(word_table))
-
-            # [BATCH_SIZE, 1]
-            words = tf.string_split(text_features, delimiter=SEPERATOR)
-
-            # [BATCH_SIZE, ?] i.e [BATCH_SIZE, VARIABLE_SEQ_LENGTH]
-            densewords = tf.sparse_tensor_to_dense(words,
-                                                   default_value=self.ner_config.PAD_WORD)  # TODO add test case
-
-            # [BATCH_SIZE, ?] i.e [BATCH_SIZE, MAX_SEQ_LENGTH]
-            token_ids = word_table.lookup(densewords)  # TODO check is it variable length or not?
-
-            tf.logging.info('token_ids_shape: ------> {}'.format(token_ids.shape[1]))
-            tf.logging.info('densewords_shape: ------> {}'.format(densewords.shape))
-            tf.logging.info("positional_shape: ---->{}".format(pos_features))
+            tf.logging.info('token_ids_shape: ------> {}'.format(token_ids.shape))
 
         with tf.variable_scope("pos-2-ids"):
-            pos_table = lookup.index_table_from_file(vocabulary_file=self.ner_config.POS_VOCAB_FILE,
-                                                      num_oov_buckets=0,  # TODO use this for Out of Vocab
-                                                      default_value=1,  # id of <UNK>  w.r.t WORD VOCAB
-                                                      name="pos-table")
-            tf.logging.info('table info: {}'.format(pos_table))
-
-            # [BATCH_SIZE, 1]
-            tf.logging.info('char_ids: =======> {}'.format(pos_features))
-            poses = tf.string_split(pos_features, delimiter=SEPERATOR)
-
-            # [BATCH_SIZE, ?] i.e [BATCH_SIZE, VARIABLE_SEQ_LENGTH]
-            dense_pos = tf.sparse_tensor_to_dense(poses,
-                                                   default_value=self.ner_config.PAD_WORD)  # TODO add test case
-
-            # [BATCH_SIZE, ?] i.e [BATCH_SIZE, MAX_SEQ_LENGTH]
-            pos_ids = word_table.lookup(dense_pos)  # TODO check is it variable length or not?
-
             pos_ids = tf.cast(pos_ids, tf.float32)
-
-            tf.logging.info('pos_ids_shape: ------> {}'.format(pos_ids.shape[1]))
-            tf.logging.info('densepos_shape: ------> {}'.format(dense_pos.shape))
-            tf.logging.info("pos_shape: ---->{}".format(pos_features))
+            tf.logging.info('pos_ids_shape: ------> {}'.format(pos_ids.shape))
+            tf.logging.info("pos_shape: ---->{}".format(pos_ids))
 
         with tf.variable_scope("ner-tags-2-ids"):
             if mode != ModeKeys.INFER:
-                ner_table = lookup.index_table_from_file(vocabulary_file=self.ner_config.TAGS_VOCAB_FILE,
-                                                         num_oov_buckets=0,
-                                                         default_value=0,  # id of <UNK> w.r.t ENTITY VOCAB
-                                                         name="table")
-
-                tf.logging.info('ner_table info: {}'.format(ner_table))
-
-                # [BATCH_SIZE, 1]
-                labels_splitted = tf.string_split(labels, delimiter=SEPERATOR)
-                # [BATCH_SIZE, ?] i.e [BATCH_SIZE, VARIABLE_SEQ_LENGTH]
-                labels_splitted_dense = tf.sparse_tensor_to_dense(labels_splitted,
-                                                                  default_value="O")
-                # [BATCH_SIZE, ?] i.e [BATCH_SIZE, MAX_SEQ_LENGTH]
-                ner_ids = ner_table.lookup(labels_splitted_dense)
-                ner_ids = tf.cast(ner_ids, tf.int32)
+                ner_ids = tf.cast(labels, tf.int32)
 
                 tf.logging.info("ner_ids: {}".format(ner_ids))
 
@@ -283,11 +231,11 @@ class BiLSTMCRFV2(tf.estimator.Estimator, IPOSFeature):
                                                                embed_dim=self.ner_config.WORD_EMBEDDING_SIZE,
                                                                initializer=tf.contrib.layers.xavier_initializer(
                                                                    seed=42))
-            tf.logging.info('positional_features_length =====> {}'.format(pos_features.shape))
+            tf.logging.info('pos_features_length =====> {}'.format(pos_ids.shape))
 
             tf.logging.info('word_embeddings_shape: ------> {}'.format(word_embeddings.shape))
 
-            word_embeddings = tf.concat([ word_embeddings, tf.expand_dims(pos_ids,axis = -1)], axis=-1)
+            word_embeddings = tf.concat([word_embeddings, tf.expand_dims(pos_ids, axis=-1)], axis=-1)
 
             tf.logging.info('word_embeddings: ------> {}'.format(word_embeddings))
 
@@ -374,9 +322,9 @@ class BiLSTMCRFV2(tf.estimator.Estimator, IPOSFeature):
 
         with  tf.variable_scope("word_level_lstm_layer"):
             # Create a LSTM Unit cell with hidden size of EMBEDDING_SIZE.
-            d_rnn_cell_fw_one = tf.nn.rnn_cell.LSTMCell(self.ner_config.WORD_LEVEL_LSTM_HIDDEN_SIZE+1,
+            d_rnn_cell_fw_one = tf.nn.rnn_cell.LSTMCell(self.ner_config.WORD_LEVEL_LSTM_HIDDEN_SIZE + 1,
                                                         state_is_tuple=True)
-            d_rnn_cell_bw_one = tf.nn.rnn_cell.LSTMCell(self.ner_config.WORD_LEVEL_LSTM_HIDDEN_SIZE+1,
+            d_rnn_cell_bw_one = tf.nn.rnn_cell.LSTMCell(self.ner_config.WORD_LEVEL_LSTM_HIDDEN_SIZE + 1,
                                                         state_is_tuple=True)
 
             if is_training:
@@ -409,14 +357,10 @@ class BiLSTMCRFV2(tf.estimator.Estimator, IPOSFeature):
 
             tf.logging.info('encoded_sentence =====> {}'.format(encoded_sentence))
 
-        #================================================================================================
+        # ================================================================================================
         with  tf.variable_scope("positional_lstm_layer"):
 
-            # pos_features = tf.layers.batch_normalization(pos_features)
-
-            tf.logging.info('positional_features =====> {}'.format(pos_features))
-            tf.logging.info('encoded_words =====> {}'.format(encoded_words))
-            tf.logging.info('encoded_sentence =====> {}'.format(encoded_sentence))
+            tf.logging.info('positional_features =====> {}'.format(pos_ids))
 
         with tf.variable_scope("char_word_embeddings-mergeing_layer"):
             if self.ner_config.USE_CHAR_EMBEDDING:
@@ -434,7 +378,7 @@ class BiLSTMCRFV2(tf.estimator.Estimator, IPOSFeature):
 
         with tf.variable_scope("projection"):
 
-            logits =  tf.layers.dense (encoded_doc,  self.ner_config.NUM_TAGS, name="logit_predictions")
+            logits = tf.layers.dense(encoded_doc, self.ner_config.NUM_TAGS, name="logit_predictions")
 
             tf.logging.info("logits: {}".format(logits))
 
