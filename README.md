@@ -132,18 +132,18 @@ Lets consider CoNLL data set, since it is provided as part this repo
 
 ```bash
 #run following command for one time password verification
-ssh-copy-id "rpx@172.17.0.5"
+ssh-copy-id "<USERNAME>@<gpu-machine-name>"
 
-ssh rpx@172.17.0.5
+ssh <USERNAME>@<gpu-machine-name>
 
 # One time setup
 tmux new -s your_name
-export PATH=/home/rpx/anaconda3/bin:$PATH
+export PATH=/home/<USERNAME>/anaconda3/bin:$PATH
 
 ### Note following environment is already setup, 
 ### no need to replicate unles you wanted different versions
 conda create -n tensorflow-gpu python=3.5 anaconda
-export LD_LIBRARY_PATH=/home/rpx/softwares/cudnn6/cuda/lib64:$LD_LIBRARY_PATH
+export LD_LIBRARY_PATH=/home/<USERNAME>/softwares/cudnn6/cuda/lib64:$LD_LIBRARY_PATH
 source activate tensorflow-gpu
 python --version
 
@@ -182,8 +182,8 @@ tmux a -t your_name
 
 ### run only if you previous tmux session was closed completly
 source activate tensorflow-gpu
-export PATH=/home/rpx/anaconda3/bin:$PATH
-export LD_LIBRARY_PATH=/home/rpx/softwares/cudnn6/cuda/lib64:$LD_LIBRARY_PATH
+export PATH=/home/<USERNAME>/anaconda3/bin:$PATH
+export LD_LIBRARY_PATH=/home/<USERNAME>/softwares/cudnn6/cuda/lib64:$LD_LIBRARY_PATH
 
 ```
 
