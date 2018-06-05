@@ -1,5 +1,6 @@
 from tensorflow.python.platform import gfile
 import tensorflow as tf
+from tqdm import tqdm
 
 def tf_vocab_processor(lines, out_file_name, max_doc_length=1000, min_frequency=0):
     # Create vocabulary
@@ -45,3 +46,59 @@ def get_sequence_length(sequence_ids, pad_word_id=0):
     length = tf.reduce_sum(used, 1)
     length = tf.cast(length, tf.int32)
     return length
+
+def _pad_sequences(sequences, pad_tok, max_length):
+    """
+    Args:
+        sequences: a generator of list or tuple
+        pad_tok: the char to pad with
+
+    Returns:
+        a list of list where each sublist has same length
+    """
+    sequence_padded, sequence_length = [], []
+
+    for seq in sequences:
+        seq = list(seq)
+        seq_ = seq[:max_length] + [pad_tok]*max(max_length - len(seq), 0)
+        sequence_padded +=  [seq_]
+        sequence_length += [min(len(seq), max_length)]
+
+    return sequence_padded, sequence_length
+
+
+def pad_sequences(sequences, pad_tok, nlevels, max_doc_length, max_word_length):
+    """
+    Args:
+        sequences: a generator of list or tuple
+        pad_tok: the char to pad with
+        nlevels: "depth" of padding, for the case where we have characters ids
+
+    Returns:
+        a list of list where each sublist has same length
+
+    """
+    if nlevels == 1:
+        max_length  = max_doc_length
+        sequence_padded, sequence_length = _pad_sequences(sequences,
+                                                          pad_tok, max_length)
+        #breaking the code to pad the string instead on its ids
+
+        # print_info(sequence_length)
+    elif nlevels == 2:
+        # max_length_word = max([max(map(lambda x: len(x), seq))
+        #                        for seq in sequences])
+        sequence_padded, sequence_length = [], []
+        for seq in tqdm(sequences, desc="pad_sequences"):
+            # all words are same length now
+            sp, sl = _pad_sequences(seq, pad_tok, max_word_length)
+            sequence_padded += [sp]
+            sequence_length += [sl]
+
+        sequence_padded, _ = _pad_sequences(sequence_padded,
+                                            [pad_tok] * max_word_length,
+                                            max_doc_length)
+        sequence_length, _ = _pad_sequences(sequence_length, 0,
+                                            max_doc_length)
+
+    return sequence_padded, sequence_length

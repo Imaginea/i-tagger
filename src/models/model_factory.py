@@ -10,13 +10,15 @@ class TFEstimatorFactory():
 
     models = {
         "bilstm_crf_v0": "BiLSTMCRFV0",
-        "bilstm_crf_v1": "BiLSTMCRFV1"
+        "bilstm_crf_v1": "BiLSTMCRFV1",
+        "bilstm_crf_v2": "BiLSTMCRFV2"
 
     }
 
     model_configurations = {
         "bilstm_crf_v0": "BiLSTMCRFConfigV0",
-        "bilstm_crf_v1": "BiLSTMCRFConfigV1"
+        "bilstm_crf_v1": "BiLSTMCRFConfigV1",
+        "bilstm_crf_v2": "BiLSTMCRFConfigV2"
     }
     def __init__(self):
         ""

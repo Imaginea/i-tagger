@@ -8,7 +8,8 @@ class DataIteratorsFactory():
 
     data_iterators = {
         "csv_data_iterator": "CsvDataIterator",
-        "positional_patent_data_iterator": "PositionalPatentDataIterator"
+        "positional_patent_data_iterator": "PositionalPatentDataIterator",
+        "csv_pos_data_iterator": "CsvPOSDataIterator"
     }
 
     def __init__(self):
